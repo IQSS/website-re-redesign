@@ -5,8 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} — IQSS Harvard{{ end }}</title><!-- M-10: page title first, short site suffix -->
     <meta name="description" content="{{ .Site.Params.description }}">
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300..800&display=swap" rel="stylesheet">
     <style>
+        /* ──────────────────────────────────────────────────────────────
+           IQSS theme tokens, as supplied by the current site's designers.
+           Names match their spec so the two stay comparable.
+           ────────────────────────────────────────────────────────────── */
+        :root {
+            --font-light-text: #FFFFFF;
+            --font-light-link: #FFFFFF;
+            --font-dark-text: #1E1E1E;
+            --font-dark-link: #2B416E;
+
+            --bg-light-base: #ECF2F8;
+            --bg-light-alternative: #F5F5F5;
+            --bg-light-core: #FFFFFF;
+            --bg-dark-base: #BF5803;        /* IQSS orange */
+            --bg-dark-alternative: #3C72B4; /* mid blue — see note below */
+            --bg-dark-core: #1E1E1E;        /* Harvard dark bar */
+
+            --button-light-primary: #FFFFFF;
+            --button-light-secondary: #ECF2F8;
+            --button-dark-primary: #BF5803;
+            --button-dark-secondary: #2B416E;
+
+            --accent-light-regular: #ECF2F8;
+            --accent-light-vibrant: #FFFFFF;
+            --accent-dark-regular: #BF5803;
+            --accent-dark-vibrant: #2B416E; /* navy */
+
+            /* Orange roles. The two site oranges are one family (CIEDE2000 = 3.06),
+               so using both is legitimate; the split is functional, not aesthetic:
+                 --orange-brand  may touch text  — white on it is 4.55:1, passes AA
+                 --orange-vivid  must NOT touch text — 4.31:1, fails AA. Decorative
+                                 fills, borders and gradient ends only.
+               Keep the two off a shared edge: at dE 3.06 the seam is visible. */
+            --orange-brand: #BF5803;
+            --orange-vivid: #CC5500;
+
+            /* Header band: white behind the logo, fading to the official orange.
+               White is load-bearing — the compact mark's grey wordmark measures
+               5.92:1 on white but only 1.3:1 on the orange, and the copper rings
+               1.07:1, so the logo must clear the fade entirely. */
+            --header-base: var(--bg-light-core);
+            --header-accent: var(--bg-dark-base);
+        }
+
         * { margin: 0; padding: 0; box-sizing: border-box; }
 
         /* C-01: Skip navigation link */
@@ -48,7 +93,7 @@
         }
 
         body {
-            font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
             line-height: 1.6;
             color: #333;
             background: #fff;
@@ -65,8 +110,9 @@
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
 
+        /* Harvard's dark-core bar, consistent with University sites */
         .header-top {
-            background: #B8460A;
+            background: #1E1E1E;
             padding: 8px 0;
             font-size: 14px;
         }
@@ -86,8 +132,18 @@
             margin-left: 20px;
         }
 
+        /* White behind the logo so the copper ring keeps its contrast,
+           fading into the IQSS orange toward the right. */
         .header-main {
             padding: 20px 0;
+            /* The white hold tracks the logo: the 1200px container is centred, so the
+               logo's right edge sits at (50% - 600px) + 20px + ~237px. max() keeps a
+               constant ~43px of white past it from narrow screens up to 4K. */
+            background: linear-gradient(to right,
+                var(--header-base) 0,
+                var(--header-base) max(300px, calc(50% - 300px)),
+                var(--header-accent) 92%,
+                var(--header-accent) 100%);
         }
 
         .header-content {
@@ -113,29 +169,11 @@
         .iqss-logo img {
             height: 60px;
             width: auto;
-            filter: brightness(0) invert(1); /* Make logo white for dark background */
         }
 
-        /* Secondary logo slot, sits beside the IQSS mark */
-        .band-logo-emoji {
-            display: block;
-            font-size: 48px;
-            line-height: 60px;
-            /* Emoji fonts first, so the glyph renders in colour rather than as a box */
-            font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif;
-        }
-
-        /* C-03: Changed from h1 to p.site-name — each content page provides the sole h1 */
-        .site-logo-text .site-name {
-            font-size: 28px;
-            font-weight: 300;
-            letter-spacing: -1px;
-        }
-
-        .site-logo-text a {
-            color: white;
-            text-decoration: none;
-        }
+        /* Wide mark for desktop, compact mark for mobile. Only one is ever
+           displayed, so the hidden one leaves the accessibility tree. */
+        .iqss-logo .logo-compact { display: none; }
 
         .site-tagline {
             font-size: 14px;
@@ -212,9 +250,26 @@
             min-height: 60vh;
         }
 
+        /* Hero banners are full-bleed and butt straight up against the nav,
+           so main's breathing room above ordinary page content reads as a
+           gap. Drop it only on pages that open with a hero — each layout
+           names its own wrapper, hence the list. Using :has() rather than a
+           template flag covers the layouts that render a hero unconditionally
+           (only resource-page gates on .Params.hero_image), and it keeps
+           working at the ≤768px breakpoint where main drops to 24px. */
+        main:has(.rp-hero),
+        main:has(.rr-hero),
+        main:has(.home-hero),
+        main:has(.about-hero),
+        main:has(.news-hero),
+        main:has(.events-hero),
+        main:has(.programs-hero) {
+            padding-top: 0;
+        }
+
         /* Hero Section */
         .hero {
-            background: linear-gradient(135deg, #CC5500 0%, #B8460A 100%);
+            background: linear-gradient(135deg, var(--orange-brand) 0%, #B8460A 100%);
             color: white;
             padding: 60px 0;
             margin-bottom: 40px;
@@ -256,13 +311,13 @@
         }
 
         .content-card h3 {
-            color: #CC5500;
+            color: var(--orange-brand);
             margin-bottom: 15px;
             font-size: 20px;
         }
 
         .content-card a {
-            color: #CC5500;
+            color: var(--orange-brand);
             text-decoration: none;
             font-weight: 600;
         }
@@ -274,7 +329,7 @@
         }
 
         .page-content h1 {
-            color: #CC5500;
+            color: var(--orange-brand);
             margin-bottom: 20px;
             font-size: 36px;
             font-weight: 300;
@@ -314,13 +369,13 @@
         }
 
         .person-card h3 {
-            color: #CC5500;
+            color: var(--orange-brand);
             margin-bottom: 10px;
             font-size: 18px;
         }
 
         .person-card a {
-            color: #CC5500;
+            color: var(--orange-brand);
             text-decoration: none;
         }
 
@@ -420,12 +475,87 @@
             transform: translateY(-7px) rotate(-45deg);
         }
 
-        /* ── Tablet & below (≤ 1024px): hamburger nav
-             The 10-item menu overflows at ~900px, so the hamburger
-             activates before any clipping can occur. The header
-             (logo + site name) stays horizontal until 768px.        ── */
-        @media (max-width: 1024px) {
-            /* Nav: hamburger replaces the full item row */
+
+        /* ── Dropdown navigation ──────────────────────────────────────
+           Each parent is a link AND a caret button, so the section landing
+           page stays reachable while the submenu expands independently. */
+        .nav-item { position: relative; display: flex; align-items: center; }
+
+        .dropdown-toggle {
+            background: none;
+            border: 0;
+            cursor: pointer;
+            padding: 0 10px 0 2px;
+            display: inline-flex;
+            align-items: center;
+            align-self: stretch;
+            color: inherit;
+        }
+        .dropdown-toggle .caret {
+            width: 0; height: 0;
+            border-left: 4px solid transparent;
+            border-right: 4px solid transparent;
+            border-top: 5px solid currentColor;
+            transition: transform 0.15s ease;
+        }
+        .dropdown-toggle[aria-expanded="true"] .caret { transform: rotate(180deg); }
+        .dropdown-toggle:focus-visible { outline: 2px solid var(--orange-brand); outline-offset: -2px; }
+
+        .dropdown {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            min-width: 240px;
+            background: #fff;
+            border: 1px solid #e3e3e3;
+            border-top: 3px solid var(--orange-brand);
+            box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+            list-style: none;
+            padding: 6px 0;
+            margin: 0;
+            z-index: 200;
+        }
+        .nav-item.is-open > .dropdown { display: block; }
+        .dropdown li { display: block; }
+        .dropdown a {
+            display: block;
+            padding: 9px 18px;
+            font-size: 14px;
+            line-height: 1.4;
+            white-space: normal;
+            color: var(--font-dark-text);
+            text-decoration: none;
+        }
+        .dropdown a:hover,
+        .dropdown a:focus { background: var(--bg-light-base); color: var(--font-dark-link); }
+
+        /* Right-most sections open leftward so they cannot run off-screen */
+        .nav-item:nth-last-child(-n+2) > .dropdown { left: auto; right: 0; }
+        /* ── Tablet & below (≤ 950px): hamburger nav ── */
+        @media (max-width: 950px) {
+            /* Inside the hamburger the submenus stack inline (an accordion)
+               rather than floating, so they never overflow a phone screen. */
+            .nav-item { flex-wrap: wrap; width: 100%; }
+            .nav-item > a { flex: 1; }
+            .dropdown-toggle { padding: 13px 20px; }
+            .dropdown {
+                position: static;
+                display: none;
+                width: 100%;
+                min-width: 0;
+                border: 0;
+                border-top: 1px solid #f0f0f0;
+                box-shadow: none;
+                background: var(--bg-light-alternative);
+                padding: 0;
+            }
+            .nav-item.is-open > .dropdown { display: block; }
+            .dropdown a { padding: 11px 34px; font-size: 14px; }
+            .nav-item:nth-last-child(-n+2) > .dropdown { right: auto; left: auto; }
+            /* Nav: hamburger replaces the full item row.
+               Breakpoint is 950px: the six-item row measures 904px in Montserrat (the
+               four caret buttons add ~80px), needing a 944px viewport. */
             .nav-container {
                 display: flex;
                 flex-wrap: wrap;
@@ -454,9 +584,21 @@
         @media (max-width: 768px) {
             .header-content { flex-direction: column; text-align: center; gap: 10px; }
             .site-logo { flex-direction: column; gap: 8px; }
-            .site-logo-text .site-name { font-size: 20px; }
-            .iqss-logo img { height: 44px; }
-            .band-logo-emoji { font-size: 34px; line-height: 44px; }
+            /* Swap to the compact mark and give it a little more height, since
+               its wordmark sits under the rings rather than beside them. */
+            .iqss-logo .logo-wide { display: none; }
+            .iqss-logo .logo-compact { display: block; }
+            .iqss-logo img { height: 56px; }
+            /* Symmetric band: the logo centres on mobile, so white is centred too,
+               with orange framing both edges. The 20/80 stops leave the compact
+               mark clear of the fade down to a 320px viewport. */
+            .header-main {
+                background: linear-gradient(to right,
+                    var(--header-accent) 0%,
+                    var(--header-base) 20%,
+                    var(--header-base) 80%,
+                    var(--header-accent) 100%);
+            }
             .hero h1 { font-size: 36px; letter-spacing: -1px; }
             .hero p { font-size: 18px; }
         }
@@ -466,9 +608,8 @@
             .header-top-links { display: none; }
             .header-top .container { justify-content: center; }
             .header-main { padding: 12px 0; }
-            .site-logo-text .site-name { font-size: 17px; }
-            .iqss-logo img { height: 36px; }
-            .band-logo-emoji { font-size: 28px; line-height: 36px; }
+            /* No logo-height override here: the compact mark keeps the 56px set
+               above, below which its tagline stops being legible. */
             main { padding: 24px 0; }
             .hero h1 { font-size: 28px; }
             .hero p { font-size: 16px; }
@@ -477,10 +618,8 @@
         /* N-08: Print stylesheet — hide chrome, restore logo, expand external links */
         @media print {
             .skip-link, .header-top, .main-nav, .site-footer { display: none !important; }
-            .iqss-logo img { filter: none !important; }  /* N-03: logo visible in print */
             body { font-size: 12pt; color: #000 !important; background: #fff !important; }
             .site-header { background: #fff !important; color: #000 !important; box-shadow: none; }
-            .site-logo-text a { color: #000 !important; }
             a { color: #000 !important; }
             a[href^="http"]::after { content: " <" attr(href) ">"; font-size: 9pt; color: #444; }
             .content-card, .person-card { box-shadow: none !important; border: 1px solid #ccc !important; }
@@ -512,14 +651,9 @@
                 <div class="site-logo">
                     <div class="iqss-logo">
                         <a href="{{ .Site.BaseURL }}">
-                            <img src="{{ "images/iqss-logo.png" | absURL }}" alt="Institute for Quantitative Social Science" />
+                            <img class="logo-wide" src="{{ "images/iqss-logo.png" | absURL }}" alt="Institute for Quantitative Social Science" />
+                            <img class="logo-compact" src="{{ "images/iqss-logo-gray-compact.png" | absURL }}" alt="Institute for Quantitative Social Science" />
                         </a>
-                    </div>
-                    <div class="band-logo">
-                        <span class="band-logo-emoji" role="img" aria-label="Smiley face">😀</span>
-                    </div>
-                    <div class="site-logo-text">
-                        <p class="site-name"><a href="{{ .Site.BaseURL }}">The Institute for Quantitative Social Science</a></p>
                     </div>
                 </div>
             </div>
@@ -535,7 +669,27 @@
             </button>
             <ul class="nav-menu" id="nav-menu">
                 {{ range .Site.Menus.main }}
-                <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                {{ $hasKids := .HasChildren }}
+                <li class="nav-item{{ if $hasKids }} has-dropdown{{ end }}">
+                    {{/* The section link stays a real link to its landing page;
+                         the caret is a separate control, so a parent is both
+                         navigable and expandable (as on iq.harvard.edu). */}}
+                    <a href="{{ .URL | relURL }}">{{ .Name }}</a>
+                    {{ if $hasKids }}
+                    {{ $id := printf "submenu-%s" (.Identifier | default (urlize .Name)) }}
+                    <button type="button" class="dropdown-toggle"
+                            aria-expanded="false"
+                            aria-controls="{{ $id }}"
+                            aria-label="Show {{ .Name }} submenu">
+                        <span class="caret" aria-hidden="true"></span>
+                    </button>
+                    <ul class="dropdown" id="{{ $id }}">
+                        {{ range .Children }}
+                        <li><a href="{{ .URL | relURL }}"{{ if strings.HasPrefix .URL "http" }} target="_blank" rel="noopener noreferrer"{{ end }}>{{ .Name }}{{ if strings.HasPrefix .URL "http" }}<span class="sr-only"> (opens in new tab)</span>{{ end }}</a></li>
+                        {{ end }}
+                    </ul>
+                    {{ end }}
+                </li>
                 {{ end }}
             </ul>
         </div>
@@ -593,6 +747,71 @@
                 toggle.setAttribute('aria-label', 'Open navigation menu');
                 menu.classList.remove('is-open');
             });
+        });
+    }());
+    </script>
+
+    <script>
+    /* Dropdown sections. Click/tap driven rather than hover-only, so the
+       submenus work on touch devices where there is no hover state. */
+    (function () {
+        var items = Array.prototype.slice.call(document.querySelectorAll('.nav-item.has-dropdown'));
+        if (!items.length) return;
+
+        function close(item) {
+            item.classList.remove('is-open');
+            var btn = item.querySelector('.dropdown-toggle');
+            if (btn) btn.setAttribute('aria-expanded', 'false');
+        }
+        function closeAll(except) {
+            items.forEach(function (i) { if (i !== except) close(i); });
+        }
+
+        items.forEach(function (item) {
+            var btn = item.querySelector('.dropdown-toggle');
+            if (!btn) return;
+
+            btn.addEventListener('click', function (e) {
+                e.preventDefault();
+                e.stopPropagation();
+                var open = btn.getAttribute('aria-expanded') === 'true';
+                closeAll(item);
+                item.classList.toggle('is-open', !open);
+                btn.setAttribute('aria-expanded', String(!open));
+            });
+
+            /* Pointer users get hover, but only where the dropdown floats
+               (wide screens); inside the hamburger it stays click-driven. */
+            item.addEventListener('mouseenter', function () {
+                if (window.matchMedia('(min-width: 951px)').matches && window.matchMedia('(hover: hover)').matches) {
+                    closeAll(item);
+                    item.classList.add('is-open');
+                    btn.setAttribute('aria-expanded', 'true');
+                }
+            });
+            item.addEventListener('mouseleave', function () {
+                if (window.matchMedia('(min-width: 951px)').matches && window.matchMedia('(hover: hover)').matches) close(item);
+            });
+
+            /* Tab out of the last submenu link closes the section. */
+            item.addEventListener('focusout', function (e) {
+                if (!item.contains(e.relatedTarget)) close(item);
+            });
+        });
+
+        document.addEventListener('keydown', function (e) {
+            if (e.key === 'Escape') {
+                var open = document.querySelector('.nav-item.has-dropdown.is-open');
+                if (open) {
+                    var btn = open.querySelector('.dropdown-toggle');
+                    close(open);
+                    if (btn) btn.focus();
+                }
+            }
+        });
+
+        document.addEventListener('click', function (e) {
+            if (!e.target.closest('.nav-item.has-dropdown')) closeAll(null);
         });
     }());
     </script>

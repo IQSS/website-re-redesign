@@ -3,22 +3,61 @@ title: "News"
 date: 2026-05-28
 draft: false
 layout: "news-page"
-article_count: 158
+article_count: 164
 ---
 
 <div class="news-grid">
-<a href="../news/harvard-ranked-1-social-sciences-nature-index-2025/" class="news-card" style="border:2px solid #1a3a5c;" aria-label="Harvard Ranked #1 in the World for Social Sciences Research — July 15, 2026">
-<div class="news-card-image" style="background:linear-gradient(135deg,#1a3a5c 0%,#0d2137 100%);display:flex;align-items:center;justify-content:center;min-height:160px;">
-<div style="text-align:center;color:#fff;padding:20px;">
-<div style="font-size:11px;font-weight:700;letter-spacing:2px;color:#f0c040;margin-bottom:4px;">NATURE INDEX 2025</div>
-<div style="font-size:52px;font-weight:800;line-height:1;">#1</div>
-<div style="font-size:13px;opacity:0.85;">World Ranking · Social Sciences</div>
-</div>
-</div>
+<a href="../news/dataverse-software-612-release/" class="news-card" aria-label="Dataverse Software 6.12 Release — September 28, 2026">
+<div class="news-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/dataverse_logo_600x400.jpg?itok=hGUsq8hM" alt="" /></div>
 <div class="news-card-body">
-<div class="news-card-date">July 15, 2026</div>
-<div class="news-card-title">Harvard Ranked #1 in the World for Social Sciences Research</div>
-<div class="news-card-desc">The Nature Index 2025 places Harvard first globally, with IQSS and the Henry A. Murray Research Archive cited as key contributors.</div>
+<div class="news-card-date">September 28, 2026</div>
+<div class="news-card-title">Dataverse Software 6.12 Release</div>
+<div class="news-card-desc">Dataverse 6.12 is now available, with new API capabilities, performance and security improvements, and a range of bug fixes.</div>
+</div>
+</a>
+
+<a href="../news/cgis-knafel-k301-computer-lab/" class="news-card" aria-label="CGIS Knafel K301 Computer Lab — August 25, 2026">
+<div class="news-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/knafel-computer-lab-k301_2023.jpeg?itok=zyXPTbNK" alt="" /></div>
+<div class="news-card-body">
+<div class="news-card-date">August 25, 2026</div>
+<div class="news-card-title">CGIS Knafel K301 Computer Lab</div>
+<div class="news-card-desc">Only the CGIS Knafel K301 Computer Lab will remain open.</div>
+</div>
+</a>
+
+<a href="../news/scale-iqss-numbers/" class="news-card" aria-label="The Scale of IQSS: By the Numbers — August 17, 2026">
+<div class="news-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2026-08/IQSS%20logo%20with%20graph.jpg?h=22f35344&itok=s4oHYbyd" alt="" /></div>
+<div class="news-card-body">
+<div class="news-card-date">August 17, 2026</div>
+<div class="news-card-title">The Scale of IQSS: By the Numbers</div>
+<div class="news-card-desc">A look at the IQSS Community, through a quantitative lens.</div>
+</div>
+</a>
+
+<a href="../news/directors-harvard-workforce-planning/" class="news-card" aria-label="From the Directors: Harvard Workforce Planning — August 12, 2026">
+<div class="news-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/dl1_8376-2.jpg?itok=3FefZS6I" alt="" /></div>
+<div class="news-card-body">
+<div class="news-card-date">August 12, 2026</div>
+<div class="news-card-title">From the Directors: Harvard Workforce Planning</div>
+<div class="news-card-desc">We write to update you about the impact of the FAS Workforce Planning effort on IQSS, and the novel role that IQSS will play in the new structure.</div>
+</div>
+</a>
+
+<a href="../news/nature-index-ranks-harvard-1-social-science-research-highlighting-iqss/" class="news-card" style="border:2px solid #1a3a5c;" aria-label="Nature Index Ranks Harvard #1 in Social Science Research, Highlighting IQSS — July 16, 2026">
+<div class="news-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2026-07/nature%20logo.png?itok=doipefjj" alt="" /></div>
+<div class="news-card-body">
+<div class="news-card-date">July 16, 2026</div>
+<div class="news-card-title">Nature Index Ranks Harvard #1 in Social Science Research, Highlighting IQSS</div>
+<div class="news-card-desc">Nature Index 2025 ranks Harvard #1 in the world in its first ever ranking of top social science research institutions, primarily crediting IQSS and the Henry A. Murray Research Archive.</div>
+</div>
+</a>
+
+<a href="../news/dataverse-going-global/" class="news-card" aria-label="Dataverse Going Global: Expanding an International Data-Sharing Community — June 29, 2026">
+<div class="news-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2026-06/DCM2026-0524%20Dataverse%20community.jpg?itok=uQ_cyhWO" alt="" /></div>
+<div class="news-card-body">
+<div class="news-card-date">June 29, 2026</div>
+<div class="news-card-title">Dataverse Going Global: Expanding an International Data-Sharing Community</div>
+<div class="news-card-desc">The Dataverse Project team traveled to Europe this spring to celebrate milestones and connect with the Dataverse community, now spread across 150 installations worldwide.</div>
 </div>
 </a>
 

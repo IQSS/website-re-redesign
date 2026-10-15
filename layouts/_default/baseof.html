@@ -161,8 +161,20 @@
             gap: 20px;
         }
 
+        /* 16px is the wordmark's natural height and what iq.harvard.edu
+           renders. We were forcing 24px, upscaling the SVG 1.5x past its
+           native 216x16 and spending 108px of bar width the secondary
+           links need to stay on one line.
+
+           display:block (plus the zeroed line-height on the link) takes the
+           image off the text baseline. Left inline it sits in a 22.4px line
+           box and reserves descender space beneath itself, giving 8px above
+           but 14.4px below, so the logo rode high against the secondary
+           links, which centre normally. */
+        .harvard-logo a { display: block; line-height: 0; }
         .harvard-logo img {
-            height: 24px;
+            display: block;
+            height: 16px;
             width: auto;
         }
 
@@ -207,7 +219,9 @@
 
         .nav-menu a {
             display: block;
-            padding: 15px 10px;
+            /* Tighter horizontal padding buys back row width so the full
+               menu survives to a narrower viewport before collapsing. */
+            padding: 15px 7px;
             color: #333;
             text-decoration: none;
             font-weight: 500;
@@ -411,6 +425,43 @@
             color: #fff;
         }
 
+        /* ── Footer, rebuilt to mirror the live IQSS structure ── */
+        .footer-top {
+            display: grid;
+            grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+            gap: 30px;
+            padding-bottom: 28px;
+            margin-bottom: 28px;
+            border-bottom: 1px solid #3a3a3a;
+        }
+        .footer-contact address { font-style: normal; line-height: 1.7; color: #ccc; }
+        .footer-meta { margin-top: 10px; line-height: 1.6; color: #ccc; }
+        .footer-contact a, .footer-social a { color: #ccc; text-decoration: none; }
+        .footer-contact a:hover, .footer-social a:hover { color: #fff; text-decoration: underline; }
+        .footer-social h4 { color: #fff; margin-bottom: 12px; font-size: 16px; }
+        .footer-social ul { list-style: none; margin: 0; padding: 0; }
+        .footer-social li { margin-bottom: 7px; }
+
+        .footer-section h4 a { color: #fff; text-decoration: none; }
+        .footer-section h4 a:hover { text-decoration: underline; }
+
+        .footer-bottom { border-top: 1px solid #3a3a3a; padding-top: 18px; }
+        .footer-legal {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px 20px;
+            margin: 10px 0 0;
+            padding: 0;
+        }
+        .footer-legal a { color: #ccc; text-decoration: none; font-size: 14px; }
+        .footer-legal a:hover { color: #fff; text-decoration: underline; }
+        .footer-note { margin-top: 10px; font-size: 13px; color: #999; }
+
+        @media (max-width: 768px) {
+            .footer-top { grid-template-columns: 1fr; gap: 24px; }
+        }
+
         .footer-bottom {
             border-top: 1px solid #444;
             padding-top: 20px;
@@ -485,7 +536,7 @@
             background: none;
             border: 0;
             cursor: pointer;
-            padding: 0 10px 0 2px;
+            padding: 0 7px 0 1px;
             display: inline-flex;
             align-items: center;
             align-self: stretch;
@@ -532,8 +583,8 @@
 
         /* Right-most sections open leftward so they cannot run off-screen */
         .nav-item:nth-last-child(-n+2) > .dropdown { left: auto; right: 0; }
-        /* ── Tablet & below (≤ 950px): hamburger nav ── */
-        @media (max-width: 950px) {
+        /* ── Tablet & below (≤ 900px): hamburger nav ── */
+        @media (max-width: 900px) {
             /* Inside the hamburger the submenus stack inline (an accordion)
                rather than floating, so they never overflow a phone screen. */
             .nav-item { flex-wrap: wrap; width: 100%; }
@@ -554,8 +605,8 @@
             .dropdown a { padding: 11px 34px; font-size: 14px; }
             .nav-item:nth-last-child(-n+2) > .dropdown { right: auto; left: auto; }
             /* Nav: hamburger replaces the full item row.
-               Breakpoint is 950px: the six-item row measures 904px in Montserrat (the
-               four caret buttons add ~80px), needing a 944px viewport. */
+               Breakpoint is 900px: the six-item row measures 853px in Montserrat (the
+               four caret buttons add ~60px), needing an 893px viewport. */
             .nav-container {
                 display: flex;
                 flex-wrap: wrap;
@@ -701,31 +752,95 @@
 
     <footer class="site-footer">
         <div class="container">
+            {{/* Mirrors the live IQSS footer: a contact block, social links,
+                 six link columns and a legal bar. Every target is checked to
+                 exist in this clone — the previous footer linked /programs/
+                 and /data-science/, both of which 404. Live entries with no
+                 local equivalent (Roadmaps, Product Development, IT Support)
+                 are mapped to the nearest real page or left out. */}}
+            <div class="footer-top">
+                <div class="footer-contact">
+                    <address>
+                        1737 Cambridge Street<br>
+                        CGIS Knafel Building, Room K350<br>
+                        Cambridge, MA 02138
+                    </address>
+                    <p class="footer-meta">Grant funding inquiries:<br>
+                        <a href="mailto:funding@iq.harvard.edu">funding@iq.harvard.edu</a></p>
+                    <p class="footer-meta"><a href="tel:617-496-2450">617-496-2450</a></p>
+                    <p class="footer-meta"><a href="mailto:gen_inquiries@iq.harvard.edu">gen_inquiries@iq.harvard.edu</a></p>
+                </div>
+                <div class="footer-social">
+                    <h4>Social</h4>
+                    <ul>
+                        <li><a href="https://www.facebook.com/iqssharvard" target="_blank" rel="noopener noreferrer">Facebook<span class="sr-only"> (opens in new tab)</span></a></li>
+                        <li><a href="https://twitter.com/IQSS" target="_blank" rel="noopener noreferrer">Twitter<span class="sr-only"> (opens in new tab)</span></a></li>
+                        <li><a href="https://www.linkedin.com/company/2733836/" target="_blank" rel="noopener noreferrer">LinkedIn<span class="sr-only"> (opens in new tab)</span></a></li>
+                        <li><a href="https://www.youtube.com/@iqssatharvarduniversity8672" target="_blank" rel="noopener noreferrer">YouTube<span class="sr-only"> (opens in new tab)</span></a></li>
+                        <li><a href="https://www.threads.net/@harvardiqss" target="_blank" rel="noopener noreferrer">Threads<span class="sr-only"> (opens in new tab)</span></a></li>
+                        <li><a href="https://bsky.app/profile/iqss.bsky.social" target="_blank" rel="noopener noreferrer">Bluesky<span class="sr-only"> (opens in new tab)</span></a></li>
+                    </ul>
+                </div>
+            </div>
+
             <nav aria-label="Footer navigation"><!-- S-08 -->
             <div class="footer-content">
                 <div class="footer-section">
-                    <h4>Institute for Quantitative Social Science</h4>
-                    <p>Harvard University<br>
-                    1737 Cambridge Street<br>
-                    Cambridge, MA 02138</p>
+                    <h4><a href="{{ "about/" | relURL }}">About</a></h4>
+                    <a href="{{ "news-page/" | relURL }}">News</a>
+                    <a href="{{ "iqss-blog/" | relURL }}">Blog</a>
+                    <a href="https://iqss.github.io/iqss-metrics-dashboard/" target="_blank" rel="noopener noreferrer">Metrics<span class="sr-only"> (opens in new tab)</span></a>
+                    <a href="{{ "become-an-affiliate/" | relURL }}">Become an Affiliate</a>
+                    <a href="{{ "contact/connect_with_us/" | relURL }}">Connect with Us</a>
+                    <a href="{{ "opportunities/" | relURL }}">Job Opportunities</a>
+                    <a href="{{ "contact/contact/" | relURL }}">Contact</a>
                 </div>
                 <div class="footer-section">
-                    <h4>Quick Links</h4>
-                    <a href="{{ "about/" | relURL }}">About IQSS</a>
-                    <a href="{{ "people/" | relURL }}">People</a>
-                    <a href="{{ "programs/" | relURL }}">Programs</a>
-                    <a href="{{ "data-science/" | relURL }}">Data Science Services</a>
+                    <h4><a href="{{ "programs-products/" | relURL }}">Programs &amp; Products</a></h4>
+                    <a href="{{ "scientific-programs/" | relURL }}">Scientific Programs</a>
+                    <a href="{{ "startup-foundry/" | relURL }}">The IQSS Startup Foundry</a>
+                    <a href="{{ "research-technology/" | relURL }}">Research Technology</a>
+                    <a href="{{ "research-technology-dataverse/" | relURL }}">Dataverse</a>
+                    <a href="{{ "research-technology-gis/" | relURL }}">GIS</a>
                 </div>
                 <div class="footer-section">
-                    <h4>Connect</h4>
-                    <a href="{{ "news/" | relURL }}" aria-label="IQSS news and updates">News & Updates</a><!-- N-07 -->
-                    <a href="{{ "events/" | relURL }}" aria-label="IQSS events calendar">Events</a><!-- N-07 -->
-                    <a href="{{ "contact/" | relURL }}" aria-label="Contact IQSS">Contact Us</a><!-- N-07 -->
+                    <h4><a href="{{ "research-resources/" | relURL }}">Resources &amp; Services</a></h4>
+                    <a href="{{ "research-resources/research-computing/" | relURL }}">Research Computing</a>
+                    <a href="{{ "research-resources/data-science-services/" | relURL }}">Data Science Services</a>
+                    <a href="{{ "research-resources/training-workshops/" | relURL }}">Training &amp; Workshops</a>
+                    <a href="{{ "research-resources/computer-labs/" | relURL }}">CGIS Computer Lab</a>
+                    <a href="{{ "research-resources/client-support-services/" | relURL }}">Client Support Services</a>
+                    <a href="{{ "research-resources/sponsored-research-services/" | relURL }}">Sponsored Research Services</a>
+                </div>
+                <div class="footer-section">
+                    <h4><a href="{{ "people/" | relURL }}">People</a></h4>
+                    <a href="{{ "funding/" | relURL }}">Funding</a>
+                    <a href="{{ "events/" | relURL }}">Events</a>
+                    <a href="{{ "news-page/" | relURL }}">News</a>
+                    <a href="{{ "misc/institutional_impartiality/" | relURL }}">Impartiality</a>
+                </div>
+                <div class="footer-section">
+                    <h4>For Assistance</h4>
+                    <a href="{{ "get-help/" | relURL }}">Get Help</a>
+                    <a href="{{ "book-a-desk/" | relURL }}">Book a Desk</a>
+                </div>
+                <div class="footer-section">
+                    <h4><a href="{{ "our-impact/" | relURL }}">Our Impact</a></h4>
+                    <a href="{{ "misc/support_us/" | relURL }}">IQSS Supporters</a>
+                    <a href="https://community.alumni.harvard.edu/give/51724705" target="_blank" rel="noopener noreferrer">Make a Gift<span class="sr-only"> (opens in new tab)</span></a>
                 </div>
             </div>
             </nav><!-- /footer navigation -->
+
             <div class="footer-bottom">
-                <p>&copy; 2026 Harvard University. This is an educational archive of IQSS content.</p>
+                <p>Copyright &copy; 2026 The President and Fellows of Harvard College</p>
+                <ul class="footer-legal">
+                    <li><a href="https://accessibility.harvard.edu/" target="_blank" rel="noopener noreferrer">Accessibility<span class="sr-only"> (opens in new tab)</span></a></li>
+                    <li><a href="https://accessibility.huit.harvard.edu/digital-accessibility-policy" target="_blank" rel="noopener noreferrer">Digital Accessibility<span class="sr-only"> (opens in new tab)</span></a></li>
+                    <li><a href="https://www.harvard.edu/copyright-issue/" target="_blank" rel="noopener noreferrer">Report Copyright Infringement<span class="sr-only"> (opens in new tab)</span></a></li>
+                    <li><a href="https://privsec.harvard.edu/harvard-university-umbrella-privacy-statement" target="_blank" rel="noopener noreferrer">Privacy Statement<span class="sr-only"> (opens in new tab)</span></a></li>
+                </ul>
+                <p class="footer-note">This is an educational archive of IQSS content.</p>
             </div>
         </div>
     </footer>
@@ -783,14 +898,14 @@
             /* Pointer users get hover, but only where the dropdown floats
                (wide screens); inside the hamburger it stays click-driven. */
             item.addEventListener('mouseenter', function () {
-                if (window.matchMedia('(min-width: 951px)').matches && window.matchMedia('(hover: hover)').matches) {
+                if (window.matchMedia('(min-width: 901px)').matches && window.matchMedia('(hover: hover)').matches) {
                     closeAll(item);
                     item.classList.add('is-open');
                     btn.setAttribute('aria-expanded', 'true');
                 }
             });
             item.addEventListener('mouseleave', function () {
-                if (window.matchMedia('(min-width: 951px)').matches && window.matchMedia('(hover: hover)').matches) close(item);
+                if (window.matchMedia('(min-width: 901px)').matches && window.matchMedia('(hover: hover)').matches) close(item);
             });
 
             /* Tab out of the last submenu link closes the section. */

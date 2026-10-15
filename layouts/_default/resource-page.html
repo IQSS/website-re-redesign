@@ -28,8 +28,18 @@
             <ol style="list-style:none;display:flex;gap:6px;align-items:center;padding:0;margin:0;">
                 <li><a href="{{ .Site.Home.RelPermalink }}">Home</a></li>
                 <li aria-hidden="true" style="color:#999;">&rsaquo;</li>
-                <li><a href="{{ "research-resources/" | relURL }}">Research Resources</a></li>
+                {{/* Derive the parent from where the page actually lives. This
+                     used to hardcode "Research Resources", which was right for
+                     the 17 pages under research-resources/ and wrong for the
+                     other 538 using this layout — news items, people profiles,
+                     events, and top-level pages like Our Impact. Pages sitting
+                     at the root have the home page as their parent, so they
+                     get no middle crumb at all. */}}
+                {{ $parent := .Parent }}
+                {{ if and $parent (ne $parent.RelPermalink .Site.Home.RelPermalink) }}
+                <li><a href="{{ $parent.RelPermalink }}">{{ $parent.Title }}</a></li>
                 <li aria-hidden="true" style="color:#999;">&rsaquo;</li>
+                {{ end }}
                 <li><span aria-current="page">{{ .Title }}</span></li>
             </ol>
         </div>

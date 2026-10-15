@@ -7,7 +7,7 @@
         <div style="background: #f8f9fa; border-left: 4px solid #CC5500; padding: 15px; margin-bottom: 30px; border-radius: 0 4px 4px 0;">
             <p style="margin: 0; font-size: 14px; color: #666;">
                 <strong>Original Source:</strong>
-                <a href="{{ .Params.source_url }}" target="_blank" style="color: #CC5500;">{{ .Params.source_url }}</a>
+                <a href="{{ .Params.source_url }}" target="_blank" style="color: var(--orange-brand);">{{ .Params.source_url }}</a>
             </p>
         </div>
         {{ end }}
@@ -20,7 +20,7 @@
         {{ with $sec }}{{ with $.Site.GetPage (printf "/%s" .) }}{{/* only link if the section page exists */}}
         <div style="margin-top: 40px; padding-top: 20px; border-top: 1px solid #e5e5e5;">
             <p>
-                <a href="{{ .RelPermalink }}" style="color: #CC5500; text-decoration: none;">
+                <a href="{{ .RelPermalink }}" style="color: var(--orange-brand); text-decoration: none;">
                     ← Back to {{ $sec | title }} Section
                 </a>
             </p>

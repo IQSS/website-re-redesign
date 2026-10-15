@@ -2,6 +2,90 @@
 <style>
 /* ── Homepage responsive layout ── */
 
+/* ── Research Resources band ──────────────────────────────────────────
+   White cards on the alert bar's navy, with the live site's icons. */
+.res-card {
+    display: block;
+    text-decoration: none;
+    background: #fff;
+    border-radius: 8px;
+    padding: 22px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.18);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.res-card:hover,
+.res-card:focus-visible { transform: translateY(-3px); box-shadow: 0 8px 20px rgba(0,0,0,0.26); }
+/* The source icons are a glyph centred in a wide (410x230) transparent
+   canvas, so a square centre-crop frames the glyph rather than letterboxing it. */
+.res-card img {
+    display: block;
+    width: 84px; height: 84px;
+    object-fit: cover;
+    border-radius: 50%;
+    background: var(--bg-light-base);
+    margin: 0 auto 14px;
+}
+.res-card h3 {
+    font-size: 17px;
+    color: var(--orange-brand);
+    margin-bottom: 8px;
+    text-align: center;
+}
+.res-card p { font-size: 14px; color: #555; line-height: 1.55; }
+
+/* ── Upcoming Events ──────────────────────────────────────────────────
+   Two columns of tiles; collapses to single-column bands on small screens. */
+.events-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+}
+.event-tile {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+    background: var(--bg-light-base);
+    border-radius: 8px;
+    padding: 16px 18px;
+}
+.event-date {
+    flex: 0 0 58px;
+    text-align: center;
+    background: var(--orange-brand);
+    color: #fff;
+    border-radius: 8px;
+    padding: 9px 5px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+.event-day { display: block; font-size: 20px; font-weight: 700; }
+.event-body { min-width: 0; }
+.event-mode {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--font-dark-link);
+    margin-bottom: 3px;
+}
+.event-title { font-size: 16px; font-weight: 500; color: #333; line-height: 1.35; }
+.event-meta { font-size: 13px; color: #666; line-height: 1.5; }
+
+/* Single-column bands on small screens, as requested */
+@media (max-width: 768px) {
+    .events-grid { grid-template-columns: 1fr; gap: 0; }
+    .event-tile {
+        border-radius: 0;
+        background: transparent;
+        border-bottom: 1px solid #e8e8e8;
+        padding: 16px 0;
+        align-items: center;
+    }
+    .events-grid .event-tile:last-child { border-bottom: 0; }
+}
+
 /* Hero inner overlay */
 .home-hero-inner {
     position: relative; z-index: 1;
@@ -87,7 +171,7 @@
         <div class="container">
             <p style="color:#fff;font-size:16px;opacity:0.8;margin-bottom:10px;">Institute for Quantitative Social Science</p>
             <h1 style="color:#fff;font-size:42px;font-weight:300;margin-bottom:20px;max-width:700px;">To solve society's greatest challenges by creating, preserving, and disseminating social science knowledge</h1>
-            <a href="{{ "about/" | relURL }}" style="color:#CC5500;background:#fff;padding:12px 25px;border-radius:5px;text-decoration:none;font-weight:500;">Learn how we do it <span aria-hidden="true">→</span></a><!-- M-03 -->
+            <a href="{{ "about/" | relURL }}" style="color:var(--orange-brand);background:#fff;padding:12px 25px;border-radius:5px;text-decoration:none;font-weight:500;">Learn how we do it <span aria-hidden="true">→</span></a><!-- M-03 -->
         </div>
     </div>
 </div>
@@ -95,15 +179,13 @@
 <!-- Nature Index #1 Ranking Banner -->
 <div role="region" aria-label="Featured announcement: Nature Index 2025 ranking" style="background:linear-gradient(135deg,#1a3a5c 0%,#0d2137 100%);padding:30px 0;"><!-- N-06 -->
     <div class="container" style="display:flex;align-items:center;gap:30px;flex-wrap:wrap;">
-        <div style="flex:0 0 auto;background:rgba(255,255,255,0.12);border-radius:12px;padding:14px 22px;text-align:center;">
-            <div style="color:#f0c040;font-size:0.8rem;font-weight:700;letter-spacing:2px;text-transform:uppercase;">Nature Index 2025</div><!-- M-02 -->
-            <div style="color:#fff;font-size:42px;font-weight:800;line-height:1;">#1</div>
-            <div style="color:#cde;font-size:0.85rem;font-weight:600;">World Ranking</div><!-- M-02 -->
+        <div style="flex:0 0 auto;background:#fff;border-radius:12px;padding:14px 18px;">
+            <img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2026-07/nature%20logo.png?itok=doipefjj" alt="Nature journal logo" style="display:block;width:170px;height:auto;" /><!-- same graphic as the newsfeed thumbnail -->
         </div>
         <div style="flex:1;min-width:200px;">
             <div style="color:#f0c040;font-size:0.85rem;font-weight:700;letter-spacing:1px;text-transform:uppercase;margin-bottom:6px;">Harvard Ranked #1 in Social Sciences Globally</div><!-- M-02 -->
             <div style="color:#fff;font-size:20px;font-weight:400;line-height:1.5;margin-bottom:10px;">The Nature Index 2025 ranks Harvard University first in the world for social-sciences research output — with IQSS cited as a key reason.</div><!-- M-09: line-height ≥ 1.5 -->
-            <a href="{{ "news/harvard-ranked-1-social-sciences-nature-index-2025/" | relURL }}" style="display:inline-block;background:#CC5500;color:#fff;padding:10px 20px;border-radius:5px;text-decoration:none;font-weight:600;font-size:14px;margin-right:12px;">Read the Story <span aria-hidden="true">→</span></a><!-- M-03 -->
+            <a href="{{ "news/nature-index-ranks-harvard-1-social-science-research-highlighting-iqss/" | relURL }}" style="display:inline-block;background:#CC5500;color:#fff;padding:10px 20px;border-radius:5px;text-decoration:none;font-weight:600;font-size:14px;margin-right:12px;">Read the Story <span aria-hidden="true">→</span></a><!-- M-03 -->
             <a href="https://www.nature.com/nature-index/news/top-ten-institutions-universities-social-sciences-research-twenty-twenty-five" target="_blank" rel="noopener noreferrer" aria-label="Read the Nature Index 2025 article on nature.com (opens in new tab)" style="display:inline-block;color:#9bc;text-decoration:none;font-size:13px;border-bottom:1px solid #9bc;">Nature Index Article <span aria-hidden="true">↗</span><span class="sr-only">(opens in new tab)</span></a><!-- M-03, S-03 -->
         </div>
     </div>
@@ -113,8 +195,8 @@
 <div class="home-section" style="background:#fff;">
     <div class="container">
         <div class="home-section-hdr">
-            <h2 class="home-h2" style="font-weight:400;color:#CC5500;margin:0;">Latest News</h2>
-            <a href="{{ "news-page/" | relURL }}" style="color:#CC5500;text-decoration:none;font-weight:500;">All News <span aria-hidden="true">→</span></a><!-- M-03 -->
+            <h2 class="home-h2" style="font-weight:400;color:var(--orange-brand);margin:0;">Latest News</h2>
+            <a href="{{ "news-page/" | relURL }}" style="color:var(--orange-brand);text-decoration:none;font-weight:500;">All News <span aria-hidden="true">→</span></a><!-- M-03 -->
         </div>
         <div class="home-grid">
             <a href="{{ "news/class-2026-iqss-whats-next/" | relURL }}" aria-label="Class of 2026 at IQSS: What's Next? — May 26, 2026" style="text-decoration:none;color:inherit;border-radius:8px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.06);transition:transform 0.3s;">
@@ -146,27 +228,27 @@
 <div class="home-section" style="background:#f8f9fa;">
     <div class="container">
         <div class="home-section-hdr">
-            <h2 class="home-h2" style="font-weight:400;color:#CC5500;margin:0;">Funding Opportunities</h2>
-            <a href="{{ "funding/" | relURL }}" style="color:#CC5500;text-decoration:none;font-weight:500;">View all funding opportunities <span aria-hidden="true">→</span></a><!-- M-03 -->
+            <h2 class="home-h2" style="font-weight:400;color:var(--orange-brand);margin:0;">Funding Opportunities</h2>
+            <a href="{{ "funding/" | relURL }}" style="color:var(--orange-brand);text-decoration:none;font-weight:500;">View all funding opportunities <span aria-hidden="true">→</span></a><!-- M-03 -->
         </div>
         <div class="home-grid">
             <a href="{{ "research-resources/undergraduate-research-scholars/" | relURL }}" style="text-decoration:none;color:inherit;background:#fff;border-radius:8px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.06);">
                 <div style="padding:20px;">
-                    <span style="font-size:0.8rem;background:#FFF3E8;color:#CC5500;padding:3px 8px;border-radius:10px;"><span aria-hidden="true">▸ </span>For Faculty</span><!-- M-02, M-07 -->
+                    <span style="font-size:0.8rem;background:#FFF3E8;color:var(--orange-brand);padding:3px 8px;border-radius:10px;"><span aria-hidden="true">▸ </span>For Faculty</span><!-- M-02, M-07 -->
                     <h3 style="font-size:18px;color:#333;margin:12px 0 8px;">Undergraduate Research Scholars Program</h3>
                     <p style="font-size:14px;color:#666;line-height:1.6;">Harvard College students gain research experience with faculty across the University.</p><!-- M-09: line-height 1.5→1.6 -->
                 </div>
             </a>
             <a href="{{ "funding-travel-grants/" | relURL }}" style="text-decoration:none;color:inherit;background:#fff;border-radius:8px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.06);">
                 <div style="padding:20px;">
-                    <span style="font-size:0.8rem;background:#FFF3E8;color:#CC5500;padding:3px 8px;border-radius:10px;"><span aria-hidden="true">▸ </span>For Graduate Students</span><!-- M-02, M-07 -->
+                    <span style="font-size:0.8rem;background:#FFF3E8;color:var(--orange-brand);padding:3px 8px;border-radius:10px;"><span aria-hidden="true">▸ </span>For Graduate Students</span><!-- M-02, M-07 -->
                     <h3 style="font-size:18px;color:#333;margin:12px 0 8px;">Travel Grants</h3>
                     <p style="font-size:14px;color:#666;line-height:1.6;">Support travel for presentations at professional conferences relevant to research.</p><!-- M-09 -->
                 </div>
             </a>
             <a href="{{ "funding-research-grants/" | relURL }}" style="text-decoration:none;color:inherit;background:#fff;border-radius:8px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.06);">
                 <div style="padding:20px;">
-                    <span style="font-size:0.8rem;background:#FFF3E8;color:#CC5500;padding:3px 8px;border-radius:10px;"><span aria-hidden="true">▸ </span>For Graduate Students</span><!-- M-02, M-07 -->
+                    <span style="font-size:0.8rem;background:#FFF3E8;color:var(--orange-brand);padding:3px 8px;border-radius:10px;"><span aria-hidden="true">▸ </span>For Graduate Students</span><!-- M-02, M-07 -->
                     <h3 style="font-size:18px;color:#333;margin:12px 0 8px;">Research Grants</h3>
                     <p style="font-size:14px;color:#666;line-height:1.5;">Funding to support ongoing or future dissertation research activities.</p>
                 </div>
@@ -178,7 +260,7 @@
 <!-- Our Impact Section -->
 <div class="home-section" style="background:#fff;">
     <div class="container">
-        <h2 class="home-h2" style="font-weight:400;color:#CC5500;margin-bottom:30px;">Our Impact</h2>
+        <h2 class="home-h2" style="font-weight:400;color:var(--orange-brand);margin-bottom:30px;">Our Impact</h2>
         <div class="home-impact-flex">
             <div class="home-impact-img">
                 <img src="{{ "images/home-impact-flight.jpg" | absURL }}" alt="Flight attendant" />
@@ -186,40 +268,47 @@
             <div class="home-impact-body">
                 <h3 style="font-size:22px;color:#333;margin-bottom:15px;">Investigating Flight Attendants' Safety</h3>
                 <p style="font-size:16px;line-height:1.6;color:#444;">The longest-running longitudinal study of its kind, led by Dr. Eileen McNeely at IQSS. Laboratory tests found harmful substances on airline uniforms, connecting them to reports of debilitating medical issues. Findings provided evidence in a class action lawsuit holding the manufacturer accountable.</p>
-                <a href="{{ "our-impact/" | relURL }}" style="color:#CC5500;text-decoration:none;font-weight:500;margin-top:15px;display:inline-block;">See more impact stories <span aria-hidden="true">→</span></a><!-- M-03 -->
+                <a href="{{ "our-impact/" | relURL }}" style="color:var(--orange-brand);text-decoration:none;font-weight:500;margin-top:15px;display:inline-block;">See more impact stories <span aria-hidden="true">→</span></a><!-- M-03 -->
             </div>
         </div>
     </div>
 </div>
 
-<!-- Research Resources Section -->
-<div class="home-section" style="background:#f8f9fa;">
+<!-- Research Resources Section — icons and copy mirror iq.harvard.edu;
+     band colour is the alert bar's navy so it contrasts with the white sections -->
+<div class="home-section res-band" style="background:#1a3a5c;">
     <div class="container">
-        <h2 class="home-h2" style="font-weight:400;color:#CC5500;margin-bottom:30px;">Research Resources</h2>
+        <h2 class="home-h2" style="font-weight:400;color:#fff;margin-bottom:30px;">Research Resources</h2>
         <div class="home-grid home-grid-sm">
-            <a href="{{ "research-resources/research-computing/" | relURL }}" style="text-decoration:none;color:inherit;background:#fff;border-radius:8px;padding:25px;box-shadow:0 2px 6px rgba(0,0,0,0.05);transition:transform 0.3s;">
-                <h3 style="font-size:17px;color:#CC5500;margin-bottom:8px;">Research Computing</h3>
-                <p style="font-size:14px;color:#666;line-height:1.5;">A centralized place to store your data and run your analysis on FASRC clusters.</p>
+            <a class="res-card" href="{{ "research-resources/research-computing/" | relURL }}">
+                <img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/2025-08/research-computing%202.png" alt="" />
+                <h3>Research Computing</h3>
+                <p>The Research Computing Environment (RCE) offers you a centralized place in which to store your data and run your analysis on your own or in collaboration with other researchers.</p>
             </a>
-            <a href="{{ "research-resources/data-science-services/" | relURL }}" style="text-decoration:none;color:inherit;background:#fff;border-radius:8px;padding:25px;box-shadow:0 2px 6px rgba(0,0,0,0.05);transition:transform 0.3s;">
-                <h3 style="font-size:17px;color:#CC5500;margin-bottom:8px;">Data Science Services</h3>
-                <p style="font-size:14px;color:#666;line-height:1.5;">Our team of PhD data science specialists provides research support to the Harvard community.</p>
+            <a class="res-card" href="{{ "research-resources/data-science-services/" | relURL }}">
+                <img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/2025-08/dss.png" alt="" />
+                <h3>Data Science Services</h3>
+                <p>Our team of PhD data science specialists provides research support to the Harvard community, offering both consultation and collaboration services for researchers.</p>
             </a>
-            <a href="{{ "research-resources/training-workshops/" | relURL }}" style="text-decoration:none;color:inherit;background:#fff;border-radius:8px;padding:25px;box-shadow:0 2px 6px rgba(0,0,0,0.05);transition:transform 0.3s;">
-                <h3 style="font-size:17px;color:#CC5500;margin-bottom:8px;">Training & Workshops</h3>
-                <p style="font-size:14px;color:#666;line-height:1.5;">Develop software skills and broaden knowledge on social science topics.</p>
+            <a class="res-card" href="{{ "research-resources/training-workshops/" | relURL }}">
+                <img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/2025-08/workshops%201.png" alt="" />
+                <h3>Training &amp; Workshops</h3>
+                <p>We offer specialized instruction to develop your software skills and broadening your knowledge on social science-related topics.</p>
             </a>
-            <a href="{{ "research-resources/computer-labs/" | relURL }}" style="text-decoration:none;color:inherit;background:#fff;border-radius:8px;padding:25px;box-shadow:0 2px 6px rgba(0,0,0,0.05);transition:transform 0.3s;">
-                <h3 style="font-size:17px;color:#CC5500;margin-bottom:8px;">IQSS Computer Labs</h3>
-                <p style="font-size:14px;color:#666;line-height:1.5;">Access workstations with statistical, GIS, and desktop applications 24/7.</p>
+            <a class="res-card" href="{{ "research-resources/computer-labs/" | relURL }}">
+                <img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/2025-08/computer-labs-icon%201.png" alt="" />
+                <h3>IQSS Computer Labs</h3>
+                <p>The Labs offer access to workstations with a full array of statistical, GIS, and other commonly-used desktop applications.</p>
             </a>
-            <a href="{{ "research-resources/client-support-services/" | relURL }}" style="text-decoration:none;color:inherit;background:#fff;border-radius:8px;padding:25px;box-shadow:0 2px 6px rgba(0,0,0,0.05);transition:transform 0.3s;">
-                <h3 style="font-size:17px;color:#CC5500;margin-bottom:8px;">Client Support Services</h3>
-                <p style="font-size:14px;color:#666;line-height:1.5;">Help with software, hardware, and technological needs.</p>
+            <a class="res-card" href="{{ "research-resources/client-support-services/" | relURL }}">
+                <img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/2025-08/computer-problem-icon.png" alt="" />
+                <h3>Client Support Services</h3>
+                <p>We're here to help you with your software, hardware and all your technological needs including (but not limited to) computer, smartphone, tablet and printer issues.</p>
             </a>
-            <a href="{{ "research-resources/sponsored-research-services/" | relURL }}" style="text-decoration:none;color:inherit;background:#fff;border-radius:8px;padding:25px;box-shadow:0 2px 6px rgba(0,0,0,0.05);transition:transform 0.3s;">
-                <h3 style="font-size:17px;color:#CC5500;margin-bottom:8px;">Sponsored Research Services</h3>
-                <p style="font-size:14px;color:#666;line-height:1.5;">Supporting social scientists throughout the lifecycle of a sponsored project.</p>
+            <a class="res-card" href="{{ "research-resources/sponsored-research-services/" | relURL }}">
+                <img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/2025-08/sponsored-research-icon%201.png" alt="" />
+                <h3>Sponsored Research Services</h3>
+                <p>We're dedicated to supporting social scientists' research by providing exceptional services throughout the lifecycle of a sponsored project.</p>
             </a>
         </div>
     </div>
@@ -229,41 +318,63 @@
 <div class="home-section" style="background:#fff;">
     <div class="container">
         <div class="home-section-hdr">
-            <h2 class="home-h2" style="font-weight:400;color:#CC5500;margin:0;">Upcoming Events</h2>
-            <a href="{{ "events/" | relURL }}" style="color:#CC5500;text-decoration:none;font-weight:500;">View All Events <span aria-hidden="true">→</span></a><!-- M-03 -->
+            <h2 class="home-h2" style="font-weight:400;color:var(--orange-brand);margin:0;">Upcoming Events</h2>
+            <a href="{{ "events/" | relURL }}" style="color:var(--orange-brand);text-decoration:none;font-weight:500;">View All Events <span aria-hidden="true">→</span></a><!-- M-03 -->
         </div>
-        <div style="max-width:700px;">
-            <div style="display:flex;align-items:center;gap:20px;padding:18px 0;border-bottom:1px solid #f0f0f0;">
-                <time datetime="2026-06-03" style="flex:0 0 60px;display:block;text-align:center;background:#CC5500;color:#fff;border-radius:8px;padding:10px 5px;"><!-- M-04 -->
-                    <span aria-hidden="true" style="display:block;font-size:0.75rem;font-weight:600;">JUN</span><!-- M-02 -->
-                    <span class="sr-only">June </span>
-                    <span style="display:block;font-size:20px;font-weight:700;">3</span>
-                </time>
-                <div>
-                    <div style="font-size:16px;font-weight:500;color:#333;">Dataverse Office Hours</div>
-                    <div style="font-size:13px;color:#666;">12:00 PM – 1:00 PM EDT · Virtual</div>
+        {{/* Two-column tile grid, collapsing to single-column bands on small
+             screens. Sized for up to 12 tiles; currently six, which is every
+             upcoming event the live site lists. */}}
+        <div class="events-grid">
+            <div class="event-tile">
+                <time datetime="2026-10-15" class="event-date"><span aria-hidden="true">OCT</span><span class="sr-only">October </span><span class="event-day">15</span></time>
+                <div class="event-body">
+                    <span class="event-mode">In Person</span>
+                    <div class="event-title">Elliott Ash (Alesina Seminar)</div>
+                    <div class="event-meta">3:00 PM – 4:15 PM EDT</div>
+                    <div class="event-meta">Baker Library/Bloomberg Center, Classroom 102</div>
                 </div>
             </div>
-            <div style="display:flex;align-items:center;gap:20px;padding:18px 0;border-bottom:1px solid #f0f0f0;">
-                <time datetime="2026-06-08/2026-06-18" style="flex:0 0 60px;display:block;text-align:center;background:#CC5500;color:#fff;border-radius:8px;padding:10px 5px;"><!-- M-04 -->
-                    <span aria-hidden="true" style="display:block;font-size:0.75rem;font-weight:600;">JUN</span><!-- M-02 -->
-                    <span class="sr-only">June </span>
-                    <span style="display:block;font-size:20px;font-weight:700;">8–18</span>
-                </time>
-                <div>
-                    <div style="font-size:16px;font-weight:500;color:#333;">GIS Institute Summer 2026</div>
-                    <div style="font-size:13px;color:#666;">9:30 AM – 5:00 PM EDT · In Person</div>
+            <div class="event-tile">
+                <time datetime="2026-10-16" class="event-date"><span aria-hidden="true">OCT</span><span class="sr-only">October </span><span class="event-day">16</span></time>
+                <div class="event-body">
+                    <span class="event-mode">In Person</span>
+                    <div class="event-title">Geocoding with ArcGIS</div>
+                    <div class="event-meta">1:00 PM – 3:00 PM EDT</div>
+                    <div class="event-meta">CGIS Knafel Building, Room SB-12 (sub-basement)</div>
                 </div>
             </div>
-            <div style="display:flex;align-items:center;gap:20px;padding:18px 0;">
-                <time datetime="2026-06-10" style="flex:0 0 60px;display:block;text-align:center;background:#CC5500;color:#fff;border-radius:8px;padding:10px 5px;"><!-- M-04 -->
-                    <span aria-hidden="true" style="display:block;font-size:0.75rem;font-weight:600;">JUN</span><!-- M-02 -->
-                    <span class="sr-only">June </span>
-                    <span style="display:block;font-size:20px;font-weight:700;">10</span>
-                </time>
-                <div>
-                    <div style="font-size:16px;font-weight:500;color:#333;">Dataverse Office Hours</div>
-                    <div style="font-size:13px;color:#666;">12:00 PM – 1:00 PM EDT · Virtual</div>
+            <div class="event-tile">
+                <time datetime="2026-10-20" class="event-date"><span aria-hidden="true">OCT</span><span class="sr-only">October </span><span class="event-day">20</span></time>
+                <div class="event-body">
+                    <span class="event-mode">Hybrid</span>
+                    <div class="event-title">Sam Fuller (APRW)</div>
+                    <div class="event-meta">12:00 PM – 2:00 PM EDT</div>
+                    <div class="event-meta">CGIS Knafel room K354</div>
+                </div>
+            </div>
+            <div class="event-tile">
+                <time datetime="2026-10-21" class="event-date"><span aria-hidden="true">OCT</span><span class="sr-only">October </span><span class="event-day">21</span></time>
+                <div class="event-body">
+                    <div class="event-title">Dataverse Office Hours</div>
+                    <div class="event-meta">12:00 PM – 1:00 PM EDT</div>
+                </div>
+            </div>
+            <div class="event-tile">
+                <time datetime="2026-10-21" class="event-date"><span aria-hidden="true">OCT</span><span class="sr-only">October </span><span class="event-day">21</span></time>
+                <div class="event-body">
+                    <span class="event-mode">Hybrid</span>
+                    <div class="event-title">Souhardya Sengupta (Applied Stats Workshop)</div>
+                    <div class="event-meta">12:00 PM – 1:30 PM EDT</div>
+                    <div class="event-meta">CGIS Knafel Building, Room K354</div>
+                </div>
+            </div>
+            <div class="event-tile">
+                <time datetime="2026-10-22" class="event-date"><span aria-hidden="true">OCT</span><span class="sr-only">October </span><span class="event-day">22</span></time>
+                <div class="event-body">
+                    <span class="event-mode">In Person</span>
+                    <div class="event-title">Andrea Galeotti (Alesina Seminar)</div>
+                    <div class="event-meta">3:00 PM – 4:15 PM EDT</div>
+                    <div class="event-meta">Baker Library/Bloomberg Center, Classroom 102</div>
                 </div>
             </div>
         </div>

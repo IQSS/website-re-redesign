@@ -6,6 +6,10 @@ type: "page"
 layout: "resource-page"
 hero_image: ""
 subtitle: "Event Details"
+event_date: 2026-02-20
+event_time: "9:00 AM – 12:00 PM EST"
+event_location: "CGIS Knafel Building, Room SB-12"
+event_type: "Workshops, Seminars, & Classes"
 ---
 
 ## Getting Started Making Maps with QGIS and ArcGIS

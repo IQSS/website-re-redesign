@@ -6,6 +6,10 @@ type: "page"
 layout: "resource-page"
 hero_image: ""
 subtitle: "Event Details"
+event_date: 2025-03-26
+event_time: "12:00 PM – 1:00 PM EDT"
+event_location: "Virtual via Zoom"
+event_type: "Research Technology Training"
 ---
 
 ## Large Data Support in Harvard Dataverse

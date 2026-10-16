@@ -6,6 +6,10 @@ type: "page"
 layout: "resource-page"
 hero_image: ""
 subtitle: "Event Details"
+event_date: 2025-12-05
+event_time: "9:30 AM – 4:30 PM EST"
+event_location: "CGIS South, room S020"
+event_type: "Workshops, Seminars, & Classes"
 ---
 
 ## GIS for Humanities and Social Sciences

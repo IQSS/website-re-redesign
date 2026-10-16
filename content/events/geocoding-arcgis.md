@@ -6,6 +6,10 @@ type: "page"
 layout: "resource-page"
 hero_image: ""
 subtitle: "Event Details"
+event_date: 2026-02-06
+event_time: "1:00 PM – 3:00 PM EST"
+event_location: "CGIS Knafel room SB-12"
+event_type: "Workshops, Seminars, & Classes"
 ---
 
 ## Geocoding with ArcGIS

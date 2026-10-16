@@ -6,6 +6,10 @@ type: "page"
 layout: "resource-page"
 hero_image: ""
 subtitle: "Event Details"
+event_date: 2025-04-18
+event_time: "9:00 AM – 12:00 PM EDT"
+event_location: "Virtual via Zoom"
+event_type: "Research Technology Training"
 ---
 
 ## Hands-On Curation Training with Harvard Dataverse Repository

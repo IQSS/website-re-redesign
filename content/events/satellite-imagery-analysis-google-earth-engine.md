@@ -6,6 +6,10 @@ type: "page"
 layout: "resource-page"
 hero_image: ""
 subtitle: "Event Details"
+event_date: 2026-04-03
+event_time: "1:00 PM – 3:00 PM EDT"
+event_location: "CGIS Knafel Building, Room SB-12"
+event_type: "Workshops, Seminars, & Classes"
 ---
 
 ## Satellite Imagery Analysis with Google Earth Engine

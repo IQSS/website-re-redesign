@@ -6,6 +6,8 @@ type: "page"
 layout: "resource-page"
 hero_image: ""
 subtitle: "Event Details"
+event_location: "Virtual"
+event_type: "Research Technology Training"
 ---
 
 ## Intermediate Curation on the Dataverse Platform

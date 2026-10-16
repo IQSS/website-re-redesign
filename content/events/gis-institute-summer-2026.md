@@ -6,6 +6,11 @@ type: "page"
 layout: "resource-page"
 hero_image: ""
 subtitle: "Event Details"
+event_date: 2026-06-08
+event_end_date: 2026-06-18
+event_time: "9:30 AM – 5:00 PM EDT"
+event_location: "1737 Cambridge Street, CGIS Knafel Building, Room K350"
+event_type: "Workshops, Seminars, & Classes"
 ---
 
 ## GIS Institute Summer 2026

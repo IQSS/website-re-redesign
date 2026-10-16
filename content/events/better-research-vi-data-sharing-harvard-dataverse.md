@@ -6,6 +6,10 @@ type: "page"
 layout: "resource-page"
 hero_image: ""
 subtitle: "Event Details"
+event_date: 2026-05-20
+event_time: "12:30 PM – 2:00 PM EDT"
+event_location: "Lamont Library B30 Collaborative Learning Space"
+event_type: "Research Technology Training"
 ---
 
 ## Better Research VI: Data Sharing with Harvard Dataverse

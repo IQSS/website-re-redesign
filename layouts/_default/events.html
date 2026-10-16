@@ -14,89 +14,109 @@
     </div>
 
     <!-- Upcoming Events -->
+    {{/* Events are generated from content/events/ rather than hand-listed.
+         Each page carries event_date / event_time / event_location /
+         event_type in front matter; this block splits them into upcoming
+         and past against today's date, so the page cannot go stale the way
+         the previous hardcoded list did (it still advertised May and June
+         events in October). Pages with no event_date are recurring or
+         on-demand sessions and get their own section. */}}
+    {{ $today := now.Format "2006-01-02" }}
+    {{ $all := where .Site.RegularPages "Section" "events" }}
+    {{ $upcoming := slice }}
+    {{ $past := slice }}
+    {{ $ongoing := slice }}
+    {{ range $all }}
+        {{ if .Params.event_date }}
+            {{ if ge ((time .Params.event_date).Format "2006-01-02") $today }}
+                {{ $upcoming = $upcoming | append . }}
+            {{ else }}
+                {{ $past = $past | append . }}
+            {{ end }}
+        {{ else }}
+            {{ $ongoing = $ongoing | append . }}
+        {{ end }}
+    {{ end }}
+    {{ $upcoming = sort $upcoming "Params.event_date" "asc" }}
+    {{ $past = sort $past "Params.event_date" "desc" }}
+
     <div class="events-section">
         <div class="container">
             <h2>Upcoming Events</h2>
+            {{ with $upcoming }}
             <div class="events-list">
-
+                {{ range . }}
+                {{ $d := time .Params.event_date }}
                 <div class="event-item">
                     <div class="event-date-box">
-                        <span class="event-month">MAY</span>
-                        <span class="event-day">28</span>
+                        <span class="event-month">{{ $d.Format "Jan" | upper }}</span>
+                        <span class="event-day">{{ $d.Format "2" }}{{ with .Params.event_end_date }}&ndash;{{ (time .).Format "2" }}{{ end }}</span>
                     </div>
                     <div class="event-details">
-                        <h3><a href="{{ "calendar/#special-events" | relURL }}">Harvard University Commencement</a></h3>
-                        <p class="event-time">All day</p>
-                        <span class="event-type-tag">Special Events</span>
+                        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+                        {{ with .Params.event_time }}<p class="event-time">{{ . }}</p>{{ end }}
+                        {{ with .Params.event_location }}<p class="event-time">{{ . }}</p>{{ end }}
+                        {{ with .Params.event_type }}<span class="event-type-tag">{{ . }}</span>{{ end }}
                     </div>
                 </div>
-
-                <div class="event-item">
-                    <div class="event-date-box">
-                        <span class="event-month">JUN</span>
-                        <span class="event-day">3</span>
-                    </div>
-                    <div class="event-details">
-                        <h3><a href="{{ "events/dataverse-office-hours/" | relURL }}">Dataverse Office Hours</a></h3>
-                        <p class="event-time">12:00 PM – 1:00 PM EDT</p>
-                        <span class="event-type-tag">Help Desk Office Hours</span>
-                    </div>
-                </div>
-
-                <div class="event-item">
-                    <div class="event-date-box">
-                        <span class="event-month">JUN</span>
-                        <span class="event-day">8–18</span>
-                    </div>
-                    <div class="event-details">
-                        <h3><a href="{{ "events/gis-institute-summer-2026/" | relURL }}">GIS Institute Summer 2026</a></h3>
-                        <p class="event-time">9:30 AM – 5:00 PM EDT</p>
-                        <span class="event-type-tag">Training</span>
-                    </div>
-                </div>
-
-                <div class="event-item">
-                    <div class="event-date-box">
-                        <span class="event-month">JUN</span>
-                        <span class="event-day">10</span>
-                    </div>
-                    <div class="event-details">
-                        <h3><a href="{{ "events/dataverse-office-hours/" | relURL }}">Dataverse Office Hours</a></h3>
-                        <p class="event-time">12:00 PM – 1:00 PM EDT</p>
-                        <span class="event-type-tag">Help Desk Office Hours</span>
-                    </div>
-                </div>
-
-                <div class="event-item">
-                    <div class="event-date-box">
-                        <span class="event-month">JUN</span>
-                        <span class="event-day">17</span>
-                    </div>
-                    <div class="event-details">
-                        <h3><a href="{{ "events/dataverse-office-hours/" | relURL }}">Dataverse Office Hours</a></h3>
-                        <p class="event-time">12:00 PM – 1:00 PM EDT</p>
-                        <span class="event-type-tag">Help Desk Office Hours</span>
-                    </div>
-                </div>
-
-                <div class="event-item">
-                    <div class="event-date-box">
-                        <span class="event-month">JUN</span>
-                        <span class="event-day">19</span>
-                    </div>
-                    <div class="event-details">
-                        <h3><a href="{{ "calendar/#special-events" | relURL }}">University Holiday: Juneteenth</a></h3>
-                        <p class="event-time">All day</p>
-                        <span class="event-type-tag">Special Events</span>
-                    </div>
-                </div>
-
+                {{ end }}
             </div>
-            <a href="{{ "calendar/" | relURL }}" class="events-view-all">View all upcoming events →</a>
+            {{ else }}
+            <p>No upcoming events are currently scheduled. Please check the calendar for the latest listings.</p>
+            {{ end }}
+            <a href="{{ "calendar/" | relURL }}" class="events-view-all">View all upcoming events &rarr;</a>
         </div>
     </div>
 
-    <!-- Event Categories -->
+    {{ with $ongoing }}
+    <div class="events-section">
+        <div class="container">
+            <h2>Ongoing &amp; On-Demand</h2>
+            <p>Recurring office hours and training sessions that run throughout the year.</p>
+            <div class="events-list">
+                {{ range . }}
+                <div class="event-item">
+                    <div class="event-date-box event-date-box--ongoing">
+                        <span class="event-month">{{ if .Params.event_recurring }}EVERY{{ else }}ON{{ end }}</span>
+                        <span class="event-day">{{ if .Params.event_recurring }}WK{{ else }}DEMAND{{ end }}</span>
+                    </div>
+                    <div class="event-details">
+                        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+                        {{ with .Params.event_schedule }}<p class="event-time">{{ . }}</p>{{ end }}
+                        {{ with .Params.event_time }}<p class="event-time">{{ . }}</p>{{ end }}
+                        {{ with .Params.event_location }}<p class="event-time">{{ . }}</p>{{ end }}
+                        {{ with .Params.event_type }}<span class="event-type-tag">{{ . }}</span>{{ end }}
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+    {{ end }}
+
+    {{ with $past }}
+    <div class="events-section events-section--past">
+        <div class="container">
+            <h2>Past Events</h2>
+            <div class="events-list">
+                {{ range first 10 . }}
+                {{ $d := time .Params.event_date }}
+                <div class="event-item">
+                    <div class="event-date-box event-date-box--past">
+                        <span class="event-month">{{ $d.Format "Jan" | upper }}</span>
+                        <span class="event-day">{{ $d.Format "2" }}{{ with .Params.event_end_date }}&ndash;{{ (time .).Format "2" }}{{ end }}</span>
+                    </div>
+                    <div class="event-details">
+                        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+                        <p class="event-time">{{ $d.Format "January 2, 2006" }}</p>
+                        {{ with .Params.event_type }}<span class="event-type-tag">{{ . }}</span>{{ end }}
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+    {{ end }}
     <div class="events-categories">
         <div class="container">
             <h2>Events by Type</h2>
@@ -216,6 +236,25 @@
     color: #fff;
     border-radius: 8px;
     padding: 12px 8px;
+}
+
+/* Date-box variants. Past events keep the same shape but drop to a neutral
+   grey so the archive reads as secondary to the upcoming list; the ongoing
+   boxes carry two short words rather than a month and a number. */
+.event-date-box--past {
+    background: #6b6b6b;
+}
+.event-date-box--ongoing {
+    background: var(--font-dark-link);
+}
+.event-date-box--ongoing .event-month,
+.event-date-box--ongoing .event-day {
+    font-size: 0.72rem;
+    line-height: 1.25;
+    font-weight: 600;
+}
+.events-section--past h2 {
+    color: #555;
 }
 
 .event-month {

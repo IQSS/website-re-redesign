@@ -6,6 +6,7 @@ type: "page"
 layout: "resource-page"
 hero_image: ""
 subtitle: "Event Details"
+event_type: "Research Technology Training"
 ---
 
 ## Introduction to Data Handling on the Dataverse Platform

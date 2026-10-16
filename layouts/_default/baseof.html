@@ -35,6 +35,18 @@
             --accent-dark-regular: #BF5803;
             --accent-dark-vibrant: #2B416E; /* navy */
 
+            /* ── Harvard University brand colours ──────────────────────────
+               Kept here so the official values are to hand and nobody has to
+               guess at them again. (A utility class named .harvard-red used
+               to hold #CC5500 — not a Harvard colour at all — and was removed.)
+
+               --harvard-black is the same value the designers' spec calls
+               bg_dark_core; it is named twice on purpose, because the
+               universal top bar uses it *as Harvard's black* rather than
+               incidentally as a dark background. */
+            --harvard-crimson: #A51C30;
+            --harvard-black: #1E1E1E;
+
             /* Orange roles. The two site oranges are one family (CIEDE2000 = 3.06),
                so using both is legitimate; the split is functional, not aesthetic:
                  --orange-brand  may touch text  — white on it is 4.55:1, passes AA
@@ -99,8 +111,6 @@
             background: #fff;
         }
 
-        /* Harvard Brand Colors */
-        .harvard-black { background-color: #1E1E1E; }
 
         /* Header */
         .site-header {
@@ -111,7 +121,7 @@
 
         /* Harvard's dark-core bar, consistent with University sites */
         .header-top {
-            background: #1E1E1E;
+            background: var(--harvard-black);
             padding: 8px 0;
             font-size: 14px;
         }
@@ -394,7 +404,7 @@
 
         /* Footer */
         .site-footer {
-            background: #1E1E1E;
+            background: var(--harvard-black);
             color: #ccc;
             padding: 40px 0 20px 0;
             margin-top: 60px;

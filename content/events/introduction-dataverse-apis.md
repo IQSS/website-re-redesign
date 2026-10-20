@@ -3,17 +3,12 @@ title: "Introduction to Dataverse APIs"
 date: 2026-05-28
 draft: false
 type: "page"
-layout: "resource-page"
+layout: "event"
 hero_image: ""
 subtitle: "Event Details"
 event_location: "Virtual"
 event_type: "Research Technology Training"
 ---
-
-## Introduction to Dataverse APIs
-
-**Location:** Virtual
-
 While Dataverse supports file uploads through its standard web interface, there are big data use cases where the Dataverse API and related tools are useful. This session introduces participants to the Dataverse API for programmatic access to data.
 
 <a href="https://harvard.zoom.us/webinar/register/WN_7v5uO2EMSmG7tQH-4zriRw" class="cta-button" target="_blank">Register</a>

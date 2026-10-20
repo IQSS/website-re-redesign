@@ -3,17 +3,12 @@ title: "Intermediate Curation on the Dataverse Platform"
 date: 2026-05-28
 draft: false
 type: "page"
-layout: "resource-page"
+layout: "event"
 hero_image: ""
 subtitle: "Event Details"
 event_location: "Virtual"
 event_type: "Research Technology Training"
 ---
-
-## Intermediate Curation on the Dataverse Platform
-
-**Location:** Virtual
-
 Intermediate-level curation training covering advanced features of the Dataverse platform for data management and sharing.
 
 **Presenter:** Sonia Barbosa, The Dataverse Project, IQSS

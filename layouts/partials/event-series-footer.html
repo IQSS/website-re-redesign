@@ -1,21 +1,28 @@
 {{- /*
-  Renders the shared boilerplate for whichever series an event belongs to.
+  Shared boilerplate for whichever series an event belongs to.
 
   The copy lives in exactly one place per series — content/series/<term>/_index.md —
-  and this partial pulls it onto every event page tagged with that series. Edit
-  the series page once and every event in it updates, which is the behaviour the
+  and this partial pulls it onto every event tagged with that series. Edit the
+  series page once and every event in it updates, which is the behaviour the
   old site's footer text widgets provided.
 
+  Presentation: a tinted band, set apart from the week's own material, with a
+  heading deliberately lighter than the event's content headings. It is standing
+  information about the series, not this week's speaker, and should not compete
+  with it. It sits in an <aside> so assistive tech treats it as a complementary
+  region rather than a continuation of the event.
+
   Renders nothing for pages with no series, so it is safe to include from
-  resource-page.html, which also serves ~500 non-event pages.
+  layouts that also serve non-event pages.
 */ -}}
 {{- with .Params.series -}}
   {{- range . -}}
     {{- $term := site.GetPage (printf "/series/%s" (urlize .)) -}}
     {{- with $term }}
     <aside class="event-series" aria-labelledby="series-{{ urlize .Title }}">
+        <p class="event-series__eyebrow">About this series</p>
         <h2 class="event-series__title" id="series-{{ urlize .Title }}">
-            <a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ with .Params.course_number }} <span class="event-series__course">({{ . }})</span>{{ end }}
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ with .Params.course_number }} <span class="event-series__course">{{ . }}</span>{{ end }}
         </h2>
 
         {{ with .Params.meets }}<p class="event-series__meets">Meets {{ . }}</p>{{ end }}
@@ -25,7 +32,7 @@
         <ul class="event-series__links">
             <li><a href="{{ .RelPermalink }}">All {{ .Params.short_name | default .Title }} events &rarr;</a></li>
             {{ with .Params.mailing_list }}
-            <li><a href="{{ . }}" target="_blank" rel="noopener noreferrer">{{ $.Page.Params.mailing_list_label | default ($term.Params.mailing_list_label | default "Join the mailing list") }}<span class="sr-only"> (opens in new tab)</span> &nearr;</a></li>
+            <li><a href="{{ . }}" target="_blank" rel="noopener noreferrer">{{ $term.Params.mailing_list_label | default "Join the mailing list" }}<span class="sr-only"> (opens in new tab)</span> &nearr;</a></li>
             {{ end }}
             {{ with .Params.series_page }}
             <li><a href="{{ . }}" target="_blank" rel="noopener noreferrer">{{ $term.Params.series_page_label | default "Series page" }}<span class="sr-only"> (opens in new tab)</span> &nearr;</a></li>
@@ -35,3 +42,38 @@
     {{- end -}}
   {{- end -}}
 {{- end -}}
+
+<style>
+.event-series {
+    background: var(--bg-light-base);
+    border-left: 4px solid var(--orange-brand);
+    border-radius: 0 8px 8px 0;
+    padding: 22px 26px;
+    margin: 40px 0 0;
+}
+/* Small, quiet label so the band reads as standing context rather than as a
+   peer of the event's own Speaker & Title / Abstract headings. */
+.event-series__eyebrow {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #5a6b7d;
+    margin: 0 0 4px;
+}
+.event-series__title {
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1.35;
+    margin: 0 0 6px;
+}
+.event-series__title a { color: var(--font-dark-link); text-decoration: none; }
+.event-series__title a:hover { text-decoration: underline; }
+.event-series__course { font-weight: 400; color: #5a6b7d; }
+.event-series__meets { font-size: 14px; color: #5a6b7d; margin: 0 0 10px; }
+.event-series__copy p { font-size: 14.5px; line-height: 1.6; color: #444; margin: 0 0 10px; }
+.event-series__links { list-style: none; padding: 0; margin: 14px 0 0; }
+.event-series__links li { margin-bottom: 6px; }
+.event-series__links a { font-size: 14px; font-weight: 600; color: var(--font-dark-link); text-decoration: none; }
+.event-series__links a:hover { text-decoration: underline; }
+</style>

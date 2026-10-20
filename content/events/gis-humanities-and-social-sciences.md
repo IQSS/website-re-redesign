@@ -3,7 +3,7 @@ title: "GIS for Humanities and Social Sciences"
 date: 2026-05-28
 draft: false
 type: "page"
-layout: "resource-page"
+layout: "event"
 hero_image: ""
 subtitle: "Event Details"
 event_date: 2025-12-05
@@ -11,15 +11,6 @@ event_time: "9:30 AM – 4:30 PM EST"
 event_location: "CGIS South, room S020"
 event_type: "Workshops, Seminars, & Classes"
 ---
-
-## GIS for Humanities and Social Sciences
-
-**Date:** December 5, 2025
-
-**Time:** 9:30 AM – 4:30 PM EST
-
-**Location:** CGIS South, room S020
-
 Full-day hands-on workshop on GIS and mapping techniques for humanities and social sciences research.
 
 **Presenter:** Jeff Blossom, Center for Geographic Analysis

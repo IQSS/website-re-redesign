@@ -3,7 +3,7 @@ title: "Large Data Support in Harvard Dataverse"
 date: 2026-05-28
 draft: false
 type: "page"
-layout: "resource-page"
+layout: "event"
 hero_image: ""
 subtitle: "Event Details"
 event_date: 2025-03-26
@@ -11,15 +11,6 @@ event_time: "12:00 PM – 1:00 PM EDT"
 event_location: "Virtual via Zoom"
 event_type: "Research Technology Training"
 ---
-
-## Large Data Support in Harvard Dataverse
-
-**Date:** March 26, 2025
-
-**Time:** 12:00 PM – 1:00 PM EDT
-
-**Location:** Virtual via Zoom
-
 This webinar covers Harvard Dataverse Repository new services for stewardship and archiving of large-scale research data. It highlights scalable, sustainable solutions using advanced storage for researchers, institutions, and groups handling large and complex datasets, offering a comprehensive and cost-effective approach to this service.
 
 **Presenter:** Sonia Barbosa and Leonid Andreev, The Dataverse Project, IQSS

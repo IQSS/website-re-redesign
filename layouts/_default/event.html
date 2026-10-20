@@ -1,0 +1,116 @@
+{{ define "main" }}
+{{/* Event page, following the structure iq.harvard.edu uses:
+
+       h1              the event title
+       metadata box    Date and Time / Location, pale panel, small labels
+       h2              this week's sections (Speaker & Title, Abstract)
+       series band     shared boilerplate, visually subordinate
+
+     Date, time and location are rendered here from front matter rather than
+     repeated in the body — previously every event page printed its title
+     twice, its date twice, and the series blurb twice, which is what made
+     these pages confusing to read. */}}
+<div class="event-page">
+    <div class="rp-header">
+        <div class="container">
+            <h1>{{ .Title }}</h1>
+        </div>
+    </div>
+
+    <nav aria-label="Breadcrumb" class="rp-breadcrumb">
+        <div class="container">
+            <ol style="list-style:none;display:flex;gap:6px;align-items:center;padding:0;margin:0;">
+                <li><a href="{{ .Site.Home.RelPermalink }}">Home</a></li>
+                <li aria-hidden="true" style="color:#999;">&rsaquo;</li>
+                <li><a href="{{ "events/" | relURL }}">Events</a></li>
+                <li aria-hidden="true" style="color:#999;">&rsaquo;</li>
+                <li><span aria-current="page">{{ .Title }}</span></li>
+            </ol>
+        </div>
+    </nav>
+
+    <div class="event-main">
+        <div class="container">
+            {{/* Metadata is a description list, not headings: these are labels
+                 for values, and making them headings would clutter the outline
+                 that screen-reader users navigate by. */}}
+            <dl class="event-meta-panel">
+                {{ if or .Params.event_date .Params.event_schedule .Params.event_time }}
+                <div class="event-meta-group">
+                    <dt>Date and Time</dt>
+                    {{ with .Params.event_date }}
+                    <dd class="event-meta-strong">
+                        <time datetime="{{ (time .).Format "2006-01-02" }}">{{ (time .).Format "January 2, 2006" }}</time>{{ with $.Params.event_end_date }} &ndash; <time datetime="{{ (time .).Format "2006-01-02" }}">{{ (time .).Format "January 2, 2006" }}</time>{{ end }}
+                    </dd>
+                    {{ end }}
+                    {{ with .Params.event_schedule }}<dd class="event-meta-strong">{{ . }}</dd>{{ end }}
+                    {{ with .Params.event_time }}<dd>{{ . }}</dd>{{ end }}
+                </div>
+                {{ end }}
+                {{ with .Params.event_location }}
+                <div class="event-meta-group">
+                    <dt>Location</dt>
+                    <dd class="event-meta-strong">{{ . }}</dd>
+                </div>
+                {{ end }}
+                {{ with .Params.event_type }}
+                <div class="event-meta-group">
+                    <dt>Event Type</dt>
+                    <dd>{{ . }}</dd>
+                </div>
+                {{ end }}
+            </dl>
+
+            <div class="event-body">
+                {{ .Content }}
+            </div>
+
+            {{ partial "event-series-footer.html" . }}
+        </div>
+    </div>
+</div>
+
+<style>
+.event-main { padding: 36px 0 60px; }
+.event-main .container { max-width: 860px; }
+
+/* Metadata panel: pale, boxed, labels small and quiet, values carrying the weight */
+.event-meta-panel {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    gap: 22px 36px;
+    background: var(--bg-light-base);
+    border-radius: 8px;
+    padding: 22px 26px;
+    margin: 0 0 32px;
+}
+.event-meta-group dt {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #5a6b7d;
+    margin-bottom: 6px;
+}
+.event-meta-group dd { margin: 0 0 2px; font-size: 15px; color: #444; line-height: 1.5; }
+.event-meta-strong { font-weight: 600; color: var(--font-dark-text) !important; }
+
+/* This week's content. h2 here is the event's own material and carries the
+   most weight after the title; the series band below is deliberately lighter. */
+.event-body h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--font-dark-text);
+    margin: 28px 0 10px;
+}
+.event-body h2:first-child { margin-top: 0; }
+.event-body h3 { font-size: 17px; font-weight: 600; margin: 20px 0 8px; }
+.event-body p { font-size: 16px; line-height: 1.7; color: #444; margin-bottom: 14px; }
+.event-body a { color: var(--font-dark-link); }
+
+@media (max-width: 600px) {
+    .event-meta-panel { grid-template-columns: 1fr; gap: 18px; padding: 18px 20px; }
+    .event-main { padding: 24px 0 40px; }
+}
+</style>
+{{ end }}

@@ -3,17 +3,12 @@ title: "Introduction to Metadata in Dataverse Repositories: For Installation Adm
 date: 2026-05-28
 draft: false
 type: "page"
-layout: "resource-page"
+layout: "event"
 hero_image: ""
 subtitle: "Event Details"
 event_location: "Virtual"
 event_type: "Research Technology Training"
 ---
-
-## Introduction to Metadata in Dataverse Repositories: For Installation Administrators
-
-**Location:** Virtual
-
 Learn how Dataverse helps installation administrators customize metadata for their repositories.
 
 <a href="https://support.dataverse.harvard.edu/event/introduction-metadata-dataverse-repositories-installation-administrators" class="cta-button" target="_blank">Register</a>

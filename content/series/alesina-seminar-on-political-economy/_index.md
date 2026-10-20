@@ -26,6 +26,34 @@ organizers:
   - "James Snyder"
   - "Marco Tabellini"
   - "David Yang"
+
+# TODO (Liz, 2026-10-20): Faculty Sponsors.
+#
+# The live seminar page carries a "Faculty Sponsors" section below the
+# organizing committee: a 3-up grid of people cards, each with a
+# headshot, the person's name linking to /people/<slug>, their
+# professional title and an email. These are the faculty who run the
+# series, so the section belongs here.
+#
+# It must be AGGREGATED from the people content the way the event lists
+# are aggregated from the events, not typed in here. That is blocked on
+# the People section becoming usable: all 1,075 files under
+# content/people/ are raw scraped Drupal markup carrying only title,
+# draft, date, source_url and section. There is no headshot, role,
+# email or affiliation field to aggregate on, and nothing tying a
+# person to a series.
+#
+# What unblocks it:
+#   1. structured front matter on people pages (headshot, role, email)
+#   2. a tag linking a person to a series, so this page can select them
+#   3. a partial rendering the card grid, called from term.html
+#
+# All six currently live sponsors already exist as files:
+#   dani_rodrik, david_y_yang, james_snyder, marco_tabellini,
+#   pia_raffler, vincent_pons
+#
+# Note the sponsors are NOT the same list as organizers above -- live
+# shows eight organizers and six sponsors (no Buisseret, no Frieden).
 ---
 
 The Faculty of Arts and Sciences and IQSS sponsor this seminar on formal and quantitative political research. The Alberto Alesina Seminar on Political Economy (PE) supports research-related activities that integrate the study of economics and politics, whether by studying economic behavior in the political process or political behavior in the marketplace. In general, positive political economy is concerned with showing how observed differences among institutions affect political and economic outcomes in various social, economic, and political systems and how the institutions themselves change and develop in response to individual and collective beliefs, preferences, and strategies. All interested faculty and students are invited to attend.

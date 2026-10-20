@@ -115,3 +115,9 @@ with itself here; tell me which spelling should win.
   (double hyphen). This is Hugo's own slugification of the ampersand.
   It is not a divergence from live -- live has no term URLs at all, only
   calendar filters keyed by numeric ID.
+- The Alesina series page is missing its Faculty Sponsors grid. That
+  section aggregates people, so it is blocked on the People section:
+  all 1,075 files in content/people/ are raw scraped Drupal markup with
+  only title, draft, date, source_url and section in front matter --
+  no headshot, role, email or series link to select on. Details and the
+  unblocking steps are in the series page's own front matter.

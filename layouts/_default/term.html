@@ -5,13 +5,6 @@
      series. Nothing here is hand-maintained. */}}
 {{ $sets := partial "event-sets.html" (dict "pages" .Pages) }}
 <div class="resource-page">
-    <div class="rp-header">
-        <div class="container">
-            <h1>{{ .Title }}{{ with .Params.course_number }} <span class="term-course">({{ . }})</span>{{ end }}</h1>
-            {{ with .Params.meets }}<p class="rp-subtitle">Meets {{ . }}</p>{{ end }}
-        </div>
-    </div>
-
     <nav aria-label="Breadcrumb" class="rp-breadcrumb">
         <div class="container">
             <ol style="list-style:none;display:flex;gap:6px;align-items:center;padding:0;margin:0;">
@@ -23,6 +16,13 @@
             </ol>
         </div>
     </nav>
+
+    <div class="rp-header">
+        <div class="container">
+            <h1>{{ .Title }}{{ with .Params.course_number }} <span class="term-course">({{ . }})</span>{{ end }}</h1>
+            {{ with .Params.meets }}<p class="rp-subtitle">Meets {{ . }}</p>{{ end }}
+        </div>
+    </div>
 
     <div class="rp-content">
         <div class="container">

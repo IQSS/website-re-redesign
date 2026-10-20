@@ -1,6 +1,11 @@
 {{ define "main" }}
 <div class="resource-page">
-    <!-- Hero Section -->
+    {{/* Breadcrumb placement — M-06: semantic nav with ol and aria-current.
+         It sits above the title, directly under the primary menu. The 14
+         pages with a hero are the exception: a hero is full-bleed and butts
+         straight up against the menu, so a breadcrumb band above it would
+         reopen the gap that the main:has(.rp-hero) rule exists to close.
+         There it goes below the hero instead. */}}
     {{ if .Params.hero_image }}
     <div class="rp-hero">
         <div class="rp-hero-image">
@@ -13,7 +18,9 @@
             </div>
         </div>
     </div>
+    {{ partial "breadcrumb-resource.html" . }}
     {{ else }}
+    {{ partial "breadcrumb-resource.html" . }}
     <div class="rp-header">
         <div class="container">
             <h1>{{ .Title }}</h1>
@@ -21,29 +28,6 @@
         </div>
     </div>
     {{ end }}
-
-    <!-- Breadcrumb — M-06: semantic nav with ol and aria-current -->
-    <nav aria-label="Breadcrumb" class="rp-breadcrumb">
-        <div class="container">
-            <ol style="list-style:none;display:flex;gap:6px;align-items:center;padding:0;margin:0;">
-                <li><a href="{{ .Site.Home.RelPermalink }}">Home</a></li>
-                <li aria-hidden="true" style="color:#999;">&rsaquo;</li>
-                {{/* Derive the parent from where the page actually lives. This
-                     used to hardcode "Research Resources", which was right for
-                     the 17 pages under research-resources/ and wrong for the
-                     other 538 using this layout — news items, people profiles,
-                     events, and top-level pages like Our Impact. Pages sitting
-                     at the root have the home page as their parent, so they
-                     get no middle crumb at all. */}}
-                {{ $parent := .Parent }}
-                {{ if and $parent (ne $parent.RelPermalink .Site.Home.RelPermalink) }}
-                <li><a href="{{ $parent.RelPermalink }}">{{ $parent.Title }}</a></li>
-                <li aria-hidden="true" style="color:#999;">&rsaquo;</li>
-                {{ end }}
-                <li><span aria-current="page">{{ .Title }}</span></li>
-            </ol>
-        </div>
-    </nav>
 
     <!-- Main Content -->
     <div class="rp-content">
@@ -147,7 +131,7 @@
 }
 
 .rp-content {
-    padding: 60px 0;
+    padding: 60px 0 0;
 }
 
 .rp-content .container {
@@ -401,7 +385,7 @@
     }
 
     .rp-content {
-        padding: 40px 0;
+        padding: 40px 0 0;
     }
 
     .rp-content .card-grid {

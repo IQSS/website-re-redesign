@@ -1,12 +1,5 @@
 {{ define "main" }}
 <div class="resource-page">
-    <div class="rp-header">
-        <div class="container">
-            <h1>{{ .Title }}</h1>
-            {{ with .Params.subtitle }}<p class="rp-subtitle">{{ . }}</p>{{ end }}
-        </div>
-    </div>
-
     <nav aria-label="Breadcrumb" class="rp-breadcrumb"><!-- M-06 -->
         <div class="container">
             <ol style="list-style:none;display:flex;gap:6px;align-items:center;padding:0;margin:0;">
@@ -16,6 +9,13 @@
             </ol>
         </div>
     </nav>
+
+    <div class="rp-header">
+        <div class="container">
+            <h1>{{ .Title }}</h1>
+            {{ with .Params.subtitle }}<p class="rp-subtitle">{{ . }}</p>{{ end }}
+        </div>
+    </div>
 
     <div class="rp-content">
         <div class="container">
@@ -46,7 +46,7 @@
 .rp-breadcrumb a:hover { text-decoration: underline; }
 .rp-breadcrumb span { color: #666; }
 
-.rp-content { padding: 60px 0; }
+.rp-content { padding: 60px 0 0; }
 .rp-content .container { max-width: 1000px; }
 
 .rp-content h2 {
@@ -100,7 +100,7 @@
 
 @media (max-width: 768px) {
     .rp-header h1 { font-size: 30px; }
-    .rp-content { padding: 35px 0; }
+    .rp-content { padding: 35px 0 0; }
     .rp-content .card-grid { grid-template-columns: 1fr; }
 }
 </style>

@@ -291,6 +291,16 @@
             padding-top: 0;
         }
 
+        /* Same reasoning for pages that open with a breadcrumb: it belongs
+           directly under the primary menu, so main's 40px of breathing room
+           above it reads as dead space. The breadcrumb supplies its own
+           padding. Hero pages don't match — there the breadcrumb follows the
+           hero rather than opening the page — so the rule above still owns
+           them and the two never fight. */
+        main:has(> div > .rp-breadcrumb:first-child) {
+            padding-top: 0;
+        }
+
         /* Hero Section */
         .hero {
             background: linear-gradient(135deg, var(--orange-brand) 0%, #B8460A 100%);
@@ -408,7 +418,10 @@
             background: var(--harvard-black);
             color: #ccc;
             padding: 40px 0 20px 0;
-            margin-top: 60px;
+            /* Was 60px. Page layouts already end with their own bottom
+               padding, so the two stacked into a wide band of dead white
+               above the dark footer -- 160px on an event page. */
+            margin-top: 32px;
         }
 
         .footer-content {

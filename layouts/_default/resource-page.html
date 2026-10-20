@@ -49,6 +49,10 @@
     <div class="rp-content">
         <div class="container">
             {{ .Content }}
+            {{/* Shared series boilerplate. Renders only for pages carrying a
+                 `series` param, so the ~500 non-event pages on this layout are
+                 unaffected. The copy itself lives in content/series/<term>/. */}}
+            {{ partial "event-series-footer.html" . }}
         </div>
     </div>
 </div>

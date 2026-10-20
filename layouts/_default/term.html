@@ -1,0 +1,92 @@
+{{ define "main" }}
+{{/* Series term page: the boilerplate from this term's _index.md, followed by
+     its events aggregated live from content. Mirrors how iq.harvard.edu builds
+     its Alesina page, which is a term page listing everything tagged with the
+     series. Nothing here is hand-maintained. */}}
+{{ $sets := partial "event-sets.html" (dict "pages" .Pages) }}
+<div class="resource-page">
+    <div class="rp-header">
+        <div class="container">
+            <h1>{{ .Title }}{{ with .Params.course_number }} <span class="term-course">({{ . }})</span>{{ end }}</h1>
+            {{ with .Params.meets }}<p class="rp-subtitle">Meets {{ . }}</p>{{ end }}
+        </div>
+    </div>
+
+    <nav aria-label="Breadcrumb" class="rp-breadcrumb">
+        <div class="container">
+            <ol style="list-style:none;display:flex;gap:6px;align-items:center;padding:0;margin:0;">
+                <li><a href="{{ .Site.Home.RelPermalink }}">Home</a></li>
+                <li aria-hidden="true" style="color:#999;">&rsaquo;</li>
+                <li><a href="{{ "events/" | relURL }}">Events</a></li>
+                <li aria-hidden="true" style="color:#999;">&rsaquo;</li>
+                <li><span aria-current="page">{{ .Title }}</span></li>
+            </ol>
+        </div>
+    </nav>
+
+    <div class="rp-content">
+        <div class="container">
+            {{ with .Content }}{{ . }}{{ end }}
+
+            <h2>Upcoming</h2>
+            {{ with $sets.upcoming }}
+            <div class="events-list">
+                {{ range . }}
+                {{ $d := time .Params.event_date }}
+                <div class="event-item">
+                    <div class="event-date-box">
+                        <span class="event-month">{{ $d.Format "Jan" | upper }}</span>
+                        <span class="event-day">{{ $d.Format "2" }}{{ with .Params.event_end_date }}&ndash;{{ (time .).Format "2" }}{{ end }}</span>
+                    </div>
+                    <div class="event-details">
+                        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+                        {{ with .Params.event_time }}<p class="event-time">{{ . }}</p>{{ end }}
+                        {{ with .Params.event_location }}<p class="event-time">{{ . }}</p>{{ end }}
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+            {{ else }}
+            <p>No upcoming sessions are currently scheduled.</p>
+            {{ end }}
+
+            {{ with $sets.past }}
+            <h2>Past Sessions</h2>
+            <div class="events-list">
+                {{ range first 12 . }}
+                {{ $d := time .Params.event_date }}
+                <div class="event-item">
+                    <div class="event-date-box event-date-box--past">
+                        <span class="event-month">{{ $d.Format "Jan" | upper }}</span>
+                        <span class="event-day">{{ $d.Format "2" }}{{ with .Params.event_end_date }}&ndash;{{ (time .).Format "2" }}{{ end }}</span>
+                    </div>
+                    <div class="event-details">
+                        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+                        <p class="event-time">{{ $d.Format "January 2, 2006" }}</p>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+            {{ end }}
+
+            <ul class="event-series__links">
+                {{ with .Params.mailing_list }}
+                <li><a href="{{ . }}" target="_blank" rel="noopener noreferrer">{{ $.Params.mailing_list_label | default "Join the mailing list" }}<span class="sr-only"> (opens in new tab)</span> &nearr;</a></li>
+                {{ end }}
+                {{ with .Params.series_page }}
+                <li><a href="{{ . }}" target="_blank" rel="noopener noreferrer">{{ $.Params.series_page_label | default "Series page" }}<span class="sr-only"> (opens in new tab)</span> &nearr;</a></li>
+                {{ end }}
+                <li><a href="{{ "events/" | relURL }}">All IQSS events &rarr;</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<style>
+.term-course { font-weight: 300; opacity: 0.85; }
+.event-series__links { list-style: none; padding: 0; margin: 28px 0 0; }
+.event-series__links li { margin-bottom: 8px; }
+.event-series__links a { color: var(--font-dark-link); font-weight: 500; text-decoration: none; }
+.event-series__links a:hover { text-decoration: underline; }
+</style>
+{{ end }}

@@ -1,0 +1,36 @@
+{{- /*
+  Splits a set of event pages into upcoming / past / ongoing against today.
+
+  Single source of this logic: the homepage, the Events landing page and each
+  series term page all call this, so an event appears or disappears from every
+  list on the same day without anyone editing a template. Pages with no
+  event_date are recurring or on-demand sessions and sort into "ongoing".
+
+  Usage:
+    {{ $sets := partial "event-sets.html" (dict "pages" $somePages) }}
+    {{ $sets.upcoming }} {{ $sets.past }} {{ $sets.ongoing }}
+
+  "pages" is optional; it defaults to every page in the events section.
+*/ -}}
+{{- $today := now.Format "2006-01-02" -}}
+{{- $src := .pages -}}
+{{- if not $src -}}
+  {{- $src = where site.RegularPages "Section" "events" -}}
+{{- end -}}
+{{- $upcoming := slice -}}
+{{- $past := slice -}}
+{{- $ongoing := slice -}}
+{{- range $src -}}
+  {{- if .Params.event_date -}}
+    {{- if ge ((time .Params.event_date).Format "2006-01-02") $today -}}
+      {{- $upcoming = $upcoming | append . -}}
+    {{- else -}}
+      {{- $past = $past | append . -}}
+    {{- end -}}
+  {{- else -}}
+    {{- $ongoing = $ongoing | append . -}}
+  {{- end -}}
+{{- end -}}
+{{- if $upcoming -}}{{- $upcoming = sort $upcoming "Params.event_date" "asc" -}}{{- end -}}
+{{- if $past -}}{{- $past = sort $past "Params.event_date" "desc" -}}{{- end -}}
+{{- return (dict "upcoming" $upcoming "past" $past "ongoing" $ongoing) -}}

@@ -324,60 +324,33 @@
         {{/* Two-column tile grid, collapsing to single-column bands on small
              screens. Sized for up to 12 tiles; currently six, which is every
              upcoming event the live site lists. */}}
+        {{/* Aggregated from content/events/ via the same partial the Events
+             landing page and the series pages use, so all three stay in step
+             without anyone hand-editing a list. Shows the next six upcoming;
+             the two-column grid holds up to twelve. */}}
+        {{ $sets := partial "event-sets.html" (dict) }}
+        {{ with $sets.upcoming }}
         <div class="events-grid">
+            {{ range first 6 . }}
+            {{ $d := time .Params.event_date }}
             <div class="event-tile">
-                <time datetime="2026-10-15" class="event-date"><span aria-hidden="true">OCT</span><span class="sr-only">October </span><span class="event-day">15</span></time>
+                <time datetime="{{ $d.Format "2006-01-02" }}" class="event-date">
+                    <span aria-hidden="true">{{ $d.Format "Jan" | upper }}</span>
+                    <span class="sr-only">{{ $d.Format "January" }} </span>
+                    <span class="event-day">{{ $d.Format "2" }}{{ with .Params.event_end_date }}&ndash;{{ (time .).Format "2" }}{{ end }}</span>
+                </time>
                 <div class="event-body">
-                    <span class="event-mode">In Person</span>
-                    <div class="event-title">Elliott Ash (Alesina Seminar)</div>
-                    <div class="event-meta">3:00 PM – 4:15 PM EDT</div>
-                    <div class="event-meta">Baker Library/Bloomberg Center, Classroom 102</div>
+                    {{ with .Params.event_type }}<span class="event-mode">{{ . }}</span>{{ end }}
+                    <div class="event-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
+                    {{ with .Params.event_time }}<div class="event-meta">{{ . }}</div>{{ end }}
+                    {{ with .Params.event_location }}<div class="event-meta">{{ . }}</div>{{ end }}
                 </div>
             </div>
-            <div class="event-tile">
-                <time datetime="2026-10-16" class="event-date"><span aria-hidden="true">OCT</span><span class="sr-only">October </span><span class="event-day">16</span></time>
-                <div class="event-body">
-                    <span class="event-mode">In Person</span>
-                    <div class="event-title">Geocoding with ArcGIS</div>
-                    <div class="event-meta">1:00 PM – 3:00 PM EDT</div>
-                    <div class="event-meta">CGIS Knafel Building, Room SB-12 (sub-basement)</div>
-                </div>
-            </div>
-            <div class="event-tile">
-                <time datetime="2026-10-20" class="event-date"><span aria-hidden="true">OCT</span><span class="sr-only">October </span><span class="event-day">20</span></time>
-                <div class="event-body">
-                    <span class="event-mode">Hybrid</span>
-                    <div class="event-title">Sam Fuller (APRW)</div>
-                    <div class="event-meta">12:00 PM – 2:00 PM EDT</div>
-                    <div class="event-meta">CGIS Knafel room K354</div>
-                </div>
-            </div>
-            <div class="event-tile">
-                <time datetime="2026-10-21" class="event-date"><span aria-hidden="true">OCT</span><span class="sr-only">October </span><span class="event-day">21</span></time>
-                <div class="event-body">
-                    <div class="event-title">Dataverse Office Hours</div>
-                    <div class="event-meta">12:00 PM – 1:00 PM EDT</div>
-                </div>
-            </div>
-            <div class="event-tile">
-                <time datetime="2026-10-21" class="event-date"><span aria-hidden="true">OCT</span><span class="sr-only">October </span><span class="event-day">21</span></time>
-                <div class="event-body">
-                    <span class="event-mode">Hybrid</span>
-                    <div class="event-title">Souhardya Sengupta (Applied Stats Workshop)</div>
-                    <div class="event-meta">12:00 PM – 1:30 PM EDT</div>
-                    <div class="event-meta">CGIS Knafel Building, Room K354</div>
-                </div>
-            </div>
-            <div class="event-tile">
-                <time datetime="2026-10-22" class="event-date"><span aria-hidden="true">OCT</span><span class="sr-only">October </span><span class="event-day">22</span></time>
-                <div class="event-body">
-                    <span class="event-mode">In Person</span>
-                    <div class="event-title">Andrea Galeotti (Alesina Seminar)</div>
-                    <div class="event-meta">3:00 PM – 4:15 PM EDT</div>
-                    <div class="event-meta">Baker Library/Bloomberg Center, Classroom 102</div>
-                </div>
-            </div>
+            {{ end }}
         </div>
+        {{ else }}
+        <p>No upcoming events are currently scheduled. <a href="{{ "calendar/" | relURL }}">See the calendar</a> for the latest listings.</p>
+        {{ end }}
     </div>
 </div>
 

@@ -6,6 +6,10 @@ title = 'Harvard Institute for Quantitative Social Science'
   subtitle = 'Harvard Institute for Quantitative Social Science Archive'
   description = 'A comprehensive archive and clone of the IQSS website content'
   author = 'IQSS Archive'
+  # Prototype only: adds a robots noindex tag to every page so this copy
+  # doesn't compete with iq.harvard.edu in search results. Set to false
+  # (or delete) when this site becomes the official one.
+  noindex = true
 
 summaryLength = 40
 
@@ -13,6 +17,16 @@ summaryLength = 40
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+# Taxonomies. tag and category are Hugo's defaults and are restated here
+# because declaring this block replaces them; one page uses each. `series`
+# groups events into their recurring series (Alesina, APRW, Applied Stats),
+# which is how iq.harvard.edu does it — its Alesina page is literally a
+# term page reading "Content tagged with Alesina Seminar on Political Economy".
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  series = "series"
 
 # ── Menu ───────────────────────────────────────────────────────────────
 # Mirrors the information architecture of iq.harvard.edu, which was built

@@ -1,0 +1,37 @@
+{{- /*
+  Renders the shared boilerplate for whichever series an event belongs to.
+
+  The copy lives in exactly one place per series — content/series/<term>/_index.md —
+  and this partial pulls it onto every event page tagged with that series. Edit
+  the series page once and every event in it updates, which is the behaviour the
+  old site's footer text widgets provided.
+
+  Renders nothing for pages with no series, so it is safe to include from
+  resource-page.html, which also serves ~500 non-event pages.
+*/ -}}
+{{- with .Params.series -}}
+  {{- range . -}}
+    {{- $term := site.GetPage (printf "/series/%s" (urlize .)) -}}
+    {{- with $term }}
+    <aside class="event-series" aria-labelledby="series-{{ urlize .Title }}">
+        <h2 class="event-series__title" id="series-{{ urlize .Title }}">
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ with .Params.course_number }} <span class="event-series__course">({{ . }})</span>{{ end }}
+        </h2>
+
+        {{ with .Params.meets }}<p class="event-series__meets">Meets {{ . }}</p>{{ end }}
+
+        {{ with .Content }}<div class="event-series__copy">{{ . }}</div>{{ end }}
+
+        <ul class="event-series__links">
+            <li><a href="{{ .RelPermalink }}">All {{ .Params.short_name | default .Title }} events &rarr;</a></li>
+            {{ with .Params.mailing_list }}
+            <li><a href="{{ . }}" target="_blank" rel="noopener noreferrer">{{ $.Page.Params.mailing_list_label | default ($term.Params.mailing_list_label | default "Join the mailing list") }}<span class="sr-only"> (opens in new tab)</span> &nearr;</a></li>
+            {{ end }}
+            {{ with .Params.series_page }}
+            <li><a href="{{ . }}" target="_blank" rel="noopener noreferrer">{{ $term.Params.series_page_label | default "Series page" }}<span class="sr-only"> (opens in new tab)</span> &nearr;</a></li>
+            {{ end }}
+        </ul>
+    </aside>
+    {{- end -}}
+  {{- end -}}
+{{- end -}}

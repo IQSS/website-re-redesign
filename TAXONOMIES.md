@@ -66,6 +66,11 @@ The /events landing page lists all of these except Data Visualization.
 |---|---|
 | Political Economy Seminar | 51 |
 
+This is the Alesina Seminar under its former name: the Political Economy
+Seminar was renamed in Alberto Alesina's memory. It is the same series
+as the Program term "Alesina Seminar on Political Economy", so do not
+model it as a second series.
+
 ## Not on the live site
 
 `series` is ours, not theirs. The live site has no series vocabulary:

@@ -10,14 +10,6 @@ series_page: "https://www.iq.harvard.edu/program-political-economy"
 series_page_label: "Alesina Seminar page"
 ---
 
-<!-- AWAITING COPY FROM LIZ.
+The Faculty of Arts and Sciences and IQSS sponsor this seminar on formal and quantitative political research. The Alberto Alesina Seminar on Political Economy (PE) supports research-related activities that integrate the study of economics and politics, whether by studying economic behavior in the political process or political behavior in the marketplace. In general, positive political economy is concerned with showing how observed differences among institutions affect political and economic outcomes in various social, economic, and political systems and how the institutions themselves change and develop in response to individual and collective beliefs, preferences, and strategies. All interested faculty and students are invited to attend.
 
-     This series has no description or meeting schedule because no source
-     provided one. The live site's Alesina page is a bare term listing with
-     no descriptive text, and the event pages carry only the mailing list
-     and series links (both captured in the front matter above).
-
-     A `meets:` value and a body paragraph were written here and have been
-     removed: the schedule was inferred from a single Thursday event, which
-     does not establish a recurring pattern, and the paragraph had no source
-     at all. The band renders correctly without them. -->
+Note: All seminars are in person only, either in the Littauer Center or the Knafel Building. Please see the calendar event or subscribe to the mailing list to confirm location.

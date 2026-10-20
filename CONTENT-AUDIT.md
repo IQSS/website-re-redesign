@@ -54,12 +54,17 @@ Research Technology and Service (see TAXONOMIES.md). On live:
 - "Alesina Seminar on Political Economy" is a **Program** term;
 - "Political Economy Seminar" is a **Service** term.
 
-You asked for a single-source boilerplate widget, so the series
-taxonomy is how that was built. But it means
-`/series/american-politics-research-workshop/` and
-`/series/applied-statistics-workshop/` are pages that have no live
-equivalent. Decide whether you want those URLs to exist, or whether the
-boilerplate should attach to Program instead.
+DECIDED 2026-10-20 (Liz): keep it. A series is a valid grouping for
+Alesina, Applied Stats and APRW, and the boilerplate stays attached to
+the series taxonomy rather than moving to Program. The /series/ URLs
+having no live equivalent is accepted.
+
+Liz also confirmed that the live Service term "Political Economy
+Seminar" (51 events) and the Program term "Alesina Seminar on Political
+Economy" (129) are the same seminar under its former name -- it was
+renamed in Alberto Alesina's memory. So there is no second political
+economy series to model, and the Service vocabulary needs no term of
+its own here.
 
 **"Ongoing & On-Demand" as a section** is also ours. Live has no
 equivalent grouping; undated recurring sessions simply don't appear in
@@ -72,7 +77,7 @@ All of this is ours as *labels*, though the URLs it points at are real:
 - short_name values: "APRW", "Applied Stats", "Alesina Seminar"
 - "Sign up for the APRW mailing list" -- matches live verbatim
 - "Join the Applied Stats mailing list" -- matches live verbatim
-- "Subscribe to the Alesina Seminar mailing list" -- OURS, no live source
+- "Subscribe to the Alesina Seminar mailing list" -- matches live verbatim
 - "Alesina Seminar page" -- OURS, no live source
 - course_number "Gov 3004" / "Gov 3009" -- from live boilerplate text
 
@@ -82,11 +87,22 @@ affiliates are invited to attend. Lunch will be provided."
 
 ## 5. Awaiting your copy
 
-`content/series/alesina-seminar-on-political-economy/_index.md` has no
-description and no meeting schedule. Earlier drafts had both; both were
-invented and have been removed. The live Alesina listing carries no
-descriptive text, so there is nothing to migrate. The band renders
-correctly without it, but it is thinner than the other two series.
+RESOLVED 2026-10-20. The Alesina description is now migrated verbatim
+from https://www.iq.harvard.edu/program-political-economy (its first two
+paragraphs). My earlier note here was wrong: I had checked the Alesina
+term listing, which is bare, and not the seminar page, which carries
+full copy.
+
+Still not migrated, by choice: that page's "About the Seminar" history
+(two paragraphs on Alberto Alesina and the renaming) and the Seminar
+Organizing Committee list. The series band prints on every event page,
+so putting the history there would repeat it on all of them. It belongs
+on the series page alone if you want it.
+
+Open question for Liz: the seminar's own page is titled "Alberto Alesina
+Seminar on Political Economy", but the Program taxonomy term on the same
+site drops "Alberto". We follow the taxonomy term. Live is inconsistent
+with itself here; tell me which spelling should win.
 
 ## 6. Tagging gaps, not copy
 

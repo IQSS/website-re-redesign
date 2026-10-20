@@ -9,4 +9,6 @@ mailing_list: "https://web.lists.fas.harvard.edu/mailman/lists/gov3004-list.list
 mailing_list_label: "Sign up for the APRW mailing list"
 ---
 
-The American Politics Research Workshop (Gov 3004) meets all academic year, Tuesdays, 12:00–2:00 PM, in CGIS K354. This workshop presents an opportunity for graduate students and Harvard faculty to present and receive feedback on their current research.
+The American Politics Research Workshop (Gov 3004) meets all academic year, Tuesdays, 12:00–2:00 PM, in CGIS K354. This workshop presents an opportunity for graduate students and Harvard faculty to present and receive feedback on their current research. The workshop highlights key theoretical and empirical findings from Harvard affiliates on topics related to American politics.
+
+All interested Harvard affiliates are invited to attend. Lunch will be provided.

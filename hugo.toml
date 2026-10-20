@@ -29,6 +29,8 @@ summaryLength = 40
   series = "series"
   event_type = "event-type"
   program = "program"
+  research_technology = "research-technology"
+  service = "service"
 
 # ── Menu ───────────────────────────────────────────────────────────────
 # Mirrors the information architecture of iq.harvard.edu, which was built

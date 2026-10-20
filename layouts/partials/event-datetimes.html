@@ -1,0 +1,98 @@
+{{- /*
+  Turns an event's front matter into calendar-ready timestamps.
+
+  Single source for both the "Add to calendar" links and the .ics feed, so a
+  Google link and a downloaded file can never disagree about when an event is.
+
+  event_time is free text written for people to read -- "12:00 PM – 2:00 PM
+  EDT" -- so it is parsed here rather than stored twice in machine form. Every
+  dated event currently uses that one shape: a 12-hour start, an en dash, a
+  12-hour end, and an EST/EDT suffix. All IQSS events are America/New_York, so
+  the zone name in the string is display text; the zone is supplied separately
+  and the clock times are passed through as local wall time. That avoids any
+  EST/EDT arithmetic here -- the calendar client resolves the offset.
+
+  Multi-day events (event_end_date) become all-day entries. A ten-day
+  institute is not a single sitting from 9:30 on the first morning to 5:00 on
+  the last, which is what a timed range would claim.
+
+  Returns a dict:
+    ok        false when the event has no date, so callers render nothing
+    allday    true for multi-day events
+    start     "20260608"      (all-day) or "20260608T093000" (timed)
+    end       "20260619"      (all-day, exclusive per RFC 5545) or "...T170000"
+    tz        IANA zone name
+    isostart  "2026-10-20T12:00:00-04:00", timed events only, else ""
+    isoend    as above
+
+  The ISO pair is for Outlook's deep link, which takes an offset rather than a
+  zone name. The offset is read from the EST/EDT suffix the event_time string
+  already carries -- that suffix is the authoritative one copied from the live
+  site, so it is better evidence than re-deriving DST from the date.
+*/ -}}
+{{- $tz := "America/New_York" -}}
+{{- $date := .Params.event_date -}}
+{{- if not $date -}}
+  {{- return (dict "ok" false) -}}
+{{- end -}}
+
+{{- $endDate := .Params.event_end_date -}}
+{{- if $endDate -}}
+  {{- /* All-day: DTEND is exclusive, so the day after the last day. */ -}}
+  {{- $last := (time $endDate).AddDate 0 0 1 -}}
+  {{- return (dict
+        "ok" true "allday" true "tz" $tz
+        "start" ((time $date).Format "20060102")
+        "end" ($last.Format "20060102")) -}}
+{{- end -}}
+
+{{- $raw := .Params.event_time -}}
+{{- if not $raw -}}
+  {{- /* Dated but untimed: an all-day entry for that single day. */ -}}
+  {{- $next := (time $date).AddDate 0 0 1 -}}
+  {{- return (dict
+        "ok" true "allday" true "tz" $tz
+        "start" ((time $date).Format "20060102")
+        "end" ($next.Format "20060102")) -}}
+{{- end -}}
+
+{{- /* "12:00 PM – 2:00 PM EDT" -> "120000" / "140000" */ -}}
+{{- $halves := split $raw "–" -}}
+{{- if ne (len $halves) 2 -}}
+  {{- return (dict "ok" false) -}}
+{{- end -}}
+{{- $clock := slice -}}
+{{- range $halves -}}
+  {{- $fields := split (trim . " ") " " -}}
+  {{- $hm := index $fields 0 -}}
+  {{- $ap := upper (index $fields 1) -}}
+  {{- $hms := split $hm ":" -}}
+  {{- $h := int (index $hms 0) -}}
+  {{- $m := index $hms 1 -}}
+  {{- if and (eq $ap "PM") (ne $h 12) -}}{{- $h = add $h 12 -}}{{- end -}}
+  {{- if and (eq $ap "AM") (eq $h 12) -}}{{- $h = 0 -}}{{- end -}}
+  {{- $clock = $clock | append (printf "%02d%s00" $h $m) -}}
+{{- end -}}
+
+{{- /* Trailing zone token, e.g. the "EDT" in "... 2:00 PM EDT". */ -}}
+{{- $zoneFields := split (trim (index $halves 1) " ") " " -}}
+{{- $zone := "" -}}
+{{- if gt (len $zoneFields) 2 -}}{{- $zone = upper (index $zoneFields 2) -}}{{- end -}}
+{{- $offsets := dict "EST" "-05:00" "EDT" "-04:00" -}}
+{{- $offset := index $offsets $zone | default "" -}}
+
+{{- $day := (time $date).Format "20060102" -}}
+{{- $isoDay := (time $date).Format "2006-01-02" -}}
+{{- $isoStart := "" -}}
+{{- $isoEnd := "" -}}
+{{- if $offset -}}
+  {{- $hhmm := printf "%s:%s:00" (substr (index $clock 0) 0 2) (substr (index $clock 0) 2 2) -}}
+  {{- $hhmm2 := printf "%s:%s:00" (substr (index $clock 1) 0 2) (substr (index $clock 1) 2 2) -}}
+  {{- $isoStart = printf "%sT%s%s" $isoDay $hhmm $offset -}}
+  {{- $isoEnd = printf "%sT%s%s" $isoDay $hhmm2 $offset -}}
+{{- end -}}
+{{- return (dict
+      "ok" true "allday" false "tz" $tz
+      "start" (printf "%sT%s" $day (index $clock 0))
+      "end" (printf "%sT%s" $day (index $clock 1))
+      "isostart" $isoStart "isoend" $isoEnd) -}}

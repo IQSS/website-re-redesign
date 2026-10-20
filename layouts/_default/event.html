@@ -1,8 +1,10 @@
 {{ define "main" }}
 {{/* Event page, following the structure iq.harvard.edu uses:
 
+       breadcrumb      directly below the primary menu
        h1              the event title
-       metadata box    Date and Time / Location, pale panel, small labels
+       metadata box    Date and Time / Location / Event Type, pale panel
+       add to calendar
        h2              this week's sections (Speaker & Title, Abstract)
        series band     shared boilerplate, visually subordinate
 
@@ -11,13 +13,7 @@
      twice, its date twice, and the series blurb twice, which is what made
      these pages confusing to read. */}}
 <div class="event-page">
-    <div class="rp-header">
-        <div class="container">
-            <h1>{{ .Title }}</h1>
-        </div>
-    </div>
-
-    <nav aria-label="Breadcrumb" class="rp-breadcrumb">
+    <nav aria-label="Breadcrumb" class="rp-breadcrumb event-breadcrumb">
         <div class="container">
             <ol style="list-style:none;display:flex;gap:6px;align-items:center;padding:0;margin:0;">
                 <li><a href="{{ .Site.Home.RelPermalink }}">Home</a></li>
@@ -28,6 +24,12 @@
             </ol>
         </div>
     </nav>
+
+    <div class="rp-header">
+        <div class="container">
+            <h1>{{ .Title }}</h1>
+        </div>
+    </div>
 
     <div class="event-main">
         <div class="container">
@@ -53,13 +55,20 @@
                     <dd class="event-meta-strong">{{ . }}</dd>
                 </div>
                 {{ end }}
-                {{ with index .Params "event-type" }}
+                {{/* GetTerms rather than the raw param: it hands back the term
+                     pages, so each type links to everything else of that type
+                     and the URL comes from Hugo instead of being rebuilt here.
+                     That matters for "Workshops, Seminars & Classes", whose
+                     slug is not what string-munging the title would produce. */}}
+                {{ with .GetTerms "event-type" }}
                 <div class="event-meta-group">
                     <dt>Event Type</dt>
-                    <dd>{{ delimit . ", " }}</dd>
+                    <dd>{{ range $i, $t := . }}{{ if $i }}, {{ end }}<a href="{{ $t.RelPermalink }}">{{ $t.LinkTitle }}</a>{{ end }}</dd>
                 </div>
                 {{ end }}
             </dl>
+
+            {{ partial "event-add-to-calendar.html" . }}
 
             <div class="event-body">
                 {{ .Content }}
@@ -71,10 +80,16 @@
 </div>
 
 <style>
-.event-main { padding: 36px 0 60px; }
-.event-main .container { max-width: 860px; }
+.event-main { padding: 28px 0 60px; }
 
-/* Metadata panel: pale, boxed, labels small and quiet, values carrying the weight */
+/* The breadcrumb sits above the title, directly under the primary menu. */
+.event-breadcrumb { padding: 14px 0 0; font-size: 14px; }
+.event-breadcrumb a { color: var(--font-dark-link); text-decoration: none; }
+.event-breadcrumb a:hover { text-decoration: underline; }
+.event-page .rp-header { padding: 10px 0 0; }
+
+/* Metadata panel: pale, boxed, labels small and quiet, values carrying the
+   weight. It spans the full content width, aligned with the title above it. */
 .event-meta-panel {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
@@ -82,7 +97,7 @@
     background: var(--bg-light-base);
     border-radius: 8px;
     padding: 22px 26px;
-    margin: 0 0 32px;
+    margin: 0 0 20px;
 }
 .event-meta-group dt {
     font-size: 13px;
@@ -94,9 +109,59 @@
 }
 .event-meta-group dd { margin: 0 0 2px; font-size: 15px; color: #444; line-height: 1.5; }
 .event-meta-strong { font-weight: 600; color: var(--font-dark-text) !important; }
+.event-meta-group dd a { color: var(--font-dark-link); text-decoration: none; }
+.event-meta-group dd a:hover { text-decoration: underline; }
+
+/* Add to calendar: a disclosure, so it needs no script to open or close. */
+.addcal { position: relative; margin: 0 0 32px; display: inline-block; }
+.addcal > summary {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    list-style: none;
+    padding: 9px 16px;
+    border: 1px solid #c9d4e0;
+    border-radius: 6px;
+    background: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--font-dark-link);
+}
+.addcal > summary::-webkit-details-marker { display: none; }
+.addcal > summary::after { content: "\25BE"; font-size: 11px; opacity: 0.7; }
+.addcal[open] > summary::after { content: "\25B4"; }
+.addcal > summary:hover { background: var(--bg-light-base); }
+.addcal > summary:focus-visible { outline: 2px solid var(--font-dark-link); outline-offset: 2px; }
+.addcal__icon { width: 17px; height: 17px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; }
+.addcal__menu {
+    position: absolute;
+    z-index: 20;
+    top: calc(100% + 6px);
+    left: 0;
+    min-width: 250px;
+    margin: 0;
+    padding: 6px 0;
+    list-style: none;
+    background: #fff;
+    border: 1px solid #d8e0e8;
+    border-radius: 6px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+.addcal__menu a {
+    display: block;
+    padding: 9px 16px;
+    font-size: 15px;
+    color: var(--font-dark-text);
+    text-decoration: none;
+}
+.addcal__menu a:hover, .addcal__menu a:focus { background: var(--bg-light-base); color: var(--font-dark-link); }
+.addcal__hint { display: block; font-size: 12.5px; color: #6b7a88; margin-top: 2px; }
 
 /* This week's content. h2 here is the event's own material and carries the
-   most weight after the title; the series band below is deliberately lighter. */
+   most weight after the title; the series band below is deliberately lighter.
+   Prose stays on a readable measure even though the panel above is wider. */
+.event-body { max-width: 860px; }
 .event-body h2 {
     font-size: 20px;
     font-weight: 600;
@@ -110,7 +175,10 @@
 
 @media (max-width: 600px) {
     .event-meta-panel { grid-template-columns: 1fr; gap: 18px; padding: 18px 20px; }
-    .event-main { padding: 24px 0 40px; }
+    .event-main { padding: 20px 0 40px; }
+    .addcal { display: block; }
+    .addcal > summary { width: 100%; justify-content: center; }
+    .addcal__menu { left: 0; right: 0; min-width: 0; }
 }
 </style>
 {{ end }}

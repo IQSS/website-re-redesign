@@ -10,6 +10,7 @@ event_date: 2025-12-05
 event_time: "9:30 AM – 4:30 PM EST"
 event_location: "CGIS South, room S020"
 event-type: ["Workshops, Seminars & Classes"]
+research-technology: ["GIS"]
 ---
 Full-day hands-on workshop on GIS and mapping techniques for humanities and social sciences research.
 

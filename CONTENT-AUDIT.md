@@ -108,9 +108,19 @@ with itself here; tell me which spelling should win.
 
 - 3 of 24 events carry no event type: Andrea Galeotti (live assigns it
   none), plus two with no live counterpart to check.
-- No event carries a Research Technology or Service tag yet. Live tags
-  its GIS and Dataverse events heavily. Both vocabularies are
-  configured and will populate as soon as events are tagged.
+- Research Technology is now tagged from live: 10 GIS, 8 Dataverse.
+  Every assignment was read off the live event page's "See also"
+  block, not inferred from titles -- live does NOT tag "Getting Started
+  with Spatial Analysis in R" as R, which guessing would have got wrong.
+- No event carries a Service tag. The one live Service term, "Political
+  Economy Seminar", is the Alesina seminar under its former name, and
+  live tags the Galeotti event with the Program term instead.
+- Two of our events have no live counterpart (404): Hands-On Curation
+  Training and Introduction to Metadata for Dataverse Repository
+  Administrators. They stay untagged until you confirm their types.
+- Event pages show only Event Type. Program and Research Technology are
+  tagged but not surfaced; live shows all three together under
+  "See also:". Tied to the open "Event Type" vs "See also:" question.
 - Our workshops term URL is /event-type/workshops-seminars--classes/
   (double hyphen). This is Hugo's own slugification of the ampersand.
   It is not a divergence from live -- live has no term URLs at all, only

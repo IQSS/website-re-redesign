@@ -9,6 +9,7 @@ subtitle: "Event Details"
 event_location: "Virtual"
 program: ["Dataverse Project"]
 event-type: ["Training"]
+research-technology: ["Dataverse"]
 ---
 While Dataverse supports file uploads through its standard web interface, there are big data use cases where the Dataverse API and related tools are useful. This session introduces participants to the Dataverse API for programmatic access to data.
 

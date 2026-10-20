@@ -11,6 +11,7 @@ event_time: "1:00 PM – 3:00 PM EDT"
 event_location: "CGIS Knafel Building, Room SB-12"
 program: ["Center for Geographic Analysis"]
 event-type: ["Training"]
+research-technology: ["GIS"]
 ---
 A two-hour workshop introducing satellite imagery analysis using Google Earth Engine (GEE) via KNIME extension. Topics include how remote sensing supports social science, health, and humanities research; clipping and extracting imagery; and performing land use/land cover classification with accuracy assessment. Free for Harvard affiliates; $100 for others.
 

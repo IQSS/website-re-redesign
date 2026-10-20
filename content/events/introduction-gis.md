@@ -11,6 +11,7 @@ event_time: "1:00 PM – 3:00 PM EST"
 event_location: "CGIS Knafel Building, Room SB-12"
 program: ["Center for Geographic Analysis"]
 event-type: ["Training"]
+research-technology: ["GIS"]
 ---
 A two-hour workshop covering what GIS are and their uses. It will describe geographic file types and data formats, explain how geographic data supports visualization and analysis, and introduce various GIS use cases. Participants will use QGIS and ArcGIS Online to perform GIS tasks. Free for Harvard affiliates; $100 for others.
 

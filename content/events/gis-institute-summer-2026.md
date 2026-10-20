@@ -12,6 +12,7 @@ event_time: "9:30 AM – 5:00 PM EDT"
 event_location: "1737 Cambridge Street, CGIS Knafel Building, Room K350"
 program: ["Center for Geographic Analysis"]
 event-type: ["Workshops, Seminars & Classes"]
+research-technology: ["GIS"]
 ---
 A two-week training course in Geographic Information Systems (GIS) and its application to research. Designed for Harvard graduate students, post-docs, faculty, staff, and external researchers seeking to integrate spatial thinking, incorporate GIS methods, learn spatial analysis tools, and communicate with maps. Registration fee is $100 for Harvard affiliates, $3,150 for others. Application deadline: March 22, 2026.
 

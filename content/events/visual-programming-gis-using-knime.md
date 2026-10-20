@@ -11,6 +11,7 @@ event_time: "1:00 PM – 3:00 PM EST"
 event_location: "CGIS Knafel Building, Room SB-12"
 program: ["Center for Geographic Analysis"]
 event-type: ["Training"]
+research-technology: ["GIS"]
 ---
 A two-hour no-code visual programming workshop for geographic analysis using KNIME. Covers reading, processing, visualizing, and writing GIS data; building machine learning and spatial modeling workflows; and demonstrating GenAI applications. Free for Harvard affiliates; $100 for others.
 

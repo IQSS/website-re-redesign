@@ -9,6 +9,7 @@ subtitle: "Event Details"
 event_location: "Virtual"
 program: ["Dataverse Project"]
 event-type: ["Training"]
+research-technology: ["Dataverse"]
 ---
 Learn how Dataverse helps researchers describe and find data. Covers how metadata fields are organized and how Dataverse features help with discovery.
 

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} — IQSS Harvard{{ end }}</title><!-- M-10: page title first, short site suffix -->
     <meta name="description" content="{{ .Site.Params.description }}">
+    {{ if .Site.Params.noindex }}<meta name="robots" content="noindex, nofollow">{{ end }}<!-- prototype: keep search engines off until this replaces iq.harvard.edu -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300..800&display=swap" rel="stylesheet">
     <style>

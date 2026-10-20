@@ -56,7 +56,7 @@
                 {{ with index .Params "event-type" }}
                 <div class="event-meta-group">
                     <dt>Event Type</dt>
-                    <dd>{{ . }}</dd>
+                    <dd>{{ delimit . ", " }}</dd>
                 </div>
                 {{ end }}
             </dl>

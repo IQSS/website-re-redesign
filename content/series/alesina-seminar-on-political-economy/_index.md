@@ -19,7 +19,6 @@ about: |
 organizers_heading: "Seminar Organizing Committee"
 organizers:
   - "Peter Buisseret"
-  - "Jeffry Frieden"
   - "Vincent Pons"
   - "Pia Raffler"
   - "Dani Rodrik"
@@ -53,7 +52,8 @@ organizers:
 #   pia_raffler, vincent_pons
 #
 # Note the sponsors are NOT the same list as organizers above -- live
-# shows eight organizers and six sponsors (no Buisseret, no Frieden).
+# shows seven organizers and six sponsors. Peter Buisseret organizes
+# but does not sponsor.
 ---
 
 The Faculty of Arts and Sciences and IQSS sponsor this seminar on formal and quantitative political research. The Alberto Alesina Seminar on Political Economy (PE) supports research-related activities that integrate the study of economics and politics, whether by studying economic behavior in the political process or political behavior in the marketplace. In general, positive political economy is concerned with showing how observed differences among institutions affect political and economic outcomes in various social, economic, and political systems and how the institutions themselves change and develop in response to individual and collective beliefs, preferences, and strategies. All interested faculty and students are invited to attend.

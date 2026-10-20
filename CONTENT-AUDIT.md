@@ -121,3 +121,50 @@ with itself here; tell me which spelling should win.
   only title, draft, date, source_url and section in front matter --
   no headshot, role, email or series link to select on. Details and the
   unblocking steps are in the series page's own front matter.
+
+---
+
+## 7. content/misc/ -- 83 scraped pages needing a decision
+
+These are raw captures of live pages taken 2026-05-26, published as-is.
+They build and are publicly reachable, but nothing on the site links to
+them. Each one we rebuild properly leaves its snapshot behind as a stale
+twin, so a change made on the real page can silently miss the copy --
+which is exactly what happened with Jeffry Frieden, who stayed on the
+scraped seminar page after being removed from the live one.
+
+Three groups, needing different decisions:
+
+### 7a. Not pages at all -- 15 files, safe to delete
+
+URLs with query strings that were captured as though they were pages:
+
+- 6 calendar event-type filters
+  (`calendar?f[0]=event_hwp_c_event_type:115728` and five siblings).
+  These are the Drupal facet links behind the live "Events by Type"
+  list. We reproduce them as real taxonomy term pages.
+- 3 `?admin_panel=1` URLs: dissertation-awards, research-grants,
+  travel-grants. Checked -- these are ordinary anonymous page captures,
+  no forms, no edit links, nothing sensitive. Still not pages.
+- 6 `event/<slug>?occ_id=0` captures, the live calendar's per-occurrence
+  event URLs.
+
+### 7b. Duplicates of content we have already rebuilt -- delete or redirect
+
+- `program_political_economy` -> our series page at /series/alesina-seminar/.
+  This is the one that kept Frieden alive.
+- `calendar` -> our events section and taxonomy term pages.
+- `event_better_research_vi_data_sharing_harvard_dataverse_occ_id_0`
+  -> content/events/better-research-vi-data-sharing-harvard-dataverse.md
+
+### 7c. Genuine pages not yet rebuilt -- keep until replaced
+
+The remainder are real standalone pages with no home yet, e.g.
+become-an-affiliate, book-a-desk, contact-labs, dissertation-awards,
+equipment-information, the eight computer-lab-services pages and the
+six ECEE pages. These should stay reachable until each is rebuilt, then
+be retired with its replacement.
+
+Recommendation: delete 7a outright, retire 7b now that replacements
+exist, and treat 7c as the migration backlog. All of it is scraped
+Drupal markup, so nothing here is copy anyone wrote for this site.

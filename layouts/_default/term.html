@@ -50,6 +50,22 @@
             <p>No upcoming sessions are currently scheduled.</p>
             {{ end }}
 
+            {{ with $sets.ongoing }}
+            <h2>Ongoing & On-Demand</h2>
+            <div class="events-list">
+                {{ range . }}
+                <div class="event-item">
+                    <div class="event-date-box event-date-box--past">
+                        <span class="event-month">TBA</span>
+                    </div>
+                    <div class="event-details">
+                        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+                        {{ with .Params.event_location }}<p class="event-time">{{ . }}</p>{{ end }}
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+            {{ end }}
             {{ with $sets.past }}
             <h2>Past Sessions</h2>
             <div class="events-list">

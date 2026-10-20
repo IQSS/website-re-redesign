@@ -27,6 +27,8 @@ summaryLength = 40
   tag = "tags"
   category = "categories"
   series = "series"
+  event_type = "event-type"
+  program = "program"
 
 # ── Menu ───────────────────────────────────────────────────────────────
 # Mirrors the information architecture of iq.harvard.edu, which was built

@@ -9,7 +9,8 @@ subtitle: "Event Details"
 event_date: 2026-05-20
 event_time: "12:30 PM – 2:00 PM EDT"
 event_location: "Lamont Library B30 Collaborative Learning Space"
-event_type: "Research Technology Training"
+program: ["Dataverse Project"]
+event-type: ["Training"]
 ---
 A free 1.5-hour in-person workshop on using Harvard Dataverse for data sharing and preservation. Covers how the repository supports research projects, funder/journal compliance, and FAIR data principles. Format includes lecture, demonstrations, and discussion. Participants learn about repository features relevant to their discipline, data type, or funder requirements. Open to Harvard faculty, research staff, postdocs, and students (Harvard ID required). No prerequisites.
 

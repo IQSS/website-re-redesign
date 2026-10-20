@@ -340,7 +340,7 @@
                     <span class="event-day">{{ $d.Format "2" }}{{ with .Params.event_end_date }}&ndash;{{ (time .).Format "2" }}{{ end }}</span>
                 </time>
                 <div class="event-body">
-                    {{ with .Params.event_type }}<span class="event-mode">{{ . }}</span>{{ end }}
+                    {{ with index .Params "event-type" }}<span class="event-mode">{{ delimit . ", " }}</span>{{ end }}
                     <div class="event-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></div>
                     {{ with .Params.event_time }}<div class="event-meta">{{ . }}</div>{{ end }}
                     {{ with .Params.event_location }}<div class="event-meta">{{ . }}</div>{{ end }}

@@ -10,7 +10,7 @@ event_date: 2026-10-20
 event_time: "12:00 PM – 2:00 PM EDT"
 event_location: "CGIS Knafel room K354"
 series: ["American Politics Research Workshop"]
-event_type: "Workshops, Seminars, & Classes"
+event-type: ["Workshops, Seminars & Classes"]
 ---
 
 ## Speaker & Title

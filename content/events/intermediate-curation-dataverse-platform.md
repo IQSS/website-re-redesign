@@ -7,7 +7,8 @@ layout: "event"
 hero_image: ""
 subtitle: "Event Details"
 event_location: "Virtual"
-event_type: "Research Technology Training"
+program: ["Dataverse Project"]
+event-type: ["Training"]
 ---
 Intermediate-level curation training covering advanced features of the Dataverse platform for data management and sharing.
 

@@ -13,8 +13,14 @@
   "pages" is optional; it defaults to every page in the events section.
 */ -}}
 {{- $today := now.Format "2006-01-02" -}}
-{{- $src := .pages -}}
-{{- if not $src -}}
+{{- /* isset, not a truthiness test: an empty page set is a real answer (a term
+       with nothing tagged to it) and must stay empty. Testing `if not $src`
+       treated empty as "no argument given" and fell back to every event, so
+       unused taxonomy terms listed the entire calendar. */ -}}
+{{- $src := slice -}}
+{{- if isset . "pages" -}}
+  {{- $src = .pages -}}
+{{- else -}}
   {{- $src = where site.RegularPages "Section" "events" -}}
 {{- end -}}
 {{- $upcoming := slice -}}

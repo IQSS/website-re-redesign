@@ -53,7 +53,7 @@
                     <dd class="event-meta-strong">{{ . }}</dd>
                 </div>
                 {{ end }}
-                {{ with .Params.event_type }}
+                {{ with index .Params "event-type" }}
                 <div class="event-meta-group">
                     <dt>Event Type</dt>
                     <dd>{{ . }}</dd>

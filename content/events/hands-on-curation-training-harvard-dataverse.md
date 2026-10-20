@@ -9,7 +9,6 @@ subtitle: "Event Details"
 event_date: 2025-04-18
 event_time: "9:00 AM – 12:00 PM EDT"
 event_location: "Virtual via Zoom"
-event_type: "Research Technology Training"
 ---
 A hands-on training session guiding participants in using the Dataverse platform to create personalized collections, customize spaces with logos and links, configure metadata and facets for discoverability, and learn best practices for sharing data. Covers making data accessible and user-friendly and building research data curation and management skills. Participants can use provided training data files or bring their own. Registration with an institutional email required.
 

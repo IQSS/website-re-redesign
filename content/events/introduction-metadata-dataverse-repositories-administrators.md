@@ -7,7 +7,6 @@ layout: "event"
 hero_image: ""
 subtitle: "Event Details"
 event_location: "Virtual"
-event_type: "Research Technology Training"
 ---
 Learn how Dataverse helps installation administrators customize metadata for their repositories.
 

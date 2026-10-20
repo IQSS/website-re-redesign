@@ -9,8 +9,8 @@ subtitle: "Event Details"
 event_date: 2026-10-22
 event_time: "3:00 PM – 4:15 PM EDT"
 event_location: "Baker Library/Bloomberg Center, Classroom 102"
+program: ["Alesina Seminar on Political Economy"]
 series: ["Alesina Seminar on Political Economy"]
-event_type: "Guest Speakers"
 ---
 
 ## Speaker & Title

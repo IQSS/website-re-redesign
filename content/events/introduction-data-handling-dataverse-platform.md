@@ -6,7 +6,8 @@ type: "page"
 layout: "event"
 hero_image: ""
 subtitle: "Event Details"
-event_type: "Research Technology Training"
+program: ["Dataverse Project"]
+event-type: ["Training"]
 ---
 The IQSS Dataverse Repository provides researchers with a robust data management and file handling system for sharing, managing, and preserving research datasets.
 

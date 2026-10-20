@@ -10,7 +10,7 @@ event_date: 2026-10-21
 event_time: "12:00 PM – 1:30 PM EDT"
 event_location: "CGIS Knafel Building, Room K354"
 series: ["Applied Statistics Workshop"]
-event_type: "Workshops, Seminars, & Classes"
+event-type: ["Workshops, Seminars & Classes"]
 ---
 
 ## Speaker & Title

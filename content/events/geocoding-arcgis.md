@@ -9,7 +9,8 @@ subtitle: "Event Details"
 event_date: 2026-02-06
 event_time: "1:00 PM – 3:00 PM EST"
 event_location: "CGIS Knafel room SB-12"
-event_type: "Workshops, Seminars, & Classes"
+program: ["Center for Geographic Analysis"]
+event-type: ["Training"]
 ---
 A two-hour workshop covering geocoding concepts and practical applications. Participants will geocode single addresses and cities using Bing Maps, Google Maps, and ArcGIS Online, then batch-geocode multiple addresses in ArcGIS Pro and map results. Emphasis on evaluating accuracy of geocoded outputs. Free for Harvard affiliates; $100 for others.
 

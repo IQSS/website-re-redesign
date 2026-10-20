@@ -9,7 +9,8 @@ subtitle: "Event Details"
 event_date: 2026-04-10
 event_time: "1:00 PM – 3:00 PM EDT"
 event_location: "CGIS Knafel Building, Room SB-12"
-event_type: "Workshops, Seminars, & Classes"
+program: ["Center for Geographic Analysis"]
+event-type: ["Training"]
 ---
 A 2-hour hands-on workshop on using Large Language Models for text classification with geotagged Twitter data. Participants use Python and LM Studio to work with models like Gemini, learning to call OpenAI APIs, design prompts, and integrate LLMs into data workflows. Free for Harvard affiliates; $100 for others.
 

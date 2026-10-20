@@ -9,7 +9,7 @@ subtitle: "Event Details"
 event_date: 2025-03-26
 event_time: "12:00 PM – 1:00 PM EDT"
 event_location: "Virtual via Zoom"
-event_type: "Research Technology Training"
+event-type: ["Training"]
 ---
 This webinar covers Harvard Dataverse Repository new services for stewardship and archiving of large-scale research data. It highlights scalable, sustainable solutions using advanced storage for researchers, institutions, and groups handling large and complex datasets, offering a comprehensive and cost-effective approach to this service.
 

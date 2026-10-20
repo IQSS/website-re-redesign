@@ -56,7 +56,7 @@
                         <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
                         {{ with .Params.event_time }}<p class="event-time">{{ . }}</p>{{ end }}
                         {{ with .Params.event_location }}<p class="event-time">{{ . }}</p>{{ end }}
-                        {{ with .Params.event_type }}<span class="event-type-tag">{{ . }}</span>{{ end }}
+                        {{ with index .Params "event-type" }}<span class="event-type-tag">{{ delimit . ", " }}</span>{{ end }}
                     </div>
                 </div>
                 {{ end }}
@@ -85,7 +85,7 @@
                         {{ with .Params.event_schedule }}<p class="event-time">{{ . }}</p>{{ end }}
                         {{ with .Params.event_time }}<p class="event-time">{{ . }}</p>{{ end }}
                         {{ with .Params.event_location }}<p class="event-time">{{ . }}</p>{{ end }}
-                        {{ with .Params.event_type }}<span class="event-type-tag">{{ . }}</span>{{ end }}
+                        {{ with index .Params "event-type" }}<span class="event-type-tag">{{ delimit . ", " }}</span>{{ end }}
                     </div>
                 </div>
                 {{ end }}
@@ -109,7 +109,7 @@
                     <div class="event-details">
                         <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
                         <p class="event-time">{{ $d.Format "January 2, 2006" }}</p>
-                        {{ with .Params.event_type }}<span class="event-type-tag">{{ . }}</span>{{ end }}
+                        {{ with index .Params "event-type" }}<span class="event-type-tag">{{ delimit . ", " }}</span>{{ end }}
                     </div>
                 </div>
                 {{ end }}

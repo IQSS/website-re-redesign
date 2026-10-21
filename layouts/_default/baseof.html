@@ -451,7 +451,9 @@
         /* ── Footer, rebuilt to mirror the live IQSS structure ── */
         .footer-top {
             display: grid;
-            grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+            /* Social is a row of icons now, so it sizes to its content instead
+               of holding a third of the width for six words. */
+            grid-template-columns: minmax(0, 1fr) auto;
             gap: 30px;
             padding-bottom: 28px;
             margin-bottom: 28px;
@@ -462,8 +464,29 @@
         .footer-contact a, .footer-social a { color: #ccc; text-decoration: none; }
         .footer-contact a:hover, .footer-social a:hover { color: #fff; text-decoration: underline; }
         .footer-social h4 { color: #fff; margin-bottom: 12px; font-size: 16px; }
-        .footer-social ul { list-style: none; margin: 0; padding: 0; }
-        .footer-social li { margin-bottom: 7px; }
+        /* Icons in a row, not six word links down a column. The hit area is
+           40px square so it clears the 24px touch-target floor on phones
+           while the glyph itself stays 22px. */
+        .footer-social__row {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            margin: 0;
+            padding: 0;
+        }
+        .footer-social__row a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            border-radius: 6px;
+            color: #ccc;
+        }
+        .footer-social__row a:hover { color: #fff; background: #333; text-decoration: none; }
+        .footer-social__row a:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
+        .footer-social__row svg { width: 22px; height: 22px; fill: currentColor; }
 
         .footer-section h4 a { color: #fff; text-decoration: none; }
         .footer-section h4 a:hover { text-decoration: underline; }
@@ -793,23 +816,19 @@
                     <p class="footer-meta"><a href="tel:617-496-2450">617-496-2450</a></p>
                     <p class="footer-meta"><a href="mailto:gen_inquiries@iq.harvard.edu">gen_inquiries@iq.harvard.edu</a></p>
                 </div>
-                <div class="footer-social">
-                    <h4>Social</h4>
-                    <ul>
-                        <li><a href="https://www.facebook.com/iqssharvard" target="_blank" rel="noopener noreferrer">Facebook<span class="sr-only"> (opens in new tab)</span></a></li>
-                        <li><a href="https://twitter.com/IQSS" target="_blank" rel="noopener noreferrer">Twitter<span class="sr-only"> (opens in new tab)</span></a></li>
-                        <li><a href="https://www.linkedin.com/company/2733836/" target="_blank" rel="noopener noreferrer">LinkedIn<span class="sr-only"> (opens in new tab)</span></a></li>
-                        <li><a href="https://www.youtube.com/@iqssatharvarduniversity8672" target="_blank" rel="noopener noreferrer">YouTube<span class="sr-only"> (opens in new tab)</span></a></li>
-                        <li><a href="https://www.threads.net/@harvardiqss" target="_blank" rel="noopener noreferrer">Threads<span class="sr-only"> (opens in new tab)</span></a></li>
-                        <li><a href="https://bsky.app/profile/iqss.bsky.social" target="_blank" rel="noopener noreferrer">Bluesky<span class="sr-only"> (opens in new tab)</span></a></li>
-                    </ul>
-                </div>
+                {{ partial "footer-social.html" . }}
             </div>
 
             <nav aria-label="Footer navigation"><!-- S-08 -->
             <div class="footer-content">
                 <div class="footer-section">
                     <h4><a href="{{ "about/" | relURL }}">About</a></h4>
+                    {{/* Roadmaps sits first here, as it does on the live footer.
+                         It points into content/misc/ because that is where the
+                         scrape landed; if those pages move, this moves with
+                         them. Two other footer links have the same dependency
+                         (Impartiality, IQSS Supporters). */}}
+                    <a href="{{ "misc/roadmaps/" | relURL }}">Roadmaps</a>
                     <a href="{{ "news-page/" | relURL }}">News</a>
                     <a href="{{ "iqss-blog/" | relURL }}">Blog</a>
                     <a href="https://iqss.github.io/iqss-metrics-dashboard/" target="_blank" rel="noopener noreferrer">Metrics<span class="sr-only"> (opens in new tab)</span></a>
@@ -827,7 +846,7 @@
                     <a href="{{ "research-technology-gis/" | relURL }}">GIS</a>
                 </div>
                 <div class="footer-section">
-                    <h4><a href="{{ "research-resources/" | relURL }}">Resources &amp; Services</a></h4>
+                    <h4><a href="{{ "research-resources/" | relURL }}">Research Resources</a></h4>
                     <a href="{{ "research-resources/research-computing/" | relURL }}">Research Computing</a>
                     <a href="{{ "research-resources/data-science-services/" | relURL }}">Data Science Services</a>
                     <a href="{{ "research-resources/training-workshops/" | relURL }}">Training &amp; Workshops</a>

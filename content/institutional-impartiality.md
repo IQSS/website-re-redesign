@@ -1,7 +1,6 @@
 ---
 date: '2026-05-26 13:40:28'
 draft: false
-section: misc
 source_url: https://www.iq.harvard.edu/institutional-impartiality
 title: Institutional Impartiality
 ---
@@ -29,7 +28,6 @@ title: Institutional Impartiality
 </div>
 </div>
 </main>
-
 ---
 
 *Original source: [https://www.iq.harvard.edu/institutional-impartiality](https://www.iq.harvard.edu/institutional-impartiality)*

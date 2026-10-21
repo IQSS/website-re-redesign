@@ -1,7 +1,7 @@
 ---
 date: '2026-05-26 13:37:12'
 draft: false
-section: misc
+section: about
 source_url: https://www.iq.harvard.edu/roadmaps
 title: Roadmaps
 ---

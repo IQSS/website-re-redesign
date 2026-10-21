@@ -1,7 +1,7 @@
 ---
 date: '2026-05-26 13:40:29'
 draft: false
-section: misc
+section: our-impact
 source_url: https://www.iq.harvard.edu/iqss-supporters
 title: IQSS Supporters
 ---

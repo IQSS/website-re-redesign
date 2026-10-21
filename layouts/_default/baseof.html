@@ -801,8 +801,9 @@
             {{/* Mirrors the live IQSS footer: a contact block, social links,
                  six link columns and a legal bar. Every target is checked to
                  exist in this clone — the previous footer linked /programs/
-                 and /data-science/, both of which 404. Live entries with no
-                 local equivalent (Roadmaps, Product Development, IT Support)
+                 and /data-science/, both of which 404. Roadmaps and IT
+                 Support now have real pages here. Live entries with no
+                 local equivalent (Product Development)
                  are mapped to the nearest real page or left out. */}}
             <div class="footer-top">
                 <div class="footer-contact">
@@ -828,7 +829,7 @@
                          scrape landed; if those pages move, this moves with
                          them. Two other footer links have the same dependency
                          (Impartiality, IQSS Supporters). */}}
-                    <a href="{{ "misc/roadmaps/" | relURL }}">Roadmaps</a>
+                    <a href="{{ "about/roadmaps/" | relURL }}">Roadmaps</a>
                     <a href="{{ "news-page/" | relURL }}">News</a>
                     <a href="{{ "iqss-blog/" | relURL }}">Blog</a>
                     <a href="https://iqss.github.io/iqss-metrics-dashboard/" target="_blank" rel="noopener noreferrer">Metrics<span class="sr-only"> (opens in new tab)</span></a>
@@ -851,7 +852,7 @@
                     <a href="{{ "research-resources/data-science-services/" | relURL }}">Data Science Services</a>
                     <a href="{{ "research-resources/training-workshops/" | relURL }}">Training &amp; Workshops</a>
                     <a href="{{ "research-resources/computer-labs/" | relURL }}">CGIS Computer Lab</a>
-                    <a href="{{ "research-resources/client-support-services/" | relURL }}">Client Support Services</a>
+                    <a href="{{ "research-resources/it-support/" | relURL }}">IT Support</a>
                     <a href="{{ "research-resources/sponsored-research-services/" | relURL }}">Sponsored Research Services</a>
                 </div>
                 <div class="footer-section">
@@ -859,7 +860,7 @@
                     <a href="{{ "funding/" | relURL }}">Funding</a>
                     <a href="{{ "events/" | relURL }}">Events</a>
                     <a href="{{ "news-page/" | relURL }}">News</a>
-                    <a href="{{ "misc/institutional_impartiality/" | relURL }}">Impartiality</a>
+                    <a href="{{ "institutional-impartiality/" | relURL }}">Impartiality</a>
                 </div>
                 <div class="footer-section">
                     <h4>For Assistance</h4>
@@ -868,7 +869,7 @@
                 </div>
                 <div class="footer-section">
                     <h4><a href="{{ "our-impact/" | relURL }}">Our Impact</a></h4>
-                    <a href="{{ "misc/support_us/" | relURL }}">IQSS Supporters</a>
+                    <a href="{{ "our-impact/iqss-supporters/" | relURL }}">IQSS Supporters</a>
                     <a href="https://community.alumni.harvard.edu/give/51724705" target="_blank" rel="noopener noreferrer">Make a Gift<span class="sr-only"> (opens in new tab)</span></a>
                 </div>
             </div>

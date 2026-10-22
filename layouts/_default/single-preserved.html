@@ -1,7 +1,7 @@
 {{ define "main" }}
 <div class="container">
     <div class="iqss-content-wrapper">
-        {{ if .Params.source_url }}
+        {{ if and .Params.source_url hugo.IsDevelopment }}
         <div class="source-info">
             <p><strong>Source:</strong> <a href="{{ .Params.source_url }}" target="_blank">{{ .Params.source_url }}</a></p>
         </div>

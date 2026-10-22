@@ -11,7 +11,7 @@
                 {{ range .Pages }}
                 <div class="person-card">
                     <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-                    {{ if .Params.source_url }}
+                    {{ if and .Params.source_url hugo.IsDevelopment }}
                     <p style="font-size: 14px; color: #666;">
                         <a href="{{ .Params.source_url }}" target="_blank" style="color: #666;">View Original Profile</a>
                     </p>
@@ -25,8 +25,15 @@
                 <h3 style="margin-bottom: 15px;">
                     <a href="{{ .RelPermalink }}" style="color: var(--orange-brand); text-decoration: none;">{{ .Title }}</a>
                 </h3>
-                <p style="color: #666; line-height: 1.6;">{{ .Summary | truncate 200 }}</p>
-                {{ if .Params.source_url }}
+                {{/* plainify before truncate: most pages listed here are
+                     scraped Drupal markup, so .Summary is raw HTML. Emitting
+                     it put the whole <main> element inside this <p> -- the
+                     /misc/ index alone carried 81 <h1>s and a second
+                     id="main-content", which breaks the skip link. Stripping
+                     tags first also lets truncate count characters rather
+                     than markup. */}}
+                <p style="color: #666; line-height: 1.6;">{{ .Summary | plainify | truncate 200 }}</p>
+                {{ if and .Params.source_url hugo.IsDevelopment }}
                 <p style="margin-top: 15px; font-size: 14px;">
                     <a href="{{ .Params.source_url }}" target="_blank" style="color: var(--orange-brand);">View Original Source →</a>
                 </p>

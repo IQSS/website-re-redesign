@@ -1,9 +1,23 @@
 {{ define "main" }}
 <div class="container">
     <div class="page-content">
-        <h1>{{ .Title }}</h1>
+        {{/* Most pages on this layout are scraped Drupal markup that already
+             carries its own <h1>. Printing the title here as well gave those
+             pages two top-level headings -- invalid, and a screen reader
+             announces both. The test has to be per page, not blanket: of the
+             2,325 pages with a source_url, 1,248 bring their own <h1> and
+             1,077 do not, and those 1,077 would lose their heading entirely.
+             Checking .Content rather than .RawContent so a Markdown page
+             opening with "# Title" is caught too. */}}
+        {{ $hasOwnH1 := findRE "<h1[ >]" .Content 1 }}
+        {{ if not $hasOwnH1 }}<h1>{{ .Title }}</h1>{{ end }}
 
-        {{ if .Params.source_url }}
+        {{/* Provenance link back to the page this was scraped from. Useful
+             when checking a rebuild against the real site, but it tells every
+             visitor they are reading a copy -- and this repo is public, so it
+             was doing that on 2,241 pages. Shown only when running `hugo
+             server` locally; any built environment omits it. */}}
+        {{ if and .Params.source_url hugo.IsDevelopment }}
         <div style="background: #f8f9fa; border-left: 4px solid #CC5500; padding: 15px; margin-bottom: 30px; border-radius: 0 4px 4px 0;">
             <p style="margin: 0; font-size: 14px; color: #666;">
                 <strong>Original Source:</strong>

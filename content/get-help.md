@@ -17,8 +17,8 @@ subtitle: "Have a question? Follow the links below to information on popular que
 <p>Search for IQSS directors, faculty, staff, students, and affiliates.</p>
 </div>
 <div class="card">
-<h3><a href="../research-resources/client-support-services/">Get Help with a Computer or Network Problem</a></h3>
-<p>Our IT team can help with hardware, software, network, and printing issues.</p>
+<h3><a href="../research-resources/it-support/">Get Help with a Computer or Network Problem</a></h3>
+<p>Get help from HUIT.</p>
 </div>
 </div>
 

@@ -186,8 +186,8 @@ summaryLength = 40
 
 [[menu.main]]
   parent = "resources"
-  name = "Client Support Services"
-  url = "/research-resources/client-support-services/"
+  name = "IT Support"
+  url = "/research-resources/it-support/"
   weight = 39
 
 # ── Our Impact ──

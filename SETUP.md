@@ -35,24 +35,27 @@ cd website-re-redesign
 
 ## Preview locally
 
-The built site in `public/` is committed to the repository (about 3,000 files).
-A plain `hugo server` rewrites those files, which buries real edits under
-thousands of changed files. Build the preview to a folder **outside** the
-repository instead:
+`public/` is Hugo's build output. It is **not** committed and is listed in
+`.gitignore` — CI rebuilds it from `content/` and `layouts/` on every push, so
+there is nothing to keep in the repository.
 
 ```bash
 hugo server --destination ../website-preview --disableFastRender
 ```
 
-Then open the address Hugo prints. The workflow rebuilds `public/` from source
-on every deploy, so the committed copy is never what gets published.
+Then open the address Hugo prints. Building to a folder outside the repository
+keeps generated files out of `git status` entirely; `--disableFastRender`
+avoids a stale preview after template edits.
 
-If `public/` ever shows mass changes, discard them:
-
-```bash
-git checkout -- public
-git clean -fd public
-```
+> **If you ever see `public/` appear in `git status`, do not commit it.**
+> It was committed until 2026-10-23, and that caused a real problem worth
+> understanding. CI ran `hugo` into `./public` — which already held the
+> committed files — and uploaded the whole directory. Hugo does not delete
+> files it no longer generates unless `--cleanDestinationDir` is passed, so the
+> deployed site became the committed copy *unioned* with each fresh build. 29
+> files whose source had been deleted months earlier stayed live, and because
+> they predated the `noindex` tag the current templates emit, they were
+> publicly indexable. Those files are archived outside the repository.
 
 ## Publish a change
 
@@ -60,7 +63,7 @@ Every push to `main` goes live within about a minute, so preview first.
 
 ```bash
 git status                    # check that only your source files changed
-git add <files you changed>   # name them; avoid "git add ." so public/ stays out
+git add <files you changed>   # naming them is still the safer habit
 git commit -m "Describe the change"
 git push
 ```

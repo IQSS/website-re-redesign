@@ -1,3 +1,6 @@
+# Hugo build output. CI rebuilds this from source on every push; committing it
+# meant stale files kept being deployed alongside fresh ones. See SETUP.md.
+public/
+
 slack-blog-bot/.env
-slack-blog-bot/node_modules/
 slack-blog-bot/node_modules/

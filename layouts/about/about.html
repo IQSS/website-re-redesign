@@ -205,7 +205,7 @@
 /* Director Section */
 .director-section {
     background: #fff;
-    padding: 60px 0;
+    padding: 60px 0 30px;
 }
 
 /* The portrait sits in the text flow rather than in a column of its own, so
@@ -272,6 +272,10 @@
     line-height: 1.7;
     margin-bottom: 16px;
 }
+/* The closing paragraph's margin otherwise collapses out of the body and
+   stacks on the section's own padding, leaving a gap inside the expanded
+   box that reads as part of it. */
+.director-more__body p:last-child { margin-bottom: 0; }
 .director-more__body a { color: var(--orange-brand); }
 
 .director-image {

@@ -66,12 +66,23 @@
     <!-- Our Mission Section -->
     <div class="mission-section">
         <div class="container">
-            <h2>Our Mission</h2>
+            <h2 class="sr-only">Our Mission</h2>
             <div class="mission-content">
-                <img src="{{ "images/mission-overview-hd.jpg" | absURL }}" alt="Visual breakdown of IQSS services and community" />
+                <a class="mission-zoom" href="{{ "images/mission-overview-hd.jpg" | absURL }}">
+                    <img src="{{ "images/mission-overview-hd.jpg" | absURL }}" alt="Visual breakdown of IQSS services and community" />
+                    <span class="sr-only">View full size</span>
+                </a>
             </div>
         </div>
     </div>
+
+    {{/* The link is the real control: with no JS, or no <dialog>, clicking it
+         opens the image file itself. The script below upgrades that to an
+         in-page overlay. */}}
+    <dialog class="mission-lightbox" aria-label="Visual breakdown of IQSS services and community">
+        <button type="button" class="mission-lightbox__close" aria-label="Close full-size image">&times;</button>
+        <img src="{{ "images/mission-overview-hd.jpg" | absURL }}" alt="Visual breakdown of IQSS services and community" />
+    </dialog>
 
     <!-- Our History Section -->
     <div class="history-section">
@@ -292,17 +303,11 @@
 }
 
 /* Our Mission Section */
+/* The heading is sr-only, so this band is just the image: its own padding is
+   all that separates it from the bands above and below. */
 .mission-section {
     background: #f8f9fa;
-    padding: 60px 0;
-}
-
-.mission-section h2 {
-    text-align: center;
-    font-size: 36px;
-    font-weight: 400;
-    color: var(--orange-brand);
-    margin-bottom: 40px;
+    padding: 30px 0;
 }
 
 .mission-content {
@@ -319,6 +324,52 @@
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
     image-rendering: -webkit-optimize-contrast;
     image-rendering: crisp-edges;
+}
+
+.mission-zoom {
+    display: block;
+    cursor: zoom-in;
+}
+
+.mission-lightbox {
+    /* The global '* { margin: 0 }' reset beats the UA stylesheet's
+       'margin: auto' on dialog, which otherwise centres a modal. Without
+       this the overlay opens pinned to the top-left corner. */
+    margin: auto;
+    max-width: 95vw;
+    max-height: 95vh;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    overflow: visible;
+}
+
+.mission-lightbox::backdrop {
+    background: rgba(0,0,0,0.8);
+}
+
+.mission-lightbox img {
+    display: block;
+    max-width: 95vw;
+    max-height: 95vh;
+    width: auto;
+    height: auto;
+    border-radius: 8px;
+}
+
+.mission-lightbox__close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    font-size: 26px;
+    line-height: 1;
+    color: #fff;
+    background: rgba(0,0,0,0.55);
+    border: 0;
+    border-radius: 50%;
+    cursor: pointer;
 }
 
 /* Our History Section */
@@ -565,14 +616,12 @@
         max-width: 300px;
     }
 
-    .mission-section,
     .history-section,
     .learn-more-section,
     .affiliate-section {
         padding: 40px 0;
     }
 
-    .mission-section h2,
     .history-section h2,
     .learn-more-section h2 {
         font-size: 28px;
@@ -637,6 +686,34 @@
             if (isOpen) details.open = false;
             running = null;
         };
+    });
+})();
+
+/* Click-to-enlarge for the mission graphic.
+
+   <dialog>.showModal() is doing the work: the browser supplies the top layer,
+   the backdrop, Esc-to-close and the focus trap, so there is no scroll lock,
+   no focus bookkeeping and no key handler to maintain here. If showModal is
+   missing the listener is never attached and the anchor behaves as an anchor,
+   opening the image on its own. */
+(function () {
+    var trigger = document.querySelector('.mission-zoom');
+    var dialog = document.querySelector('.mission-lightbox');
+    if (!trigger || !dialog || typeof dialog.showModal !== 'function') return;
+
+    trigger.addEventListener('click', function (event) {
+        event.preventDefault();
+        dialog.showModal();
+    });
+
+    var close = dialog.querySelector('.mission-lightbox__close');
+    if (close) {
+        close.addEventListener('click', function () { dialog.close(); });
+    }
+
+    /* Clicks land on the dialog itself only when they miss the image. */
+    dialog.addEventListener('click', function (event) {
+        if (event.target === dialog) dialog.close();
     });
 })();
 </script>

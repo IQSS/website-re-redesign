@@ -21,6 +21,9 @@
                     <div class="director-title">
                         <h2>A Message from Gary King</h2>
                     </div>
+                    <div class="director-image">
+                        <img src="{{ "images/gary-king.jpg" | absURL }}" alt="Gary King in a meeting" />
+                    </div>
                     <div class="director-description">
                         <p><strong>Director, Institute for Quantitative Social Science</strong><br>
                         <strong>Albert J Weatherhead III University Professor</strong></p>
@@ -55,9 +58,6 @@
                             </div>
                         </details>
                     </div>
-                </div>
-                <div class="director-image">
-                    <img src="{{ "images/gary-king.jpg" | absURL }}" alt="Gary King in a meeting" />
                 </div>
             </div>
         </div>
@@ -208,18 +208,22 @@
     padding: 60px 0;
 }
 
+/* The portrait sits in the text flow rather than in a column of its own, so
+   the opening lines run beside it and everything after it reclaims the full
+   width of the band. A flex pair kept the copy in a narrow column all the way
+   down, which left the message cramped once the full text was expanded. */
 .director-card {
-    display: flex;
     max-width: 1200px;
     margin: 0 auto;
-    gap: 60px;
-    align-items: center;
 }
 
 .director-text {
-    flex: 1;
     padding: 0 20px;
 }
+
+/* The float is what makes the text wrap; it needs no height of its own, so
+   the band grows with the copy instead of with the picture. */
+.director-text::after { content: ""; display: block; clear: both; }
 
 .director-title h2 {
     font-size: 32px;
@@ -271,17 +275,18 @@
 .director-more__body a { color: var(--orange-brand); }
 
 .director-image {
-    flex: 0 0 400px;
-    padding: 0 20px;
+    float: right;
+    width: 400px;
+    margin: 4px 0 24px 40px;
 }
 
 .director-image img {
     width: 100%;
     height: auto;
     border-radius: 8px;
+    display: block;
 }
 
-/* Accordion Section */
 /* Our Mission Section */
 .mission-section {
     background: #f8f9fa;
@@ -514,15 +519,13 @@
         font-size: 36px;
     }
 
-    .director-card {
-        flex-direction: column;
-        text-align: center;
-        gap: 40px;
-    }
-
+    /* No room to wrap at this width: the portrait stops floating and sits
+       above the copy at full width. */
     .director-image {
-        flex: none;
+        float: none;
+        width: 100%;
         max-width: 300px;
+        margin: 0 auto 28px;
     }
 
     .history-card {
@@ -577,4 +580,60 @@
     }
 }
 </style>
+
+<script>
+/* Smooth open/close for the director's message.
+
+   A disclosure that pushes the rest of the page down has to animate height,
+   and height is the one thing that cannot be done on the compositor -- every
+   frame costs a layout. So the cheapest honest version is this: one property,
+   on one element, handed to the browser's own animation engine via
+   Web Animations rather than driven from a scroll or rAF loop. Nothing else
+   animates, and no layout is read during the animation.
+
+   It is an enhancement, not the mechanism. <details> already opens and closes
+   on its own, so if this script never runs -- old browser, blocked, an error
+   above it -- the control still works, just instantly.
+
+   overflow is set only while animating. Leaving it on permanently would make
+   the body a block formatting context, and it would stop wrapping around the
+   floated portrait. */
+(function () {
+    var details = document.querySelector('.director-more');
+    if (!details || typeof details.animate !== 'function') return;
+
+    var body = details.querySelector('.director-more__body');
+    var summary = details.querySelector('summary');
+    if (!body || !summary) return;
+
+    var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+    var running = null;
+
+    summary.addEventListener('click', function (event) {
+        if (reduceMotion.matches) return;
+        event.preventDefault();
+
+        if (running) { running.cancel(); running = null; }
+
+        var isOpen = details.open;
+        if (!isOpen) details.open = true;
+        var height = body.offsetHeight;
+        if (!height) { details.open = !isOpen; return; }
+
+        body.style.overflow = 'hidden';
+        running = body.animate(
+            isOpen
+                ? [{ height: height + 'px' }, { height: '0px' }]
+                : [{ height: '0px' }, { height: height + 'px' }],
+            { duration: 260, easing: 'ease' }
+        );
+
+        running.onfinish = running.oncancel = function () {
+            body.style.overflow = '';
+            if (isOpen) details.open = false;
+            running = null;
+        };
+    });
+})();
+</script>
 {{ end }}

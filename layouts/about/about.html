@@ -19,47 +19,45 @@
             <div class="director-card">
                 <div class="director-text">
                     <div class="director-title">
-                        <h2>Gary King</h2>
+                        <h2>A Message from Gary King</h2>
                     </div>
                     <div class="director-description">
                         <p><strong>Director, Institute for Quantitative Social Science</strong><br>
                         <strong>Albert J Weatherhead III University Professor</strong></p>
                         <p>The mission of IQSS is to contribute to solving society's greatest challenges by creating, preserving, and disseminating social science knowledge. We do this by building infrastructure and community so social scientists can work at unprecedented speed, scale, and levels of collaboration.</p>
+
+                        {{/* The rest of the message continues this section rather than
+                             sitting in a band of its own below. <details> handles the
+                             collapse natively, so it needs no script and reports its own
+                             expanded state -- the previous accordion was a button with
+                             no aria-expanded and an onclick handler. */}}
+                        <details class="director-more">
+                            <summary>
+                                <span aria-hidden="true">Read more</span>
+                                <span class="sr-only">Read the full message from the director</span>
+                            </summary>
+                            <div class="director-more__body">
+                                <p>Our aim is to transform social science research, from the art of studying the toughest problems that affect human societies to the science of understanding and solving these problems. IQSS does this by building bridges from academia to the rest of the world&mdash;by collaborating with industry and governments in incentive-compatible ways to produce social good for academia, companies, and the general public.</p>
+
+                                <p>IQSS incubates programs, centers, initiatives, independent nonprofits and commercial startups and builds cutting edge infrastructure so scholars can do social science research better, faster, bigger, and more efficiently than anywhere in the world.</p>
+
+                                <p>We are now able to work with unparalleled levels of privacy-preserving information about people, groups, firms, and countries and to invent the statistical methods, theories, and technologies necessary to make this data actionable. We have a chance at building the tools to understand human society well enough to ameliorate some of its major problems.</p>
+
+                                <p>Social scientists used to have access to all data in the world about people&mdash;because either we created it, or it was given to us by governmental institutions. However, although we now have more data than ever before, we also have a smaller fraction of data about the people we study than ever before, as most is now locked up inside private companies, governments, and other institutions.</p>
+
+                                <p>IQSS faculty and staff have become experts at negotiating with outside industry and with offices across Harvard to access data. We continue to make it simpler to get data from companies in incentive compatible ways. Partnerships like this are part of our goal to deliver infrastructure that makes social science research faster and at greater scales.</p>
+
+                                <p>Like an astronomer with a telescope that can help us see 1,000 times farther, we now have a chance at building the tools to understand human society well enough to ameliorate some of its major problems. The spectacular successes in the social sciences we have seen in the last few years are nothing compared to what is coming.</p>
+
+                                <p>We are lucky to be in an unusual part of the economy where we do best ourselves when we help others and so we aim to lead in collaborative, academic ways&mdash;helping others build what we have built, while continuing to lead by developing the next innovation first and to push forward the science of society to new heights.</p>
+
+                                <p>Locally, we aim to foster a flourishing community where students, faculty, and staff leverage each other's advances to take us all to the next level. Many of our faculty, research staff, students, and affiliates have been inspired to turn to thinking about how they can help. <a href="{{ "become-an-affiliate/" | relURL }}">Come join us</a> in transforming social science research and in turn, the world; you can make a difference.</p>
+                            </div>
+                        </details>
                     </div>
                 </div>
                 <div class="director-image">
                     <img src="{{ "images/gary-king.jpg" | absURL }}" alt="Gary King in a meeting" />
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Accordion Section -->
-    <div class="director-message">
-        <div class="container">
-            <div class="accordion">
-                <button class="accordion-button" type="button" onclick="toggleAccordion()">
-                    <span class="accordion-title">Read the full message from the director</span>
-                    <span class="accordion-icon" id="accordion-icon">▼</span>
-                </button>
-                <div class="accordion-content" id="accordion-content">
-                    <div class="accordion-text">
-                        <p>Our aim is to transform social science research, from the art of studying the toughest problems that affect human societies to the science of understanding and solving these problems. IQSS does this by building bridges from academia to the rest of the world—by collaborating with industry and governments in incentive-compatible ways to produce social good for academia, companies, and the general public.</p>
-
-                        <p>IQSS incubates programs, centers, initiatives, independent nonprofits and commercial startups and builds cutting edge infrastructure so scholars can do social science research better, faster, bigger, and more efficiently than anywhere in the world.</p>
-
-                        <p>We are now able to work with unparalleled levels of privacy-preserving information about people, groups, firms, and countries and to invent the statistical methods, theories, and technologies necessary to make this data actionable. We have a chance at building the tools to understand human society well enough to ameliorate some of its major problems.</p>
-
-                        <p>Social scientists used to have access to all data in the world about people—because either we created it, or it was given to us by governmental institutions. However, although we now have more data than ever before, we also have a smaller fraction of data about the people we study than ever before, as most is now locked up inside private companies, governments, and other institutions.</p>
-
-                        <p>IQSS faculty and staff have become experts at negotiating with outside industry and with offices across Harvard to access data. We continue to make it simpler to get data from companies in incentive compatible ways. Partnerships like this are part of our goal to deliver infrastructure that makes social science research faster and at greater scales.</p>
-
-                        <p>Like an astronomer with a telescope that can help us see 1,000 times farther, we now have a chance at building the tools to understand human society well enough to ameliorate some of its major problems. The spectacular successes in the social sciences we have seen in the last few years are nothing compared to what is coming.</p>
-
-                        <p>We are lucky to be in an unusual part of the economy where we do best ourselves when we help others and so we aim to lead in collaborative, academic ways—helping others build what we have built, while continuing to lead by developing the next innovation first and to push forward the science of society to new heights.</p>
-
-                        <p>Locally, we aim to foster a flourishing community where students, faculty, and staff leverage each other's advances to take us all to the next level. Many of our faculty, research staff, students, and affiliates have been inspired to turn to thinking about how they can help. <a href="{{ "become-an-affiliate/" | relURL }}">Come join us</a> in transforming social science research and in turn, the world; you can make a difference.</p>
-                    </div>
                 </div>
             </div>
         </div>
@@ -241,6 +239,37 @@
     font-weight: 600;
 }
 
+/* "Read more" disclosure continuing the director's message. Styled as a link
+   rather than a button because it reveals more of the same passage; the
+   marker is drawn with ::after so the control reads as one phrase. */
+.director-more { margin-top: 4px; }
+.director-more > summary {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    width: fit-content;
+    cursor: pointer;
+    list-style: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--orange-brand);
+}
+.director-more > summary::-webkit-details-marker { display: none; }
+.director-more > summary::after { content: "\25BE"; font-size: 11px; }
+.director-more[open] > summary::after { content: "\25B4"; }
+.director-more > summary:hover { text-decoration: underline; }
+.director-more > summary:focus-visible {
+    outline: 2px solid var(--orange-brand);
+    outline-offset: 3px;
+}
+.director-more__body { margin-top: 14px; }
+.director-more__body p {
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 16px;
+}
+.director-more__body a { color: var(--orange-brand); }
+
 .director-image {
     flex: 0 0 400px;
     padding: 0 20px;
@@ -253,71 +282,6 @@
 }
 
 /* Accordion Section */
-.director-message {
-    background: #f8f9fa;
-    padding: 60px 0;
-}
-
-.accordion {
-    max-width: 1200px;
-    margin: 0 auto;
-    background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-}
-
-.accordion-button {
-    width: 100%;
-    padding: 30px;
-    background: none;
-    border: none;
-    text-align: left;
-    cursor: pointer;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 18px;
-    font-weight: 500;
-    color: #333;
-}
-
-.accordion-button:hover {
-    background: #f8f9fa;
-}
-
-.accordion-icon {
-    font-size: 20px;
-    transition: transform 0.3s ease;
-}
-
-.accordion-content {
-    display: none;
-    padding: 0 30px 30px 30px;
-    background: #f8f9fa;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
-}
-
-.accordion-content.open {
-    display: block;
-}
-
-.accordion-text p {
-    font-size: 16px;
-    line-height: 1.7;
-    margin-bottom: 20px;
-    color: #333;
-}
-
-.accordion-text a {
-    color: var(--orange-brand);
-    text-decoration: none;
-}
-
-.accordion-text a:hover {
-    text-decoration: underline;
-}
-
 /* Our Mission Section */
 .mission-section {
     background: #f8f9fa;
@@ -561,15 +525,6 @@
         max-width: 300px;
     }
 
-    .accordion-button {
-        padding: 20px;
-        font-size: 16px;
-    }
-
-    .accordion-content {
-        padding: 0 20px 20px 20px;
-    }
-
     .history-card {
         flex-direction: column;
         gap: 30px;
@@ -622,19 +577,4 @@
     }
 }
 </style>
-
-<script>
-function toggleAccordion() {
-    const content = document.getElementById('accordion-content');
-    const icon = document.getElementById('accordion-icon');
-
-    if (content.classList.contains('open')) {
-        content.classList.remove('open');
-        icon.style.transform = 'rotate(0deg)';
-    } else {
-        content.classList.add('open');
-        icon.style.transform = 'rotate(180deg)';
-    }
-}
-</script>
 {{ end }}

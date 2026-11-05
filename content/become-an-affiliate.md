@@ -4,10 +4,10 @@ date: 2026-05-28
 draft: false
 layout: "resource-page"
 hero_image: "images/affiliates.jpg"
-subtitle: "IQSS welcomes scholars who participate in Institute life to become affiliates."
+subtitle: "Become an active contributing member of the IQSS community"
 ---
 
-IQSS welcomes requests from scholars who participate in the life of the Institute to become affiliates. Opportunities to participate in the life of the Institute include attending seminars, giving talks to the IQSS commmunity, working with IQSS graduate student affiliates, co-authoring or otherwise collaborating with IQSS affiliates, serving on committees, reviewing scholarly grant applications, attenting events, and sharing coffee in the IQSS "Quantina" common space. Below is a list of affiliations and requirements. Affiliation also allows graduate students and Harvard Faculty to apply for funding or access IQSS-based services, such as Sponsored Research Services. If you have further questions, please contact [affiliation@iq.harvard.edu](mailto:affiliation@iq.harvard.edu).
+IQSS welcomes requests from scholars who participate in the life of the Institute to become affiliates. Opportunities to participate in the life of the Institute include attending seminars, giving talks to the IQSS community, working with IQSS graduate student affiliates, co-authoring or otherwise collaborating with IQSS affiliates, serving on committees, reviewing scholarly grant applications, attending events, and sharing coffee in the IQSS "Quantina" common space. Below is a list of affiliations and requirements. Affiliation also allows graduate students and Harvard Faculty to apply for funding or access IQSS-based services, such as Sponsored Research Services. If you have further questions, please contact [affiliation@iq.harvard.edu](mailto:affiliation@iq.harvard.edu).
 
 ## Typical User Journeys
 

@@ -160,6 +160,42 @@ dialog.uj-lightbox img {
 @media (max-width: 480px) {
     .uj-grid { grid-template-columns: 1fr; }
 }
+
+/* On a phone, fitting a 1600px flowchart to the screen puts it at about
+   356px, where the step labels are no more readable than they were inline.
+   So below this width the overlay stops fitting the image and becomes a
+   window onto it: the picture opens at its own size and the panel scrolls,
+   which starts at the portrait and pans right through Discover, Explore,
+   Engage and Return -- the order the flowchart is meant to be read in.
+   Pinch-zoom still works on top of this; nothing here blocks it. */
+@media (max-width: 768px) {
+    dialog.uj-lightbox {
+        width: 94vw;
+        max-width: 94vw;
+        height: 86vh;
+        max-height: 86vh;
+        overflow: auto;
+        -webkit-overflow-scrolling: touch;
+        background: #fff;
+        border-radius: 8px;
+    }
+
+    dialog.uj-lightbox img {
+        width: 1600px;
+        max-width: none;
+        max-height: none;
+        border-radius: 0;
+    }
+
+    /* Absolute would scroll away with the picture. Fixed pins it to the
+       viewport corner, just outside the panel, where it stays reachable
+       however far the flowchart has been panned. */
+    .uj-lightbox__close {
+        position: fixed;
+        top: 8px;
+        right: 8px;
+    }
+}
 </style>
 
 <script>

@@ -7,45 +7,11 @@ hero_image: "images/affiliates.jpg"
 subtitle: "IQSS welcomes scholars who participate in Institute life to become affiliates."
 ---
 
-## About Affiliation
-
-IQSS welcomes scholars who participate in Institute life to become affiliates. Participation opportunities include:
-
-- Attending seminars
-- Giving talks to the IQSS community
-- Working with IQSS graduate student affiliates
-- Co-authoring or collaborating with IQSS affiliates
-- Serving on committees
-- Reviewing scholarly grant applications
-- Attending events
-- Sharing coffee in the IQSS "Quantina" common space
-
-Affiliation enables graduate students and Harvard Faculty to apply for funding or access IQSS-based services such as Sponsored Research Services.
-
-<div class="contact-info">
-<p><strong>Contact:</strong> <a href="mailto:affiliation@iq.harvard.edu">affiliation@iq.harvard.edu</a></p>
-</div>
+IQSS welcomes requests from scholars who participate in the life of the Institute to become affiliates. Opportunities to participate in the life of the Institute include attending seminars, giving talks to the IQSS commmunity, working with IQSS graduate student affiliates, co-authoring or otherwise collaborating with IQSS affiliates, serving on committees, reviewing scholarly grant applications, attenting events, and sharing coffee in the IQSS "Quantina" common space. Below is a list of affiliations and requirements. Affiliation also allows graduate students and Harvard Faculty to apply for funding or access IQSS-based services, such as Sponsored Research Services. If you have further questions, please contact [affiliation@iq.harvard.edu](mailto:affiliation@iq.harvard.edu).
 
 ## Typical User Journeys
 
-<div class="card-grid">
-<div class="card">
-<h3>Researcher</h3>
-<img src="../images/uj-researcher.jpg" alt="User journey flowchart for researcher" style="width:100%;height:auto;border-radius:4px;" />
-</div>
-<div class="card">
-<h3>Faculty</h3>
-<img src="../images/uj-faculty.jpg" alt="User journey flowchart for faculty" style="width:100%;height:auto;border-radius:4px;" />
-</div>
-<div class="card">
-<h3>Administrator</h3>
-<img src="../images/uj-administrator.jpg" alt="User journey flowchart for administrator" style="width:100%;height:auto;border-radius:4px;" />
-</div>
-<div class="card">
-<h3>Graduate Student</h3>
-<img src="../images/uj-student.jpg" alt="User journey flowchart for graduate student" style="width:100%;height:auto;border-radius:4px;" />
-</div>
-</div>
+{{< user-journeys >}}
 
 ## How to Become an Affiliate
 

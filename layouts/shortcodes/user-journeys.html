@@ -1,0 +1,200 @@
+{{- /*
+  The four sample user journeys as small cards that open the full flowchart.
+
+  Each flowchart is 1600x900 and was previously shown inline at about 250px
+  wide -- a 6.4x reduction, which made the step labels unreadable and left the
+  four cards wrapping 3 + 1. The card now shows only the portrait that opens
+  each flowchart, with the role as real text beside it, and the full image
+  opens in a lightbox on click.
+
+  The portrait is cropped with CSS rather than as separate files: in all four
+  images it sits at x 32-129, y 112-223 of the 1600x900 original, so one set
+  of offsets serves all of them and there are no extra assets to keep in sync.
+
+  The anchor is the real control. With no JS, or no <dialog>, clicking it
+  opens the flowchart image on its own.
+*/ -}}
+{{- $journeys := slice
+  (dict "label" "Researcher"       "img" "images/uj-researcher.jpg"
+        "alt" "User journey flowchart for researcher")
+  (dict "label" "Faculty"          "img" "images/uj-faculty.jpg"
+        "alt" "User journey flowchart for faculty")
+  (dict "label" "Administrator"    "img" "images/uj-administrator.jpg"
+        "alt" "User journey flowchart for administrator")
+  (dict "label" "Graduate Student" "img" "images/uj-student.jpg"
+        "alt" "User journey flowchart for graduate student")
+-}}
+<ul class="uj-grid">
+    {{- range $journeys }}
+    <li>
+        <a class="uj-card" href="{{ .img | absURL }}"
+           data-uj-src="{{ .img | absURL }}" data-uj-alt="{{ .alt }}">
+            <span class="uj-card__icon">
+                <img src="{{ .img | absURL }}" alt="" aria-hidden="true">
+            </span>
+            <span class="uj-card__label">{{ .label }}</span>
+            <span class="sr-only">View full size</span>
+        </a>
+    </li>
+    {{- end }}
+</ul>
+
+<dialog class="uj-lightbox" aria-label="Sample user journey">
+    <button type="button" class="uj-lightbox__close" aria-label="Close full-size image">&times;</button>
+    <img src="" alt="">
+</dialog>
+
+<style>
+.uj-grid {
+    list-style: none;
+    margin: 0 0 10px;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 16px;
+}
+
+.uj-card {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    background: #fff;
+    color: #333;
+    text-decoration: none;
+    cursor: zoom-in;
+    height: 100%;
+}
+
+.uj-card:hover,
+.uj-card:focus-visible {
+    border-color: var(--orange-brand);
+    text-decoration: none;
+}
+
+/* min-width: 0 lets the longest single word ("Administrator") shrink the
+   flex item rather than push past the card's right edge. */
+.uj-card__label {
+    min-width: 0;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+/* The portrait, cropped out of the full flowchart. Scaling the 1600px
+   original to 807px puts the portrait's 111px height at about 56px, and the
+   offsets then centre it in the 64px box.
+
+   The selector carries the extra .uj-card deliberately: the page layout sets
+   .rp-content img { max-width: 100% }, which ties this rule on specificity
+   and wins on order, clamping the image back to the 64px box and leaving the
+   crop pointing at empty space. */
+.uj-card__icon {
+    flex: 0 0 auto;
+    position: relative;
+    width: 64px;
+    height: 64px;
+    overflow: hidden;
+    border-radius: 6px;
+    background: #f4f4f4;
+}
+
+.uj-card .uj-card__icon img {
+    position: absolute;
+    width: 807px;
+    max-width: none;
+    height: auto;
+    left: -9px;
+    top: -53px;
+}
+
+.uj-lightbox {
+    /* Without this the global '* { margin: 0 }' reset beats the UA
+       stylesheet's margin: auto and the overlay opens in the top-left
+       corner instead of centred. */
+    margin: auto;
+    max-width: 95vw;
+    max-height: 95vh;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    overflow: visible;
+}
+
+.uj-lightbox::backdrop { background: rgba(0,0,0,0.8); }
+
+/* dialog.uj-lightbox outranks the page layout's .rp-content img, which gives
+   every image a 20px vertical margin -- that made the overlay 40px taller
+   than the picture inside it and pushed the picture off centre. */
+dialog.uj-lightbox img {
+    display: block;
+    margin: 0;
+    max-width: 95vw;
+    max-height: 95vh;
+    width: auto;
+    height: auto;
+    border-radius: 8px;
+    background: #fff;
+}
+
+.uj-lightbox__close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    font-size: 26px;
+    line-height: 1;
+    color: #fff;
+    background: rgba(0,0,0,0.55);
+    border: 0;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+@media (max-width: 900px) {
+    .uj-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 480px) {
+    .uj-grid { grid-template-columns: 1fr; }
+}
+</style>
+
+<script>
+/* One dialog for all four cards: the image source is swapped on open rather
+   than rendering four overlays that are empty most of the time.
+
+   <dialog>.showModal() supplies the top layer, the backdrop, Esc-to-close and
+   the focus trap, so there is no scroll lock or focus bookkeeping here. If
+   showModal is missing no listener is attached and each card stays an anchor
+   that opens its flowchart directly. */
+(function () {
+    var grid = document.querySelector('.uj-grid');
+    var dialog = document.querySelector('.uj-lightbox');
+    if (!grid || !dialog || typeof dialog.showModal !== 'function') return;
+
+    var img = dialog.querySelector('img');
+    if (!img) return;
+
+    grid.addEventListener('click', function (event) {
+        var card = event.target.closest && event.target.closest('.uj-card');
+        if (!card) return;
+        event.preventDefault();
+        img.src = card.getAttribute('data-uj-src');
+        img.alt = card.getAttribute('data-uj-alt');
+        dialog.showModal();
+    });
+
+    var close = dialog.querySelector('.uj-lightbox__close');
+    if (close) {
+        close.addEventListener('click', function () { dialog.close(); });
+    }
+
+    /* Clicks land on the dialog itself only when they miss the image. */
+    dialog.addEventListener('click', function (event) {
+        if (event.target === dialog) dialog.close();
+    });
+})();
+</script>

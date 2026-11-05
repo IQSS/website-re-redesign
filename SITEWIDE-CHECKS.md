@@ -49,6 +49,22 @@ after the Client Support Services team was eliminated. The file itself stays
 (see below); the links need to point somewhere real, most likely the new IT
 Support page.
 
+## Page weight
+
+**The two logos cost 228 KB on every page.**
+`iqss-logo.png` (74 KB) is shown at 237 × 60 but stored at 1500 × 380.
+`iqss-logo-gray-compact.png` (154 KB) is shown at about 147 × 56 but stored
+at 1331 × 508. Worse, both download on every visit on every device: each is
+hidden by CSS at the width where the other one shows, and `display: none`
+does not stop a browser fetching an `<img>`. So every visitor pays for both
+and sees one. This is the highest-leverage image fix on the site, because it
+is on every page rather than one.
+
+**Oversized images generally.**
+Several pages ship photographs far larger than they are displayed — the worst
+is a 4.2 MB PNG of a single portrait. Sizes, locations and what each should
+become are in [GRAPHICS-TO-PRODUCE.md](GRAPHICS-TO-PRODUCE.md).
+
 ## Before launch
 
 **Turn off `noindex`.**

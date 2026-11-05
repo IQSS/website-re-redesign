@@ -424,12 +424,32 @@
             margin-top: 32px;
         }
 
-        .footer-content {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 30px;
+        /* One level: the contact block and the six link columns sit side by
+           side in a single row. Previously the contact block was its own tier
+           above, and the links wrapped 4 + 2, so the footer read as three
+           stacked bands. */
+        .footer-main {
+            display: flex;
+            gap: 32px;
+            align-items: flex-start;
             margin-bottom: 30px;
         }
+
+        /* min-width: 0 lets the nav shrink; without it a flex item refuses to
+           go below the width of its widest link. */
+        .footer-main > nav { flex: 1 1 auto; min-width: 0; }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(6, minmax(0, 1fr));
+            gap: 18px;
+        }
+
+        /* Six columns across one row leaves roughly 150px each, so the link
+           list drops to 14px -- footer size rather than body size -- to keep
+           names like "Sponsored Research Services" from stacking three deep. */
+        .footer-section a { font-size: 14px; }
+        .footer-section h4 { font-size: 15px; }
 
         .footer-section h4 {
             color: #fff;
@@ -449,16 +469,13 @@
         }
 
         /* ── Footer, rebuilt to mirror the live IQSS structure ── */
+        /* The contact details and the social icons stack inside the one
+           column they now share. The rule that used to divide this block from
+           the links below it is gone with the tier it separated. */
         .footer-top {
-            display: grid;
-            /* Social is a row of icons now, so it sizes to its content instead
-               of holding a third of the width for six words. */
-            grid-template-columns: minmax(0, 1fr) auto;
-            gap: 30px;
-            padding-bottom: 28px;
-            margin-bottom: 28px;
-            border-bottom: 1px solid #3a3a3a;
+            flex: 0 0 200px;
         }
+        .footer-social { margin-top: 22px; }
         .footer-contact address { font-style: normal; line-height: 1.7; color: #ccc; }
         .footer-meta { margin-top: 10px; line-height: 1.6; color: #ccc; }
         .footer-contact a, .footer-social a { color: #ccc; text-decoration: none; }
@@ -467,10 +484,14 @@
         /* Icons in a row, not six word links down a column. The hit area is
            40px square so it clears the 24px touch-target floor on phones
            while the glyph itself stays 22px. */
+        /* Three across, two down. Six in a row needs 270px, which the
+           contact column no longer has now that it shares one level with the
+           link columns -- and a flex row left to wrap broke 5 + 1, which
+           reads as a mistake rather than a block. */
         .footer-social__row {
             list-style: none;
-            display: flex;
-            flex-wrap: wrap;
+            display: grid;
+            grid-template-columns: repeat(3, 40px);
             gap: 6px;
             margin: 0;
             padding: 0;
@@ -504,8 +525,15 @@
         .footer-legal a:hover { color: #fff; text-decoration: underline; }
         .footer-note { margin-top: 10px; font-size: 13px; color: #999; }
 
+        @media (max-width: 1100px) {
+            /* Six columns stop fitting well before the phone breakpoint. */
+            .footer-content { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+        }
+
         @media (max-width: 768px) {
-            .footer-top { grid-template-columns: 1fr; gap: 24px; }
+            .footer-main { flex-direction: column; gap: 28px; }
+            .footer-top { flex: none; }
+            .footer-content { grid-template-columns: repeat(2, minmax(0, 1fr)); }
         }
 
         .footer-bottom {
@@ -805,6 +833,7 @@
                  Support now have real pages here. Live entries with no
                  local equivalent (Product Development)
                  are mapped to the nearest real page or left out. */}}
+            <div class="footer-main">
             <div class="footer-top">
                 <div class="footer-contact">
                     <address>
@@ -874,6 +903,7 @@
                 </div>
             </div>
             </nav><!-- /footer navigation -->
+            </div><!-- /footer-main -->
 
             <div class="footer-bottom">
                 <p>Copyright &copy; 2026 The President and Fellows of Harvard College</p>

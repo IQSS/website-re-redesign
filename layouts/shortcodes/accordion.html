@@ -1,0 +1,23 @@
+{{- /*
+  One collapsible section.
+
+  Usage, with the body written as ordinary Markdown:
+
+      {{< accordion title="Faculty" >}}
+      **Benefits:**
+
+      - ...
+      {{< /accordion >}}
+
+  <details> is the whole mechanism: it opens and closes on its own and
+  reports its state to assistive technology without help. The script in
+  accordion-controls only smooths the opening and drives "open all".
+
+  The body is markdownified rather than taking the {{%* *}} form, so the
+  surrounding <details> markup cannot end up wrapped in a stray <p>.
+*/ -}}
+{{- $title := .Get "title" | default (.Get 0) -}}
+<details class="aff-accordion">
+    <summary>{{ $title }}</summary>
+    <div class="aff-accordion__body">{{ .Inner | markdownify }}</div>
+</details>

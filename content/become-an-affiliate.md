@@ -15,8 +15,9 @@ IQSS welcomes requests from scholars who participate in the life of the Institut
 
 ## How to Become an Affiliate
 
-### Faculty
+{{< accordion-controls >}}
 
+{{< accordion title="Faculty" >}}
 **Benefits:**
 - Apply for funding through IQSS's [Undergraduate Research Scholars Program](../research-resources/undergraduate-research-scholars/)
 - Request services of the IQSS Sponsored Team for sponsored research grants
@@ -26,11 +27,9 @@ IQSS welcomes requests from scholars who participate in the life of the Institut
 **Requirements:**
 - Must participate in Institute life (seminars, advising IQSS grad students, giving talks, co-authoring, collaborating)
 - Harvard faculty members fitting these criteria should email [affiliation@iq.harvard.edu](mailto:affiliation@iq.harvard.edu) with name, department, and research interests
+{{< /accordion >}}
 
----
-
-### Non-Harvard Faculty Affiliates
-
+{{< accordion title="Non-Harvard Faculty Affiliates" >}}
 **Eligibility:**
 - Must be working closely on an active research project with a Harvard Faculty member who is an IQSS Faculty Affiliate
 
@@ -40,11 +39,9 @@ IQSS welcomes requests from scholars who participate in the life of the Institut
 **How to Apply** — send to [affiliation@iq.harvard.edu](mailto:affiliation@iq.harvard.edu):
 - A letter of support from the Harvard-appointed IQSS Faculty Affiliate
 - An email identifying yourself, your institution and department, and research interests
+{{< /accordion >}}
 
----
-
-### Graduate Student Affiliates
-
+{{< accordion title="Graduate Student Affiliates" >}}
 **Eligibility:**
 - Currently enrolled in a doctoral program
 
@@ -57,11 +54,9 @@ IQSS welcomes requests from scholars who participate in the life of the Institut
 - An email identifying yourself, your department, and research interests
 
 **Important Note:** IQSS is a research institute, not a degree program; it is not involved with Harvard Admissions. Students must already be enrolled in a degree program.
+{{< /accordion >}}
 
----
-
-### Fellows
-
+{{< accordion title="Fellows" >}}
 **Eligibility:**
 - Must have a bachelor's degree
 - Existing and ongoing collaborative relationship with a current Harvard-appointed IQSS Faculty Affiliate
@@ -71,11 +66,9 @@ IQSS welcomes requests from scholars who participate in the life of the Institut
 - Proof of Bachelor's degree
 - Current CV
 - Research Statement indicating project to work on while at Harvard
+{{< /accordion >}}
 
----
-
-### Visiting Scholars
-
+{{< accordion title="Visiting Scholars" >}}
 **Eligibility:**
 - Must be self-funded
 - Existing and ongoing collaborative relationship with a current Harvard-appointed IQSS Faculty Affiliate
@@ -85,11 +78,9 @@ IQSS welcomes requests from scholars who participate in the life of the Institut
 **How to Apply** — send to Bonnie O'Brien ([bobrien@iq.harvard.edu](mailto:bobrien@iq.harvard.edu)), Director of HR:
 - Letter of support from Harvard-appointed IQSS Faculty Affiliate indicating benefit to the Faculty Affiliate and Harvard Community
 - Letter from home institution confirming current, active appointment and leave status
+{{< /accordion >}}
 
----
-
-### Associates
-
+{{< accordion title="Associates" >}}
 Unpaid affiliation with the Faculty of Arts and Sciences for individuals whose credentials and interests align with a specific institutional objective.
 
 **How to Apply** — send to Bonnie O'Brien ([bobrien@iq.harvard.edu](mailto:bobrien@iq.harvard.edu)), Director of HR:
@@ -104,3 +95,4 @@ Unpaid affiliation with the Faculty of Arts and Sciences for individuals whose c
 - Report on activities during previous term
 - Research statement for new term
 - Explanation of how the project aligns with IQSS's mission
+{{< /accordion >}}

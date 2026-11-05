@@ -1,0 +1,167 @@
+{{- /*
+  The "open all / close all" pair, plus the styling and behaviour for every
+  {{< accordion >}} on the page. Include it once, above the first one.
+
+  The buttons ship hidden and are revealed by the script. Without JS they
+  would do nothing, and a dead control is worse than no control -- the
+  accordions themselves still open and close, because <details> does that
+  on its own.
+
+  The labels are live's own: "Open all sections" and "Close all sections".
+*/ -}}
+<div class="aff-accordion-controls" hidden>
+    <button type="button" data-aff-all="open">Open all sections</button>
+    <button type="button" data-aff-all="close">Close all sections</button>
+</div>
+
+<style>
+.aff-accordion-controls {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 14px;
+}
+
+.aff-accordion-controls button {
+    font: inherit;
+    font-size: 14px;
+    color: var(--orange-brand);
+    background: none;
+    border: 1px solid #e5e5e5;
+    border-radius: 6px;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.aff-accordion-controls button:hover { border-color: var(--orange-brand); }
+
+.aff-accordion {
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    background: #fff;
+    margin-bottom: 10px;
+}
+
+.aff-accordion > summary {
+    /* list-style on the summary, and the WebKit pseudo-element below, both
+       have to go or the browser draws its own triangle next to the chevron. */
+    list-style: none;
+    cursor: pointer;
+    position: relative;
+    padding: 14px 48px 14px 18px;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--orange-brand);
+}
+
+.aff-accordion > summary::-webkit-details-marker { display: none; }
+
+.aff-accordion > summary:focus-visible {
+    outline: 2px solid var(--orange-brand);
+    outline-offset: -2px;
+    border-radius: 8px;
+}
+
+.aff-accordion > summary::after {
+    content: "";
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    width: 9px;
+    height: 9px;
+    margin-top: -7px;
+    border-right: 2px solid currentColor;
+    border-bottom: 2px solid currentColor;
+    transform: rotate(45deg);
+    transition: transform 0.2s ease;
+}
+
+.aff-accordion[open] > summary::after {
+    transform: rotate(-135deg);
+    margin-top: -2px;
+}
+
+.aff-accordion__body { padding: 0 18px 16px; }
+.aff-accordion__body > *:first-child { margin-top: 0; }
+.aff-accordion__body > *:last-child { margin-bottom: 0; }
+
+@media (prefers-reduced-motion: reduce) {
+    .aff-accordion > summary::after { transition: none; }
+}
+</style>
+
+<script>
+/* Opening is animated the same way the director's message is: one height,
+   on one element, handed to the browser's own animation engine. Height
+   cannot run on the compositor, so this is the cheapest honest version of
+   it, and it is an enhancement -- <details> already works without it.
+
+   "Open all" and "Close all" set the state directly rather than animating.
+   Six simultaneous height animations are six layouts a frame, and a bulk
+   control is expected to be instant anyway. */
+(function () {
+    /* This shortcode sits above the accordions it drives, so at parse time
+       none of them exist yet and querying for them finds nothing. Wait for
+       the document before looking. */
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', init);
+    } else {
+        init();
+    }
+
+function init() {
+    var controls = document.querySelector('.aff-accordion-controls');
+    var items = [].slice.call(document.querySelectorAll('.aff-accordion'));
+    if (!items.length) return;
+
+    var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+    var canAnimate = typeof items[0].animate === 'function';
+
+    function slide(details, body, open) {
+        if (details._anim) { details._anim.cancel(); details._anim = null; }
+        if (open) details.open = true;
+
+        var height = body.offsetHeight;
+        if (!height) { details.open = open; return; }
+
+        body.style.overflow = 'hidden';
+        details._anim = body.animate(
+            open
+                ? [{ height: '0px' }, { height: height + 'px' }]
+                : [{ height: height + 'px' }, { height: '0px' }],
+            { duration: 220, easing: 'ease' }
+        );
+        details._anim.onfinish = details._anim.oncancel = function () {
+            body.style.overflow = '';
+            if (!open) details.open = false;
+            details._anim = null;
+        };
+    }
+
+    items.forEach(function (details) {
+        var summary = details.querySelector('summary');
+        var body = details.querySelector('.aff-accordion__body');
+        if (!summary || !body || !canAnimate) return;
+
+        summary.addEventListener('click', function (event) {
+            if (reduceMotion.matches) return;
+            event.preventDefault();
+            slide(details, body, !details.open);
+        });
+    });
+
+    if (!controls) return;
+    controls.hidden = false;
+    controls.addEventListener('click', function (event) {
+        var button = event.target.closest && event.target.closest('[data-aff-all]');
+        if (!button) return;
+        var open = button.getAttribute('data-aff-all') === 'open';
+        items.forEach(function (details) {
+            if (details._anim) { details._anim.cancel(); details._anim = null; }
+            var body = details.querySelector('.aff-accordion__body');
+            if (body) body.style.overflow = '';
+            details.open = open;
+        });
+    });
+}
+})();
+</script>

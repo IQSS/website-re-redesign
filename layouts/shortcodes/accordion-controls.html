@@ -2,16 +2,16 @@
   The "open all / close all" pair, plus the styling and behaviour for every
   {{< accordion >}} on the page. Include it once, above the first one.
 
-  The buttons ship hidden and are revealed by the script. Without JS they
-  would do nothing, and a dead control is worse than no control -- the
-  accordions themselves still open and close, because <details> does that
-  on its own.
+  The button ships hidden and is revealed by the script. Without JS it would
+  do nothing, and a dead control is worse than no control -- the accordions
+  themselves still open and close, because <details> does that on its own.
 
-  The labels are live's own: "Open all sections" and "Close all sections".
+  One button, not two: it reads "Open all sections" while any section is
+  still shut, and "Close all sections" only once they are all open, so it
+  always offers the move that is not already made. Both labels are live's.
 */ -}}
 <div class="aff-accordion-controls" hidden>
-    <button type="button" data-aff-all="open">Open all sections</button>
-    <button type="button" data-aff-all="close">Close all sections</button>
+    <button type="button" data-aff-toggle>Open all sections</button>
 </div>
 
 <style>
@@ -116,21 +116,45 @@ function init() {
     var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
     var canAnimate = typeof items[0].animate === 'function';
 
+    /* cancel() queues its handler rather than running it, so a handler from
+       the animation we just cancelled can still fire after we have set the
+       new state and undo it. Clearing _anim first gives that stale handler
+       something to recognise itself by, and it returns without touching
+       anything. */
+    function stop(details) {
+        var anim = details._anim;
+        details._anim = null;
+        if (anim) anim.cancel();
+    }
+
+    /* While a section is closing it is still details.open === true, because
+       the element only closes when the animation finishes. Deciding the next
+       click from that property means a click during the close reads "it is
+       open, so close it" and starts a second close -- click, click leaves it
+       shut instead of back where it was. _wantOpen records where the section
+       is heading, and that is what the next click inverts. */
+    function intent(details) {
+        return details._anim ? details._wantOpen : details.open;
+    }
+
     function slide(details, body, open) {
-        if (details._anim) { details._anim.cancel(); details._anim = null; }
+        stop(details);
+        details._wantOpen = open;
         if (open) details.open = true;
 
         var height = body.offsetHeight;
         if (!height) { details.open = open; return; }
 
         body.style.overflow = 'hidden';
-        details._anim = body.animate(
+        var anim = body.animate(
             open
                 ? [{ height: '0px' }, { height: height + 'px' }]
                 : [{ height: height + 'px' }, { height: '0px' }],
             { duration: 220, easing: 'ease' }
         );
-        details._anim.onfinish = details._anim.oncancel = function () {
+        details._anim = anim;
+        anim.onfinish = anim.oncancel = function () {
+            if (details._anim !== anim) return;
             body.style.overflow = '';
             if (!open) details.open = false;
             details._anim = null;
@@ -145,23 +169,42 @@ function init() {
         summary.addEventListener('click', function (event) {
             if (reduceMotion.matches) return;
             event.preventDefault();
-            slide(details, body, !details.open);
+            slide(details, body, !intent(details));
         });
     });
 
     if (!controls) return;
-    controls.hidden = false;
-    controls.addEventListener('click', function (event) {
-        var button = event.target.closest && event.target.closest('[data-aff-all]');
-        if (!button) return;
-        var open = button.getAttribute('data-aff-all') === 'open';
+    var button = controls.querySelector('[data-aff-toggle]');
+    if (!button) return;
+
+    function allOpen() {
+        return items.every(function (details) { return details.open; });
+    }
+
+    function sync() {
+        button.textContent = allOpen() ? 'Close all sections' : 'Open all sections';
+    }
+
+    /* 'toggle' fires however the state changed -- this button, a click on a
+       summary, or the keyboard -- so the label follows all of them. */
+    items.forEach(function (details) {
+        details.addEventListener('toggle', sync);
+    });
+
+    button.addEventListener('click', function () {
+        var open = !allOpen();
         items.forEach(function (details) {
-            if (details._anim) { details._anim.cancel(); details._anim = null; }
+            stop(details);
+            details._wantOpen = open;
             var body = details.querySelector('.aff-accordion__body');
             if (body) body.style.overflow = '';
             details.open = open;
         });
+        sync();
     });
+
+    sync();
+    controls.hidden = false;
 }
 })();
 </script>

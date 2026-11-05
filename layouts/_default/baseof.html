@@ -441,7 +441,7 @@
 
         .footer-content {
             display: grid;
-            grid-template-columns: repeat(6, minmax(0, 1fr));
+            grid-template-columns: repeat(5, minmax(0, 1fr));
             gap: 18px;
         }
 
@@ -475,12 +475,14 @@
         .footer-top {
             flex: 0 0 200px;
         }
-        .footer-social { margin-top: 22px; }
+        .footer-assist { margin-top: 24px; }
+        /* Second heading in a shared column. */
+        .footer-section__next { margin-top: 20px; }
         .footer-contact address { font-style: normal; line-height: 1.7; color: #ccc; }
         .footer-meta { margin-top: 10px; line-height: 1.6; color: #ccc; }
         .footer-contact a, .footer-social a { color: #ccc; text-decoration: none; }
         .footer-contact a:hover, .footer-social a:hover { color: #fff; text-decoration: underline; }
-        .footer-social h4 { color: #fff; margin-bottom: 12px; font-size: 16px; }
+        .footer-social h4 { color: #fff; margin-bottom: 15px; font-size: 15px; }
         /* Icons in a row, not six word links down a column. The hit area is
            40px square so it clears the 24px touch-target floor on phones
            while the glyph itself stays 22px. */
@@ -846,7 +848,11 @@
                     <p class="footer-meta"><a href="tel:617-496-2450">617-496-2450</a></p>
                     <p class="footer-meta"><a href="mailto:gen_inquiries@iq.harvard.edu">gen_inquiries@iq.harvard.edu</a></p>
                 </div>
-                {{ partial "footer-social.html" . }}
+                <nav class="footer-section footer-assist" aria-label="Assistance">
+                    <h4>For Assistance</h4>
+                    <a href="{{ "get-help/" | relURL }}">Get Help</a>
+                    <a href="{{ "book-a-desk/" | relURL }}">Book a Desk</a>
+                </nav>
             </div>
 
             <nav aria-label="Footer navigation"><!-- S-08 -->
@@ -890,17 +896,12 @@
                     <a href="{{ "events/" | relURL }}">Events</a>
                     <a href="{{ "news-page/" | relURL }}">News</a>
                     <a href="{{ "institutional-impartiality/" | relURL }}">Impartiality</a>
-                </div>
-                <div class="footer-section">
-                    <h4>For Assistance</h4>
-                    <a href="{{ "get-help/" | relURL }}">Get Help</a>
-                    <a href="{{ "book-a-desk/" | relURL }}">Book a Desk</a>
-                </div>
-                <div class="footer-section">
-                    <h4><a href="{{ "our-impact/" | relURL }}">Our Impact</a></h4>
+
+                    <h4 class="footer-section__next"><a href="{{ "our-impact/" | relURL }}">Our Impact</a></h4>
                     <a href="{{ "our-impact/iqss-supporters/" | relURL }}">IQSS Supporters</a>
                     <a href="https://community.alumni.harvard.edu/give/51724705" target="_blank" rel="noopener noreferrer">Make a Gift<span class="sr-only"> (opens in new tab)</span></a>
                 </div>
+                {{ partial "footer-social.html" . }}
             </div>
             </nav><!-- /footer navigation -->
             </div><!-- /footer-main -->

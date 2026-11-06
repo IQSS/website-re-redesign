@@ -120,17 +120,22 @@ what it should become.
 | `tyler-vanderweele.png` | Testimonial on `/research/incubation/` | 1420 × 2131, **4.2 MB** | 300 × 400 | **600 × 800** | JPEG ~75 |
 | `data-science-hero.png` | Home page, Data Science Services | 1920 × 825, 1.59 MB | full-width hero | **1920 × 825** | JPEG ~75 |
 | `about-banner.jpg` | Hero on `/about/` | 2000 × 500, 1.11 MB | full-width hero | 2000 × 500 (keep) | JPEG ~75 |
-| `survey-research.png` | Scientific Programs | 1548 × 776, 892 KB | card image | **760 × 380** | JPEG ~75 |
-| `people-len-wisniewski.png` | People directory | — , 540 KB | portrait | **600 × 600** | JPEG ~75 |
+| `survey-research.png` | Card on `/programs-products/` | 1548 × 776, 892 KB | 200 × 100 | **400 × 200** | JPEG ~75 |
+| `people-len-wisniewski.png` | `/people/` card, and his own profile | 690 × 865, 540 KB | 70 × 70 card, 150 × 150 profile | **300 × 300** | JPEG ~75 |
 
 **`tyler-vanderweele.png` is the single worst file on the site at 4.2 MB** —
 a photograph saved as PNG, which is a format for flat graphics, not photos.
 Its frame is also 3:4 on the page but 2:3 in the file, so crop to 3:4 when
 re-exporting rather than letting the page squash it.
 
-The same PNG-for-a-photograph mistake affects `people-len-wisniewski.png` and
-`survey-research.png`. JPEG at quality 75 will be a fraction of the size with
-no visible difference.
+The same PNG-for-a-photograph mistake affects `people-len-wisniewski.png`.
+JPEG at quality 75 will be a fraction of the size with no visible difference.
+`survey-research.png` is the most oversized of the group at 7.7× — nearly
+900 KB for a card shown at 200 × 100.
+
+`people-len-wisniewski.png` is cropped square by the page (`object-fit:
+cover`) from a 690 × 865 portrait, so crop it square yourself rather than
+leaving the browser to choose what to cut.
 
 Hero images stay at 1920–2000px wide rather than doubling: at that size the
 file cost of a 2× export outweighs the sharpness nobody notices on a

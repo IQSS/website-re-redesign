@@ -44,6 +44,26 @@ main content, and the "skip to content" link may land in the wrong place.
 This is content-level, not template-level: it is the de-scrape job proper,
 and it is the largest single item on this list.
 
+## Pages nothing links to
+
+**2,263 of 2,942 pages — 77% — have no inbound link from anywhere on the
+site.** Measured by extracting every internal link from every built page and
+comparing against every page built: only 679 distinct pages are ever linked
+to. The rest are reachable only by typing the URL.
+
+It concentrates in two places, which is better news than the total suggests:
+
+| Section | Orphans | What they are |
+|---|---|---|
+| `/people/` | 2,154 | The two duplicate person structures — see [PEOPLE-AUDIT.md](PEOPLE-AUDIT.md) |
+| `/services/` | 71 | Scraped Client Support Services pages, below |
+| everything else | ~38 | A long tail, mostly one page per section |
+
+So this is not 2,263 separate problems. It is two decisions and a short list.
+
+They stay out of search today only because every page carries `noindex`
+while the site is a prototype. That protection ends at launch.
+
 ## Links that go nowhere
 
 **Scraped root-absolute links.**
@@ -51,11 +71,21 @@ Scraped pages link to live's URL structure (e.g.
 `/undergraduate-research-scholars/for-faculty`), which does not exist here, so
 they 404. Not yet counted.
 
-**Retired page still referenced — 63 content files.**
-63 files link to `client-support-services`, which is no longer in the menu
-after the Client Support Services team was eliminated. The file itself stays
-(see below); the links need to point somewhere real, most likely the new IT
-Support page.
+**Retired service still referenced — 63 content files.**
+63 files link to `/client-support-services/...` — not one page but a whole
+section of live's old site, with subpages for Zoom, VPN, printing, network
+drives and the rest. Those URLs are root-absolute, so they ignore the base
+URL and 404 regardless.
+
+**All 63 are themselves orphans.** 58 are in `content/services/technology/`,
+which is the scraped copy of that same retired section — 62 pages that
+nothing links to, documenting the services of a team that no longer exists
+and a section live has since removed. The remaining 5 sit in `/misc/`, which
+is also outside the menu.
+
+Repointing these links at the IT Support page would polish pages no visitor
+can reach, about a service that is gone. The section wants archiving
+instead, which clears the 63 references and 62 orphans together.
 
 ## Page weight
 

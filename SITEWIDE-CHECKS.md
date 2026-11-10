@@ -29,6 +29,14 @@ content.
 
 ## Structure
 
+**The People section has its own audit.**
+`/people/` and the parallel `people-*` sections are the largest unresolved
+area of the rebuild: every person exists two or three times, at two or three
+live URLs, and most of it waits on one editorial decision about which
+structure is canonical. Details, and what has already been fixed, are in
+[PEOPLE-AUDIT.md](PEOPLE-AUDIT.md). Its 1,075 scraped pages are also the
+bulk of the nested-`<main>` count below.
+
 **Nested `<main>` — 1,247 pages.**
 Scraped pages carry their own `<main>` element inside the one the template
 already provides. Two `<main>`s means assistive tech cannot tell which is the

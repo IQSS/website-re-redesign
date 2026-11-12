@@ -4,6 +4,13 @@ draft: false
 section: people
 source_url: https://www.iq.harvard.edu/people/jinjie-liu
 title: Jinjie Liu
+service:
+  - Data Science Services
+service_weight: 3
+job_title: "Data Science Specialist"
+email: "jinjie_liu@fas.harvard.edu"
+photo: "images/people-jinjie-liu.jpg"
+bio: "Jinjie works as a Data Science Specialist on the Data Science Services team at IQSS."
 ---
 
 <main aria-label="Jinjie Liu" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

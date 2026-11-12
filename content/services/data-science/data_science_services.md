@@ -66,7 +66,7 @@ title: Data Science Services
 <div class="page-card__text hwp-order-1">
 <a class="page-card__link hwp-order-2" href="/data-science-services/services-we-offer"> <h3 class="page-card__heading hwp-order-2">Consulting</h3>
 </a>
-<div class="page-card__description hwp-order-3 hwp-text-block"><p>We provide short-term support (up to 3 hours per publication) in the form of advice.</p><p><a href="https://prod-harvardiqss.drupalsites.harvard.edu/data-science-services/services-we-offer">Learn more<span class="sr-only"> about Consulting</span></a></p><p> </p></div>
+<div class="page-card__description hwp-order-3 hwp-text-block"><p>We provide short-term support (up to 3 hours per publication) in the form of advice.</p><p><a href="{{< relref "research-resources/data-science-services" >}}">Learn more<span class="sr-only"> about Consulting</span></a></p><p> </p></div>
 </div>
 <div class="page-card__image page-card__image--16-9">
 <div class="page-card__thumb">

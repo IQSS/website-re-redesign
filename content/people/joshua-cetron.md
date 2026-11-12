@@ -4,6 +4,13 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/joshua-cetron
 title: Joshua Cetron
+service:
+  - Data Science Services
+service_weight: 1
+job_title: "Data Science Specialist"
+email: "jcetron@iq.harvard.edu"
+photo: "images/people-joshua-cetron.jpg"
+bio: "Josh is a data scientist, social scientist, and methodologist with a background in psychology, neuroscience, and multivariate statistics."
 ---
 
 <main aria-label="Joshua Cetron" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

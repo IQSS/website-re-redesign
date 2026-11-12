@@ -121,7 +121,7 @@ title: Get Help
 </article>
 <article class="page-card page-card--vertical page-card--hwp-vertical-card-item page-card--default page-card-- hwp-bg-light-alternative" data-component-name="page-card">
 <div class="page-card__text hwp-order-1">
-<a class="page-card__link hwp-order-2" href="https://prod-harvardiqss.drupalsites.harvard.edu/data-science-services"> <h3 class="page-card__heading hwp-order-2">Get Help with a Research Project</h3>
+<a class="page-card__link hwp-order-2" href="{{< relref "research-resources/data-science-services" >}}"> <h3 class="page-card__heading hwp-order-2">Get Help with a Research Project</h3>
 </a>
 </div>
 <div class="page-card__image page-card__image--16-9">
@@ -155,7 +155,7 @@ title: Get Help
 </article>
 <article class="page-card page-card--vertical page-card--hwp-vertical-card-item page-card--default page-card-- hwp-bg-light-alternative" data-component-name="page-card">
 <div class="page-card__text hwp-order-1">
-<a class="page-card__link hwp-order-2" href="https://prod-harvardiqss.drupalsites.harvard.edu/computer-labs"> <h3 class="page-card__heading hwp-order-2">Use Our Computer Labs</h3>
+<a class="page-card__link hwp-order-2" href="{{< relref "research-resources/computer-labs" >}}"> <h3 class="page-card__heading hwp-order-2">Use Our Computer Labs</h3>
 </a>
 </div>
 <div class="page-card__image page-card__image--16-9">

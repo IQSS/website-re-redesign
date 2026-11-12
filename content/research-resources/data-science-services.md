@@ -1,80 +1,96 @@
 ---
 title: "Data Science Services"
 date: 2026-05-28
+lastmod: 2026-11-12
 draft: false
 layout: "resource-page"
 hero_image: "images/data-science-hero.png"
-subtitle: "IQSS Data Science Services is pleased to assist researchers in the Harvard community working on publication research in overcoming obstacles at every stage of the research process."
+subtitle: "Free help with statistics, code, data, and AI agents for Harvard and MIT researchers."
 ---
 
-## Advisory Services
+<p class="dss-cta"><a class="dss-button" href="{{< relref "services/data-science/data_science_services_contact_us" >}}">Request help</a></p>
+
+## What we can help with
+
+Any stage of a research project that will be published, from the first design to the reviewers' comments.
+
+<figure class="dss-figure">
+<img src="../../images/dss-honeycomb.png" alt="What we can help with: research with AI agents, and twenty areas: study design, survey design, causal inference, regression, multilevel, and Bayesian models, machine learning, simulation, missing data, data cleaning, databases, web scraping and text, data visualization, methods, results, and reviews, dashboards and web apps, reproducible research, version control, R, Python, and Stata, R packages and software, high-performance computing, cloud and big data, data storage and sharing" />
+</figure>
+
+## What we do
 
 <div class="card-grid">
 <div class="card">
-<img src="../../images/consulting-icon.png" alt="Consulting" />
+<img src="../../images/dss-service-consulting.png" alt="Consulting" />
 <h3>Consulting</h3>
-<p>We provide short-term support (up to 3 hours per publication) in the form of advice.</p>
+<p>Advice on a research problem: study design, data, code, models, results, and working with AI agents. Free for up to three hours per publication.</p>
 </div>
 <div class="card">
-<img src="../../images/collaboration-icon.png" alt="Collaboration" />
+<img src="../../images/dss-service-collaboration.png" alt="Collaboration" />
 <h3>Collaboration</h3>
-<p>We provide extended support over the lifecycle of a research project by embedding a data science specialist in your research team.</p>
+<p>A data science specialist joins your project for as long as it takes and co-authors the output. $150 an hour.</p>
 </div>
 <div class="card">
-<img src="../../images/analytical-tool-icon.png" alt="Analytical Tool Building" />
-<h3>Analytical Tool Building</h3>
-<p>We can develop R code to implement your new statistical method or to automate part of your analysis pipeline.</p>
+<img src="../../images/dss-service-tool-building.png" alt="Analytical tool building" />
+<h3>Analytical tool building</h3>
+<p>We turn your method or analysis pipeline into documented R code, released as open source. Free for Harvard, except a flat $1,000 for HMS and MIT affiliates.</p>
+</div>
+<div class="card">
+<img src="../../images/dss-service-training.png" alt="Training" />
+<h3>Training</h3>
+<p>Self-paced materials from our workshops in R, Python, and Stata, and beginner's guides to the tools around them. Live workshops return in 2027. Free. <a href="https://iqss.github.io/dss-training">Training materials →</a></p>
 </div>
 </div>
 
-## Training Services
+## The terms
 
-- **[Workshop Materials](../dss-workshop-materials/)** — Self-contained workshops in Python, R, Stata, and more
-- **[Tutorials](../dss-tutorials/)** — Step-by-step guides for LaTeX, Git, causal inference, web scraping, and more
-- **[Related Resources](../dss-resources/)** — Additional data science resources across IQSS and Harvard University
+We reply to every help request within two business days.
 
-## Impact
+### Consulting
 
-- **[Research Output](../dss-research-output/)** — Publications and dissertations supported by Data Science Services
+Open to faculty, research associates, postdocs, graduate students, visiting scholars, staff, and undergraduates writing a senior thesis, for research that will be published, dissertations included. Not covered: coursework and contract work. If we helped, please acknowledge us in the paper.
 
-## Our Team
+### Collaboration
+
+We design and build the analysis with you, from cleaning the data to answering the reviewers. In return, our team member is an author on everything the work produces and IQSS bills the hours. We take projects case by case, depending on our time, expertise, and interest. Not covered: projects whose main output is a dissertation or thesis.
+
+### Analytical tool building
+
+Version-controlled functions with a tutorial, or a full package with documentation, published for anyone to use; see the [R packages we have helped build](https://www.iq.harvard.edu/r-packages). We choose projects by how widely the code will be reusable, our time, and feasibility. R only, for now.
+
+### Training
+
+The materials are open to anyone, at your own pace; if you get stuck in one, ask us. Live workshops for departments, labs, and centers return in 2027; tell us what you would like to attend.
+
+## What we have done since 2011
+
+<figure class="dss-figure">
+<img src="../../images/dss-stats.png" alt="What we have done since 2011. Help we have given: 5,900+ help requests, 2,700+ researchers helped, 13,000+ hours of support, 50+ departments, schools, and centers. What came of it: 700+ research outputs supported, 330+ papers in nearly 200 journals, 150+ dissertations and theses, 200+ talks." />
+</figure>
+
+Quarterly figures are on the [IQSS metrics dashboard](https://iqss.github.io/iqss-metrics-dashboard/research-services.html). If we helped with a paper, please acknowledge us in it; it is how we find your work: "Statistical support was provided by data science specialist ⟨name⟩ at the Institute for Quantitative Social Science, Harvard University."
+
+## The team
+
+{{< service-team "Data Science Services" >}}
+
+## Start a help request
+
+Tell us who you are and what you are working on. The form takes two minutes, and we reply within two business days.
+
+<p class="dss-cta"><a class="dss-button" href="{{< relref "services/data-science/data_science_services_contact_us" >}}">Request help</a></p>
+
+## Related IQSS services
 
 <div class="card-grid">
 <div class="card">
-<img src="../../images/dss-worthington.jpg" alt="Steven Worthington" style="width:100px;height:100px;border-radius:50%;object-fit:cover;object-position:top;" />
-<h3>Steven Worthington</h3>
-<p>Director of Data Science Services. At IQSS since 2011. PhD in Biological Anthropology from NYU.</p>
+<h3><a href="{{< relref "research-resources/rapidpeer" >}}">rapidPeer</a></h3>
 </div>
 <div class="card">
-<img src="../../images/dss-cetron.jpg" alt="Joshua Cetron" style="width:100px;height:100px;border-radius:50%;object-fit:cover;object-position:top;" />
-<h3>Joshua Cetron</h3>
-<p>Data Science Specialist. Background in psychology, neuroscience, and multivariate statistics.</p>
+<h3><a href="{{< relref "research-resources/ecee" >}}">Extraordinary Claims, Extraordinary Evidence</a></h3>
 </div>
 <div class="card">
-<img src="../../images/dss-greifer.jpg" alt="Noah Greifer" style="width:100px;height:100px;border-radius:50%;object-fit:cover;object-position:top;" />
-<h3>Noah Greifer</h3>
-<p>Data Science Specialist. PhD in Quantitative Methods. Member of DSS since August 2021.</p>
+<h3><a href="https://dataverse.org">Dataverse</a></h3>
 </div>
-</div>
-
-<div class="card-grid">
-<div class="card">
-<img src="../../images/dss-liu.jpg" alt="Jinjie Liu" style="width:100px;height:100px;border-radius:50%;object-fit:cover;object-position:top;" />
-<h3>Jinjie Liu</h3>
-<p>Data Science Specialist. PhD in Political Science from University of Wisconsin-Madison.</p>
-</div>
-<div class="card">
-<img src="../../images/dss-yuan.jpg" alt="Dan Yuan" style="width:100px;height:100px;border-radius:50%;object-fit:cover;object-position:top;" />
-<h3>Dan Yuan</h3>
-<p>Data Science Project Management Specialist.</p>
-</div>
-</div>
-
-## Get Help
-
-If you want to request a consultation or have questions about our other services, we are here to help.
-
-<div class="contact-info">
-<p><strong>Email:</strong> <a href="mailto:gen_inquiries@iq.harvard.edu">gen_inquiries@iq.harvard.edu</a></p>
-<p><strong>Phone:</strong> 617-496-2450</p>
 </div>

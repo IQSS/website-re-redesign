@@ -4,6 +4,13 @@ draft: false
 section: people
 source_url: https://www.iq.harvard.edu/people/steven-worthington-0
 title: Steven Worthington
+service:
+  - Data Science Services
+service_weight: 4
+job_title: "Director of Data Science Services"
+email: "sworthington@iq.harvard.edu"
+photo: "images/people-steve-worthington.jpg"
+bio: "Steve is a data scientist with expertise in agentic AI research workflows, Bayesian and frequentist statistics, machine learning, and R and Python. He holds a PhD in Evolutionary Biology (NYU) and a master's in Data Science (Harvard)."
 ---
 
 <main aria-label="Steven Worthington" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

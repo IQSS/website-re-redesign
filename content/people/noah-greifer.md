@@ -4,6 +4,13 @@ draft: false
 section: people
 source_url: https://www.iq.harvard.edu/people/noah-greifer
 title: Noah Greifer
+service:
+  - Data Science Services
+service_weight: 2
+job_title: "Data Science Specialist"
+email: "ngreifer@iq.harvard.edu"
+photo: "images/people-noah-greifer.jpg"
+bio: "Noah Greifer has been a member of the Data Science Services team at IQSS since August 2021."
 ---
 
 <main aria-label="Noah Greifer" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

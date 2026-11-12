@@ -4,6 +4,12 @@ draft: false
 section: people
 source_url: https://www.iq.harvard.edu/people/dan-yuan
 title: Dan Yuan
+service:
+  - Data Science Services
+service_weight: 5
+job_title: "Data Science Project Management Specialist"
+email: "tyuan1@fas.harvard.edu"
+photo: "images/people-dan-yuan.jpg"
 ---
 
 <main aria-label="Dan Yuan" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

@@ -114,6 +114,38 @@ internal host; they should point at the public address or at our own pages.
 
 ## Page weight
 
+**The site does not hold its own images -- 1,223 are broken right now.**
+The scrape captured markup but not media, so almost every picture still points
+at Harvard's server:
+
+| How it is referenced | `<img>` tags | What happens |
+|---|---|---|
+| `/sites/g/files/...`, no host | **1,223** | **404 on our site today** |
+| `https://www.iq.harvard.edu/sites/...` | 1,048 | loads, but Harvard serves it |
+| `images/`, ours | 41 | fine |
+
+Verified on the deployed site: `noah_greifer_2021.jpg` and
+`landing-honeycomb-3840.png` both return 404, while `images/srs-jorge-dasilva.jpg`
+returns 200. Between the two Harvard-hosted styles they name about **1,450
+distinct files**, of which 426 share a filename with something already in
+`static/images/` -- Drupal's resized version of a picture we hold.
+
+All 324 curated profiles in `people-*-profiles/` hotlink their portrait this
+way; not one holds its own. If those paths change, or the images are
+unpublished the way Valerie O'Kane's profile was, every portrait breaks at
+once with no local fallback.
+
+`tools/fetch-live-images.ps1` finds every reference, downloads each distinct
+file into `static/images/` and writes a manifest; it changes no content file,
+since rewriting references should happen once you can see what arrived. Run
+`.\tools\fetch-live-images.ps1 -DryRun` first.
+
+**Expect it to be refused.** The firewall rejects anything that is not a
+browser: curl is refused, and so is an honestly-named client. robots.txt
+permits these paths, so it is a filter on the client rather than a policy. The
+better route is a Drupal media-library export, which also gets the masters
+rather than the `styles/hwp_4_5__690x865/` derivatives these URLs point at.
+
 **The two logos cost 228 KB on every page.**
 `iqss-logo.png` (74 KB) is shown at 237 × 60 but stored at 1500 × 380.
 `iqss-logo-gray-compact.png` (154 KB) is shown at about 147 × 56 but stored

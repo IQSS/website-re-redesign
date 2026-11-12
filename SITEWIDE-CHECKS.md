@@ -128,6 +128,16 @@ Several pages ship photographs far larger than they are displayed — the worst
 is a 4.2 MB PNG of a single portrait. Sizes, locations and what each should
 become are in [GRAPHICS-TO-PRODUCE.md](GRAPHICS-TO-PRODUCE.md).
 
+## Circle back
+
+**The four `dss-*` pages.**
+`dss-tutorials`, `dss-resources`, `dss-workshop-materials` and
+`dss-research-output` in `content/research-resources/` mirror material live
+has removed, and the rebuilt Data Science Services page no longer links to
+them. They are our own pages rather than scraped copies, so the "gone on
+live" test does not settle it. Liz wants to read them against live and
+decide; not before then.
+
 ## Before launch
 
 **Turn off `noindex`.**

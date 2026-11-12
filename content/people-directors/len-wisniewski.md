@@ -5,6 +5,11 @@ draft: false
 layout: "resource-page"
 hero_image: ""
 subtitle: "Senior Director of Research Computing"
+job_title: "Senior Director of Research Computing"
+email: "lwisniewski@iq.harvard.edu"
+photo: "images/people-len-wisniewski.png"
+person-group: ["Directors"]
+group_weight: 110
 ---
 
 <img src="../../images/people-len-wisniewski.png" alt="Len Wisniewski" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />

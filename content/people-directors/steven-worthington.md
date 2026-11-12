@@ -5,6 +5,11 @@ draft: false
 layout: "resource-page"
 hero_image: ""
 subtitle: "Director of Data Science Services"
+job_title: "Director of Data Science Services"
+email: "sworthington@iq.harvard.edu"
+photo: "images/people-steve-worthington.jpg"
+person-group: ["Directors"]
+group_weight: 120
 ---
 
 <img src="../../images/people-steve-worthington.jpg" alt="Steven Worthington" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />

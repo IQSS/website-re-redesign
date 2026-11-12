@@ -5,6 +5,11 @@ draft: false
 layout: "resource-page"
 hero_image: ""
 subtitle: "Executive Director, Human Flourishing Program"
+job_title: "Executive Director, Human Flourishing Program"
+email: "gcomiso@fas.harvard.edu"
+photo: "images/people-glen-comiso.jpg"
+person-group: ["Directors"]
+group_weight: 50
 ---
 
 <img src="../../images/people-glen-comiso.jpg" alt="Glen Comiso" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />

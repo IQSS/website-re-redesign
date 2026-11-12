@@ -31,6 +31,7 @@ summaryLength = 40
   program = "program"
   research_technology = "research-technology"
   service = "service"
+  person_group = "person-group"
 
 # ── Menu ───────────────────────────────────────────────────────────────
 # Mirrors the information architecture of iq.harvard.edu, which was built

@@ -5,6 +5,11 @@ draft: false
 layout: "resource-page"
 hero_image: ""
 subtitle: "Director, IQSS Startup Foundry"
+job_title: "Director, IQSS Startup Foundry"
+email: "dkleiman@iq.harvard.edu"
+photo: "images/people-debi-kleiman.jpg"
+person-group: ["Directors"]
+group_weight: 60
 ---
 
 <img src="../../images/people-debi-kleiman.jpg" alt="Debi Kleiman" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />

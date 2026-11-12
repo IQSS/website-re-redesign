@@ -1,0 +1,55 @@
+{{- /*
+  A personnel listing drawn from the People directory.
+
+      {{ partial "person-list.html" (dict "taxonomy" "person-group" "term" "Directors") }}
+
+  Nobody is named here. The cards are built from whichever profiles carry the
+  term, so a person's photo, job title and email live in one place -- their own
+  profile -- and any page listing them shows whatever the directory currently
+  says. Adding, removing or retitling someone is a change to their profile, not
+  to the page that lists them.
+
+  This is the template-side counterpart to the `service-team` shortcode, which
+  does the same job for content files. Both read profiles; neither stores a
+  copy of anyone.
+
+  Parameters:
+    taxonomy  the taxonomy's plural, as it appears on the right of the pair in
+              hugo.toml -- "person-group", not "person_group"
+    term      the term as written in the profiles, e.g. "Directors"
+    heading   optional; rendered as an <h2> above the grid
+    sort      optional front-matter key to order by, default "group_weight"
+
+  Order comes from that key rather than the filenames, so a listing can follow
+  the order the organisation itself uses.
+*/ -}}
+{{- $taxonomy := .taxonomy -}}
+{{- $term := .term -}}
+{{- $sortKey := .sort | default "group_weight" -}}
+{{- /* Looked up by the term page's own path rather than by indexing
+       site.Taxonomies: the keys in that map are not the urlized form, so
+       indexing it with a slug quietly finds nothing. */ -}}
+{{- $page := site.GetPage (printf "/%s/%s" $taxonomy (urlize $term)) -}}
+{{- if not $page -}}
+  {{- warnf "person-list: no profiles tagged %q in %q" $term $taxonomy -}}
+{{- else -}}
+{{- with .heading }}<h2 class="people-section-title">{{ . }}</h2>{{ end }}
+<div class="people-grid">
+    {{- range sort $page.Pages (printf "Params.%s" $sortKey) }}
+    <a href="{{ .RelPermalink }}" class="people-card people-card-link">
+        {{- /* alt="" because the whole card is one link and the name follows
+               immediately in people-card-name: a name in the alt text as well
+               makes a screen reader say it twice per card. */ -}}
+        {{- with .Params.photo }}
+        <div class="people-card-image"><img src="{{ . | absURL }}" alt="" /></div>
+        {{- end }}
+        <div class="people-card-body">
+            <div class="people-card-name">{{ .Title }}</div>
+            {{- with .Params.job_title }}
+            <div class="people-card-title">{{ . }}</div>
+            {{- end }}
+        </div>
+    </a>
+    {{- end }}
+</div>
+{{- end -}}

@@ -5,6 +5,11 @@ draft: false
 layout: "resource-page"
 hero_image: ""
 subtitle: "Director, Program on Higher Education Research"
+job_title: "Director, Program on Higher Education Research"
+email: "nemirow@fas.harvard.edu"
+photo: "images/people-jason-nemirow.jpg"
+person-group: ["Directors"]
+group_weight: 80
 ---
 
 <img src="../../images/people-jason-nemirow.jpg" alt="Jason Nemirow" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />

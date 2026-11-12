@@ -41,26 +41,7 @@ Once your grant is awarded, we support you through the entire project lifecycle:
 
 ## Our Team
 
-<div class="card-grid">
-<div class="card">
-<img src="../../images/srs-brooke-moore.jpg" alt="Brooke Moore" style="width:100px;height:100px;border-radius:50%;object-fit:cover;object-position:top;" />
-<h3>Brooke Moore</h3>
-<p><strong>Director of Sponsored Research Administration</strong><br>
-<a href="mailto:bmoore@iq.harvard.edu">bmoore@iq.harvard.edu</a></p>
-</div>
-<div class="card">
-<img src="../../images/srs-keri-lemasters.jpg" alt="Keri Lemasters" style="width:100px;height:100px;border-radius:50%;object-fit:cover;object-position:top;" />
-<h3>Keri Lemasters</h3>
-<p><strong>Senior Sponsored Research Administrator</strong><br>
-<a href="mailto:klemasters@iq.harvard.edu">klemasters@iq.harvard.edu</a></p>
-</div>
-<div class="card">
-<img src="../../images/srs-jorge-dasilva.jpg" alt="Jorge Dasilva" style="width:100px;height:100px;border-radius:50%;object-fit:cover;object-position:top;" />
-<h3>Jorge Dasilva</h3>
-<p><strong>Senior Sponsored Research Administrator</strong><br>
-<a href="mailto:jdasilva@iq.harvard.edu">jdasilva@iq.harvard.edu</a></p>
-</div>
-</div>
+{{< service-team "Sponsored Research Services" >}}
 
 ## How We Can Help
 

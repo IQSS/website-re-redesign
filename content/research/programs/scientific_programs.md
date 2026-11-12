@@ -175,7 +175,25 @@ title: Scientific Programs
 <div class="page-card__text hwp-order-1">
 <a class="page-card__link hwp-order-2" href="https://hfh.fas.harvard.edu/"> <h3 class="page-card__heading hwp-order-2">The Human Flourishing Program</h3>
 </a>
-<div class="page-card__description hwp-order-3 hwp-text-block"><p>The Human Flourishing Program aims to integrate knowledge from the empirical social sciences and the humanities on topics such as religion, virtue, work, purpose, forgiveness, marriage and family.</p><p><a href="https://hfh.fas.harvard.edu/">Learn more<span class="sr-only"> about The Human Flourishing Program</span></a>Learn more</a></p></div>
+<div class="page-card__description hwp-order-3 hwp-text-block"><p>The Human Flourishing Program aims to integrate knowledge from the empirical social sciences and the humanities on topics such as religion, virtue, work, purpose, forgiveness, marriage and family.</p><p><a href="https://hfh.fas.harvard.edu/">Learn more<span class="sr-only"> about The Human Flourishing Program</span></a></p></div>
+</div>
+<div class="page-card__image page-card__image--16-9">
+<div class="page-card__thumb">
+<div class="hwp-media hwp-media--1-1-small-scale">
+<div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
+<source height="180" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/human_flourishing_slide_deck_banner-transparent.jpg?itok=AjAFftPJ 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/human_flourishing_slide_deck_banner-transparent.jpg?itok=_aerrSqC 2x" type="image/jpeg" width="360"/>
+<img alt="Human Flourishing Program logo" height="180" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/human_flourishing_slide_deck_banner-transparent.jpg?itok=AjAFftPJ" width="360"/>
+</picture>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="page-card page-card--vertical page-card--hwp-vertical-card-item page-card--default page-card-- hwp-bg-light-base" data-component-name="page-card">
+<div class="page-card__text hwp-order-1">
+<a class="page-card__link hwp-order-2" href="https://projects.iq.harvard.edu/peblss"> <h3 class="page-card__heading hwp-order-2">The Program on Experience Based Learning in the Social Sciences</h3>
+</a>
+<div class="page-card__description hwp-order-3 hwp-text-block"><p>The Program on Experience Based Learning in the Social Sciences provides a modern support infrastructure to Harvard programs and faculty that create active learning opportunities for Harvard students. </p><p><a href="https://projects.iq.harvard.edu/peblss">Learn more</a></p></div>
 </div>
 <div class="page-card__image page-card__image--16-9">
 <div class="page-card__thumb">

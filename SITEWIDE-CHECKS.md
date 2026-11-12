@@ -15,17 +15,23 @@ That is correct for decorative images and wrong for meaningful ones, and
 nobody has checked which is which. The rest carry alt text inherited from the
 scraped Drupal site, also unreviewed.
 
-**Link text — mostly fine, small cleanup.**
-215,504 links (most are the nav and footer repeated on every page). 65 have
-generic text like "Read more" or "Learn more" with no context, and 2 have no
-text at all. A screen reader user tabbing through links hears only the link
-text, so "Read more" five times on a page tells them nothing. This count only
-catches links whose text is plain, so treat it as a floor.
+**Link text — done 2026-11-12.**
+40 "Learn more" links now carry the name of what they lead to, as
+screen-reader-only text: "Learn more about Clarify", "Learn more about
+Dissertation Awards", and so on. Every name was taken from the heading or
+bold label the link already sits under, so the only word added anywhere is
+"about".
 
-**Heading outline.**
-Each page should have exactly one `<h1>` and no skipped levels.
-`content/misc/startup_foundry.md` has two `<h1>`s inside its own scraped
-content.
+Seven bare ones remain, all in `services/technology/computer_labs.md`.
+The nearest label there is "Address:", which would have produced "Learn
+more about Address:" seven times -- worse than leaving them. That page is
+also an orphan, so it waits for real wording rather than a derived one.
+
+**Heading outline — done 2026-11-12.**
+No page now carries two `<h1>`s. `content/misc/startup_foundry.md` had a
+visually hidden page title repeating the words of the visible hero heading
+below it; removing the hidden one leaves a single `<h1>` and stops screen
+readers announcing the title twice.
 
 ## Structure
 
@@ -66,10 +72,23 @@ while the site is a prototype. That protection ends at launch.
 
 ## Links that go nowhere
 
-**Scraped root-absolute links.**
-Scraped pages link to live's URL structure (e.g.
-`/undergraduate-research-scholars/for-faculty`), which does not exist here, so
-they 404. Not yet counted.
+**Scraped root-absolute links — 3,357 across 1,168 files, 503 distinct.
+Counted 2026-11-12.**
+Scraped pages link to live's URL structure, which does not exist here, so
+every one of them 404s. They concentrate in live's people-directory filters:
+
+| Prefix | Links |
+|---|---|
+| `/role/` | 1,142 |
+| `/people-last-name/` | 949 |
+| `/most-recent-year-iqss/` | 273 |
+| `/people/` | 218 |
+| `/program/` | 158 |
+| everything else | 617 |
+
+About three quarters are those directory filters, which exist only inside the
+scraped person pages -- so this shrinks with the People decision rather than
+needing its own pass.
 
 **Retired service still referenced — 63 content files.**
 63 files link to `/client-support-services/...` — not one page but a whole
@@ -86,6 +105,12 @@ is also outside the menu.
 Repointing these links at the IT Support page would polish pages no visitor
 can reach, about a service that is gone. The section wants archiving
 instead, which clears the 63 references and 62 orphans together.
+
+**A Drupal staging host leaks into 7 files.**
+Eleven links point at `prod-harvardiqss.drupalsites.harvard.edu` -- Harvard's
+Drupal staging server, picked up by the scrape. Two sit on the home page.
+They may work today and may stop without notice, and they advertise an
+internal host; they should point at the public address or at our own pages.
 
 ## Page weight
 

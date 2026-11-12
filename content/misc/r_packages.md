@@ -32,7 +32,7 @@ title: R Packages
 <div class="page-card__text hwp-order-1">
 <a class="page-card__link hwp-order-2" href="https://iqss.github.io/clarify/"> <h3 class="page-card__heading hwp-order-2">{clarify}</h3>
 </a>
-<div class="page-card__description hwp-order-3 hwp-text-block"><p><strong>{clarify}</strong> uses simulation to make interpretable inferences about any quantity of interest from a wide variety of statistical models. </p><p><a href="https://iqss.github.io/clarify/">Learn more</a></p></div>
+<div class="page-card__description hwp-order-3 hwp-text-block"><p><strong>{clarify}</strong> uses simulation to make interpretable inferences about any quantity of interest from a wide variety of statistical models. </p><p><a href="https://iqss.github.io/clarify/">Learn more<span class="sr-only"> about clarify</span></a></p></div>
 </div>
 <div class="page-card__image page-card__image--16-9">
 <div class="page-card__thumb">
@@ -50,7 +50,7 @@ title: R Packages
 <div class="page-card__text hwp-order-1">
 <a class="page-card__link hwp-order-2" href="https://kosukeimai.github.io/MatchIt/"> <h3 class="page-card__heading hwp-order-2">{MatchIt}</h3>
 </a>
-<div class="page-card__description hwp-order-3 hwp-text-block"><p> </p><p><strong>{MatchIt}</strong> implements matching methods for improving parametric statistical models for estimating treatment effects in observational studies and reducing model dependence.</p><p><a href="https://kosukeimai.github.io/MatchIt/">Learn more</a></p></div>
+<div class="page-card__description hwp-order-3 hwp-text-block"><p> </p><p><strong>{MatchIt}</strong> implements matching methods for improving parametric statistical models for estimating treatment effects in observational studies and reducing model dependence.</p><p><a href="https://kosukeimai.github.io/MatchIt/">Learn more<span class="sr-only"> about MatchIt</span></a></p></div>
 </div>
 <div class="page-card__image page-card__image--16-9">
 <div class="page-card__thumb">
@@ -68,7 +68,7 @@ title: R Packages
 <div class="page-card__text hwp-order-1">
 <a class="page-card__link hwp-order-2" href="https://iqss.github.io/MatchingFrontier/"> <h3 class="page-card__heading hwp-order-2">{MatchingFrontier}</h3>
 </a>
-<div class="page-card__description hwp-order-3 hwp-text-block"><p><strong>{MatchingFrontier}</strong> provides tools to manage the bias-variance trade-off when matching in observational studies.</p><p><a href="https://iqss.github.io/MatchingFrontier/">Learn more</a></p></div>
+<div class="page-card__description hwp-order-3 hwp-text-block"><p><strong>{MatchingFrontier}</strong> provides tools to manage the bias-variance trade-off when matching in observational studies.</p><p><a href="https://iqss.github.io/MatchingFrontier/">Learn more<span class="sr-only"> about MatchingFrontier</span></a></p></div>
 </div>
 <div class="page-card__image page-card__image--16-9">
 <div class="page-card__thumb">
@@ -94,7 +94,7 @@ title: R Packages
 <div class="page-card__text hwp-order-1">
 <a class="page-card__link hwp-order-2" href="https://cran.r-project.org/web/packages/cem/index.html"> <h3 class="page-card__heading hwp-order-2">{cem}</h3>
 </a>
-<div class="page-card__description hwp-order-3 hwp-text-block"><p><strong>{cem}</strong> implements a method for improving causal inferences called "Coarsened Exact Matching".</p><p><a href="https://cran.r-project.org/web/packages/cem/index.html">Learn more</a></p></div>
+<div class="page-card__description hwp-order-3 hwp-text-block"><p><strong>{cem}</strong> implements a method for improving causal inferences called "Coarsened Exact Matching".</p><p><a href="https://cran.r-project.org/web/packages/cem/index.html">Learn more<span class="sr-only"> about cem</span></a></p></div>
 </div>
 <div class="page-card__image page-card__image--16-9">
 <div class="page-card__thumb">
@@ -112,7 +112,7 @@ title: R Packages
 <div class="page-card__text hwp-order-1">
 <a class="page-card__link hwp-order-2" href="https://cran.r-project.org/web/packages/Amelia/index.html"> <h3 class="page-card__heading hwp-order-2">{Amelia}</h3>
 </a>
-<div class="page-card__description hwp-order-3 hwp-text-block"><p><strong>{Amelia}</strong> is a tool that "multiply imputes" missing data in a single cross-section, from a time series, or from a time-series-cross-sectional data set.</p><p><a href="https://cran.r-project.org/web/packages/Amelia/index.html">Learn more</a></p></div>
+<div class="page-card__description hwp-order-3 hwp-text-block"><p><strong>{Amelia}</strong> is a tool that "multiply imputes" missing data in a single cross-section, from a time series, or from a time-series-cross-sectional data set.</p><p><a href="https://cran.r-project.org/web/packages/Amelia/index.html">Learn more<span class="sr-only"> about Amelia</span></a></p></div>
 </div>
 <div class="page-card__image page-card__image--16-9">
 <div class="page-card__thumb">
@@ -130,7 +130,7 @@ title: R Packages
 <div class="page-card__text hwp-order-1">
 <a class="page-card__link hwp-order-2" href="https://cran.r-project.org/package=WhatIf"> <h3 class="page-card__heading hwp-order-2">{WhatIf}</h3>
 </a>
-<div class="page-card__description hwp-order-3 hwp-text-block"><p><strong>{WhatIf}</strong> offers easy-to-apply methods to evaluate counterfactuals that do not require sensitivity testing over specified classes of models.</p><p><a href="https://CRAN.R-project.org/package=WhatIf">Learn more</a></p></div>
+<div class="page-card__description hwp-order-3 hwp-text-block"><p><strong>{WhatIf}</strong> offers easy-to-apply methods to evaluate counterfactuals that do not require sensitivity testing over specified classes of models.</p><p><a href="https://CRAN.R-project.org/package=WhatIf">Learn more<span class="sr-only"> about WhatIf</span></a></p></div>
 </div>
 <div class="page-card__image page-card__image--16-9">
 <div class="page-card__thumb">
@@ -156,7 +156,7 @@ title: R Packages
 <div class="page-card__text hwp-order-1">
 <a class="page-card__link hwp-order-2" href="https://github.com/iqss-research/readme-software"> <h3 class="page-card__heading hwp-order-2">{Readme2}</h3>
 </a>
-<div class="page-card__description hwp-order-3 hwp-text-block"><p><strong>{Readme2}</strong> implements methods for estimating category proportions in an unlabeled set of documents given a labeled set.</p><p><a href="https://github.com/iqss-research/readme-software">Learn more</a></p></div>
+<div class="page-card__description hwp-order-3 hwp-text-block"><p><strong>{Readme2}</strong> implements methods for estimating category proportions in an unlabeled set of documents given a labeled set.</p><p><a href="https://github.com/iqss-research/readme-software">Learn more<span class="sr-only"> about Readme2</span></a></p></div>
 </div>
 <div class="page-card__image page-card__image--16-9">
 <div class="page-card__thumb">
@@ -174,7 +174,7 @@ title: R Packages
 <div class="page-card__text hwp-order-1">
 <a class="page-card__link hwp-order-2" href="https://cran.r-project.org/web/packages/ei/index.html"> <h3 class="page-card__heading hwp-order-2">{ei}</h3>
 </a>
-<div class="page-card__description hwp-order-3 hwp-text-block"><p><strong>{ei}</strong> implements methods described in Gary King's (1997) book: A Solution to the Ecological Inference Problem.</p><p><a href="https://cran.r-project.org/web/packages/ei/index.html">Learn more</a></p></div>
+<div class="page-card__description hwp-order-3 hwp-text-block"><p><strong>{ei}</strong> implements methods described in Gary King's (1997) book: A Solution to the Ecological Inference Problem.</p><p><a href="https://cran.r-project.org/web/packages/ei/index.html">Learn more<span class="sr-only"> about ei</span></a></p></div>
 </div>
 <div class="page-card__image page-card__image--16-9">
 <div class="page-card__thumb">
@@ -192,7 +192,7 @@ title: R Packages
 <div class="page-card__text hwp-order-1">
 <a class="page-card__link hwp-order-2" href="https://cran.r-project.org/package=lmw"> <h3 class="page-card__heading hwp-order-2">{lmw}</h3>
 </a>
-<div class="page-card__description hwp-order-3 hwp-text-block"><p><strong>{lmw}</strong> computes the implied weights of linear regression models for estimating average causal effects and provides diagnostics based on these weights.</p><p><a href="https://cran.r-project.org/package=lmw">Learn more</a></p></div>
+<div class="page-card__description hwp-order-3 hwp-text-block"><p><strong>{lmw}</strong> computes the implied weights of linear regression models for estimating average causal effects and provides diagnostics based on these weights.</p><p><a href="https://cran.r-project.org/package=lmw">Learn more<span class="sr-only"> about lmw</span></a></p></div>
 </div>
 <div class="page-card__image page-card__image--16-9">
 <div class="page-card__thumb">
@@ -218,7 +218,7 @@ title: R Packages
 <div class="page-card__text hwp-order-1">
 <a class="page-card__link hwp-order-2" href="https://tiago-simoes.github.io/EvoPhylo/"> <h3 class="page-card__heading hwp-order-2">{EvoPhylo}</h3>
 </a>
-<div class="page-card__description hwp-order-3 hwp-text-block"><p><strong>{EvoPhylo}</strong> performs morphological character partitioning and analyzes outputs from clock Bayesian inference for phylogenetic analyses. </p><p><a href="https://tiago-simoes.github.io/EvoPhylo/">Learn more</a></p></div>
+<div class="page-card__description hwp-order-3 hwp-text-block"><p><strong>{EvoPhylo}</strong> performs morphological character partitioning and analyzes outputs from clock Bayesian inference for phylogenetic analyses. </p><p><a href="https://tiago-simoes.github.io/EvoPhylo/">Learn more<span class="sr-only"> about EvoPhylo</span></a></p></div>
 </div>
 <div class="page-card__image page-card__image--16-9">
 <div class="page-card__thumb">
@@ -236,7 +236,7 @@ title: R Packages
 <div class="page-card__text hwp-order-1">
 <a class="page-card__link hwp-order-2" href="https://judgelord.github.io/netlit/"> <h3 class="page-card__heading hwp-order-2">{netlit}</h3>
 </a>
-<div class="page-card__description hwp-order-3 hwp-text-block"><p><strong>{netlit}</strong> provides functions to generate network statistics from a literature review.</p><p><a href="https://judgelord.github.io/netlit/">Learn more</a></p></div>
+<div class="page-card__description hwp-order-3 hwp-text-block"><p><strong>{netlit}</strong> provides functions to generate network statistics from a literature review.</p><p><a href="https://judgelord.github.io/netlit/">Learn more<span class="sr-only"> about netlit</span></a></p></div>
 </div>
 <div class="page-card__image page-card__image--16-9">
 <div class="page-card__thumb">

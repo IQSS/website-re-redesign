@@ -74,7 +74,7 @@ title: Research Computing at IQSS
 <div class="hwp-content-bottom">
 <div class="hwp--text-block hwp-bg-dark-alternative hwp-container-px hwp-container-py hwp-bg-fluid">
 <div class="hwp-bg-fluid--content">
-<div class="hwp-text-block field field--name-field-hwp-body field--type-text-long field--label-hidden"><h2 class="text-align-center">Office Hours</h2><p class="text-align-center">Having technical issues using FASRC? General questions? Drop in for FASRC virtual office hours, open to all users and labs.</p><p class="text-align-center"><a href="https://www.rc.fas.harvard.edu/training/office-hours/">Learn more</a></p></div>
+<div class="hwp-text-block field field--name-field-hwp-body field--type-text-long field--label-hidden"><h2 class="text-align-center">Office Hours</h2><p class="text-align-center">Having technical issues using FASRC? General questions? Drop in for FASRC virtual office hours, open to all users and labs.</p><p class="text-align-center"><a href="https://www.rc.fas.harvard.edu/training/office-hours/">Learn more<span class="sr-only"> about Office Hours</span></a></p></div>
 </div>
 </div>
 </div>

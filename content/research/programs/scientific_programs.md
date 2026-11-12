@@ -33,7 +33,7 @@ title: Scientific Programs
 <div class="page-card__text hwp-order-1">
 <a class="page-card__link hwp-order-2" href="https://socialscience.one/"> <h3 class="page-card__heading hwp-order-2">Social Science One</h3>
 </a>
-<div class="page-card__description hwp-order-3 hwp-text-block"><p>Social Science One implements a new type of partnership between academic researchers and the private sector to enable the use of information amassed by companies to address societal issues, while ensuring the highest standards of privacy and data security.</p><p><a href="https://socialscience.one/">Learn more</a></p></div>
+<div class="page-card__description hwp-order-3 hwp-text-block"><p>Social Science One implements a new type of partnership between academic researchers and the private sector to enable the use of information amassed by companies to address societal issues, while ensuring the highest standards of privacy and data security.</p><p><a href="https://socialscience.one/">Learn more<span class="sr-only"> about Social Science One</span></a></p></div>
 </div>
 <div class="page-card__image page-card__image--16-9">
 <div class="page-card__thumb">
@@ -51,7 +51,7 @@ title: Scientific Programs
 <div class="page-card__text hwp-order-1">
 <a class="page-card__link hwp-order-2" href="https://gis.harvard.edu/"> <h3 class="page-card__heading hwp-order-2">The Center for Geographic Analysis</h3>
 </a>
-<div class="page-card__description hwp-order-3 hwp-text-block"><p>The Center for Geographic Analysis administers Harvard-wide GIS infrastructure, collects and disseminates spatial datasets, and provides training and consultation in the use of geospatial technologies. </p><p><a href="https://gis.harvard.edu/">Learn more</a></p></div>
+<div class="page-card__description hwp-order-3 hwp-text-block"><p>The Center for Geographic Analysis administers Harvard-wide GIS infrastructure, collects and disseminates spatial datasets, and provides training and consultation in the use of geospatial technologies. </p><p><a href="https://gis.harvard.edu/">Learn more<span class="sr-only"> about The Center for Geographic Analysis</span></a></p></div>
 </div>
 <div class="page-card__image page-card__image--16-9">
 <div class="page-card__thumb">
@@ -95,7 +95,7 @@ title: Scientific Programs
 <div class="page-card__text hwp-order-1">
 <a class="page-card__link hwp-order-2" href="/program-higher-education-research"> <h3 class="page-card__heading hwp-order-2">Program on Higher Education Research</h3>
 </a>
-<div class="page-card__description hwp-order-3 hwp-text-block"><p>The PHER supports rigorous research on academic freedom and topics pertaining to higher education. It is home to the Council on Academic Freedom at Harvard, a group of more than 200 Harvard faculty members dedicated to the promotion of civil discourse and viewpoint diversity at Harvard.</p><p><a data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="025fe39f-677e-4145-82c6-305ef016d1ff" href="/program-higher-education-research" title="Program on Higher Education Research">Learn more</a></p></div>
+<div class="page-card__description hwp-order-3 hwp-text-block"><p>The PHER supports rigorous research on academic freedom and topics pertaining to higher education. It is home to the Council on Academic Freedom at Harvard, a group of more than 200 Harvard faculty members dedicated to the promotion of civil discourse and viewpoint diversity at Harvard.</p><p><a data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="025fe39f-677e-4145-82c6-305ef016d1ff" href="/program-higher-education-research" title="Program on Higher Education Research">Learn more<span class="sr-only"> about Program on Higher Education Research</span></a></p></div>
 </div>
 <div class="page-card__image page-card__image--16-9">
 <div class="page-card__thumb">
@@ -113,7 +113,7 @@ title: Scientific Programs
 <div class="page-card__text hwp-order-1">
 <a class="page-card__link hwp-order-2" href="https://psr.iq.harvard.edu/"> <h3 class="page-card__heading hwp-order-2">The Program on Survey Research</h3>
 </a>
-<div class="page-card__description hwp-order-3 hwp-text-block"><p>The Program on Survey Research encourages and facilitates research and instruction in the theory and practice of survey research, with a mission of enhancing the quality of teaching and research at Harvard. </p><p><a href="https://psr.iq.harvard.edu/">Learn more</a></p></div>
+<div class="page-card__description hwp-order-3 hwp-text-block"><p>The Program on Survey Research encourages and facilitates research and instruction in the theory and practice of survey research, with a mission of enhancing the quality of teaching and research at Harvard. </p><p><a href="https://psr.iq.harvard.edu/">Learn more<span class="sr-only"> about The Program on Survey Research</span></a></p></div>
 </div>
 <div class="page-card__image page-card__image--16-9">
 <div class="page-card__thumb">
@@ -131,7 +131,7 @@ title: Scientific Programs
 <div class="page-card__text hwp-order-1">
 <a class="page-card__link hwp-order-2" href="https://murray.harvard.edu/"> <h3 class="page-card__heading hwp-order-2">The Henry A. Murray Research Archive </h3>
 </a>
-<div class="page-card__description hwp-order-3 hwp-text-block"><p>The Henry A. Murray Research Archive is a permanent repository for quantitative and qualitative social science data. The collection comprises over 100 TB of numerical datasets, video and audio recordings, interview notes, and other media. </p><p><a href="https://murray.harvard.edu/">Learn more</a></p></div>
+<div class="page-card__description hwp-order-3 hwp-text-block"><p>The Henry A. Murray Research Archive is a permanent repository for quantitative and qualitative social science data. The collection comprises over 100 TB of numerical datasets, video and audio recordings, interview notes, and other media. </p><p><a href="https://murray.harvard.edu/">Learn more<span class="sr-only"> about The Henry A. Murray Research Archive</span></a></p></div>
 </div>
 <div class="page-card__image page-card__image--16-9">
 <div class="page-card__thumb">
@@ -157,7 +157,7 @@ title: Scientific Programs
 <div class="page-card__text hwp-order-1">
 <a class="page-card__link hwp-order-2" href="https://dlabss.harvard.edu/"> <h3 class="page-card__heading hwp-order-2">DLABSS</h3>
 </a>
-<div class="page-card__description hwp-order-3 hwp-text-block"><p>DLABSS is an online experiments and survey community for social science research.  It is an innovative tool for connecting subject pool participants with researchers conducting surveys and  experiments. </p><p><a href="https://dlabss.harvard.edu/">Learn more</a></p></div>
+<div class="page-card__description hwp-order-3 hwp-text-block"><p>DLABSS is an online experiments and survey community for social science research.  It is an innovative tool for connecting subject pool participants with researchers conducting surveys and  experiments. </p><p><a href="https://dlabss.harvard.edu/">Learn more<span class="sr-only"> about DLABSS</span></a></p></div>
 </div>
 <div class="page-card__image page-card__image--16-9">
 <div class="page-card__thumb">
@@ -175,25 +175,7 @@ title: Scientific Programs
 <div class="page-card__text hwp-order-1">
 <a class="page-card__link hwp-order-2" href="https://hfh.fas.harvard.edu/"> <h3 class="page-card__heading hwp-order-2">The Human Flourishing Program</h3>
 </a>
-<div class="page-card__description hwp-order-3 hwp-text-block"><p>The Human Flourishing Program aims to integrate knowledge from the empirical social sciences and the humanities on topics such as religion, virtue, work, purpose, forgiveness, marriage and family.</p><p><a href="https://hfh.fas.harvard.edu/">Learn more</a></p></div>
-</div>
-<div class="page-card__image page-card__image--16-9">
-<div class="page-card__thumb">
-<div class="hwp-media hwp-media--1-1-small-scale">
-<div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="180" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/human_flourishing_slide_deck_banner-transparent.jpg?itok=AjAFftPJ 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/human_flourishing_slide_deck_banner-transparent.jpg?itok=_aerrSqC 2x" type="image/jpeg" width="360"/>
-<img alt="Human Flourishing Program logo" height="180" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/human_flourishing_slide_deck_banner-transparent.jpg?itok=AjAFftPJ" width="360"/>
-</picture>
-</div>
-</div>
-</div>
-</div>
-</article>
-<article class="page-card page-card--vertical page-card--hwp-vertical-card-item page-card--default page-card-- hwp-bg-light-base" data-component-name="page-card">
-<div class="page-card__text hwp-order-1">
-<a class="page-card__link hwp-order-2" href="https://projects.iq.harvard.edu/peblss"> <h3 class="page-card__heading hwp-order-2">The Program on Experience Based Learning in the Social Sciences</h3>
-</a>
-<div class="page-card__description hwp-order-3 hwp-text-block"><p>The Program on Experience Based Learning in the Social Sciences provides a modern support infrastructure to Harvard programs and faculty that create active learning opportunities for Harvard students. </p><p><a href="https://projects.iq.harvard.edu/peblss">Learn more</a></p></div>
+<div class="page-card__description hwp-order-3 hwp-text-block"><p>The Human Flourishing Program aims to integrate knowledge from the empirical social sciences and the humanities on topics such as religion, virtue, work, purpose, forgiveness, marriage and family.</p><p><a href="https://hfh.fas.harvard.edu/">Learn more<span class="sr-only"> about The Human Flourishing Program</span></a>Learn more</a></p></div>
 </div>
 <div class="page-card__image page-card__image--16-9">
 <div class="page-card__thumb">
@@ -219,7 +201,7 @@ title: Scientific Programs
 <div class="page-card__text hwp-order-1">
 <a class="page-card__link hwp-order-2" href="https://projects.iq.harvard.edu/cbdb/"> <h3 class="page-card__heading hwp-order-2">The China Biographical Database (CBDB)</h3>
 </a>
-<div class="page-card__description hwp-order-3 hwp-text-block"><p>The China Biographical Database (CBDB) is a freely accessible relational database providing biographical information—from Chinese historical records dating to the 7th through 19th centuries—for statistical, social network, and spatial analysis.</p><p><a href="https://projects.iq.harvard.edu/cbdb/">Learn more</a></p></div>
+<div class="page-card__description hwp-order-3 hwp-text-block"><p>The China Biographical Database (CBDB) is a freely accessible relational database providing biographical information—from Chinese historical records dating to the 7th through 19th centuries—for statistical, social network, and spatial analysis.</p><p><a href="https://projects.iq.harvard.edu/cbdb/">Learn more<span class="sr-only"> about The China Biographical Database (CBDB)</span></a></p></div>
 </div>
 <div class="page-card__image page-card__image--16-9">
 <div class="page-card__thumb">
@@ -237,7 +219,7 @@ title: Scientific Programs
 <div class="page-card__text hwp-order-1">
 <a class="page-card__link hwp-order-2" href="/privacy-insights"> <h3 class="page-card__heading hwp-order-2">The Privacy Insights Project</h3>
 </a>
-<div class="page-card__description hwp-order-3 hwp-text-block"><p>The Privacy Insights Project is developing statistically valid differentially private systems, including OpenDP, that will also protect researchers and society. </p><p><a href="/privacy-insights">Learn more</a></p></div>
+<div class="page-card__description hwp-order-3 hwp-text-block"><p>The Privacy Insights Project is developing statistically valid differentially private systems, including OpenDP, that will also protect researchers and society. </p><p><a href="/privacy-insights">Learn more<span class="sr-only"> about The Privacy Insights Project</span></a></p></div>
 </div>
 <div class="page-card__image page-card__image--16-9">
 <div class="page-card__thumb">
@@ -255,7 +237,7 @@ title: Scientific Programs
 <div class="page-card__text hwp-order-1">
 <a class="page-card__link hwp-order-2" href="https://dataprivacylab.org/"> <h3 class="page-card__heading hwp-order-2">The Data Privacy Lab</h3>
 </a>
-<div class="page-card__description hwp-order-3 hwp-text-block"><p>The Data Privacy Lab creates technologies and related policies that balance privacy protection and society's need to collect and share sensitive information for many worthy purposes.</p><p><a href="https://dataprivacylab.org/">Learn more</a></p></div>
+<div class="page-card__description hwp-order-3 hwp-text-block"><p>The Data Privacy Lab creates technologies and related policies that balance privacy protection and society's need to collect and share sensitive information for many worthy purposes.</p><p><a href="https://dataprivacylab.org/">Learn more<span class="sr-only"> about The Data Privacy Lab</span></a></p></div>
 </div>
 <div class="page-card__image page-card__image--16-9">
 <div class="page-card__thumb">

@@ -11,13 +11,6 @@ title: The IQSS Startup Foundry
 <div>
 <div class="hidden" data-drupal-messages-fallback=""></div>
 <article class="node node--type-hwp-page node--view-mode-full" lang="en">
-<div class="hwp-page-title hwp-bg-light-base hwp-sr-only">
-<div class="hwp-container hwp-container-px hwp-py-32">
-<h1 class="text-large" id="page-title">
-<span>The IQSS Startup Foundry</span>
-</h1>
-</div>
-</div>
 <div class="hwp-content-top">
 <div class="hwp-hero hwp-hero--floating hwp-hero--small hwp-hero--static" data-component-name="hwp-hero">
 <div class="hwp-hero__slides js-hwp-hero-slider-trigger">

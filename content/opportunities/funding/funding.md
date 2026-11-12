@@ -73,7 +73,7 @@ title: Funding
 </picture>
 </div>
 </div>
-<p>A peer pre-review is similar to peer review for a scholarly journal, but faster, more complete, and constructive. Peer pre-reviewers are asked to read the entire paper and make constructive suggestions, wherever they think of something useful, throughout.</p><p><a href="/peer-pre-review">Learn more</a></p></div>
+<p>A peer pre-review is similar to peer review for a scholarly journal, but faster, more complete, and constructive. Peer pre-reviewers are asked to read the entire paper and make constructive suggestions, wherever they think of something useful, throughout.</p><p><a href="/peer-pre-review">Learn more<span class="sr-only"> about Magaro Peer Pre-Review</span></a></p></div>
 </div>
 </article>
 <article class="page-card page-card--vertical page-card--hwp-vertical-card-item page-card--default page-card-- hwp-bg-light-base" data-component-name="page-card">
@@ -87,7 +87,7 @@ title: Funding
 </picture>
 </div>
 </div>
-<p>The IQSS Undergraduate Research Scholars program is an opportunity for Harvard College students to gain first-hand research experience working with faculty members all across the University.</p><p><a href="https://urs.iq.harvard.edu">Learn more</a></p></div>
+<p>The IQSS Undergraduate Research Scholars program is an opportunity for Harvard College students to gain first-hand research experience working with faculty members all across the University.</p><p><a href="https://urs.iq.harvard.edu">Learn more<span class="sr-only"> about Undergraduate Research Scholars Program</span></a></p></div>
 </div>
 </article>
 <article class="page-card page-card--vertical page-card--hwp-vertical-card-item page-card--default page-card-- hwp-bg-light-base" data-component-name="page-card">
@@ -101,7 +101,7 @@ title: Funding
 </picture>
 </div>
 </div>
-<p>The ECEE program empowers Harvard faculty, through intensive support from IQSS, to produce social science research that moves the dominant position of the scientific community the farthest distance.</p><p><a href="/ecee">Learn more</a></p></div>
+<p>The ECEE program empowers Harvard faculty, through intensive support from IQSS, to produce social science research that moves the dominant position of the scientific community the farthest distance.</p><p><a href="/ecee">Learn more<span class="sr-only"> about Extraordinary Claims, Extraordinary Evidence</span></a></p></div>
 </div>
 </article>
 <article class="page-card page-card--vertical page-card--hwp-vertical-card-item page-card--default page-card-- hwp-bg-light-base" data-component-name="page-card">
@@ -115,7 +115,7 @@ title: Funding
 </picture>
 </div>
 </div>
-<p>The Eric M. Mindich Encounters with Authors Conference is an opportunity for one or more authors to present a major work still in progress.</p><p><a href="/eric-m-mindich-encounters-authors-conference-series">Learn more</a></p></div>
+<p>The Eric M. Mindich Encounters with Authors Conference is an opportunity for one or more authors to present a major work still in progress.</p><p><a href="/eric-m-mindich-encounters-authors-conference-series">Learn more<span class="sr-only"> about Mindich Encounters with Authors Series</span></a></p></div>
 </div>
 </article>
 </div>
@@ -158,7 +158,7 @@ title: Funding
 </picture>
 </div>
 </div>
-<p>Deadline: TBA The Henry A. Murray Research Archive is pleased to offer the Jeanne Humphrey Block Dissertation Award to a qualified Ph.D. candidate in the social sciences each spring.</p><p><a href="/dissertation-awards">Learn more</a></p></div>
+<p>Deadline: TBA The Henry A. Murray Research Archive is pleased to offer the Jeanne Humphrey Block Dissertation Award to a qualified Ph.D. candidate in the social sciences each spring.</p><p><a href="/dissertation-awards">Learn more<span class="sr-only"> about Dissertation Awards</span></a></p></div>
 </div>
 </article>
 <article class="page-card page-card--vertical page-card--hwp-vertical-card-item page-card--default page-card-- hwp-bg-light-base" data-component-name="page-card">
@@ -172,7 +172,7 @@ title: Funding
 </picture>
 </div>
 </div>
-<p>Deadline: Rolling Travel grants are available to IQSS graduate student affiliates currently enrolled in a doctoral program and are meant to support travel to facilitate presentations at professional conferences relevant to their research.</p><p><a href="/travel-grants">Learn more</a></p></div>
+<p>Deadline: Rolling Travel grants are available to IQSS graduate student affiliates currently enrolled in a doctoral program and are meant to support travel to facilitate presentations at professional conferences relevant to their research.</p><p><a href="/travel-grants">Learn more<span class="sr-only"> about Travel Grants</span></a></p></div>
 </div>
 </article>
 </div>

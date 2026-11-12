@@ -66,7 +66,7 @@ title: Data Science Services
 <div class="page-card__text hwp-order-1">
 <a class="page-card__link hwp-order-2" href="/data-science-services/services-we-offer"> <h3 class="page-card__heading hwp-order-2">Consulting</h3>
 </a>
-<div class="page-card__description hwp-order-3 hwp-text-block"><p>We provide short-term support (up to 3 hours per publication) in the form of advice.</p><p><a href="https://prod-harvardiqss.drupalsites.harvard.edu/data-science-services/services-we-offer">Learn more</a></p><p> </p></div>
+<div class="page-card__description hwp-order-3 hwp-text-block"><p>We provide short-term support (up to 3 hours per publication) in the form of advice.</p><p><a href="https://prod-harvardiqss.drupalsites.harvard.edu/data-science-services/services-we-offer">Learn more<span class="sr-only"> about Consulting</span></a></p><p> </p></div>
 </div>
 <div class="page-card__image page-card__image--16-9">
 <div class="page-card__thumb">
@@ -84,7 +84,7 @@ title: Data Science Services
 <div class="page-card__text hwp-order-1">
 <a class="page-card__link hwp-order-2" href="/data-science-services/services-we-offer"> <h3 class="page-card__heading hwp-order-2">Collaboration</h3>
 </a>
-<div class="page-card__description hwp-order-3 hwp-text-block"><p>We provide extended support over the lifecycle of a research project by embedding a data science specialist in your research team. </p><p><a href="/data-science-services/services-we-offer">Learn more</a></p></div>
+<div class="page-card__description hwp-order-3 hwp-text-block"><p>We provide extended support over the lifecycle of a research project by embedding a data science specialist in your research team. </p><p><a href="/data-science-services/services-we-offer">Learn more<span class="sr-only"> about Collaboration</span></a></p></div>
 </div>
 <div class="page-card__image page-card__image--16-9">
 <div class="page-card__thumb">
@@ -102,7 +102,7 @@ title: Data Science Services
 <div class="page-card__text hwp-order-1">
 <a class="page-card__link hwp-order-2" href="/data-science-services/services-we-offer"> <h3 class="page-card__heading hwp-order-2">Analytical Tool Building</h3>
 </a>
-<div class="page-card__description hwp-order-3 hwp-text-block"><p>We can develop R code to implement your new statistical method or to automate part of your analysis pipeline.</p><p><a href="/data-science-services/services-we-offer">Learn more</a></p></div>
+<div class="page-card__description hwp-order-3 hwp-text-block"><p>We can develop R code to implement your new statistical method or to automate part of your analysis pipeline.</p><p><a href="/data-science-services/services-we-offer">Learn more<span class="sr-only"> about Analytical Tool Building</span></a></p></div>
 </div>
 <div class="page-card__image page-card__image--16-9">
 <div class="page-card__thumb">
@@ -161,7 +161,7 @@ title: Data Science Services
     </h3>
 </div>
 <div class="fifty-fifty-card__text-col fifty-fifty-card__text-col-2">
-<div class="fifty-fifty-card__description hwp-text-block"><p>We here provide a list of additional data science resources across IQSS and Harvard University.</p><p><br/><a data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="bb7c3c7e-211f-44f7-9412-980a99a57cb1" href="/data-science-services/resources" title="Resources">Learn more</a></p></div>
+<div class="fifty-fifty-card__description hwp-text-block"><p>We here provide a list of additional data science resources across IQSS and Harvard University.</p><p><br/><a data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="bb7c3c7e-211f-44f7-9412-980a99a57cb1" href="/data-science-services/resources" title="Resources">Learn more<span class="sr-only"> about Related Resources</span></a></p></div>
 </div>
 </div>
 <div class="fifty-fifty-card__image">
@@ -202,7 +202,7 @@ title: Data Science Services
 <div class="page-card__text hwp-order-1">
 <a class="page-card__link hwp-order-2" href="/data-science-services/performance-metrics"> <h3 class="page-card__heading hwp-order-2">Performance Metrics</h3>
 </a>
-<div class="page-card__description hwp-order-3 hwp-text-block"><p>We aim to build and coordinate a broader community of Harvard computing/data science consultants along with other goals to improve data research support.</p><p><a href="/data-science-services/performance-metrics">Learn more</a></p></div>
+<div class="page-card__description hwp-order-3 hwp-text-block"><p>We aim to build and coordinate a broader community of Harvard computing/data science consultants along with other goals to improve data research support.</p><p><a href="/data-science-services/performance-metrics">Learn more<span class="sr-only"> about Performance Metrics</span></a></p></div>
 </div>
 <div class="page-card__image page-card__image--16-9">
 <div class="page-card__thumb">
@@ -220,7 +220,7 @@ title: Data Science Services
 <div class="page-card__text hwp-order-1">
 <a class="page-card__link hwp-order-2" href="/data-science-services/research-output"> <h3 class="page-card__heading hwp-order-2">Research Output</h3>
 </a>
-<div class="page-card__description hwp-order-3 hwp-text-block"><p>We are always very interested to hear about research that has been impacted by Data Science Services.</p><p><a href="/data-science-services/research-output">Learn more</a></p></div>
+<div class="page-card__description hwp-order-3 hwp-text-block"><p>We are always very interested to hear about research that has been impacted by Data Science Services.</p><p><a href="/data-science-services/research-output">Learn more<span class="sr-only"> about Research Output</span></a></p></div>
 </div>
 <div class="page-card__image page-card__image--16-9">
 <div class="page-card__thumb">

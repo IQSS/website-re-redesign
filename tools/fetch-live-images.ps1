@@ -74,16 +74,25 @@ Write-Host 'Scanning content for image references...'
 # Both reference styles end up as the same absolute URL. The query string is
 # dropped: it is Drupal's cache-busting token, not part of the file.
 $pattern = '<img[^>]*src="(?<src>(?:https?://www\.iq\.harvard\.edu)?/sites/g/files/[^"?]+)'
-$urls = [System.Collections.Generic.HashSet[string]]::new()
+$refCount = @{}   # url -> how many <img> tags use it
+$refPages = @{}   # url -> how many files use it
 
 Get-ChildItem -Path 'content', 'layouts' -Recurse -Include '*.md', '*.html' -File | ForEach-Object {
     $text = Get-Content -LiteralPath $_.FullName -Raw -Encoding UTF8
+    $seenHere = @{}
     foreach ($m in [regex]::Matches($text, $pattern)) {
         $src = $m.Groups['src'].Value
         if ($src -notlike 'http*') { $src = $host_ + $src }
-        [void]$urls.Add($src)
+        if ($refCount.ContainsKey($src)) { $refCount[$src]++ } else { $refCount[$src] = 1 }
+        if (-not $seenHere.ContainsKey($src)) {
+            $seenHere[$src] = $true
+            if ($refPages.ContainsKey($src)) { $refPages[$src]++ } else { $refPages[$src] = 1 }
+        }
     }
 }
+
+$urls = [System.Collections.Generic.HashSet[string]]::new()
+foreach ($k in $refCount.Keys) { [void]$urls.Add($k) }
 
 Write-Host ("Found {0} distinct image files referenced." -f $urls.Count)
 
@@ -115,7 +124,26 @@ foreach ($u in $urls) {
         while ($taken.ContainsKey($name)) { $name = "$base-$n$ext"; $n++ }
     }
     $taken[$name] = $true
-    $plan += [pscustomobject]@{ Url = $u; File = $name; ClashesWithExisting = $clash }
+
+    # Drupal serves a resized derivative when the path contains styles/<name>/.
+    # Anyone pulling these from the media library wants the master instead, so
+    # the style is named and the original path given alongside it.
+    $style = ''
+    $original = $u
+    if ($u -match '/files/styles/(?<s>[^/]+)/public/(?<rest>.+)$') {
+        $style = $Matches['s']
+        $original = "$host_/sites/g/files/omnuum8171/files/" + $Matches['rest']
+    }
+
+    $plan += [pscustomobject]@{
+        File                = $name
+        Url                 = $u
+        OriginalUrl         = $original
+        DrupalStyle         = $style
+        ImgTags             = $refCount[$u]
+        PagesUsingIt        = $refPages[$u]
+        ClashesWithExisting = $clash
+    }
 }
 
 $clashes = @($plan | Where-Object { $_.ClashesWithExisting })
@@ -129,9 +157,19 @@ $todo = @($plan | Where-Object { $existing -notcontains $_.File })
 Write-Host ("{0} already present, {1} to fetch." -f ($plan.Count - $todo.Count), $todo.Count)
 
 if ($DryRun) {
-    $todo | Select-Object -First 20 | ForEach-Object { Write-Host ("  {0}  <-  {1}" -f $_.File, $_.Url) }
-    if ($todo.Count -gt 20) { Write-Host ("  ... and {0} more" -f ($todo.Count - 20)) }
-    Write-Host 'Dry run: nothing downloaded. Re-run without -DryRun to fetch.'
+    $todo | Select-Object -First 10 | ForEach-Object { Write-Host ("  {0}  <-  {1}" -f $_.File, $_.Url) }
+    if ($todo.Count -gt 10) { Write-Host ("  ... and {0} more" -f ($todo.Count - 10)) }
+
+    # The full list is the useful artefact even when nothing is downloaded:
+    # it is what you hand to whoever administers the Drupal site, because it
+    # says which file is wanted and what this site expects it to be called.
+    $wanted = 'tools\images-wanted.csv'
+    $plan | Sort-Object -Property @{Expression='PagesUsingIt';Descending=$true}, File |
+        Export-Csv -LiteralPath $wanted -NoTypeInformation -Encoding UTF8
+    Write-Host ''
+    Write-Host ("Dry run: nothing downloaded. Full list of {0} files written to {1}." -f $plan.Count, $wanted)
+    Write-Host 'That file is the request list: each row gives the Drupal URL, the'
+    Write-Host 'unresized original, and the filename this site expects.'
     return
 }
 

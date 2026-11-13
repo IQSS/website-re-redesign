@@ -8,8 +8,8 @@ subtitle: "Senior Sponsored Research Administrator"
 job_title: "Senior Sponsored Research Administrator"
 email: "klemasters@iq.harvard.edu"
 photo: "images/srs-keri-lemasters.jpg"
-service: ["Sponsored Research Services"]
-service_weight: 10
+program: ["Sponsored Research Services"]
+program_weight: 10
 ---
 
 <img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/keri-lemasters-2cr-extb.jpg" alt="Keri Lemasters" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />

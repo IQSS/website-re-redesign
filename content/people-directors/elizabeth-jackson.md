@@ -8,8 +8,8 @@ subtitle: "Executive Director of IQSS"
 job_title: "Executive Director of IQSS"
 email: "ejackson@iq.harvard.edu"
 photo: "images/people-elizabeth-jackson.jpg"
-person-group: ["Directors"]
-group_weight: 20
+role: ["Leadership"]
+role_weight: 20
 ---
 
 <img src="../../images/people-elizabeth-jackson.jpg" alt="Elizabeth Jackson" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />

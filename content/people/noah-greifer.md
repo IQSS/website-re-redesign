@@ -4,9 +4,9 @@ draft: false
 section: people
 source_url: https://www.iq.harvard.edu/people/noah-greifer
 title: Noah Greifer
-service:
+program:
   - Data Science Services
-service_weight: 2
+program_weight: 2
 job_title: "Data Science Specialist"
 email: "ngreifer@iq.harvard.edu"
 photo: "images/people-noah-greifer.jpg"

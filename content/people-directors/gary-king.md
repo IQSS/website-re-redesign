@@ -8,8 +8,8 @@ subtitle: "Director of IQSS; Albert J. Weatherhead III University Professor"
 job_title: "Director of IQSS"
 email: "king@harvard.edu"
 photo: "images/people-gary-king.jpg"
-person-group: ["Directors"]
-group_weight: 10
+role: ["Leadership"]
+role_weight: 10
 ---
 
 <img src="../../images/people-gary-king.jpg" alt="Gary King" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />

@@ -9,19 +9,19 @@
   Services shows whatever the directory currently says. Adding or removing
   someone is a change to their profile, not to this page.
 
-  Order comes from `service_weight` in each profile, so the listing can follow
+  Order comes from `program_weight` in each profile, so the listing can follow
   the order the service itself uses rather than whatever the filenames give.
 */ -}}
 {{- /* Looked up by the term page's own path rather than by indexing
        site.Taxonomies: the keys in that map are not the urlized form, so
        indexing it with "data-science-services" quietly finds nothing. */ -}}
 {{- $service := .Get 0 -}}
-{{- $term := site.GetPage (printf "/service/%s" (urlize $service)) -}}
+{{- $term := site.GetPage (printf "/program/%s" (urlize $service)) -}}
 {{- if not $term -}}
   {{- warnf "service-team: no profiles tagged %q" $service -}}
 {{- else -}}
 <div class="card-grid service-team">
-    {{- range sort $term.Pages "Params.service_weight" }}
+    {{- range sort $term.Pages "Params.program_weight" }}
     <div class="card service-team__member">
         {{- with .Params.photo }}
         <img class="service-team__photo" src="{{ . | absURL }}" alt="" />

@@ -4,9 +4,9 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/joshua-cetron
 title: Joshua Cetron
-service:
+program:
   - Data Science Services
-service_weight: 1
+program_weight: 1
 job_title: "Data Science Specialist"
 email: "jcetron@iq.harvard.edu"
 photo: "images/people-joshua-cetron.jpg"

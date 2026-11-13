@@ -4,9 +4,9 @@ draft: false
 section: people
 source_url: https://www.iq.harvard.edu/people/steven-worthington-0
 title: Steven Worthington
-service:
+program:
   - Data Science Services
-service_weight: 4
+program_weight: 4
 job_title: "Director of Data Science Services"
 email: "sworthington@iq.harvard.edu"
 photo: "images/people-steve-worthington.jpg"

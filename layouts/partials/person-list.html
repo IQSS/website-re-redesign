@@ -1,7 +1,7 @@
 {{- /*
   A personnel listing drawn from the People directory.
 
-      {{ partial "person-list.html" (dict "taxonomy" "person-group" "term" "Directors") }}
+      {{ partial "person-list.html" (dict "taxonomy" "role" "term" "Leadership") }}
 
   Nobody is named here. The cards are built from whichever profiles carry the
   term, so a person's photo, job title and email live in one place -- their own
@@ -15,17 +15,17 @@
 
   Parameters:
     taxonomy  the taxonomy's plural, as it appears on the right of the pair in
-              hugo.toml -- "person-group", not "person_group"
-    term      the term as written in the profiles, e.g. "Directors"
+              hugo.toml -- "role"
+    term      the term as written in the profiles, e.g. "Leadership"
     heading   optional; rendered as an <h2> above the grid
-    sort      optional front-matter key to order by, default "group_weight"
+    sort      optional front-matter key to order by, default "role_weight"
 
   Order comes from that key rather than the filenames, so a listing can follow
   the order the organisation itself uses.
 */ -}}
 {{- $taxonomy := .taxonomy -}}
 {{- $term := .term -}}
-{{- $sortKey := .sort | default "group_weight" -}}
+{{- $sortKey := .sort | default "role_weight" -}}
 {{- /* Looked up by the term page's own path rather than by indexing
        site.Taxonomies: the keys in that map are not the urlized form, so
        indexing it with a slug quietly finds nothing. */ -}}

@@ -5,6 +5,12 @@ draft: false
 layout: "resource-page"
 hero_image: ""
 subtitle: "Data Science Specialist"
+program:
+  - Data Science Services
+program_weight: 2
+job_title: "Data Science Specialist"
+email: "ngreifer@iq.harvard.edu"
+photo: "images/people-noah-greifer.jpg"
 ---
 
 <img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/noah_greifer_2021.jpg" alt="Noah Greifer" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />

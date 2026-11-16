@@ -5,6 +5,12 @@ draft: false
 layout: "resource-page"
 hero_image: ""
 subtitle: "Data Science Specialist"
+program:
+  - Data Science Services
+program_weight: 3
+job_title: "Data Science Specialist"
+email: "jinjie_liu@fas.harvard.edu"
+photo: "images/people-jinjie-liu.jpg"
 ---
 
 <img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/jinjie-liu_2019.jpg" alt="Jinjie Liu" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />

@@ -1,32 +1,27 @@
-"Taxonomy","Term","Slug","LiveSlug","TaggedOnLive","UsedHereNow","Notes"
-"Role","Alumni","alumni","alumni","367","0","Live shows these without a portrait: name, last role, and dates. 353 of our files already carry a date range in the body."
-"Role","Affiliated Graduate Students","affiliated-graduate-students","affiliated-graduate-students","320","0",""
-"Role","Affiliated Faculty","affiliated-faculty","affiliated-faculty","141","0",""
-"Role","Visiting Scholars, Fellows, & General Affiliates","visiting-scholars-fellows","visiting-scholars-fellows","132","0",""
-"Role","Staff","staff","staff","62","0",""
-"Role","Affiliated Undergraduate Students","affiliated-undergraduate-students","affiliated-undergraduate-students","35","0",""
-"Role","Technical Support","technical-support","technical-support","19","0","Liz: not carrying this one over."
-"Role","Steering Committee","steering-committee","steering-committee","14","0","A tab on live /our-people. We have no equivalent listing yet."
-"Role","Associates","associates","associates","14","0",""
-"Role","Product Development","product-development","product-development","13","0",""
-"Role","Leadership","leadership","leadership","12","10","In use: the ten director profiles. Live has 12; two were archived when they left IQSS leadership."
-"Role","Administrative Support","administrative-support","administrative-support","11","0",""
-"Role","Computer Labs","computer-labs","computer-labs","2","0",""
-"Program","Laboratory for Innovation Science (LISH)","laboratory-innovation-science-lish","laboratory-innovation-science-lish","27","0",""
-"Program","Center for Geographic Analysis","center-geographic-analysis","center-geographic-analysis","24","9","Already in use here."
-"Program","China Biographical Database (CBDB)","china-biographical-database-cbdb","china-biograhical-database-cbdb","22","0","TYPO CORRECTED. Live misspells it ""Biograhical"" in both the slug and the label. We use the correct spelling, so our URL deliberately differs from live."
-"Program","Human Flourishing Program","human-flourishing-program","human-flourishing-program","17","0",""
-"Program","Dataverse Project","dataverse-project","dataverse-project","16","5","Already in use here."
-"Program","Digital Lab for the Social Sciences","digital-lab-social-sciences","digital-lab-social-sciences","8","0",""
-"Program","Undergraduate Research Scholars (URS)","undergraduate-research-scholars-urs","undergraduate-research-scholars-urs","6","0",""
-"Program","Alesina Seminar on Political Economy","seminar-political-economy","seminar-political-economy","6","1","Already in use here."
-"Program","Startup Foundry","startup-foundry","startup-foundry","5","0",""
-"Program","Sid","sid","sid","5","0","Live labels this ""Sid"". Looks like a mis-cased acronym rather than a name - worth checking what it stands for before we copy it."
-"Program","Public Labs","public-labs","public-labs","5","0",""
-"Program","Data Science Services","data-science-services","data-science-services","5","5","In use: drives the team section on the DSS page."
-"Program","Data Privacy Lab","data-privacy-lab","data-privacy-lab","4","0",""
-"Program","Data Curation","data-curation","data-curation","3","0",""
-"Program","Program on Survey Research","program-survey-research","program-survey-research","2","0",""
-"Program","Consilience Project","consilience","consilience","2","0",""
-"Program","Program on Experience Based Learning in the Social Sciences","program-experience-based-learning-social-sciences","program-experience-based-learning-social-sciences","1","0",""
-"Program","Sponsored Research Services","sponsored-research-services","","0","2","NOT A PROGRAM ON LIVE. Ours. Keri Lemasters carries only Role tags there - Staff and Administrative Support - and no Program. We added this to drive the SRS team listing; it needs a decision."
+Taxonomy,Term,Slug,LiveSlug,TaggedOnLive,UsedHereNow,Notes
+Role,Alumni,alumni,alumni,367,0,"Live shows these without a portrait: name, last role, and dates. 353 of our files already carry a date range in the body."
+Role,Affiliated Graduate Students,affiliated-graduate-students,affiliated-graduate-students,320,0,
+Role,Affiliated Faculty,affiliated-faculty,affiliated-faculty,141,0,
+Role,"Visiting Scholars, Fellows, & General Affiliates",visiting-scholars-fellows,visiting-scholars-fellows,132,0,
+Role,Staff,staff,staff,62,0,
+Role,Affiliated Undergraduate Students,affiliated-undergraduate-students,affiliated-undergraduate-students,35,0,
+Role,Steering Committee,steering-committee,steering-committee,14,0,Liz: Use the live version to create an equivalent listing. 
+Role,Associates,associates,associates,14,0,
+Role,Product Development,product-development,product-development,13,0,
+Role,Leadership,leadership,leadership,12,10,In use: the ten director profiles. Live has 12; two were archived when they left IQSS leadership.
+Role,Administrative Support,administrative-support,administrative-support,11,0,
+Program,Laboratory for Innovation Science (LISH),laboratory-innovation-science-lish,laboratory-innovation-science-lish,27,0,
+Program,Center for Geographic Analysis,center-geographic-analysis,center-geographic-analysis,24,9,Already in use here.
+Program,China Biographical Database (CBDB),china-biographical-database-cbdb,china-biograhical-database-cbdb,22,0,"TYPO CORRECTED. Live misspells it ""Biograhical"" in both the slug and the label. We use the correct spelling, so our URL deliberately differs from live."
+Program,Human Flourishing Program,human-flourishing-program,human-flourishing-program,17,0,
+Program,Dataverse Project,dataverse-project,dataverse-project,16,5,Already in use here.
+Program,Digital Lab for the Social Sciences,digital-lab-social-sciences,digital-lab-social-sciences,8,0,
+Program,Undergraduate Research Scholars (URS),undergraduate-research-scholars-urs,undergraduate-research-scholars-urs,6,0,
+Program,Alesina Seminar on Political Economy,seminar-political-economy,seminar-political-economy,6,1,Already in use here.
+Program,Startup Foundry,startup-foundry,startup-foundry,5,0,
+Program,Sid,sid,sid,5,0,"Liz: ""Sid"" as it is currently cased is correct--this is a software project named after Sid Verba."
+Program,Data Science Services,data-science-services,data-science-services,5,5,In use: drives the team section on the DSS page.
+Program,Data Privacy Lab,data-privacy-lab,data-privacy-lab,4,0,
+Program,Data Curation,data-curation,data-curation,3,0,
+Program,Program on Survey Research,program-survey-research,program-survey-research,2,0,
+Program,Program on Experience Based Learning in the Social Sciences,program-experience-based-learning-social-sciences,program-experience-based-learning-social-sciences,1,0,

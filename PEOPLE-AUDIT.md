@@ -26,11 +26,55 @@ The third structure holds the only hand-written material: directors (13),
 faculty profiles (144), staff profiles (61), visitor profiles (122). It also
 covers under a third of the people.
 
-**Which structure is canonical is Liz's call.** Nothing below can be
-finished without it, because the answer decides what gets fixed and what
-gets archived. The two that lose are archived, not deleted.
+**Decided 2026-11-13: one profile per person at `/people/<name>/`.**
+
+Live has exactly one address per person -- `iq.harvard.edu/people/liz-salazar`
+-- and nothing else. `/people/staff/liz-salazar` and
+`/people-staff-profiles/liz-salazar` both 404 there. Everyone sits in one flat
+directory whatever their role, and role is a tag rather than a folder.
+
+So the decision is not which of our three folders wins. The URL should be
+`/people/<name>/`, matching live. What has to change is which content sits at
+it, because right now the right URL has the wrong content:
+
+| | URL | Content |
+|---|---|---|
+| `content/people/` | matches live | raw scraped Drupal, ~4.6 KB, its own `<main>` |
+| `content/people-*-profiles/` | invented, exists nowhere else | the curated profile with the real bio |
+
+The curated profiles move into `content/people/`, replacing the scraped file
+of the same name. The category folders -- `people/faculty/`, `people/staff/`
+and the rest -- go entirely; `person-group` carries the category instead, which
+is both how live models it and what the generated listings read.
+
+Everything the three structures caused follows from that: the duplicate URLs,
+the orphans, most of the nested `<main>`, and the directory-filter links that
+404.
 
 ---
+
+## The vocabulary
+
+Live models people with two multi-valued taxonomies, and nothing else:
+**Role** for the category tabs on `/our-people`, **Program** for the team
+sections on service and programme pages. Steven Worthington carries Program
+"Data Science Services" and Roles Leadership, Staff and Technical Support,
+and that is what puts him in three places at once.
+
+[PEOPLE-TAXONOMY.csv](PEOPLE-TAXONOMY.csv) is the approved list: 11 Role
+terms and 15 Program terms, with live's slug beside ours. Liz reviewed it on
+2026-11-16 and removed five terms that are not being carried over --
+Technical Support, Computer Labs, Public Labs, Consilience Project and
+Sponsored Research Services. Nothing here was tagged with any of the first
+four, so removing them cost nothing.
+
+Two notes from that review are worth keeping where they will be found:
+
+- **"Sid" is correctly cased.** It is a software project named after Sid
+  Verba, not a mis-capitalised acronym. Leave it.
+- **CBDB is deliberately spelled correctly here.** Live has
+  `china-biograhical-database-cbdb`, missing the p, in both the slug and the
+  label. Our URL differs from live on purpose.
 
 ## Fixed
 

@@ -33,7 +33,7 @@ title: Jared Schachner
 </div>
 <div class="hwp-flex-1 lg:hwp-px-32">
 <div class="hwp-person-text-block">
-<div class="hwp-text-block field field--name-field-hwp-body field--type-text-long field--label-hidden">Mar 2026 - May 2020</div>
+<div class="hwp-text-block field field--name-field-hwp-body field--type-text-long field--label-hidden">Mar 2016 - May 2020</div>
 </div>
 </div>
 </div>

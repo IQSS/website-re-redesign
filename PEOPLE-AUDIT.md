@@ -188,6 +188,18 @@ separately. See [SITEWIDE-CHECKS.md](SITEWIDE-CHECKS.md).
 ---
 
 ## Archive, don't delete
+**No profile is ever destroyed.** Set 2026-11-16, after a near-miss worth
+recording: the consolidation that moved curated profiles onto the
+`/people/<name>/` URLs replaced four scraped files that had been hand-tagged
+after the scrape, and the tags went with them. The Data Science Services page
+dropped from five team members to one before anyone noticed.
+
+Replacing a file is a form of destroying it. When one profile takes over
+another's path, the loser is archived and any front matter it carried is
+merged in rather than overwritten -- `program`, `role`, their weights,
+`job_title`, `email`, `photo`.
+
+
 
 Whichever structures lose the canonical decision move to
 `C:\Users\els717\Documents\iqss-archive\` — outside the repository, because

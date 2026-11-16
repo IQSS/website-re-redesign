@@ -1,83 +1,18 @@
 ---
-date: '2026-05-26 13:38:20'
+title: "Dan Yuan"
+date: 2026-06-04
 draft: false
-section: people
-source_url: https://www.iq.harvard.edu/people/dan-yuan
-title: Dan Yuan
-program:
-  - Data Science Services
-program_weight: 5
-job_title: "Data Science Project Management Specialist"
-email: "tyuan1@fas.harvard.edu"
-photo: "images/people-dan-yuan.jpg"
+layout: "resource-page"
+hero_image: ""
+subtitle: "Data Science Project Management Specialist"
 ---
 
-<main aria-label="Dan Yuan" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">
-<div class="layout-content">
-<div>
-<div class="hidden" data-drupal-messages-fallback=""></div>
-<div class="page-content-top" lang="en">
-<div class="hwp-page-title hwp-bg-light-base">
-<div class="hwp-container hwp-container-px hwp-py-32">
-<h1 class="text-large">
-      Dan Yuan     </h1>
-<div class="hwp-page-header__subtitle">
-<div class="field field--name-field-hwp-person-prof-title field--type-string field--label-hidden">
-<div>Data Science Project Management Specialist</div>
-</div>
-</div>
-</div>
-</div>
-<div class="hwp-container hwp-container-px hwp-pt-32 lg:hwp-pt-64 lg:hwp-flex lg:hwp-gap-24">
-<div class="lg:hwp-w-[19.375rem]">
-<div class="hwp-person-card" data-component-name="person-card">
-<div class="hwp-person-card__image">
-<div class="field field--name-field-hwp-person-headshot field--type-entity-reference field--label-hidden"><div class="hwp-media hwp-media--4-5-small-no-caption">
-<div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="600" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_4_5__480x600/public/harvard-iqss/files/dan-yuan_2023.jpg?itok=9F-8RLLt 1x, /sites/g/files/omnuum8171/files/styles/hwp_4_5__960x1200/public/harvard-iqss/files/dan-yuan_2023.jpg?itok=2lSwfIck 2x" type="image/jpeg" width="480"/>
-<img alt="dan-yuan_2023.jpg" height="600" loading="lazy" src="/sites/g/files/omnuum8171/files/styles/hwp_4_5__480x600/public/harvard-iqss/files/dan-yuan_2023.jpg?itok=9F-8RLLt" width="480"/>
-</picture>
-</div>
-</div>
-</div>
-</div>
-<div class="hwp-person-card__information hwp-bg-light-base hwp-flex-1"> <div class="hwp-flex hwp-gap-8 hwp-items-center">
-<span aria-hidden="true" class="material-icon">email</span>
-<a class="hwp-break-all" href="mailto:tyuan1@fas.harvard.edu">tyuan1@fas.harvard.edu</a>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="hwp-container hwp-container-px">
-<div class="field field--name-field-hwp-file-upload field--type-entity-reference field--label-hidden">
-<div></div>
-</div>
-</div>
-<div class="hwp-taxonomy-group hwp-bg-light-core">
-<div class="hwp-container hwp-container-px">
-<ul class="hwp-taxonomy-group__grid">
-<li class="hwp-taxonomy-group-card hwp-bg-light-base">
-<h2 class="hwp-taxonomy-group-card__title text-x-small">People By Last Name</h2>
-<a href="/people-last-name/w-z" hreflang="en">W - Z</a>
-</li>
-<li class="hwp-taxonomy-group-card hwp-bg-light-base">
-<h2 class="hwp-taxonomy-group-card__title text-x-small">Program</h2>
-<a href="/program/data-science-services" hreflang="en">Data Science Services</a>
-</li>
-<li class="hwp-taxonomy-group-card hwp-bg-light-base">
-<h2 class="hwp-taxonomy-group-card__title text-x-small">Role</h2>
-<a href="/role/staff" hreflang="en">Staff</a>
-<a href="/role/technical-support" hreflang="en">Technical Support</a>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</main>
+<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/dan-yuan_2023.jpg" alt="Dan Yuan" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
----
+## Dan Yuan
 
-*Original source: [https://www.iq.harvard.edu/people/dan-yuan](https://www.iq.harvard.edu/people/dan-yuan)*
+**Data Science Project Management Specialist**
+
+**Email:** [tyuan1@fas.harvard.edu](mailto:tyuan1@fas.harvard.edu)
+
+Dan Yuan serves as a Data Science Project Management Specialist at IQSS, coordinating and managing data science projects and providing technical support to researchers across the institute.

@@ -1,70 +1,16 @@
 ---
-date: '2026-05-26 14:52:05'
+title: "Mahnum Shahzad"
+date: 2026-05-28
 draft: false
-section: people
-source_url: https://iq.harvard.edu/people/mahnum-shahzad
-title: Mahnum Shahzad
+layout: "resource-page"
+hero_image: ""
+subtitle: "Instructor, Harvard Medical School"
 ---
 
-<main aria-label="Mahnum Shahzad" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">
-<div class="layout-content">
-<div>
-<div class="hidden" data-drupal-messages-fallback=""></div>
-<div class="page-content-top" lang="en">
-<div class="hwp-page-title hwp-bg-light-base">
-<div class="hwp-container hwp-container-px hwp-py-32">
-<h1 class="text-large">
-      Mahnum Shahzad     </h1>
-<div class="hwp-page-header__subtitle">
-<div class="field field--name-field-hwp-person-prof-title field--type-string field--label-hidden">
-<div>PhD Candidate in Health Policy and Economics, GSAS</div>
-</div>
-</div>
-</div>
-</div>
-<div class="hwp-container hwp-container-px hwp-pt-32 lg:hwp-pt-64 lg:hwp-flex lg:hwp-gap-24">
-<div class="lg:hwp-w-[19.375rem]">
-<div class="hwp-person-card" data-component-name="person-card">
-<div class="hwp-person-card__image hwp-person-card__image--icon">
-<span aria-hidden="true" class="material-icon">person</span>
-</div>
-<div class="hwp-person-card__information hwp-bg-light-base hwp-flex-1"> <div class="hwp-flex hwp-gap-8 hwp-items-center">
-<span aria-hidden="true" class="material-icon">email</span>
-<a class="hwp-break-all" href="mailto:mahnum_shahzad@g.harvard.edu">mahnum_shahzad@g.harvard.edu</a>
-</div>
-</div>
-</div>
-</div>
-<div class="hwp-flex-1 lg:hwp-px-32">
-<div class="hwp-person-text-block">
-<div class="hwp-text-block field field--name-field-hwp-body field--type-text-long field--label-hidden"><p>	Mahnum Shahzad is a PhD Candidate in Health Policy and Economics at Harvard University. Her research interests focus on decision making in health care settings at both the consumer and provider levels and she is currently working on projects based on the US as well as her native country, Pakistan. Before beginning her graduate work, Mahnum was a research assistant at the National Bureau of Economic Research working with Professor Heidi Williams on questions relating to pharmaceuticals and innovation. Mahnum holds a bachelors of arts in economics and mathematics from Dartmouth College. </p></div>
-</div>
-</div>
-</div>
-</div>
-<div class="hwp-container hwp-container-px">
-<div class="field field--name-field-hwp-file-upload field--type-entity-reference field--label-hidden">
-<div></div>
-</div>
-</div>
-<div class="hwp-taxonomy-group hwp-bg-light-core">
-<div class="hwp-container hwp-container-px">
-<ul class="hwp-taxonomy-group__grid">
-<li class="hwp-taxonomy-group-card hwp-bg-light-base">
-<h2 class="hwp-taxonomy-group-card__title text-x-small">People By Last Name</h2>
-<a href="/people-last-name/q-s" hreflang="en">Q - S</a>
-</li>
-<li class="hwp-taxonomy-group-card hwp-bg-light-base">
-<h2 class="hwp-taxonomy-group-card__title text-x-small">Role</h2>
-<a href="/role/affiliated-graduate-students" hreflang="en">Affiliated Graduate Students</a>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</main>
+<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/mahnum_shahzad_-_headshot_1.png" alt="" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
----
+## Mahnum Shahzad
 
-*Original source: [https://iq.harvard.edu/people/mahnum-shahzad](https://iq.harvard.edu/people/mahnum-shahzad)*
+**Instructor, Harvard Medical School**
+
+Mahnum Shahzad is a PhD Candidate in Health Policy and Economics at Harvard University. Her research focuses on decision making in healthcare at consumer and provider levels, with projects based in the US and Pakistan. Prior to graduate school, she worked as a research assistant at NBER with Professor Heidi Williams on "questions relating to pharmaceuticals and innovation." She earned a bachelor's of arts in economics and mathematics from Dartmouth College.

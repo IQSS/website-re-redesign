@@ -1,66 +1,18 @@
 ---
-date: '2026-05-26 14:47:21'
+title: "Ismail Erkam Sula"
+date: 2026-05-28
 draft: false
-section: people
-source_url: https://iq.harvard.edu/people/ismail-erkam-sula
-title: (Ismail) Erkam Sula
+layout: "resource-page"
+hero_image: ""
+subtitle: "Post-Doctoral Researcher, IQSS"
 ---
 
-<main aria-label="(Ismail) Erkam Sula" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">
-<div class="layout-content">
-<div>
-<div class="hidden" data-drupal-messages-fallback=""></div>
-<div class="page-content-top" lang="en">
-<div class="hwp-page-title hwp-bg-light-base">
-<div class="hwp-container hwp-container-px hwp-py-32">
-<h1 class="text-large">
-      (Ismail) Erkam Sula     </h1>
-<div class="hwp-page-header__subtitle">
-<div class="field field--name-field-hwp-person-prof-title field--type-string field--label-hidden">
-<div>Fellow of IQSS</div>
-</div>
-</div>
-</div>
-</div>
-<div class="hwp-container hwp-container-px hwp-pt-32 lg:hwp-pt-64 lg:hwp-flex lg:hwp-gap-24">
-<div class="lg:hwp-w-[19.375rem]">
-<div class="hwp-person-card" data-component-name="person-card">
-<div class="hwp-person-card__image hwp-person-card__image--icon">
-<span aria-hidden="true" class="material-icon">person</span>
-</div>
-<div class="hwp-person-card__information hwp-bg-light-base hwp-flex-1"></div>
-</div>
-</div>
-<div class="hwp-flex-1 lg:hwp-px-32">
-<div class="hwp-person-text-block">
-<div class="hwp-text-block field field--name-field-hwp-body field--type-text-long field--label-hidden">Sep 2018 - Aug 2019</div>
-</div>
-</div>
-</div>
-</div>
-<div class="hwp-container hwp-container-px">
-<div class="field field--name-field-hwp-file-upload field--type-entity-reference field--label-hidden">
-<div></div>
-</div>
-</div>
-<div class="hwp-taxonomy-group hwp-bg-light-core">
-<div class="hwp-container hwp-container-px">
-<ul class="hwp-taxonomy-group__grid">
-<li class="hwp-taxonomy-group-card hwp-bg-light-base">
-<h2 class="hwp-taxonomy-group-card__title text-x-small">Alumni Only: Most Recent Year with IQSS</h2>
-<a href="/most-recent-year-iqss/2019" hreflang="en">2019</a>
-</li>
-<li class="hwp-taxonomy-group-card hwp-bg-light-base">
-<h2 class="hwp-taxonomy-group-card__title text-x-small">Role</h2>
-<a href="/role/alumni" hreflang="en">Alumni</a>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</main>
+<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/ismail_erkam_sula_0_0.png" alt="Ismail Erkam Sula" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
----
+## Ismail Erkam Sula
 
-*Original source: [https://iq.harvard.edu/people/ismail-erkam-sula](https://iq.harvard.edu/people/ismail-erkam-sula)*
+<strong>Post-Doctoral Researcher, IQSS</strong>
+
+Dr. Sula specializes in foreign policy and research methodology in social sciences, currently working on computer-assisted data collection methods. His research combines event data analysis with content analysis to observe the parallelism of words and deeds in foreign policy.
+
+During his PhD at Bilkent University, he collected data on Turkey's foreign policy, developing the Turkish Foreign Policy Roles and Events Dataset (TFPRED), which contains data from Turkish leaders' speeches and 36,000 international news reports. He has published on Role Theory, Event Data, Middle East, Turkish foreign policy, and eclectic methodology. He is a faculty member at Ankara Yildirim Beyazit University.

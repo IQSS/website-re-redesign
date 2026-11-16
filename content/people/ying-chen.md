@@ -5,6 +5,8 @@ draft: false
 layout: "resource-page"
 hero_image: ""
 subtitle: "Research Associate & Data Scientist, Human Flourishing Program"
+role: ["Staff"]
+program: ["Human Flourishing Program"]
 ---
 
 <img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/Ying-Chen_2018.jpg" alt="Ying Chen" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />

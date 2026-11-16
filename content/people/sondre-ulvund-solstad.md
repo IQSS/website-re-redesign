@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/sondre-ulvund-solstad
 title: Sondre Ulvund Solstad
+role: ["Visiting Scholars, Fellows, & General Affiliates"]
 ---
 
 <main aria-label="Sondre Ulvund Solstad" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/zhen-wu
 title: Zhen Wu
+role: ["Alumni"]
 ---
 
 <main aria-label="Zhen  Wu" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

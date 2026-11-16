@@ -177,6 +177,78 @@ decide; not before then.
 of search results. This must be flipped to `false` when this becomes the
 official site, and not before.
 
+## Launch checklist additions
+
+Added 2026-11-16 from the Content Snare website design checklist
+(https://contentsnare.com/website-design-checklist/). Each item is quoted from
+that list; what follows the quote is what was measured here. Items it shares
+with sections above are pointed to rather than repeated.
+
+Already covered above: "Check that all internal and external links are working
+properly" (see Links that go nowhere -- internal links only; external links
+have not been checked), "Optimise all images for web" (see Page weight), and
+alt text (see Accessibility).
+
+**Cross-browser — not started.**
+"Check that the website works equally well on all browsers, including Chrome,
+Firefox, Safari, and Edge." No record of a test in any browser but the
+preview's.
+
+**Responsive design — partly done.**
+"Test the website's responsiveness on different devices, including desktops,
+laptops, tablets, and smartphones." The main menu was measured: the
+horizontal nav holds down to an 863px viewport (noted in `hugo.toml`). No
+full pass across devices or orientations.
+
+**Navigation — partly done.**
+"Test that all navigation elements work perfectly, including buttons,
+dropdowns, and menus." The templates have `aria-expanded` on the menu and
+dropdown toggles and visible focus styles. Not yet tested end to end by
+mouse, touch or keyboard.
+
+**Forms and interactive elements — not started.**
+"Test all website forms to ensure they function correctly." 11 content files
+contain a `<form>`: 10 in `content/misc/` (7 of them captured calendar
+query-string pages) and `content/news-events/news/news.md`. "Check that any
+interactive elements are working" also covers the add-to-calendar links on
+event pages. `layouts/partials/giscus.html` exists but no template uses it.
+
+**Multimedia — not started.**
+"Test all multimedia elements, including video and audio files." 10 content
+files contain an `<iframe>`, `<video>` or YouTube embed, including both
+Contact pages.
+
+**WCAG review — partly done.**
+"Check your website against WCAG (Web Content Accessibility Guidelines)
+standards." Colour contrast is documented for the theme tokens in
+`baseof.html`; the link-text and heading fixes above are done. No full audit.
+
+**Custom error page — not done.**
+"Customise your error pages (e.g. 404 page) to provide helpful and relevant
+information to users." There is no `layouts/404.html`; a missing URL shows
+GitHub's generic "Page not found".
+
+**Analytics — none installed.**
+"Set up a website analytics tool." No tracking code in any template. Whether
+to add one, and which, is not yet decided.
+
+**Proofreading and accuracy — not started.**
+"Check that all website content is well-written, free from grammatical
+errors, and in line with your client's brand guidelines or style guide" and
+"Ensure that all content is accurate, up-to-date."
+
+**Internal and stakeholder review — not started.**
+"Get feedback from as many internal staff as possible, from inside and
+outside of the design team," then from the site's owners.
+
+**At launch: submit the sitemap.**
+"Generate and submit an XML sitemap." `sitemap.xml` is generated (2,906 URLs
+on 2026-11-16); submitting it waits until `noindex` is off and the site is on
+its real domain.
+
+**At launch: domain and DNS.**
+"Set up and configure DNS records." Waits on where the site will be hosted.
+
 ## Archive, don't delete
 
 Nothing is deleted from this project until well after the re-redesigned site

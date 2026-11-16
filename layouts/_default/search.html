@@ -1,0 +1,94 @@
+{{ define "main" }}
+{{/* Search results. iq.harvard.edu serves these from Drupal at
+     /search?search=...; this site is static, so the page loads
+     search/index.json and matches in the browser. Every word in the
+     query must appear (title, summary or body); title hits rank first. */}}
+<div class="container">
+    <div class="page-content search-page">
+        <h1>{{ .Title }}</h1>
+
+        <form class="search-page-form" role="search" action="{{ .RelPermalink }}" method="get">
+            <label for="search-page-input" class="sr-only">Search</label>
+            <input type="search" id="search-page-input" name="search" maxlength="128" autocomplete="off">
+            <button type="submit">Search</button>
+        </form>
+
+        <p class="search-status" id="search-status" role="status" aria-live="polite"></p>
+        <ol class="search-results" id="search-results"></ol>
+        <noscript><p>Search needs JavaScript.</p></noscript>
+    </div>
+</div>
+
+<style>
+    .search-page-form { display: flex; gap: 8px; max-width: 640px; margin: 20px 0; }
+    .search-page-form input { flex: 1; min-width: 0; padding: 10px 12px; font: inherit; border: 1px solid var(--accent-dark-vibrant); border-radius: 4px; }
+    .search-page-form button { padding: 10px 18px; font: inherit; color: #fff; background: var(--button-dark-primary); border: 1px solid var(--button-dark-primary); border-radius: 4px; cursor: pointer; }
+    .search-results { list-style: none; padding: 0; margin: 0; }
+    .search-results li { padding: 18px 0; border-bottom: 1px solid #e5e5e5; }
+    .search-results a { font-size: 19px; color: var(--font-dark-link); }
+    .search-results .search-snippet { margin: 6px 0 0; color: #444; font-size: 15px; }
+    .search-results mark { background: #FBE3CD; color: inherit; }
+</style>
+
+<script>
+(function () {
+    var params = new URLSearchParams(location.search);
+    var q = (params.get('search') || '').trim();
+    var input = document.getElementById('search-page-input');
+    var status = document.getElementById('search-status');
+    var list = document.getElementById('search-results');
+    var headerInput = document.getElementById('header-search-input');
+    input.value = q;
+    if (headerInput) headerInput.value = q;
+    if (!q) return;
+
+    var terms = q.toLowerCase().split(/\s+/).filter(Boolean);
+
+    function esc(s) {
+        return s.replace(/[&<>"']/g, function (c) {
+            return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+        });
+    }
+    function reEsc(s) { return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); }
+    var hl = new RegExp('(' + terms.map(reEsc).join('|') + ')', 'gi');
+
+    function snippet(text) {
+        var lower = text.toLowerCase(), at = -1;
+        for (var i = 0; i < terms.length && at < 0; i++) at = lower.indexOf(terms[i]);
+        var start = Math.max(0, at - 80);
+        var s = text.slice(start, start + 240);
+        return (start > 0 ? '… ' : '') + s + (start + 240 < text.length ? ' …' : '');
+    }
+
+    status.textContent = 'Searching…';
+    fetch('{{ "search/index.json" | relURL }}')
+        .then(function (r) { return r.json(); })
+        .then(function (pages) {
+            var hits = [];
+            pages.forEach(function (p) {
+                var title = p.t.toLowerCase();
+                var all = (p.t + ' ' + p.d + ' ' + p.c).toLowerCase();
+                for (var i = 0; i < terms.length; i++) if (all.indexOf(terms[i]) < 0) return;
+                var score = 0;
+                terms.forEach(function (t) {
+                    if (title.indexOf(t) >= 0) score += 10;
+                    if (p.d.toLowerCase().indexOf(t) >= 0) score += 3;
+                    score += Math.min(5, all.split(t).length - 1);
+                });
+                hits.push({ p: p, score: score });
+            });
+            hits.sort(function (a, b) { return b.score - a.score; });
+
+            status.innerHTML = hits.length + ' result' + (hits.length === 1 ? '' : 's') +
+                ' for <strong>"' + esc(q) + '"</strong>';
+            list.innerHTML = hits.map(function (h) {
+                var p = h.p, text = p.d || p.c;
+                return '<li><a href="' + esc(p.u) + '">' + esc(p.t).replace(hl, '<mark>$1</mark>') + '</a>' +
+                    (text ? '<p class="search-snippet">' + esc(snippet(text)).replace(hl, '<mark>$1</mark>') + '</p>' : '') +
+                    '</li>';
+            }).join('');
+        })
+        .catch(function () { status.textContent = 'Search is unavailable right now.'; });
+})();
+</script>
+{{ end }}

@@ -226,6 +226,60 @@
            displayed, so the hidden one leaves the accessibility tree. */
         .iqss-logo .logo-compact { display: none; }
 
+        /* Header search: a "Search" item at the end of the black bar that
+           drops a panel below the bar, styled like the main-nav dropdowns
+           (white, orange top rule, shadow). */
+        .header-top .container { position: relative; }
+        .header-search-toggle {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            margin-left: 20px;
+            padding: 0;
+            font: inherit;
+            color: #fff;
+            background: none;
+            border: 0;
+            cursor: pointer;
+        }
+        .header-search-toggle:hover,
+        .header-search-toggle[aria-expanded="true"] { text-decoration: underline; text-underline-offset: 3px; }
+        .header-search {
+            position: absolute;
+            top: calc(100% + 8px);
+            right: 20px;
+            z-index: 1000;
+            display: flex;
+            gap: 8px;
+            padding: 14px;
+            background: #fff;
+            border: 1px solid #e3e3e3;
+            border-top: 3px solid var(--orange-brand);
+            box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+        }
+        .header-search[hidden] { display: none; }
+        .header-search input {
+            width: 260px;
+            padding: 8px 10px;
+            font: inherit;
+            font-size: 15px;
+            border: 1px solid var(--accent-dark-vibrant);
+            border-radius: 4px;
+            background: #fff;
+            color: var(--font-dark-text);
+        }
+        .header-search button {
+            padding: 8px 16px;
+            font: inherit;
+            font-size: 15px;
+            color: #fff;
+            background: var(--button-dark-primary);
+            border: 1px solid var(--button-dark-primary);
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .header-search button:hover { background: #9E4902; }
+
         .site-tagline {
             font-size: 14px;
             opacity: 0.9;
@@ -745,6 +799,8 @@
             .iqss-logo .logo-wide { display: none; }
             .iqss-logo .logo-compact { display: block; }
             .iqss-logo img { height: 56px; }
+            .header-search { left: 20px; }
+            .header-search input { flex: 1; width: auto; min-width: 0; }
             /* Symmetric band: the logo centres on mobile, so white is centred too,
                with orange framing both edges. The 20/80 stops leave the compact
                mark clear of the fade down to a 320px viewport. */
@@ -761,8 +817,8 @@
 
         /* ── Small phone (≤ 480px): tighten further ── */
         @media (max-width: 480px) {
-            .header-top-links { display: none; }
-            .header-top .container { justify-content: center; }
+            /* The text links drop out on small phones; Search stays. */
+            .header-top-links a { display: none; }
             .header-main { padding: 12px 0; }
             /* No logo-height override here: the compact mark keeps the 56px set
                above, below which its tagline stops being legible. */
@@ -798,7 +854,22 @@
                     <a href="{{ "events/" | relURL }}" aria-label="IQSS events calendar">Events</a><!-- N-04 -->
                     <a href="{{ "book-a-desk/" | relURL }}" aria-label="Book desk space at IQSS">Desk Space</a><!-- N-04 -->
                     <a href="{{ "get-help/" | relURL }}" aria-label="Get help from IQSS">Get Help</a><!-- N-04 -->
+                    {{/* Search: last item in the black bar. Clicking it drops the
+                         field and button down beneath the bar, styled like the
+                         main-nav dropdowns. Same field name (?search=) and results
+                         path as iq.harvard.edu. GitHub Pages has no server, so
+                         search/ runs in the browser against search/index.json
+                         (layouts/_default/search.json). */}}
+                    <button type="button" class="header-search-toggle" aria-expanded="false" aria-controls="header-search">
+                        Search
+                        <svg aria-hidden="true" focusable="false" width="15" height="15" viewBox="0 0 24 24"><path fill="currentColor" d="M15.5 14h-.79l-.28-.27A6.47 6.47 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+                    </button>
                 </div>
+                <form class="header-search" id="header-search" role="search" action="{{ "search/" | relURL }}" method="get" hidden>
+                    <label for="header-search-input" class="sr-only">Search</label>
+                    <input type="search" id="header-search-input" name="search" maxlength="128" autocomplete="off">
+                    <button type="submit">Search</button>
+                </form>
             </div>
         </div>
 
@@ -1030,6 +1101,33 @@
 
         document.addEventListener('click', function (e) {
             if (!e.target.closest('.nav-item.has-dropdown')) closeAll(null);
+        });
+    }());
+    </script>
+
+    <script>
+    /* Header search panel: the "Search" item in the black bar opens it,
+       Escape or a click elsewhere closes it. */
+    (function () {
+        var btn = document.querySelector('.header-search-toggle');
+        var panel = document.getElementById('header-search');
+        if (!btn || !panel) return;
+        var input = panel.querySelector('input');
+
+        function set(open) {
+            panel.hidden = !open;
+            btn.setAttribute('aria-expanded', String(open));
+            if (open) input.focus();
+        }
+        btn.addEventListener('click', function (e) {
+            e.stopPropagation();
+            set(panel.hidden);
+        });
+        document.addEventListener('keydown', function (e) {
+            if (e.key === 'Escape' && !panel.hidden) { set(false); btn.focus(); }
+        });
+        document.addEventListener('click', function (e) {
+            if (!panel.hidden && !panel.contains(e.target)) set(false);
         });
     }());
     </script>

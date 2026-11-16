@@ -1,0 +1,16 @@
+{{- /* Search index for search/. Every regular page with a title, plus the
+       first ~1,500 characters of its text, so matches inside a page body are
+       found, not only titles. Built at publish time; no server needed. */ -}}
+{{- $items := slice -}}
+{{- range where site.RegularPages "Params.draft" "!=" true -}}
+  {{- if and .Title (ne .Layout "search") -}}
+    {{- $text := .Plain | replaceRE `\s+` " " | strings.TrimSpace -}}
+    {{- $items = $items | append (dict
+        "t" .Title
+        "u" .RelPermalink
+        "s" (.Section | default "")
+        "d" (.Params.subtitle | default (.Params.description | default ""))
+        "c" (substr $text 0 1500)) -}}
+  {{- end -}}
+{{- end -}}
+{{- $items | jsonify -}}

@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/kevin-j-boudreau
 title: Kevin J Boudreau
+role: ["Associates"]
 ---
 
 <main aria-label="Kevin J Boudreau" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

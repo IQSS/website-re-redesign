@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/yufeng-han
 title: Yufeng Han
+role: ["Alumni"]
 ---
 
 <main aria-label="Yufeng Han" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

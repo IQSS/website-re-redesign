@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/laura-vilela-rodrigues-rezende
 title: Laura Vilela Rodrigues Rezende
+role: ["Alumni"]
 ---
 
 <main aria-label="Laura Vilela Rodrigues Rezende" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/aakaash-rao
 title: Aakaash Rao
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Aakaash  Rao" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

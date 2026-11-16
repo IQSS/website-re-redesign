@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/jerry-thursby
 title: Jerry Thursby
+role: ["Alumni"]
 ---
 
 <main aria-label="Jerry Thursby" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

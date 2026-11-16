@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/iris-gong-cheng
 title: Iris Gong Cheng
+role: ["Affiliated Undergraduate Students"]
 ---
 
 <main aria-label="Iris Gong Cheng" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

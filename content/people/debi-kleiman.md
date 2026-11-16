@@ -8,7 +8,7 @@ subtitle: "Director, IQSS Startup Foundry"
 job_title: "Director, IQSS Startup Foundry"
 email: "dkleiman@iq.harvard.edu"
 photo: "images/people-debi-kleiman.jpg"
-role: ["Leadership"]
+role: ["Leadership", "Staff"]
 role_weight: 60
 ---
 

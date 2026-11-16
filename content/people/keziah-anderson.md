@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/keziah-anderson
 title: Keziah Anderson
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Keziah Anderson" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

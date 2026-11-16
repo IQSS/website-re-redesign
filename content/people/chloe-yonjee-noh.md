@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/chloe-yonjee-noh
 title: Chloe Yonjee Noh
+role: ["Alumni"]
 ---
 
 <main aria-label="Chloe Yonjee Noh" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/roman-klimke
 title: Roman Klimke
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Roman Klimke" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/andrea-neyra-nazarrett
 title: Andrea Neyra Nazarrett
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Andrea  Neyra Nazarrett" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

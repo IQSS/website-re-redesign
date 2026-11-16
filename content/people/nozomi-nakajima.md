@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/nozomi-nakajima
 title: Nozomi Nakajima
+role: ["Alumni"]
 ---
 
 <main aria-label="Nozomi Nakajima" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

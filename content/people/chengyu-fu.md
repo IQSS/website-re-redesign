@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/chengyu-fu
 title: Chengyu Fu
+role: ["Alumni"]
 ---
 
 <main aria-label="Chengyu Fu" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

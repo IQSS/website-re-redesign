@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/augustin-bergeron-0
 title: Augustin Bergeron
+role: ["Alumni"]
 ---
 
 <main aria-label="Augustin Bergeron" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

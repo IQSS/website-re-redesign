@@ -4,6 +4,8 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/alexandra-thaler
 title: Alexandra Thaler
+role: ["Affiliated Undergraduate Students"]
+program: ["Data Privacy Lab"]
 ---
 
 <main aria-label="Alexandra Thaler" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

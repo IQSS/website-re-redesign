@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/austin-m-strange
 title: Austin M Strange
+role: ["Alumni"]
 ---
 
 <main aria-label="Austin M Strange" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

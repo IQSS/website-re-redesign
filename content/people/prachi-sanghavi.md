@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/prachi-sanghavi
 title: Prachi Sanghavi
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Prachi Sanghavi" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

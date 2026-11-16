@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/paolo-corti
 title: Paolo Corti
+role: ["Alumni"]
 ---
 
 <main aria-label="Paolo Corti" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/gwen-calais-haase
 title: Gwen Calais
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Gwen Calais-Haase" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

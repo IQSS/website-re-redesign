@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/jana-gallus-0
 title: Jana Gallus
+role: ["Alumni"]
 ---
 
 <main aria-label="Jana Gallus" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

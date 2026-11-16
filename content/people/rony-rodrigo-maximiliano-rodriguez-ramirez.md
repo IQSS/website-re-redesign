@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/rony-rodrigo-maximiliano-rodriguez-ramirez
 title: Rony Rodrigo Maximiliano Rodriguez
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Rony Rodrigo Maximiliano Rodriguez-Ramirez" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/ramirez-espinoza-fernanda
 title: "Fernanda Ram\xEDrez"
+role: ["Alumni"]
 ---
 
 <main aria-label="Fernanda Ramírez-Espinoza" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

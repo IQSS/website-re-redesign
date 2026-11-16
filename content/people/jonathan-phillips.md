@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/jonathan-phillips
 title: Jonathan Phillips
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Jonathan Phillips" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

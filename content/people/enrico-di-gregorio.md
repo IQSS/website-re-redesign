@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/enrico-di-gregorio
 title: Enrico Di Gregorio
+role: ["Alumni"]
 ---
 
 <main aria-label="Enrico Di Gregorio" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

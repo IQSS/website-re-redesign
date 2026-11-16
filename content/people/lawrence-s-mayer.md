@@ -4,6 +4,8 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/lawrence-s-mayer
 title: Lawrence S Mayer
+role: ["Associates"]
+program: ["Human Flourishing Program"]
 ---
 
 <main aria-label="Lawrence S Mayer" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

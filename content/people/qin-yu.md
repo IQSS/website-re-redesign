@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/qin-yu
 title: Qin Yu
+role: ["Alumni"]
 ---
 
 <main aria-label="Qin Yu" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

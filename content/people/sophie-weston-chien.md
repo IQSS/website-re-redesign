@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/sophie-weston-chien
 title: Sophie Weston Chien
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Sophie  Weston Chien" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

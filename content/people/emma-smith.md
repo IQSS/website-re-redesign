@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/emma-smith
 title: Emma Smith
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Emma Smith" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

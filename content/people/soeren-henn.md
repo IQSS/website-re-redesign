@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/soeren-henn
 title: Soeren Henn
+role: ["Alumni"]
 ---
 
 <main aria-label="Soeren Henn" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

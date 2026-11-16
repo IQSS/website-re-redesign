@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/merc%C3%A8-crosas
 title: "Merc\xE8 Crosas"
+role: ["Associates"]
 ---
 
 <main aria-label="Mercè Crosas" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

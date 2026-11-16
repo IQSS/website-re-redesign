@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/olivia-so
 title: Olivia So
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Olivia So" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

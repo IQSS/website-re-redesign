@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/emily-silcock
 title: Emily Silcock
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Emily Silcock" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

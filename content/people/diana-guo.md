@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/diana-guo
 title: Diana Guo
+role: ["Alumni"]
 ---
 
 <main aria-label="Diana Guo" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

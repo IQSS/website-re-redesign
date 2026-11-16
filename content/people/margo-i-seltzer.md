@@ -4,6 +4,8 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/margo-i-seltzer
 title: Margo I. Seltzer
+role: ["Affiliated Faculty"]
+program: ["Laboratory for Innovation Science (LISH)"]
 ---
 
 <main aria-label="Margo I. Seltzer" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

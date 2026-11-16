@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/christopher-t-kenny
 title: Christopher T. Kenny
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Christopher T. Kenny" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

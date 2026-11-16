@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/matthew-grossmann
 title: Matthew Grossmann
+role: ["Alumni"]
 ---
 
 <main aria-label="Matthew Grossmann" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/diego-santa-mar%C3%ADa-alc%C3%A1zar
 title: "Diego Santa Mar\xEDa Alc\xE1zar"
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Diego Santa María Alcázar" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

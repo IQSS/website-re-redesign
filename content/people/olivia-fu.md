@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/olivia-fu
 title: Olivia Fu
+role: ["Alumni"]
 ---
 
 <main aria-label="Olivia Fu" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

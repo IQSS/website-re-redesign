@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/marysol-fernandez-harvey
 title: "Marysol Fern\xE1ndez Harvey"
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Marysol Fernández Harvey" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

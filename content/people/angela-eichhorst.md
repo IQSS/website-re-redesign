@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/angela-eichhorst
 title: Angela Eichhorst
+role: ["Alumni"]
 ---
 
 <main aria-label="Angela Eichhorst" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

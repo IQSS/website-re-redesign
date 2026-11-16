@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/yi-hua-chen
 title: Yi Hua Chen
+role: ["Affiliated Undergraduate Students"]
 ---
 
 <main aria-label="Yi Hua Chen" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

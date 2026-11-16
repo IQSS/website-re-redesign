@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/asmer-safi
 title: Asmer Safi
+role: ["Affiliated Undergraduate Students"]
 ---
 
 <main aria-label="Asmer Safi" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

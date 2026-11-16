@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/ant%C3%B3nio-c%C3%A2mara
 title: "Ant\xF3nio C\xE2mara"
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="António Câmara" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

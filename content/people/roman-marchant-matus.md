@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/roman-marchant-matus
 title: Roman Marchant Matus
+role: ["Alumni"]
 ---
 
 <main aria-label="Roman Marchant Matus" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

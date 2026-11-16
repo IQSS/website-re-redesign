@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/dorit-talia-stein
 title: Dorit Talia Stein
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Dorit Talia Stein" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

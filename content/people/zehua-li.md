@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/zehua-li
 title: Zehua Li
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Zehua Li" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

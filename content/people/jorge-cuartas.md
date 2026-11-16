@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/jorge-cuartas
 title: Jorge Cuartas Ricaurte
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Jorge Cuartas Ricaurte" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

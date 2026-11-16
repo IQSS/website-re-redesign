@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/charlotte-oherron
 title: Charlotte O'Herron
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Charlotte O'Herron" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/elisa-xi-chen
 title: Elisa Xi Chen
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Elisa Xi Chen" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

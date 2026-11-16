@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/david-tannenwald
 title: David Tannenwald
+role: ["Alumni"]
 ---
 
 <main aria-label="David Tannenwald" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

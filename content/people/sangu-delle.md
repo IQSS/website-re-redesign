@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/sangu-delle
 title: Sangu Delle
+role: ["Alumni"]
 ---
 
 <main aria-label="Sangu Delle" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

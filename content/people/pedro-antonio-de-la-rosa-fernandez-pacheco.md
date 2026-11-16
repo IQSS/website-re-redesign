@@ -4,6 +4,8 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/pedro-antonio-de-la-rosa-fernandez-pacheco
 title: Pedro Antonio de la Rosa Fernandez Pacheco
+role: ["Alumni"]
+program: ["Human Flourishing Program"]
 ---
 
 <main aria-label="Pedro Antonio de la Rosa Fernandez Pacheco" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

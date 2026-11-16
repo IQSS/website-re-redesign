@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/jason-anastasopoulos
 title: Jason Anastasopoulos
+role: ["Alumni"]
 ---
 
 <main aria-label="Jason Anastasopoulos" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

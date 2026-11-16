@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/teodora-mihoc-0
 title: Teodora Mihoc
+role: ["Alumni"]
 ---
 
 <main aria-label="Teodora Mihoc" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

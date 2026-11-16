@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/yoshitaka-yoshi-nishikawa
 title: Yoshitaka Nishikawa
+role: ["Affiliated Faculty", "Visiting Scholars, Fellows, & General Affiliates"]
 ---
 
 <main aria-label="Yoshitaka  Nishikawa" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

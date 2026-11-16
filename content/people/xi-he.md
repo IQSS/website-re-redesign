@@ -4,6 +4,8 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/xi-he
 title: Xi He
+role: ["Alumni"]
+program: ["China Biographical Database (CBDB)"]
 ---
 
 <main aria-label="Xi He" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

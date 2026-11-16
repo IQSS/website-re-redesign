@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/wen-luo
 title: Wen Luo
+role: ["Alumni"]
 ---
 
 <main aria-label="Wen Luo" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/carlos-xabel-lastra-anadon
 title: Carlos Xabel Lastra
+role: ["Alumni"]
 ---
 
 <main aria-label="Carlos Xabel Lastra-Anadon" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

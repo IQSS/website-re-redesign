@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/alvin-tran
 title: Alvin Tran
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Alvin Tran" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

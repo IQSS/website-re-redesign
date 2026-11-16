@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/dylan-carlson-sirvent-le%C3%B3n
 title: "Dylan Carlson Sirvent Le\xF3n"
+role: ["Visiting Scholars, Fellows, & General Affiliates"]
 ---
 
 <main aria-label="Dylan  Carlson Sirvent León" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

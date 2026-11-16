@@ -4,6 +4,8 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/crhistian-gonzalez-cuatianquis
 title: "Crhistian Gonz\xE1lez"
+role: ["Visiting Scholars, Fellows, & General Affiliates"]
+program: ["Center for Geographic Analysis"]
 ---
 
 <main aria-label="Crhistian González-Cuatianquis" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

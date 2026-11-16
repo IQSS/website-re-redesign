@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/john-m-towey
 title: John M. Towey
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="John M. Towey" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

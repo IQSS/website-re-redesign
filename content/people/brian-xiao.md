@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/brian-xiao
 title: Brian Xiao
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Brian Xiao" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

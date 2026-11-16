@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/kojin-oshiba
 title: Kojin Oshiba
+role: ["Alumni"]
 ---
 
 <main aria-label="Kojin Oshiba" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

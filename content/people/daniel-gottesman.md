@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/daniel-gottesman
 title: Daniel Gottesman
+role: ["Alumni"]
 ---
 
 <main aria-label="Daniel Gottesman" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/ljubica-ristovska
 title: Ljubica Ristovska
+role: ["Alumni"]
 ---
 
 <main aria-label="Ljubica Ristovska" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

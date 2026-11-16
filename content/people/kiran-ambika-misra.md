@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/kiran-ambika-misra
 title: Kiran Ambika Misra
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Kiran Ambika Misra" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

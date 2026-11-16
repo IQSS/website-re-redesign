@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/ruru-hoong
 title: Ruru Hoong
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Ruru Hoong" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

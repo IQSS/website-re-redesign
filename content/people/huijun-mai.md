@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/huijun-mai
 title: Huijun Mai
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Huijun Mai" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

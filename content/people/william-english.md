@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/william-english
 title: William English
+role: ["Alumni"]
 ---
 
 <main aria-label="William English" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

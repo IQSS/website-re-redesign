@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/abraham-holland-0
 title: Abraham Holland
+role: ["Alumni"]
 ---
 
 <main aria-label="Abraham Holland" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

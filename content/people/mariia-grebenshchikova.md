@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/mariia-grebenshchikova
 title: Mariia Grebenshchikova
+role: ["Alumni"]
 ---
 
 <main aria-label="Mariia Grebenshchikova" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

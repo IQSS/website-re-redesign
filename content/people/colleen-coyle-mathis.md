@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/colleen-coyle-mathis
 title: Colleen Coyle Mathis
+role: ["Alumni"]
 ---
 
 <main aria-label="Colleen Coyle Mathis" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

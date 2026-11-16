@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/melinda-laituri
 title: Melinda Laituri
+role: ["Alumni"]
 ---
 
 <main aria-label="Melinda Laituri" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

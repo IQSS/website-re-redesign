@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/michael-zoorob
 title: Michael Zoorob
+role: ["Alumni"]
 ---
 
 <main aria-label="Michael Zoorob" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

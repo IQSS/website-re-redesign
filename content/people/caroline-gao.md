@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/caroline-gao
 title: Caroline Gao
+role: ["Affiliated Undergraduate Students"]
 ---
 
 <main aria-label="Caroline Gao" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

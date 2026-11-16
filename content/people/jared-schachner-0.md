@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/jared-schachner-0
 title: Jared Schachner
+role: ["Alumni"]
 ---
 
 <main aria-label="Jared Schachner" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

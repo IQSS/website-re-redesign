@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/matthew-kim
 title: Matthew Kim
+role: ["Alumni"]
 ---
 
 <main aria-label="Matthew Kim" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

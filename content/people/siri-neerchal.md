@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/siri-neerchal
 title: Siri Neerchal
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Siri Neerchal" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

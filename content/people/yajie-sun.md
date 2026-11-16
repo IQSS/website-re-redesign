@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/yajie-sun
 title: Yajie Sun
+role: ["Alumni"]
 ---
 
 <main aria-label="Yajie Sun" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

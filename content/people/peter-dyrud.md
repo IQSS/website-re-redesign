@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/peter-dyrud
 title: Peter Dyrud
+role: ["Alumni"]
 ---
 
 <main aria-label="Peter Dyrud" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

@@ -4,6 +4,8 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/queenie-luo
 title: Queenie Luo
+role: ["Affiliated Graduate Students"]
+program: ["China Biographical Database (CBDB)"]
 ---
 
 <main aria-label="Queenie Luo" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

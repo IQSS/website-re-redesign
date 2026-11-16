@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/jacqueline-thanh
 title: Jacqueline Thanh
+role: ["Alumni"]
 ---
 
 <main aria-label="Jacqueline  Thanh" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

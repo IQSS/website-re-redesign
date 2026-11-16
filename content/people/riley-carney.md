@@ -4,6 +4,8 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/riley-carney
 title: Riley Carney
+role: ["Affiliated Graduate Students"]
+program: ["Digital Lab for the Social Sciences"]
 ---
 
 <main aria-label="Riley Carney" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

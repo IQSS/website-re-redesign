@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/andrew-o%E2%80%99donohue
 title: "Andrew O\u2019Donohue"
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Andrew O’Donohue" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

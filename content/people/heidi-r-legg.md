@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/heidi-r-legg
 title: Heidi R Legg
+role: ["Visiting Scholars, Fellows, & General Affiliates"]
 ---
 
 <main aria-label="Heidi R Legg" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

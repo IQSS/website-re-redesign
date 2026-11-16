@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/viridiana-rios
 title: Viridiana Rios
+role: ["Alumni"]
 ---
 
 <main aria-label=" Viridiana Rios" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

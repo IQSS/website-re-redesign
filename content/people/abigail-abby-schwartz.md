@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/abigail-abby-schwartz
 title: Abigail "Abby" Schwartz
+role: ["Alumni"]
 ---
 
 <main aria-label='Abigail "Abby" Schwartz' aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

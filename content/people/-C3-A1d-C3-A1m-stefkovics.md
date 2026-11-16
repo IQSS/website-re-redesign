@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/%C3%A1d%C3%A1m-stefkovics
 title: "\xC1d\xE1m Stefkovics"
+role: ["Visiting Scholars, Fellows, & General Affiliates"]
 ---
 
 <main aria-label="Ádám Stefkovics" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

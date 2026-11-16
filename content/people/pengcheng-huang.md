@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/pengcheng-huang
 title: Pengcheng Huang
+role: ["Alumni"]
 ---
 
 <main aria-label="Pengcheng Huang" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

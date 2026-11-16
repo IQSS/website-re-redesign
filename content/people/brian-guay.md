@@ -5,6 +5,7 @@ draft: false
 layout: "resource-page"
 hero_image: ""
 subtitle: "Postdoctoral Researcher, MIT"
+role: ["Visiting Scholars, Fellows, & General Affiliates"]
 ---
 
 <img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/brian-guay_2022.jpeg" alt="Brian Guay" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />

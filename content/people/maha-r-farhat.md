@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/maha-r-farhat
 title: Maha R. Farhat
+role: ["Affiliated Faculty"]
 ---
 
 <main aria-label="Maha R. Farhat" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

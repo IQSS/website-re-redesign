@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/th%C3%A9o-voldoire
 title: "Th\xE9o Voldoire"
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Théo Voldoire" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/manuel-melendez-sanchez
 title: "Manuel Mel\xE9ndez S\xE1nchez"
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Manuel Meléndez Sánchez" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

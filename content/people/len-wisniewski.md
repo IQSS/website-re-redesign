@@ -8,8 +8,9 @@ subtitle: "Senior Director of Research Computing"
 job_title: "Senior Director of Research Computing"
 email: "lwisniewski@iq.harvard.edu"
 photo: "images/people-len-wisniewski.png"
-role: ["Leadership"]
+role: ["Leadership", "Product Development", "Staff"]
 role_weight: 110
+program: ["Dataverse Project", "Sid"]
 ---
 
 <img src="../../images/people-len-wisniewski.png" alt="Len Wisniewski" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />

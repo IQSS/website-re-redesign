@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/aaron-watanabe
 title: Aaron Watanabe
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Aaron Watanabe" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

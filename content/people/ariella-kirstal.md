@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/ariella-kirstal
 title: Ariella Kirstal
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Ariella Kirstal" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

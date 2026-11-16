@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/laura-k-robinson
 title: Laura K Robinson
+role: ["Alumni"]
 ---
 
 <main aria-label="Laura K Robinson" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

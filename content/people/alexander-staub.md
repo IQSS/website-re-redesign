@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/alexander-staub
 title: Alexander Staub
+role: ["Alumni"]
 ---
 
 <main aria-label="Alexander Staub" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

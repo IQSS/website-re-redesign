@@ -4,6 +4,8 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/charles-ayoubi
 title: Charles Ayoubi
+role: ["Alumni"]
+program: ["Laboratory for Innovation Science (LISH)"]
 ---
 
 <main aria-label="Charles Ayoubi" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

@@ -8,8 +8,9 @@ subtitle: "Interim Director of Data Science and Product Research"
 job_title: "Interim Director of Data Science and Product Research"
 email: "cboyd@iq.harvard.edu"
 photo: "images/people-ceilyn-boyd.jpg"
-role: ["Leadership"]
+role: ["Leadership", "Product Development", "Staff"]
 role_weight: 30
+program: ["Dataverse Project"]
 ---
 
 <img src="../../images/people-ceilyn-boyd.jpg" alt="Ceilyn Boyd" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />

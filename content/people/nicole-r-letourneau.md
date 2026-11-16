@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/nicole-r-letourneau
 title: Nicole R. Letourneau
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Nicole R. Letourneau" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

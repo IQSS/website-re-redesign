@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/alexander-hertel-fernandez
 title: Alexander Hertel
+role: ["Alumni"]
 ---
 
 <main aria-label="Alexander Hertel-Fernandez" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

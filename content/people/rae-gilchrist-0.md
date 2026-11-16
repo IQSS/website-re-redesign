@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/rae-gilchrist-0
 title: Rae Gilchrist
+role: ["Alumni"]
 ---
 
 <main aria-label="Rae Gilchrist" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

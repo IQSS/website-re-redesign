@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/brandon-joel-tan
 title: Brandon Joel Tan
+role: ["Alumni"]
 ---
 
 <main aria-label="Brandon Joel Tan" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

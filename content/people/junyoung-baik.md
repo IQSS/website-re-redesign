@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/junyoung-baik
 title: Junyoung Baik
+role: ["Alumni"]
 ---
 
 <main aria-label="Junyoung Baik" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

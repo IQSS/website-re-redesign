@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/jean-vilbert
 title: Jean Vilbert
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Jean Vilbert" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

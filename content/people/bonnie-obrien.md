@@ -8,7 +8,7 @@ subtitle: "Director of Human Resources"
 job_title: "Director of Human Resources"
 email: "bobrien@iq.harvard.edu"
 photo: "images/people-bonnie-obrien.jpg"
-role: ["Leadership"]
+role: ["Administrative Support", "Leadership", "Staff"]
 role_weight: 90
 ---
 

@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/han-nguyen
 title: Han Nguyen
+role: ["Affiliated Undergraduate Students"]
 ---
 
 <main aria-label="Han Nguyen" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

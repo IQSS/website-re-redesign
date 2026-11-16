@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/lucia-mendoza-mora
 title: "Luc\xEDa Mendoza Mora"
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Lucía Mendoza Mora" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/hailey-brace
 title: Hailey Brace
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Hailey Brace" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

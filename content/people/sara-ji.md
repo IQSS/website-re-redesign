@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/sara-ji
 title: Sara Ji
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Sara Ji" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

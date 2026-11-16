@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/isabel-prioleau
 title: Isabel Prioleau
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Isabel Prioleau" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

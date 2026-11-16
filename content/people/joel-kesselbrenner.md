@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/joel-kesselbrenner
 title: Joel Kesselbrenner
+role: ["Alumni"]
 ---
 
 <main aria-label="Joel Kesselbrenner" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

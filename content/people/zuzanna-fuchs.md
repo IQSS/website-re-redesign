@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/zuzanna-fuchs
 title: Zuzanna Fuchs
+role: ["Alumni"]
 ---
 
 <main aria-label="Zuzanna Fuchs" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/ting-yi-wang-0
 title: Ting
+role: ["Alumni"]
 ---
 
 <main aria-label="Ting-Yi Wang" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

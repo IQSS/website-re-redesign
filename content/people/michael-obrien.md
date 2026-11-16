@@ -5,6 +5,7 @@ draft: false
 layout: "resource-page"
 hero_image: ""
 subtitle: "Academic Affairs Coordinator"
+role: ["Administrative Support", "Staff"]
 ---
 
 <img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/michael-obrien_2024.jpeg" alt="Michael O'Brien" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />

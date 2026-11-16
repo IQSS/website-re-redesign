@@ -4,6 +4,8 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/dian-xiong
 title: Dian Xiong
+role: ["Alumni"]
+program: ["China Biographical Database (CBDB)"]
 ---
 
 <main aria-label="Dian Xiong" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/julio-s-sol%C3%ADs-arce
 title: "Julio S Sol\xEDs Arce"
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Julio S Solís Arce" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

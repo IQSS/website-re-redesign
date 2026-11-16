@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/christoph-riedl
 title: Christoph Riedl
+role: ["Alumni"]
 ---
 
 <main aria-label="Christoph Riedl" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

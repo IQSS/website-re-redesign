@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/sakurako-s-okuzono
 title: Sakurako S Okuzono
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Sakurako S Okuzono" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

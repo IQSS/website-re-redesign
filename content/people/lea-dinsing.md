@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/lea-dinsing
 title: Lea Dinsing
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Lea Dinsing" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

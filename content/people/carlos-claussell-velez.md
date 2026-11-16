@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/carlos-claussell-velez
 title: Carlos Claussell Velez
+role: ["Alumni"]
 ---
 
 <main aria-label="Carlos Claussell Velez" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

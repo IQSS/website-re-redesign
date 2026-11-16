@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/gabriella-fleischman
 title: Gabriella Fleischman
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Gabriella Fleischman" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

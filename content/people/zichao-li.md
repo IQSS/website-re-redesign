@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/zichao-li
 title: Zichao Li
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Zichao Li" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

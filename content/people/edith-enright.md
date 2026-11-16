@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/edith-enright
 title: Edith Enright
+role: ["Alumni"]
 ---
 
 <main aria-label="Edith Enright" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

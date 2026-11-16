@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/noah-dasanaike
 title: Noah Dasanaike
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Noah Dasanaike" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

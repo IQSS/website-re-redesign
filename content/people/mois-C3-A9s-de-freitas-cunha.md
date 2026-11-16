@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/mois%C3%A9s-de-freitas-cunha
 title: "Mois\xE9s de Freitas Cunha"
+role: ["Visiting Scholars, Fellows, & General Affiliates"]
 ---
 
 <main aria-label="Moisés de Freitas Cunha" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

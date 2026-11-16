@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/helen-ho
 title: Helen Ho
+role: ["Alumni"]
 ---
 
 <main aria-label="Helen Ho" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

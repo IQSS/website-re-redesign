@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/yafei-chen
 title: Yafei Chen
+role: ["Alumni"]
 ---
 
 <main aria-label="Yafei Chen" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

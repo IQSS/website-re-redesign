@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/max-kuhelj-bugaric-0
 title: Max Kuhelj Bugaric
+role: ["Alumni"]
 ---
 
 <main aria-label="Max Kuhelj Bugaric" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

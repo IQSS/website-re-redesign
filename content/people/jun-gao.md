@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/jun-gao
 title: Jun Gao
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Jun Gao" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

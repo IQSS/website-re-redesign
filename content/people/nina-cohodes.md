@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/nina-cohodes
 title: Nina Cohodes
+role: ["Alumni"]
 ---
 
 <main aria-label="Nina Cohodes" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

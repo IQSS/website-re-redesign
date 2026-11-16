@@ -5,6 +5,7 @@ draft: false
 layout: "resource-page"
 hero_image: ""
 subtitle: "Assistant Professor, Department of Psychology"
+role: ["Affiliated Faculty"]
 ---
 <img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/screen_shot_2014-12-22_at_12.00.12_pm_0_1.png" alt="Mina Cikara" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 

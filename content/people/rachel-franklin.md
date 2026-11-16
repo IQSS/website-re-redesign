@@ -8,8 +8,9 @@ subtitle: "Executive Director, Center for Geographic Analysis"
 job_title: "Executive Director, Center for Geographic Analysis"
 email: "rachel_franklin@cga.harvard.edu"
 photo: "images/people-rachel-franklin.jpg"
-role: ["Leadership"]
+role: ["Leadership", "Staff"]
 role_weight: 40
+program: ["Center for Geographic Analysis"]
 ---
 
 <img src="../../images/people-rachel-franklin.jpg" alt="Rachel Franklin" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />

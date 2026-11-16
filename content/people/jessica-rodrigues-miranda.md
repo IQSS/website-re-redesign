@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/jessica-rodrigues-miranda
 title: Jessica Rodrigues Miranda
+role: ["Alumni"]
 ---
 
 <main aria-label="Jessica Rodrigues Miranda" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/seo-hyun-yoo
 title: Seo
+role: ["Alumni"]
 ---
 
 <main aria-label="Seo-Hyun Yoo" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

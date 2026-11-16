@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/audrey-latura
 title: Audrey Latura
+role: ["Alumni"]
 ---
 
 <main aria-label="Audrey Latura" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

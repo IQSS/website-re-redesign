@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/anna-alsop
 title: Anna Alsop
+role: ["Affiliated Undergraduate Students"]
 ---
 
 <main aria-label="Anna Alsop" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

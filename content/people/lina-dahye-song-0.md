@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/lina-dahye-song-0
 title: Lina (Dahye) Song
+role: ["Alumni"]
 ---
 
 <main aria-label="Lina (Dahye) Song" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/james-feigenbaum
 title: James Feigenbaum
+role: ["Alumni"]
 ---
 
 <main aria-label="James Feigenbaum" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/minjin-chae
 title: Minjin Chae
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Minjin Chae" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

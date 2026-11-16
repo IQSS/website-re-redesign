@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/smail-erkam-sula
 title: Ismail Erkam Sula
+role: ["Visiting Scholars, Fellows, & General Affiliates"]
 ---
 
 <main aria-label="Ismail Erkam Sula" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

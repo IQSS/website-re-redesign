@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/aljo%C5%A1a-milenkovi%C4%87
 title: "Aljo\u0161a Milenkovi\u0107"
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Aljoša Milenković" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

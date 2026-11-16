@@ -4,6 +4,8 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/david-c-parkes
 title: David C. Parkes
+role: ["Affiliated Faculty", "Visiting Scholars, Fellows, & General Affiliates"]
+program: ["Laboratory for Innovation Science (LISH)"]
 ---
 
 <main aria-label="David C. Parkes" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

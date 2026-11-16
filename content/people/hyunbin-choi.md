@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/hyunbin-choi
 title: Hyunbin Choi
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Hyunbin Choi" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

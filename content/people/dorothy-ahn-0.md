@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/dorothy-ahn-0
 title: Dorothy Ahn
+role: ["Alumni"]
 ---
 
 <main aria-label="Dorothy Ahn" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

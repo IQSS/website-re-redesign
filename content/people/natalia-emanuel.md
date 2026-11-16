@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/natalia-emanuel
 title: Natalia Emanuel
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Natalia Emanuel" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

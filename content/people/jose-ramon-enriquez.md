@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/jose-ramon-enriquez
 title: "Jos\xE9 Ram\xF3n Enr\xEDquez"
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="José Ramón Enríquez" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

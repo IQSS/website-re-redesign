@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/dilan-tulan
 title: Dilan Tulan
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Dilan Tulan" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

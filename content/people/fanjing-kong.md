@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/fanjing-kong
 title: Fanjing Kong
+role: ["Alumni"]
 ---
 
 <main aria-label="Fanjing Kong" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

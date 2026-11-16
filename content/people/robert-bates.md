@@ -5,6 +5,7 @@ draft: false
 layout: "resource-page"
 hero_image: ""
 subtitle: "Eaton Professor of the Science of Government, Emeritus"
+role: ["Affiliated Faculty"]
 ---
 
 <img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/bob_bates_0.png" alt="Robert Bates" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />

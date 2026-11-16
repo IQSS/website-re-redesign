@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/zhang-0
 title: An Zhang
+role: ["Alumni"]
 ---
 
 <main aria-label="An Zhang" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

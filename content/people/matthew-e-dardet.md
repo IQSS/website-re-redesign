@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/matthew-e-dardet
 title: Matthew E Dardet
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Matthew E Dardet" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

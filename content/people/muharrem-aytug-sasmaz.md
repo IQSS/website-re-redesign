@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/muharrem-aytug-sasmaz
 title: Muharrem Aytug Sasmaz
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Muharrem Aytug Sasmaz" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

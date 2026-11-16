@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/lee-fleming
 title: Lee Fleming
+role: ["Alumni"]
 ---
 
 <main aria-label="Lee Fleming" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/sharon-krishek-meirav
 title: Sharon Krishek
+role: ["Alumni"]
 ---
 
 <main aria-label="Sharon Krishek-Meirav" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

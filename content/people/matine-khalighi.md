@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/matine-khalighi
 title: Matine Khalighi
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Matine Khalighi" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

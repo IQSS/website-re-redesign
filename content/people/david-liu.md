@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/david-liu
 title: David Liu
+role: ["Alumni"]
 ---
 
 <main aria-label="David Liu" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

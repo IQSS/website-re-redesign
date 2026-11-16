@@ -8,7 +8,7 @@ subtitle: "Director, Program on Higher Education Research"
 job_title: "Director, Program on Higher Education Research"
 email: "nemirow@fas.harvard.edu"
 photo: "images/people-jason-nemirow.jpg"
-role: ["Leadership"]
+role: ["Leadership", "Staff"]
 role_weight: 80
 ---
 

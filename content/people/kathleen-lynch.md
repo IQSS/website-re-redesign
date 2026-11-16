@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/kathleen-lynch
 title: Kathleen Lynch
+role: ["Alumni"]
 ---
 
 <main aria-label="Kathleen Lynch" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

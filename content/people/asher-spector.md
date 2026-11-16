@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/asher-spector
 title: Asher Spector
+role: ["Affiliated Undergraduate Students"]
 ---
 
 <main aria-label="Asher Spector" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

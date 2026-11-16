@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/ark%C4%81dijs-zvaigzne
 title: "Ark\u0101dijs Zvaigzne"
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Arkādijs Zvaigzne" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

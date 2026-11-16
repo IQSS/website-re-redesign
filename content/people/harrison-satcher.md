@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/harrison-satcher
 title: Harrison Satcher
+role: ["Affiliated Undergraduate Students"]
 ---
 
 <main aria-label="Harrison Satcher" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

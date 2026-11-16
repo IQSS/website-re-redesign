@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/shweta-bhogale
 title: Shweta Bhogale
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Shweta Bhogale" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

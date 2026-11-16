@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/sabrina-pendergrass
 title: Sabrina Pendergrass
+role: ["Alumni"]
 ---
 
 <main aria-label="Sabrina Pendergrass" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

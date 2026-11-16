@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/anny-tazio-hal-rubinson-fenton
 title: Anny Tazio Hal Rubinson Fenton
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Anny Tazio Hal Rubinson Fenton" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

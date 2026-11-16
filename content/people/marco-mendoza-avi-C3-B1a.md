@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/marco-mendoza-avi%C3%B1a
 title: "Marco Mendoza Avi\xF1a"
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Marco Mendoza Aviña" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

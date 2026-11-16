@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/annie-haakenstad
 title: Annie Haakenstad
+role: ["Alumni"]
 ---
 
 <main aria-label="Annie Haakenstad" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

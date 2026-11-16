@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/francisco-fran-rodriguez-cabrera
 title: Francisco "Fran" Rodriguez Cabrera
+role: ["Alumni"]
 ---
 
 <main aria-label='Francisco "Fran" Rodriguez Cabrera' aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

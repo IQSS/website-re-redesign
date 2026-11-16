@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/susan-schoenberg
 title: Susan Schoenberg
+role: ["Alumni"]
 ---
 
 <main aria-label="Susan Schoenberg" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

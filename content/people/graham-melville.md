@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/graham-melville
 title: Graham Melville
+role: ["Alumni"]
 ---
 
 <main aria-label="Graham Melville" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

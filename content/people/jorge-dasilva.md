@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/jorge-dasilva
 title: Jorge Dasilva
+role: ["Administrative Support", "Staff"]
 ---
 
 <main aria-label="Jorge Dasilva" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

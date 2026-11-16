@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/eleanor-ellis
 title: Eleanor Ellis
+role: ["Alumni"]
 ---
 
 <main aria-label="Eleanor Ellis" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

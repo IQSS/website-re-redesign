@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/ayse-yemiscigil
 title: Ayse Yemiscigil
+role: ["Alumni"]
 ---
 
 <main aria-label="Ayse Yemiscigil" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

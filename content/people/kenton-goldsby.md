@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/kenton-goldsby
 title: Kenton Goldsby
+role: ["Alumni"]
 ---
 
 <main aria-label="Kenton Goldsby" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/pearl-zhang
 title: Pearl Zhang
+role: ["Alumni"]
 ---
 
 <main aria-label="Pearl Zhang" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

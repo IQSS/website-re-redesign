@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/ellen-j-langer
 title: Ellen J Langer
+role: ["Affiliated Faculty"]
 ---
 
 <main aria-label="Ellen J Langer" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

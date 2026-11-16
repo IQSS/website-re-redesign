@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/shalan-sun
 title: Shalan Sun
+role: ["Alumni"]
 ---
 
 <main aria-label="Shalan Sun" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

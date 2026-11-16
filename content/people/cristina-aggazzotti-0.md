@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/cristina-aggazzotti-0
 title: Cristina Aggazzotti
+role: ["Alumni"]
 ---
 
 <main aria-label="Cristina Aggazzotti" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

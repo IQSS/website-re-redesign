@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/wesley-cash
 title: Wesley Cash
+role: ["Alumni"]
 ---
 
 <main aria-label="Wesley Cash" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

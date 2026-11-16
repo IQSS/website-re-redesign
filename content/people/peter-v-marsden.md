@@ -4,6 +4,8 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/peter-v-marsden
 title: Peter V. Marsden
+role: ["Affiliated Faculty"]
+program: ["Program on Survey Research"]
 ---
 
 <main aria-label="Peter V. Marsden" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

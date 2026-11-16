@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/mark-henderson-0
 title: Mark Henderson
+role: ["Alumni"]
 ---
 
 <main aria-label="Mark Henderson" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

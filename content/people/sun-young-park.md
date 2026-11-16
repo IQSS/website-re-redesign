@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/sun-young-park
 title: Sun Young Park
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Sun Young Park" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

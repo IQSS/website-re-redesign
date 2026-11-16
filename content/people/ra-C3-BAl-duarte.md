@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/ra%C3%BAl-duarte
 title: "Ra\xFAl Duarte"
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Raúl Duarte" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

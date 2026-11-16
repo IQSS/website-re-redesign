@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/jetson-leder-luis
 title: Jetson Leder
+role: ["Alumni"]
 ---
 
 <main aria-label="Jetson Leder-Luis" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

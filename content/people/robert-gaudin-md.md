@@ -4,6 +4,8 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/robert-gaudin-md
 title: Robert Gaudin, MD
+role: ["Visiting Scholars, Fellows, & General Affiliates"]
+program: ["Laboratory for Innovation Science (LISH)"]
 ---
 
 <main aria-label="Robert Gaudin, MD" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

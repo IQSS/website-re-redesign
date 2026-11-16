@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/jessie-bullock
 title: Jessie Bullock
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Jessie Bullock" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

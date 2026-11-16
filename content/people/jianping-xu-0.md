@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/jianping-xu-0
 title: Jianping Xu
+role: ["Alumni"]
 ---
 
 <main aria-label="Jianping Xu" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

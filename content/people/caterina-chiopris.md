@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/caterina-chiopris
 title: Caterina Chiopris
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Caterina Chiopris" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

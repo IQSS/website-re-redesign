@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/christina-j-cross
 title: Christina J Cross
+role: ["Affiliated Faculty"]
 ---
 
 <main aria-label="Christina J Cross" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

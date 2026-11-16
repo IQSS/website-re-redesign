@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/abtsam-saleh
 title: Abtsam Saleh
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Abtsam Saleh" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

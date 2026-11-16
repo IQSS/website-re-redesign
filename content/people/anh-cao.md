@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/anh-cao
 title: Anh Cao
+role: ["Alumni"]
 ---
 
 <main aria-label="Anh Cao" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/katja-hutter
 title: Katja Hutter
+role: ["Alumni"]
 ---
 
 <main aria-label="Katja Hutter" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/dominika-kruszewska-0
 title: Dominika Kruszewska
+role: ["Alumni"]
 ---
 
 <main aria-label="Dominika Kruszewska" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

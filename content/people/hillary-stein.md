@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/hillary-stein
 title: Hillary Stein
+role: ["Alumni"]
 ---
 
 <main aria-label=" Hillary Stein" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

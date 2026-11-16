@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/jayden-ziegler
 title: Jayden Ziegler
+role: ["Alumni"]
 ---
 
 <main aria-label="Jayden Ziegler" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

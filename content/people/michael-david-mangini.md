@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/michael-david-mangini
 title: Michael
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Michael-David Mangini" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

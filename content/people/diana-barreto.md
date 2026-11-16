@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/diana-barreto
 title: Diana Barreto
+role: ["Alumni"]
 ---
 
 <main aria-label="Diana Barreto" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

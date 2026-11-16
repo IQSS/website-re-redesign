@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/xiaomin-yang
 title: Xiaomin Yang
+role: ["Alumni"]
 ---
 
 <main aria-label="Xiaomin Yang" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

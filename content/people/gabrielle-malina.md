@@ -4,6 +4,8 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/gabrielle-malina
 title: Gabrielle Malina
+role: ["Affiliated Graduate Students"]
+program: ["Digital Lab for the Social Sciences"]
 ---
 
 <main aria-label="Gabrielle Malina" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/ruihan-wang
 title: Ruihan Wang
+role: ["Alumni"]
 ---
 
 <main aria-label="Ruihan Wang" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/jonah-s-goldberg
 title: Jonah S Goldberg
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Jonah S Goldberg" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/robin-mamrak
 title: Robin Mamrak
+role: ["Alumni"]
 ---
 
 <main aria-label="Robin Mamrak" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

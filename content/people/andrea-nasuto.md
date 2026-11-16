@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/andrea-nasuto
 title: Andrea Nasuto
+role: ["Associates"]
 ---
 
 <main aria-label="Andrea Nasuto" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

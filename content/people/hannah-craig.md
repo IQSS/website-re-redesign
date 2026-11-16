@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/hannah-craig
 title: Hannah Craig
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Hannah Craig" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

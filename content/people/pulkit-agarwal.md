@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/pulkit-agarwal
 title: Pulkit Agarwal
+role: ["Affiliated Undergraduate Students"]
 ---
 
 <main aria-label="Pulkit Agarwal" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

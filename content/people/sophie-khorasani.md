@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/sophie-khorasani
 title: Sophie Khorasani
+role: ["Alumni"]
 ---
 
 <main aria-label="Sophie Khorasani" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

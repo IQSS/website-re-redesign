@@ -5,7 +5,7 @@ draft: false
 layout: "resource-page"
 hero_image: ""
 subtitle: "Instructor, Department of Population Medicine, Harvard Medical School"
-role: ["Affiliated Faculty"]
+role: ["Affiliated Faculty", "Affiliated Graduate Students"]
 ---
 
 <img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/mahnum_shahzad_-_headshot_1.png" alt="" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />

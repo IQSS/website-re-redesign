@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/saketh-rama
 title: Saketh Rama
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Saketh Rama" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

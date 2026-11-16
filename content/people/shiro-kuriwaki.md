@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/shiro-kuriwaki
 title: Shiro Kuriwaki
+role: ["Alumni"]
 ---
 
 <main aria-label="Shiro Kuriwaki" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

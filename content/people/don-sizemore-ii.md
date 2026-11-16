@@ -5,6 +5,8 @@ draft: false
 layout: "resource-page"
 hero_image: ""
 subtitle: "Developer, Dataverse; Systems Programmer, UNC"
+role: ["Visiting Scholars, Fellows, & General Affiliates"]
+program: ["Dataverse Project"]
 ---
 
 <img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/don-sizemore_2023.jpg" alt="Don Sizemore, II" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />

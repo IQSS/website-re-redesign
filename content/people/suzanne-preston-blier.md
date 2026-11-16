@@ -5,6 +5,8 @@ draft: false
 layout: "resource-page"
 hero_image: ""
 subtitle: "Allen Whitehill Clowes Professor of Fine Arts"
+role: ["Affiliated Faculty"]
+program: ["Center for Geographic Analysis"]
 ---
 
 <img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/suzanne_blier_0.jpg" alt="Suzanne Preston Blier" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />

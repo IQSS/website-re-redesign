@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/meihua-wang
 title: Meihua Wang
+role: ["Alumni"]
 ---
 
 <main aria-label="Meihua Wang" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

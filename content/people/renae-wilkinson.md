@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/renae-wilkinson
 title: Renae Wilkinson
+role: ["Alumni"]
 ---
 
 <main aria-label="Renae Wilkinson" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

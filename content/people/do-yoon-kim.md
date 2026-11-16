@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/do-yoon-kim
 title: Do Yoon Kim
+role: ["Alumni"]
 ---
 
 <main aria-label="Do Yoon Kim" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

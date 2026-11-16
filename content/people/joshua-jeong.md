@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/joshua-jeong
 title: Joshua Jeong
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Joshua Jeong" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

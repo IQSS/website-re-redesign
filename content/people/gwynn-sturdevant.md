@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/gwynn-sturdevant
 title: Gwynn Sturdevant
+role: ["Alumni"]
 ---
 
 <main aria-label="Gwynn Sturdevant" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

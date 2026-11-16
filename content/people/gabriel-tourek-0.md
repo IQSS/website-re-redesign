@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/gabriel-tourek-0
 title: Gabriel Tourek
+role: ["Alumni"]
 ---
 
 <main aria-label="Gabriel Tourek" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

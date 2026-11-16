@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/melissa-wu
 title: Melissa Wu
+role: ["Affiliated Undergraduate Students"]
 ---
 
 <main aria-label="Melissa Wu" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

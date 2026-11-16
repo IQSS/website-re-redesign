@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/mohammad-al-mailam
 title: Mohammad Al
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Mohammad Al-Mailam" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

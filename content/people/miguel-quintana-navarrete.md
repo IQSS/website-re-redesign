@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/miguel-quintana-navarrete
 title: MIguel Quintana
+role: ["Alumni"]
 ---
 
 <main aria-label="MIguel Quintana-Navarrete" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

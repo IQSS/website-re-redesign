@@ -4,6 +4,8 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/gerardo-parra
 title: Gerardo Parra
+role: ["Affiliated Undergraduate Students"]
+program: ["Undergraduate Research Scholars (URS)"]
 ---
 
 <main aria-label="Gerardo Parra" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

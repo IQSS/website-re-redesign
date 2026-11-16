@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/emma-rackstraw
 title: Emma Rackstraw
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Emma Rackstraw" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

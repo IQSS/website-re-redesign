@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/david-ifkovits-0
 title: David Ifkovits
+role: ["Alumni"]
 ---
 
 <main aria-label="David Ifkovits" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/stephen-pettigrew
 title: Stephen Pettigrew
+role: ["Alumni"]
 ---
 
 <main aria-label="Stephen Pettigrew" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

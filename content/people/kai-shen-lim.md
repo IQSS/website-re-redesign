@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/kai-shen-lim
 title: Kai Shen Lim
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Kai Shen Lim" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/alexandra-ciomek
 title: Alexandra Ciomek
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Alexandra Ciomek" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

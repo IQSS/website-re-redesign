@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/heng-du
 title: Heng DU
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Heng DU" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

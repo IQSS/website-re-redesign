@@ -4,6 +4,8 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/peter-chan-kim
 title: Peter Chan Kim
+role: ["Affiliated Graduate Students"]
+program: ["Digital Lab for the Social Sciences"]
 ---
 
 <main aria-label="Peter Chan Kim" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

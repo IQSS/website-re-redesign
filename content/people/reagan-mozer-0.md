@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/reagan-mozer-0
 title: Reagan Mozer
+role: ["Alumni"]
 ---
 
 <main aria-label="Reagan Mozer" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

@@ -5,6 +5,8 @@ draft: false
 layout: "resource-page"
 hero_image: ""
 subtitle: "Thornton Bradshaw Professor of Public Policy"
+role: ["Affiliated Faculty"]
+program: ["Digital Lab for the Social Sciences"]
 ---
 <img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/2025-10/Jennifer%20Lerner%202019.jpg" alt="Jennifer Lerner" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 

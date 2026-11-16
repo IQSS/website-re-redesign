@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/farah-mallah
 title: Farah Mallah
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Farah Mallah" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

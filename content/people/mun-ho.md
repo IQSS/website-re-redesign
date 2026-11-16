@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/mun-ho
 title: Mun Ho
+role: ["Alumni"]
 ---
 
 <main aria-label="Mun Ho" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/bo-yun-park
 title: Bo Yun Park
+role: ["Alumni"]
 ---
 
 <main aria-label="Bo Yun Park" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

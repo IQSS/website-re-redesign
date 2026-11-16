@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/sima-biondi
 title: Sima Biondi
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Sima Biondi" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

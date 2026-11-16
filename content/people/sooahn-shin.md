@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/sooahn-shin
 title: Sooahn Shin
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Sooahn Shin" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

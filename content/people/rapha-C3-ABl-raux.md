@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/rapha%C3%ABl-raux
 title: "Rapha\xEBl Raux"
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Raphaël Raux" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

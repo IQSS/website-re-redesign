@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/jb-jong-beom-lim
 title: JB Jong
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="JB Jong-Beom Lim" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

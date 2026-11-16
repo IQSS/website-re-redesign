@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/ahmet-akbiyik
 title: Ahmet Akbiyik
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Ahmet Akbiyik" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

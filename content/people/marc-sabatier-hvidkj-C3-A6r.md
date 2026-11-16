@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/marc-sabatier-hvidkj%C3%A6r
 title: "Marc Sabatier Hvidkj\xE6r"
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Marc Sabatier Hvidkjær " aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

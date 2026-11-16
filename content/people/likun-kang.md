@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/likun-kang
 title: Likun Kang
+role: ["Alumni"]
 ---
 
 <main aria-label="Likun Kang" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/felix-chen
 title: Felix Chen
+role: ["Affiliated Undergraduate Students"]
 ---
 
 <main aria-label="Felix  Chen" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

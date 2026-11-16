@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/audrey-feldman
 title: Audrey Feldman
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Audrey Feldman" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

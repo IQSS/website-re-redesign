@@ -4,6 +4,8 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/yuning-zhuang
 title: Yuning Zhuang
+role: ["Visiting Scholars, Fellows, & General Affiliates"]
+program: ["China Biographical Database (CBDB)"]
 ---
 
 <main aria-label="Yuning Zhuang" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

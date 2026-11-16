@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/dennis-feehan
 title: Dennis Feehan
+role: ["Alumni"]
 ---
 
 <main aria-label="Dennis Feehan" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

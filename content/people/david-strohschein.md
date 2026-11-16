@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/david-strohschein
 title: David Strohschein
+role: ["Alumni"]
 ---
 
 <main aria-label="David Strohschein" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

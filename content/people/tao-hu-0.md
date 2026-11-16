@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/tao-hu-0
 title: Tao Hu
+role: ["Alumni"]
 ---
 
 <main aria-label="Tao Hu" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

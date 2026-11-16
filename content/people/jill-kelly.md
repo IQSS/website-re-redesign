@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/jill-kelly
 title: Jill Kelly
+role: ["Alumni"]
 ---
 
 <main aria-label="Jill Kelly" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

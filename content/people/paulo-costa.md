@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/paulo-costa
 title: Paulo Costa
+role: ["Alumni"]
 ---
 
 <main aria-label="Paulo Costa" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

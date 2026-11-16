@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/jonathan-ji
 title: Jonathan Ji
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Jonathan Ji" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

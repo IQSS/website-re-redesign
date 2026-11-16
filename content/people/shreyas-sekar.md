@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/shreyas-sekar
 title: Shreyas Sekar
+role: ["Alumni"]
 ---
 
 <main aria-label="Shreyas Sekar" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

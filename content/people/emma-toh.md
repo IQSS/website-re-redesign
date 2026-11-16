@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/emma-toh
 title: Emma Toh
+role: ["Affiliated Undergraduate Students"]
 ---
 
 <main aria-label="Emma Toh" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

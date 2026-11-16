@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/jane-chenyi-xie
 title: Jane Chenyi Xie
+role: ["Alumni"]
 ---
 
 <main aria-label="Jane Chenyi Xie" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

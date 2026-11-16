@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/leslie-finger
 title: Leslie K. Finger
+role: ["Alumni"]
 ---
 
 <main aria-label="Leslie K. Finger" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

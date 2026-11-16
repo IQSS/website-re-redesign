@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/noah-daponte-smith
 title: Noah Daponte
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Noah Daponte-Smith" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

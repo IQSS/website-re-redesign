@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/adrienne-sabety
 title: Adrienne Sabety
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Adrienne Sabety" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

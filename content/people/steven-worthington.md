@@ -8,7 +8,7 @@ subtitle: "Director of Data Science Services"
 job_title: "Director of Data Science Services"
 email: "sworthington@iq.harvard.edu"
 photo: "images/people-steve-worthington.jpg"
-role: ["Leadership"]
+role: ["Leadership", "Staff"]
 role_weight: 120
 program:
   - Data Science Services

@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/laura-royden
 title: Laura Royden
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Laura Royden" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

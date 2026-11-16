@@ -4,6 +4,8 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/vivian-zhu
 title: Vivian Zhu
+role: ["Affiliated Undergraduate Students"]
+program: ["Undergraduate Research Scholars (URS)"]
 ---
 
 <main aria-label="Vivian Zhu" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

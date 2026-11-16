@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/ina-ganguli-prokopovych
 title: Ina Ganguli Prokopovych
+role: ["Alumni"]
 ---
 
 <main aria-label="Ina Ganguli Prokopovych" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

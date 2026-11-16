@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/eileen-mcdonagh
 title: Eileen McDonagh
+role: ["Associates"]
 ---
 
 <main aria-label="Eileen McDonagh" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

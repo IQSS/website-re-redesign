@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/michael-walsh-mcgarrah
 title: Michael Walsh McGarrah
+role: ["Visiting Scholars, Fellows, & General Affiliates"]
 ---
 
 <main aria-label="Michael Walsh McGarrah" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

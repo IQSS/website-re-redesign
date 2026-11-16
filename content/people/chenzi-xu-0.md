@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/chenzi-xu-0
 title: Chenzi Xu
+role: ["Alumni"]
 ---
 
 <main aria-label="Chenzi Xu" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

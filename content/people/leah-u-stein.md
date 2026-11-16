@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/leah-u-stein
 title: Leah U Stein
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Leah U Stein" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

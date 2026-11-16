@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/peter-hickman
 title: Peter Hickman
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Peter Hickman" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

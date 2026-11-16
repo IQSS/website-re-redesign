@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/chiara-iseppon
 title: Chiara Iseppon
+role: ["Alumni"]
 ---
 
 <main aria-label="Chiara Iseppon" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

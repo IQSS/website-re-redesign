@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/victor-yang
 title: Victor Yang
+role: ["Affiliated Undergraduate Students"]
 ---
 
 <main aria-label="Victor Yang" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

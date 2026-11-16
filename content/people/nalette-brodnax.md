@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/nalette-brodnax
 title: NaLette Brodnax
+role: ["Alumni"]
 ---
 
 <main aria-label="NaLette Brodnax" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

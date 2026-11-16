@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/edoardo-m-airoldi
 title: Edoardo M. Airoldi
+role: ["Alumni"]
 ---
 
 <main aria-label="Edoardo M. Airoldi" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/xiaolin-zhuo
 title: Xiaolin Zhuo
+role: ["Alumni"]
 ---
 
 <main aria-label="Xiaolin Zhuo" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

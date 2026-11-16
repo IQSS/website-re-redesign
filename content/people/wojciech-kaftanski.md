@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/wojciech-kaftanski
 title: Wojciech T Kaftanski
+role: ["Alumni"]
 ---
 
 <main aria-label="Wojciech T Kaftanski" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

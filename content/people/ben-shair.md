@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/ben-shair
 title: Ben Shair
+role: ["Visiting Scholars, Fellows, & General Affiliates"]
 ---
 
 <main aria-label="Ben  Shair" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

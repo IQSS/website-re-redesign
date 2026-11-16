@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/shanhui-huang
 title: Shanhui Huang
+role: ["Alumni"]
 ---
 
 <main aria-label="Shanhui Huang" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

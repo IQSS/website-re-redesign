@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/kevin-deluca-0
 title: Kevin DeLuca
+role: ["Alumni"]
 ---
 
 <main aria-label="Kevin DeLuca" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

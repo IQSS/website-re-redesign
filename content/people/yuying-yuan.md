@@ -4,6 +4,8 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/yuying-yuan
 title: Yuying Yuan
+role: ["Alumni"]
+program: ["China Biographical Database (CBDB)"]
 ---
 
 <main aria-label="Yuying Yuan" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

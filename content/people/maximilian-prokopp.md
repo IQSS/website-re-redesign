@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/maximilian-prokopp
 title: Maximilian Prokopp
+role: ["Alumni"]
 ---
 
 <main aria-label="Maximilian Prokopp" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

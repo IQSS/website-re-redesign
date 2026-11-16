@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/kentaro-nakamura
 title: Kentaro Nakamura
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Kentaro Nakamura" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

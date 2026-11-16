@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/wayne-grove
 title: Wayne A Grove
+role: ["Alumni"]
 ---
 
 <main aria-label="Wayne A Grove" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

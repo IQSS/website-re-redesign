@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/raphael-defondeville
 title: Raphael deFondeville
+role: ["Alumni"]
 ---
 
 <main aria-label="Raphael deFondeville" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

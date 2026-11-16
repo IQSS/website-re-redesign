@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/adil-ahsan
 title: Adil Ahsan
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Adil Ahsan" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

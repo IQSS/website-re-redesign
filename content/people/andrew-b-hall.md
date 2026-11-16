@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/andrew-b-hall
 title: Andrew B Hall
+role: ["Alumni"]
 ---
 
 <main aria-label="Andrew B Hall" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

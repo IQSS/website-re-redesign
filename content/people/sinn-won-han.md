@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/sinn-won-han
 title: Sinn Won Han
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Sinn Won Han" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

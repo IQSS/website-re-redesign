@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/steven-legere
 title: Steven LeGere
+role: ["Alumni"]
 ---
 
 <main aria-label="Steven LeGere" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

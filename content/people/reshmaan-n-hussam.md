@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/reshmaan-n-hussam
 title: Reshmaan N Hussam
+role: ["Affiliated Faculty"]
 ---
 
 <main aria-label="Reshmaan N Hussam" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

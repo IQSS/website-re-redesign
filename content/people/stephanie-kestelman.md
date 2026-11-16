@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/stephanie-kestelman
 title: Stephanie Kestelman
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Stephanie Kestelman" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/connor-yuhao-wu
 title: Connor Yuhao Wu
+role: ["Alumni"]
 ---
 
 <main aria-label="Connor Yuhao Wu" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

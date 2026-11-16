@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/tobias-heide-j%C3%B8rgensen
 title: Tobias Heide
+role: ["Alumni"]
 ---
 
 <main aria-label="Tobias Heide-Jørgensen" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

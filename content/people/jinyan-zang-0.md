@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/jinyan-zang-0
 title: Jinyan Zang
+role: ["Alumni"]
 ---
 
 <main aria-label="Jinyan  Zang" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/sarah-farnsworth-hatch
 title: Sarah Farnsworth Hatch
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Sarah Farnsworth Hatch" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

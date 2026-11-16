@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/tsz-man-melody-wu
 title: Tsz Man (Melody) Wu
+role: ["Alumni"]
 ---
 
 <main aria-label="Tsz Man (Melody) Wu" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

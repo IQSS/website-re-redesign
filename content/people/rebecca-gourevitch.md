@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/rebecca-gourevitch
 title: Rebecca Gourevitch
+role: ["Alumni"]
 ---
 
 <main aria-label="Rebecca Gourevitch" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

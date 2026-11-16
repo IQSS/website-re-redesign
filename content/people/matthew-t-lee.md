@@ -4,6 +4,8 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/matthew-t-lee
 title: Matthew T Lee
+role: ["Visiting Scholars, Fellows, & General Affiliates"]
+program: ["Human Flourishing Program"]
 ---
 
 <main aria-label="Matthew T Lee" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

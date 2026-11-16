@@ -4,6 +4,8 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/hongsu-henry-wang
 title: Hongsu Henry Wang
+role: ["Associates"]
+program: ["China Biographical Database (CBDB)"]
 ---
 
 <main aria-label="Hongsu Henry Wang" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

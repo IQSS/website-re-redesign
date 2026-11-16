@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/thomaz-teodorovicz
 title: Thomaz Teodorovicz
+role: ["Alumni"]
 ---
 
 <main aria-label="Thomaz Teodorovicz" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/wei-yang-tham
 title: Wei Yang Tham
+role: ["Alumni"]
 ---
 
 <main aria-label="Wei Yang Tham" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

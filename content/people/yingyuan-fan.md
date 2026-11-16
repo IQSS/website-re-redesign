@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/yingyuan-fan
 title: Yingyuan Fan
+role: ["Alumni"]
 ---
 
 <main aria-label="Yingyuan Fan" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

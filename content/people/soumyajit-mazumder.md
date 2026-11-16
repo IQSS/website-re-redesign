@@ -4,6 +4,8 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/soumyajit-mazumder
 title: Soumyajit Mazumder
+role: ["Alumni"]
+program: ["Digital Lab for the Social Sciences"]
 ---
 
 <main aria-label="Soumyajit Mazumder" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

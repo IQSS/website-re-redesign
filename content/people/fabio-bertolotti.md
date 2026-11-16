@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/fabio-bertolotti
 title: Fabio Bertolotti
+role: ["Alumni"]
 ---
 
 <main aria-label="Fabio Bertolotti" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

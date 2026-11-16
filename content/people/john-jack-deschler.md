@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/john-jack-deschler
 title: John (Jack) Deschler
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="John (Jack) Deschler" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

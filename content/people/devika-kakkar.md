@@ -4,6 +4,8 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/devika-kakkar
 title: Devika Jain
+role: ["Staff"]
+program: ["Center for Geographic Analysis"]
 ---
 
 <main aria-label="Devika Jain" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

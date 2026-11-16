@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/sanjay-misra
 title: Sanjay Misra
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Sanjay Misra" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

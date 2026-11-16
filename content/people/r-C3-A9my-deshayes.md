@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/r%C3%A9my-deshayes
 title: "R\xE9my Deshayes"
+role: ["Alumni"]
 ---
 
 <main aria-label="Rémy Deshayes" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

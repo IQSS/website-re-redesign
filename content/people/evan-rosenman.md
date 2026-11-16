@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/evan-rosenman
 title: Evan Rosenman
+role: ["Alumni"]
 ---
 
 <main aria-label="Evan Rosenman" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/andy-kim
 title: Andy Kim
+role: ["Affiliated Undergraduate Students"]
 ---
 
 <main aria-label="Andy Kim" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

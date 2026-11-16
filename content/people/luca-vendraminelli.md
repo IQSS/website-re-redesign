@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/luca-vendraminelli
 title: Luca Vendraminelli
+role: ["Alumni"]
 ---
 
 <main aria-label="Luca Vendraminelli" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

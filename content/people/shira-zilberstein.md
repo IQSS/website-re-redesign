@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/shira-zilberstein
 title: Shira Zilberstein
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Shira Zilberstein" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/scott-ransom
 title: Scott Ransom
+role: ["Alumni"]
 ---
 
 <main aria-label="Scott Ransom" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

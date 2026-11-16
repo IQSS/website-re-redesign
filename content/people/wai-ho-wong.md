@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/wai-ho-wong
 title: Wai
+role: ["Alumni"]
 ---
 
 <main aria-label="Wai-ho Wong" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

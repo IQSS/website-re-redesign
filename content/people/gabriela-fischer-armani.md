@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/gabriela-fischer-armani
 title: Gabriela Fischer Armani
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Gabriela Fischer Armani" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

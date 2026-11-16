@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/julia-smith-coyoli
 title: Julia Smith Coyoli
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Julia Smith Coyoli" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

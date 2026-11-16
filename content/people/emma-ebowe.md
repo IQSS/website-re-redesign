@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/emma-ebowe
 title: Emma Ebowe
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Emma Ebowe" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

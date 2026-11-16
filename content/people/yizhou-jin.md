@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/yizhou-jin
 title: Yizhou Jin
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Yizhou Jin" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/seth-rosenberg
 title: Seth Rosenberg
+role: ["Affiliated Undergraduate Students"]
 ---
 
 <main aria-label="Seth Rosenberg" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

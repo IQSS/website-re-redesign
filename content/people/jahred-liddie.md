@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/jahred-liddie
 title: Jahred Liddie
+role: ["Affiliated Graduate Students"]
 ---
 
 <main aria-label="Jahred Liddie" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

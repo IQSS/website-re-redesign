@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/dominique-thomas
 title: Dominique Thomas
+role: ["Alumni"]
 ---
 
 <main aria-label="Dominique Thomas" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

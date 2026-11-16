@@ -5,6 +5,8 @@ draft: false
 layout: "resource-page"
 hero_image: ""
 subtitle: "Diker-Tishman Professor of Sociology"
+role: ["Steering Committee"]
+steering_weight: 140
 ---
 
 <img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/christopher-winship_2019.jpeg" alt="" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />

@@ -162,6 +162,14 @@ become are in [GRAPHICS-TO-PRODUCE.md](GRAPHICS-TO-PRODUCE.md).
 
 ## Circle back
 
+**The Sponsored Research Services page may not survive.**
+Its team section was removed on 2026-11-16: it was built from a
+"Sponsored Research Services" Program tag that we invented, and live has no
+such Program -- the staff there carry only Role tags. Liz may delete the page
+outright, which is not yet decided. Until it is, the page stands without a
+team section, and `content/research-resources/client-support-services.md`
+is the nearest precedent for how an unused page is held.
+
 **The four `dss-*` pages.**
 `dss-tutorials`, `dss-resources`, `dss-workshop-materials` and
 `dss-research-output` in `content/research-resources/` mirror material live

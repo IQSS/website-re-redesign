@@ -39,10 +39,6 @@ Once your grant is awarded, we support you through the entire project lifecycle:
 8. **Assist with interim and annual progress reports** to the sponsor
 9. **Manage the effort reporting process**
 
-## Our Team
-
-{{< service-team "Sponsored Research Services" >}}
-
 ## How We Can Help
 
 Whether you are developing a new proposal, managing an active grant, or navigating compliance questions, our team is here to help. We work with investigators at every stage:

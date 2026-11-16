@@ -3,9 +3,32 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} — IQSS Harvard{{ end }}</title><!-- M-10: page title first, short site suffix -->
+    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else if eq .Kind "404" }}Page not found — IQSS Harvard{{ else }}{{ .Title }} — IQSS Harvard{{ end }}</title><!-- M-10: page title first, short site suffix -->
     <meta name="description" content="{{ .Site.Params.description }}">
     {{ if .Site.Params.noindex }}<meta name="robots" content="noindex, nofollow">{{ end }}<!-- prototype: keep search engines off until this replaces iq.harvard.edu -->
+    {{ if ne .Kind "404" }}<link rel="canonical" href="{{ .Permalink }}">{{ end }}<!-- follows baseURL, so it points at iq.harvard.edu once baseURL does -->
+    {{ if ne .Kind "404" }}
+    {{/* Social-share previews (Open Graph, read by LinkedIn, Facebook, Slack,
+         Teams and others; X reads the twitter: tags). The wide 2022 card leads;
+         the square mark is a second og:image for platforms that crop square.
+         Both come from IQSS's own logo files. No og:description yet: the meta
+         description is still the prototype's placeholder, awaiting real wording. */}}
+    <meta property="og:site_name" content="{{ .Site.Title }}">
+    <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ .Permalink }}">
+    <meta property="og:image" content="{{ "images/social/iqss-share-card.png" | absURL }}">
+    <meta property="og:image:width" content="800">
+    <meta property="og:image:height" content="418">
+    <meta property="og:image:alt" content="Institute for Quantitative Social Science">
+    <meta property="og:image" content="{{ "images/social/iqss-share-square.jpg" | absURL }}">
+    <meta property="og:image:width" content="800">
+    <meta property="og:image:height" content="800">
+    <meta property="og:image:alt" content="Institute for Quantitative Social Science">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="{{ "images/social/iqss-share-card.png" | absURL }}">
+    <meta name="twitter:image:alt" content="Institute for Quantitative Social Science">
+    {{ end }}
     <!-- Favicons, generated from static/images/iqss-mark.png. Linked explicitly because the site lives under a subpath, where browsers' automatic /favicon.ico lookup misses it. -->
     <link rel="icon" href="{{ "favicon.ico" | relURL }}" sizes="any">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ "favicon-32x32.png" | relURL }}">

@@ -2,6 +2,13 @@ baseURL = 'https://iqss.github.io/website-re-redesign/'
 languageCode = 'en'
 title = 'Harvard Institute for Quantitative Social Science'
 
+# Builds robots.txt from layouts/robots.txt. It allows everything on purpose:
+# blocking crawlers would stop them seeing the noindex meta tag (params.noindex
+# below), which is what actually keeps the prototype out of search. Crawlers
+# only read robots.txt at a domain's root, so it does nothing under the
+# github.io subpath and takes effect once the site is on its own domain.
+enableRobotsTXT = true
+
 [params]
   subtitle = 'Harvard Institute for Quantitative Social Science Archive'
   description = 'A comprehensive archive and clone of the IQSS website content'

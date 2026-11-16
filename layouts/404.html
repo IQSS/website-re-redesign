@@ -1,0 +1,15 @@
+{{ define "main" }}
+{{/* Wording copied verbatim from iq.harvard.edu's own 404 page (checked
+     2026-11-16), with the second sentence shortened to Liz's wording. Only
+     "home page" is linked: this site has no search page yet.
+     GitHub Pages serves this file for any missing URL under the site, at
+     whatever depth, so links must be root-relative, never relative. Not
+     `"/" | relURL` either: a leading slash makes relURL drop the base path. */}}
+<div class="container">
+    <div class="page-content">
+        <h1>Page not found</h1>
+        <p>The link has been broken or the page has been moved.</p>
+        <p>We suggest going back to the <a href="{{ site.Home.RelPermalink }}">home page</a>, or try the site search.</p>
+    </div>
+</div>
+{{ end }}

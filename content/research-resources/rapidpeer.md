@@ -92,10 +92,6 @@ subtitle: "A free service offering double-blind peer reviews of research papers,
 <div class="role">Associate Editor<br>Associate Director, Program on Survey Research, Harvard University</div>
 </div>
 <div class="team-member">
-<h3>Rebecca Nichols</h3>
-<div class="role">Managing Editor<br>Program Manager, Harvard University</div>
-</div>
-<div class="team-member">
 <h3>Gaetano Antinolfi</h3>
 <div class="role">Associate Editor<br>Professor of Economics, Washington University in St. Louis</div>
 </div>

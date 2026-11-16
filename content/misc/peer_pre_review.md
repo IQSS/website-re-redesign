@@ -426,24 +426,6 @@ title: rapidPeer
 </article>
 <article class="page-card page-card--vertical page-card--hwp-vertical-card-item page-card--default page-card-- hwp-bg-light-core" data-component-name="page-card">
 <div class="page-card__text hwp-order-1">
-<a class="page-card__link hwp-order-2" href="/people/rebecca-nichols"> <h3 class="page-card__heading hwp-order-2">Rebecca Nichols</h3>
-</a>
-<div class="page-card__description hwp-order-3 hwp-text-block"><p><strong>Managing Editor</strong></p><p><span>Program Manager</span><br/>Harvard University</p></div>
-</div>
-<div class="page-card__image page-card__image--16-9">
-<div class="page-card__thumb">
-<div class="hwp-media hwp-media--1-1-small-scale">
-<div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="220" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/rebecca_nichols.jpg?itok=n_D8fKbT 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/rebecca_nichols.jpg?itok=7Yyp6q-O 2x" type="image/jpeg" width="220"/>
-<img alt="Rebecca Nichols" height="220" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/rebecca_nichols.jpg?itok=n_D8fKbT" width="220"/>
-</picture>
-</div>
-</div>
-</div>
-</div>
-</article>
-<article class="page-card page-card--vertical page-card--hwp-vertical-card-item page-card--default page-card-- hwp-bg-light-core" data-component-name="page-card">
-<div class="page-card__text hwp-order-1">
 <a class="page-card__link hwp-order-2" href="https://artsci.wustl.edu/faculty-staff/gaetano-antinolfi"> <h3 class="page-card__heading hwp-order-2">Gaetano Antinolfi</h3>
 </a>
 <div class="page-card__description hwp-order-3 hwp-text-block"><p><strong>Associate Editor</strong></p><p>Professor of Economics<br/>Washington University in St. Louis</p></div>

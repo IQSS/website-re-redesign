@@ -306,13 +306,6 @@ layout: "people-category"
 <div class="people-card-title">Developer, Dataverse Core Development Team</div>
 </div>
 </a>
-<a href="../people/rebecca-nichols/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
-<div class="people-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/rebecca_nichols.jpg" alt="Rebecca Nichols" /></div>
-<div class="people-card-body">
-<div class="people-card-name">Rebecca Nichols</div>
-<div class="people-card-title">Program/Project Manager</div>
-</div>
-</a>
 <a href="../people/michael-obrien/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
 <div class="people-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/michael-obrien_2024.jpeg" alt="Michael O'Brien" /></div>
 <div class="people-card-body">

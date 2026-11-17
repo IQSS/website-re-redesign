@@ -4,7 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/amy-yeboah-quarkume
 title: Amy Yeboah Quarkume
-role: ["Visiting Scholars, Fellows, & General Affiliates"]
+role: ["Alumni"]
 ---
 
 <main aria-label="Amy  Yeboah Quarkume" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

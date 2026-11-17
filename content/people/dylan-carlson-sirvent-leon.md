@@ -5,6 +5,7 @@ draft: false
 layout: "resource-page"
 hero_image: ""
 subtitle: "Pre-Doctoral Fellow, IQSS"
+role: ["Visiting Scholars, Fellows, & General Affiliates"]
 ---
 
 <img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/dylan-carlson_2025.png" alt="Dylan Carlson Sirvent Leon" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />

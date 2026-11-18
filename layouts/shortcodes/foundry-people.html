@@ -1,0 +1,38 @@
+{{- /*
+  One section of the Startup Foundry advisors page, drawn from People.
+
+      {{< foundry-people "fellow" >}}   Executive Fellows
+      {{< foundry-people "board" >}}    Board of Advisors
+      {{< foundry-people "team" >}}     IQSS Team
+
+  Nobody is named here. A person is in a section when their profile carries
+  foundry_<section>: <weight>, and the weight gives live's order. Someone in
+  two sections (Richard Harris, Divya Reddy) simply carries both keys.
+
+  The card line is foundry_title, live's own wording for this page, kept
+  apart from the profile's job_title because the two differ (Gary King is
+  "Faculty Director of IQSS" here, "Director of IQSS" on his profile). It is
+  a list so a two-line card (Kelly Kimball) keeps its line break.
+
+  Portraits are cropped to one 4:5 shape in CSS, whatever shape the source.
+*/ -}}
+{{- $key := printf "foundry_%s" (.Get 0) -}}
+{{- $people := where (where site.RegularPages "Section" "people") (printf "Params.%s" $key) "!=" nil -}}
+{{- if not $people -}}
+  {{- warnf "foundry-people: no profiles carry %s" $key -}}
+{{- else -}}
+<div class="card-grid foundry-people">
+    {{- range sort $people (printf "Params.%s" $key) }}
+    {{- $person := . }}
+    <div class="card foundry-person">
+        {{- with .Params.photo }}
+        <img class="foundry-person__photo" src="{{ . | absURL }}" alt="{{ $person.Title }}" />
+        {{- end }}
+        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        {{- with .Params.foundry_title }}
+        <p>{{ range $i, $line := . }}{{ if $i }}<br>{{ end }}{{ $line }}{{ end }}</p>
+        {{- end }}
+    </div>
+    {{- end }}
+</div>
+{{- end -}}

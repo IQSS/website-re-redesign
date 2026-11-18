@@ -19,6 +19,12 @@
         </div>
     </div>
     {{ partial "breadcrumb-resource.html" . }}
+    {{ else if .Params.hide_header }}
+    {{/* hide_header: the page opens with its own logo, as live's ECEE and
+         DSS pages do, so the orange title band would repeat it. The h1
+         stays for screen readers and document outline. */}}
+    {{ partial "breadcrumb-resource.html" . }}
+    <h1 class="sr-only">{{ .Title }}</h1>
     {{ else }}
     {{ partial "breadcrumb-resource.html" . }}
     <div class="rp-header">
@@ -367,6 +373,270 @@
 
 .rp-content .contact-info p {
     margin: 5px 0;
+}
+
+/* Buttons. live renders its call-to-action links as orange buttons, often
+   several in a row. .dss-button is the Data Science Services page's name
+   for the same thing. */
+.rp-content .button-row,
+.rp-content .dss-cta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 24px 0;
+}
+
+.rp-content a.button,
+.rp-content a.dss-button {
+    display: inline-block;
+    background: var(--orange-brand);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.rp-content a.button:hover,
+.rp-content a.dss-button:hover {
+    filter: brightness(0.9);
+    text-decoration: none;
+}
+
+/* Pages copied from live's 2026 redesign (Startup Foundry, ECEE). Their
+   cards carry photos and illustrations, not 80px icons, and body images
+   are capped so a 2880px logo does not fill the column. */
+.rp-content .live-page img {
+    max-width: min(100%, 480px);
+}
+
+.rp-content .live-page img.wide {
+    max-width: 100%;
+}
+
+.rp-content .live-page .card-grid {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.rp-content .live-page .card {
+    text-align: left;
+}
+
+.rp-content .live-page .card img {
+    width: 100%;
+    height: auto;
+    max-width: none;
+    margin: 0 0 15px;
+    border-radius: 6px;
+}
+
+/* Startup Foundry advisors: portraits arrive as 5x7s, squares and
+   near-squares. One 4:5 frame for all, cropped from the top so faces stay
+   in view. */
+.rp-content .live-page .foundry-person__photo {
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    object-position: center top;
+}
+
+/* Success Stories: each company's logo sits inside the opening paragraph,
+   floated left, exactly four lines tall (1lh = one line of that paragraph),
+   so the text wraps beside it. The small top offset lines the image up
+   with the first line's text rather than its leading. */
+.rp-content .live-page img.story-logo {
+    float: left;
+    height: calc(4lh - 0.4em);
+    width: auto;
+    max-width: 40%;
+    object-fit: contain;
+    margin: 0.3em 1.25em 0 0;
+    border-radius: 4px;
+}
+
+.rp-content .live-page details {
+    clear: both;
+}
+
+/* Cards on live's dark-alternative blue. ECEE's "How it works" icons are
+   white line art on transparent PNGs and vanish on a white card. */
+.rp-content .card-grid--dark .card {
+    background: var(--bg-dark-alternative);
+    border-color: var(--bg-dark-alternative);
+}
+
+.rp-content .card-grid--dark .card h3,
+.rp-content .card-grid--dark .card p {
+    color: var(--font-light-text);
+}
+
+/* A service's own logo at the top of its page (ECEE, DSS), centered as
+   on live. */
+.rp-content img.page-logo {
+    display: block;
+    width: 100%;
+    max-width: 720px;   /* live renders both logos 720px wide: ECEE 218px tall, DSS 286px */
+    height: auto;
+    margin: 10px auto 30px;
+    border-radius: 0;
+}
+
+/* Team cards built from profiles (service-team shortcode), horizontal as
+   on live's DSS page: one person per row, 4:5 portrait on the left, then
+   name, title and email. Narrow upright cards could not hold the longer
+   email addresses. */
+.rp-content .card-grid.service-team {
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.rp-content .service-team .service-team__member {
+    display: grid;
+    grid-template-columns: 200px minmax(0, 1fr);
+    gap: 28px;
+    align-items: start;
+    text-align: left;
+    padding: 24px;
+}
+
+.rp-content .service-team .service-team__photo {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    object-position: center top;
+    margin: 0;
+    border-radius: 6px;
+}
+
+.rp-content .service-team .service-team__text h3 {
+    font-size: 22px;
+    margin: 4px 0 10px;
+}
+
+.rp-content .service-team .service-team__text p {
+    font-size: 16px;
+    margin: 0 0 8px;
+}
+
+.rp-content .service-team .service-team__contact {
+    overflow-wrap: anywhere;
+}
+
+@media (max-width: 768px) {
+    /* Same row, smaller portrait. */
+    .rp-content .service-team .service-team__member {
+        grid-template-columns: 110px minmax(0, 1fr);
+        gap: 16px;
+        padding: 16px;
+    }
+
+    .rp-content .service-team .service-team__text h3 {
+        font-size: 18px;
+    }
+
+    .rp-content .service-team .service-team__text p {
+        font-size: 14px;
+    }
+}
+
+/* Quote cards (the quote-card shortcode), modelled on live's quote-card: portrait
+   left, quote right; text alone when there is no portrait. */
+.rp-content .quote-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 32px;
+    align-items: center;
+    margin: 32px 0;
+    padding: 32px 36px;
+    background: #f8f9fa;
+    border-radius: 10px;
+}
+
+.rp-content .quote-card--has-image {
+    grid-template-columns: minmax(160px, 240px) 1fr;
+}
+
+.rp-content .quote-card .quote-card__image img {
+    display: block;
+    width: 100%;
+    max-width: none;
+    height: auto;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+    object-position: center top;
+    margin: 0;
+    border-radius: 8px;
+}
+
+.rp-content .quote-card__icon {
+    display: block;
+    width: 36px;
+    height: 27px;
+    fill: var(--orange-brand);
+    margin-bottom: 14px;
+}
+
+.rp-content .quote-card blockquote.quote-card__quote {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 21px;
+    line-height: 1.5;
+    color: #1e1e1e;
+}
+
+.rp-content .quote-card__quote p { margin: 0 0 0.6em; }
+.rp-content .quote-card__quote p:last-child { margin-bottom: 0; }
+
+.rp-content .quote-card figcaption {
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.rp-content .quote-card__name {
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--orange-brand);
+}
+
+.rp-content .quote-card__attribution {
+    font-size: 14px;
+    color: #555;
+}
+
+.rp-content .quote-card .quote-card__link {
+    display: inline-block;
+    margin-top: 16px;
+    font-weight: 600;
+}
+
+@media (max-width: 640px) {
+    .rp-content .quote-card,
+    .rp-content .quote-card--has-image {
+        grid-template-columns: 1fr;
+        padding: 24px;
+        gap: 20px;
+    }
+
+    .rp-content .quote-card .quote-card__image img {
+        max-width: 200px;
+    }
+}
+
+.rp-content .live-page blockquote {
+    border-left: 4px solid var(--orange-brand);
+    margin: 25px 0;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.rp-content .live-page blockquote footer {
+    font-size: 14px;
+    color: #666;
+    margin-top: 8px;
 }
 
 @media (max-width: 768px) {

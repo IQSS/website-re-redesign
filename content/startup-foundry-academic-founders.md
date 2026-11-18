@@ -1,100 +1,26 @@
 ---
-title: "IQSS Startup Foundry - Academic Founders"
+title: "The IQSS Startup Foundry - Academic Founders"
 date: 2026-05-28
+lastmod: 2026-11-18
 draft: false
 layout: "resource-page"
-hero_image: "images/startup-foundry-hero.jpg"
-subtitle: "Bridging Academia and Industry to Solve Global Challenges"
+hero_image: "images/startup-foundry-hero_alt_6x1.jpg"
+hero_image_alt: "Blue hex pattern peppered with digital icons and binary code"
+source_url: https://www.iq.harvard.edu/iqss-startup-foundry-academic-founders-0
 ---
 
-## Commercialization Help for Academic Founders
-
-<img src="../images/sf-bridge.jpg" alt="Building a bridge between academia and industry" style="width:100%;max-width:500px;border-radius:8px;margin-bottom:20px;" />
-
-The program supports Harvard social scientists from any school in exploring commercialization of their research into new ventures. The focus is on very early-stage concepts derived from validated Harvard research.
-
-The program is designed for busy faculty members and other Harvard academics who want to see their research make a difference but lack time, business expertise, or simply want assistance with commercialization.
-
-## What Does the IQSS Startup Foundry Offer?
-
-We have built a specialized ecosystem with technical, legal, and entrepreneurial expertise, integrated with offices across Harvard and extending beyond the university:
-
-- Strategic guidance
-- Subject matter expertise
-- Help with university policy
-- Industry and investor connections
-- Business experts to manage startup activities
-- Go-to-market experience tailored for academic innovators
-
-**Key focus areas in the early-stage startup journey:**
-- Market research
-- Understanding prospective customers
-- Business model development
-- Creating an MVP or pilot projects
-- Fundraising
-
-**Harvard Ecosystem Connections:**
-- [Harvard iLab](https://innovationlabs.harvard.edu/)
-- [The GRID](https://www.grid.harvard.edu/)
-- [Office of Technology Development](https://otd.harvard.edu/)
-- [HBS Rock Center for Entrepreneurship](https://entrepreneurship.hbs.edu/)
-
-## The Faculty Role — Flexible Engagement
-
-Faculty maintain intellectual leadership (and keep their day job) while choosing their involvement level:
-
-- **Advisory Role:** Provide guidance and expertise while a dedicated Business Driver handles day-to-day development
-- **Partnership Role:** Collaborate actively with the Business Driver on strategic decisions
-- **Leadership Role:** Take the helm and drive more hands-on venture creation
-
-## The Business Driver — Executional and Operational Leadership
-
-Some projects are matched with a Business Driver to forward early commercialization exploration work. The Business Driver serves as the project's operational leader and:
-
-- Works with faculty to understand research and potential applications
-- Researches relevant industries and market opportunities
-- Conducts customer discovery interviews
-- Develops a business model with guidance from their mentor network
-- Creates pitch materials for investors or potential customers
-- Handles the legwork in creating strategies and plans to launch a new venture
-
-Faculty and academics who explore commercialization find it highly valuable, gaining insights into real-world value creation.
-
-## How to Apply
-
-**Requirements:** At least one Harvard faculty member with interest in the startup, based on their research. Projects accepted on a rolling basis.
-
-**Application Steps:**
-
-1. Initial consultation with the IQSS Startup Foundry Director
-2. Complete a simple application and submit supporting materials
-3. Materials reviewed by the IQSS Startup Foundry
-4. Selection interviews — conversations with community members to ensure fit
-5. Notification of admission to the program
-
-## Frequently Asked Questions
-
-### Who is eligible to apply?
-Any Harvard faculty member in any department or school doing social science research (where the person, group, firm, country, etc., is the unit of analysis).
-
-### How long is the program?
-Not time-bound; based on milestones. Often takes 6-18 months for the project to find a business model and market.
-
-### Does the IQSS Startup Foundry take equity?
-No. We don't charge for support and resources and do not take any equity. IP issues are subject to Harvard University's IP Policy.
-
-### Do I have to give up my Harvard job?
-No. While in the Foundry, faculty conduct a research project using Harvard's facilities. After launch, the business operates independently off campus, but faculty retains a role as advisor, board member, or equity holder.
-
-### Is there funding available?
-We don't offer direct funding, but we can help you find it.
-
-### Can I also work in other Harvard entrepreneurship programs?
-Yes, we encourage you to use as many Harvard resources as you need or want.
-
-### What's the ideal stage of development?
-Focuses on ventures at the earliest stages. Ideal project has validated academic research but has not yet fully explored market viability and technical feasibility.
-
-<div class="contact-info">
-<p><strong>Contact:</strong> Debi Kleiman, Director — <a href="mailto:dkleiman@iq.harvard.edu">dkleiman@iq.harvard.edu</a></p>
+<div class="live-page">
+<h2>Bridging Academia and Industry to Solve Global Challenges</h2>
+<img src="../images/illustration-building-a-bridge_getty-unsplash_2x1.jpg" alt="Illustration of two people bridging a gap between them with a ladder">
+<h3>How Founding a Startup or Commercializing Research Fits Faculty Life</h3><p>It usually makes no sense for faculty to consider leaving Harvard or taking on a second full-time job. Instead, we offer another more effective way to do what you already do: collect data, learn about the world, generate ideas, test them, and see them used in the world.</p><p>Operationally, your workload with the Foundry might be roughly equivalent to adding one more research project to your existing set, all handled in a series of meetings. We’ll match you with a business driver who will handle the parts you do not know how to do, aren’t interested in, or require additional research. We will help you ensure that you satisfy all of Harvard’s policies and make sure that this experience enhances your academic reputation and brings in new ideas, resources, data, and people to your academic work. You may also wind up having a much wider impact for your scholarship than you ever planned, creating hundreds of new jobs in the economy, and producing financial returns for you and your research.</p><h3>We Start From A Simple Premise</h3><p>Most accelerators assume you already see yourself as a founder, understand “market fit,” and have a pitch deck. We assume none of that. Instead, we assume:</p><ul><li>You are a researcher first.</li><li>You possess a valuable, scarce resource: deep domain expertise and ideas.</li><li>We understand your constraints and goals: time, conflicts of interest, academic reputation, promotion and tenure.</li></ul><p>The Foundry is designed to slot into the structures you already use:</p><ul><li>Similar to how you work with a research assistant or postdoc, we add capacity in an area you are not going to staff yourself, such as customer discovery, early business modeling, market testing.</li><li>Similar to a grant program: we help you line up the right resources - data, compute, consulting, external partners - once there is a clear direction.</li><li>Similar to a center or lab: we provide a stable, repeatable process and a team that knows how to work within Harvard while moving work outside it when appropriate.</li></ul><p>You keep being a professor. You keep your primary identity and responsibilities. We add a business driver and a process around a specific piece of your research.</p>
+<h3>The Role of the Business Driver</h3><p>The most important clarification is this: commercializing your research does not require you to run a company personally.</p><p>Instead, the key missing ingredient is almost always a business driver, someone business-minded who is responsible for the early, hands-on work of company-building:</p><ul><li>Talking with potential users, customers, and partners</li><li>Translating the research into concrete value propositions</li><li>Building and iterating on a basic business model</li><li>Shaping and delivering pitches to funders, customers, or partners</li></ul><p>Sometimes this person already exists in your orbit—a postdoc, a staff member, a former student, or a collaborator who is drawn to this work. Sometimes we help you find or recruit them from outside, for example, experienced entrepreneurs, operators, and industry experts who want to work with serious research.</p><p>In either case, your role looks familiar: setting intellectual direction, keeping the work rigorous, and making key decisions at major forks in the road. The business driver does the day-to-day entrepreneurial work, just as a postdoc does the day-to-day research work.</p><p>Your job is to work with the business driver, to guide them, to learn from them, to see what changes you may wish to make in your academic work to fit needs discovered in the commercial world.</p><h3>What does the IQSS Startup Foundry Offer?</h3><p>We've built a specialized ecosystem with technical, legal, and entrepreneurial expertise, integrated with offices across Harvard, and extending well beyond the borders of the university. We help bridge academic research and real-world applications, and provide strategic guidance, subject matter expertise, help with university policy, industry and investor connections, business experts to help manage your startup activities, and go-to-market experience specifically tailored for academic innovators.</p><p>We focus on key steps in the early-stage startup journey, such as market research, understanding prospective customers, business model development, creating an MVP or pilot projects, and fundraising.</p><p>We connect academics with Harvard's innovation ecosystem, including the <a href="https://innovationlabs.harvard.edu/">Harvard iLab</a>, <a href="https://www.grid.harvard.edu/">the GRID</a>, the <a href="https://otd.harvard.edu/">Office of Technology Development (OTD)</a>, <a href="https://entrepreneurship.hbs.edu/Pages/default.aspx">HBS Rock Center</a>, and Boston-area organizations for programming, community, and non-dilutive funding.</p>
+<h3>What Success Looks Like</h3>
+<p>A venture-backed company is one possible outcome. Through the Foundry, success has taken forms such as:</p><ul><li>A technology licensed to an existing firm</li><li>A sustained partnership with an industry or public-sector organization</li><li>A public-benefit or nonprofit organization built around a research insight</li><li>A customer-funded company that never raises venture capital</li><li>A research program that, through early market exploration, discovers new and more impactful quesions to pursue</li></ul><p>We measure success by the degree to which your ideas reach and affect the world—not by whether they fit into a particular box.</p>
+<h2>Stages of Startup Foundry Development</h2>
+<a href="{{< relref "startup-foundry-project-journey" >}}">
+<img src="../images/foundry-timeline-stages-all.png" class="wide" alt="6-stage project timeline, starting with Exploration and ending with Ship Sails">
+</a><h3><a href="{{< relref "startup-foundry-project-journey" >}}">A closer look at the typical project journey</a></h3>
+<h3>Questions about the Startup Foundry?</h3>
+<p><a href="{{< relref "startup-foundry-faqs" >}}">Check out our FAQ</a></p>
+<p><a href="mailto:dkleiman@iq.harvard.edu">Contact the Startup Foundry team</a></p>
 </div>

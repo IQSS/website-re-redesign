@@ -11,6 +11,8 @@ photo: "images/people-elizabeth-jackson.jpg"
 role: ["Leadership", "Steering Committee"]
 role_weight: 20
 steering_weight: 20
+foundry_title: ["Executive Director of IQSS"]
+foundry_team: 20
 ---
 
 <img src="../../images/people-elizabeth-jackson.jpg" alt="Elizabeth Jackson" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />

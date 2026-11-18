@@ -1,0 +1,44 @@
+{{- /*
+  A quote card, modelled on live's HarvardSites quote-card component:
+  optional portrait on the left, then a quotation mark, the quote, the
+  speaker's name, their title, and an optional link.
+
+      {{< quote-card name="Richard McNally"
+                     attribution="Professor of Psychology, Harvard University"
+                     image="images/richard-mcnally-960x1280_0.jpg"
+                     alt="Richard McNally" >}}
+      “We could have this big design ...”
+      {{< /quote-card >}}
+
+  Optional: link="https://..." link_text="Read the story". Without image=
+  the card runs full width with the text alone, as live's no-image variant.
+
+  The quote body is Markdown. Styles live in _default/resource-page.html
+  (search "Quote cards"), not here: a once-per-page guard on .Page.Store
+  survives `hugo server` rebuilds, so after an edit the styles were never
+  emitted again.
+*/ -}}
+{{- $name := .Get "name" -}}
+{{- $attr := .Get "attribution" -}}
+{{- $img := .Get "image" -}}
+{{- $alt := .Get "alt" | default $name -}}
+{{- $link := .Get "link" -}}
+{{- $linkText := .Get "link_text" | default $link -}}
+<figure class="quote-card{{ if $img }} quote-card--has-image{{ else }} quote-card--no-image{{ end }}">
+    {{- with $img }}
+    <div class="quote-card__image"><img src="{{ . | absURL }}" alt="{{ $alt }}" /></div>
+    {{- end }}
+    <div class="quote-card__text">
+        <svg class="quote-card__icon" viewBox="0 0 48 36" aria-hidden="true" focusable="false"><path d="M0 36V22C0 9.6 6.4 2.3 19.2 0l2 5.2C14 7 10.3 11.2 10 18h9.6v18H0zm26.4 0V22C26.4 9.6 32.8 2.3 45.6 0l2 5.2C40.4 7 36.7 11.2 36.4 18H46v18H26.4z"/></svg>
+        <blockquote class="quote-card__quote">{{ .Inner | markdownify }}</blockquote>
+        {{- if or $name $attr }}
+        <figcaption>
+            {{- with $name }}<span class="quote-card__name">{{ . }}</span>{{ end }}
+            {{- with $attr }}<span class="quote-card__attribution">{{ . }}</span>{{ end }}
+        </figcaption>
+        {{- end }}
+        {{- with $link }}
+        <a class="quote-card__link" href="{{ . }}">{{ $linkText }}</a>
+        {{- end }}
+    </div>
+</figure>

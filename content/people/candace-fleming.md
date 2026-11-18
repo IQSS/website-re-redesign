@@ -7,6 +7,9 @@ hero_image: ""
 subtitle: "IQSS Startup Foundry Executive Fellow"
 role: ["Visiting Scholars, Fellows, & General Affiliates"]
 program: ["Startup Foundry"]
+photo: "images/people-candace-fleming.jpg"
+foundry_title: ["CEO/COO, Serial Entrepreneur, Operator"]
+foundry_fellow: 70
 ---
 
 <img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/2025-09/C%20Fleming%20Headshot_0.jpg" alt="Candace Fleming" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />

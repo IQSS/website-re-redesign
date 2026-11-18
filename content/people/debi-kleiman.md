@@ -10,6 +10,8 @@ email: "dkleiman@iq.harvard.edu"
 photo: "images/people-debi-kleiman.jpg"
 role: ["Leadership", "Staff"]
 role_weight: 60
+foundry_title: ["Head of IQSS Startup Foundry"]
+foundry_team: 30
 ---
 
 <img src="../../images/people-debi-kleiman.jpg" alt="Debi Kleiman" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />

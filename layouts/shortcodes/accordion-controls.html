@@ -9,10 +9,16 @@
   One button, not two: it reads "Open all sections" while any section is
   still shut, and "Close all sections" only once they are all open, so it
   always offers the move that is not already made. Both labels are live's.
+
+  buttons="false" brings in the styling and animation but no button, for
+  pages where live shows accordions without an open-all control (the
+  Startup Foundry Innovation Community and Success Stories pages).
 */ -}}
+{{- if ne (.Get "buttons") "false" }}
 <div class="aff-accordion-controls" hidden>
     <button type="button" data-aff-toggle>Open all sections</button>
 </div>
+{{- end }}
 
 <style>
 .aff-accordion-controls {

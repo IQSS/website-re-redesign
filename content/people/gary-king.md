@@ -11,6 +11,8 @@ photo: "images/people-gary-king.jpg"
 role: ["Leadership", "Steering Committee"]
 role_weight: 10
 steering_weight: 10
+foundry_title: ["Faculty Director of IQSS"]
+foundry_team: 10
 ---
 
 <img src="../../images/people-gary-king.jpg" alt="Gary King" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />

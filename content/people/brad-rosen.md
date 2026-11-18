@@ -7,6 +7,9 @@ hero_image: ""
 subtitle: "Entrepreneur-In-Residence, IQSS Startup Foundry"
 role: ["Visiting Scholars, Fellows, & General Affiliates"]
 program: ["Startup Foundry"]
+photo: "images/people-brad-rosen.jpg"
+foundry_title: ["Entrepreneur in Residence"]
+foundry_team: 40
 ---
 
 <img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/2026-02/Brad-Rosen_2026.JPG" alt="Brad Rosen" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />

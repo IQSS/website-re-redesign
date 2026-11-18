@@ -23,19 +23,19 @@
 <div class="card-grid service-team">
     {{- range sort $term.Pages "Params.program_weight" }}
     <div class="card service-team__member">
+        {{- $profile := .RelPermalink }}
         {{- with .Params.photo }}
-        <img class="service-team__photo" src="{{ . | absURL }}" alt="" />
+        <a href="{{ $profile }}" tabindex="-1" aria-hidden="true"><img class="service-team__photo" src="{{ . | absURL }}" alt="" /></a>
         {{- end }}
-        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-        {{- with .Params.email }}
-        <p class="service-team__contact"><a href="mailto:{{ . }}">{{ . }}</a></p>
-        {{- end }}
-        {{- with .Params.job_title }}
-        <p class="service-team__role">{{ . }}</p>
-        {{- end }}
-        {{- with .Params.bio }}
-        <p class="service-team__bio">{{ . }}</p>
-        {{- end }}
+        <div class="service-team__text">
+            <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+            {{- with .Params.job_title }}
+            <p class="service-team__role">{{ . }}</p>
+            {{- end }}
+            {{- with .Params.email }}
+            <p class="service-team__contact"><a href="mailto:{{ . }}">{{ . }}</a></p>
+            {{- end }}
+        </div>
     </div>
     {{- end }}
 </div>

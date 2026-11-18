@@ -7,6 +7,9 @@ hero_image: ""
 subtitle: "Executive Affiliate, Startup Foundry"
 role: ["Visiting Scholars, Fellows, & General Affiliates"]
 program: ["Startup Foundry"]
+photo: "images/people-illai-gescheit.jpeg"
+foundry_title: ["Serial Entrepreneur, Investor, Advisor"]
+foundry_fellow: 20
 ---
 
 <img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/2025-12/Illai-Gescheit_2025.jpeg" alt="Illai Gescheit" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />

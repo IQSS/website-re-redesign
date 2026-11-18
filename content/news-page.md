@@ -3,10 +3,55 @@ title: "News"
 date: 2026-05-28
 draft: false
 layout: "news-page"
-article_count: 164
+article_count: 170
 ---
 
 <div class="news-grid">
+<a href="../news/dataverse-project-launches-redesigned-website/" class="news-card" aria-label="Dataverse Project launches redesigned website — November 09, 2026">
+<div class="news-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/dataverse_logo_600x400.jpg?itok=mgJwx_F8" alt="" /></div>
+<div class="news-card-body">
+<div class="news-card-date">November 09, 2026</div>
+<div class="news-card-title">Dataverse Project launches redesigned website</div>
+<div class="news-card-desc">The Dataverse Project has a new website, open source and published using GitHub Pages.</div>
+</div>
+</a>
+
+<a href="../news/looking-back-cgas-20th-anniversary-conference/" class="news-card" aria-label="Looking Back on CGA’s 20th Anniversary Conference — November 05, 2026">
+<div class="news-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2026-11/CGA%20conference%202026%20Peter%20Bol%20speaking_J%20Blossom%20photog.png?itok=Fn0hmgPV" alt="" /></div>
+<div class="news-card-body">
+<div class="news-card-date">November 05, 2026</div>
+<div class="news-card-title">Looking Back on CGA’s 20th Anniversary Conference</div>
+<div class="news-card-desc">This year's annual conference for the Center for Geographic Analysis at IQSS commemorated CGA's 20th anniversary.</div>
+</div>
+</a>
+
+<a href="../news/why-courts-sometimes-undermine-democracy/" class="news-card" aria-label="Why Courts Sometimes Undermine Democracy — October 29, 2026">
+<div class="news-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2026-11/justice-scale-nellie-adamyan-unsplash.jpg?h=6c249b27&itok=9AzjZWyX" alt="" /></div>
+<div class="news-card-body">
+<div class="news-card-date">October 29, 2026</div>
+<div class="news-card-title">Why Courts Sometimes Undermine Democracy</div>
+<div class="news-card-desc">IQSS affiliate Andrew O'Donohue set out to understand why democracies are in danger. The answer led him somewhere he didn’t expect — the courts.</div>
+</div>
+</a>
+
+<a href="https://current.fas.harvard.edu/stories/researchers-employ-radical-data-transparency-2026-midterm-forecasts" target="_blank" rel="noopener noreferrer" class="news-card" aria-label="FAS Current: Researchers employ radical data transparency in 2026 midterm forecasts — October 23, 2026 (opens in new tab)">
+<div class="news-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2026-10/electit%20house%20map%202026.png?h=17d150b4&itok=vF2WxMvH" alt="" /></div>
+<div class="news-card-body">
+<div class="news-card-date">October 23, 2026</div>
+<div class="news-card-title">FAS Current: Researchers employ radical data transparency in 2026 midterm forecasts <span aria-hidden="true">↗</span></div>
+<div class="news-card-desc">IQSS director Gary King, IQSS research associate Danny Ebanks, and Caltech professor Jonathan N. Katz have created an interactive site with forecasts for all 470 congressional elections set for November 3.</div>
+</div>
+</a>
+
+<a href="https://gking.harvard.edu/electit/#ours_race_rcp_pace-history_err-hist_rp-expected" target="_blank" rel="noopener noreferrer" class="news-card" aria-label="ElectIt: November 2026 Election Forecast — October 16, 2026 (opens in new tab)">
+<div class="news-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2026-10/voting-ballot-silhouette_element5-unsplash.jpg?h=97397f07&itok=HnbH4RB4" alt="" /></div>
+<div class="news-card-body">
+<div class="news-card-date">October 16, 2026</div>
+<div class="news-card-title">ElectIt: November 2026 Election Forecast <span aria-hidden="true">↗</span></div>
+<div class="news-card-desc">A team including IQSS director Gary King, IQSS research associate Danny Ebanks, and CalTech professor Jonathan N. Katz forecasts the US House and Senate seats up for election.</div>
+</div>
+</a>
+
 <a href="../news/dataverse-software-612-release/" class="news-card" aria-label="Dataverse Software 6.12 Release — September 28, 2026">
 <div class="news-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/dataverse_logo_600x400.jpg?itok=hGUsq8hM" alt="" /></div>
 <div class="news-card-body">
@@ -49,6 +94,15 @@ article_count: 164
 <div class="news-card-date">July 16, 2026</div>
 <div class="news-card-title">Nature Index Ranks Harvard #1 in Social Science Research, Highlighting IQSS</div>
 <div class="news-card-desc">Nature Index 2025 ranks Harvard #1 in the world in its first ever ranking of top social science research institutions, primarily crediting IQSS and the Henry A. Murray Research Archive.</div>
+</div>
+</a>
+
+<a href="https://current.fas.harvard.edu/stories/mahzarin-banaji-gregory-nagy-named-great-immigrants-great-americans" target="_blank" rel="noopener noreferrer" class="news-card" aria-label="Mahzarin Banaji honored among Carnegie Foundation's &quot;Great Immigrants&quot; — July 07, 2026 (opens in new tab)">
+<div class="news-card-image"><img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2026-07/Mahzarin%20Banaji%202026%20%5B2520x3780%5D.jpg?h=c6a768d3&itok=8rTc896-" alt="" /></div>
+<div class="news-card-body">
+<div class="news-card-date">July 07, 2026</div>
+<div class="news-card-title">Mahzarin Banaji honored among Carnegie Foundation's "Great Immigrants" <span aria-hidden="true">↗</span></div>
+<div class="news-card-desc">IQSS affiliate Mahzarin Banaji, Richard Clarke Cabot Professor of Social Ethics in the Department of Psychology, is among the Carnegie Foundation's 2026 Class of Great Immigrants.</div>
 </div>
 </a>
 

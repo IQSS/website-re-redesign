@@ -41,7 +41,7 @@ title: Roadmaps
 <div class="hwp-page-list__items children-light">
 <article class="page-card page-card--vertical page-card--hwp-vertical-card-item page-card--default page-card-- hwp-bg-light-base" data-component-name="page-card">
 <div class="page-card__text hwp-order-1">
-<a class="page-card__link hwp-order-2" href="/roadmap-dataverse-project"> <h3 class="page-card__heading hwp-order-2">The Dataverse Project</h3>
+<a class="page-card__link hwp-order-2" href="../../roadmap-dataverse-project/"> <h3 class="page-card__heading hwp-order-2">The Dataverse Project</h3>
 </a>
 </div>
 <div class="page-card__image page-card__image--16-9">
@@ -58,7 +58,7 @@ title: Roadmaps
 </article>
 <article class="page-card page-card--vertical page-card--hwp-vertical-card-item page-card--default page-card-- hwp-bg-light-base" data-component-name="page-card">
 <div class="page-card__text hwp-order-1">
-<a class="page-card__link hwp-order-2" href="/roadmap-sid"> <h3 class="page-card__heading hwp-order-2">Sid &amp; IQSS Research Computing</h3>
+<a class="page-card__link hwp-order-2" href="../../roadmap-sid/"> <h3 class="page-card__heading hwp-order-2">Sid &amp; IQSS Research Computing</h3>
 </a>
 </div>
 <div class="page-card__image page-card__image--16-9">
@@ -75,7 +75,7 @@ title: Roadmaps
 </article>
 <article class="page-card page-card--vertical page-card--hwp-vertical-card-item page-card--default page-card-- hwp-bg-light-base" data-component-name="page-card">
 <div class="page-card__text hwp-order-1">
-<a class="page-card__link hwp-order-2" href="/roadmap-rapid-peer"> <h3 class="page-card__heading hwp-order-2">rapidPeer</h3>
+<a class="page-card__link hwp-order-2" href="../../roadmap-rapid-peer/"> <h3 class="page-card__heading hwp-order-2">rapidPeer</h3>
 </a>
 </div>
 <div class="page-card__image page-card__image--16-9">
@@ -92,7 +92,7 @@ title: Roadmaps
 </article>
 <article class="page-card page-card--vertical page-card--hwp-vertical-card-item page-card--default page-card-- hwp-bg-light-base" data-component-name="page-card">
 <div class="page-card__text hwp-order-1">
-<a class="page-card__link hwp-order-2" href="/roadmap-data-science-services-dss"> <h3 class="page-card__heading hwp-order-2">Data Science Services</h3>
+<a class="page-card__link hwp-order-2" href="../../roadmap-data-science-services-dss/"> <h3 class="page-card__heading hwp-order-2">Data Science Services</h3>
 </a>
 </div>
 <div class="page-card__image page-card__image--16-9">

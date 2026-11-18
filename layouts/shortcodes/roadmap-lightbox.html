@@ -1,0 +1,229 @@
+{{- /*
+  Click-to-enlarge for the roadmap diagrams.
+
+  These are not like the mission graphic on /about/, which fits on screen at
+  95vw and only needs to be made bigger. A roadmap is a wide timeline whose
+  labels stay small at any size that fits a screen, so fitting it to the
+  viewport is exactly the wrong move: the overlay instead becomes a window
+  onto the picture at its full size, and the reader pans around it.
+
+  Panning is the browser's own scrolling, not a transform. That buys
+  keyboard scrolling, momentum on touch, and pinch-zoom on top of it, none
+  of which a hand-written pan implementation gets for free. The drag
+  handler below only moves scrollLeft/scrollTop, so it adds mouse dragging
+  without taking any of that away.
+
+  Include it once per page, anywhere. It upgrades every <a class="roadmap-zoom">
+  on the page; with no JS, or no <dialog>, those anchors stay what they
+  already are -- ordinary links to the image file.
+*/ -}}
+
+<dialog class="rm-lightbox" aria-label="Roadmap, full size">
+    <button type="button" class="rm-lightbox__close" aria-label="Close full-size roadmap">&times;</button>
+    <img src="" alt="" />
+</dialog>
+
+<style>
+.roadmap-zoom { cursor: zoom-in; display: inline-block; }
+
+.rm-lightbox {
+    /* The global '* { margin: 0 }' reset beats the UA stylesheet's
+       'margin: auto' on dialog, which otherwise centres a modal. Without
+       this the overlay opens pinned to the top-left corner. */
+    margin: auto;
+    width: 94vw;
+    max-width: 94vw;
+    height: 90vh;
+    max-height: 90vh;
+    padding: 0;
+    border: 0;
+    border-radius: 8px;
+    background: #fff;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    /* Keeps a flick at the edge of the roadmap from scrolling the page
+       underneath it. */
+    overscroll-behavior: contain;
+}
+
+.rm-lightbox::backdrop { background: rgba(0, 0, 0, 0.8); }
+
+.rm-lightbox img {
+    display: block;
+    /* Width is set from the file's own pixel width once it has loaded, so
+       the image overflows its window and there is something to pan. */
+    max-width: none;
+    max-height: none;
+    border-radius: 0;
+}
+
+.rm-lightbox.is-pannable img { cursor: grab; }
+.rm-lightbox.is-dragging img { cursor: grabbing; }
+
+/* Absolute would scroll away with the picture. Fixed pins these to the
+   viewport corner, where they stay reachable however far the roadmap has
+   been panned. A dialog in the top layer still positions fixed children
+   against the viewport. */
+.rm-lightbox__close {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    font-size: 26px;
+    line-height: 1;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.65);
+    border: 0;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.rm-lightbox__close:hover { background: rgba(0, 0, 0, 0.85); }
+
+.rm-lightbox__close:focus-visible {
+    outline: 2px solid #fff;
+    outline-offset: 2px;
+}
+
+.rm-lightbox__hint {
+    position: fixed;
+    left: 50%;
+    bottom: 14px;
+    transform: translateX(-50%);
+    margin: 0;
+    padding: 6px 14px;
+    font-size: 13px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.65);
+    border-radius: 14px;
+    pointer-events: none;
+    z-index: 2;
+}
+
+@media (max-width: 768px) {
+    .rm-lightbox { width: 96vw; max-width: 96vw; height: 88vh; max-height: 88vh; }
+}
+</style>
+
+<script>
+(function () {
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', init);
+    } else {
+        init();
+    }
+
+function init() {
+    var dialog = document.querySelector('.rm-lightbox');
+    var triggers = [].slice.call(document.querySelectorAll('a.roadmap-zoom'));
+    if (!dialog || !triggers.length || typeof dialog.showModal !== 'function') return;
+
+    var img = dialog.querySelector('img');
+    var close = dialog.querySelector('.rm-lightbox__close');
+    var hint = null;
+
+    /* The alt text belongs to the picture, so take it from the image the
+       reader actually clicked rather than writing a second description
+       here that would drift away from it. */
+    function describe(trigger) {
+        var inner = trigger.querySelector('img');
+        return (inner && inner.getAttribute('alt')) || trigger.getAttribute('data-alt') || 'Roadmap';
+    }
+
+    /* Sizing waits for the file, because naturalWidth is 0 until it loads.
+       A roadmap narrower than its window needs no panning, so it is left
+       at its own size and simply sits there. */
+    function fit() {
+        img.style.width = '';
+        if (!img.naturalWidth) return;
+        var pannable = img.naturalWidth > dialog.clientWidth;
+        if (pannable) img.style.width = img.naturalWidth + 'px';
+        dialog.classList.toggle('is-pannable', pannable);
+        if (hint) hint.hidden = !pannable;
+        dialog.scrollLeft = 0;
+        dialog.scrollTop = 0;
+    }
+
+    triggers.forEach(function (trigger) {
+        trigger.addEventListener('click', function (event) {
+            event.preventDefault();
+            var alt = describe(trigger);
+            img.alt = alt;
+            dialog.setAttribute('aria-label', alt + ', full size');
+
+            if (!hint) {
+                hint = document.createElement('p');
+                hint.className = 'rm-lightbox__hint';
+                hint.textContent = 'Drag, scroll or pinch to see the whole roadmap';
+                dialog.appendChild(hint);
+            }
+            hint.hidden = true;
+
+            if (img.getAttribute('src') !== trigger.href) {
+                img.setAttribute('src', trigger.href);
+                img.addEventListener('load', fit, { once: true });
+            }
+            dialog.showModal();
+            if (img.complete) fit();
+        });
+    });
+
+    if (close) close.addEventListener('click', function () { dialog.close(); });
+
+    /* ── Drag to pan ──────────────────────────────────────────────────
+       Pointer events cover mouse, pen and a single finger alike, but touch
+       already scrolls this element natively and hijacking it would cost
+       momentum and pinch-zoom. So only non-touch pointers are captured. */
+    var dragging = false, moved = false, startX = 0, startY = 0, scrollX = 0, scrollY = 0;
+
+    dialog.addEventListener('pointerdown', function (event) {
+        if (event.pointerType === 'touch' || event.button !== 0) return;
+        if (!dialog.classList.contains('is-pannable')) return;
+        if (close && close.contains(event.target)) return;
+        dragging = true;
+        moved = false;
+        startX = event.clientX;
+        startY = event.clientY;
+        scrollX = dialog.scrollLeft;
+        scrollY = dialog.scrollTop;
+        dialog.classList.add('is-dragging');
+        dialog.setPointerCapture(event.pointerId);
+    });
+
+    dialog.addEventListener('pointermove', function (event) {
+        if (!dragging) return;
+        var dx = event.clientX - startX;
+        var dy = event.clientY - startY;
+        if (Math.abs(dx) > 3 || Math.abs(dy) > 3) moved = true;
+        dialog.scrollLeft = scrollX - dx;
+        dialog.scrollTop = scrollY - dy;
+    });
+
+    function endDrag(event) {
+        if (!dragging) return;
+        dragging = false;
+        dialog.classList.remove('is-dragging');
+        if (event && dialog.hasPointerCapture && dialog.hasPointerCapture(event.pointerId)) {
+            dialog.releasePointerCapture(event.pointerId);
+        }
+    }
+    dialog.addEventListener('pointerup', endDrag);
+    dialog.addEventListener('pointercancel', endDrag);
+
+    /* A click outside the panel closes it. The dialog fills its own box, so
+       "outside" has to be measured rather than read off event.target -- and
+       a drag that happens to finish past the edge is not a click. */
+    dialog.addEventListener('click', function (event) {
+        if (moved) { moved = false; return; }
+        var box = dialog.getBoundingClientRect();
+        var outside = event.clientX < box.left || event.clientX > box.right ||
+                      event.clientY < box.top  || event.clientY > box.bottom;
+        if (outside) dialog.close();
+    });
+
+    window.addEventListener('resize', function () { if (dialog.open) fit(); });
+}
+})();
+</script>

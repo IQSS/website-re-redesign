@@ -60,6 +60,15 @@ summaryLength = 40
   url = "/about/"
   weight = 10
 
+# Roadmaps sits first, as it does on live's About menu and in our footer.
+# Weight 10 only has to beat its siblings (11+); it is compared within the
+# child list, so it does not collide with the parent's own weight.
+[[menu.main]]
+  parent = "about"
+  name = "Roadmaps"
+  url = "/about/roadmaps/"
+  weight = 10
+
 [[menu.main]]
   parent = "about"
   name = "Become an Affiliate"

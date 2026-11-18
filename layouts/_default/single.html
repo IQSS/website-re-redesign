@@ -29,17 +29,33 @@
         <div class="content">
             {{ .Content }}
         </div>
-
-        {{ $sec := .Params.section }}
-        {{ with $sec }}{{ with $.Site.GetPage (printf "/%s" .) }}{{/* only link if the section page exists */}}
+        {{/* A page can name its own parent with back_to (a site path) and an
+             optional back_label. The roadmap pages need it: they sit at the
+             root to match live, so the section they belong to -- Roadmaps --
+             is not the one their path implies. Pages without the override
+             fall back to the scraped "section" field, as before. */}}
+        {{ $backPage := "" }}{{ $backLabel := "" }}
+        {{ with .Params.back_to }}
+            {{ with $.Site.GetPage . }}
+                {{ $backPage = . }}
+                {{ $backLabel = $.Params.back_label | default .Title }}
+            {{ end }}
+        {{ else }}
+            {{ with $.Params.section }}
+            {{ with $.Site.GetPage (printf "/%s" .) }}{{/* only link if the section page exists */}}
+                {{ $backPage = . }}
+                {{ $backLabel = printf "%s Section" ($.Params.section | title) }}
+            {{ end }}{{ end }}
+        {{ end }}
+        {{ with $backPage }}
         <div style="margin-top: 40px; padding-top: 20px; border-top: 1px solid #e5e5e5;">
             <p>
                 <a href="{{ .RelPermalink }}" style="color: var(--orange-brand); text-decoration: none;">
-                    ← Back to {{ $sec | title }} Section
+                    ← Back to {{ $backLabel }}
                 </a>
             </p>
         </div>
-        {{ end }}{{ end }}
+        {{ end }}
     </div>
 </div>
 {{ end }}

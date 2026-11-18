@@ -12,9 +12,9 @@ role: ["Administrative Support", "Leadership", "Staff"]
 role_weight: 90
 ---
 
-<img src="../../images/people-bonnie-obrien.jpg" alt="Bonnie OBrien" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/people-bonnie-obrien.jpg" alt="Bonnie O'Brien" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
-## Bonnie OBrien
+## Bonnie O'Brien
 
 **Director of Human Resources**
 

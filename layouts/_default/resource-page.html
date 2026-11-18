@@ -19,10 +19,12 @@
         </div>
     </div>
     {{ partial "breadcrumb-resource.html" . }}
-    {{ else if .Params.hide_header }}
+    {{ else if or .Params.hide_header (and (eq .Section "people") .IsPage) }}
     {{/* hide_header: the page opens with its own logo, as live's ECEE and
-         DSS pages do, so the orange title band would repeat it. The h1
-         stays for screen readers and document outline. */}}
+         DSS pages do, so the orange title band would repeat it. Profiles
+         in People always skip the band: every one on this layout opens
+         with its own name heading and title (checked 2026-11-18, all 320).
+         The h1 stays for screen readers and document outline. */}}
     {{ partial "breadcrumb-resource.html" . }}
     <h1 class="sr-only">{{ .Title }}</h1>
     {{ else }}

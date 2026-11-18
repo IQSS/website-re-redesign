@@ -3,7 +3,8 @@ title: "IT Support"
 date: 2026-10-21
 draft: false
 layout: "resource-page"
-hero_image: ""
+hero_image: "images/client-services-hero.jpg"
+hero_image_alt: "client-services-hero.jpg"
 subtitle: ""
 source_url: https://www.iq.harvard.edu/it-support
 ---

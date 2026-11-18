@@ -1,6 +1,10 @@
 {{ define "main" }}
 <div class="people-page">
     <div class="people-header">
+        {{/* Banner from live's /our-people page (people-3.jpg, its alt
+             verbatim). Same treatment as the resource-page hero: photo
+             behind, dark overlay for text contrast. */}}
+        <img class="people-header__img" src="{{ "images/live/harvard-iqss/files/people-3.jpg" | absURL }}" alt="people talking at IQSS" />
         <div class="container">
             <h1>People</h1>
             <p>The IQSS community includes directors, faculty, staff, students, and affiliates working together to advance quantitative social science.</p>
@@ -66,9 +70,37 @@
 .people-page { margin: 0; padding: 0; }
 
 .people-header {
-    background: linear-gradient(135deg, var(--orange-brand) 0%, #B8460A 100%);
+    position: relative;
+    overflow: hidden;
+    background: #333;
     color: white;
-    padding: 50px 0;
+    min-height: 350px;
+    display: flex;
+    align-items: center;
+    padding: 60px 0;
+}
+
+.people-header__img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.people-header::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.people-header .container {
+    position: relative;
+    z-index: 2;
+    width: 100%;
 }
 
 .people-header h1 {

@@ -3,7 +3,8 @@ title: "Funding"
 date: 2026-05-28
 draft: false
 layout: "resource-page"
-hero_image: ""
+hero_image: "images/live/harvard-iqss/files/funding.8.jpg"
+hero_image_alt: "poster session"
 subtitle: "IQSS supports affiliated faculty, graduate students, and undergraduates through various funding opportunities."
 ---
 
@@ -46,6 +47,8 @@ IQSS supports affiliated faculty, graduate students, and undergraduates through 
 <p>Up to $1,000 for IQSS graduate student affiliates enrolled in a doctoral program, supporting travel for conference presentations. Rolling deadline.</p>
 </div>
 </div>
+
+<img src="../images/live/harvard-iqss/files/donate-band-bg.jpg" alt="Two people sitting on a couch in conversation" />
 
 ## Make a Gift
 

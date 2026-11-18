@@ -226,6 +226,8 @@ Our philosophy: the more information we share, the better the social science res
 
 ---
 
+<img src="../images/live/harvard-iqss/files/donate-band-bg.jpg" alt="Two people sitting on a couch in conversation" />
+
 ## Make a Gift
 
 A contribution from you can provide IQSS with great opportunities to expand our research, programs, and community.

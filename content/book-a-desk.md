@@ -3,7 +3,8 @@ title: "Reserve Desk Space"
 date: 2026-05-28
 draft: false
 layout: "resource-page"
-hero_image: ""
+hero_image: "images/live/harvard-iqss/files/iq-computer-lab-hero.png"
+hero_image_alt: "Close-up of hands working at open laptops on a table"
 subtitle: "IQSS affiliates can book time slots at our office to work and meet."
 ---
 

@@ -3,7 +3,8 @@ title: "Get Help"
 date: 2026-05-28
 draft: false
 layout: "resource-page"
-hero_image: ""
+hero_image: "images/live/harvard-iqss/files/get-help.jpg"
+hero_image_alt: "staff looking at computer"
 subtitle: "Have a question? Follow the links below to information on popular question topics."
 ---
 

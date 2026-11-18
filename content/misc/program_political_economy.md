@@ -93,7 +93,7 @@ title: 'Seminar Series: Alberto Alesina Seminar on Political Economy'
 <source height="600" media="all and (min-width: 768px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_4_5__480x600/public/harvard-iqss/files/rodrik_dani_2021.jpg?itok=XvHXS9m6 1x, /sites/g/files/omnuum8171/files/styles/hwp_4_5__960x1200/public/harvard-iqss/files/rodrik_dani_2021.jpg?itok=7njzqe89 2x" type="image/jpeg" width="480"/>
 <source height="865" media="all and (min-width: 480px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/rodrik_dani_2021.jpg?itok=0QOBPq78 1x, /sites/g/files/omnuum8171/files/styles/hwp_4_5__1380x1730/public/harvard-iqss/files/rodrik_dani_2021.jpg?itok=4PCHKXKv 2x" type="image/jpeg" width="690"/>
 <source height="600" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_4_5__480x600/public/harvard-iqss/files/rodrik_dani_2021.jpg?itok=XvHXS9m6 1x, /sites/g/files/omnuum8171/files/styles/hwp_4_5__960x1200/public/harvard-iqss/files/rodrik_dani_2021.jpg?itok=7njzqe89 2x" type="image/jpeg" width="480"/>
-<img alt="Dani Rodrik" height="865" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/rodrik_dani_2021.jpg?itok=0QOBPq78" width="690"/>
+<img alt="Dani Rodrik" height="865" loading="eager" src="../../images/live/harvard-iqss/files/rodrik_dani_2021.jpg" width="690"/>
 </picture>
 </div>
 </div>
@@ -124,7 +124,7 @@ title: 'Seminar Series: Alberto Alesina Seminar on Political Economy'
 <source height="600" media="all and (min-width: 768px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_4_5__480x600/public/harvard-iqss/files/david-y-yang_2019.jpg?itok=kDZUuQZ_ 1x, /sites/g/files/omnuum8171/files/styles/hwp_4_5__960x1200/public/harvard-iqss/files/david-y-yang_2019.jpg?itok=8-oXzx_U 2x" type="image/jpeg" width="480"/>
 <source height="865" media="all and (min-width: 480px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/david-y-yang_2019.jpg?itok=QMyoXB8K 1x, /sites/g/files/omnuum8171/files/styles/hwp_4_5__1380x1730/public/harvard-iqss/files/david-y-yang_2019.jpg?itok=fmiu1ww5 2x" type="image/jpeg" width="690"/>
 <source height="600" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_4_5__480x600/public/harvard-iqss/files/david-y-yang_2019.jpg?itok=kDZUuQZ_ 1x, /sites/g/files/omnuum8171/files/styles/hwp_4_5__960x1200/public/harvard-iqss/files/david-y-yang_2019.jpg?itok=8-oXzx_U 2x" type="image/jpeg" width="480"/>
-<img alt="David Y Yang" height="865" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/david-y-yang_2019.jpg?itok=QMyoXB8K" width="690"/>
+<img alt="David Y Yang" height="865" loading="eager" src="../../images/live/harvard-iqss/files/david-y-yang_2019.jpg" width="690"/>
 </picture>
 </div>
 </div>
@@ -155,7 +155,7 @@ title: 'Seminar Series: Alberto Alesina Seminar on Political Economy'
 <source height="600" media="all and (min-width: 768px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_4_5__480x600/public/harvard-iqss/files/jams_synder_0.png?itok=rbtzD-Ek 1x, /sites/g/files/omnuum8171/files/styles/hwp_4_5__960x1200/public/harvard-iqss/files/jams_synder_0.png?itok=Cymue1eX 2x" type="image/png" width="480"/>
 <source height="865" media="all and (min-width: 480px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/jams_synder_0.png?itok=uIz3QyaP 1x, /sites/g/files/omnuum8171/files/styles/hwp_4_5__1380x1730/public/harvard-iqss/files/jams_synder_0.png?itok=MkXnbbLR 2x" type="image/png" width="690"/>
 <source height="600" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_4_5__480x600/public/harvard-iqss/files/jams_synder_0.png?itok=rbtzD-Ek 1x, /sites/g/files/omnuum8171/files/styles/hwp_4_5__960x1200/public/harvard-iqss/files/jams_synder_0.png?itok=Cymue1eX 2x" type="image/png" width="480"/>
-<img alt="James Snyder" height="865" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/jams_synder_0.png?itok=uIz3QyaP" width="690"/>
+<img alt="James Snyder" height="865" loading="eager" src="../../images/live/harvard-iqss/files/jams_synder_0.jpg" width="690"/>
 </picture>
 </div>
 </div>
@@ -187,7 +187,7 @@ title: 'Seminar Series: Alberto Alesina Seminar on Political Economy'
 <source height="600" media="all and (min-width: 768px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_4_5__480x600/public/harvard-iqss/files/marco-tabellini-2021.jpg?itok=Nh2R55HU 1x, /sites/g/files/omnuum8171/files/styles/hwp_4_5__960x1200/public/harvard-iqss/files/marco-tabellini-2021.jpg?itok=Htsx1Igk 2x" type="image/jpeg" width="480"/>
 <source height="865" media="all and (min-width: 480px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/marco-tabellini-2021.jpg?itok=FtG4lNSg 1x, /sites/g/files/omnuum8171/files/styles/hwp_4_5__1380x1730/public/harvard-iqss/files/marco-tabellini-2021.jpg?itok=Gn8J3Oz_ 2x" type="image/jpeg" width="690"/>
 <source height="600" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_4_5__480x600/public/harvard-iqss/files/marco-tabellini-2021.jpg?itok=Nh2R55HU 1x, /sites/g/files/omnuum8171/files/styles/hwp_4_5__960x1200/public/harvard-iqss/files/marco-tabellini-2021.jpg?itok=Htsx1Igk 2x" type="image/jpeg" width="480"/>
-<img alt="Marco Tabellini" height="865" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/marco-tabellini-2021.jpg?itok=FtG4lNSg" width="690"/>
+<img alt="Marco Tabellini" height="865" loading="eager" src="../../images/live/harvard-iqss/files/marco-tabellini-2021.jpg" width="690"/>
 </picture>
 </div>
 </div>
@@ -218,7 +218,7 @@ title: 'Seminar Series: Alberto Alesina Seminar on Political Economy'
 <source height="600" media="all and (min-width: 768px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_4_5__480x600/public/harvard-iqss/files/pia_raffler_pic.jpg?itok=XQLfvpqT 1x, /sites/g/files/omnuum8171/files/styles/hwp_4_5__960x1200/public/harvard-iqss/files/pia_raffler_pic.jpg?itok=krvfUD4J 2x" type="image/jpeg" width="480"/>
 <source height="865" media="all and (min-width: 480px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/pia_raffler_pic.jpg?itok=mgiev05n 1x, /sites/g/files/omnuum8171/files/styles/hwp_4_5__1380x1730/public/harvard-iqss/files/pia_raffler_pic.jpg?itok=5Q1Gl8k- 2x" type="image/jpeg" width="690"/>
 <source height="600" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_4_5__480x600/public/harvard-iqss/files/pia_raffler_pic.jpg?itok=XQLfvpqT 1x, /sites/g/files/omnuum8171/files/styles/hwp_4_5__960x1200/public/harvard-iqss/files/pia_raffler_pic.jpg?itok=krvfUD4J 2x" type="image/jpeg" width="480"/>
-<img alt="Pia Raffler" height="865" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/pia_raffler_pic.jpg?itok=mgiev05n" width="690"/>
+<img alt="Pia Raffler" height="865" loading="eager" src="../../images/live/harvard-iqss/files/pia_raffler_pic.jpg" width="690"/>
 </picture>
 </div>
 </div>
@@ -250,7 +250,7 @@ title: 'Seminar Series: Alberto Alesina Seminar on Political Economy'
 <source height="600" media="all and (min-width: 768px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_4_5__480x600/public/harvard-iqss/files/vincent-pons-2021_hires.png?itok=OymDHi3b 1x, /sites/g/files/omnuum8171/files/styles/hwp_4_5__960x1200/public/harvard-iqss/files/vincent-pons-2021_hires.png?itok=ehCxPeoO 2x" type="image/png" width="480"/>
 <source height="865" media="all and (min-width: 480px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/vincent-pons-2021_hires.png?itok=oq3tYVP5 1x, /sites/g/files/omnuum8171/files/styles/hwp_4_5__1380x1730/public/harvard-iqss/files/vincent-pons-2021_hires.png?itok=-R_bfPZs 2x" type="image/png" width="690"/>
 <source height="600" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_4_5__480x600/public/harvard-iqss/files/vincent-pons-2021_hires.png?itok=OymDHi3b 1x, /sites/g/files/omnuum8171/files/styles/hwp_4_5__960x1200/public/harvard-iqss/files/vincent-pons-2021_hires.png?itok=ehCxPeoO 2x" type="image/png" width="480"/>
-<img alt="Vincent Pons" height="865" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/vincent-pons-2021_hires.png?itok=oq3tYVP5" width="690"/>
+<img alt="Vincent Pons" height="865" loading="eager" src="../../images/live/harvard-iqss/files/vincent-pons-2021_hires.jpg" width="690"/>
 </picture>
 </div>
 </div>

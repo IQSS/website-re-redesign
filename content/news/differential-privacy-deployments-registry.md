@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "November 25, 2025"
 ---
 
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/opendp_logo_600x400_2024.jpg?itok=kusHBvME" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/opendp_logo_600x400_2024.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 OpenDP at IQSS has launched the Differential Privacy Deployments Registry, a groundbreaking initiative designed to empower organizations and researchers to share detailed information about their differential privacy implementations. This new resource addresses a critical need in the data privacy community by creating a centralized platform where practitioners can document their approaches, methodologies, and lessons learned from real-world deployments of differential privacy technologies.
 

@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "July 17, 2023"
 ---
 
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/emoji-network_alex-shuper_square.jpg?itok=sOyU5kQe" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/emoji-network_alex-shuper_square.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 The Center for Geographic Analysis at Harvard's IQSS explores how Twitter evolved from a simple social networking platform into a powerful tool for sentiment analysis and geographic understanding of public opinion. The development of the Twitter Sentiment Geographical Index represents an innovative application of social media data to track emotional patterns and attitudes across geographic regions, providing researchers with unprecedented insight into spatial variations in public sentiment.
 

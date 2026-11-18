@@ -8,7 +8,7 @@ subtitle: "Professor, Harvard Business School"
 role: ["Affiliated Faculty"]
 program: ["Laboratory for Innovation Science (LISH)"]
 ---
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/rafaella_sadun_0.png" alt="Rafaella Sadun" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/rafaella_sadun_0.jpg" alt="Rafaella Sadun" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Rafaella Sadun
 

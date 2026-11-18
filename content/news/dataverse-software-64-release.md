@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "October 07, 2024"
 ---
 
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/dataverse_project_logo_square.png?itok=xlwmTRXu" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/dataverse_project_logo_square.png" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 The Dataverse Project is pleased to announce the release of version 6.4, continuing the momentum of the 6.x series with important bug fixes and new features that enhance the platform's functionality and reliability. This release demonstrates the project's ongoing commitment to responsive development that addresses community needs while maintaining the stability required for production research data repositories.
 

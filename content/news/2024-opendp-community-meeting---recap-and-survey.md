@@ -6,7 +6,7 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "September 23, 2024"
 ---
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/copy_of_img_2129.jpg?itok=NdbTLQK5" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/copy_of_img_2129.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 The 2024 OpenDP Community Meeting was held August 22-23 at Harvard University, once again joining forces with TPDP (Theory and Practice of Differential Privacy). The two-day event brought together differential privacy researchers, software developers, and data practitioners from academia, government, and industry.
 

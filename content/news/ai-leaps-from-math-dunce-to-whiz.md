@@ -6,7 +6,7 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "July 23, 2025"
 ---
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2025-07/gazette_Michael_Brenner_3x2.jpg?h=c4e7b9b7&itok=72Hy_cd1" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/2025-07/gazette_Michael_Brenner_3x2.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 IQSS affiliate Michael Brenner, the Michael F. Cronin Professor of Applied Mathematics and Applied Physics, explains how recent AI advancements have opened new possibilities for mathematical application. What was once considered a fundamental limitation of artificial intelligence—its inability to perform complex mathematical reasoning—has been dramatically overcome by newer model architectures.
 

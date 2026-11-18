@@ -8,7 +8,7 @@ subtitle: "Visiting Scholar; Assoc Prof, Univ of Macerata"
 role: ["Visiting Scholars, Fellows, & General Affiliates"]
 ---
 
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/2025-10/Gianluca-Busilacchi_2025.jpeg" alt="Gianluca Busilacchi" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/2025-10/Gianluca-Busilacchi_2025.jpg" alt="Gianluca Busilacchi" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Gianluca Busilacchi
 

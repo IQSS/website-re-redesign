@@ -158,7 +158,7 @@ These are examples of how IQSS drives tangible change in the world.
 
 <a class="impact-tile" href="https://news.harvard.edu/gazette/story/2023/11/harvard-study-plays-key-role-in-suit-against-airline-uniform-maker/" target="_blank" rel="noopener noreferrer">
 <div class="impact-media">
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_1_1__1315x1315/public/harvard-iqss/files/flight-attendant-7x5-unsplash.jpg?itok=UzTAzLle" alt="Back of a flight attendant walking down the aisle of an empty airline cabin" />
+<img src="../images/live/harvard-iqss/files/flight-attendant-7x5-unsplash.jpg" alt="Back of a flight attendant walking down the aisle of an empty airline cabin" />
 </div>
 <div class="impact-body"><h3>Investigating Flight Attendants' Safety</h3></div>
 <div class="impact-reveal">
@@ -169,7 +169,7 @@ These are examples of how IQSS drives tangible change in the world.
 
 <a class="impact-tile" href="../news/dataverse-publishes-houghton-library-saef-data-collection/">
 <div class="impact-media">
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/black-congressmen-1872_currier-ives_houghton-library_3x2.jpg?h=db32434a&itok=2JULYS3R" alt="19th-century engraving print of seven black men, five of whom are seated" />
+<img src="../images/live/harvard-iqss/files/black-congressmen-1872_currier-ives_houghton-library_3x2.jpg" alt="19th-century engraving print of seven black men, five of whom are seated" />
 </div>
 <div class="impact-body"><h3>Digitizing History for the Future of Data Research</h3></div>
 <div class="impact-reveal">
@@ -180,7 +180,7 @@ These are examples of how IQSS drives tangible change in the world.
 
 <a class="impact-tile" href="../news/data-science-services-at-iqss-harnessing-data-interpretation/">
 <div class="impact-media">
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/dataviz-laptop_carlos-muza_3x2.jpg?itok=5wRyHooL" alt="Laptop displaying analytical data" />
+<img src="../images/live/harvard-iqss/files/dataviz-laptop_carlos-muza_3x2.jpg" alt="Laptop displaying analytical data" />
 </div>
 <div class="impact-body"><h3>Harnessing Data Interpretation for Academic Advancement</h3></div>
 <div class="impact-reveal">
@@ -191,7 +191,7 @@ These are examples of how IQSS drives tangible change in the world.
 
 <a class="impact-tile" href="../news/twitter-sentiment-geographical-index/">
 <div class="impact-media">
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/emoji-network_alex-shuper_3x2.jpg?itok=cnS15_Ej" alt="Multicolored emojis connected by network lines on a dark field" />
+<img src="../images/live/harvard-iqss/files/emoji-network_alex-shuper_3x2.jpg" alt="Multicolored emojis connected by network lines on a dark field" />
 </div>
 <div class="impact-body"><h3>Measuring Population Well-Being with Social Media</h3></div>
 <div class="impact-reveal">
@@ -202,7 +202,7 @@ These are examples of how IQSS drives tangible change in the world.
 
 <a class="impact-tile" href="../news/data-highway-a-trailblazing-journey-into-trucking/">
 <div class="impact-media">
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/axle1-truck-data.png?itok=_2WI3E94" alt="Illustration of a truck with attached icons representing location, vehicle, and driver data" />
+<img src="../images/live/harvard-iqss/files/axle1-truck-data.jpg" alt="Illustration of a truck with attached icons representing location, vehicle, and driver data" />
 </div>
 <div class="impact-body"><h3>Trailblazing a Path into Trucking for the 21st Century</h3></div>
 <div class="impact-reveal">

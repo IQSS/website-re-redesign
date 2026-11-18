@@ -8,7 +8,7 @@ subtitle: "Assistant Professor of Sociology"
 role: ["Affiliated Faculty"]
 ---
 
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/adaner-usmani_2019_0.jpg" alt="" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/adaner-usmani_2019_0.jpg" alt="" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Adaner Usmani
 

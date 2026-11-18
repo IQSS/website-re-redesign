@@ -6,7 +6,7 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "March 15, 2024"
 ---
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/latanya-sweeney_hks_1022_074_kayana-szymczak.jpg?itok=PjDgFrNt" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/latanya-sweeney_hks_1022_074_kayana-szymczak.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 Latanya Sweeney's Data Privacy Lab and Public Interest Tech Lab explore digital information risks in today's technology-filled world. The labs serve dual purposes: conducting cutting-edge research on privacy vulnerabilities while training the next generation of scholars who will grapple with these challenges.
 

@@ -42,7 +42,7 @@ title: Programs & Products
 <source height="220" media="all and (min-width: 768px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_23_5__1024x220/public/harvard-iqss/files/events-9_01.jpg?itok=WXxD9reY 1x, /sites/g/files/omnuum8171/files/styles/hwp_23_5__2048x445/public/harvard-iqss/files/events-9_01.jpg?itok=Pjq8E_Yb 2x" type="image/jpeg" width="1024"/>
 <source height="165" media="all and (min-width: 480px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_23_5__768x165/public/harvard-iqss/files/events-9_01.jpg?itok=eYWnm0zs 1x, /sites/g/files/omnuum8171/files/styles/hwp_23_5__1536x335/public/harvard-iqss/files/events-9_01.jpg?itok=FqX86270 2x" type="image/jpeg" width="768"/>
 <source height="205" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_21_9__480x205/public/harvard-iqss/files/events-9_01.jpg?itok=yoq5WXh0 1x, /sites/g/files/omnuum8171/files/styles/hwp_21_9__960x410/public/harvard-iqss/files/events-9_01.jpg?itok=X6jdW4xK 2x" type="image/jpeg" width="480"/>
-<img alt="Speaker at an event" height="825" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_21_9__1920x825/public/harvard-iqss/files/events-9_01.jpg?itok=vtK6IF-O" width="1920"/>
+<img alt="Speaker at an event" height="825" loading="eager" src="../../../images/live/harvard-iqss/files/events-9_01.jpg" width="1920"/>
 </picture>
 </div>
 </div>
@@ -82,7 +82,7 @@ title: Programs & Products
 <source height="1315" media="all and (min-width: 768px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__1315x1315/public/harvard-iqss/files/data-science-5.jpg?itok=mr0UYjQc 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__2630x2630/public/harvard-iqss/files/data-science-5.jpg?itok=wpqwBHHI 2x" type="image/jpeg" width="1315"/>
 <source height="770" media="all and (min-width: 480px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__770x770/public/harvard-iqss/files/data-science-5.jpg?itok=ycdQhwBm 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__1540x1540/public/harvard-iqss/files/data-science-5.jpg?itok=wBE7EIV7 2x" type="image/jpeg" width="770"/>
 <source height="480" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__480x480/public/harvard-iqss/files/data-science-5.jpg?itok=CeWZurVY 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__960x960/public/harvard-iqss/files/data-science-5.jpg?itok=j7HiqD1_ 2x" type="image/jpeg" width="480"/>
-<img alt="data specialist at whiteboard" height="480" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__480x480/public/harvard-iqss/files/data-science-5.jpg?itok=CeWZurVY" width="480"/>
+<img alt="data specialist at whiteboard" height="480" loading="eager" src="../../../images/live/harvard-iqss/files/data-science-5.jpg" width="480"/>
 </picture>
 </div>
 </div>
@@ -124,7 +124,7 @@ title: Programs & Products
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="240" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/2025-12/CGA_logo_2025%202x3.png?itok=cI0nAEq5 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/2025-12/CGA_logo_2025%202x3.png?itok=iS8c7jgk 2x" type="image/png" width="360"/>
-<img alt="Center for Geographic Analysis logo" height="240" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/2025-12/CGA_logo_2025%202x3.png?itok=cI0nAEq5" width="360"/>
+<img alt="Center for Geographic Analysis logo" height="240" loading="eager" src="../../../images/live/2025-12/CGA_logo_2025%202x3.png" width="360"/>
 </picture>
 </div>
 </div>
@@ -142,7 +142,7 @@ title: Programs & Products
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="180" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/human_flourishing_slide_deck_banner-transparent.jpg?itok=AjAFftPJ 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/human_flourishing_slide_deck_banner-transparent.jpg?itok=_aerrSqC 2x" type="image/jpeg" width="360"/>
-<img alt="Human Flourishing Program logo" height="180" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/human_flourishing_slide_deck_banner-transparent.jpg?itok=AjAFftPJ" width="360"/>
+<img alt="Human Flourishing Program logo" height="180" loading="eager" src="../../../images/live/harvard-iqss/files/human_flourishing_slide_deck_banner-transparent.jpg" width="360"/>
 </picture>
 </div>
 </div>
@@ -160,7 +160,7 @@ title: Programs & Products
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="180" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/program_on_survey_research_slide_deck_banner.png?itok=vEX3wY04 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/program_on_survey_research_slide_deck_banner.png?itok=2G4SWasF 2x" type="image/png" width="360"/>
-<img alt='Geometric window next to text "Program on Survey Research"' height="180" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/program_on_survey_research_slide_deck_banner.png?itok=vEX3wY04" width="360"/>
+<img alt='Geometric window next to text "Program on Survey Research"' height="180" loading="eager" src="../../../images/live/harvard-iqss/files/program_on_survey_research_slide_deck_banner.png" width="360"/>
 </picture>
 </div>
 </div>
@@ -178,7 +178,7 @@ title: Programs & Products
 <div class="hwp-media hwp-media--16-9-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="270" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/harvard-iqss/files/opendp_logo_draft4_600x400.jpg?itok=u5ifkJwu 1x, /sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/opendp_logo_draft4_600x400.jpg?itok=7bcyLvXX 2x" type="image/jpeg" width="480"/>
-<img alt="OpenDP logo" height="270" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/harvard-iqss/files/opendp_logo_draft4_600x400.jpg?itok=u5ifkJwu" width="480"/>
+<img alt="OpenDP logo" height="270" loading="eager" src="../../../images/live/harvard-iqss/files/opendp_logo_draft4_600x400.jpg" width="480"/>
 </picture>
 </div>
 </div>
@@ -196,7 +196,7 @@ title: Programs & Products
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="180" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/2025-08/Murray%20Archive_%20300x250.png?itok=SXQqk-vZ 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/2025-08/Murray%20Archive_%20300x250.png?itok=adUmDK4g 2x" type="image/png" width="360"/>
-<img alt='Headshot of Henry Murray next to the text "Henry A Murray Research Archive"' height="180" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/2025-08/Murray%20Archive_%20300x250.png?itok=SXQqk-vZ" width="360"/>
+<img alt='Headshot of Henry Murray next to the text "Henry A Murray Research Archive"' height="180" loading="eager" src="../../../images/live/2025-08/Murray%20Archive_%20300x250.png" width="360"/>
 </picture>
 </div>
 </div>
@@ -243,7 +243,7 @@ title: Programs & Products
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="129" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/dataverse_project_logo-hp_01.png?itok=iwcGMOpz 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/dataverse_project_logo-hp_01.png?itok=EexA4pNp 2x" type="image/png" width="360"/>
-<img alt="dataverse project logo" height="129" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/dataverse_project_logo-hp_01.png?itok=iwcGMOpz" width="360"/>
+<img alt="dataverse project logo" height="129" loading="eager" src="../../../images/live/harvard-iqss/files/dataverse_project_logo-hp_01.png" width="360"/>
 </picture>
 </div>
 </div>
@@ -261,7 +261,7 @@ title: Programs & Products
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="95" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/opendp_logo_draft4_250x950.png?itok=-nKmDCct 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/opendp_logo_draft4_250x950.png?itok=wkhAAxJH 2x" type="image/png" width="360"/>
-<img alt="OpenDP logo and name" height="95" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/opendp_logo_draft4_250x950.png?itok=-nKmDCct" width="360"/>
+<img alt="OpenDP logo and name" height="95" loading="eager" src="../../../images/live/harvard-iqss/files/opendp_logo_draft4_250x950.png" width="360"/>
 </picture>
 </div>
 </div>
@@ -278,7 +278,7 @@ title: Programs & Products
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="70" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/systems-dev-logo2.png?itok=wThodpg_ 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/systems-dev-logo2.png?itok=LO5sVb1J 2x" type="image/png" width="178"/>
-<img alt="systems development logo" height="70" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/systems-dev-logo2.png?itok=wThodpg_" width="178"/>
+<img alt="systems development logo" height="70" loading="eager" src="../../../images/live/harvard-iqss/files/systems-dev-logo2.png" width="178"/>
 </picture>
 </div>
 </div>
@@ -313,7 +313,7 @@ title: Programs & Products
 <source height="1315" media="all and (min-width: 768px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__1315x1315/public/harvard-iqss/files/rlogo.png?itok=xcbczaeV 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__2630x2630/public/harvard-iqss/files/rlogo.png?itok=VHC5cE5m 2x" type="image/png" width="1315"/>
 <source height="770" media="all and (min-width: 480px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__770x770/public/harvard-iqss/files/rlogo.png?itok=VDcFQPq7 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__1540x1540/public/harvard-iqss/files/rlogo.png?itok=ah7QrZDT 2x" type="image/png" width="770"/>
 <source height="480" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__480x480/public/harvard-iqss/files/rlogo.png?itok=VuTzYBbJ 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__960x960/public/harvard-iqss/files/rlogo.png?itok=rIB04vHY 2x" type="image/png" width="480"/>
-<img alt="Rlogo" height="480" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__480x480/public/harvard-iqss/files/rlogo.png?itok=VuTzYBbJ" width="480"/>
+<img alt="Rlogo" height="480" loading="eager" src="../../../images/live/harvard-iqss/files/rlogo.png" width="480"/>
 </picture>
 </div>
 </div>

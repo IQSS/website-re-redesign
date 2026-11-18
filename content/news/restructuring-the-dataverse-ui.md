@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "November 04, 2022"
 ---
 
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/dataverse_project_logo2_1_02.png?itok=FotYkTnt" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/dataverse_project_logo2_1_02.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 The Dataverse Project has announced ambitious plans to fundamentally restructure the platform's user interface, transforming it into an API-first architecture that will provide greater flexibility, improved performance, and better support for diverse use cases. This significant architectural evolution represents a major investment in the long-term sustainability and extensibility of the Dataverse platform, positioning it to meet the evolving needs of research data repositories for years to come.
 

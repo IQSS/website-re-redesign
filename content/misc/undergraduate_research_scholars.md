@@ -41,7 +41,7 @@ title: Undergraduate Research Scholars
 <source height="220" media="all and (min-width: 768px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_23_5__1024x220/public/harvard-iqss/files/urs-hero.jpg?itok=TL3m_8Ey 1x, /sites/g/files/omnuum8171/files/styles/hwp_23_5__2048x445/public/harvard-iqss/files/urs-hero.jpg?itok=_Yq5A79l 2x" type="image/jpeg" width="1024"/>
 <source height="165" media="all and (min-width: 480px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_23_5__768x165/public/harvard-iqss/files/urs-hero.jpg?itok=wdaj7gK4 1x, /sites/g/files/omnuum8171/files/styles/hwp_23_5__1536x335/public/harvard-iqss/files/urs-hero.jpg?itok=ZCfZAWz6 2x" type="image/jpeg" width="768"/>
 <source height="205" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_21_9__480x205/public/harvard-iqss/files/urs-hero.jpg?itok=8LV0Q0cm 1x, /sites/g/files/omnuum8171/files/styles/hwp_21_9__960x410/public/harvard-iqss/files/urs-hero.jpg?itok=yz8XEHMT 2x" type="image/jpeg" width="480"/>
-<img alt="students at poster session" height="825" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_21_9__1920x825/public/harvard-iqss/files/urs-hero.jpg?itok=rQDDxTky" width="1920"/>
+<img alt="students at poster session" height="825" loading="eager" src="../../images/live/harvard-iqss/files/urs-hero.jpg" width="1920"/>
 </picture>
 </div>
 </div>
@@ -81,7 +81,7 @@ title: Undergraduate Research Scholars
 <div class="hwp-media hwp-media--16-9-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="270" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/harvard-iqss/files/urs-1.jpg?itok=WB19-gtI 1x, /sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/urs-1.jpg?itok=i5JUc3Zt 2x" type="image/jpeg" width="480"/>
-<img alt="urs-1.jpg" height="270" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/harvard-iqss/files/urs-1.jpg?itok=WB19-gtI" width="480"/>
+<img alt="urs-1.jpg" height="270" loading="eager" src="../../images/live/harvard-iqss/files/urs-1.jpg" width="480"/>
 </picture>
 </div>
 </div>
@@ -99,7 +99,7 @@ title: Undergraduate Research Scholars
 <div class="hwp-media hwp-media--16-9-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="270" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/harvard-iqss/files/urs-3.jpg?itok=uBtQLmb7 1x, /sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/urs-3.jpg?itok=Q3e5RIaT 2x" type="image/jpeg" width="480"/>
-<img alt="student speaking at event" height="270" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/harvard-iqss/files/urs-3.jpg?itok=uBtQLmb7" width="480"/>
+<img alt="student speaking at event" height="270" loading="eager" src="../../images/live/harvard-iqss/files/urs-3.jpg" width="480"/>
 </picture>
 </div>
 </div>
@@ -140,7 +140,7 @@ title: Undergraduate Research Scholars
 <div class="hwp-media hwp-media--16-9-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="270" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/harvard-iqss/files/urs-2.jpg?itok=kmi2d_0m 1x, /sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/urs-2.jpg?itok=21vaHpUV 2x" type="image/jpeg" width="480"/>
-<img alt="faculty member speaking at event" height="270" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/harvard-iqss/files/urs-2.jpg?itok=kmi2d_0m" width="480"/>
+<img alt="faculty member speaking at event" height="270" loading="eager" src="../../images/live/harvard-iqss/files/urs-2.jpg" width="480"/>
 </picture>
 </div>
 </div>
@@ -158,7 +158,7 @@ title: Undergraduate Research Scholars
 <div class="hwp-media hwp-media--16-9-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="270" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/harvard-iqss/files/urs-5.png?itok=G4ipFW3e 1x, /sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/urs-5.png?itok=7FyfS-dH 2x" type="image/png" width="480"/>
-<img alt="student listening at event" height="270" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/harvard-iqss/files/urs-5.png?itok=G4ipFW3e" width="480"/>
+<img alt="student listening at event" height="270" loading="eager" src="../../images/live/harvard-iqss/files/urs-5.jpg" width="480"/>
 </picture>
 </div>
 </div>

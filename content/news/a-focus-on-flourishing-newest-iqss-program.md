@@ -6,7 +6,7 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "October 05, 2018"
 ---
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/rose-lincoln_human-flourishing_091718_0071_crop.png?itok=b4sUeQEO" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/rose-lincoln_human-flourishing_091718_0071_crop.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 The Human Flourishing Program, IQSS's newest scientific program, combines social science and philosophy to understand the factors that lead to a good life. Directed by Tyler VanderWeele, the program integrates knowledge from empirical research and the humanities on topics including religion, virtue, work, purpose, forgiveness, marriage, and family.
 

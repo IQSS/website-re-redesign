@@ -8,7 +8,7 @@ subtitle: "Clarence James Gamble Professor of Biostatistics"
 role: ["Affiliated Faculty", "Steering Committee"]
 steering_weight: 50
 ---
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/francesca-dominici_2019.jpg" alt="Francesca Dominici" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/francesca-dominici_2019.jpg" alt="Francesca Dominici" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Francesca Dominici
 

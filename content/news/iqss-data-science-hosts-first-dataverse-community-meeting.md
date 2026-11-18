@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "July 10, 2015"
 ---
 
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/dataverse_project_logo2_1_02.png?itok=RMWENAgw" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/dataverse_project_logo2_1_02.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 IQSS Data Science Services hosted the inaugural Dataverse Community Meeting, bringing together repository administrators, developers, and data professionals from institutions worldwide for the first gathering centered on the Dataverse platform. This historic event marked an important milestone in the evolution of Dataverse from a Harvard project into a global open-source community, creating opportunities for knowledge sharing, collaborative problem-solving, and collective planning for the platform's future development.
 

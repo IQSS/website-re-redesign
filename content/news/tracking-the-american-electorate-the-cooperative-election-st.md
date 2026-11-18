@@ -6,7 +6,7 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "October 25, 2024"
 ---
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/ces_logo_rgb_1.png?itok=LhVX-z7F" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/ces_logo_rgb_1.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 The Cooperative Election Study, supported by IQSS, offers key insights into the minds of American voters. Running since 2006, the study surveys tens of thousands of Americans before and after each election, providing unprecedented detail about electoral behavior at the local level.
 

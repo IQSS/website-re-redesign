@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "February 22, 2022"
 ---
 
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/climate_justice_design_fellowship_logo_sq.png?itok=YyIZCzLo" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/climate_justice_design_fellowship_logo_sq.png" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 IQSS has launched the Climate Justice Design Fellowship program, an innovative initiative that brings together data science, design thinking, and climate justice principles to address environmental challenges in ways that center equity and community needs. This fellowship program reflects growing recognition that climate change disproportionately affects marginalized communities and that addressing climate challenges requires not just technical solutions but approaches grounded in justice and participatory design.
 

@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "April 14, 2022"
 ---
 
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/david_lazer_1.jpg?itok=Rfg4p2Yd" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/david_lazer_1.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 The annual Politics and Computational Social Science (PaCSS) conference has issued its call for proposals for the 2022 meeting, inviting researchers to submit work that advances the intersection of political science and computational methods. This conference brings together scholars using innovative computational approaches to study political phenomena, from social media analysis and text mining to machine learning and network science applied to questions of governance, political behavior, and democratic processes.
 

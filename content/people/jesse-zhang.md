@@ -30,7 +30,7 @@ role: ["Affiliated Undergraduate Students"]
 <div class="field field--name-field-hwp-person-headshot field--type-entity-reference field--label-hidden"><div class="hwp-media hwp-media--4-5-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="600" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_4_5__480x600/public/harvard-iqss/files/jesse_zhang.png?itok=e4AnDqBF 1x, /sites/g/files/omnuum8171/files/styles/hwp_4_5__960x1200/public/harvard-iqss/files/jesse_zhang.png?itok=EI1AlrvX 2x" type="image/png" width="480"/>
-<img alt="Jesse Zhang" height="600" loading="lazy" src="/sites/g/files/omnuum8171/files/styles/hwp_4_5__480x600/public/harvard-iqss/files/jesse_zhang.png?itok=e4AnDqBF" width="480"/>
+<img alt="Jesse Zhang" height="600" loading="lazy" src="../../images/live/harvard-iqss/files/jesse_zhang.jpg" width="480"/>
 </picture>
 </div>
 </div>

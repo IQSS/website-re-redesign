@@ -6,7 +6,7 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "May 24, 2019"
 ---
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/052319_enos_0035_rose-lincoln-photog_crop.png?itok=Z9tK3WfS" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/052319_enos_0035_rose-lincoln-photog_crop.png" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 Professor of Government Ryan Enos has spent much of his career exploring how local geographic context shapes political behavior and partisan segregation. His research reveals that where people live—and who their neighbors are—profoundly influences their political attitudes and behaviors.
 

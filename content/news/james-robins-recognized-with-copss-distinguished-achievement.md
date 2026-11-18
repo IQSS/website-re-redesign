@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "March 24, 2025"
 ---
 
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/james-robins.jpeg?itok=RAl6QGqA" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/james-robins.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 James Robins—IQSS faculty affiliate and Mitchell L. and Robin LaFoley Dong Professor of Epidemiology at the TH Chan School of Public Health—has been recognized by the Committee of Presidents of Statistical Societies (COPSS) with the 2025 Distinguished Achievement Award and Lectureship.
 

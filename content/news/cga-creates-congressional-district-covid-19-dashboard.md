@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "October 28, 2020"
 ---
 
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/cga_squared_1.jpg?itok=snjXsB_8" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/cga_squared_1.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 The Center for Geographic Analysis has created a comprehensive public dashboard that tracks COVID-19 data by congressional district, providing policymakers, researchers, and the public with geographically granular information about the pandemic's spread and impact across the United States. This innovative tool fills a critical gap in COVID-19 data visualization by organizing information at the congressional district level, enabling more effective policy responses and helping lawmakers understand how the pandemic affects their constituents.
 

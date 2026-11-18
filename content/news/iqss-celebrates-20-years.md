@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "April 16, 2025"
 ---
 
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/iqss-20th-anniversary_4.jpg?h=45319356&itok=1ylHBhnq" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/iqss-20th-anniversary_4.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 The year 2025 marks the 20th anniversary of the Institute for Quantitative Social Science at Harvard University. The milestone was celebrated at the Center for Geographic and International Studies (CGIS) with faculty, staff, and students from across the IQSS community who work to advance research at Harvard and other institutions.
 

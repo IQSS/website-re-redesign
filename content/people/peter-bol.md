@@ -9,7 +9,7 @@ role: ["Affiliated Faculty", "Steering Committee"]
 program: ["Center for Geographic Analysis"]
 ---
 
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/2025-12/Peter-Bol_2019.jpg" alt="Peter Bol" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/2025-12/Peter-Bol_2019.jpg" alt="Peter Bol" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Peter Bol
 

@@ -6,7 +6,7 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "November 01, 2022"
 ---
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/ppr_banner_image.jpg?itok=pX41ic-B" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/ppr_banner_image.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 Stephen Chaudoin laments that "you only get so many bites of the apple with journals"—the traditional publication process is lengthy, uncertain, and offers limited opportunities for constructive feedback before formal review. The Magaro Peer Pre-Review Program addresses this gap.
 

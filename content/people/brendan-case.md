@@ -9,7 +9,7 @@ role: ["Staff"]
 program: ["Human Flourishing Program"]
 ---
 
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/2026-03/Brendan%20Case%202026%20%5B2250x3000%5D.jpg" alt="Brendan Case" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/2026-03/Brendan%20Case%202026%20%5B2250x3000%5D.jpg" alt="Brendan Case" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Brendan Case
 

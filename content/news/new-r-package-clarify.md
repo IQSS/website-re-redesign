@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "January 27, 2023"
 ---
 
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/dss_logo_250.png?itok=23Quuzet" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/dss_logo_250.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 Data Science Services at IQSS has released a new R package {clarify} to provide functionality previously provided by the {Zelig} package.
 

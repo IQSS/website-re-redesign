@@ -8,7 +8,7 @@ subtitle: "Postdoctoral Fellow, Weatherhead Center"
 role: ["Visiting Scholars, Fellows, & General Affiliates"]
 ---
 
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/gal-bitton_2025.png" alt="Gal Bitton" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/gal-bitton_2025.jpg" alt="Gal Bitton" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Gal Bitton
 

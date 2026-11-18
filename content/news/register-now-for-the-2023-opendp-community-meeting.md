@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "August 04, 2023"
 ---
 
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/opendp_logo_square.png?itok=BjEHHQXB" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/opendp_logo_square.png" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 The OpenDP Project is excited to announce that registration is now open for the 2023 OpenDP Community Meeting, marking the first in-person gathering of the differential privacy community centered around this groundbreaking open-source initiative. This event brings together researchers, developers, data practitioners, and privacy advocates who are advancing the science and practice of differential privacy through the OpenDP ecosystem.
 

@@ -30,7 +30,7 @@ role: ["Affiliated Undergraduate Students"]
 <div class="field field--name-field-hwp-person-headshot field--type-entity-reference field--label-hidden"><div class="hwp-media hwp-media--4-5-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="600" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_4_5__480x600/public/2025-11/DSCN9627.JPG%20-%20Seth%20Rosenberg.JPG?h=30a024ea&amp;itok=KMlMLRB- 1x, /sites/g/files/omnuum8171/files/styles/hwp_4_5__960x1200/public/2025-11/DSCN9627.JPG%20-%20Seth%20Rosenberg.JPG?h=30a024ea&amp;itok=N6drX0Wr 2x" type="image/jpeg" width="480"/>
-<img alt="Seth Rosenberg" height="600" loading="lazy" src="/sites/g/files/omnuum8171/files/styles/hwp_4_5__480x600/public/2025-11/DSCN9627.JPG%20-%20Seth%20Rosenberg.JPG?h=30a024ea&amp;itok=KMlMLRB-" width="480"/>
+<img alt="Seth Rosenberg" height="600" loading="lazy" src="../../images/live/2025-11/DSCN9627.JPG%20-%20Seth%20Rosenberg.JPG" width="480"/>
 </picture>
 </div>
 </div>

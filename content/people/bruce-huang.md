@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "Data Science Lecturer, Harvard Extension School"
 role: ["Affiliated Faculty"]
 ---
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/bruce-huang_2023.jpg" alt="Bruce Huang" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/bruce-huang_2023.jpg" alt="Bruce Huang" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Bruce Huang
 

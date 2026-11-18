@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "March 02, 2026"
 ---
 
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2025-12/CGA_logo_2025%202x3.png?itok=dnfI1tBg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/2025-12/CGA_logo_2025%202x3.png" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 A Center for Geographic Analysis project focused on mapping geographical locations for successful market entry has been selected as a winner of the NSF I-GUIDE Spatial AI Challenge. This recognition highlights the innovative application of spatial artificial intelligence and geographic analysis techniques to solve real-world business and economic development challenges. The project demonstrates how advanced geospatial methods can provide actionable insights for organizations seeking to optimize their location decisions.
 

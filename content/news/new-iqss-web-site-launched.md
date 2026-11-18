@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "April 12, 2012"
 ---
 
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/iqss_square_logo_no_text.jpg?itok=sU68euCn" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/iqss_square_logo_no_text.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 The Institute for Quantitative Social Science is proud to announce the launch of a completely redesigned website, developed through an extensive cross-team collaboration that brought together expertise from across the organization. The new site reflects IQSS's evolution as a hub for quantitative research methods, data science innovation, and collaborative scholarship, providing improved access to information about programs, services, and research initiatives.
 

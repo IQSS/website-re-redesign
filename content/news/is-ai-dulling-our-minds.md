@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "November 13, 2025"
 ---
 
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2025-11/Dan-Levy_med.jpg?h=6635049d&itok=D1Egiicr" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/2025-11/Dan-Levy_med.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 As artificial intelligence tools become increasingly integrated into educational settings and professional workflows, questions about their impact on critical thinking and cognitive development have moved to the forefront of academic discourse. IQSS faculty affiliate Dan Levy, Senior Lecturer in Public Policy at the Harvard Kennedy School, joined other Harvard faculty members in a thoughtful discussion examining whether AI will ultimately help or harm the human capacity for critical thinking.
 

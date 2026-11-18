@@ -6,7 +6,7 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "June 06, 2023"
 ---
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/cga_od-pairs-samples-spaial_2023-06-06.png?itok=84y09Ymh" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/cga_od-pairs-samples-spaial_2023-06-06.png" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 Researchers at the Center for Geographic Analysis explore drive time estimation's importance in urban planning, transportation, public health, and healthcare accessibility. Their case study examines travel times to healthcare facilities across the United States, revealing geographic disparities in access.
 

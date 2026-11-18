@@ -8,7 +8,7 @@ subtitle: "Daniel P.S. Paul Professor of Constitutional Law"
 role: ["Affiliated Faculty"]
 ---
 
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/tomiko_brown-nagin_0_1.png" alt="Tomiko Brown-Nagin" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/tomiko_brown-nagin_0_1.jpg" alt="Tomiko Brown-Nagin" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Tomiko Brown-Nagin
 

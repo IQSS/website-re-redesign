@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "November 09, 2022"
 ---
 
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/opendp_logo_draft4_square_600x600-wht.png?itok=m_whSeqk" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/opendp_logo_draft4_square_600x600-wht.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 The OpenDP Project is pleased to announce the release of OpenDP Library 0.6, a significant milestone that lays crucial groundwork for incorporating formal mathematical proofs directly into the OpenDP codebase. This release represents an important step toward the project's long-term vision of providing not just privacy-preserving algorithms, but mathematically verified guarantees that the implementations faithfully represent their theoretical specifications.
 

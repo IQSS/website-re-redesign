@@ -28,7 +28,7 @@ title: Become an Affiliate
 <div class="hwp-text-block field field--name-field-hwp-body field--type-text-long field--label-hidden"><div class="align-right hwp-media hwp-media--small">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="240" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/affiliates.jpg?itok=8Dr66YN_ 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/affiliates.jpg?itok=V5An27q2 2x" type="image/jpeg" width="360"/>
-<img alt="iqss affiliates" height="240" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/affiliates.jpg?itok=8Dr66YN_" width="360"/>
+<img alt="iqss affiliates" height="240" loading="eager" src="../../images/live/harvard-iqss/files/affiliates.jpg" width="360"/>
 </picture>
 </div>
 </div>
@@ -61,7 +61,7 @@ title: Become an Affiliate
 <div>
 <div class="hwp--text-block hwp-bg-light-core hwp-container-px hwp-container-py">
 <div class="hwp-text-block field field--name-field-hwp-body field--type-text-long field--label-hidden"><div class="hwp-media hwp-media--full-width">
-<div class="field field--name-field-media-image field--type-image field--label-hidden"> <img alt="User journey flowchart for researcher" height="900" loading="lazy" src="/sites/g/files/omnuum8171/files/harvard-iqss/files/user_journey_researcher_med.jpg" width="1600"/>
+<div class="field field--name-field-media-image field--type-image field--label-hidden"> <img alt="User journey flowchart for researcher" height="900" loading="lazy" src="../../images/live/harvard-iqss/files/user_journey_researcher_med.jpg" width="1600"/>
 </div>
 </div>
 </div>
@@ -81,7 +81,7 @@ title: Become an Affiliate
 <div>
 <div class="hwp--text-block hwp-bg-light-core hwp-container-px hwp-container-py">
 <div class="hwp-text-block field field--name-field-hwp-body field--type-text-long field--label-hidden"><div class="hwp-media hwp-media--full-width">
-<div class="field field--name-field-media-image field--type-image field--label-hidden"> <img alt="User journey flowchart for faculty" height="900" loading="lazy" src="/sites/g/files/omnuum8171/files/harvard-iqss/files/user_journey_faculty_med.jpg" width="1600"/>
+<div class="field field--name-field-media-image field--type-image field--label-hidden"> <img alt="User journey flowchart for faculty" height="900" loading="lazy" src="../../images/live/harvard-iqss/files/user_journey_faculty_med.jpg" width="1600"/>
 </div>
 </div>
 </div>
@@ -101,7 +101,7 @@ title: Become an Affiliate
 <div>
 <div class="hwp--text-block hwp-bg-light-core hwp-container-px hwp-container-py">
 <div class="hwp-text-block field field--name-field-hwp-body field--type-text-long field--label-hidden"><div class="hwp-media hwp-media--full-width">
-<div class="field field--name-field-media-image field--type-image field--label-hidden"> <img alt="User journey flowchart for Administrator" height="900" loading="lazy" src="/sites/g/files/omnuum8171/files/harvard-iqss/files/user_journey_administrator_med.jpg" width="1600"/>
+<div class="field field--name-field-media-image field--type-image field--label-hidden"> <img alt="User journey flowchart for Administrator" height="900" loading="lazy" src="../../images/live/harvard-iqss/files/user_journey_administrator_med.jpg" width="1600"/>
 </div>
 </div>
 </div>
@@ -121,7 +121,7 @@ title: Become an Affiliate
 <div>
 <div class="hwp--text-block hwp-bg-light-core hwp-container-px hwp-container-py">
 <div class="hwp-text-block field field--name-field-hwp-body field--type-text-long field--label-hidden"><div class="hwp-media hwp-media--full-width">
-<div class="field field--name-field-media-image field--type-image field--label-hidden"> <img alt="User journey flowchart for graduate student" height="900" loading="lazy" src="/sites/g/files/omnuum8171/files/harvard-iqss/files/user_journey_student_med.jpg" width="1600"/>
+<div class="field field--name-field-media-image field--type-image field--label-hidden"> <img alt="User journey flowchart for graduate student" height="900" loading="lazy" src="../../images/live/harvard-iqss/files/user_journey_student_med.jpg" width="1600"/>
 </div>
 </div>
 </div>

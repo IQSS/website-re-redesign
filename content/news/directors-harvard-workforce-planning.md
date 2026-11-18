@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "August 12, 2026"
 ---
 
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/dl1_8376-2.jpg?itok=3FefZS6I" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/dl1_8376-2.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 We write to update you about the impact of the FAS Workforce Planning effort on the Institute for Quantitative Social Science (IQSS), and the novel role that IQSS will play in the new structure. We have three main points.
 

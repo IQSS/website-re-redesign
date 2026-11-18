@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "October 02, 2023"
 ---
 
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/dataverse_project_logo2_1_02.png?itok=FotYkTnt" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/dataverse_project_logo2_1_02.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 The Dataverse Project is excited to announce the arrival of version 6.0, a major milestone release that brings comprehensive platform upgrades to ensure the software runs on modern, well-supported infrastructure components. This significant update includes upgrades to Payara application server, Solr search engine, and Java runtime environment, positioning Dataverse repositories on a solid foundation for continued growth and development.
 

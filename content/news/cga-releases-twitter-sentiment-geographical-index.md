@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "November 21, 2022"
 ---
 
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2025-07/tsgi_banner_3x2.jpg?itok=59c1_cbJ" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/2025-07/tsgi_banner_3x2.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 The Center for Geographic Analysis has released the Twitter Sentiment Geographical Index, an innovative tool that derives well-being indicators from social media data to track emotional patterns and public sentiment across geographic regions. This project demonstrates how large-scale analysis of publicly available social media posts can complement traditional surveys and administrative data to provide more timely, granular insights into population well-being and how it varies across space.
 

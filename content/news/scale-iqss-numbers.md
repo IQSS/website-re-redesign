@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "August 17, 2026"
 ---
 
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2026-08/IQSS%20logo%20with%20graph.jpg?h=22f35344&itok=s4oHYbyd" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/2026-08/IQSS%20logo%20with%20graph.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 IQSS is a university-wide research institute with a footprint in every Harvard school and numerous constituent projects, programs, centers, services, products, and collaborations, along with activities in more than 100 countries. The Institute operates under a simple, unified leadership structure, with a large staff supported by dozens of funding sources, including visionary philanthropists, foundations, funding agencies, corporations, multiple Harvard units, and others.
 

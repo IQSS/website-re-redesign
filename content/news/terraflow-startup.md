@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "September 18, 2025"
 ---
 
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2025-09/terraflow-logo-black_bkgd.png?itok=asv9MtEN" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/2025-09/terraflow-logo-black_bkgd.png" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 Dan Freeman, a Harvard PhD student in Biology and Biomedical Sciences, had prior experience with single-cell technology and pharma trials. Convinced there was a better approach, he began experimenting with artificial intelligence and arrived at his breakthrough concept. His vision involved using AI to accelerate drug discovery, and he had developed an early prototype. What he needed was guidance on commercialization—identifying customers, refining his pitch, and building a business plan. The IQSS Startup Foundry provided that support.
 

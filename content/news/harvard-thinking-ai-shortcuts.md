@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "February 18, 2026"
 ---
 
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2026-02/Harvard%20Thinking%20Podcast_banner.jpg?itok=POywJqRB" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/2026-02/Harvard%20Thinking%20Podcast_banner.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 In an episode of Harvard Thinking, IQSS affiliate Michael Brenner explores one of the most pressing questions facing educators today: how has artificial intelligence affected learning and critical thinking, and how can these powerful tools be embraced to enhance rather than diminish educational outcomes? Brenner, the Glover Professor of Applied Mathematics and Applied Physics at Harvard, brings both technical expertise and pedagogical insight to this critical discussion.
 

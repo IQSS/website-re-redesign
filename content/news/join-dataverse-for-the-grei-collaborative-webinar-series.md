@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "August 29, 2022"
 ---
 
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/dataverse_project_logo2_1_03.png?itok=e3jExaFw" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/dataverse_project_logo2_1_03.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 The Dataverse Project invites the research data management community to participate in the GREI Collaborative Webinar Series, which focuses on repository resources and best practices specifically tailored for NIH-funded research. This series provides valuable guidance for researchers, repository administrators, and data managers working to meet the National Institutes of Health's data sharing policies and requirements while leveraging Dataverse as a trusted repository platform.
 

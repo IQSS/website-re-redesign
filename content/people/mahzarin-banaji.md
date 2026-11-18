@@ -8,7 +8,7 @@ subtitle: "Richard Clarke Cabot Professor of Social Ethics"
 role: ["Affiliated Faculty"]
 ---
 
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/mahzarin-banaji_2016.png" alt="Mahzarin Banaji" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/mahzarin-banaji_2016.png" alt="Mahzarin Banaji" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Mahzarin Banaji
 

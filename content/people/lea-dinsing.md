@@ -31,7 +31,7 @@ role: ["Affiliated Graduate Students"]
 <div class="field field--name-field-hwp-person-headshot field--type-entity-reference field--label-hidden"><div class="hwp-media hwp-media--4-5-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="600" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_4_5__480x600/public/2026-03/Lea%20Dinsing%202026.JPG?h=ee81bc1a&amp;itok=_crRI4Lg 1x, /sites/g/files/omnuum8171/files/styles/hwp_4_5__960x1200/public/2026-03/Lea%20Dinsing%202026.JPG?h=ee81bc1a&amp;itok=pyffrJYv 2x" type="image/jpeg" width="480"/>
-<img alt="Lea Dinsing" height="600" loading="lazy" src="/sites/g/files/omnuum8171/files/styles/hwp_4_5__480x600/public/2026-03/Lea%20Dinsing%202026.JPG?h=ee81bc1a&amp;itok=_crRI4Lg" width="480"/>
+<img alt="Lea Dinsing" height="600" loading="lazy" src="../../images/live/2026-03/Lea%20Dinsing%202026.JPG" width="480"/>
 </picture>
 </div>
 </div>

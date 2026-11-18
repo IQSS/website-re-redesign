@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "December 18, 2020"
 ---
 
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/iqss_square_logo_no_text.jpg?itok=sU68euCn" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/iqss_square_logo_no_text.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 Harvard's Institute for Quantitative Social Science is excited to announce that registration is now open for Harvard DataFest 2021, an intensive bootcamp designed to help researchers develop, refine, and advance their research projects through hands-on learning and collaborative problem-solving. This immersive event brings together graduate students, postdoctoral researchers, and faculty members working across the social sciences to tackle methodological challenges and accelerate their scholarly work.
 

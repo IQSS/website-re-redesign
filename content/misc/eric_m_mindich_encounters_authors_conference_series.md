@@ -28,7 +28,7 @@ title: Mindich Encounters with Authors Conference Series
 <div class="hwp-text-block field field--name-field-hwp-body field--type-text-long field--label-hidden"><div class="align-right hwp-media hwp-media--medium">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="400" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/datafest2019-crop_dwayne-liburd.png?itok=4j_vemnE 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__1440x1440_scale/public/harvard-iqss/files/datafest2019-crop_dwayne-liburd.png?itok=fvLELT65 2x" type="image/png" width="600"/>
-<img alt="Conference speaker with projected presentation and audience" height="400" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/datafest2019-crop_dwayne-liburd.png?itok=4j_vemnE" width="600"/>
+<img alt="Conference speaker with projected presentation and audience" height="400" loading="eager" src="../../images/live/harvard-iqss/files/datafest2019-crop_dwayne-liburd.png" width="600"/>
 </picture>
 </div>
 </div>

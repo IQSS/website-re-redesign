@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "Assistant Professor of Public Policy, Kennedy School"
 role: ["Affiliated Faculty"]
 ---
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/justin-debenedictis-kessner_crop-2023.jpeg" alt="Justin de Benedictis-Kessner" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/justin-debenedictis-kessner_crop-2023.jpg" alt="Justin de Benedictis-Kessner" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Justin de Benedictis-Kessner
 

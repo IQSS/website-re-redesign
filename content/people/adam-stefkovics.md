@@ -30,7 +30,7 @@ role: ["Visiting Scholars, Fellows, & General Affiliates"]
 <div class="field field--name-field-hwp-person-headshot field--type-entity-reference field--label-hidden"><div class="hwp-media hwp-media--4-5-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="600" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_4_5__480x600/public/2025-08/Adam%20Stefkovics%20IMG_0971%20%5B4x6%20super%20hi-res%5D.jpg?h=9791ec4f&amp;itok=kRTMmWBC 1x, /sites/g/files/omnuum8171/files/styles/hwp_4_5__960x1200/public/2025-08/Adam%20Stefkovics%20IMG_0971%20%5B4x6%20super%20hi-res%5D.jpg?h=9791ec4f&amp;itok=VjSiAHNt 2x" type="image/jpeg" width="480"/>
-<img alt="Adam Stefkovics" height="600" loading="lazy" src="/sites/g/files/omnuum8171/files/styles/hwp_4_5__480x600/public/2025-08/Adam%20Stefkovics%20IMG_0971%20%5B4x6%20super%20hi-res%5D.jpg?h=9791ec4f&amp;itok=kRTMmWBC" width="480"/>
+<img alt="Adam Stefkovics" height="600" loading="lazy" src="../../images/live/2025-08/Adam%20Stefkovics%20IMG_0971%20%5B4x6%20super%20hi-res%5D.jpg" width="480"/>
 </picture>
 </div>
 </div>

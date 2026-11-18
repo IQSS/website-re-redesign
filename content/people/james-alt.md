@@ -8,7 +8,7 @@ subtitle: "Frank G. Thomson Professor of Government, Emeritus"
 role: ["Affiliated Faculty"]
 ---
 
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/james_alt_0.jpg" alt="James Alt" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/james_alt_0.jpg" alt="James Alt" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## James Alt
 

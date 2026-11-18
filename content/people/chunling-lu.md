@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "Associate Professor of Medicine, HMS"
 role: ["Affiliated Faculty"]
 ---
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/chunling_lu_1_0_1.png" alt="Chunling Lu" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/chunling_lu_1_0_1.jpg" alt="Chunling Lu" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Chunling Lu
 

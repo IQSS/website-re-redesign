@@ -9,7 +9,7 @@ role: ["Affiliated Faculty", "Steering Committee"]
 steering_weight: 30
 ---
 
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__320x400/public/harvard-iqss/files/bharat-anand_1.jpg" alt="Bharat Anand" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/bharat-anand_1.jpg" alt="Bharat Anand" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Bharat Anand
 

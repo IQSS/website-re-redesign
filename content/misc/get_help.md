@@ -31,7 +31,7 @@ title: Get Help
 <source height="220" media="all and (min-width: 768px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_23_5__1024x220/public/harvard-iqss/files/get-help.jpg?itok=bkeHuQYG 1x, /sites/g/files/omnuum8171/files/styles/hwp_23_5__2048x445/public/harvard-iqss/files/get-help.jpg?itok=HzcwB_jr 2x" type="image/jpeg" width="1024"/>
 <source height="165" media="all and (min-width: 480px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_23_5__768x165/public/harvard-iqss/files/get-help.jpg?itok=UE4WoYUG 1x, /sites/g/files/omnuum8171/files/styles/hwp_23_5__1536x335/public/harvard-iqss/files/get-help.jpg?itok=WhZpWUP_ 2x" type="image/jpeg" width="768"/>
 <source height="205" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_21_9__480x205/public/harvard-iqss/files/get-help.jpg?itok=LYGsJSi7 1x, /sites/g/files/omnuum8171/files/styles/hwp_21_9__960x410/public/harvard-iqss/files/get-help.jpg?itok=XQmrV7DU 2x" type="image/jpeg" width="480"/>
-<img alt="staff looking at computer" height="825" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_21_9__1920x825/public/harvard-iqss/files/get-help.jpg?itok=dGmgA1Fp" width="1920"/>
+<img alt="staff looking at computer" height="825" loading="eager" src="../../images/live/harvard-iqss/files/get-help.jpg" width="1920"/>
 </picture>
 </div>
 </div>
@@ -61,7 +61,7 @@ title: Get Help
 <div class="hwp-media hwp-media--16-9-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="270" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/2025-08/newaffiliate.png?itok=otjnMToR 1x, /sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2025-08/newaffiliate.png?itok=h9UARLr- 2x" type="image/png" width="480"/>
-<img alt="new affiliate" height="270" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/2025-08/newaffiliate.png?itok=otjnMToR" width="480"/>
+<img alt="new affiliate" height="270" loading="eager" src="../../images/live/2025-08/newaffiliate.png" width="480"/>
 </picture>
 </div>
 </div>
@@ -78,7 +78,7 @@ title: Get Help
 <div class="hwp-media hwp-media--16-9-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="270" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/2025-08/getting-started.png?itok=RJ2ucNIn 1x, /sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2025-08/getting-started.png?itok=dZ6hF4rf 2x" type="image/png" width="480"/>
-<img alt="getting-started" height="270" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/2025-08/getting-started.png?itok=RJ2ucNIn" width="480"/>
+<img alt="getting-started" height="270" loading="eager" src="../../images/live/2025-08/getting-started.png" width="480"/>
 </picture>
 </div>
 </div>
@@ -95,7 +95,7 @@ title: Get Help
 <div class="hwp-media hwp-media--16-9-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="270" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/2025-08/computer-problem-icon.png?itok=Jr5opb5B 1x, /sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2025-08/computer-problem-icon.png?itok=UxaQcc0A 2x" type="image/png" width="480"/>
-<img alt="client support" height="270" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/2025-08/computer-problem-icon.png?itok=Jr5opb5B" width="480"/>
+<img alt="client support" height="270" loading="eager" src="../../images/live/2025-08/computer-problem-icon.png" width="480"/>
 </picture>
 </div>
 </div>
@@ -112,7 +112,7 @@ title: Get Help
 <div class="hwp-media hwp-media--16-9-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="270" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/2025-08/funding-icon.png?itok=HRLxPq02 1x, /sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2025-08/funding-icon.png?itok=X-ie_HPA 2x" type="image/png" width="480"/>
-<img alt="funding" height="270" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/2025-08/funding-icon.png?itok=HRLxPq02" width="480"/>
+<img alt="funding" height="270" loading="eager" src="../../images/live/2025-08/funding-icon.png" width="480"/>
 </picture>
 </div>
 </div>
@@ -129,7 +129,7 @@ title: Get Help
 <div class="hwp-media hwp-media--16-9-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="270" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/2025-08/research-help.png?itok=Sv4aYsQl 1x, /sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2025-08/research-help.png?itok=98JXRSIW 2x" type="image/png" width="480"/>
-<img alt="research-help" height="270" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/2025-08/research-help.png?itok=Sv4aYsQl" width="480"/>
+<img alt="research-help" height="270" loading="eager" src="../../images/live/2025-08/research-help.png" width="480"/>
 </picture>
 </div>
 </div>
@@ -146,7 +146,7 @@ title: Get Help
 <div class="hwp-media hwp-media--16-9-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="270" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/2025-08/workshops%201.png?itok=IUwKOYIb 1x, /sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2025-08/workshops%201.png?itok=L06AdrDM 2x" type="image/png" width="480"/>
-<img alt="workshops" height="270" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/2025-08/workshops%201.png?itok=IUwKOYIb" width="480"/>
+<img alt="workshops" height="270" loading="eager" src="../../images/live/2025-08/workshops%201.png" width="480"/>
 </picture>
 </div>
 </div>
@@ -163,7 +163,7 @@ title: Get Help
 <div class="hwp-media hwp-media--16-9-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="270" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/2025-08/computer-labs-icon%201.png?itok=Q0C6JYVV 1x, /sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2025-08/computer-labs-icon%201.png?itok=lF2vYpi3 2x" type="image/png" width="480"/>
-<img alt="computer-labs" height="270" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/2025-08/computer-labs-icon%201.png?itok=Q0C6JYVV" width="480"/>
+<img alt="computer-labs" height="270" loading="eager" src="../../images/live/2025-08/computer-labs-icon%201.png" width="480"/>
 </picture>
 </div>
 </div>
@@ -180,7 +180,7 @@ title: Get Help
 <div class="hwp-media hwp-media--16-9-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="270" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/2025-08/research-computing%202.png?itok=z5iVnvPj 1x, /sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2025-08/research-computing%202.png?itok=njyvNkkQ 2x" type="image/png" width="480"/>
-<img alt="research-computing" height="270" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/2025-08/research-computing%202.png?itok=z5iVnvPj" width="480"/>
+<img alt="research-computing" height="270" loading="eager" src="../../images/live/2025-08/research-computing%202.png" width="480"/>
 </picture>
 </div>
 </div>

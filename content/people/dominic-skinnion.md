@@ -8,7 +8,7 @@ subtitle: "Affiliate; PhD student, MIT"
 role: ["Visiting Scholars, Fellows, & General Affiliates"]
 ---
 
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/dominic-skinnion_2023.png" alt="Dominic Skinnion" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/dominic-skinnion_2023.jpg" alt="Dominic Skinnion" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Dominic Skinnion
 

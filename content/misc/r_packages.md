@@ -39,7 +39,7 @@ title: R Packages
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="180" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/clarifyimg.jpg?itok=EUAetcxm 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/clarifyimg.jpg?itok=HnY5XbEI 2x" type="image/jpeg" width="360"/>
-<img alt="clarifyimg.jpg" height="180" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/clarifyimg.jpg?itok=EUAetcxm" width="360"/>
+<img alt="clarifyimg.jpg" height="180" loading="eager" src="../../images/live/harvard-iqss/files/clarifyimg.jpg" width="360"/>
 </picture>
 </div>
 </div>
@@ -57,7 +57,7 @@ title: R Packages
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="360" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/matchit.png?itok=IcAw1FyW 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/matchit.png?itok=ffPfw7q9 2x" type="image/png" width="360"/>
-<img alt="MatchIt" height="360" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/matchit.png?itok=IcAw1FyW" width="360"/>
+<img alt="MatchIt" height="360" loading="eager" src="../../images/live/harvard-iqss/files/matchit.png" width="360"/>
 </picture>
 </div>
 </div>
@@ -75,7 +75,7 @@ title: R Packages
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="257" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/matchingfrontier-img.png?itok=Tnvl-0th 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/matchingfrontier-img.png?itok=0xmdLkUI 2x" type="image/png" width="360"/>
-<img alt="MatchingFrontier example image" height="257" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/matchingfrontier-img.png?itok=Tnvl-0th" width="360"/>
+<img alt="MatchingFrontier example image" height="257" loading="eager" src="../../images/live/harvard-iqss/files/matchingfrontier-img.png" width="360"/>
 </picture>
 </div>
 </div>
@@ -101,7 +101,7 @@ title: R Packages
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="108" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/cem.png?itok=1JRuwSVp 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/cem.png?itok=323OQSZU 2x" type="image/png" width="360"/>
-<img alt="cem" height="108" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/cem.png?itok=1JRuwSVp" width="360"/>
+<img alt="cem" height="108" loading="eager" src="../../images/live/harvard-iqss/files/cem.png" width="360"/>
 </picture>
 </div>
 </div>
@@ -119,7 +119,7 @@ title: R Packages
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="288" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/amelia.png?itok=uR2ottKU 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/amelia.png?itok=lfBAdTqX 2x" type="image/png" width="360"/>
-<img alt="amelia.png" height="288" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/amelia.png?itok=uR2ottKU" width="360"/>
+<img alt="amelia.png" height="288" loading="eager" src="../../images/live/harvard-iqss/files/amelia.png" width="360"/>
 </picture>
 </div>
 </div>
@@ -137,7 +137,7 @@ title: R Packages
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="138" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/whatif2.png?itok=CKGt7Cof 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/whatif2.png?itok=P72MEojI 2x" type="image/png" width="360"/>
-<img alt="whatif2.png" height="138" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/whatif2.png?itok=CKGt7Cof" width="360"/>
+<img alt="whatif2.png" height="138" loading="eager" src="../../images/live/harvard-iqss/files/whatif2.png" width="360"/>
 </picture>
 </div>
 </div>
@@ -163,7 +163,7 @@ title: R Packages
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="194" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/readme2.png?itok=UjWsO2mK 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/readme2.png?itok=uXq8QDgs 2x" type="image/png" width="360"/>
-<img alt="Readme2" height="194" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/readme2.png?itok=UjWsO2mK" width="360"/>
+<img alt="Readme2" height="194" loading="eager" src="../../images/live/harvard-iqss/files/readme2.png" width="360"/>
 </picture>
 </div>
 </div>
@@ -181,7 +181,7 @@ title: R Packages
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="164" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/ei.png?itok=S4ZK4Po8 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/ei.png?itok=Vc58Ny7h 2x" type="image/png" width="360"/>
-<img alt="ei" height="164" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/ei.png?itok=S4ZK4Po8" width="360"/>
+<img alt="ei" height="164" loading="eager" src="../../images/live/harvard-iqss/files/ei.png" width="360"/>
 </picture>
 </div>
 </div>
@@ -199,7 +199,7 @@ title: R Packages
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="213" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/lmw_img.jpg?itok=ccNwBFq1 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/lmw_img.jpg?itok=QYavHzRz 2x" type="image/jpeg" width="360"/>
-<img alt="Example image for lmw" height="213" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/lmw_img.jpg?itok=ccNwBFq1" width="360"/>
+<img alt="Example image for lmw" height="213" loading="eager" src="../../images/live/harvard-iqss/files/lmw_img.jpg" width="360"/>
 </picture>
 </div>
 </div>
@@ -225,7 +225,7 @@ title: R Packages
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="144" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/evophylo_img.png?itok=ezbOWMC7 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/evophylo_img.png?itok=O7G5goIs 2x" type="image/png" width="360"/>
-<img alt="Example image for Evophylo" height="144" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/evophylo_img.png?itok=ezbOWMC7" width="360"/>
+<img alt="Example image for Evophylo" height="144" loading="eager" src="../../images/live/harvard-iqss/files/evophylo_img.png" width="360"/>
 </picture>
 </div>
 </div>
@@ -243,7 +243,7 @@ title: R Packages
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="360" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/netlitlogo.png?itok=oNqKPy5q 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/netlitlogo.png?itok=NEPgFoMU 2x" type="image/png" width="311"/>
-<img alt="netlit logo" height="360" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/netlitlogo.png?itok=oNqKPy5q" width="311"/>
+<img alt="netlit logo" height="360" loading="eager" src="../../images/live/harvard-iqss/files/netlitlogo.png" width="311"/>
 </picture>
 </div>
 </div>
@@ -261,7 +261,7 @@ title: R Packages
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="225" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/morphscape_img.png?itok=wUw1o6Wh 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/morphscape_img.png?itok=i2tYXFa8 2x" type="image/png" width="360"/>
-<img alt="Example image for Morphoscape" height="225" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/morphscape_img.png?itok=wUw1o6Wh" width="360"/>
+<img alt="Example image for Morphoscape" height="225" loading="eager" src="../../images/live/harvard-iqss/files/morphscape_img.png" width="360"/>
 </picture>
 </div>
 </div>

@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "April 12, 2024"
 ---
 
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/opendp_logo_draft4_square_600x600-wht.png?itok=m_whSeqk" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/opendp_logo_draft4_square_600x600-wht.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 The OpenDP Project is proud to announce the release of OpenDP Library 0.9, a major milestone that expands the modular collection of differentially private algorithms available for building robust privacy-preserving applications. This release brings powerful new capabilities to developers and data scientists who need to extract insights from sensitive data while providing mathematically rigorous privacy guarantees.
 

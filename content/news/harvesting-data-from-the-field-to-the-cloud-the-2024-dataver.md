@@ -6,7 +6,7 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "March 28, 2024"
 ---
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/dataverse_project_logo2_1_02.png?itok=RMWENAgw" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/dataverse_project_logo2_1_02.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 The 10th anniversary Dataverse Community Meeting was held March 4-8 at CIMMYT (International Maize and Wheat Improvement Center) in Texcoco, Mexico. The location reflected Dataverse's growing importance in agricultural and development research.
 

@@ -41,7 +41,7 @@ title: Our Impact
 <source height="220" media="all and (min-width: 768px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_23_5__1024x220/public/harvard-iqss/files/impact-banner.jpg?itok=KZwQtklU 1x, /sites/g/files/omnuum8171/files/styles/hwp_23_5__2048x445/public/harvard-iqss/files/impact-banner.jpg?itok=0z_11Mph 2x" type="image/jpeg" width="1024"/>
 <source height="165" media="all and (min-width: 480px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_23_5__768x165/public/harvard-iqss/files/impact-banner.jpg?itok=pIYwg52p 1x, /sites/g/files/omnuum8171/files/styles/hwp_23_5__1536x335/public/harvard-iqss/files/impact-banner.jpg?itok=PBes7hyt 2x" type="image/jpeg" width="768"/>
 <source height="205" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_21_9__480x205/public/harvard-iqss/files/impact-banner.jpg?itok=Hb09pQbb 1x, /sites/g/files/omnuum8171/files/styles/hwp_21_9__960x410/public/harvard-iqss/files/impact-banner.jpg?itok=g-lUaaSD 2x" type="image/jpeg" width="480"/>
-<img alt="people talking" height="825" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_21_9__1920x825/public/harvard-iqss/files/impact-banner.jpg?itok=9uMBRNT1" width="1920"/>
+<img alt="people talking" height="825" loading="eager" src="../../images/live/harvard-iqss/files/impact-banner.jpg" width="1920"/>
 </picture>
 </div>
 </div>
@@ -81,7 +81,7 @@ title: Our Impact
 <source height="1315" media="all and (min-width: 768px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__1315x1315/public/harvard-iqss/files/flight-attendant-7x5-unsplash.jpg?itok=UzTAzLle 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__2630x2630/public/harvard-iqss/files/flight-attendant-7x5-unsplash.jpg?itok=WR6iEUsO 2x" type="image/jpeg" width="1315"/>
 <source height="770" media="all and (min-width: 480px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__770x770/public/harvard-iqss/files/flight-attendant-7x5-unsplash.jpg?itok=BDINEMF6 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__1540x1540/public/harvard-iqss/files/flight-attendant-7x5-unsplash.jpg?itok=eEaBVDHj 2x" type="image/jpeg" width="770"/>
 <source height="480" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__480x480/public/harvard-iqss/files/flight-attendant-7x5-unsplash.jpg?itok=ByoBoy9b 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__960x960/public/harvard-iqss/files/flight-attendant-7x5-unsplash.jpg?itok=qfH5tA_S 2x" type="image/jpeg" width="480"/>
-<img alt="Back of a flight attendant walking down the aisle of an empty airline cabin" height="480" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__480x480/public/harvard-iqss/files/flight-attendant-7x5-unsplash.jpg?itok=ByoBoy9b" width="480"/>
+<img alt="Back of a flight attendant walking down the aisle of an empty airline cabin" height="480" loading="eager" src="../../images/live/harvard-iqss/files/flight-attendant-7x5-unsplash.jpg" width="480"/>
 </picture>
 </div>
 </div>
@@ -110,7 +110,7 @@ title: Our Impact
 <div class="hwp-media hwp-media--16-9-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="270" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/harvard-iqss/files/black-congressmen-1872_currier-ives_houghton-library_3x2.jpg?h=db32434a&amp;itok=2JULYS3R 1x, /sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/black-congressmen-1872_currier-ives_houghton-library_3x2.jpg?h=db32434a&amp;itok=dNHZI3Pn 2x" type="image/jpeg" width="480"/>
-<img alt="19th-century engraving print of seven black men, five of whom are seated" height="270" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/harvard-iqss/files/black-congressmen-1872_currier-ives_houghton-library_3x2.jpg?h=db32434a&amp;itok=2JULYS3R" width="480"/>
+<img alt="19th-century engraving print of seven black men, five of whom are seated" height="270" loading="eager" src="../../images/live/harvard-iqss/files/black-congressmen-1872_currier-ives_houghton-library_3x2.jpg" width="480"/>
 </picture>
 </div>
 </div>
@@ -128,7 +128,7 @@ title: Our Impact
 <div class="hwp-media hwp-media--16-9-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="270" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/harvard-iqss/files/dataviz-laptop_carlos-muza_3x2.jpg?itok=5wRyHooL 1x, /sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/dataviz-laptop_carlos-muza_3x2.jpg?itok=OskkZVEf 2x" type="image/jpeg" width="480"/>
-<img alt="laptop displaying analytical data" height="270" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/harvard-iqss/files/dataviz-laptop_carlos-muza_3x2.jpg?itok=5wRyHooL" width="480"/>
+<img alt="laptop displaying analytical data" height="270" loading="eager" src="../../images/live/harvard-iqss/files/dataviz-laptop_carlos-muza_3x2.jpg" width="480"/>
 </picture>
 </div>
 </div>
@@ -146,7 +146,7 @@ title: Our Impact
 <div class="hwp-media hwp-media--16-9-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="270" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/harvard-iqss/files/emoji-network_alex-shuper_3x2.jpg?itok=cnS15_Ej 1x, /sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/emoji-network_alex-shuper_3x2.jpg?itok=yiWEpuus 2x" type="image/jpeg" width="480"/>
-<img alt="Multicolored emojis connected by network lines on a dark field" height="270" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/harvard-iqss/files/emoji-network_alex-shuper_3x2.jpg?itok=cnS15_Ej" width="480"/>
+<img alt="Multicolored emojis connected by network lines on a dark field" height="270" loading="eager" src="../../images/live/harvard-iqss/files/emoji-network_alex-shuper_3x2.jpg" width="480"/>
 </picture>
 </div>
 </div>
@@ -164,7 +164,7 @@ title: Our Impact
 <div class="hwp-media hwp-media--16-9-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="270" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/harvard-iqss/files/axle1-truck-data.png?itok=_2WI3E94 1x, /sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/axle1-truck-data.png?itok=HHFrtEwG 2x" type="image/png" width="480"/>
-<img alt="illustration of truck with attched icons representing location, vehicle, and driver data" height="270" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/harvard-iqss/files/axle1-truck-data.png?itok=_2WI3E94" width="480"/>
+<img alt="illustration of truck with attched icons representing location, vehicle, and driver data" height="270" loading="eager" src="../../images/live/harvard-iqss/files/axle1-truck-data.jpg" width="480"/>
 </picture>
 </div>
 </div>
@@ -199,7 +199,7 @@ title: Our Impact
 <source height="1315" media="all and (min-width: 768px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__1315x1315/public/harvard-iqss/files/iqss-team-bw_01.jpg?itok=eu-FjsR6 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__2630x2630/public/harvard-iqss/files/iqss-team-bw_01.jpg?itok=OI4qbtVb 2x" type="image/jpeg" width="1315"/>
 <source height="770" media="all and (min-width: 480px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__770x770/public/harvard-iqss/files/iqss-team-bw_01.jpg?itok=pKrPS05X 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__1540x1540/public/harvard-iqss/files/iqss-team-bw_01.jpg?itok=dysXqiTx 2x" type="image/jpeg" width="770"/>
 <source height="480" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__480x480/public/harvard-iqss/files/iqss-team-bw_01.jpg?itok=WzCfTM3X 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__960x960/public/harvard-iqss/files/iqss-team-bw_01.jpg?itok=vjAwzaty 2x" type="image/jpeg" width="480"/>
-<img alt="IQSS team members walking outside" height="480" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__480x480/public/harvard-iqss/files/iqss-team-bw_01.jpg?itok=WzCfTM3X" width="480"/>
+<img alt="IQSS team members walking outside" height="480" loading="eager" src="../../images/live/harvard-iqss/files/iqss-team-bw_01.jpg" width="480"/>
 </picture>
 </div>
 </div>
@@ -243,7 +243,7 @@ title: Our Impact
 <source height="220" media="all and (min-width: 768px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_23_5__1024x220/public/harvard-iqss/files/donate-band-bg.jpg?itok=0W5U8Uch 1x, /sites/g/files/omnuum8171/files/styles/hwp_23_5__2048x445/public/harvard-iqss/files/donate-band-bg.jpg?itok=AWpvkL57 2x" type="image/jpeg" width="1024"/>
 <source height="165" media="all and (min-width: 480px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_23_5__768x165/public/harvard-iqss/files/donate-band-bg.jpg?itok=LKg0va7U 1x, /sites/g/files/omnuum8171/files/styles/hwp_23_5__1536x335/public/harvard-iqss/files/donate-band-bg.jpg?itok=ErfRIASF 2x" type="image/jpeg" width="768"/>
 <source height="205" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_21_9__480x205/public/harvard-iqss/files/donate-band-bg.jpg?itok=N3BAAM9C 1x, /sites/g/files/omnuum8171/files/styles/hwp_21_9__960x410/public/harvard-iqss/files/donate-band-bg.jpg?itok=ewS3X1FE 2x" type="image/jpeg" width="480"/>
-<img alt="Two people sitting on a couch in conversation" height="825" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_21_9__1920x825/public/harvard-iqss/files/donate-band-bg.jpg?itok=5XlH0N_a" width="1920"/>
+<img alt="Two people sitting on a couch in conversation" height="825" loading="eager" src="../../images/live/harvard-iqss/files/donate-band-bg.jpg" width="1920"/>
 </picture>
 </div>
 </div>

@@ -9,7 +9,7 @@ role: ["Product Development", "Staff"]
 program: ["Sid"]
 ---
 
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/evan-sarmiento_2019-ext.png" alt="Evan Sarmiento" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/evan-sarmiento_2019-ext.jpg" alt="Evan Sarmiento" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Evan Sarmiento
 

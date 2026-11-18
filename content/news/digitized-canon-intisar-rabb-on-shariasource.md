@@ -6,7 +6,7 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "September 01, 2021"
 ---
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/intisar_rabb_2021_hi_res_01.jpg?itok=m-vzPWqf" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/intisar_rabb_2021_hi_res_01.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 Professor Intisar Rabb's career as a legal scholar began during a joint program at Yale Law School and Princeton, focusing on comparative issues in Islamic law. At Harvard, she has developed SHARIAsource—a digital platform that makes primary sources of Islamic legal tradition accessible to researchers worldwide.
 

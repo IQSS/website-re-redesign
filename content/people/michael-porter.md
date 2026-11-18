@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "Bishop William Lawrence University Professor"
 role: ["Affiliated Faculty"]
 ---
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/micheal_porter_0.png" alt="Michael Porter" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/micheal_porter_0.jpg" alt="Michael Porter" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Michael Porter
 

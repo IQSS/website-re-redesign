@@ -24,7 +24,7 @@ title: rapidPeer
 <div class="hwp-text-block field field--name-field-hwp-body field--type-text-long field--label-hidden"><div class="align-center hwp-media hwp-media--large">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="369" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__960x960_scale/public/harvard-iqss/files/rapidpeer_all_in_one.png?itok=I76HAHZ1 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__1920x1920_scale/public/harvard-iqss/files/rapidpeer_all_in_one.png?itok=ubEsR8jZ 2x" type="image/png" width="960"/>
-<img alt="rapidPeer logo" height="369" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__960x960_scale/public/harvard-iqss/files/rapidpeer_all_in_one.png?itok=I76HAHZ1" width="960"/>
+<img alt="rapidPeer logo" height="369" loading="eager" src="../../images/live/harvard-iqss/files/rapidpeer_all_in_one.jpg" width="960"/>
 </picture>
 </div>
 </div>
@@ -36,7 +36,7 @@ title: rapidPeer
 <div class="hwp-text-block field field--name-field-hwp-body field--type-text-long field--label-hidden"><h2 class="text-align-center"><strong>rapidPeer</strong> is a free service offering double-blind peer reviews of research papers, grants, or preregistration plans in 30 days by field-specific experts at leading institutions</h2><p class="text-align-center"> </p><a href="https://rapidpeer.iq.harvard.edu/index.php/iqss/index"><div class="align-center hwp-media hwp-media--small">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="57" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/2025-07/Submit%20button.jpg?itok=QLqfeGb8 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/2025-07/Submit%20button.jpg?itok=9CjjvBOs 2x" type="image/jpeg" width="360"/>
-<img alt="Button labeled Submit" height="57" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/2025-07/Submit%20button.jpg?itok=QLqfeGb8" width="360"/>
+<img alt="Button labeled Submit" height="57" loading="eager" src="../../images/live/2025-07/Submit%20button.jpg" width="360"/>
 </picture>
 </div>
 </div>
@@ -65,7 +65,7 @@ title: rapidPeer
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="360" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/rapidpeer_why_chances_alt_colors.png?itok=lRKJ7UFe 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/rapidpeer_why_chances_alt_colors.png?itok=6TuiIQsH 2x" type="image/png" width="360"/>
-<img alt="Person with document running up an ascending graph arrow" height="360" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/rapidpeer_why_chances_alt_colors.png?itok=lRKJ7UFe" width="360"/>
+<img alt="Person with document running up an ascending graph arrow" height="360" loading="eager" src="../../images/live/harvard-iqss/files/rapidpeer_why_chances_alt_colors.png" width="360"/>
 </picture>
 </div>
 </div>
@@ -82,7 +82,7 @@ title: rapidPeer
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="352" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/rapidpeer_why_fast_track_alt_colors.png?itok=XkX1evo4 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/rapidpeer_why_fast_track_alt_colors.png?itok=h1IWJ9LP 2x" type="image/png" width="360"/>
-<img alt="arrows cycling around the words Fast Track" height="352" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/rapidpeer_why_fast_track_alt_colors.png?itok=XkX1evo4" width="360"/>
+<img alt="arrows cycling around the words Fast Track" height="352" loading="eager" src="../../images/live/harvard-iqss/files/rapidpeer_why_fast_track_alt_colors.png" width="360"/>
 </picture>
 </div>
 </div>
@@ -99,7 +99,7 @@ title: rapidPeer
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="360" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/rapidpeer_why_feedback_alt_colors.png?itok=A8JWNf9N 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/rapidpeer_why_feedback_alt_colors.png?itok=osQU-Znv 2x" type="image/png" width="360"/>
-<img alt="Person with file folders holding a green checkmarked document" height="360" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/rapidpeer_why_feedback_alt_colors.png?itok=A8JWNf9N" width="360"/>
+<img alt="Person with file folders holding a green checkmarked document" height="360" loading="eager" src="../../images/live/harvard-iqss/files/rapidpeer_why_feedback_alt_colors.png" width="360"/>
 </picture>
 </div>
 </div>
@@ -132,7 +132,7 @@ title: rapidPeer
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="343" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/2025-05/how_does_it_work_white_no_text1.png?itok=aJINB8wi 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/2025-05/how_does_it_work_white_no_text1.png?itok=oxt1Krxe 2x" type="image/png" width="360"/>
-<img alt="pencil icon" height="343" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/2025-05/how_does_it_work_white_no_text1.png?itok=aJINB8wi" width="360"/>
+<img alt="pencil icon" height="343" loading="eager" src="../../images/live/2025-05/how_does_it_work_white_no_text1.png" width="360"/>
 </picture>
 </div>
 </div>
@@ -148,7 +148,7 @@ title: rapidPeer
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="343" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/2025-05/how_does_it_work_white_no_text2.png?itok=UYayujcx 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/2025-05/how_does_it_work_white_no_text2.png?itok=cFA5cTae 2x" type="image/png" width="360"/>
-<img alt="world icon" height="343" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/2025-05/how_does_it_work_white_no_text2.png?itok=UYayujcx" width="360"/>
+<img alt="world icon" height="343" loading="eager" src="../../images/live/2025-05/how_does_it_work_white_no_text2.png" width="360"/>
 </picture>
 </div>
 </div>
@@ -164,7 +164,7 @@ title: rapidPeer
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="343" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/2025-05/how_does_it_work_white_no_text3.png?itok=GufoqfvS 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/2025-05/how_does_it_work_white_no_text3.png?itok=gAXmUtR7 2x" type="image/png" width="360"/>
-<img alt="magnify paper icon" height="343" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/2025-05/how_does_it_work_white_no_text3.png?itok=GufoqfvS" width="360"/>
+<img alt="magnify paper icon" height="343" loading="eager" src="../../images/live/2025-05/how_does_it_work_white_no_text3.png" width="360"/>
 </picture>
 </div>
 </div>
@@ -180,7 +180,7 @@ title: rapidPeer
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="343" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/2025-05/how_does_it_work_white_no_text4.png?itok=hyY3xK0y 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/2025-05/how_does_it_work_white_no_text4.png?itok=0XpiTh2d 2x" type="image/png" width="360"/>
-<img alt="arrows paper icon" height="343" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/2025-05/how_does_it_work_white_no_text4.png?itok=hyY3xK0y" width="360"/>
+<img alt="arrows paper icon" height="343" loading="eager" src="../../images/live/2025-05/how_does_it_work_white_no_text4.png" width="360"/>
 </picture>
 </div>
 </div>
@@ -210,7 +210,7 @@ title: rapidPeer
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="447" media="all and (min-width: 768px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_3_4__335x447/public/harvard-iqss/files/wang_yuhua018r.jpg?itok=Ugw0VD5S 1x, /sites/g/files/omnuum8171/files/styles/hwp_3_4__670x894/public/harvard-iqss/files/wang_yuhua018r.jpg?itok=o1lRkqPx 2x" type="image/jpeg" width="335"/>
 <source height="640" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_3_4__480x640/public/harvard-iqss/files/wang_yuhua018r.jpg?itok=rKqG6EWU 1x, /sites/g/files/omnuum8171/files/styles/hwp_3_4__960x1280/public/harvard-iqss/files/wang_yuhua018r.jpg?itok=8N3weAhp 2x" type="image/jpeg" width="480"/>
-<img alt="wang" height="640" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_3_4__480x640/public/harvard-iqss/files/wang_yuhua018r.jpg?itok=rKqG6EWU" width="480"/>
+<img alt="wang" height="640" loading="eager" src="../../images/live/harvard-iqss/files/wang_yuhua018r.jpg" width="480"/>
 </picture>
 </div>
 </div>
@@ -239,7 +239,7 @@ title: rapidPeer
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="447" media="all and (min-width: 768px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_3_4__335x447/public/harvard-iqss/files/imaiwhiteboard.png?itok=Chc9ya7p 1x, /sites/g/files/omnuum8171/files/styles/hwp_3_4__670x894/public/harvard-iqss/files/imaiwhiteboard.png?itok=Nc7NXCpj 2x" type="image/png" width="335"/>
 <source height="640" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_3_4__480x640/public/harvard-iqss/files/imaiwhiteboard.png?itok=OliW8fJB 1x, /sites/g/files/omnuum8171/files/styles/hwp_3_4__960x1280/public/harvard-iqss/files/imaiwhiteboard.png?itok=lI_VkC-d 2x" type="image/png" width="480"/>
-<img alt="imai" height="640" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_3_4__480x640/public/harvard-iqss/files/imaiwhiteboard.png?itok=OliW8fJB" width="480"/>
+<img alt="imai" height="640" loading="eager" src="../../images/live/harvard-iqss/files/imaiwhiteboard.jpg" width="480"/>
 </picture>
 </div>
 </div>
@@ -268,7 +268,7 @@ title: rapidPeer
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="447" media="all and (min-width: 768px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_3_4__335x447/public/harvard-iqss/files/polisci_reeves_a.jpg?itok=Y5FyjwR- 1x, /sites/g/files/omnuum8171/files/styles/hwp_3_4__670x894/public/harvard-iqss/files/polisci_reeves_a.jpg?itok=W3l0K62N 2x" type="image/jpeg" width="335"/>
 <source height="640" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_3_4__480x640/public/harvard-iqss/files/polisci_reeves_a.jpg?itok=iF9Jobdy 1x, /sites/g/files/omnuum8171/files/styles/hwp_3_4__960x1280/public/harvard-iqss/files/polisci_reeves_a.jpg?itok=fa8cZv6V 2x" type="image/jpeg" width="480"/>
-<img alt="reeves" height="640" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_3_4__480x640/public/harvard-iqss/files/polisci_reeves_a.jpg?itok=iF9Jobdy" width="480"/>
+<img alt="reeves" height="640" loading="eager" src="../../images/live/harvard-iqss/files/polisci_reeves_a.jpg" width="480"/>
 </picture>
 </div>
 </div>
@@ -297,7 +297,7 @@ title: rapidPeer
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="447" media="all and (min-width: 768px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_3_4__335x447/public/harvard-iqss/files/chaudoin2.jpg?itok=BpkK5w0y 1x, /sites/g/files/omnuum8171/files/styles/hwp_3_4__670x894/public/harvard-iqss/files/chaudoin2.jpg?itok=Fcd32On7 2x" type="image/jpeg" width="335"/>
 <source height="640" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_3_4__480x640/public/harvard-iqss/files/chaudoin2.jpg?itok=dXVgzA4i 1x, /sites/g/files/omnuum8171/files/styles/hwp_3_4__960x1280/public/harvard-iqss/files/chaudoin2.jpg?itok=Nz0ULzLf 2x" type="image/jpeg" width="480"/>
-<img alt="chaudoin" height="640" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_3_4__480x640/public/harvard-iqss/files/chaudoin2.jpg?itok=dXVgzA4i" width="480"/>
+<img alt="chaudoin" height="640" loading="eager" src="../../images/live/harvard-iqss/files/chaudoin2.jpg" width="480"/>
 </picture>
 </div>
 </div>
@@ -346,7 +346,7 @@ title: rapidPeer
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="290" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/winkler3a.png?itok=fnqO7Oha 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/winkler3a.png?itok=Naa91WHh 2x" type="image/png" width="360"/>
-<img alt="Winkler" height="290" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/winkler3a.png?itok=fnqO7Oha" width="360"/>
+<img alt="Winkler" height="290" loading="eager" src="../../images/live/harvard-iqss/files/winkler3a.jpg" width="360"/>
 </picture>
 </div>
 </div>
@@ -364,7 +364,7 @@ title: rapidPeer
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="257" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/garrett1a.png?itok=6t7VMAf8 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/garrett1a.png?itok=cSySJ4s- 2x" type="image/png" width="360"/>
-<img alt="Garrett" height="257" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/garrett1a.png?itok=6t7VMAf8" width="360"/>
+<img alt="Garrett" height="257" loading="eager" src="../../images/live/harvard-iqss/files/garrett1a.jpg" width="360"/>
 </picture>
 </div>
 </div>
@@ -382,7 +382,7 @@ title: rapidPeer
 <div class="hwp-media hwp-media--16-9-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="270" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/harvard-iqss/files/josephs2a.png?itok=kerl-2Vu 1x, /sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/josephs2a.png?itok=IpiwmtYu 2x" type="image/png" width="480"/>
-<img alt="Josephs" height="270" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/harvard-iqss/files/josephs2a.png?itok=kerl-2Vu" width="480"/>
+<img alt="Josephs" height="270" loading="eager" src="../../images/live/harvard-iqss/files/josephs2a.jpg" width="480"/>
 </picture>
 </div>
 </div>
@@ -417,7 +417,7 @@ title: rapidPeer
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="360" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/chase-harrison-window_2x3.jpg?itok=vPbL0e1m 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/chase-harrison-window_2x3.jpg?itok=F5ZEJbKN 2x" type="image/jpeg" width="240"/>
-<img alt="Chase Harrison" height="360" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/chase-harrison-window_2x3.jpg?itok=vPbL0e1m" width="240"/>
+<img alt="Chase Harrison" height="360" loading="eager" src="../../images/live/harvard-iqss/files/chase-harrison-window_2x3.jpg" width="240"/>
 </picture>
 </div>
 </div>
@@ -453,7 +453,7 @@ title: rapidPeer
       Reviewers come from these institutions and more
     </h2>
 <div class="hwp-text-block field field--name-field-hwp-body field--type-text-long field--label-hidden"><div class="hwp-media hwp-media--full-width">
-<div class="field field--name-field-media-image field--type-image field--label-hidden"> <img alt="university logos" height="507" loading="lazy" src="/sites/g/files/omnuum8171/files/2025-05/logos_new.png" width="2000"/>
+<div class="field field--name-field-media-image field--type-image field--label-hidden"> <img alt="university logos" height="507" loading="lazy" src="../../images/live/2025-05/logos_new.png" width="2000"/>
 </div>
 </div>
 </div>

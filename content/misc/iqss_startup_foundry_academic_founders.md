@@ -31,7 +31,7 @@ title: IQSS Startup Foundry
 <source height="220" media="all and (min-width: 768px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_23_5__1024x220/public/harvard-iqss/files/startup-foundry-hero_alt_6x1.jpg?itok=OB8ORqVO 1x, /sites/g/files/omnuum8171/files/styles/hwp_23_5__2048x445/public/harvard-iqss/files/startup-foundry-hero_alt_6x1.jpg?itok=M_GeEvIh 2x" type="image/jpeg" width="1024"/>
 <source height="165" media="all and (min-width: 480px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_23_5__768x165/public/harvard-iqss/files/startup-foundry-hero_alt_6x1.jpg?itok=_k9zTojF 1x, /sites/g/files/omnuum8171/files/styles/hwp_23_5__1536x335/public/harvard-iqss/files/startup-foundry-hero_alt_6x1.jpg?itok=vxKcI6ep 2x" type="image/jpeg" width="768"/>
 <source height="205" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_21_9__480x205/public/harvard-iqss/files/startup-foundry-hero_alt_6x1.jpg?itok=jc6nx_82 1x, /sites/g/files/omnuum8171/files/styles/hwp_21_9__960x410/public/harvard-iqss/files/startup-foundry-hero_alt_6x1.jpg?itok=P3Ty8BMX 2x" type="image/jpeg" width="480"/>
-<img alt="Blue hex pattern peppered with digital icons and binary code" height="825" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_21_9__1920x825/public/harvard-iqss/files/startup-foundry-hero_alt_6x1.jpg?itok=wzqwQywY" width="1920"/>
+<img alt="Blue hex pattern peppered with digital icons and binary code" height="825" loading="eager" src="../../images/live/harvard-iqss/files/startup-foundry-hero_alt_6x1.jpg" width="1920"/>
 </picture>
 </div>
 </div>
@@ -52,7 +52,7 @@ title: IQSS Startup Foundry
 <div class="hwp-text-block field field--name-field-hwp-body field--type-text-long field--label-hidden"><div class="align-right hwp-media hwp-media--medium">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="360" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/illustration-building-a-bridge_getty-unsplash_2x1.jpg?itok=nTZUGAnc 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__1440x1440_scale/public/harvard-iqss/files/illustration-building-a-bridge_getty-unsplash_2x1.jpg?itok=SaDNt9hn 2x" type="image/jpeg" width="720"/>
-<img alt="Illustration of two people bridging a gap between them with a ladder" height="360" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/illustration-building-a-bridge_getty-unsplash_2x1.jpg?itok=nTZUGAnc" width="720"/>
+<img alt="Illustration of two people bridging a gap between them with a ladder" height="360" loading="eager" src="../../images/live/harvard-iqss/files/illustration-building-a-bridge_getty-unsplash_2x1.jpg" width="720"/>
 </picture>
 </div>
 </div>

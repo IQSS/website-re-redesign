@@ -6,7 +6,7 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "November 06, 2023"
 ---
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/opendp_swag_2023sq2.jpg?itok=HAxxdPgx" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/opendp_swag_2023sq2.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 The 2023 OpenDP Community Meeting was held on September 29th at Harvard University, bringing together researchers, practitioners, and developers focused on differential privacy. The event was organized in conjunction with the TPDP (Theory and Practice of Differential Privacy) workshop, marking the first in-person gathering for the OpenDP community since the project's inception.
 

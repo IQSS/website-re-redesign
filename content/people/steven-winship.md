@@ -9,7 +9,7 @@ role: ["Product Development", "Staff"]
 program: ["Dataverse Project"]
 ---
 
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/steven-winship_2023.jpeg" alt="Steven Winship" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/steven-winship_2023.jpg" alt="Steven Winship" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Steven Winship
 

@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "April 10, 2026"
 ---
 
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2026-04/Global%20Flourishing%20Study%20landscape_0.jpg?itok=cd5E4IiU" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/2026-04/Global%20Flourishing%20Study%20landscape_0.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 The Human Flourishing Program at Harvard University has made a landmark contribution to social science research with the public release of both Wave 1 and Wave 2 data from the Global Flourishing Study. This massive dataset includes responses from roughly 200,000 participants across 22 countries, making it one of the most comprehensive longitudinal studies of human well-being ever conducted. The data covers six fundamental domains of flourishing: happiness and life satisfaction, physical and mental health, meaning and purpose, character and virtue, close social relationships, and financial and material stability.
 

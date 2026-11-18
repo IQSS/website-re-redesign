@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "April 13, 2026"
 ---
 
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2025-12/CGA_logo_2025%202x3.png?itok=dnfI1tBg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/2025-12/CGA_logo_2025%202x3.png" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 The Center for Geographic Analysis has issued a call for paper submissions for its 2026 conference, marking a special milestone as the center celebrates its 20th anniversary. The conference theme—past, present, and future—invites researchers to reflect on two decades of innovation in geographic analysis while exploring emerging frontiers in geospatial science and technology. Submissions are welcome from across all disciplines that use geographic analysis, spatial data, and mapping technologies in their research.
 

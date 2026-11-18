@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "January 10, 2019"
 ---
 
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/iqss_square_logo_no_text.jpg?itok=sU68euCn" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/iqss_square_logo_no_text.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 IQSS is proud to announce the launch of the Alexander and Diviya Magaro Peer Pre-Review Program, an innovative initiative designed to improve scholarly research quality and accelerate publication success by providing authors with rigorous peer feedback before journal submission. This program addresses a common challenge in academic publishing: manuscripts often receive first peer feedback many months after journal submission, leading to lengthy revision cycles that slow the advancement of knowledge.
 

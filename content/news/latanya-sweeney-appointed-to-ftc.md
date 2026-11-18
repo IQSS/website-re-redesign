@@ -6,7 +6,7 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "December 16, 2013"
 ---
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/sweeney6crop_1.jpg?itok=9PB2bUno" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/sweeney6crop_1.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 IQSS affiliate Latanya Sweeney, director of the Data Privacy Lab and Professor of Government, was appointed to join the Federal Trade Commission as Chief Technologist in January 2014. The appointment brought deep technical expertise on data privacy to the nation's primary consumer protection agency.
 

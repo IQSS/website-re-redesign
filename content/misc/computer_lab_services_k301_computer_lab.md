@@ -28,7 +28,7 @@ title: K301 Computer Lab
 <div class="hwp-text-block field field--name-field-hwp-body field--type-text-long field--label-hidden"><p> </p><div class="hwp-media hwp-media--large">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="340" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__960x960_scale/public/harvard-iqss/files/k301_01.png?itok=dkTo0Nij 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__1920x1920_scale/public/harvard-iqss/files/k301_01.png?itok=0Rn0d7a2 2x" type="image/png" width="600"/>
-<img alt="K301 Picture" height="340" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__960x960_scale/public/harvard-iqss/files/k301_01.png?itok=dkTo0Nij" width="600"/>
+<img alt="K301 Picture" height="340" loading="eager" src="../../images/live/harvard-iqss/files/k301_01.png" width="600"/>
 </picture>
 </div>
 </div>

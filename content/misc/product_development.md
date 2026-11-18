@@ -39,7 +39,7 @@ title: Product Development
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="240" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/dataverse_logo_600x400.jpg?itok=M3Bq06ST 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/dataverse_logo_600x400.jpg?itok=-s_is-iI 2x" type="image/jpeg" width="360"/>
-<img alt="The Dataverse Project with 3-circle logo" height="240" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/dataverse_logo_600x400.jpg?itok=M3Bq06ST" width="360"/>
+<img alt="The Dataverse Project with 3-circle logo" height="240" loading="eager" src="../../images/live/harvard-iqss/files/dataverse_logo_600x400.jpg" width="360"/>
 </picture>
 </div>
 </div>
@@ -57,7 +57,7 @@ title: Product Development
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="194" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/ppr-iqss_logo.jpg?itok=D7GoqwDh 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/ppr-iqss_logo.jpg?itok=DHkK5heS 2x" type="image/jpeg" width="360"/>
-<img alt="Peer Pre-Review at IQSS" height="194" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/ppr-iqss_logo.jpg?itok=D7GoqwDh" width="360"/>
+<img alt="Peer Pre-Review at IQSS" height="194" loading="eager" src="../../images/live/harvard-iqss/files/ppr-iqss_logo.jpg" width="360"/>
 </picture>
 </div>
 </div>
@@ -75,7 +75,7 @@ title: Product Development
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="240" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/opendp_logo_draft4_600x400.jpg?itok=SheDNQS0 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/opendp_logo_draft4_600x400.jpg?itok=Nh6EKJQs 2x" type="image/jpeg" width="360"/>
-<img alt="OpenDP logo" height="240" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/opendp_logo_draft4_600x400.jpg?itok=SheDNQS0" width="360"/>
+<img alt="OpenDP logo" height="240" loading="eager" src="../../images/live/harvard-iqss/files/opendp_logo_draft4_600x400.jpg" width="360"/>
 </picture>
 </div>
 </div>
@@ -92,7 +92,7 @@ title: Product Development
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="70" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/systems-dev-logo2.png?itok=wThodpg_ 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/systems-dev-logo2.png?itok=LO5sVb1J 2x" type="image/png" width="178"/>
-<img alt="systems development logo" height="70" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/systems-dev-logo2.png?itok=wThodpg_" width="178"/>
+<img alt="systems development logo" height="70" loading="eager" src="../../images/live/harvard-iqss/files/systems-dev-logo2.png" width="178"/>
 </picture>
 </div>
 </div>

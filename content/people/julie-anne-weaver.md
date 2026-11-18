@@ -30,7 +30,7 @@ role: ["Affiliated Graduate Students"]
 <div class="field field--name-field-hwp-person-headshot field--type-entity-reference field--label-hidden"><div class="hwp-media hwp-media--4-5-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="600" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_4_5__480x600/public/harvard-iqss/files/julie_anne_weaver_2019b.png?itok=8LT6zBkg 1x, /sites/g/files/omnuum8171/files/styles/hwp_4_5__960x1200/public/harvard-iqss/files/julie_anne_weaver_2019b.png?itok=vT_vvYpf 2x" type="image/png" width="480"/>
-<img alt="Julie Anne Weaver" height="600" loading="lazy" src="/sites/g/files/omnuum8171/files/styles/hwp_4_5__480x600/public/harvard-iqss/files/julie_anne_weaver_2019b.png?itok=8LT6zBkg" width="480"/>
+<img alt="Julie Anne Weaver" height="600" loading="lazy" src="../../images/live/harvard-iqss/files/julie_anne_weaver_2019b.png" width="480"/>
 </picture>
 </div>
 </div>

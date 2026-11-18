@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "October 09, 2025"
 ---
 
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2025-10/Two-Six-Tech-Products-M3-Logo-and-Text%20sq2.jpg?h=7a911a9c&itok=RYUCuaBd" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/2025-10/Two-Six-Tech-Products-M3-Logo-and-Text%20sq2.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 In 2015, Weatherhead University Professor Gary King co-founded Thresher, a company born from his academic research at Harvard's Institute for Quantitative Social Science (IQSS).
 

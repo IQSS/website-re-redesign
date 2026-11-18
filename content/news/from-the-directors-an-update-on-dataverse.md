@@ -6,7 +6,7 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "October 11, 2022"
 ---
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/e-jackson_g-king_sq.jpg?itok=Z5mcg4v_" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/e-jackson_g-king_sq.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 IQSS leadership shared an update on the Dataverse Project, reflecting on deep dives into the many areas and layers of their work. The institute has been looking for ways to maximize its impact and position itself for even greater success in research data management.
 

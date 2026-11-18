@@ -28,7 +28,7 @@ title: Concourse Computer Lab
 <div class="hwp-text-block field field--name-field-hwp-body field--type-text-long field--label-hidden"><p> </p><div class="hwp-media hwp-media--large">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="449" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__960x960_scale/public/harvard-iqss/files/img_0029_01_01.jpg?itok=Igd2eRzC 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__1920x1920_scale/public/harvard-iqss/files/img_0029_01_01.jpg?itok=35IhGm1A 2x" type="image/jpeg" width="800"/>
-<img alt="computer lab" height="449" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__960x960_scale/public/harvard-iqss/files/img_0029_01_01.jpg?itok=Igd2eRzC" width="800"/>
+<img alt="computer lab" height="449" loading="eager" src="../../images/live/harvard-iqss/files/img_0029_01_01.jpg" width="800"/>
 </picture>
 </div>
 </div>

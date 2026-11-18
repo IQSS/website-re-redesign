@@ -28,7 +28,7 @@ title: Sponsored Research Services
 <div class="hwp-text-block field field--name-field-hwp-body field--type-text-long field--label-hidden"><div class="align-right hwp-media hwp-media--small">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="240" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/merce-1.jpg?itok=QMFua3hx 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/merce-1.jpg?itok=RFMm-vSm 2x" type="image/jpeg" width="360"/>
-<img alt="Discussion between staff" height="240" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/merce-1.jpg?itok=QMFua3hx" width="360"/>
+<img alt="Discussion between staff" height="240" loading="eager" src="../../images/live/harvard-iqss/files/merce-1.jpg" width="360"/>
 </picture>
 </div>
 </div>
@@ -114,7 +114,7 @@ title: Sponsored Research Services
 <source height="600" media="all and (min-width: 768px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_4_5__480x600/public/harvard-iqss/files/brooke_moore-2019_0_1.jpg?itok=2aN2Qlpa 1x, /sites/g/files/omnuum8171/files/styles/hwp_4_5__960x1200/public/harvard-iqss/files/brooke_moore-2019_0_1.jpg?itok=dovKC-Kp 2x" type="image/jpeg" width="480">
 <source height="865" media="all and (min-width: 480px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/brooke_moore-2019_0_1.jpg?itok=DHrOmDpc 1x, /sites/g/files/omnuum8171/files/styles/hwp_4_5__1380x1730/public/harvard-iqss/files/brooke_moore-2019_0_1.jpg?itok=--9NyO1M 2x" type="image/jpeg" width="690"/>
 <source height="600" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_4_5__480x600/public/harvard-iqss/files/brooke_moore-2019_0_1.jpg?itok=2aN2Qlpa 1x, /sites/g/files/omnuum8171/files/styles/hwp_4_5__960x1200/public/harvard-iqss/files/brooke_moore-2019_0_1.jpg?itok=dovKC-Kp 2x" type="image/jpeg" width="480"/>
-<img alt="Brooke Moore" height="865" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/brooke_moore-2019_0_1.jpg?itok=DHrOmDpc" width="690"/>
+<img alt="Brooke Moore" height="865" loading="eager" src="../../images/live/harvard-iqss/files/brooke_moore-2019_0_1.jpg" width="690"/>
 </source></picture>
 </div>
 </div>
@@ -140,7 +140,7 @@ title: Sponsored Research Services
 <source height="600" media="all and (min-width: 768px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_4_5__480x600/public/harvard-iqss/files/keri-lemasters-2cr-extb.jpg?itok=vCf1q918 1x, /sites/g/files/omnuum8171/files/styles/hwp_4_5__960x1200/public/harvard-iqss/files/keri-lemasters-2cr-extb.jpg?itok=pceWgPRm 2x" type="image/jpeg" width="480"/>
 <source height="865" media="all and (min-width: 480px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/keri-lemasters-2cr-extb.jpg?itok=zFcCC_kb 1x, /sites/g/files/omnuum8171/files/styles/hwp_4_5__1380x1730/public/harvard-iqss/files/keri-lemasters-2cr-extb.jpg?itok=nVywru-1 2x" type="image/jpeg" width="690"/>
 <source height="600" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_4_5__480x600/public/harvard-iqss/files/keri-lemasters-2cr-extb.jpg?itok=vCf1q918 1x, /sites/g/files/omnuum8171/files/styles/hwp_4_5__960x1200/public/harvard-iqss/files/keri-lemasters-2cr-extb.jpg?itok=pceWgPRm 2x" type="image/jpeg" width="480"/>
-<img alt="Keri Lemasters" height="865" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/keri-lemasters-2cr-extb.jpg?itok=zFcCC_kb" width="690"/>
+<img alt="Keri Lemasters" height="865" loading="eager" src="../../images/live/harvard-iqss/files/keri-lemasters-2cr-extb.jpg" width="690"/>
 </picture>
 </div>
 </div>
@@ -166,7 +166,7 @@ title: Sponsored Research Services
 <source height="600" media="all and (min-width: 768px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_4_5__480x600/public/harvard-iqss/files/jorge-dasilva_2023_exp.jpg?itok=jvqNYDai 1x, /sites/g/files/omnuum8171/files/styles/hwp_4_5__960x1200/public/harvard-iqss/files/jorge-dasilva_2023_exp.jpg?itok=1w-m70Qi 2x" type="image/jpeg" width="480"/>
 <source height="865" media="all and (min-width: 480px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/jorge-dasilva_2023_exp.jpg?itok=1qnoeEmE 1x, /sites/g/files/omnuum8171/files/styles/hwp_4_5__1380x1730/public/harvard-iqss/files/jorge-dasilva_2023_exp.jpg?itok=1VyrO6n4 2x" type="image/jpeg" width="690"/>
 <source height="600" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_4_5__480x600/public/harvard-iqss/files/jorge-dasilva_2023_exp.jpg?itok=jvqNYDai 1x, /sites/g/files/omnuum8171/files/styles/hwp_4_5__960x1200/public/harvard-iqss/files/jorge-dasilva_2023_exp.jpg?itok=1w-m70Qi 2x" type="image/jpeg" width="480"/>
-<img alt="Jorge Dasilva" height="865" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/jorge-dasilva_2023_exp.jpg?itok=1qnoeEmE" width="690"/>
+<img alt="Jorge Dasilva" height="865" loading="eager" src="../../images/live/harvard-iqss/files/jorge-dasilva_2023_exp.jpg" width="690"/>
 </picture>
 </div>
 </div>

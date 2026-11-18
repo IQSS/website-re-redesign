@@ -6,7 +6,7 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "April 02, 2020"
 ---
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/hwf_logo_blue_sq_rounded_alt.png?itok=A2NY6FpP" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/hwf_logo_blue_sq_rounded_alt.png" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 IQSS, Pinterest, and Harvard TH Chan School of Public Health scientists collaborated to address the gap in recorded cases of the novel coronavirus in the United States through the How We Feel Project. The initiative launched in early April 2020 as COVID-19 testing remained severely limited.
 

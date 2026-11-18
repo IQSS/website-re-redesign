@@ -26,7 +26,7 @@ title: Flourishing Schools Project Virtual Launch
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="620" media="all and (min-width: 1024px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_5_4__770x620/public/2026-05/Human%20Flourshing%20-%20Flourishing%20Schools%20Project.jpeg?itok=kQ4GDo6z 1x, /sites/g/files/omnuum8171/files/styles/hwp_5_4__1540x1240/public/2026-05/Human%20Flourshing%20-%20Flourishing%20Schools%20Project.jpeg?itok=6tx7grH1 2x" type="image/jpeg" width="770"/>
 <source height="385" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_5_4__480x385/public/2026-05/Human%20Flourshing%20-%20Flourishing%20Schools%20Project.jpeg?itok=HSHcZ_wf 1x, /sites/g/files/omnuum8171/files/styles/hwp_5_4__960x770/public/2026-05/Human%20Flourshing%20-%20Flourishing%20Schools%20Project.jpeg?itok=OOiP346i 2x" type="image/jpeg" width="480"/>
-<img alt="Flourishing Schools Project title card" height="385" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_5_4__480x385/public/2026-05/Human%20Flourshing%20-%20Flourishing%20Schools%20Project.jpeg?itok=HSHcZ_wf" width="480"/>
+<img alt="Flourishing Schools Project title card" height="385" loading="eager" src="../../images/live/2026-05/Human%20Flourshing%20-%20Flourishing%20Schools%20Project.jpg" width="480"/>
 </picture>
 </div>
 </div>

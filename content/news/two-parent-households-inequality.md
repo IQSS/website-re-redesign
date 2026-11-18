@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "September 22, 2025"
 ---
 
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2025-09/Christina-Cross_2025_Gazette.jpeg?h=b78e3fb9&itok=T22ZsSB0" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/2025-09/Christina-Cross_2025_Gazette.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 IQSS affiliate Christina Cross, Associate Professor of Sociology at Harvard University, has published a book that critically examines one of the most persistent claims in debates about racial inequality: that promoting two-parent nuclear families is a simple solution to closing racial gaps in economic and social outcomes. Through rigorous analysis of demographic and economic data, Cross challenges this conventional wisdom and reveals the limitations of family structure as an explanation for racial disparities.
 

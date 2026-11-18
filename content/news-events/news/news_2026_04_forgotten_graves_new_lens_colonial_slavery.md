@@ -50,7 +50,7 @@ title: 'Forgotten Graves: A New Lens on Colonial Slavery'
 <div>
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="360" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/2026-04/Jason%20and%20Joseph%20Lamson_burial%20ground%20feature%202026-sq.jpg?itok=-R_cNuxj 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/2026-04/Jason%20and%20Joseph%20Lamson_burial%20ground%20feature%202026-sq.jpg?itok=99nnOA0a 2x" type="image/jpeg" width="360"/>
-<img alt="Jason Ur kneels next to an old death's head gravestone for Joseph Lemson" height="360" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/2026-04/Jason%20and%20Joseph%20Lamson_burial%20ground%20feature%202026-sq.jpg?itok=-R_cNuxj" width="360"/>
+<img alt="Jason Ur kneels next to an old death's head gravestone for Joseph Lemson" height="360" loading="eager" src="../../../images/live/2026-04/Jason%20and%20Joseph%20Lamson_burial%20ground%20feature%202026-sq.jpg" width="360"/>
 </picture>
 </div>
 </div>
@@ -60,7 +60,7 @@ title: 'Forgotten Graves: A New Lens on Colonial Slavery'
 <div>
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="270" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/2026-04/Aja%20and%20Bair_burial%20ground%20feature%202026.jpg?itok=tkNZunQn 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/2026-04/Aja%20and%20Bair_burial%20ground%20feature%202026.jpg?itok=rkvHWq8M 2x" type="image/jpeg" width="360"/>
-<img alt="Aja Lans and Andrew Bair roll a mapping device through the Cambridge Old Burying Ground" height="270" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/2026-04/Aja%20and%20Bair_burial%20ground%20feature%202026.jpg?itok=tkNZunQn" width="360"/>
+<img alt="Aja Lans and Andrew Bair roll a mapping device through the Cambridge Old Burying Ground" height="270" loading="eager" src="../../../images/live/2026-04/Aja%20and%20Bair_burial%20ground%20feature%202026.jpg" width="360"/>
 </picture>
 </div>
 </div>
@@ -70,7 +70,7 @@ title: 'Forgotten Graves: A New Lens on Colonial Slavery'
 <div>
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="570" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/2026-04/Cambridge%20OBG%20aerial_burial%20ground%20feature%202026.png?itok=qriXC7aY 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__1440x1440_scale/public/2026-04/Cambridge%20OBG%20aerial_burial%20ground%20feature%202026.png?itok=I71V3WvX 2x" type="image/png" width="720"/>
-<img alt="Aerial drone view of the Old Burying Ground in Cambridge" height="570" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/2026-04/Cambridge%20OBG%20aerial_burial%20ground%20feature%202026.png?itok=qriXC7aY" width="720"/>
+<img alt="Aerial drone view of the Old Burying Ground in Cambridge" height="570" loading="eager" src="../../../images/live/2026-04/Cambridge%20OBG%20aerial_burial%20ground%20feature%202026.png" width="720"/>
 </picture>
 </div>
 </div>
@@ -80,7 +80,7 @@ title: 'Forgotten Graves: A New Lens on Colonial Slavery'
 <div>
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="405" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/2026-04/Cambridge%20OBG%20burials_burial%20ground%20feature%202026.jpg?itok=BsW73jGR 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__1440x1440_scale/public/2026-04/Cambridge%20OBG%20burials_burial%20ground%20feature%202026.jpg?itok=jKzyeda_ 2x" type="image/jpeg" width="720"/>
-<img alt="Digital map of burial plots at Cambridge's Old Burying Ground" height="405" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/2026-04/Cambridge%20OBG%20burials_burial%20ground%20feature%202026.jpg?itok=BsW73jGR" width="720"/>
+<img alt="Digital map of burial plots at Cambridge's Old Burying Ground" height="405" loading="eager" src="../../../images/live/2026-04/Cambridge%20OBG%20burials_burial%20ground%20feature%202026.jpg" width="720"/>
 </picture>
 </div>
 </div>
@@ -173,7 +173,7 @@ title: 'Forgotten Graves: A New Lens on Colonial Slavery'
 <div class="field field--name-field-hwp-thumbnail-image field--type-entity-reference field--label-hidden"><div class="hwp-media hwp-media--16-9-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="270" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/graduation-cap-with-gold-tassle_sq.jpg?itok=UmvNZ9IN 1x, /sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/graduation-cap-with-gold-tassle_sq.jpg?itok=rKI_4YqG 2x" type="image/jpeg" width="480">
-<img alt="Closeup of graduation cap" height="270" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/graduation-cap-with-gold-tassle_sq.jpg?itok=UmvNZ9IN" width="480">
+<img alt="Closeup of graduation cap" height="270" loading="eager" src="../../../images/live/graduation-cap-with-gold-tassle_sq.jpg" width="480">
 </img></source></picture>
 </div>
 </div>
@@ -194,7 +194,7 @@ title: 'Forgotten Graves: A New Lens on Colonial Slavery'
 <div class="field field--name-field-hwp-thumbnail-image field--type-entity-reference field--label-hidden"><div class="hwp-media hwp-media--16-9-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="270" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/2026-05/Service%20awardees%202026%20group%201b.jpeg?h=9b1d031d&amp;itok=myPVto9A 1x, /sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2026-05/Service%20awardees%202026%20group%201b.jpeg?h=9b1d031d&amp;itok=MJ5pMGDd 2x" type="image/jpeg" width="480">
-<img alt="Staff honorees holding their service certificates, two seated in front and 5 standing behind them" height="270" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/2026-05/Service%20awardees%202026%20group%201b.jpeg?h=9b1d031d&amp;itok=myPVto9A" width="480">
+<img alt="Staff honorees holding their service certificates, two seated in front and 5 standing behind them" height="270" loading="eager" src="../../../images/live/2026-05/Service%20awardees%202026%20group%201b.jpg" width="480">
 </img></source></picture>
 </div>
 </div>
@@ -215,7 +215,7 @@ title: 'Forgotten Graves: A New Lens on Colonial Slavery'
 <div class="field field--name-field-hwp-thumbnail-image field--type-entity-reference field--label-hidden"><div class="hwp-media hwp-media--16-9-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="270" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/harvard-iqss/files/ansolabehere_stephen_2x3_ratio_large.png?itok=7alqRFRR 1x, /sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/ansolabehere_stephen_2x3_ratio_large.png?itok=Qt-J0CUW 2x" type="image/png" width="480">
-<img alt="ansolabehere_stephen_2x3_ratio_large.png" height="270" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/harvard-iqss/files/ansolabehere_stephen_2x3_ratio_large.png?itok=7alqRFRR" width="480">
+<img alt="ansolabehere_stephen_2x3_ratio_large.png" height="270" loading="eager" src="../../../images/live/harvard-iqss/files/ansolabehere_stephen_2x3_ratio_large.png" width="480">
 </img></source></picture>
 </div>
 </div>

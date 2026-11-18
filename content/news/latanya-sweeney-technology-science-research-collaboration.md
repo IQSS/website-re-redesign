@@ -6,7 +6,7 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "January 20, 2021"
 ---
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/latanya-sweeney-2012-03-30_103311_6x4.jpg?itok=NJcyZhM6" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/latanya-sweeney-2012-03-30_103311_6x4.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 In 2015, Latanya Sweeney received a $250,000 MacArthur Foundation grant to engage scholars and students investigating unforeseen consequences of technology. The funding supported the Technology Science Research Collaboration Network, bringing together researchers across disciplines to study how technology affects society.
 

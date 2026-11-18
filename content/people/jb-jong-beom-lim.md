@@ -30,7 +30,7 @@ role: ["Affiliated Graduate Students"]
 <div class="field field--name-field-hwp-person-headshot field--type-entity-reference field--label-hidden"><div class="hwp-media hwp-media--4-5-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="600" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_4_5__480x600/public/2025-10/JB-Lim_2025.jpg?h=4e347e07&amp;itok=rtJVVGbD 1x, /sites/g/files/omnuum8171/files/styles/hwp_4_5__960x1200/public/2025-10/JB-Lim_2025.jpg?h=4e347e07&amp;itok=zRD_Qv3C 2x" type="image/jpeg" width="480"/>
-<img alt="JB Lim" height="600" loading="lazy" src="/sites/g/files/omnuum8171/files/styles/hwp_4_5__480x600/public/2025-10/JB-Lim_2025.jpg?h=4e347e07&amp;itok=rtJVVGbD" width="480"/>
+<img alt="JB Lim" height="600" loading="lazy" src="../../images/live/2025-10/JB-Lim_2025.jpg" width="480"/>
 </picture>
 </div>
 </div>

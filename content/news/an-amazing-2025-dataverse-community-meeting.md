@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "July 16, 2025"
 ---
 
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2025-07/Dataverse%202025%20group_0.jpg?itok=S1L-Pood" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/2025-07/Dataverse%202025%20group_0.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 The IQSS Dataverse Core team recently returned from the 2025 Dataverse Community Meeting, which was hosted by the University of North Carolina at Chapel Hill. The event represented the culmination of two and a half years of intensive development work, resulting in several major milestones for the Dataverse Project.
 

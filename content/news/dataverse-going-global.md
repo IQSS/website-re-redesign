@@ -8,7 +8,7 @@ subtitle: "June 29, 2026"
 author: "Colleen Walsh"
 ---
 
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2026-06/DCM2026-0524%20Dataverse%20community.jpg?itok=uQ_cyhWO" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/2026-06/DCM2026-0524%20Dataverse%20community.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 by Colleen Walsh
 

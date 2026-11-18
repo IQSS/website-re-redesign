@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "May 17, 2024"
 ---
 
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/family-board-game_national-cancer-institute-unsplash_sq.jpg?itok=0_mLOAA7" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/family-board-game_national-cancer-institute-unsplash_sq.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 Research from IQSS scholars examines a provocative question in debates about inequality and family structure: does marriage and the two-parent family serve as a great equalizer, helping to reduce economic and social disparities? This question sits at the intersection of research on family structure, economic mobility, and social stratification, with important implications for how we understand pathways out of poverty and the role of family policy in addressing inequality.
 

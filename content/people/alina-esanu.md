@@ -31,7 +31,7 @@ program: ["Undergraduate Research Scholars (URS)"]
 <div class="field field--name-field-hwp-person-headshot field--type-entity-reference field--label-hidden"><div class="hwp-media hwp-media--4-5-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="600" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_4_5__480x600/public/harvard-iqss/files/alina_esanu_headshot_0.jpg?h=42d84c1d&amp;itok=MlmPNwX_ 1x, /sites/g/files/omnuum8171/files/styles/hwp_4_5__960x1200/public/harvard-iqss/files/alina_esanu_headshot_0.jpg?h=42d84c1d&amp;itok=WnGlSApu 2x" type="image/jpeg" width="480"/>
-<img alt="Alina Esanu headshot" height="600" loading="lazy" src="/sites/g/files/omnuum8171/files/styles/hwp_4_5__480x600/public/harvard-iqss/files/alina_esanu_headshot_0.jpg?h=42d84c1d&amp;itok=MlmPNwX_" width="480"/>
+<img alt="Alina Esanu headshot" height="600" loading="lazy" src="../../images/live/harvard-iqss/files/alina_esanu_headshot_0.jpg" width="480"/>
 </picture>
 </div>
 </div>

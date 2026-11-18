@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "March 27, 2023"
 ---
 
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/cga_squared_1.jpg?itok=snjXsB_8" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/cga_squared_1.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 The Center for Geographic Analysis has developed RINX (Raster Index), an innovative open-source solution designed to address critical challenges in processing and analyzing big raster datasets from Earth observation systems. As satellite imagery and remote sensing data grow exponentially in volume and resolution, researchers face increasing technical barriers to working with these valuable resources. RINX provides an efficient indexing and retrieval system that makes large-scale raster analysis more accessible to the geospatial science community.
 

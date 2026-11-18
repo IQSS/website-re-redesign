@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "October 24, 2025"
 ---
 
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2025-10/neru-logo-ex.png?h=d3c10f45&itok=Op6Kf2ox" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/2025-10/neru-logo-ex.png" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 When Neru Health first came to the IQSS Startup Foundry, they had a big idea: transform the way people solve sleep problems. Millions struggle with conditions like sleep apnea, and while treatments exist, staying consistent with therapy is notoriously difficult. Neru's early vision centered on improving patient engagement and adherence to sleep therapy.
 

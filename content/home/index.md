@@ -31,7 +31,7 @@ title: Data Science Services
 <source height="220" media="all and (min-width: 768px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_23_5__1024x220/public/harvard-iqss/files/data-science-hero.png?itok=ljF7F7Xv 1x, /sites/g/files/omnuum8171/files/styles/hwp_23_5__2048x445/public/harvard-iqss/files/data-science-hero.png?itok=Yqb1DKmj 2x" type="image/png" width="1024"/>
 <source height="165" media="all and (min-width: 480px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_23_5__768x165/public/harvard-iqss/files/data-science-hero.png?itok=HpjGQ389 1x, /sites/g/files/omnuum8171/files/styles/hwp_23_5__1536x335/public/harvard-iqss/files/data-science-hero.png?itok=WLBFuXI0 2x" type="image/png" width="768"/>
 <source height="205" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_21_9__480x205/public/harvard-iqss/files/data-science-hero.png?itok=VpJFw4b4 1x, /sites/g/files/omnuum8171/files/styles/hwp_21_9__960x410/public/harvard-iqss/files/data-science-hero.png?itok=ZhJxZ04F 2x" type="image/png" width="480"/>
-<img alt="data-science-hero.png" height="825" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_21_9__1920x825/public/harvard-iqss/files/data-science-hero.png?itok=CLQmHcPi" width="1920"/>
+<img alt="data-science-hero.png" height="825" loading="eager" src="../../images/live/harvard-iqss/files/data-science-hero.png" width="1920"/>
 </picture>
 </div>
 </div>
@@ -72,7 +72,7 @@ title: Data Science Services
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="108" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/consulting-icon.png?itok=yX4Iu2w8 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/consulting-icon.png?itok=npTVtk7m 2x" type="image/png" width="108"/>
-<img alt="consulting-icon.png" height="108" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/consulting-icon.png?itok=yX4Iu2w8" width="108"/>
+<img alt="consulting-icon.png" height="108" loading="eager" src="../../images/live/harvard-iqss/files/consulting-icon.png" width="108"/>
 </picture>
 </div>
 </div>
@@ -90,7 +90,7 @@ title: Data Science Services
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="108" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/collaboration-icon.png?itok=Z6S43bgK 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/collaboration-icon.png?itok=A5Rfa9nQ 2x" type="image/png" width="108"/>
-<img alt="collaboration-icon.png" height="108" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/collaboration-icon.png?itok=Z6S43bgK" width="108"/>
+<img alt="collaboration-icon.png" height="108" loading="eager" src="../../images/live/harvard-iqss/files/collaboration-icon.png" width="108"/>
 </picture>
 </div>
 </div>
@@ -108,7 +108,7 @@ title: Data Science Services
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="108" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/analytical-tool-icon.png?itok=Wrb_daYc 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/analytical-tool-icon.png?itok=gDenylkx 2x" type="image/png" width="108"/>
-<img alt="monitor icon with a graph line and data point" height="108" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/analytical-tool-icon.png?itok=Wrb_daYc" width="108"/>
+<img alt="monitor icon with a graph line and data point" height="108" loading="eager" src="../../images/live/harvard-iqss/files/analytical-tool-icon.png" width="108"/>
 </picture>
 </div>
 </div>
@@ -172,7 +172,7 @@ title: Data Science Services
 <source height="1315" media="all and (min-width: 768px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__1315x1315/public/harvard-iqss/files/startup-planning-notes-mac-book-7357.jpg?itok=bKPjXcNr 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__2630x2630/public/harvard-iqss/files/startup-planning-notes-mac-book-7357.jpg?itok=mtG3cDsd 2x" type="image/jpeg" width="1315"/>
 <source height="770" media="all and (min-width: 480px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__770x770/public/harvard-iqss/files/startup-planning-notes-mac-book-7357.jpg?itok=vlKN0zQ5 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__1540x1540/public/harvard-iqss/files/startup-planning-notes-mac-book-7357.jpg?itok=v09BQTzu 2x" type="image/jpeg" width="770"/>
 <source height="480" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__480x480/public/harvard-iqss/files/startup-planning-notes-mac-book-7357.jpg?itok=-y_XOQu- 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__960x960/public/harvard-iqss/files/startup-planning-notes-mac-book-7357.jpg?itok=aIPIRy9x 2x" type="image/jpeg" width="480"/>
-<img alt="startup-planning-notes-mac-book-7357.jpg" height="480" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__480x480/public/harvard-iqss/files/startup-planning-notes-mac-book-7357.jpg?itok=-y_XOQu-" width="480"/>
+<img alt="startup-planning-notes-mac-book-7357.jpg" height="480" loading="eager" src="../../images/live/harvard-iqss/files/startup-planning-notes-mac-book-7357.jpg" width="480"/>
 </picture>
 </div>
 </div>
@@ -208,7 +208,7 @@ title: Data Science Services
 <div class="hwp-media hwp-media--16-9-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="270" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/harvard-iqss/files/metrics.jpg?itok=mGR_iBTr 1x, /sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/metrics.jpg?itok=lGT0PIPG 2x" type="image/jpeg" width="480"/>
-<img alt="metrics" height="270" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/harvard-iqss/files/metrics.jpg?itok=mGR_iBTr" width="480"/>
+<img alt="metrics" height="270" loading="eager" src="../../images/live/harvard-iqss/files/metrics.jpg" width="480"/>
 </picture>
 </div>
 </div>
@@ -226,7 +226,7 @@ title: Data Science Services
 <div class="hwp-media hwp-media--16-9-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="270" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/harvard-iqss/files/acknowledge-us_Arthur-Spirling.jpg?itok=T47ye68y 1x, /sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/acknowledge-us_Arthur-Spirling.jpg?itok=cbSvUagt 2x" type="image/jpeg" width="480"/>
-<img alt="acknowledging us" height="270" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/harvard-iqss/files/acknowledge-us_Arthur-Spirling.jpg?itok=T47ye68y" width="480"/>
+<img alt="acknowledging us" height="270" loading="eager" src="../../images/live/harvard-iqss/files/acknowledge-us_Arthur-Spirling.jpg" width="480"/>
 </picture>
 </div>
 </div>
@@ -275,7 +275,7 @@ title: Data Science Services
 <source height="600" media="all and (min-width: 768px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_4_5__480x600/public/2025-10/Joshua-Cetron_2025.jpg?h=f245c32a&amp;itok=CZ2EmgAP 1x, /sites/g/files/omnuum8171/files/styles/hwp_4_5__960x1200/public/2025-10/Joshua-Cetron_2025.jpg?h=f245c32a&amp;itok=a-jfwFZ8 2x" type="image/jpeg" width="480"/>
 <source height="865" media="all and (min-width: 480px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/2025-10/Joshua-Cetron_2025.jpg?h=f245c32a&amp;itok=ysQs5-VX 1x, /sites/g/files/omnuum8171/files/styles/hwp_4_5__1380x1730/public/2025-10/Joshua-Cetron_2025.jpg?h=f245c32a&amp;itok=fD3S_yeo 2x" type="image/jpeg" width="690"/>
 <source height="600" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_4_5__480x600/public/2025-10/Joshua-Cetron_2025.jpg?h=f245c32a&amp;itok=CZ2EmgAP 1x, /sites/g/files/omnuum8171/files/styles/hwp_4_5__960x1200/public/2025-10/Joshua-Cetron_2025.jpg?h=f245c32a&amp;itok=a-jfwFZ8 2x" type="image/jpeg" width="480"/>
-<img alt="Joshua Cetron" height="865" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/2025-10/Joshua-Cetron_2025.jpg?h=f245c32a&amp;itok=ysQs5-VX" width="690"/>
+<img alt="Joshua Cetron" height="865" loading="eager" src="../../images/live/2025-10/Joshua-Cetron_2025.jpg" width="690"/>
 </picture>
 </div>
 </div>
@@ -306,7 +306,7 @@ title: Data Science Services
 <source height="600" media="all and (min-width: 768px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_4_5__480x600/public/harvard-iqss/files/noah_greifer_2021.jpg?itok=OPwzm-Ag 1x, /sites/g/files/omnuum8171/files/styles/hwp_4_5__960x1200/public/harvard-iqss/files/noah_greifer_2021.jpg?itok=J4DU811H 2x" type="image/jpeg" width="480"/>
 <source height="865" media="all and (min-width: 480px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/noah_greifer_2021.jpg?itok=PVHBq8Ow 1x, /sites/g/files/omnuum8171/files/styles/hwp_4_5__1380x1730/public/harvard-iqss/files/noah_greifer_2021.jpg?itok=H8XV1-r5 2x" type="image/jpeg" width="690"/>
 <source height="600" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_4_5__480x600/public/harvard-iqss/files/noah_greifer_2021.jpg?itok=OPwzm-Ag 1x, /sites/g/files/omnuum8171/files/styles/hwp_4_5__960x1200/public/harvard-iqss/files/noah_greifer_2021.jpg?itok=J4DU811H 2x" type="image/jpeg" width="480"/>
-<img alt="Noah Greifer" height="865" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/noah_greifer_2021.jpg?itok=PVHBq8Ow" width="690"/>
+<img alt="Noah Greifer" height="865" loading="eager" src="../../images/live/harvard-iqss/files/noah_greifer_2021.jpg" width="690"/>
 </picture>
 </div>
 </div>
@@ -337,7 +337,7 @@ title: Data Science Services
 <source height="600" media="all and (min-width: 768px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_4_5__480x600/public/harvard-iqss/files/jinjie-liu_2019.jpg?itok=w39hDIXu 1x, /sites/g/files/omnuum8171/files/styles/hwp_4_5__960x1200/public/harvard-iqss/files/jinjie-liu_2019.jpg?itok=Z9UbEcR3 2x" type="image/jpeg" width="480"/>
 <source height="865" media="all and (min-width: 480px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/jinjie-liu_2019.jpg?itok=i-kfsYTS 1x, /sites/g/files/omnuum8171/files/styles/hwp_4_5__1380x1730/public/harvard-iqss/files/jinjie-liu_2019.jpg?itok=xEmpnkU6 2x" type="image/jpeg" width="690"/>
 <source height="600" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_4_5__480x600/public/harvard-iqss/files/jinjie-liu_2019.jpg?itok=w39hDIXu 1x, /sites/g/files/omnuum8171/files/styles/hwp_4_5__960x1200/public/harvard-iqss/files/jinjie-liu_2019.jpg?itok=Z9UbEcR3 2x" type="image/jpeg" width="480"/>
-<img alt="Jinjie Liu" height="865" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/jinjie-liu_2019.jpg?itok=i-kfsYTS" width="690"/>
+<img alt="Jinjie Liu" height="865" loading="eager" src="../../images/live/harvard-iqss/files/jinjie-liu_2019.jpg" width="690"/>
 </picture>
 </div>
 </div>
@@ -368,7 +368,7 @@ title: Data Science Services
 <source height="600" media="all and (min-width: 768px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_4_5__480x600/public/2025-10/Steve-Worthington_2025.jpg?h=623771c2&amp;itok=0lF-LK-i 1x, /sites/g/files/omnuum8171/files/styles/hwp_4_5__960x1200/public/2025-10/Steve-Worthington_2025.jpg?h=623771c2&amp;itok=ruDVZTWT 2x" type="image/jpeg" width="480"/>
 <source height="865" media="all and (min-width: 480px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/2025-10/Steve-Worthington_2025.jpg?h=623771c2&amp;itok=uURFzPMW 1x, /sites/g/files/omnuum8171/files/styles/hwp_4_5__1380x1730/public/2025-10/Steve-Worthington_2025.jpg?h=623771c2&amp;itok=DAhhUpGb 2x" type="image/jpeg" width="690"/>
 <source height="600" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_4_5__480x600/public/2025-10/Steve-Worthington_2025.jpg?h=623771c2&amp;itok=0lF-LK-i 1x, /sites/g/files/omnuum8171/files/styles/hwp_4_5__960x1200/public/2025-10/Steve-Worthington_2025.jpg?h=623771c2&amp;itok=ruDVZTWT 2x" type="image/jpeg" width="480"/>
-<img alt="Steve Worthington" height="865" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/2025-10/Steve-Worthington_2025.jpg?h=623771c2&amp;itok=uURFzPMW" width="690"/>
+<img alt="Steve Worthington" height="865" loading="eager" src="../../images/live/2025-10/Steve-Worthington_2025.jpg" width="690"/>
 </picture>
 </div>
 </div>
@@ -394,7 +394,7 @@ title: Data Science Services
 <source height="600" media="all and (min-width: 768px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_4_5__480x600/public/harvard-iqss/files/dan-yuan_2023.jpg?itok=9F-8RLLt 1x, /sites/g/files/omnuum8171/files/styles/hwp_4_5__960x1200/public/harvard-iqss/files/dan-yuan_2023.jpg?itok=2lSwfIck 2x" type="image/jpeg" width="480"/>
 <source height="865" media="all and (min-width: 480px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/dan-yuan_2023.jpg?itok=VMzHQ9nf 1x, /sites/g/files/omnuum8171/files/styles/hwp_4_5__1380x1730/public/harvard-iqss/files/dan-yuan_2023.jpg?itok=mDYHZg1m 2x" type="image/jpeg" width="690"/>
 <source height="600" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_4_5__480x600/public/harvard-iqss/files/dan-yuan_2023.jpg?itok=9F-8RLLt 1x, /sites/g/files/omnuum8171/files/styles/hwp_4_5__960x1200/public/harvard-iqss/files/dan-yuan_2023.jpg?itok=2lSwfIck 2x" type="image/jpeg" width="480"/>
-<img alt="dan-yuan_2023.jpg" height="865" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/harvard-iqss/files/dan-yuan_2023.jpg?itok=VMzHQ9nf" width="690"/>
+<img alt="dan-yuan_2023.jpg" height="865" loading="eager" src="../../images/live/harvard-iqss/files/dan-yuan_2023.jpg" width="690"/>
 </picture>
 </div>
 </div>

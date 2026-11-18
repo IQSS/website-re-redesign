@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "September 29, 2025"
 ---
 
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2025-09/Daniel-Gilbert_2025_Gazette_ExtensionDeanLecture.jpg?h=62fc6112&itok=xWO4bIyv" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/2025-09/Daniel-Gilbert_2025_Gazette_ExtensionDeanLecture.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 IQSS affiliate Daniel Gilbert, the Edgar Pierce Professor of Psychology at Harvard University, delivered a compelling lecture exploring the intersection of scientific research and timeless maternal wisdom about happiness. Gilbert, known for his groundbreaking work on affective forecasting and happiness research, shared insights from decades of psychological studies that validate many of the common-sense principles our mothers have been telling us for years.
 

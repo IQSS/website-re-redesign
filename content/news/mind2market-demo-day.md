@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "November 24, 2025"
 ---
 
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2025-12/Mind2Market%20Demo%20Day%202025.jpg?itok=F-qPR8oa" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/2025-12/Mind2Market%20Demo%20Day%202025.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 Harvard researchers gathered for the Mind2Market Demo Day, a showcase event highlighting cutting-edge artificial intelligence projects that have reached the stage where they are ready to transition from academic research to market-ready ventures. The event featured several teams from the IQSS Startup Foundry, Harvard's initiative designed to help social science researchers transform their innovations into commercial applications with real-world impact.
 

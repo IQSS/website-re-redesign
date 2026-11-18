@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "June 07, 2023"
 ---
 
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/black-congressmen-1872_currier-ives_houghton-library_3x2.jpg?h=db32434a&itok=2JULYS3R" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/black-congressmen-1872_currier-ives_houghton-library_3x2.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 The Harvard Dataverse has published a significant new collection from Houghton Library: the Slavery, Abolition, Emancipation, and Freedom (SAEF) Data Collection, making valuable historical research data freely available to scholars worldwide. This collection brings together data related to one of the most consequential periods in American history, documenting the experiences of enslaved people, the abolition movement, emancipation processes, and the struggle for freedom and civil rights in the nineteenth century.
 

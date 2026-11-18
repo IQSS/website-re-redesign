@@ -40,7 +40,7 @@ title: Scientific Programs
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="160" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/social_science_one_slide_deck_banner_transparent.png?itok=un8the3K 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/social_science_one_slide_deck_banner_transparent.png?itok=fnmKTr2N 2x" type="image/png" width="360"/>
-<img alt="Social Science One text logo" height="160" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/social_science_one_slide_deck_banner_transparent.png?itok=un8the3K" width="360"/>
+<img alt="Social Science One text logo" height="160" loading="eager" src="../../../images/live/harvard-iqss/files/social_science_one_slide_deck_banner_transparent.png" width="360"/>
 </picture>
 </div>
 </div>
@@ -58,7 +58,7 @@ title: Scientific Programs
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="240" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/2025-12/CGA_logo_2025%202x3.png?itok=cI0nAEq5 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/2025-12/CGA_logo_2025%202x3.png?itok=iS8c7jgk 2x" type="image/png" width="360"/>
-<img alt="Center for Geographic Analysis logo" height="240" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/2025-12/CGA_logo_2025%202x3.png?itok=cI0nAEq5" width="360"/>
+<img alt="Center for Geographic Analysis logo" height="240" loading="eager" src="../../../images/live/2025-12/CGA_logo_2025%202x3.png" width="360"/>
 </picture>
 </div>
 </div>
@@ -76,7 +76,7 @@ title: Scientific Programs
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="180" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/future_of_media_silder_banner_2x1.jpg?itok=gPanRA01 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/future_of_media_silder_banner_2x1.jpg?itok=rbkMTHf6 2x" type="image/jpeg" width="360"/>
-<img alt="Future of Media overlaying a smartphone displaying news" height="180" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/future_of_media_silder_banner_2x1.jpg?itok=gPanRA01" width="360"/>
+<img alt="Future of Media overlaying a smartphone displaying news" height="180" loading="eager" src="../../../images/live/harvard-iqss/files/future_of_media_silder_banner_2x1.jpg" width="360"/>
 </picture>
 </div>
 </div>
@@ -102,7 +102,7 @@ title: Scientific Programs
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="54" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/cafh_logo_rgb_small.png?itok=3EA8Fu8O 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/cafh_logo_rgb_small.png?itok=wRebE5ef 2x" type="image/png" width="360"/>
-<img alt="Council on Academic Freedom at Harvard logo" height="54" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/cafh_logo_rgb_small.png?itok=3EA8Fu8O" width="360"/>
+<img alt="Council on Academic Freedom at Harvard logo" height="54" loading="eager" src="../../../images/live/harvard-iqss/files/cafh_logo_rgb_small.jpg" width="360"/>
 </picture>
 </div>
 </div>
@@ -120,7 +120,7 @@ title: Scientific Programs
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="180" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/program_on_survey_research_slide_deck_banner.png?itok=vEX3wY04 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/program_on_survey_research_slide_deck_banner.png?itok=2G4SWasF 2x" type="image/png" width="360"/>
-<img alt='Geometric window next to text "Program on Survey Research"' height="180" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/program_on_survey_research_slide_deck_banner.png?itok=vEX3wY04" width="360"/>
+<img alt='Geometric window next to text "Program on Survey Research"' height="180" loading="eager" src="../../../images/live/harvard-iqss/files/program_on_survey_research_slide_deck_banner.png" width="360"/>
 </picture>
 </div>
 </div>
@@ -138,7 +138,7 @@ title: Scientific Programs
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="180" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/2025-08/Murray%20Archive_%20300x250.png?itok=SXQqk-vZ 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/2025-08/Murray%20Archive_%20300x250.png?itok=adUmDK4g 2x" type="image/png" width="360"/>
-<img alt='Headshot of Henry Murray next to the text "Henry A Murray Research Archive"' height="180" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/2025-08/Murray%20Archive_%20300x250.png?itok=SXQqk-vZ" width="360"/>
+<img alt='Headshot of Henry Murray next to the text "Henry A Murray Research Archive"' height="180" loading="eager" src="../../../images/live/2025-08/Murray%20Archive_%20300x250.png" width="360"/>
 </picture>
 </div>
 </div>
@@ -164,7 +164,7 @@ title: Scientific Programs
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="95" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/dlabss_logo_5.jpg?itok=5kroMeVD 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/dlabss_logo_5.jpg?itok=CSVppWA5 2x" type="image/jpeg" width="360"/>
-<img alt="dlabbs logo" height="95" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/dlabss_logo_5.jpg?itok=5kroMeVD" width="360"/>
+<img alt="dlabbs logo" height="95" loading="eager" src="../../../images/live/harvard-iqss/files/dlabss_logo_5.jpg" width="360"/>
 </picture>
 </div>
 </div>
@@ -182,7 +182,7 @@ title: Scientific Programs
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="180" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/human_flourishing_slide_deck_banner-transparent.jpg?itok=AjAFftPJ 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/human_flourishing_slide_deck_banner-transparent.jpg?itok=_aerrSqC 2x" type="image/jpeg" width="360"/>
-<img alt="Human Flourishing Program logo" height="180" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/human_flourishing_slide_deck_banner-transparent.jpg?itok=AjAFftPJ" width="360"/>
+<img alt="Human Flourishing Program logo" height="180" loading="eager" src="../../../images/live/harvard-iqss/files/human_flourishing_slide_deck_banner-transparent.jpg" width="360"/>
 </picture>
 </div>
 </div>
@@ -200,7 +200,7 @@ title: Scientific Programs
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="184" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/peblss_slide_deck_banner_2.jpg?itok=iZC20TSn 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/peblss_slide_deck_banner_2.jpg?itok=eAHZmXtn 2x" type="image/jpeg" width="360"/>
-<img alt="PEBLSS name overlaid on a photo of rocks" height="184" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/peblss_slide_deck_banner_2.jpg?itok=iZC20TSn" width="360"/>
+<img alt="PEBLSS name overlaid on a photo of rocks" height="184" loading="eager" src="../../../images/live/harvard-iqss/files/peblss_slide_deck_banner_2.jpg" width="360"/>
 </picture>
 </div>
 </div>
@@ -226,7 +226,7 @@ title: Scientific Programs
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="180" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/cbdb_logo_600x300.png?itok=67itnxnK 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/cbdb_logo_600x300.png?itok=Uzl4CUr- 2x" type="image/png" width="360"/>
-<img alt="China Biographical Database Logo" height="180" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/cbdb_logo_600x300.png?itok=67itnxnK" width="360"/>
+<img alt="China Biographical Database Logo" height="180" loading="eager" src="../../../images/live/harvard-iqss/files/cbdb_logo_600x300.png" width="360"/>
 </picture>
 </div>
 </div>
@@ -244,7 +244,7 @@ title: Scientific Programs
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="204" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/data_privacy_insights_banner_750x425.jpg?itok=rDQqZBwY 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/data_privacy_insights_banner_750x425.jpg?itok=VFzRuNeC 2x" type="image/jpeg" width="360"/>
-<img alt="Black padlock unlocked by noisy-textured gold key with Data Privacy Insights text" height="204" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/data_privacy_insights_banner_750x425.jpg?itok=rDQqZBwY" width="360"/>
+<img alt="Black padlock unlocked by noisy-textured gold key with Data Privacy Insights text" height="204" loading="eager" src="../../../images/live/harvard-iqss/files/data_privacy_insights_banner_750x425.jpg" width="360"/>
 </picture>
 </div>
 </div>
@@ -262,7 +262,7 @@ title: Scientific Programs
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="99" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/screen_shot_2019-05-28_at_2.41.59_pm.png?itok=7R20LHMx 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/screen_shot_2019-05-28_at_2.41.59_pm.png?itok=ZfK9I78n 2x" type="image/png" width="360"/>
-<img alt="data privacy lab" height="99" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/screen_shot_2019-05-28_at_2.41.59_pm.png?itok=7R20LHMx" width="360"/>
+<img alt="data privacy lab" height="99" loading="eager" src="../../../images/live/harvard-iqss/files/screen_shot_2019-05-28_at_2.41.59_pm.png" width="360"/>
 </picture>
 </div>
 </div>

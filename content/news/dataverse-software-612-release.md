@@ -8,7 +8,7 @@ subtitle: "September 28, 2026"
 author: "Philip Durbin"
 ---
 
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/dataverse_logo_600x400.jpg?itok=hGUsq8hM" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/dataverse_logo_600x400.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 by Philip Durbin
 

@@ -38,7 +38,7 @@ title: IQSS Startup Foundry Executive Fellows and Board of Advisors
 <source height="220" media="all and (min-width: 768px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_23_5__1024x220/public/harvard-iqss/files/startup-foundry-hero_alt_6x1.jpg?itok=OB8ORqVO 1x, /sites/g/files/omnuum8171/files/styles/hwp_23_5__2048x445/public/harvard-iqss/files/startup-foundry-hero_alt_6x1.jpg?itok=M_GeEvIh 2x" type="image/jpeg" width="1024"/>
 <source height="165" media="all and (min-width: 480px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_23_5__768x165/public/harvard-iqss/files/startup-foundry-hero_alt_6x1.jpg?itok=_k9zTojF 1x, /sites/g/files/omnuum8171/files/styles/hwp_23_5__1536x335/public/harvard-iqss/files/startup-foundry-hero_alt_6x1.jpg?itok=vxKcI6ep 2x" type="image/jpeg" width="768"/>
 <source height="205" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_21_9__480x205/public/harvard-iqss/files/startup-foundry-hero_alt_6x1.jpg?itok=jc6nx_82 1x, /sites/g/files/omnuum8171/files/styles/hwp_21_9__960x410/public/harvard-iqss/files/startup-foundry-hero_alt_6x1.jpg?itok=P3Ty8BMX 2x" type="image/jpeg" width="480"/>
-<img alt="Blue hex pattern peppered with digital icons and binary code" height="825" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_21_9__1920x825/public/harvard-iqss/files/startup-foundry-hero_alt_6x1.jpg?itok=wzqwQywY" width="1920"/>
+<img alt="Blue hex pattern peppered with digital icons and binary code" height="825" loading="eager" src="../../images/live/harvard-iqss/files/startup-foundry-hero_alt_6x1.jpg" width="1920"/>
 </picture>
 </div>
 </div>
@@ -73,7 +73,7 @@ title: IQSS Startup Foundry Executive Fellows and Board of Advisors
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="360" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/jacqueline-claudia_2025_5x7.jpg?itok=dD1LlML9 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/jacqueline-claudia_2025_5x7.jpg?itok=P1TV2PRq 2x" type="image/jpeg" width="288"/>
-<img alt="Jacqueline Claudia" height="360" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/jacqueline-claudia_2025_5x7.jpg?itok=dD1LlML9" width="288"/>
+<img alt="Jacqueline Claudia" height="360" loading="eager" src="../../images/live/harvard-iqss/files/jacqueline-claudia_2025_5x7.jpg" width="288"/>
 </picture>
 </div>
 </div>
@@ -91,7 +91,7 @@ title: IQSS Startup Foundry Executive Fellows and Board of Advisors
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="267" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/ilai-gescheit_2025_5x7.jpg?itok=58lt6LZO 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/ilai-gescheit_2025_5x7.jpg?itok=SwezOYik 2x" type="image/jpeg" width="213"/>
-<img alt="Illai Gescheit" height="267" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/ilai-gescheit_2025_5x7.jpg?itok=58lt6LZO" width="213"/>
+<img alt="Illai Gescheit" height="267" loading="eager" src="../../images/live/harvard-iqss/files/ilai-gescheit_2025_5x7.jpg" width="213"/>
 </picture>
 </div>
 </div>
@@ -109,7 +109,7 @@ title: IQSS Startup Foundry Executive Fellows and Board of Advisors
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="360" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/2025-11/Harris%20headshot%20new_0.jpg?itok=v56lPSHn 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/2025-11/Harris%20headshot%20new_0.jpg?itok=5zwoFySc 2x" type="image/jpeg" width="360"/>
-<img alt="Richard Harris" height="360" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/2025-11/Harris%20headshot%20new_0.jpg?itok=v56lPSHn" width="360"/>
+<img alt="Richard Harris" height="360" loading="eager" src="../../images/live/2025-11/Harris%20headshot%20new_0.jpg" width="360"/>
 </picture>
 </div>
 </div>
@@ -127,7 +127,7 @@ title: IQSS Startup Foundry Executive Fellows and Board of Advisors
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="360" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/craig-marris_2025_5x7.jpg?itok=QdHyQCLy 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/craig-marris_2025_5x7.jpg?itok=dXatLLdi 2x" type="image/jpeg" width="288"/>
-<img alt="Craig Marris" height="360" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/craig-marris_2025_5x7.jpg?itok=QdHyQCLy" width="288"/>
+<img alt="Craig Marris" height="360" loading="eager" src="../../images/live/harvard-iqss/files/craig-marris_2025_5x7.jpg" width="288"/>
 </picture>
 </div>
 </div>
@@ -145,7 +145,7 @@ title: IQSS Startup Foundry Executive Fellows and Board of Advisors
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="360" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/dean-marris_2025_5x7.jpg?itok=ZZ5TAZ0w 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/dean-marris_2025_5x7.jpg?itok=dmNGJtyJ 2x" type="image/jpeg" width="288"/>
-<img alt="Dean Marris" height="360" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/dean-marris_2025_5x7.jpg?itok=ZZ5TAZ0w" width="288"/>
+<img alt="Dean Marris" height="360" loading="eager" src="../../images/live/harvard-iqss/files/dean-marris_2025_5x7.jpg" width="288"/>
 </picture>
 </div>
 </div>
@@ -163,7 +163,7 @@ title: IQSS Startup Foundry Executive Fellows and Board of Advisors
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="360" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/2025-09/Divya%20Reddy_1.jpg?itok=spHyW5yK 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/2025-09/Divya%20Reddy_1.jpg?itok=f10OTCIN 2x" type="image/jpeg" width="360"/>
-<img alt="Divya Reddy" height="360" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/2025-09/Divya%20Reddy_1.jpg?itok=spHyW5yK" width="360"/>
+<img alt="Divya Reddy" height="360" loading="eager" src="../../images/live/2025-09/Divya%20Reddy_1.jpg" width="360"/>
 </picture>
 </div>
 </div>
@@ -181,7 +181,7 @@ title: IQSS Startup Foundry Executive Fellows and Board of Advisors
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="360" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/2025-09/C%20Fleming%20Headshot_1.jpg?itok=grNmpvPx 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/2025-09/C%20Fleming%20Headshot_1.jpg?itok=VJ9RuUFq 2x" type="image/jpeg" width="360"/>
-<img alt="Candace Fleming" height="360" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/2025-09/C%20Fleming%20Headshot_1.jpg?itok=grNmpvPx" width="360"/>
+<img alt="Candace Fleming" height="360" loading="eager" src="../../images/live/2025-09/C%20Fleming%20Headshot_1.jpg" width="360"/>
 </picture>
 </div>
 </div>
@@ -199,7 +199,7 @@ title: IQSS Startup Foundry Executive Fellows and Board of Advisors
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="360" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/2026-02/Melissa%20Bar-Ziv%20headshot.jpg?itok=CsdC1XLw 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/2026-02/Melissa%20Bar-Ziv%20headshot.jpg?itok=fvhGIyCa 2x" type="image/jpeg" width="288"/>
-<img alt="Melissa Bar-Ziv" height="360" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/2026-02/Melissa%20Bar-Ziv%20headshot.jpg?itok=CsdC1XLw" width="288"/>
+<img alt="Melissa Bar-Ziv" height="360" loading="eager" src="../../images/live/2026-02/Melissa%20Bar-Ziv%20headshot.jpg" width="288"/>
 </picture>
 </div>
 </div>
@@ -234,7 +234,7 @@ title: IQSS Startup Foundry Executive Fellows and Board of Advisors
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="360" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/ali-mahmoud_2025_5x7.jpg?itok=sRcPSz7R 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/ali-mahmoud_2025_5x7.jpg?itok=ByCN8qM9 2x" type="image/jpeg" width="288"/>
-<img alt="Ali Mahmoud" height="360" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/ali-mahmoud_2025_5x7.jpg?itok=sRcPSz7R" width="288"/>
+<img alt="Ali Mahmoud" height="360" loading="eager" src="../../images/live/harvard-iqss/files/ali-mahmoud_2025_5x7.jpg" width="288"/>
 </picture>
 </div>
 </div>
@@ -251,7 +251,7 @@ title: IQSS Startup Foundry Executive Fellows and Board of Advisors
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="319" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/teddy-blank_2025_5x7.jpg?itok=eKlithqh 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/teddy-blank_2025_5x7.jpg?itok=cfhpuakZ 2x" type="image/jpeg" width="255"/>
-<img alt="Teddy Blank" height="319" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/teddy-blank_2025_5x7.jpg?itok=eKlithqh" width="255"/>
+<img alt="Teddy Blank" height="319" loading="eager" src="../../images/live/harvard-iqss/files/teddy-blank_2025_5x7.jpg" width="255"/>
 </picture>
 </div>
 </div>
@@ -268,7 +268,7 @@ title: IQSS Startup Foundry Executive Fellows and Board of Advisors
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="360" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/kelly-kimball_2025b_5x7.jpeg?itok=x61ifBDA 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/kelly-kimball_2025b_5x7.jpeg?itok=kaCQHQx2 2x" type="image/jpeg" width="288"/>
-<img alt="Kelly Kimball" height="360" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/kelly-kimball_2025b_5x7.jpeg?itok=x61ifBDA" width="288"/>
+<img alt="Kelly Kimball" height="360" loading="eager" src="../../images/live/harvard-iqss/files/kelly-kimball_2025b_5x7.jpg" width="288"/>
 </picture>
 </div>
 </div>
@@ -285,7 +285,7 @@ title: IQSS Startup Foundry Executive Fellows and Board of Advisors
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="360" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/2025-11/Harris%20headshot%20new_0.jpg?itok=v56lPSHn 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/2025-11/Harris%20headshot%20new_0.jpg?itok=5zwoFySc 2x" type="image/jpeg" width="360"/>
-<img alt="Richard Harris" height="360" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/2025-11/Harris%20headshot%20new_0.jpg?itok=v56lPSHn" width="360"/>
+<img alt="Richard Harris" height="360" loading="eager" src="../../images/live/2025-11/Harris%20headshot%20new_0.jpg" width="360"/>
 </picture>
 </div>
 </div>
@@ -302,7 +302,7 @@ title: IQSS Startup Foundry Executive Fellows and Board of Advisors
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="360" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/2025-09/Divya%20Reddy_0.jpg?itok=Saz_xsa1 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/2025-09/Divya%20Reddy_0.jpg?itok=bpmJRFjQ 2x" type="image/jpeg" width="360"/>
-<img alt="Divya Reddy" height="360" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/2025-09/Divya%20Reddy_0.jpg?itok=Saz_xsa1" width="360"/>
+<img alt="Divya Reddy" height="360" loading="eager" src="../../images/live/2025-09/Divya%20Reddy_0.jpg" width="360"/>
 </picture>
 </div>
 </div>
@@ -319,7 +319,7 @@ title: IQSS Startup Foundry Executive Fellows and Board of Advisors
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="360" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/paul-hayre_2025_5x7.jpg?itok=7WjDS8Me 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/paul-hayre_2025_5x7.jpg?itok=woYCvOrq 2x" type="image/jpeg" width="288"/>
-<img alt="Paul Hayre" height="360" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/paul-hayre_2025_5x7.jpg?itok=7WjDS8Me" width="288"/>
+<img alt="Paul Hayre" height="360" loading="eager" src="../../images/live/harvard-iqss/files/paul-hayre_2025_5x7.jpg" width="288"/>
 </picture>
 </div>
 </div>
@@ -336,7 +336,7 @@ title: IQSS Startup Foundry Executive Fellows and Board of Advisors
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="360" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/2026-05/Dror%20Bar-Ziv%202026.jpeg?itok=-pCQ3I4m 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/2026-05/Dror%20Bar-Ziv%202026.jpeg?itok=06-glZss 2x" type="image/jpeg" width="360"/>
-<img alt="Dror Bar-Ziv" height="360" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/2026-05/Dror%20Bar-Ziv%202026.jpeg?itok=-pCQ3I4m" width="360"/>
+<img alt="Dror Bar-Ziv" height="360" loading="eager" src="../../images/live/2026-05/Dror%20Bar-Ziv%202026.jpg" width="360"/>
 </picture>
 </div>
 </div>
@@ -368,7 +368,7 @@ title: IQSS Startup Foundry Executive Fellows and Board of Advisors
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="360" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/gary-king-5x7.jpg?itok=PyWxRN8r 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/gary-king-5x7.jpg?itok=y_FQ3z5F 2x" type="image/jpeg" width="257"/>
-<img alt="Gary King" height="360" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/gary-king-5x7.jpg?itok=PyWxRN8r" width="257"/>
+<img alt="Gary King" height="360" loading="eager" src="../../images/live/harvard-iqss/files/gary-king-5x7.jpg" width="257"/>
 </picture>
 </div>
 </div>
@@ -385,7 +385,7 @@ title: IQSS Startup Foundry Executive Fellows and Board of Advisors
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="350" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/2025-06/e-jackson-photo.jpeg?itok=9SoSRjm0 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/2025-06/e-jackson-photo.jpeg?itok=UvEWwJ2W 2x" type="image/jpeg" width="250"/>
-<img alt="e-jackson-photo" height="350" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/2025-06/e-jackson-photo.jpeg?itok=9SoSRjm0" width="250"/>
+<img alt="e-jackson-photo" height="350" loading="eager" src="../../images/live/2025-06/e-jackson-photo.jpg" width="250"/>
 </picture>
 </div>
 </div>
@@ -402,7 +402,7 @@ title: IQSS Startup Foundry Executive Fellows and Board of Advisors
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="360" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/2025-11/Debi-Kleiman_2025-2_0.jpg?itok=dwCEOKKI 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/2025-11/Debi-Kleiman_2025-2_0.jpg?itok=WHPDVTNa 2x" type="image/jpeg" width="257"/>
-<img alt="Debi Kleiman headshot" height="360" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/2025-11/Debi-Kleiman_2025-2_0.jpg?itok=dwCEOKKI" width="257"/>
+<img alt="Debi Kleiman headshot" height="360" loading="eager" src="../../images/live/2025-11/Debi-Kleiman_2025-2_0.jpg" width="257"/>
 </picture>
 </div>
 </div>
@@ -419,7 +419,7 @@ title: IQSS Startup Foundry Executive Fellows and Board of Advisors
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="360" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/2026-02/Brad-Rosen_2026.JPG?itok=0Y3iN7hS 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/2026-02/Brad-Rosen_2026.JPG?itok=BhLQKJzm 2x" type="image/jpeg" width="303"/>
-<img alt="Brad Rosen" height="360" loading="eager" src="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/2026-02/Brad-Rosen_2026.JPG?itok=0Y3iN7hS" width="303"/>
+<img alt="Brad Rosen" height="360" loading="eager" src="../../images/live/2026-02/Brad-Rosen_2026.jpg" width="303"/>
 </picture>
 </div>
 </div>

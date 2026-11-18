@@ -9,7 +9,7 @@ role: ["Visiting Scholars, Fellows, & General Affiliates"]
 program: ["Dataverse Project"]
 ---
 
-<img src="../../images/live/harvard-iqss/files/james-myers_2023.png" alt="James D Myers" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/james-myers_2023.png" alt="Jim Myers" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## James D Myers
 

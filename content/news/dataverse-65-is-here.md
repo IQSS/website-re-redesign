@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "January 22, 2025"
 ---
 
-<img src="../../images/live/dataverse_project_logo_square.png" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/dataverse_project_logo_square.png" alt="Dataverse Project logo" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 The Dataverse Project is pleased to announce the release of version 6.5, bringing a robust set of new features, enhancements, and bug fixes to the world's most widely adopted open-source research data repository platform. This release reflects months of collaborative development by contributors from institutions around the globe, continuing Dataverse's evolution as an essential infrastructure for research data management and sharing.
 

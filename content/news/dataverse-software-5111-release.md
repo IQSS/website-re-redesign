@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "August 08, 2022"
 ---
 
-<img src="../../images/live/dataverse_project_logo2_1_03.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/dataverse_project_logo2_1_03.jpg" alt="dataverse_project_logo2_1_02" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 The Dataverse Project has announced the release of version 5.11.1, a maintenance update focused on addressing critical bugs and improving system stability. This patch release is part of the Dataverse team's commitment to providing reliable, production-ready software for research data repositories around the world.
 

@@ -29,7 +29,7 @@ layout: "people-category"
 </div>
 
 <div class="people-card">
-<div class="people-card-image"><img src="../images/live/harvard-iqss/files/felix_chen_headshot.jpg" alt="Felix Chen" /></div>
+<div class="people-card-image"><img src="../images/live/harvard-iqss/files/felix_chen_headshot.jpg" alt="felix_chen_headshot`" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Felix Chen</div>
 <div class="people-card-title">Undergraduate Research Scholar</div>
@@ -37,7 +37,7 @@ layout: "people-category"
 </div>
 
 <div class="people-card">
-<div class="people-card-image"><img src="../images/live/harvard-iqss/files/headshot_1_-_iris_cheng.png" alt="Iris Gong Cheng" /></div>
+<div class="people-card-image"><img src="../images/live/harvard-iqss/files/headshot_1_-_iris_cheng.png" alt="iris_cheng" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Iris Gong Cheng</div>
 <div class="people-card-title">Undergraduate Research Scholar</div>
@@ -45,7 +45,7 @@ layout: "people-category"
 </div>
 
 <div class="people-card">
-<div class="people-card-image"><img src="../images/live/harvard-iqss/files/alina_esanu_headshot_0.jpg" alt="Alina Esanu" /></div>
+<div class="people-card-image"><img src="../images/live/harvard-iqss/files/alina_esanu_headshot_0.jpg" alt="Alina Esanu headshot" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Alina Esanu</div>
 <div class="people-card-title">IQSS Undergraduate Research Scholar</div>
@@ -61,7 +61,7 @@ layout: "people-category"
 </div>
 
 <div class="people-card">
-<div class="people-card-image"><img src="../images/live/harvard-iqss/files/gao_caroline_headshot_-_caroline_gao.jpg" alt="Caroline Gao" /></div>
+<div class="people-card-image"><img src="../images/live/harvard-iqss/files/gao_caroline_headshot_-_caroline_gao.jpg" alt="caroline_gao" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Caroline Gao</div>
 <div class="people-card-title">IQSS Undergraduate Research Scholar</div>
@@ -69,7 +69,7 @@ layout: "people-category"
 </div>
 
 <div class="people-card">
-<div class="people-card-image"><img src="../images/live/harvard-iqss/files/jack-hayes_2023.png" alt="Jack Hayes" /></div>
+<div class="people-card-image"><img src="../images/live/harvard-iqss/files/jack-hayes_2023.png" alt="jack-hayes_2023.png" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Jack Hayes</div>
 <div class="people-card-title">Geospatial Data Scientist, CGA</div>
@@ -125,7 +125,7 @@ layout: "people-category"
 </div>
 
 <div class="people-card">
-<div class="people-card-image"><img src="../images/live/harvard-iqss/files/id_-_han_nguyen.jpg" alt="Han Nguyen" /></div>
+<div class="people-card-image"><img src="../images/live/harvard-iqss/files/id_-_han_nguyen.jpg" alt="han_nguyen" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Han Nguyen</div>
 <div class="people-card-title">IQSS Undergraduate Research Scholar</div>

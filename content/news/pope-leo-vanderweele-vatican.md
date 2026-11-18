@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "February 20, 2026"
 ---
 
-<img src="../../images/live/2026-02/gazette_Tyler_Vanderweele_Isolation_NS_415.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/2026-02/gazette_Tyler_Vanderweele_Isolation_NS_415.jpg" alt="Tyler VanderWeele" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 Tyler VanderWeele, the John L. Loeb and Frances Lehman Loeb Professor of Epidemiology at the Harvard T.H. Chan School of Public Health and director of the Human Flourishing Program at IQSS, has been appointed by Pope Leo XIV to the Pontifical Academy of Social Sciences. This prestigious appointment recognizes VanderWeele's groundbreaking work on human flourishing, well-being, and the role of faith and virtue in health and society.
 

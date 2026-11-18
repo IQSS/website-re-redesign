@@ -6,7 +6,7 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "March 21, 2019"
 ---
-<img src="../../images/live/harvard-iqss/files/gary_and_sid_5-1.png" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/gary_and_sid_5-1.png" alt="Gary and Sid" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 A tribute to Sidney Verba of Harvard, who passed on March 4, 2019. Verba was a towering figure in political science whose work on political participation, civic engagement, and democratic theory influenced generations of scholars. He was also a founding influence on what would become IQSS.
 

@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "July 30, 2020"
 ---
 
-<img src="../../images/live/harvard-iqss/files/hdsi_logo_horizontal_whtbkgd_sq.png" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/hdsi_logo_horizontal_whtbkgd_sq.png" alt="Harvard Data Science Initiative shield and initials" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 The Harvard Data Science Initiative (HDSI), led by IQSS affiliate Professor Xiao-Li Meng, has received a prestigious $1 million grant from the Alfred P. Sloan Foundation to advance research at the intersection of causal inference and machine learning. This significant funding recognizes the importance of integrating these two powerful approaches to data analysis and supports HDSI's mission to advance data science methods that address pressing societal challenges.
 

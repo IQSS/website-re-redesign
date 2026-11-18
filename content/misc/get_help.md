@@ -95,7 +95,7 @@ title: Get Help
 <div class="hwp-media hwp-media--16-9-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="270" media="all and (min-width: 0)" srcset="../../images/live/2025-08/computer-problem-icon.png" type="image/png" width="480"/>
-<img alt="client support" height="270" loading="eager" src="../../images/live/2025-08/computer-problem-icon.png" width="480"/>
+<img alt="Get Help with a Computer or Network Problem" height="270" loading="eager" src="../../images/live/2025-08/computer-problem-icon.png" width="480"/>
 </picture>
 </div>
 </div>
@@ -163,7 +163,7 @@ title: Get Help
 <div class="hwp-media hwp-media--16-9-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="270" media="all and (min-width: 0)" srcset="../../images/live/2025-08/computer-labs-icon%201.png" type="image/png" width="480"/>
-<img alt="computer-labs" height="270" loading="eager" src="../../images/live/2025-08/computer-labs-icon%201.png" width="480"/>
+<img alt="computer icon" height="270" loading="eager" src="../../images/live/2025-08/computer-labs-icon%201.png" width="480"/>
 </picture>
 </div>
 </div>
@@ -225,6 +225,3 @@ title: Get Help
 </div>
 </main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/get-help](https://www.iq.harvard.edu/get-help)*

@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "September 23, 2022"
 ---
 
-<img src="../../images/live/harvard-iqss/files/opendp_logo_square.png" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/opendp_logo_square.png" alt="Open DP logo with starburst icon and name" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 The OpenDP Project is excited to announce the release of OpenDP Library 0.5, introducing significant architectural improvements that provide a more flexible and powerful approach to tracking privacy budgets and composing differentially private algorithms. This release represents a major step forward in making differential privacy more accessible and practical for real-world data analysis workflows.
 

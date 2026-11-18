@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "April 19, 2023"
 ---
 
-<img src="../../images/live/iqss-square-logo_transparent.png" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/iqss-square-logo_transparent.png" alt="two orange rings interlocked and stacked vertically with the text IQSS" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 *by Liz Salazar*
 

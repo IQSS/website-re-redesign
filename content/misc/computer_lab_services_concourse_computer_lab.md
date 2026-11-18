@@ -28,7 +28,7 @@ title: Concourse Computer Lab
 <div class="hwp-text-block field field--name-field-hwp-body field--type-text-long field--label-hidden"><p> </p><div class="hwp-media hwp-media--large">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="449" media="all and (min-width: 0)" srcset="../../images/live/harvard-iqss/files/img_0029_01_01.jpg" type="image/jpeg" width="800"/>
-<img alt="computer lab" height="449" loading="eager" src="../../images/live/harvard-iqss/files/img_0029_01_01.jpg" width="800"/>
+<img alt="Suso Baleato outside CGIS Knafel" height="449" loading="eager" src="../../images/live/harvard-iqss/files/img_0029_01_01.jpg" width="800"/>
 </picture>
 </div>
 </div>
@@ -41,6 +41,3 @@ title: Concourse Computer Lab
 </div>
 </main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/computer-lab-services/concourse-computer-lab](https://www.iq.harvard.edu/computer-lab-services/concourse-computer-lab)*

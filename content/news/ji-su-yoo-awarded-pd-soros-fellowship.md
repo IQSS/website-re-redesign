@@ -6,7 +6,7 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "April 15, 2020"
 ---
-<img src="../../images/live/harvard-iqss/files/ji_su_yoo_0.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/ji_su_yoo_0.jpg" alt="Ji Su Yoo" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 Ji Su Yoo, a Harvard alumna and IQSS Fellow, was named a 2020 recipient of the Paul & Daisy Soros Fellowship for New Americans. The prestigious fellowship supports outstanding graduate students who are immigrants or children of immigrants in the United States.
 

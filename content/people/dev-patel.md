@@ -8,7 +8,7 @@ subtitle: "Prize Fellow in Economics, History, and Politics"
 role: ["Visiting Scholars, Fellows, & General Affiliates"]
 ---
 
-<img src="../../images/live/harvard-iqss/files/dev_patel_headshot_1.jpg" alt="Dev Patel" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/dev_patel_headshot_1.jpg" alt="dev_patel" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Dev Patel
 

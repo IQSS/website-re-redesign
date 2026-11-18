@@ -6,7 +6,7 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "September 11, 2023"
 ---
-<img src="../../images/live/harvard-iqss/files/opendp_logo_draft4_square_600x600-wht.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/opendp_logo_draft4_square_600x600-wht.jpg" alt="Open DP logo with starburst icon and name" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 The OpenDP team announced the release of OpenDP Library 0.8, a modular collection of algorithms for building privacy-preserving applications. This version focuses on expanding the library's capabilities while maintaining its commitment to mathematical rigor and verified privacy guarantees.
 

@@ -394,7 +394,7 @@ title: Data Science Services
 <source height="600" media="all and (min-width: 768px)" srcset="../../images/live/harvard-iqss/files/dan-yuan_2023.jpg" type="image/jpeg" width="480"/>
 <source height="865" media="all and (min-width: 480px)" srcset="../../images/live/harvard-iqss/files/dan-yuan_2023.jpg" type="image/jpeg" width="690"/>
 <source height="600" media="all and (min-width: 0)" srcset="../../images/live/harvard-iqss/files/dan-yuan_2023.jpg" type="image/jpeg" width="480"/>
-<img alt="dan-yuan_2023.jpg" height="865" loading="eager" src="../../images/live/harvard-iqss/files/dan-yuan_2023.jpg" width="690"/>
+<img alt="Dan Yuan" height="865" loading="eager" src="../../images/live/harvard-iqss/files/dan-yuan_2023.jpg" width="690"/>
 </picture>
 </div>
 </div>
@@ -418,6 +418,3 @@ title: Data Science Services
 </div>
 </main>
 
----
-
-*Original source: [https://dss.iq.harvard.edu/](https://dss.iq.harvard.edu/)*

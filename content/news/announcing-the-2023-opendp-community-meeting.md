@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "July 07, 2023"
 ---
 
-<img src="../../images/live/harvard-iqss/files/opendp_logo_square.png" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/opendp_logo_square.png" alt="Open DP logo with starburst icon and name" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 The OpenDP Project is thrilled to announce the first in-person OpenDP Community Meeting, bringing together researchers, developers, and practitioners working at the intersection of data privacy, statistical analysis, and open-source software development. This historic gathering marks an important milestone for the OpenDP ecosystem, providing a venue for face-to-face collaboration, knowledge sharing, and community building around practical differential privacy tools.
 

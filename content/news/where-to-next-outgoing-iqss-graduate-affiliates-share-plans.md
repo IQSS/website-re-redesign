@@ -6,7 +6,7 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "May 20, 2024"
 ---
-<img src="../../images/live/graduation-cap-with-gold-tassle_sq.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/graduation-cap-with-gold-tassle_sq.jpg" alt="Closeup of graduation cap" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 IQSS staff piece about departing graduate student affiliates from programs across Harvard and their future plans. Each year, the end of the academic year brings the departure of affiliated graduate students who have been active in social science research.
 

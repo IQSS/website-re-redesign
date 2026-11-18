@@ -6,7 +6,7 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "March 03, 2023"
 ---
-<img src="../../images/live/harvard-iqss/files/dataverse_project_logo2_1_02.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/dataverse_project_logo2_1_02.jpg" alt="dataverse_project_logo2_1_02" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 Philip Durbin recounts a visit by five colleagues to Seoul National University for Dataverse talks and training, hosted by Professor Wonsuk Lee. The trip reflects the Dataverse Project's growing international presence and commitment to supporting installations worldwide.
 

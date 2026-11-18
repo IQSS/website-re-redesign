@@ -4,6 +4,7 @@ date: 2026-05-28
 draft: false
 layout: "resource-page"
 hero_image: "images/affiliates.jpg"
+hero_image_alt: "iqss affiliates"
 subtitle: "Become an active contributing member of the IQSS community"
 ---
 

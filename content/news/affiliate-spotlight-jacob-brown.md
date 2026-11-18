@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "May 05, 2022"
 ---
 
-<img src="../../images/live/harvard-iqss/files/jacob_brown_2022.png" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/jacob_brown_2022.png" alt="Jacob Brown" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 Jacob is a resident graduate student at IQSS who is graduating this spring with a PhD in Government and Social Policy. If you see him around CGIS, be sure to wish him congratulations and good luck!
 

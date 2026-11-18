@@ -6,7 +6,7 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "September 09, 2024"
 ---
-<img src="../../images/live/dataverse_project_logo2_1_03.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/dataverse_project_logo2_1_03.jpg" alt="dataverse_project_logo2_1_02" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 The Dataverse Project, developed at IQSS, has surpassed 100 installations worldwide, marking a significant milestone in its mission to make research data sharing accessible to scholars globally. This growth reflects the platform's adoption across universities, research institutions, and government agencies on every continent.
 

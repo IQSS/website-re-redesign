@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "September 25, 2025"
 ---
 
-<img src="../../images/live/2025-09/Memorious%20logo%203x2.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/2025-09/Memorious%20logo%203x2.jpg" alt="Memorious logo" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 Forgetting is universal—conversations, names, moments all slip away. But what if it were optional? That's the ambitious vision behind [Memorious](http://memorious.io/), a company founded by Spandan Madan and Gabriel Kreiman at Harvard. Their goal is to reinvent human memory using AI, building tools that allow people to recall experiences, conversations, and information instantly without searching or prompting.
 

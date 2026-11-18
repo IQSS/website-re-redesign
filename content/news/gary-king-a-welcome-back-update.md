@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "August 19, 2021"
 ---
 
-<img src="../../images/live/harvard-iqss/files/iqss-stairs.png" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/iqss-stairs.png" alt="iqss-stairs" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 **Dear:** IQSS Staff and Affiliates  
 **From:** Gary King, Director IQSS  

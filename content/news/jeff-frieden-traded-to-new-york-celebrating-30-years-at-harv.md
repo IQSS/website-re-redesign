@@ -6,7 +6,7 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "May 17, 2024"
 ---
-<img src="../../images/live/jeff-frieden_2024.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/jeff-frieden_2024.jpg" alt="Jeff Frieden" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 A celebration of Jeffry Frieden—a die-hard Yankees fan—and his 30 years at Harvard. Frieden, an IQSS faculty affiliate and Stanfield Professor of International Peace, has been a leading scholar of international political economy throughout his distinguished career.
 

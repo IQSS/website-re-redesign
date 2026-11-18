@@ -119,7 +119,7 @@ title: Equipment Information
 </div></td><td><div class="hwp-table__cell-content"><ul><li><a class="hwp-link" href="/file_url/2105"><strong>HP Color LaserJet M553</strong></a></li><li>Type: Color Laser Printer:</li><li>Locations: K003 and K301 Labs</li><li>Machines Available: 2</li></ul></div></td></tr></tbody></table><div aria-live="polite" class="hwp-visually-hidden" id="sort-note"></div></div><h2>Scanners</h2><span id="sort-hint" style="display:none;">Sort</span><div class="hwp-table-wrap"><table class="hwp-table js-hwp-table dataTable"><tbody><tr><td><div class="hwp-table__cell-content"><div class="hwp-media hwp-media--small">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="205" media="all and (min-width: 0)" srcset="../../images/live/harvard-iqss/files/img_9230.png" type="image/png" width="360"/>
-<img alt="Scanner" height="205" loading="eager" src="../../images/live/harvard-iqss/files/img_9230.png" width="360"/>
+<img alt="Suso Baleato outside CGIS Knafel" height="205" loading="eager" src="../../images/live/harvard-iqss/files/img_9230.png" width="360"/>
 </picture>
 </div>
 </div>
@@ -174,6 +174,3 @@ title: Equipment Information
 </div>
 </main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/equipment-information](https://www.iq.harvard.edu/equipment-information)*

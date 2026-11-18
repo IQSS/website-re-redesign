@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "September 06, 2023"
 ---
 
-<img src="../../images/live/harvard-iqss/files/axle1-truck-data_sq.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/axle1-truck-data_sq.jpg" alt="illustration of a truck with connected icons representing vehicle and driver information" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 *by Courtney Hayes*
 

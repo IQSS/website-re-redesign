@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "May 09, 2022"
 ---
 
-<img src="../../images/live/harvard-iqss/files/stefano-iacus_2022-a.png" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/stefano-iacus_2022-a.png" alt="Stefano Iacus" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 The Institute for Quantitative Social Science is delighted to welcome Dr. Stefano Iacus as Senior Research Scientist, bringing extensive expertise in computational statistics, time series analysis, and statistical software development to IQSS's research and methodological innovation initiatives. Dr. Iacus's arrival strengthens IQSS's capacity to support cutting-edge quantitative research and advance the development of statistical tools used by scholars worldwide.
 

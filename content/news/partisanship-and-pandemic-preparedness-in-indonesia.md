@@ -6,7 +6,7 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "February 16, 2021"
 ---
-<img src="../../images/live/harvard-iqss/files/seth_soderberg_0.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/seth_soderberg_0.jpg" alt="Seth Soderborg" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 Seth Soderborg explores how partisan politics in Indonesia can affect pandemic preparedness decisions, drawing parallels with U.S. experiences during COVID-19. His research examines whether the politicization of public health measures observed in American politics also manifests in other democratic contexts.
 

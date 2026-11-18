@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "March 07, 2016"
 ---
 
-<img src="../../images/live/harvard-iqss/files/iqss_square_logo_no_text_02.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/iqss_square_logo_no_text_02.jpg" alt="iqss_square_logo_no_text" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 IQSS faculty members and graduate students have entered a major scientific debate by challenging influential claims about the so-called replicability crisis in psychology. Their work questions the interpretation of a large-scale replication study that appeared to show widespread failure to reproduce findings from published psychology research, arguing that the original analysis may have overstated problems with replicability and potentially mischaracterized the state of psychological science.
 

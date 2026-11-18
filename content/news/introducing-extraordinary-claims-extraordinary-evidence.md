@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "February 07, 2022"
 ---
 
-<img src="../../images/live/harvard-iqss/files/ecee-hero-2.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/ecee-hero-2.jpg" alt="close up of hands on printed graphs and charts" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 *by Elizabeth Salazar*
 

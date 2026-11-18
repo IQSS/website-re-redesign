@@ -4,6 +4,7 @@ date: 2026-05-28
 draft: false
 layout: "resource-page"
 hero_image: "images/client-services-hero.jpg"
+hero_image_alt: "client-services-hero.jpg"
 subtitle: "Our friendly, dedicated, and highly-skilled staff can provide support for all of your hardware and software needs."
 ---
 

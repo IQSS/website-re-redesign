@@ -6,7 +6,7 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "May 04, 2020"
 ---
-<img src="../../images/live/harvard-iqss/files/dell_melissa_2020_head.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/dell_melissa_2020_head.jpg" alt="Melissa Dell headshot portrait" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 IQSS faculty affiliate Melissa Dell received the American Economic Association's 2020 John Bates Clark Medal, granted annually to an economist under 40 judged to have made the most significant contributions to economic thought and knowledge. The medal is often considered a precursor to the Nobel Prize in Economics.
 

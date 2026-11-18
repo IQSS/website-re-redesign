@@ -9,7 +9,7 @@ role: ["Affiliated Faculty"]
 program: ["Center for Geographic Analysis"]
 ---
 
-<img src="../../images/live/harvard-iqss/files/robert_sampson_0.jpg" alt="" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/robert_sampson_0.jpg" alt="Robert Sampson" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Robert Sampson
 

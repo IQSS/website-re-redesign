@@ -8,7 +8,7 @@ subtitle: "Manager, IQSS Computer Lab Services"
 role: ["Staff"]
 ---
 
-<img src="../../images/live/harvard-iqss/files/Randy-Kiessig_2019.jpg" alt="Rand Kiessig" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/Randy-Kiessig_2019.jpg" alt="Randy Kiessig" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Rand Kiessig
 

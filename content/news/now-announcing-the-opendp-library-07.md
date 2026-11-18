@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "June 12, 2023"
 ---
 
-<img src="../../images/live/harvard-iqss/files/opendp_logo_draft4_square_600x600-wht.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/opendp_logo_draft4_square_600x600-wht.jpg" alt="Open DP logo with starburst icon and name" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 The OpenDP Project is excited to announce the release of OpenDP Library 0.7, featuring important architectural additions that expand the framework's flexibility and power for building differentially private systems. These architectural enhancements provide developers with more sophisticated tools for composing privacy-preserving analyses while maintaining the rigorous mathematical guarantees that are central to OpenDP's mission.
 

@@ -6,7 +6,7 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "February 22, 2022"
 ---
-<img src="../../images/live/harvard-iqss/files/canadian-trucker-protest_naomi-mckinney-1zl16crlnv0-unsplash.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/canadian-trucker-protest_naomi-mckinney-1zl16crlnv0-unsplash.jpg" alt="Line of Canadian trucks on the road, with banners on their fronts that say &quot;FREEDOM&quot;" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 IQSS Future of Media Project fellow Heidi Legg published a Canadian Media Ownership Index detailing ownership and digital consumption patterns of Canada's top 125 news outlets. The research comes at a critical time for media industry analysis, as ownership concentration raises questions about editorial independence and information diversity.
 

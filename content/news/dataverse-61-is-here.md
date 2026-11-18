@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "December 20, 2023"
 ---
 
-<img src="../../images/live/harvard-iqss/files/dataverse_project_logo2_1_02.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/dataverse_project_logo2_1_02.jpg" alt="dataverse_project_logo2_1_02" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 The Dataverse Project is pleased to announce the release of version 6.1, the first feature release following the major 6.0 platform upgrade. This release showcases the strength of community-driven development, with significant contributions from institutions and developers across the global Dataverse network who are collectively shaping the future of open-source research data infrastructure.
 

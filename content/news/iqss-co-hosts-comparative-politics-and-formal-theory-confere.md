@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "June 23, 2022"
 ---
 
-<img src="../../images/live/harvard-iqss/files/cpft_2022_poster_session_square.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/cpft_2022_poster_session_square.jpg" alt="Conference poster session" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 IQSS co-hosted the 8th Comparative Politics and Formal Theory (CPFT) Conference at Harvard, bringing together political scientists who use formal modeling and rigorous empirical methods to study comparative politics. This specialized conference provides a venue for researchers working at the intersection of game theory, formal models, and comparative political analysis to present work, receive feedback, and build connections across institutions. The gathering reflects IQSS's commitment to supporting methodologically sophisticated political science research.
 

@@ -4,6 +4,7 @@ date: 2026-05-28
 draft: false
 layout: "resource-page"
 hero_image: "images/impact-banner.jpg"
+hero_image_alt: "people talking"
 subtitle: "IQSS encourages and allows researchers to think more expansively and take on projects that would otherwise have been impossible."
 ---
 
@@ -180,7 +181,7 @@ These are examples of how IQSS drives tangible change in the world.
 
 <a class="impact-tile" href="../news/data-science-services-at-iqss-harnessing-data-interpretation/">
 <div class="impact-media">
-<img src="../images/live/harvard-iqss/files/dataviz-laptop_carlos-muza_3x2.jpg" alt="Laptop displaying analytical data" />
+<img src="../images/live/harvard-iqss/files/dataviz-laptop_carlos-muza_3x2.jpg" alt="laptop displaying analytical data" />
 </div>
 <div class="impact-body"><h3>Harnessing Data Interpretation for Academic Advancement</h3></div>
 <div class="impact-reveal">
@@ -202,7 +203,7 @@ These are examples of how IQSS drives tangible change in the world.
 
 <a class="impact-tile" href="../news/data-highway-a-trailblazing-journey-into-trucking/">
 <div class="impact-media">
-<img src="../images/live/harvard-iqss/files/axle1-truck-data.jpg" alt="Illustration of a truck with attached icons representing location, vehicle, and driver data" />
+<img src="../images/live/harvard-iqss/files/axle1-truck-data.jpg" alt="illustration of truck with attched icons representing location, vehicle, and driver data" />
 </div>
 <div class="impact-body"><h3>Trailblazing a Path into Trucking for the 21st Century</h3></div>
 <div class="impact-reveal">

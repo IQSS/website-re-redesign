@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "May 26, 2026"
 ---
 
-<img src="../../images/live/graduation-cap-with-gold-tassle_sq.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/graduation-cap-with-gold-tassle_sq.jpg" alt="Closeup of graduation cap" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 The IQSS community includes affiliated graduate students across Harvard University engaged in social science research. As the academic year ends, some graduate students complete their programs and move on. Below are updates from graduating affiliates continuing their work beyond Harvard.
 

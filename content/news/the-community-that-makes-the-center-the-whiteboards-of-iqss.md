@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "November 24, 2021"
 ---
 
-<img src="../../images/live/harvard-iqss/files/gary-king-2018.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/gary-king-2018.jpg" alt="Gary King" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 **by Gary King**
 

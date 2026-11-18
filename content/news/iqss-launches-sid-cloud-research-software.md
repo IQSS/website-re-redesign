@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "January 24, 2018"
 ---
 
-<img src="../../images/live/sid_launch_sid_and_gary-2_1.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/sid_launch_sid_and_gary-2_1.jpg" alt="sid_launch_sid_and_gary-2.jpg" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 IQSS has launched Sid, a groundbreaking cloud-agnostic multi-user research computing platform that revolutionizes how researchers access and use high-performance computing resources. Named in honor of Sidney Verba, the pioneering political scientist who championed making research resources accessible to all scholars, Sid provides an intuitive web-based interface that democratizes access to powerful computing capabilities without requiring deep technical expertise in command-line computing or system administration.
 

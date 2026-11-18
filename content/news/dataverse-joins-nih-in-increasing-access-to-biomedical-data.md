@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "January 26, 2022"
 ---
 
-<img src="../../images/live/harvard-iqss/files/dataverse_project_logo2_1_02.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/dataverse_project_logo2_1_02.jpg" alt="dataverse_project_logo2_1_02" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 The Dataverse Project has joined a major National Institutes of Health data curation initiative aimed at increasing access to biomedical data and supporting the NIH's commitment to open science and data sharing. This partnership positions Dataverse as a key infrastructure component in the NIH's strategy to ensure that federally funded biomedical research data is preserved, accessible, and reusable by the scientific community, accelerating the pace of discovery and maximizing the return on research investment.
 

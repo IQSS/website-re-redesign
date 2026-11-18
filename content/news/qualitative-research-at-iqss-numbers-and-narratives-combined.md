@@ -6,7 +6,7 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "June 09, 2021"
 ---
-<img src="../../images/live/harvard-iqss/files/iqss_square_logo_no_text_transparent.png" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/iqss_square_logo_no_text_transparent.png" alt="IQSS logo" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 Qualitative research forms the backbone of our knowledge about human society. Social scientists at IQSS explore crime, corruption, race, culture, violence, and well-being using methods that go beyond numbers to capture the richness of human experience.
 

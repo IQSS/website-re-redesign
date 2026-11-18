@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "April 03, 2023"
 ---
 
-<img src="../../images/live/harvard-iqss/files/blm-protestor-georgia_square.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/blm-protestor-georgia_square.jpg" alt="Police officer confronts BLM protester in Georgia in 2020" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 *by Courtney Hayes*
 

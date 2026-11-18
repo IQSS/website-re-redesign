@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "February 18, 2025"
 ---
 
-<img src="../../images/live/dataverse_project_logo_square.png" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/dataverse_project_logo_square.png" alt="Dataverse Project logo" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 The Dataverse Project is excited to announce a call for proposals for the 2025 Dataverse Community Meeting, which will be hosted at the University of North Carolina at Chapel Hill. This annual gathering is the premier event for the global Dataverse community, and the program committee invites submissions from repository administrators, developers, researchers, data professionals, and anyone working with or interested in the Dataverse platform.
 

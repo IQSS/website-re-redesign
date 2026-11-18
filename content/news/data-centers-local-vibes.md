@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "April 27, 2026"
 ---
 
-<img src="../../images/live/harvard-iqss/files/ansolabehere_stephen_2x3_ratio_large.png" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/ansolabehere_stephen_2x3_ratio_large.png" alt="ansolabehere_stephen_2x3_ratio_large.png" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 A survey led by faculty affiliate Stephen Ansolabehere, the Elting R. Morison Professor of Political Science and Professor of Government at Harvard, explores what Americans prioritize regarding large data centers opening in their communities. The research found that local community concerns matter more to residents than electricity pricing when it comes to data center siting decisions, challenging conventional assumptions about public priorities in infrastructure development.
 

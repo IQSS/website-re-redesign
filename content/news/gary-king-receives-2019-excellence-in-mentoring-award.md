@@ -6,7 +6,7 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "June 20, 2019"
 ---
-<img src="../../images/live/harvard-iqss/files/050515_gary_king_007_338065_708973_2.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/050515_gary_king_007_338065_708973_2.jpg" alt="Gary King" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 The Society for Political Methodology named Gary King, Albert J. Weatherhead III University Professor and IQSS Director, as the 2019 recipient of the Excellence in Mentoring Award. The award recognizes sustained contributions to training the next generation of political methodologists.
 

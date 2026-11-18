@@ -8,7 +8,7 @@ subtitle: "IT Client Support Services Associate"
 role: ["Staff"]
 ---
 
-<img src="../../images/live/harvard-iqss/files/cameron-harvey_capacitors_0.jpg" alt="Cameron Harvey" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/cameron-harvey_capacitors_0.jpg" alt="a circuit board" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Cameron Harvey
 

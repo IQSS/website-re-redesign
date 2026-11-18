@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "May 24, 2023"
 ---
 
-<img src="../../images/live/harvard-iqss/files/computer-lab_2023sq.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/computer-lab_2023sq.jpg" alt="Mac Pro in the Knafel computer lab" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 **by Danielle Benaroche Gottesman**
 

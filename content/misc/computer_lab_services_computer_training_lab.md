@@ -28,7 +28,7 @@ title: Computer Training Room
 <div class="hwp-text-block field field--name-field-hwp-body field--type-text-long field--label-hidden"><div class="hwp-media hwp-media--large">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="720" media="all and (min-width: 0)" srcset="../../images/live/harvard-iqss/files/img_4937.jpg" type="image/jpeg" width="960"/>
-<img alt="SB12 Training Room" height="720" loading="eager" src="../../images/live/harvard-iqss/files/img_4937.jpg" width="960"/>
+<img alt="Suso Baleato outside CGIS Knafel" height="720" loading="eager" src="../../images/live/harvard-iqss/files/img_4937.jpg" width="960"/>
 </picture>
 </div>
 </div>
@@ -61,6 +61,3 @@ title: Computer Training Room
 </div>
 </main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/computer-lab-services/computer-training-lab](https://www.iq.harvard.edu/computer-lab-services/computer-training-lab)*

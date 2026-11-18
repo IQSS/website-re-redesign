@@ -6,7 +6,7 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "May 15, 2020"
 ---
-<img src="../../images/live/harvard-iqss/files/cynthia-dwork_photo-by-kevin-grady_373px.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/cynthia-dwork_photo-by-kevin-grady_373px.jpg" alt="Cynthia Dwork" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 IQSS faculty affiliate Cynthia Dwork, Gordon McKay Professor of Computer Science, received the 2020 Donald E. Knuth Prize from SIGACT for her impactful work in the foundations of computer science. The prize recognizes sustained excellence in theoretical computer science research over an entire career.
 

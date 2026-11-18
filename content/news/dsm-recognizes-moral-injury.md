@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "September 11, 2025"
 ---
 
-<img src="../../images/live/2025-07/Human%20Flourishing%20slide%20deck%20banner%20%5B6x5%20new%5D.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/2025-07/Human%20Flourishing%20slide%20deck%20banner%20%5B6x5%20new%5D.jpg" alt="Human Flourishing program seal, a tree on an open book in front of Grecian columns" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 During the COVID-19 pandemic, frontline physicians, nurses, and first responders faced impossible choices—who would receive a ventilator, whether to keep working without adequate protection, and how to protect their families while serving the public. In those moments, moral injury, a phenomenon once linked primarily to the military, became an everyday reality in healthcare.
 

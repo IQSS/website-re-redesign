@@ -8,7 +8,7 @@ subtitle: "September 28, 2026"
 author: "Philip Durbin"
 ---
 
-<img src="../../images/live/harvard-iqss/files/dataverse_logo_600x400.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/dataverse_logo_600x400.jpg" alt="The Dataverse Project with 3-circle logo" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 by Philip Durbin
 

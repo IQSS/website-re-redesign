@@ -8,7 +8,7 @@ subtitle: "Ruth Moore Professor of Biological Anthropology, Emeritus"
 role: ["Affiliated Faculty"]
 ---
 
-<img src="../../images/live/harvard-iqss/files/richard_wrangham.jpg" alt="" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/richard_wrangham.jpg" alt="Richard Wrangham" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Richard Wrangham
 

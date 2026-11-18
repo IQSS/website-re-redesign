@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "November 03, 2025"
 ---
 
-<img src="../../images/live/harvard-iqss/files/global-flourishing-3x2_febsocial-data_now_available.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/global-flourishing-3x2_febsocial-data_now_available.jpg" alt="Global Flourishing Study logo and smiling woman with message, &quot;Data Now Available&quot;" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 The Human Flourishing Program at Harvard University has released Wave 2 data from the Global Flourishing Study, marking a significant milestone in one of the most comprehensive longitudinal research efforts on human well-being ever undertaken. This new wave of data is now freely available to researchers worldwide through the Center for Open Science, continuing the study's commitment to open science and collaborative research.
 

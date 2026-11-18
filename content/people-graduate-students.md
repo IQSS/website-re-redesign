@@ -62,7 +62,7 @@ layout: "people-category"
 </div>
 
 <div class="people-card">
-<div class="people-card-image"><img src="../images/live/harvard-iqss/files/keziah-anderson_2023.jpg" alt="Keziah Anderson" /></div>
+<div class="people-card-image"><img src="../images/live/harvard-iqss/files/keziah-anderson_2023.jpg" alt="Historic postcard image of the Old Indian Agency Building in Muskogee, Oklahoma" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Keziah Anderson</div>
 <div class="people-card-title">PhD Student in History, FAS</div>
@@ -86,7 +86,7 @@ layout: "people-category"
 </div>
 
 <div class="people-card">
-<div class="people-card-image"><img src="../images/live/harvard-iqss/files/victoria_asbury_2022.jpg" alt="Victoria S Asbury" /></div>
+<div class="people-card-image"><img src="../images/live/harvard-iqss/files/victoria_asbury_2022.jpg" alt="Victoria Asbury" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Victoria S Asbury</div>
 <div class="people-card-title">PhD Candidate, Dept of Sociology</div>
@@ -118,7 +118,7 @@ layout: "people-category"
 </div>
 
 <div class="people-card">
-<div class="people-card-image"><img src="../images/live/harvard-iqss/files/ballesteros_m_2020.jpg" alt="Maria Ballesteros" /></div>
+<div class="people-card-image"><img src="../images/live/harvard-iqss/files/ballesteros_m_2020.jpg" alt="Maria Ballesteros under an autumn tree" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Maria Ballesteros</div>
 <div class="people-card-title">PhD Student, Dept of Government; GSAS Prize Fellow</div>
@@ -150,7 +150,7 @@ layout: "people-category"
 </div>
 
 <div class="people-card">
-<div class="people-card-image"><img src="../images/live/harvard-iqss/files/david-beavers_2023.jpg" alt="David A Beavers" /></div>
+<div class="people-card-image"><img src="../images/live/harvard-iqss/files/david-beavers_2023.jpg" alt="David Beavers" /></div>
 <div class="people-card-body">
 <div class="people-card-name">David A Beavers</div>
 <div class="people-card-title">PhD Candidate in Government, GSAS</div>

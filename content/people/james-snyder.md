@@ -9,7 +9,7 @@ role: ["Affiliated Faculty"]
 program: ["Alesina Seminar on Political Economy"]
 ---
 
-<img src="../../images/live/harvard-iqss/files/jams_synder_0.jpg" alt="" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/jams_synder_0.jpg" alt="James Snyder" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## James Snyder
 

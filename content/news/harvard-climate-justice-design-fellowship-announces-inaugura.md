@@ -6,7 +6,7 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "May 16, 2022"
 ---
-<img src="../../images/live/harvard-iqss/files/climate_justice_design_fellowship_logo_sq.png" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/climate_justice_design_fellowship_logo_sq.png" alt="Climate Justice Design Fellowship logo" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 The Harvard Climate Justice Design Fellowship selected seven inaugural fellows who are leaders in environmental justice advocacy, organizing, and law from across the United States. The program, launched by IQSS, supports climate justice work through data science and design.
 

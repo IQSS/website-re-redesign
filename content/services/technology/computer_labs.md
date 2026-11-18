@@ -82,7 +82,7 @@ title: IQSS Computer Labs
 <div class="hwp-media hwp-media--16-9-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="270" media="all and (min-width: 0)" srcset="../../../images/live/harvard-iqss/files/img_0029_01.jpg" type="image/jpeg" width="480"/>
-<img alt="Computer lab" height="270" loading="eager" src="../../../images/live/harvard-iqss/files/img_0029_01.jpg" width="480"/>
+<img alt="Suso Baleato outside CGIS Knafel" height="270" loading="eager" src="../../../images/live/harvard-iqss/files/img_0029_01.jpg" width="480"/>
 </picture>
 </div>
 </div>
@@ -100,7 +100,7 @@ title: IQSS Computer Labs
 <div class="hwp-media hwp-media--16-9-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="270" media="all and (min-width: 0)" srcset="../../../images/live/harvard-iqss/files/img_0338.jpg" type="image/jpeg" width="480"/>
-<img alt="img_0338.jpeg" height="270" loading="eager" src="../../../images/live/harvard-iqss/files/img_0338.jpg" width="480"/>
+<img alt="Suso Baleato outside CGIS Knafel" height="270" loading="eager" src="../../../images/live/harvard-iqss/files/img_0338.jpg" width="480"/>
 </picture>
 </div>
 </div>
@@ -118,7 +118,7 @@ title: IQSS Computer Labs
 <div class="hwp-media hwp-media--16-9-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="270" media="all and (min-width: 0)" srcset="../../../images/live/harvard-iqss/files/img_0028_1.jpg" type="image/jpeg" width="480"/>
-<img alt="computer lab help desk" height="270" loading="eager" src="../../../images/live/harvard-iqss/files/img_0028_1.jpg" width="480"/>
+<img alt="Suso Baleato outside CGIS Knafel" height="270" loading="eager" src="../../../images/live/harvard-iqss/files/img_0028_1.jpg" width="480"/>
 </picture>
 </div>
 </div>

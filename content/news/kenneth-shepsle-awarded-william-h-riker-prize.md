@@ -6,7 +6,7 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "October 20, 2023"
 ---
-<img src="../../images/live/harvard-iqss/files/ken-shepsle_headshot-office_crop.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/ken-shepsle_headshot-office_crop.jpg" alt="Ken Shepsle" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 Kenneth A. Shepsle, IQSS affiliate and George D. Markham Professor of Government, received the 2023 William H. Riker prize in Political Science from the University of Rochester. The prize recognizes lifetime contributions to the scientific study of politics through formal theory and its applications.
 

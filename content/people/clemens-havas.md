@@ -8,7 +8,7 @@ subtitle: "Visiting Fellow, CGA"
 role: ["Visiting Scholars, Fellows, & General Affiliates"]
 ---
 
-<img src="../../images/live/harvard-iqss/files/clemens_havas_2020.jpg" alt="Clemens Havas" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/clemens_havas_2020.jpg" alt="Clemens Havas headshot" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Clemens Havas
 

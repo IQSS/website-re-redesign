@@ -6,7 +6,7 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "April 10, 2018"
 ---
-<img src="../../images/live/harvard-iqss/files/gary-king-2018.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/gary-king-2018.jpg" alt="Gary King" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 IQSS Director Gary King and Nate Persily of Stanford Law School developed a new model for academic collaboration with industry, addressing the growing tension between researchers' need for data and companies' obligations to protect user privacy. Their working paper proposes frameworks for structured data access.
 

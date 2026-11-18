@@ -6,7 +6,7 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "August 14, 2023"
 ---
-<img src="../../images/live/harvard-iqss/files/kevin-deluca_2023.png" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/kevin-deluca_2023.png" alt="Kevin DeLuca" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 Kevin DeLuca (Yale, Harvard PhD 2023, IQSS alumnus) describes political endorsement data he collected as part of his dissertation research, exploring how newspaper endorsements relate to candidate quality and electoral outcomes.
 

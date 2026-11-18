@@ -8,7 +8,7 @@ subtitle: "Visitor"
 role: ["Visiting Scholars, Fellows, & General Affiliates"]
 ---
 
-<img src="../../images/live/harvard-iqss/files/angie_acquatella_headshot_2.jpg" alt="Angie Acquatella" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/angie_acquatella_headshot_2.jpg" alt="angie_acquatella" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Angie Acquatella
 

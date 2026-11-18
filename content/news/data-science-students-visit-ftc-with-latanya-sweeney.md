@@ -6,7 +6,7 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "June 08, 2015"
 ---
-<img src="../../images/live/latanya_sweeney_0_01.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/latanya_sweeney_0_01.jpg" alt="latanya_sweeney_0.jp" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 Professor Latanya Sweeney traveled with IQSS staff to share her students' work with the U.S. Federal Trade Commission. As director of the Data Privacy Lab at IQSS, Sweeney has long focused on the intersection of technology, privacy, and public policy.
 

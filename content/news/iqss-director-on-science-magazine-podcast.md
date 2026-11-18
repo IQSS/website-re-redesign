@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "November 14, 2017"
 ---
 
-<img src="../../images/live/harvard-iqss/files/gary_king_01.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/gary_king_01.jpg" alt="Gary King" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 IQSS Director Gary King appeared on the Science Magazine podcast to discuss his research on media influence on public discourse and how new data sources and computational methods are transforming understanding of how information spreads and shapes public opinion. The conversation explored King's pioneering work analyzing large-scale social media data to understand patterns of censorship, propaganda, and information manipulation, particularly in authoritarian contexts where traditional research methods face significant barriers.
 

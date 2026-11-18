@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "September 05, 2014"
 ---
 
-<img src="../../images/live/dlabss1_0.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/dlabss1_0.jpg" alt="dlabss1" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 IQSS has established the Digital Lab for the Social Sciences (DLABSS), a dedicated space and program designed to support computationally intensive social science research and provide researchers with access to expertise, tools, and collaborative environment for digital scholarship. The lab represents IQSS's commitment to advancing methodological innovation by creating infrastructure that enables researchers to work with new data sources, apply cutting-edge analytical methods, and collaborate on projects that push the boundaries of traditional social science.
 

@@ -8,7 +8,7 @@ subtitle: "Allie S. Freed Professor of Government"
 role: ["Affiliated Faculty"]
 ---
 
-<img src="../../images/live/harvard-iqss/files/dan_carpenter_0.jpg" alt="Dan Carpenter" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/dan_carpenter_0.jpg" alt="Daniel Carpenter" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Dan Carpenter
 

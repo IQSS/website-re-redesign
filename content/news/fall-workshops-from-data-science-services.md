@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "August 24, 2020"
 ---
 
-<img src="../../images/live/harvard-iqss/files/dss_logo_250.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/dss_logo_250.jpg" alt="dss logo" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 IQSS Data Science Services is excited to announce a comprehensive schedule of 12 free data science workshops for the fall semester, offering Harvard researchers valuable opportunities to develop new skills and enhance their computational research capabilities. These workshops cover a diverse range of topics essential to modern quantitative research, from programming fundamentals to advanced statistical methods and specialized tools for data analysis.
 

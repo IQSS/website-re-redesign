@@ -6,7 +6,7 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "August 19, 2025"
 ---
-<img src="../../images/live/2025-08/GZ-072225_Risk-Lerner_0152_0.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/2025-08/GZ-072225_Risk-Lerner_0152_0.jpg" alt="Jennifer Lerner smiles at the camera as she leans on the back of a chair" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 Jennifer Lerner, IQSS affiliate and Bradshaw Professor of Public Policy at Harvard Kennedy School, examines how emotion and gender factor into decision making. Her research challenges long-held assumptions about rationality and shows that emotions can both help and hinder good judgment depending on the context.
 

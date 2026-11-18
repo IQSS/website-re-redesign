@@ -6,7 +6,7 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "June 24, 2020"
 ---
-<img src="../../images/live/harvard-iqss/files/opendp_logo_draft4_square_600x600-wht.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/opendp_logo_draft4_square_600x600-wht.jpg" alt="Open DP logo with starburst icon and name" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 IQSS and Microsoft provided an update on their collaboration to develop open-source tools for differential privacy, enabling researchers to discover insights while protecting data. The partnership combines Harvard's theoretical expertise with Microsoft's engineering resources.
 

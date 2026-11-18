@@ -6,7 +6,7 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "November 20, 2023"
 ---
-<img src="../../images/live/harvard-iqss/files/laptop-group_mimi-thian-zkbzlifgkgw-unsplash_crop.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/laptop-group_mimi-thian-zkbzlifgkgw-unsplash_crop.jpg" alt="Closeup of multiple people interacting with a laptop" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 IQSS Data Science Services (DSS) provides research support to the Harvard community through consulting, collaboration, and analytical tool building. The team of PhD data science specialists assists researchers at every stage of the research process, from study design through publication.
 

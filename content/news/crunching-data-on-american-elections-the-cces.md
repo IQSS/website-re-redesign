@@ -6,7 +6,7 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "September 25, 2020"
 ---
-<img src="../../images/live/harvard-iqss/files/cces_recreate_transparent_bkgd.png" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/cces_recreate_transparent_bkgd.png" alt="CCES logo, yellow letters on light green circle on green background" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 Since 2006, Stephen Ansolabehere has been compiling data about who votes in America and why as principal investigator for the Cooperative Congressional Election Study (CCES, now the Cooperative Election Study). Supported by IQSS, the study has become one of the most important resources for understanding American electoral behavior.
 

@@ -8,7 +8,7 @@ subtitle: "Faculty Co-director, Laboratory for Innovation Science at Harvard"
 role: ["Affiliated Faculty"]
 program: ["Laboratory for Innovation Science (LISH)"]
 ---
-<img src="../../images/live/harvard-iqss/files/eva_guinan-2019.jpg" alt="Eva Guinan" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/eva_guinan-2019.jpg" alt="Guinan Eva" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Eva Guinan
 

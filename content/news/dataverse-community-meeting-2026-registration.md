@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "February 16, 2026"
 ---
 
-<img src="../../images/live/2026-02/Dataverse%20Community%20Meeting%202026%20graphic.png" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/2026-02/Dataverse%20Community%20Meeting%202026%20graphic.png" alt="Linear illustration of the Barcelona skyline" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 Early bird registration is now open for the Dataverse Community Meeting 2026, taking place May 12-15 in Barcelona, Spain. This year's meeting is co-organized with the Barcelona Supercomputing Center, bringing together the global Dataverse community in one of Europe's most vibrant and innovative cities. The event promises to be a landmark gathering for researchers, data managers, repository administrators, and developers working with the Dataverse platform.
 

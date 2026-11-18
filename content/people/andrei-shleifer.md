@@ -8,7 +8,7 @@ subtitle: "John L. Loeb Professor of Economics"
 role: ["Affiliated Faculty"]
 ---
 
-<img src="../../images/live/harvard-iqss/files/andrei_shleifer_1_0.jpg" alt="" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/andrei_shleifer_1_0.jpg" alt="Andrei Shleifer" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Andrei Shleifer
 

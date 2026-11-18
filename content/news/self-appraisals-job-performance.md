@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "December 17, 2025"
 ---
 
-<img src="../../images/live/2025-12/Iris-Bohnet_2023.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/2025-12/Iris-Bohnet_2023.jpg" alt="Iris Bohnet" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 Faculty affiliate Iris Bohnet, Albert Pratt Professor of Business and Government at Harvard Kennedy School and director of the Women and Public Policy Program, has published new research challenging the widespread practice of using self-appraisals in workplace performance evaluations. Her recent paper examines how worker performance ratings are affected by various biases and structural factors that can undermine the accuracy and fairness of self-assessment processes.
 

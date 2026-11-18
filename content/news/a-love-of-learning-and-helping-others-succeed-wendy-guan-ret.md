@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "February 27, 2025"
 ---
 
-<img src="../../images/live/wendy-guan_2023_01.png" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/wendy-guan_2023_01.png" alt="Wendy Guan" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 *By Colleen Walsh*
 

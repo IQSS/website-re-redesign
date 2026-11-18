@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "May 18, 2023"
 ---
 
-<img src="../../images/live/harvard-iqss/files/haze-crowd_kris-unsplash_crop.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/haze-crowd_kris-unsplash_crop.jpg" alt="People scattered across a very hazy space" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 IQSS's Dataverse Project has joined an NIH-funded collaboration focused on climate change and health, bringing research data repository expertise to a major interdisciplinary initiative examining the health impacts of environmental change. This partnership reflects growing recognition that climate change poses profound threats to human health through pathways including extreme heat, air quality degradation, infectious disease patterns, food security, and mental health impacts. Understanding and addressing these challenges requires integration of climate science, epidemiology, and health research—and the data infrastructure to support such work.
 

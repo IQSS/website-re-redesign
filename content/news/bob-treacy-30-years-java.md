@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "March 17, 2026"
 ---
 
-<img src="../../images/live/2025-10/Bob-Treacy_2025.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/2025-10/Bob-Treacy_2025.jpg" alt="Robert Treacy" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 Bob Treacy, Principal Software Architect on the Dataverse Project at IQSS, recently shared his remarkable journey from working on factory floors to becoming a key architect of one of the world's leading open-source research data repository platforms. His story offers unique insights into the evolution of software development over three decades and the enduring relevance of Java, the programming language that has been central to his career and to the Dataverse platform.
 

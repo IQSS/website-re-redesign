@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "September 05, 2023"
 ---
 
-<img src="../../images/live/harvard-iqss/files/e-jackson_g-king_alt_sq.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/e-jackson_g-king_alt_sq.jpg" alt="Elizabeth Jackson and Gary King" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 This last year has brought a lot of exciting and transformative advancements at IQSS and across the social sciences. Here are a few highlights.
 

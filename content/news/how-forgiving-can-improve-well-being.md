@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "April 08, 2026"
 ---
 
-<img src="../../images/live/2026-04/Gazette_040126_Richard_Cowden.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/2026-04/Gazette_040126_Richard_Cowden.jpg" alt="Richard Cowden stands outside under the Human Flourishing Program sign" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 Researchers at the Human Flourishing Program have published groundbreaking findings revealing a strong connection between the regular practice of forgiveness and significant improvements in psychological well-being and character development. The study adds to a growing body of evidence suggesting that forgiveness is not merely a moral or spiritual concept but a powerful contributor to mental health and personal growth that can be cultivated through intentional practice.
 

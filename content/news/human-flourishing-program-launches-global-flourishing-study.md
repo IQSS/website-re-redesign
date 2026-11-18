@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "November 01, 2021"
 ---
 
-<img src="../../images/live/human_flourishing_round_seal_logo_h_rez.png" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/human_flourishing_round_seal_logo_h_rez.png" alt="Human Flourishing Program crest" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 The Human Flourishing Program at Harvard's IQSS has launched the ambitious Global Flourishing Study, a groundbreaking international research initiative designed to explore fundamental questions about what it means to live well across diverse cultures and societies. This comprehensive, multi-year study represents one of the most extensive efforts ever undertaken to understand human well-being in all its dimensions, moving beyond narrow measures of happiness or economic prosperity to examine flourishing holistically.
 

@@ -100,7 +100,7 @@ title: Roadmaps
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="128" media="all and (min-width: 0)" srcset="../../images/live/dss_logo.jpg" type="image/png" width="194"/>
-<img alt="DSS Logo" height="128" loading="eager" src="../../images/live/dss_logo.jpg" width="194"/>
+<img alt="dss logo" height="128" loading="eager" src="../../images/live/dss_logo.jpg" width="194"/>
 </picture>
 </div>
 </div>
@@ -119,6 +119,3 @@ title: Roadmaps
 </div>
 </main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/roadmaps](https://www.iq.harvard.edu/roadmaps)*

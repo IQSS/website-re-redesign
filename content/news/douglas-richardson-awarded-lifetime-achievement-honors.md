@@ -6,7 +6,7 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "December 15, 2021"
 ---
-<img src="../../images/live/harvard-iqss/files/doug_richardson_sq_2021.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/doug_richardson_sq_2021.jpg" alt="Douglas Richardson" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 Douglas Richardson, Distinguished Researcher at Harvard's Center for Geographic Analysis (CGA), received Lifetime Achievement Honors from the American Association of Geographers. The award recognizes his decades of contributions to geographic information science and its applications.
 

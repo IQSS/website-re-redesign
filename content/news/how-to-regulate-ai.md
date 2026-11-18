@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "September 15, 2025"
 ---
 
-<img src="../../images/live/2025-09/Gazette_David%20Y%20Yang.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/2025-09/Gazette_David%20Y%20Yang.jpg" alt="David Y Yang" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 IQSS affiliate David Y. Yang, Professor of Economics at Harvard University, has joined other leading experts in addressing one of the most pressing policy questions of our time: how to effectively regulate artificial intelligence development and deployment. As US legislators pass measures at both state and federal levels, the debate over AI regulation has intensified, with scholars and policymakers grappling with balancing innovation against risks ranging from privacy violations and algorithmic bias to potential existential threats from advanced AI systems.
 

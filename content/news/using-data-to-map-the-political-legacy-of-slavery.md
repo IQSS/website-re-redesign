@@ -6,7 +6,7 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "March 20, 2020"
 ---
-<img src="../../images/live/harvard-iqss/files/matt-maya_composite.png" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/matt-maya_composite.png" alt="matt-maya_composite.png" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 Matthew Blackwell and Maya Sen's book "Deep Roots" won APSA's 2019 William H. Riker Book Award for the best book on political economy published during the past three calendar years. The book traces how slavery's institutional legacy continues to shape American politics today.
 

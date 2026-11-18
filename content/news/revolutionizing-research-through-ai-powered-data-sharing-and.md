@@ -6,7 +6,7 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "February 14, 2024"
 ---
-<img src="../../images/live/dataverse_logo_square_extra_whitespace.png" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/dataverse_logo_square_extra_whitespace.png" alt="Dataverse logo" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 TurboCurator by ICPSR is an interactive tool designed to streamline research data deposit at Dataverse, developed through intensive collaboration between institutions. The tool uses artificial intelligence to automate many of the time-consuming steps in preparing research data for sharing.
 

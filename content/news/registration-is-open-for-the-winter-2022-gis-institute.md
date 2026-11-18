@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "October 25, 2021"
 ---
 
-<img src="../../images/live/harvard-iqss/files/jeff_blossom_training_square.png" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/jeff_blossom_training_square.png" alt="Computer lab training session" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 Harvard's Center for Geographic Analysis is pleased to announce that registration is now open for the Winter 2022 GIS Institute, a comprehensive two-week intensive training course that provides participants with foundational and advanced skills in geographic information systems and spatial analysis. This immersive program is designed for graduate students, postdoctoral researchers, faculty members, and professionals who want to incorporate spatial analysis into their research or professional practice.
 

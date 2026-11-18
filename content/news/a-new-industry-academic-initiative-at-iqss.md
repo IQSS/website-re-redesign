@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "April 16, 2025"
 ---
 
-<img src="../../images/live/harvard-iqss/files/iqss_logo_3x2.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/iqss_logo_3x2.jpg" alt="IQSS logo" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 IQSS has announced a new initiative designed to transform academic social science research into market-ready startup ventures. The new industry-academic connections being built will help social scientists increase scholarship impact, harvest data and resources from the commercial world for research, and enable universities and businesses to learn from each other more effectively.
 

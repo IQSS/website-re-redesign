@@ -6,7 +6,7 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "May 31, 2017"
 ---
-<img src="../../images/live/harvard-iqss/files/latanya_sweeney.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/latanya_sweeney.jpg" alt="Latanya Sweeney" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 IQSS faculty affiliate and Data Privacy Lab director Latanya Sweeney was profiled in a Forbes list of Incredible Women Advancing A.I. Research. The recognition highlighted her pioneering work at the intersection of artificial intelligence, data privacy, and public policy.
 

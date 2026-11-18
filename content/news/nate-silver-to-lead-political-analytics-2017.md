@@ -6,7 +6,7 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "March 03, 2017"
 ---
-<img src="../../images/live/harvard-iqss/files/political_analytics_2017_logo_white_background-square_01.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/political_analytics_2017_logo_white_background-square_01.jpg" alt="political_analytics_2017_logo_white_background-square" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 The Center for American Political Studies announced the second annual Political Analytics Conference on March 31, 2017, with FiveThirtyEight founder Nate Silver as the keynote speaker. The conference, co-sponsored by IQSS, brings together academics, journalists, and practitioners working at the intersection of data science and politics.
 

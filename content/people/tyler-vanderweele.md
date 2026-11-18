@@ -10,7 +10,7 @@ steering_weight: 130
 program: ["Human Flourishing Program"]
 ---
 
-<img src="../../images/live/harvard-iqss/files/tyler-vanderweele_2017_crop.jpg" alt="" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/tyler-vanderweele_2017_crop.jpg" alt="Tyler VanderWeele standing by a row of columns" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Tyler VanderWeele
 

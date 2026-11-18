@@ -6,7 +6,7 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "November 19, 2021"
 ---
-<img src="../../images/live/harvard-iqss/files/sascha_riaz_2019_sq.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/sascha_riaz_2019_sq.jpg" alt="Sascha Riaz" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 Sascha Riaz is a Harvard Government PhD student (G5) and resident affiliate at IQSS. His research examines political economy, with a focus on how historical institutions shape contemporary political and economic outcomes, particularly in South Asian contexts.
 

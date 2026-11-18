@@ -5,7 +5,7 @@ layout: "people-category"
 
 <div class="people-grid">
 <a href="../people/angie-acquatella/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
-<div class="people-card-image"><img src="../images/live/harvard-iqss/files/angie_acquatella_headshot_2.jpg" alt="Angie Acquatella" /></div>
+<div class="people-card-image"><img src="../images/live/harvard-iqss/files/angie_acquatella_headshot_2.jpg" alt="angie_acquatella" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Angie Acquatella</div>
 <div class="people-card-title">Visitor</div>
@@ -89,7 +89,7 @@ layout: "people-category"
 </div>
 </a>
 <a href="../people/jreyesha-brannon/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
-<div class="people-card-image"><img src="../images/live/harvard-iqss/files/jreyesha-brannon_2022_9x11.jpg" alt="J'reyesha Brannon" /></div>
+<div class="people-card-image"><img src="../images/live/harvard-iqss/files/jreyesha-brannon_2022_9x11.jpg" alt="J'Reyesha Brannon" /></div>
 <div class="people-card-body">
 <div class="people-card-name">J'reyesha Brannon</div>
 <div class="people-card-title">Harvard Climate Justice Design Fellow</div>
@@ -173,7 +173,7 @@ layout: "people-category"
 </div>
 </a>
 <a href="../people/moises-de-freitas-cunha/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
-<div class="people-card-image"><img src="../images/live/harvard-iqss/files/moises-de-freitas-cunha_2024.jpg" alt="Moises de Freitas Cunha" /></div>
+<div class="people-card-image"><img src="../images/live/harvard-iqss/files/moises-de-freitas-cunha_2024.jpg" alt="Moisés de Freitas Cunha" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Moises de Freitas Cunha</div>
 <div class="people-card-title">Postdoctoral Fellow, Weatherhead Center</div>
@@ -201,7 +201,7 @@ layout: "people-category"
 </div>
 </a>
 <a href="../people/ben-fifield/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
-<div class="people-card-image"><img src="../images/live/harvard-iqss/files/ben-fifield.png" alt="Ben Fifield" /></div>
+<div class="people-card-image"><img src="../images/live/harvard-iqss/files/ben-fifield.png" alt="ben-fifield.png" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Ben Fifield</div>
 <div class="people-card-title">Research Scientist, Meta</div>
@@ -250,7 +250,7 @@ layout: "people-category"
 </div>
 </a>
 <a href="../people/robert-gaudin/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
-<div class="people-card-image"><img src="../images/live/harvard-iqss/files/robert_gaudin_0.png" alt="Robert Gaudin" /></div>
+<div class="people-card-image"><img src="../images/live/harvard-iqss/files/robert_gaudin_0.png" alt="Robert Gaudin, MD" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Robert Gaudin</div>
 <div class="people-card-title">Visiting Fellow; Oral-Maxillofacial Surgery, Charite Berlin</div>
@@ -278,7 +278,7 @@ layout: "people-category"
 </div>
 </a>
 <a href="../people/clemens-havas/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
-<div class="people-card-image"><img src="../images/live/harvard-iqss/files/clemens_havas_2020.jpg" alt="Clemens Havas" /></div>
+<div class="people-card-image"><img src="../images/live/harvard-iqss/files/clemens_havas_2020.jpg" alt="Clemens Havas headshot" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Clemens Havas</div>
 <div class="people-card-title">Visiting Fellow, CGA</div>
@@ -348,7 +348,7 @@ layout: "people-category"
 </div>
 </a>
 <a href="../people/deborah-hurley/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
-<div class="people-card-image"><img src="../images/live/harvard-iqss/files/deborah_hurley_0.jpg" alt="Deborah Hurley" /></div>
+<div class="people-card-image"><img src="../images/live/harvard-iqss/files/deborah_hurley_0.jpg" alt="Add New Links Deborah Hurley" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Deborah Hurley</div>
 <div class="people-card-title">Fellow, IQSS</div>
@@ -390,7 +390,7 @@ layout: "people-category"
 </div>
 </a>
 <a href="../people/georgia-kernell/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
-<div class="people-card-image"><img src="../images/live/harvard-iqss/files/georgia_kernell_0.jpg" alt="Georgia Kernell" /></div>
+<div class="people-card-image"><img src="../images/live/harvard-iqss/files/georgia_kernell_0.jpg" alt="Bryce J. Dietrich" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Georgia Kernell</div>
 <div class="people-card-title">Postdoctoral Fellow, Univ of Pennsylvania</div>
@@ -439,28 +439,28 @@ layout: "people-category"
 </div>
 </a>
 <a href="../people/heidi-legg/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
-<div class="people-card-image"><img src="../images/live/harvard-iqss/files/heidi-legg-2021-b.jpg" alt="Heidi R Legg" /></div>
+<div class="people-card-image"><img src="../images/live/harvard-iqss/files/heidi-legg-2021-b.jpg" alt="Heidi Legg" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Heidi R Legg</div>
 <div class="people-card-title">IQSS Affiliate; Former Fellow, Future of Media Project</div>
 </div>
 </a>
 <a href="../people/dylan-carlson/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
-<div class="people-card-image"><img src="../images/live/harvard-iqss/files/dylan-carlson_2025.jpg" alt="Dylan Carlson Sirvent Leon" /></div>
+<div class="people-card-image"><img src="../images/live/harvard-iqss/files/dylan-carlson_2025.jpg" alt="Dylan  Carlson Sirvent León" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Dylan Carlson Sirvent Leon</div>
 <div class="people-card-title">Pre-Doctoral Fellow, IQSS</div>
 </div>
 </a>
 <a href="../people/benjamin-lewis/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
-<div class="people-card-image"><img src="../images/live/2026-03/Ben-Lewis_2025.jpg" alt="Benjamin Lewis" /></div>
+<div class="people-card-image"><img src="../images/live/2026-03/Ben-Lewis_2025.jpg" alt="Ben Lewis" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Benjamin Lewis</div>
 <div class="people-card-title">Affiliate, Dataverse; Director, Open Inference Initiative</div>
 </div>
 </a>
 <a href="../people/joshua-lieberman/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
-<div class="people-card-image"><img src="../images/live/harvard-iqss/files/joshua_lieberman_headshot_.exp__1_0.jpg" alt="Joshua Lieberman" /></div>
+<div class="people-card-image"><img src="../images/live/harvard-iqss/files/joshua_lieberman_headshot_.exp__1_0.jpg" alt="joshua_lieberman_headshot_.exp__1_0.jpg" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Joshua Lieberman</div>
 <div class="people-card-title">Senior Researcher, Center for Geographic Analysis</div>
@@ -516,7 +516,7 @@ layout: "people-category"
 </div>
 </a>
 <a href="../people/michael-mcgarrah/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
-<div class="people-card-image"><img src="../images/live/harvard-iqss/files/michael-mcgarrah_2021.jpg" alt="Michael Walsh McGarrah" /></div>
+<div class="people-card-image"><img src="../images/live/harvard-iqss/files/michael-mcgarrah_2021.jpg" alt="Michael McGarrah" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Michael Walsh McGarrah</div>
 <div class="people-card-title">Visiting Scholar, HGSE</div>
@@ -537,7 +537,7 @@ layout: "people-category"
 </div>
 </a>
 <a href="../people/chika-okafor/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
-<div class="people-card-image"><img src="../images/live/harvard-iqss/files/chika_okafor_headshot_1_0.jpg" alt="Chika Okafor" /></div>
+<div class="people-card-image"><img src="../images/live/harvard-iqss/files/chika_okafor_headshot_1_0.jpg" alt="chika_okafor" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Chika Okafor</div>
 <div class="people-card-title">Postdoctoral Fellow, NBER</div>
@@ -551,7 +551,7 @@ layout: "people-category"
 </div>
 </a>
 <a href="../people/dev-patel/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
-<div class="people-card-image"><img src="../images/live/harvard-iqss/files/dev_patel_headshot_1.jpg" alt="Dev Patel" /></div>
+<div class="people-card-image"><img src="../images/live/harvard-iqss/files/dev_patel_headshot_1.jpg" alt="dev_patel" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Dev Patel</div>
 <div class="people-card-title">Prize Fellow in Economics, History, and Politics</div>
@@ -579,7 +579,7 @@ layout: "people-category"
 </div>
 </a>
 <a href="../people/hunter-rendleman/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
-<div class="people-card-image"><img src="../images/live/harvard-iqss/files/hunter_rendleman_headshot.jpg" alt="Hunter Rendleman" /></div>
+<div class="people-card-image"><img src="../images/live/harvard-iqss/files/hunter_rendleman_headshot.jpg" alt="hunter_rendleman_headshot.jpg" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Hunter Rendleman</div>
 <div class="people-card-title">Postdoctoral Researcher, UC Berkeley</div>
@@ -621,7 +621,7 @@ layout: "people-category"
 </div>
 </a>
 <a href="../people/bruno-sergi/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
-<div class="people-card-image"><img src="../images/live/harvard-iqss/files/bruno-sergi_2023.jpg" alt="Bruno S Sergi" /></div>
+<div class="people-card-image"><img src="../images/live/harvard-iqss/files/bruno-sergi_2023.jpg" alt="Bruno Sergi" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Bruno S Sergi</div>
 <div class="people-card-title">Instructor, DCE; Co-director, LEAD</div>
@@ -635,7 +635,7 @@ layout: "people-category"
 </div>
 </a>
 <a href="../people/raad-siraj/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
-<div class="people-card-image"><img src="../images/live/2026-04/Raad%20Siraj%202026.jpg" alt="Ra'ad Siraj" /></div>
+<div class="people-card-image"><img src="../images/live/2026-04/Raad%20Siraj%202026.jpg" alt="Raad Siraj" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Ra'ad Siraj</div>
 <div class="people-card-title">Senior AI and Data Executive</div>
@@ -733,14 +733,14 @@ layout: "people-category"
 </div>
 </a>
 <a href="../people/milo-trujillo/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
-<div class="people-card-image"><img src="../images/live/harvard-iqss/files/milo_trujillo_2020.png" alt="Milo Trujillo" /></div>
+<div class="people-card-image"><img src="../images/live/harvard-iqss/files/milo_trujillo_2020.png" alt="milo_trujillo_2020.png" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Milo Trujillo</div>
 <div class="people-card-title">PhD student, University of Vermont</div>
 </div>
 </a>
 <a href="../people/fumiya-uchikoshi/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
-<div class="people-card-image"><img src="../images/live/harvard-iqss/files/fumiya-uchikoshi-_headshot.jpg" alt="Fumiya Uchikoshi" /></div>
+<div class="people-card-image"><img src="../images/live/harvard-iqss/files/fumiya-uchikoshi-_headshot.jpg" alt="fumiya-uchikoshi-_headshot.jpg" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Fumiya Uchikoshi</div>
 <div class="people-card-title">Harvard Academy Scholar</div>
@@ -754,7 +754,7 @@ layout: "people-category"
 </div>
 </a>
 <a href="../people/dave-wang/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
-<div class="people-card-image"><img src="../images/live/harvard-iqss/files/dave_wang_headshot.jpg" alt="Dave Wang" /></div>
+<div class="people-card-image"><img src="../images/live/harvard-iqss/files/dave_wang_headshot.jpg" alt="Dave_Wang_headshot" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Dave Wang</div>
 <div class="people-card-title">AI Research Fellow; Co-Founder, 99 Capital</div>
@@ -789,14 +789,14 @@ layout: "people-category"
 </div>
 </a>
 <a href="../people/matthew-w-wilson/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
-<div class="people-card-image"><img src="../images/live/harvard-iqss/files/matt_w_wilson_2019.jpg" alt="Matthew W. Wilson" /></div>
+<div class="people-card-image"><img src="../images/live/harvard-iqss/files/matt_w_wilson_2019.jpg" alt="Matthew W Wilson" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Matthew W. Wilson</div>
 <div class="people-card-title">Visiting Scholar, CGA; Assoc Professor, University of Kentucky</div>
 </div>
 </a>
 <a href="../people/matthew-f-wilson/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
-<div class="people-card-image"><img src="../images/live/2026-03/Matthew%20F%20Wilson%202026.png" alt="Matthew F. Wilson" /></div>
+<div class="people-card-image"><img src="../images/live/2026-03/Matthew%20F%20Wilson%202026.png" alt="Matthew F Wilson" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Matthew F. Wilson</div>
 <div class="people-card-title">Senior Director, Baylor University</div>

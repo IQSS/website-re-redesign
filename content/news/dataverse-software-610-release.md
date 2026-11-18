@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "March 19, 2026"
 ---
 
-<img src="../../images/live/harvard-iqss/files/dataverse_logo_600x400.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/dataverse_logo_600x400.jpg" alt="The Dataverse Project with 3-circle logo" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 The Dataverse Project has announced the release of version 6.10 of the Dataverse software, bringing significant improvements to the world's most widely adopted open-source research data repository platform. This latest release includes enhanced export capabilities, new application programming interfaces (APIs), infrastructure and performance updates, and numerous bug fixes that improve stability and user experience for repositories worldwide.
 

@@ -8,7 +8,7 @@ subtitle: "June 29, 2026"
 author: "Colleen Walsh"
 ---
 
-<img src="../../images/live/2026-06/DCM2026-0524%20Dataverse%20community.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/2026-06/DCM2026-0524%20Dataverse%20community.jpg" alt="Overhead outdoor view of the gathered attendees of the Dataverse Community Meeting 2026" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 by Colleen Walsh
 

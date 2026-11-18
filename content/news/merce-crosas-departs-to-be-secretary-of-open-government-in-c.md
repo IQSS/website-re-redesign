@@ -6,7 +6,7 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "July 01, 2021"
 ---
-<img src="../../images/live/harvard-iqss/files/merce_crosas.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/merce_crosas.jpg" alt="merce_crosas" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 After 15 years at Harvard as Chief Data Science and Technology Officer at IQSS, Merce Crosas departed to serve as Secretary of Open Government in Catalonia, Spain. Her departure marked the end of an era in which she helped build IQSS's data science infrastructure from the ground up.
 

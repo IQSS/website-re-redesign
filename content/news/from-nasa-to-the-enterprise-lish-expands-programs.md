@@ -6,7 +6,7 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "April 02, 2021"
 ---
-<img src="../../images/live/harvard-iqss/files/lish_logo_largetext_square.png" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/lish_logo_largetext_square.png" alt="LISH logo" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 The Laboratory for Innovation Science at Harvard (LISH), one of IQSS's scientific programs, has experienced unprecedented growth over the past two years. Originally evolving from the NASA Tournament Lab, LISH now works with partner organizations across government, industry, and non-profit sectors on crowd-sourced problem solving.
 

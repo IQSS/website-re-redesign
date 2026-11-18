@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "December 19, 2022"
 ---
 
-<img src="../../images/live/dataverse_project_logo2_1_02.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/dataverse_project_logo2_1_02.jpg" alt="dataverse_project_logo2_1_02" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 The Dataverse Project invites the global research data management community to save the date for the 9th Annual Dataverse Community Meeting, taking place in the historic and vibrant city of Braga, Portugal. This highly anticipated gathering brings together repository administrators, developers, data professionals, and researchers from institutions worldwide to share experiences, discuss best practices, and shape the future of the Dataverse platform.
 

@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "August 28, 2023"
 ---
 
-<img src="../../images/live/harvard-iqss/files/dataverse_project_logo2_1_02.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/dataverse_project_logo2_1_02.jpg" alt="dataverse_project_logo2_1_02" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 The Dataverse Project announces the release of version 5.14, bringing an extensive collection of new features, enhancements, and bug fixes that strengthen the platform's capabilities as a comprehensive research data repository solution. This release reflects ongoing collaboration among developers, repository administrators, and researchers worldwide who contribute to making Dataverse more powerful and user-friendly.
 

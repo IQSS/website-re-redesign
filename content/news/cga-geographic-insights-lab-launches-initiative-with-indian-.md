@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "March 07, 2022"
 ---
 
-<img src="../../images/live/harvard-iqss/files/gil-full-logo-sq.png" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/gil-full-logo-sq.png" alt="Geographic Insights logo with words Population, Precision, Policy" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 The CGA Geographic Insights Lab has launched a significant initiative with the Government of India, with India Policy Insights being designated as a Key Initiative of NITI Aayog, the premier policy think tank of the Indian government. This partnership represents a major collaboration between Harvard researchers and Indian policymakers to leverage geospatial data and analysis for evidence-based governance and development planning across one of the world's most populous and diverse nations.
 

@@ -9,7 +9,7 @@ role: ["Affiliated Faculty"]
 program: ["Data Privacy Lab"]
 ---
 
-<img src="../../images/live/harvard-iqss/files/iqss-faculty-member.jpg" alt="" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/iqss-faculty-member.jpg" alt="iqss faculty" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Latanya Sweeney
 

@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "April 03, 2026"
 ---
 
-<img src="../../images/live/2026-04/Jason%20and%20Joseph%20Lamson_burial%20ground%20feature%202026.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/2026-04/Jason%20and%20Joseph%20Lamson_burial%20ground%20feature%202026.jpg" alt="Jason Ur kneels next to the headstone of Joseph Lamson" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 *by Courtney Hayes*
 

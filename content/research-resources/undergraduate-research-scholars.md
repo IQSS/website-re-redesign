@@ -4,6 +4,7 @@ date: 2026-05-28
 draft: false
 layout: "resource-page"
 hero_image: "images/urs-hero.jpg"
+hero_image_alt: "students at poster session"
 subtitle: "The IQSS Undergraduate Research Scholars (URS) program is an opportunity for Harvard College students to gain first-hand research experience working with faculty members all across the University."
 ---
 

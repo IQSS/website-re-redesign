@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "May 06, 2024"
 ---
 
-<img src="../../images/live/dataverse_logo_square_extra_whitespace.png" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/dataverse_logo_square_extra_whitespace.png" alt="Dataverse logo" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 The Dataverse Project is excited to announce that version 6.2 is now available, bringing a valuable collection of updates and new features that enhance the platform's capabilities for managing and sharing research data. This release continues the steady evolution of the 6.x series, delivering improvements that respond to community feedback and emerging needs in the research data management landscape.
 

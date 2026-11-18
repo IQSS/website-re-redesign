@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "February 10, 2025"
 ---
 
-<img src="../../images/live/2025-02/rachel-franklin_2025_3x2.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/2025-02/rachel-franklin_2025_3x2.jpg" alt="Headshot of Rachel Franklin" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 Starting March 3, 2025, geographer Dr. Rachel Franklin will join the Center for Geographic Analysis (CGA), part of the Institute for Quantitative Social Science (IQSS) at Harvard University, as Executive Director. Franklin succeeds Dr. Wendy Guan and will lead all operations of Harvard's largest organization focused on geographic research, technology, and teaching, collaborating with Professor S.V. Subramanian, chair of the CGA Faculty Advisory Group. The CGA provides consultation services, technical training, platform development, and sponsored research to support geospatial analysis and GIS projects across the University.
 

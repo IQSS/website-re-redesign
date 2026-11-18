@@ -6,7 +6,7 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "May 08, 2020"
 ---
-<img src="../../images/live/harvard-iqss/files/chase-harrison-window_square.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/chase-harrison-window_square.jpg" alt="Chase Harrison" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 The Program on Survey Research (PSR), led by Associate Director Chase Harrison, helps a lot of people at Harvard and beyond with survey methodology. When COVID-19 forced a shift from face-to-face to online research, PSR became an essential resource for scholars adapting their methods.
 

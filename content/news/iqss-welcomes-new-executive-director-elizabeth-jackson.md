@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "June 24, 2022"
 ---
 
-<img src="../../images/live/harvard-iqss/files/elizabeth-jackson_headshot_27june2022_300x300_cropped.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/elizabeth-jackson_headshot_27june2022_300x300_cropped.jpg" alt="elizabeth-jackson_headshot_27june2022_300x300_cropped.jpg" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 IQSS announced the arrival of its new Executive Director, Elizabeth Jackson, who comes from Greater Portland Health in Maine and from Harvard's T.H. Chan School of Public Health's Department of Global Health and Population.
 

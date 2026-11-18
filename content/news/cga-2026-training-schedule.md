@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "December 08, 2025"
 ---
 
-<img src="../../images/live/2025-12/CGA_logo_2025%202x3.png" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/2025-12/CGA_logo_2025%202x3.png" alt="Center for Geographic Analysis logo" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 The Center for Geographic Analysis has unveiled a completely revamped training workshop schedule for 2026, offering Harvard community members an extensive array of geospatial technology and data science courses. All workshops are free for Harvard ID holders and cover essential tools and platforms including ArcGIS, QGIS, Python, R, KNIME, and many other technologies used in geographic analysis and spatial data science.
 

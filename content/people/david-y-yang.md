@@ -9,7 +9,7 @@ role: ["Affiliated Faculty"]
 program: ["Alesina Seminar on Political Economy"]
 ---
 
-<img src="../../images/live/harvard-iqss/files/david-y-yang_2019.jpg" alt="" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/david-y-yang_2019.jpg" alt="David Y Yang" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## David Y Yang
 

@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "July 12, 2022"
 ---
 
-<img src="../../images/live/harvard-iqss/files/opendp_logo_square.png" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/opendp_logo_square.png" alt="Open DP logo with starburst icon and name" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 The OpenDP Project is seeking data analysts, researchers, and data professionals to participate in a software usability study focused on DP Creator, an innovative application designed to make differential privacy more accessible to practitioners without deep technical expertise in privacy mathematics. This research study aims to gather valuable feedback that will shape the development of tools that enable broader adoption of privacy-preserving data analysis methods.
 

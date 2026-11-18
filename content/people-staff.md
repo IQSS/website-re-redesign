@@ -27,7 +27,7 @@ layout: "people-category"
 </div>
 </a>
 <a href="../people/jeffrey-blossom/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
-<div class="people-card-image"><img src="../images/live/harvard-iqss/files/jeff-blossom_2025.jpg" alt="Jeffrey Blossom" /></div>
+<div class="people-card-image"><img src="../images/live/harvard-iqss/files/jeff-blossom_2025.jpg" alt="Jeff Blossom" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Jeffrey Blossom</div>
 <div class="people-card-title">GIS Service Manager, Center for Geographic Analysis</div>
@@ -76,7 +76,7 @@ layout: "people-category"
 </div>
 </a>
 <a href="../people/corey-dopp/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
-<div class="people-card-image"><img src="../images/live/harvard-iqss/files/comp-lab-hero.jpg" alt="Corey Dopp" /></div>
+<div class="people-card-image"><img src="../images/live/harvard-iqss/files/comp-lab-hero.jpg" alt="comp-lab-hero.jpg" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Corey Dopp</div>
 <div class="people-card-title">IT Client Support Services Associate</div>
@@ -97,7 +97,7 @@ layout: "people-category"
 </div>
 </a>
 <a href="../people/philip-durbin/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
-<div class="people-card-image"><img src="../images/live/2025-08/Philip%20Durbin%202025.jpg" alt="Philip Durbin" /></div>
+<div class="people-card-image"><img src="../images/live/2025-08/Philip%20Durbin%202025.jpg" alt="Phil Durbin" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Philip Durbin</div>
 <div class="people-card-title">Software Developer, Dataverse Project</div>
@@ -139,14 +139,14 @@ layout: "people-category"
 </div>
 </a>
 <a href="../people/roy-guyton/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
-<div class="people-card-image"><img src="../images/live/harvard-iqss/files/roy_guyton.jpg" alt="Roy Guyton" /></div>
+<div class="people-card-image"><img src="../images/live/harvard-iqss/files/roy_guyton.jpg" alt="roy guyton" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Roy Guyton</div>
 <div class="people-card-title">IT Client Support Services Associate</div>
 </div>
 </a>
 <a href="../people/cameron-harvey/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
-<div class="people-card-image"><img src="../images/live/harvard-iqss/files/cameron-harvey_capacitors_0.jpg" alt="Cameron Harvey" /></div>
+<div class="people-card-image"><img src="../images/live/harvard-iqss/files/cameron-harvey_capacitors_0.jpg" alt="a circuit board" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Cameron Harvey</div>
 <div class="people-card-title">IT Client Support Services Associate</div>
@@ -160,21 +160,21 @@ layout: "people-category"
 </div>
 </a>
 <a href="../people/jack-hayes/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
-<div class="people-card-image"><img src="../images/live/harvard-iqss/files/jack-hayes_2023.png" alt="Jack Hayes" /></div>
+<div class="people-card-image"><img src="../images/live/harvard-iqss/files/jack-hayes_2023.png" alt="jack-hayes_2023.png" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Jack Hayes</div>
 <div class="people-card-title">Geospatial Data Scientist, Center for Geographic Analysis</div>
 </div>
 </a>
 <a href="../people/william-horka/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
-<div class="people-card-image"><img src="../images/live/harvard-iqss/files/silicon-chip-board-6288.jpg" alt="William Horka" /></div>
+<div class="people-card-image"><img src="../images/live/harvard-iqss/files/silicon-chip-board-6288.jpg" alt="Close-up of silicon chip board" /></div>
 <div class="people-card-body">
 <div class="people-card-name">William Horka</div>
 <div class="people-card-title">Systems Administrator, Harvard-MIT Data Center</div>
 </div>
 </a>
 <a href="../people/don-sizemore-ii/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
-<div class="people-card-image"><img src="../images/live/harvard-iqss/files/don-sizemore_2023.jpg" alt="Don Sizemore, II" /></div>
+<div class="people-card-image"><img src="../images/live/harvard-iqss/files/don-sizemore_2023.jpg" alt="Don Sizemore" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Don Sizemore, II</div>
 <div class="people-card-title">Developer, Dataverse; Systems Programmer, UNC</div>
@@ -188,7 +188,7 @@ layout: "people-category"
 </div>
 </a>
 <a href="../people/rand-kiessig/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
-<div class="people-card-image"><img src="../images/live/harvard-iqss/files/Randy-Kiessig_2019.jpg" alt="Rand Kiessig" /></div>
+<div class="people-card-image"><img src="../images/live/harvard-iqss/files/Randy-Kiessig_2019.jpg" alt="Randy Kiessig" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Rand Kiessig</div>
 <div class="people-card-title">Manager, IQSS Computer Lab Services</div>
@@ -293,14 +293,14 @@ layout: "people-category"
 </div>
 </a>
 <a href="../people/bailey-moore/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
-<div class="people-card-image"><img src="../images/live/harvard-iqss/files/eric_wood_keyboard_0_0.jpg" alt="Bailey Moore" /></div>
+<div class="people-card-image"><img src="../images/live/harvard-iqss/files/eric_wood_keyboard_0_0.jpg" alt="a keyboard" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Bailey Moore</div>
 <div class="people-card-title">IT Client Support Services Associate</div>
 </div>
 </a>
 <a href="../people/james-d-myers/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
-<div class="people-card-image"><img src="../images/live/harvard-iqss/files/james-myers_2023.png" alt="James D Myers" /></div>
+<div class="people-card-image"><img src="../images/live/harvard-iqss/files/james-myers_2023.png" alt="Jim Myers" /></div>
 <div class="people-card-body">
 <div class="people-card-name">James D Myers</div>
 <div class="people-card-title">Developer, Dataverse Core Development Team</div>
@@ -356,7 +356,7 @@ layout: "people-category"
 </div>
 </a>
 <a href="../people/kwok-leong-tang/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
-<div class="people-card-image"><img src="../images/live/2026-03/Kwok-Leong%20Tang%202026.jpg" alt="Kwok-Leong Tang" /></div>
+<div class="people-card-image"><img src="../images/live/2026-03/Kwok-Leong%20Tang%202026.jpg" alt="Kwok Leong Tang" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Kwok-Leong Tang</div>
 <div class="people-card-title">Managing Director, Digital China Initiative</div>
@@ -370,7 +370,7 @@ layout: "people-category"
 </div>
 </a>
 <a href="../people/anna-taylor/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
-<div class="people-card-image"><img src="../images/live/harvard-iqss/files/pexels-photo-1112598_0.jpg" alt="Anna Taylor" /></div>
+<div class="people-card-image"><img src="../images/live/harvard-iqss/files/pexels-photo-1112598_0.jpg" alt="A lamp and a plant" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Anna Taylor</div>
 <div class="people-card-title">Team Lead, IT Client Support Services</div>
@@ -398,7 +398,7 @@ layout: "people-category"
 </div>
 </a>
 <a href="../people/eric-wood/" class="people-card people-card-link" style="text-decoration:none;color:inherit;">
-<div class="people-card-image"><img src="../images/live/harvard-iqss/files/eric_wood_keyboard_0.jpg" alt="Eric Wood" /></div>
+<div class="people-card-image"><img src="../images/live/harvard-iqss/files/eric_wood_keyboard_0.jpg" alt="a keyboard" /></div>
 <div class="people-card-body">
 <div class="people-card-name">Eric Wood</div>
 <div class="people-card-title">IT Client Support Services</div>

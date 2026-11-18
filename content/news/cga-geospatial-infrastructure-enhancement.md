@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "April 30, 2024"
 ---
 
-<img src="../../images/live/nerc_logo_sq.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/nerc_logo_sq.jpg" alt="NERC logo" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 The Center for Geographic Analysis has undertaken a major geospatial infrastructure enhancement project to address growing demand for robust, scalable systems capable of handling geospatial big data. As researchers across disciplines increasingly work with massive spatial datasets—from high-resolution satellite imagery to detailed geographic information about billions of people and places—the technical infrastructure supporting this work must evolve to keep pace with data volume, velocity, and complexity.
 

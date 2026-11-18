@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "October 17, 2022"
 ---
 
-<img src="../../images/live/harvard-iqss/files/dataverse_project_logo2_1_02.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/harvard-iqss/files/dataverse_project_logo2_1_02.jpg" alt="dataverse_project_logo2_1_02" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 The Dataverse Project is pleased to announce the release of version 5.12, delivering a comprehensive set of new features, enhancements, and bug fixes that improve the research data repository experience for both users and administrators. This release continues the project's commitment to regular, high-quality updates that respond to the needs of the global Dataverse community.
 

@@ -9,7 +9,7 @@ role: ["Product Development", "Staff"]
 program: ["Sid"]
 ---
 
-<img src="../../images/live/harvard-iqss/files/silicon-chip-board-6288.jpg" alt="William Horka" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/silicon-chip-board-6288.jpg" alt="Close-up of silicon chip board" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## William Horka
 

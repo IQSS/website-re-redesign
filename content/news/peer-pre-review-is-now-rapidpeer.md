@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "March 10, 2025"
 ---
 
-<img src="../../images/live/rapidpeer_all_in_one_sq.jpg" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/rapidpeer_all_in_one_sq.jpg" alt="Rapid Peer logo, with tagline that says Expert feedback, fast and free" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 IQSS has rebranded its Peer Pre Review service as *rapid*Peer.
 

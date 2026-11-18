@@ -6,7 +6,7 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "February 13, 2024"
 ---
-<img src="../../images/live/human_flourishing_round_seal_logo_h_rez.png" alt="" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
+<img src="../../images/live/human_flourishing_round_seal_logo_h_rez.png" alt="Human Flourishing Program crest" style="width:100%;max-width:700px;border-radius:8px;margin-bottom:20px;" />
 
 Wave one of the Global Flourishing Study dataset is now available to researchers, representing a partnership among Baylor University, Harvard's Human Flourishing Program, Gallup, and the Center for Open Science. The dataset covers approximately 200,000 participants across 22 countries.
 

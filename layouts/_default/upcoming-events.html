@@ -1,0 +1,295 @@
+{{ define "main" }}
+{{/* /upcoming-events/: the filterable list of events, which live serves at
+     /calendar. Built from content/events/, so nothing here is hand-listed.
+
+     Live's controls, kept: Upcoming / Past, "Search Within Results", filters
+     in live's four vocabularies (Event Type, Program, Research Technology,
+     Service; any term within a vocabulary, all vocabularies together), and
+     sort Chronological / Alphabetical A-Z.
+
+     Every event is in the page, each card carrying its date and terms as data
+     attributes; the script decides which show. Upcoming vs past is decided in
+     the visitor's browser against today's date, so an event does not linger
+     as "upcoming" until the next site build. Without JavaScript the page
+     shows the upcoming events as of the last build, in date order.
+
+     State lives in the query string (?event-type=training&when=past), so the
+     Events landing page can link straight to a filtered list and a filtered
+     view can be bookmarked. */}}
+{{ $sets := partial "event-sets.html" (dict) }}
+{{ $vocabs := slice
+    (dict "key" "event-type" "label" "Event Type")
+    (dict "key" "program" "label" "Program")
+    (dict "key" "research-technology" "label" "Research Technology")
+    (dict "key" "service" "label" "Service") }}
+<div class="resource-page upev-page">
+    <nav aria-label="Breadcrumb" class="rp-breadcrumb">
+        <div class="container">
+            <ol style="list-style:none;display:flex;gap:6px;align-items:center;padding:0;margin:0;">
+                <li><a href="{{ .Site.Home.RelPermalink }}">Home</a></li>
+                <li aria-hidden="true" style="color:#999;">&rsaquo;</li>
+                <li><a href="{{ "events/" | relURL }}">Events</a></li>
+                <li aria-hidden="true" style="color:#999;">&rsaquo;</li>
+                <li><span aria-current="page">{{ .Title }}</span></li>
+            </ol>
+        </div>
+    </nav>
+
+    <div class="rp-header">
+        <div class="container">
+            <h1 data-title-upcoming="{{ .Title }}" data-title-past="Past Events">{{ .Title }}</h1>
+        </div>
+    </div>
+
+    <div class="rp-content">
+        <div class="container">
+            <div class="upev-tabs" role="group" aria-label="Which events" data-js hidden>
+                <button type="button" class="upev-tab" data-when="upcoming" aria-pressed="true">Upcoming Events</button>
+                <button type="button" class="upev-tab" data-when="past" aria-pressed="false">Past Events</button>
+                <a class="upev-tab upev-tab--link" href="{{ "calendar/" | relURL }}">Calendar view</a>
+            </div>
+
+            <form class="upev-controls" data-js hidden role="search" aria-label="Filter events">
+                <div class="upev-field upev-field--search">
+                    <label for="upev-q">Search Within Results</label>
+                    <input type="search" id="upev-q" name="q" autocomplete="off">
+                </div>
+                <div class="upev-field">
+                    <label for="upev-sort">Sort by</label>
+                    <select id="upev-sort" name="sort">
+                        <option value="date">Chronological</option>
+                        <option value="az">Alphabetical A-Z</option>
+                    </select>
+                </div>
+                <details class="upev-filters">
+                    <summary>Show filters<span class="upev-filters__count" data-filter-count></span></summary>
+                    <div class="upev-filters__body">
+                    {{ range $vocabs }}
+                      {{ $key := .key }}
+                      {{ $label := .label }}
+                      {{ $terms := slice }}
+                      {{ range $wp := index site.Taxonomies $key }}
+                        {{ $slug := path.Base $wp.Page.RelPermalink }}
+                        {{ $n := len (where $wp.Pages "Section" "events") }}
+                        {{ if gt $n 0 }}{{ $terms = $terms | append (dict "slug" $slug "title" $wp.Page.LinkTitle) }}{{ end }}
+                      {{ end }}
+                      {{ with $terms }}
+                      <fieldset>
+                          <legend>{{ $label }}</legend>
+                          {{ range sort . "title" }}
+                          <label class="upev-check"><input type="checkbox" name="{{ $key }}" value="{{ .slug }}"> <span>{{ .title }}</span> <span class="upev-check__n" data-count="{{ $key }}:{{ .slug }}"></span></label>
+                          {{ end }}
+                      </fieldset>
+                      {{ end }}
+                    {{ end }}
+                    </div>
+                </details>
+                <button type="button" class="upev-clear" data-clear hidden>Clear all</button>
+            </form>
+
+            <p class="upev-count" aria-live="polite" data-result-count>{{ len $sets.upcoming }} results</p>
+
+            <ol class="upev-list">
+            {{ range $i, $p := $sets.upcoming | append $sets.past }}
+              {{ $d := index $sets.dates $p.RelPermalink }}
+              {{ $last := $d }}
+              {{ with $p.Params.event_end_date }}{{ $last = (time .).Format "2006-01-02" }}{{ end }}
+              {{ $occ := slice }}
+              {{ range $p.Params.event_occurrences }}{{ $occ = $occ | append ((time .).Format "2006-01-02") }}{{ end }}
+              {{ $terms := slice }}
+              {{ range $vocabs }}{{ $k := .key }}{{ range $p.GetTerms $k }}{{ $terms = $terms | append (printf "%s:%s" $k (path.Base .RelPermalink)) }}{{ end }}{{ end }}
+              {{ $past := lt $last (now.Format "2006-01-02") }}
+              <li class="upev-card" data-date="{{ $d }}" data-last="{{ $last }}" data-occ="{{ delimit $occ " " }}" data-title="{{ $p.Title }}" data-terms="{{ delimit $terms " " }}"{{ if $past }} hidden{{ end }}>
+                  {{ with $p.Params.event_format }}<p class="upev-card__format">{{ delimit . ", " }}</p>{{ end }}
+                  <h2 class="upev-card__title"><a href="{{ $p.RelPermalink }}">{{ $p.Title }}</a></h2>
+                  <p class="upev-card__when">
+                      <time datetime="{{ $d }}" data-date-label>{{ (time $d).Format "January 2, 2006" }}{{ with $p.Params.event_end_date }} &ndash; {{ (time .).Format "January 2, 2006" }}{{ end }}</time>
+                      <span class="upev-card__sep" aria-hidden="true">|</span>
+                      {{ $p.Params.event_time | default "All day" }}
+                      {{ with $p.Params.event_location }}<span class="upev-card__sep" aria-hidden="true">|</span> {{ . }}{{ end }}
+                  </p>
+                  {{ with $p.Plain }}<p class="upev-card__teaser">{{ . | htmlUnescape | truncate 200 }}</p>{{ end }}
+              </li>
+            {{ end }}
+            </ol>
+            <p class="upev-none" data-none hidden>No events match. <button type="button" class="upev-linkbtn" data-clear>Clear all filters</button></p>
+        </div>
+    </div>
+</div>
+
+<script>
+(function () {
+  var page = document.querySelector('.upev-page');
+  var form = page.querySelector('.upev-controls');
+  var cards = [].slice.call(page.querySelectorAll('.upev-card'));
+  var list = page.querySelector('.upev-list');
+  var countEl = page.querySelector('[data-result-count]');
+  var none = page.querySelector('[data-none]');
+  var h1 = page.querySelector('h1');
+  var q = form.querySelector('#upev-q');
+  var sortSel = form.querySelector('#upev-sort');
+  var boxes = [].slice.call(form.querySelectorAll('input[type=checkbox]'));
+  var clearBtns = [].slice.call(page.querySelectorAll('[data-clear]'));
+  page.querySelectorAll('[data-js]').forEach(function (el) { el.hidden = false; });
+
+  function pad(n) { return (n < 10 ? '0' : '') + n; }
+  var now = new Date();
+  var today = now.getFullYear() + '-' + pad(now.getMonth() + 1) + '-' + pad(now.getDate());
+  var MONTHS = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+  function longDate(s) { var p = s.split('-'); return MONTHS[+p[1] - 1] + ' ' + (+p[2]) + ', ' + p[0]; }
+
+  // Recurring events: the date a card shows and sorts by is its next date
+  // (upcoming) or its latest past date (past), worked out in the browser.
+  cards.forEach(function (c) {
+    var occ = (c.getAttribute('data-occ') || '').split(' ').filter(Boolean);
+    c._occ = occ;
+    c._terms = (c.getAttribute('data-terms') || '').split(' ').filter(Boolean);
+    c._text = c.textContent.toLowerCase().replace(/\s+/g, ' ');
+  });
+  function placeCard(c, when) {
+    var d = c.getAttribute('data-date'), last = c.getAttribute('data-last');
+    if (c._occ.length) {
+      var ahead = c._occ.filter(function (x) { return x >= today; });
+      var behind = c._occ.filter(function (x) { return x < today; });
+      if (when === 'upcoming' && ahead.length) { d = ahead[0]; last = d; }
+      else if (when === 'past' && behind.length) { d = behind[behind.length - 1]; last = d; }
+      else return null;
+      var t = c.querySelector('[data-date-label]');
+      t.textContent = longDate(d); t.setAttribute('datetime', d);
+      return d;
+    }
+    if (when === 'upcoming') return last >= today ? d : null;
+    return last < today ? d : null;
+  }
+
+  var state = { when: 'upcoming' };
+  function readURL() {
+    var p = new URLSearchParams(location.search);
+    state.when = p.get('when') === 'past' ? 'past' : 'upcoming';
+    q.value = p.get('q') || '';
+    sortSel.value = p.get('sort') === 'az' ? 'az' : 'date';
+    boxes.forEach(function (b) { b.checked = p.getAll(b.name).indexOf(b.value) !== -1; });
+  }
+  function writeURL() {
+    var p = new URLSearchParams();
+    if (state.when === 'past') p.set('when', 'past');
+    boxes.forEach(function (b) { if (b.checked) p.append(b.name, b.value); });
+    if (q.value.trim()) p.set('q', q.value.trim());
+    if (sortSel.value === 'az') p.set('sort', 'az');
+    var s = p.toString();
+    history.replaceState(null, '', location.pathname + (s ? '?' + s : ''));
+  }
+
+  function selected() {
+    var sel = {};
+    boxes.forEach(function (b) { if (b.checked) (sel[b.name] = sel[b.name] || []).push(b.name + ':' + b.value); });
+    return sel;
+  }
+  function matchesFilters(c, sel, skipVocab) {
+    return Object.keys(sel).every(function (v) {
+      if (v === skipVocab) return true;
+      return sel[v].some(function (t) { return c._terms.indexOf(t) !== -1; });
+    });
+  }
+
+  function apply() {
+    var sel = selected();
+    var words = q.value.trim().toLowerCase().split(/\s+/).filter(Boolean);
+    var pool = [];
+    cards.forEach(function (c) {
+      var d = placeCard(c, state.when);
+      c._d = d;
+      if (d !== null && words.every(function (w) { return c._text.indexOf(w) !== -1; })) pool.push(c);
+    });
+    var shown = pool.filter(function (c) { return matchesFilters(c, sel); });
+    cards.forEach(function (c) { c.hidden = shown.indexOf(c) === -1; });
+
+    var az = sortSel.value === 'az';
+    shown.sort(function (a, b) {
+      if (az) return a.getAttribute('data-title').localeCompare(b.getAttribute('data-title'));
+      return state.when === 'past' ? (a._d < b._d ? 1 : a._d > b._d ? -1 : 0) : (a._d < b._d ? -1 : a._d > b._d ? 1 : 0);
+    });
+    shown.forEach(function (c) { list.appendChild(c); });
+
+    // Counts beside each term: how many events it would show, given the other
+    // vocabularies' choices -- the way live's facet counts behave.
+    form.querySelectorAll('[data-count]').forEach(function (el) {
+      var key = el.getAttribute('data-count'), vocab = key.split(':')[0];
+      var n = pool.filter(function (c) { return c._terms.indexOf(key) !== -1 && matchesFilters(c, sel, vocab); }).length;
+      el.textContent = '(' + n + ')';
+    });
+
+    var nSel = boxes.filter(function (b) { return b.checked; }).length;
+    page.querySelector('[data-filter-count]').textContent = nSel ? ' (' + nSel + ')' : '';
+    var active = nSel || words.length;
+    form.querySelector('.upev-clear').hidden = !active;
+    countEl.textContent = shown.length + (shown.length === 1 ? ' result' : ' results');
+    none.hidden = shown.length !== 0;
+    page.querySelectorAll('[data-when]').forEach(function (b) {
+      b.setAttribute('aria-pressed', String(b.getAttribute('data-when') === state.when));
+    });
+    h1.textContent = h1.getAttribute(state.when === 'past' ? 'data-title-past' : 'data-title-upcoming');
+  }
+
+  form.addEventListener('submit', function (e) { e.preventDefault(); });
+  form.addEventListener('input', function () { writeURL(); apply(); });
+  form.addEventListener('change', function () { writeURL(); apply(); });
+  page.querySelectorAll('[data-when]').forEach(function (b) {
+    b.addEventListener('click', function () { state.when = b.getAttribute('data-when'); writeURL(); apply(); });
+  });
+  clearBtns.forEach(function (b) {
+    b.addEventListener('click', function () { boxes.forEach(function (x) { x.checked = false; }); q.value = ''; writeURL(); apply(); });
+  });
+
+  readURL();
+  if (boxes.some(function (b) { return b.checked; })) form.querySelector('.upev-filters').open = true;
+  apply();
+})();
+</script>
+
+<style>
+.upev-page [hidden] { display: none !important; }
+.upev-tabs { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 22px; }
+.upev-tab {
+    padding: 8px 16px; border: 1px solid #c9d4e0; border-radius: 6px; background: #fff;
+    font-size: 15px; font-weight: 600; color: var(--font-dark-link); cursor: pointer; text-decoration: none;
+}
+.upev-tab[aria-pressed="true"] { background: var(--font-dark-link); border-color: var(--font-dark-link); color: #fff; }
+.upev-tab:hover { background: var(--bg-light-base); }
+.upev-tab[aria-pressed="true"]:hover { background: var(--font-dark-link); }
+.upev-tab--link { margin-left: auto; }
+.upev-tab:focus-visible, .upev-controls :focus-visible { outline: 2px solid var(--font-dark-link); outline-offset: 2px; }
+
+.upev-controls { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 14px 20px; margin: 0 0 14px; }
+.upev-field { display: flex; flex-direction: column; gap: 5px; }
+.upev-field label { font-size: 13px; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; color: #5a6b7d; }
+.upev-field--search { flex: 1 1 260px; }
+.upev-field input, .upev-field select { padding: 8px 10px; border: 1px solid #c9d4e0; border-radius: 6px; font-size: 15px; background: #fff; }
+.upev-filters { flex: 1 1 100%; }
+.upev-filters > summary { display: inline-block; cursor: pointer; font-size: 15px; font-weight: 600; color: var(--font-dark-link); padding: 6px 0; }
+.upev-filters__body { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px 28px; padding: 14px 18px; margin-top: 6px; background: var(--bg-light-base); border-radius: 8px; }
+.upev-filters fieldset { border: 0; margin: 0; padding: 0; }
+.upev-filters legend { font-size: 13px; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; color: #5a6b7d; margin-bottom: 6px; }
+.upev-check { display: flex; align-items: baseline; gap: 6px; font-size: 14.5px; padding: 3px 0; cursor: pointer; }
+.upev-check__n { color: #6b7a88; font-size: 13px; }
+.upev-clear, .upev-linkbtn { background: none; border: 0; padding: 0; font-size: 15px; font-weight: 600; color: var(--font-dark-link); text-decoration: underline; cursor: pointer; }
+.upev-count { font-size: 14px; color: #5a6b7d; margin: 6px 0 12px; }
+
+.upev-list { list-style: none; margin: 0; padding: 0; }
+.upev-card { padding: 20px 0; border-top: 1px solid #e3e8ee; }
+.upev-card:last-child { border-bottom: 1px solid #e3e8ee; }
+.upev-card__format { display: inline-block; margin: 0 0 6px; padding: 2px 10px; border-radius: 12px; background: var(--bg-light-base); font-size: 12.5px; font-weight: 600; color: #5a6b7d; }
+.upev-card__title { font-size: 19px; font-weight: 600; margin: 0 0 6px; line-height: 1.35; }
+.upev-card__title a { color: var(--font-dark-link); text-decoration: none; }
+.upev-card__title a:hover { text-decoration: underline; }
+.upev-card__when { font-size: 14.5px; color: #444; margin: 0 0 6px; }
+.upev-card__when time { font-weight: 600; color: var(--font-dark-text); }
+.upev-card__sep { color: #a3adb8; margin: 0 4px; }
+.upev-card__teaser { font-size: 14.5px; color: #555; line-height: 1.6; margin: 0; }
+
+@media (max-width: 600px) {
+    .upev-tab--link { margin-left: 0; }
+    .upev-field, .upev-field--search { flex: 1 1 100%; }
+}
+</style>
+{{ end }}

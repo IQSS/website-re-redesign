@@ -1,20 +1,23 @@
 ---
 title: "Introduction to Dataverse APIs"
-date: 2026-05-28
+date: 2026-11-16
 draft: false
 type: "page"
 layout: "event"
-hero_image: ""
-subtitle: "Event Details"
-event_location: "Virtual"
-program: ["Dataverse Project"]
+source_url: "https://www.iq.harvard.edu/event/introduction-dataverse-apis"
+event_date: 2024-01-31
+event_time: "1:00 PM – 2:00 PM EST"
+event_location: "Online via Zoom"
 event-type: ["Training"]
+program: ["Dataverse Project"]
 research-technology: ["Dataverse"]
 ---
-While Dataverse supports file uploads through its standard web interface, there are big data use cases where the Dataverse API and related tools are useful. This session introduces participants to the Dataverse API for programmatic access to data.
+<p>	<strong>Registration required.</strong> Link:&nbsp;<a href="https://harvard.zoom.us/webinar/register/WN_7v5uO2EMSmG7tQH-4zriRw">https://harvard.zoom.us/webinar/register/WN_7v5uO2EMSmG7tQH-4zriRw</a></p>
 
-<a href="https://harvard.zoom.us/webinar/register/WN_7v5uO2EMSmG7tQH-4zriRw" class="cta-button" target="_blank">Register</a>
+<p>	While Dataverse supports file uploads through its standard web interface, there are a variety of big data use cases where the Dataverse API and tools that use it can simplify the upload process. DVUploader, a Java command-line tool, and DVWebloader, a plug-in for Dataverse, are two tools that can handle larger files and larger numbers of files, upload files from a whole folder tree (retaining the folder paths in Dataverse), and/or only upload new files. In this presentation, we'll describe these tools and how to use them to address some example use cases, and provide a brief overview of the underlying APIs.</p>
 
-<div class="contact-info">
-<p><strong>General Inquiries:</strong> <a href="mailto:gen_inquiries@iq.harvard.edu">gen_inquiries@iq.harvard.edu</a></p>
-</div>
+<h2>	Presenters</h2>
+
+<ul>	<li>		Gustavo Durand (The Dataverse Project, IQSS)	</li>	<li>		James Myers (GDCC, QDR)	</li></ul>
+
+<p>	&nbsp;</p>

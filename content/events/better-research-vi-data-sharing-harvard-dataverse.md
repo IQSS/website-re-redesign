@@ -1,24 +1,33 @@
 ---
 title: "Better Research VI: Data Sharing with Harvard Dataverse"
-date: 2026-05-28
+date: 2026-11-16
 draft: false
 type: "page"
 layout: "event"
-hero_image: ""
-subtitle: "Event Details"
+source_url: "https://www.iq.harvard.edu/event/better-research-vi-data-sharing-harvard-dataverse"
 event_date: 2026-05-20
 event_time: "12:30 PM – 2:00 PM EDT"
 event_location: "Lamont Library B30 Collaborative Learning Space"
-program: ["Dataverse Project"]
+event_format: ["In Person"]
+event_links:
+  - label: "Register for Workshop"
+    url: "https://libcal.countway.harvard.edu/event/14974439"
 event-type: ["Training"]
+program: ["Dataverse Project"]
 research-technology: ["Dataverse"]
 ---
-A free 1.5-hour in-person workshop on using Harvard Dataverse for data sharing and preservation. Covers how the repository supports research projects, funder/journal compliance, and FAIR data principles. Format includes lecture, demonstrations, and discussion. Participants learn about repository features relevant to their discipline, data type, or funder requirements. Open to Harvard faculty, research staff, postdocs, and students (Harvard ID required). No prerequisites.
+<p><strong>What</strong>:&nbsp;Come learn about the Harvard Dataverse for data sharing and preservation, and explore how the repository can support your&nbsp;research project and data sharing needs.</p>
 
-**Presenter:** Katie Mika, Data Services Librarian, Harvard Library
+<p><strong>Why</strong>:&nbsp;Publishing research data within a trusted repository helps you comply with funder and journal data sharing policies, supports the discovery of and access to FAIR (findable, accessible, interoperable, and reusable) data, and can result in more visibility and higher impact for research projects.</p>
 
-<a href="https://libcal.countway.harvard.edu/event/14974439" class="cta-button" target="_blank">Register</a>
+<p><strong>How</strong>:&nbsp;This is a free&nbsp;<strong>1.5-hour in-person&nbsp;</strong>workshop, consisting of&nbsp;lecture, demonstrations, and discussion. Participants will gain an understanding of the Harvard Dataverse repository, and which features may be relevant for their discipline, data type, or funder requirements.&nbsp;<em>This live class will not be recorded.&nbsp;</em></p>
 
-<div class="contact-info">
-<p><strong>General Inquiries:</strong> <a href="mailto:gen_inquiries@iq.harvard.edu">gen_inquiries@iq.harvard.edu</a></p>
-</div>
+<p><strong>Where</strong>:&nbsp;Lamont Library B30 Collaborative Learning Space.</p>
+
+<p><strong>Who</strong>: This seminar is open to Harvard faculty, research staff, postdoctoral researchers, and students&nbsp;from&nbsp;all disciplines. There are no prerequisites or assumptions of knowledge.&nbsp;In-person workshops are open to Harvard University ID holders only.</p>
+
+<p><strong>Instructor</strong>:&nbsp;<a href="https://library.harvard.edu/staff/katie-mika">Katie Mika</a>, MA, MLIS, Data Services Librarian, Harvard Library</p>
+
+<p>Join your peers to meet new people and learn new skills in a welcoming and encouraging environment!</p>
+
+<p><a href="https://libcal.countway.harvard.edu/event/14974439"><strong>Registration is required</strong></a><strong>&nbsp;</strong>and&nbsp;opens at 12:30pm Wednesday, April 22, 2026.</p>

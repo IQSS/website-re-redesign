@@ -35,6 +35,17 @@
 {{- if not $date -}}
   {{- return (dict "ok" false) -}}
 {{- end -}}
+{{- /* A recurring event (event_occurrences) is added at its next date, or its
+       last one once all have passed, as of the build. */ -}}
+{{- with .Params.event_occurrences -}}
+  {{- $today := now.Format "2006-01-02" -}}
+  {{- $pick := "" -}}
+  {{- range . -}}
+    {{- $d := (time .).Format "2006-01-02" -}}
+    {{- if and (not $pick) (ge $d $today) }}{{ $pick = $d }}{{ end -}}
+  {{- end -}}
+  {{- $date = $pick | default ((time (index . (sub (len .) 1))).Format "2006-01-02") -}}
+{{- end -}}
 
 {{- $endDate := .Params.event_end_date -}}
 {{- if $endDate -}}

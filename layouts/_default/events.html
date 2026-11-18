@@ -21,24 +21,12 @@
          the previous hardcoded list did (it still advertised May and June
          events in October). Pages with no event_date are recurring or
          on-demand sessions and get their own section. */}}
-    {{ $today := now.Format "2006-01-02" }}
-    {{ $all := where .Site.RegularPages "Section" "events" }}
-    {{ $upcoming := slice }}
-    {{ $past := slice }}
-    {{ $ongoing := slice }}
-    {{ range $all }}
-        {{ if .Params.event_date }}
-            {{ if ge ((time .Params.event_date).Format "2006-01-02") $today }}
-                {{ $upcoming = $upcoming | append . }}
-            {{ else }}
-                {{ $past = $past | append . }}
-            {{ end }}
-        {{ else }}
-            {{ $ongoing = $ongoing | append . }}
-        {{ end }}
-    {{ end }}
-    {{ $upcoming = sort $upcoming "Params.event_date" "asc" }}
-    {{ $past = sort $past "Params.event_date" "desc" }}
+    {{/* Upcoming / past / ongoing come from the shared event-sets partial, which
+         also places recurring events by their next date. */}}
+    {{ $sets := partial "event-sets.html" (dict) }}
+    {{ $upcoming := $sets.upcoming }}
+    {{ $past := $sets.past }}
+    {{ $ongoing := $sets.ongoing }}
 
     <div class="events-section">
         <div class="container">
@@ -46,7 +34,7 @@
             {{ with $upcoming }}
             <div class="events-list">
                 {{ range . }}
-                {{ $d := time .Params.event_date }}
+                {{ $d := time (index $sets.dates .RelPermalink) }}
                 <div class="event-item">
                     <div class="event-date-box">
                         <span class="event-month">{{ $d.Format "Jan" | upper }}</span>
@@ -64,7 +52,7 @@
             {{ else }}
             <p>No upcoming events are currently scheduled. Please check the calendar for the latest listings.</p>
             {{ end }}
-            <a href="{{ "calendar/" | relURL }}" class="events-view-all">View all upcoming events &rarr;</a>
+            <a href="{{ "upcoming-events/" | relURL }}" class="events-view-all">View all upcoming events &rarr;</a>
         </div>
     </div>
 
@@ -100,7 +88,7 @@
             <h2>Past Events</h2>
             <div class="events-list">
                 {{ range first 10 . }}
-                {{ $d := time .Params.event_date }}
+                {{ $d := time (index $sets.dates .RelPermalink) }}
                 <div class="event-item">
                     <div class="event-date-box event-date-box--past">
                         <span class="event-month">{{ $d.Format "Jan" | upper }}</span>
@@ -121,22 +109,22 @@
         <div class="container">
             <h2>Events by Type</h2>
             <div class="category-grid">
-                <a href="{{ "calendar/#workshops" | relURL }}" class="category-card">
+                <a href="{{ partial "upcoming-filter-url.html" "Workshops, Seminars & Classes" }}" class="category-card">
                     <h3>Workshops, Seminars, & Classes</h3>
                 </a>
-                <a href="{{ "calendar/#office-hours" | relURL }}" class="category-card">
+                <a href="{{ partial "upcoming-filter-url.html" "Help Desk Office Hours" }}" class="category-card">
                     <h3>Help Desk Office Hours</h3>
                 </a>
-                <a href="{{ "calendar/#guest-speakers" | relURL }}" class="category-card">
+                <a href="{{ partial "upcoming-filter-url.html" "Guest Speakers/Talks" }}" class="category-card">
                     <h3>Guest Speakers</h3>
                 </a>
-                <a href="{{ "calendar/#conferences" | relURL }}" class="category-card">
+                <a href="{{ partial "upcoming-filter-url.html" "Conferences & Symposia" }}" class="category-card">
                     <h3>Conferences & Symposia</h3>
                 </a>
-                <a href="{{ "calendar/#training" | relURL }}" class="category-card">
+                <a href="{{ partial "upcoming-filter-url.html" "Training" }}" class="category-card">
                     <h3>Training</h3>
                 </a>
-                <a href="{{ "calendar/#special-events" | relURL }}" class="category-card">
+                <a href="{{ partial "upcoming-filter-url.html" "Special Events" }}" class="category-card">
                     <h3>Special Events</h3>
                 </a>
             </div>

@@ -1,0 +1,18 @@
+{{- /*
+  URL of /upcoming-events/ filtered to one Event Type, given the term's title:
+      {{ partial "upcoming-filter-url.html" "Workshops, Seminars & Classes" }}
+
+  The term is found by its title rather than by urlizing the title, because
+  Hugo's term URLs and `urlize` disagree on punctuation ("&" becomes a double
+  hyphen in the URL, a single one from urlize). A type no event carries yet
+  has no term page, so it links to the unfiltered list.
+*/ -}}
+{{- $want := . -}}
+{{- $slug := "" -}}
+{{- range index site.Taxonomies "event-type" -}}
+  {{- if eq .Page.Title $want }}{{ $slug = path.Base .Page.RelPermalink }}{{ end -}}
+{{- end -}}
+{{- if $slug -}}
+  {{- return (printf "upcoming-events/?event-type=%s" $slug | relURL) -}}
+{{- end -}}
+{{- return ("upcoming-events/" | relURL) -}}

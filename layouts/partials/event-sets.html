@@ -6,9 +6,15 @@
   list on the same day without anyone editing a template. Pages with no
   event_date are recurring or on-demand sessions and sort into "ongoing".
 
+  A recurring event (event_occurrences, e.g. a yearly holiday) is placed by
+  its next date: upcoming while any date is still ahead, past once all are
+  behind. `dates` maps each page's RelPermalink to the date it was placed by,
+  so lists can show "Nov 11, 2027" rather than the series' first date.
+
   Usage:
     {{ $sets := partial "event-sets.html" (dict "pages" $somePages) }}
     {{ $sets.upcoming }} {{ $sets.past }} {{ $sets.ongoing }}
+    {{ index $sets.dates .RelPermalink }}   -> "2027-11-11"
 
   "pages" is optional; it defaults to every page in the events section.
 */ -}}
@@ -23,20 +29,37 @@
 {{- else -}}
   {{- $src = where site.RegularPages "Section" "events" -}}
 {{- end -}}
-{{- $upcoming := slice -}}
+{{- $up := slice -}}
 {{- $past := slice -}}
 {{- $ongoing := slice -}}
+{{- $dates := dict -}}
 {{- range $src -}}
   {{- if .Params.event_date -}}
-    {{- if ge ((time .Params.event_date).Format "2006-01-02") $today -}}
-      {{- $upcoming = $upcoming | append . -}}
+    {{- $d := (time .Params.event_date).Format "2006-01-02" -}}
+    {{- with .Params.event_occurrences -}}
+      {{- $next := "" -}}
+      {{- range . -}}
+        {{- $o := (time .).Format "2006-01-02" -}}
+        {{- if and (not $next) (ge $o $today) }}{{ $next = $o }}{{ end -}}
+      {{- end -}}
+      {{- $d = $next | default ((time (index . (sub (len .) 1))).Format "2006-01-02") -}}
+    {{- end -}}
+    {{- /* A multi-day event stays upcoming until its last day has passed. */ -}}
+    {{- $last := $d -}}
+    {{- with .Params.event_end_date }}{{ $last = (time .).Format "2006-01-02" }}{{ end -}}
+    {{- $dates = merge $dates (dict .RelPermalink $d) -}}
+    {{- $item := dict "p" . "d" $d "t" .Title -}}
+    {{- if ge $last $today -}}
+      {{- $up = $up | append $item -}}
     {{- else -}}
-      {{- $past = $past | append . -}}
+      {{- $past = $past | append $item -}}
     {{- end -}}
   {{- else -}}
     {{- $ongoing = $ongoing | append . -}}
   {{- end -}}
 {{- end -}}
-{{- if $upcoming -}}{{- $upcoming = sort $upcoming "Params.event_date" "asc" -}}{{- end -}}
-{{- if $past -}}{{- $past = sort $past "Params.event_date" "desc" -}}{{- end -}}
-{{- return (dict "upcoming" $upcoming "past" $past "ongoing" $ongoing) -}}
+{{- $upcoming := slice -}}
+{{- range sort $up "d" "asc" }}{{ $upcoming = $upcoming | append .p }}{{ end -}}
+{{- $pastPages := slice -}}
+{{- range sort $past "d" "desc" }}{{ $pastPages = $pastPages | append .p }}{{ end -}}
+{{- return (dict "upcoming" $upcoming "past" $pastPages "ongoing" $ongoing "dates" $dates) -}}

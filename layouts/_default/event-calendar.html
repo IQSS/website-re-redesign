@@ -1,0 +1,410 @@
+{{ define "main" }}
+{{/* /calendar/: every event on a month or week grid.
+
+     The events are written into the page as JSON at build time, straight
+     from content/events/, and the grid is drawn in the browser. Nothing is
+     typed in here: a new event file appears on the calendar the next time
+     the site builds.
+
+     State lives in the query string (?view=week&date=2026-11-16), so a
+     particular month or week can be bookmarked or linked to, and the Back
+     button retraces the visitor's steps. Month is the default view, opening
+     on the current month.
+
+     Without JavaScript the page says so and points to the upcoming-events
+     list, which needs no script. */}}
+{{ $events := slice }}
+{{ range $p := where site.RegularPages "Section" "events" }}
+  {{ with $p.Params.event_date }}
+    {{ $end := "" }}
+    {{ with $p.Params.event_end_date }}{{ $end = (time .).Format "2006-01-02" }}{{ end }}
+    {{ $occ := slice }}
+    {{ range $p.Params.event_occurrences }}{{ $occ = $occ | append ((time .).Format "2006-01-02") }}{{ end }}
+    {{ $ev := dict
+        "t" $p.Title
+        "u" $p.RelPermalink
+        "d" ((time .).Format "2006-01-02")
+        "e" $end
+        "o" $occ
+        "tm" ($p.Params.event_time | default "")
+        "l" ($p.Params.event_location | default "") }}
+    {{ $events = $events | append $ev }}
+  {{ end }}
+{{ end }}
+<div class="resource-page evcal-page">
+    <nav aria-label="Breadcrumb" class="rp-breadcrumb">
+        <div class="container">
+            <ol style="list-style:none;display:flex;gap:6px;align-items:center;padding:0;margin:0;">
+                <li><a href="{{ .Site.Home.RelPermalink }}">Home</a></li>
+                <li aria-hidden="true" style="color:#999;">&rsaquo;</li>
+                <li><a href="{{ "events/" | relURL }}">Events</a></li>
+                <li aria-hidden="true" style="color:#999;">&rsaquo;</li>
+                <li><span aria-current="page">{{ .Title }}</span></li>
+            </ol>
+        </div>
+    </nav>
+
+    <div class="rp-header">
+        <div class="container">
+            <h1>{{ .Title }}</h1>
+        </div>
+    </div>
+
+    <div class="rp-content">
+        <div class="container">
+            <noscript>
+                <p class="evcal-noscript">This calendar needs JavaScript. <a href="{{ "upcoming-events/" | relURL }}">See the list of upcoming events</a>.</p>
+            </noscript>
+
+            <div class="evcal" id="evcal" hidden>
+                <div class="evcal__bar">
+                    <div class="evcal__nav">
+                        <button type="button" class="evcal__btn evcal__btn--icon" data-step="-1"><span aria-hidden="true">&lsaquo;</span><span class="sr-only" data-prev-label>Previous month</span></button>
+                        <button type="button" class="evcal__btn" data-today>Today</button>
+                        <button type="button" class="evcal__btn evcal__btn--icon" data-step="1"><span aria-hidden="true">&rsaquo;</span><span class="sr-only" data-next-label>Next month</span></button>
+                        <h2 class="evcal__title" id="evcal-title" aria-live="polite"></h2>
+                    </div>
+                    <div class="evcal__tools">
+                        <form class="evcal__jump" data-jump>
+                            <label class="sr-only" for="evcal-month">Month</label>
+                            <select id="evcal-month"></select>
+                            <label class="sr-only" for="evcal-year">Year</label>
+                            <select id="evcal-year"></select>
+                            <button type="submit" class="evcal__btn">Go</button>
+                        </form>
+                        <div class="evcal__views" role="group" aria-label="Calendar view">
+                            <button type="button" class="evcal__btn" data-view="month" aria-pressed="true">Month</button>
+                            <button type="button" class="evcal__btn" data-view="week" aria-pressed="false">Week</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="evcal__body" id="evcal-body"></div>
+                <p class="evcal__foot"><a href="{{ "upcoming-events/" | relURL }}">List of upcoming events &rarr;</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="application/json" id="evcal-data">{{ $events | jsonify | safeJS }}</script>
+<script>
+(function () {
+  var root = document.getElementById('evcal');
+  root.hidden = false;
+  var EVENTS = JSON.parse(document.getElementById('evcal-data').textContent);
+  var MONTHS = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+  var DAYS = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+  var body = document.getElementById('evcal-body');
+  var title = document.getElementById('evcal-title');
+  var selM = document.getElementById('evcal-month');
+  var selY = document.getElementById('evcal-year');
+  var jump = root.querySelector('[data-jump]');
+
+  // Dates are handled as plain calendar days (no time zone), built from
+  // year/month/day numbers, so a visitor's own zone can never shift an
+  // event onto the wrong square.
+  function ymd(d) { return d.getFullYear() + '-' + pad(d.getMonth() + 1) + '-' + pad(d.getDate()); }
+  function pad(n) { return (n < 10 ? '0' : '') + n; }
+  function parse(s) { var p = s.split('-'); return new Date(+p[0], +p[1] - 1, +p[2]); }
+  function addDays(d, n) { return new Date(d.getFullYear(), d.getMonth(), d.getDate() + n); }
+  // "3:00 PM – 4:15 PM EDT" -> minutes after midnight, for ordering a day.
+  function startMin(t) {
+    var m = /(\d{1,2}):(\d{2})\s*([AP]M)/i.exec(t || '');
+    if (!m) return -1;
+    var h = +m[1] % 12 + (m[3].toUpperCase() === 'PM' ? 12 : 0);
+    return h * 60 + +m[2];
+  }
+  function shortTime(t) {
+    var m = /(\d{1,2}:\d{2})\s*([AP]M)/i.exec(t || '');
+    return m ? m[1].replace(':00', '') + m[2].toLowerCase().charAt(0) : '';
+  }
+
+  // Index events by every day they cover; multi-day events sit on each day.
+  var byDay = {};
+  EVENTS.forEach(function (e) {
+    // A recurring event sits on each of its dates.
+    if (e.o && e.o.length) {
+      e.o.forEach(function (k) { (byDay[k] = byDay[k] || []).push(e); });
+      return;
+    }
+    var d = parse(e.d), end = e.e ? parse(e.e) : d;
+    for (var i = 0; d <= end && i < 120; i++, d = addDays(d, 1)) {
+      (byDay[ymd(d)] = byDay[ymd(d)] || []).push(e);
+    }
+  });
+  Object.keys(byDay).forEach(function (k) {
+    byDay[k].sort(function (a, b) { return startMin(a.tm) - startMin(b.tm) || a.t.localeCompare(b.t); });
+  });
+
+  // Year choices run from the earliest event to two years past the latest
+  // (or past today, whichever is later).
+  var years = Object.keys(byDay).map(function (k) { return +k.slice(0, 4); });
+  var now = new Date();
+  var today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  var y0 = Math.min.apply(null, years.concat([today.getFullYear()]));
+  var y1 = Math.max.apply(null, years.concat([today.getFullYear()])) + 2;
+  MONTHS.forEach(function (m, i) { selM.add(new Option(m, i)); });
+  for (var y = y0; y <= y1; y++) selY.add(new Option(y, y));
+
+  var state = readURL();
+
+  function readURL() {
+    var q = new URLSearchParams(location.search);
+    var v = q.get('view') === 'week' ? 'week' : 'month';
+    var d = /^\d{4}-\d{2}-\d{2}$/.test(q.get('date') || '') ? parse(q.get('date')) : today;
+    return { view: v, date: d };
+  }
+  function writeURL(push) {
+    var q = new URLSearchParams();
+    if (state.view === 'week') q.set('view', 'week');
+    if (ymd(state.date) !== ymd(today)) q.set('date', ymd(state.date));
+    var s = q.toString();
+    history[push ? 'pushState' : 'replaceState'](null, '', location.pathname + (s ? '?' + s : ''));
+  }
+
+  function link(e, withTime) {
+    var a = document.createElement('a');
+    a.href = e.u;
+    a.className = 'evcal__ev';
+    var t = withTime && e.tm && !e.e ? shortTime(e.tm) : '';
+    if (t) { var s = document.createElement('span'); s.className = 'evcal__time'; s.textContent = t + ' '; a.appendChild(s); }
+    a.appendChild(document.createTextNode(e.t));
+    var tip = e.t + (e.tm ? ', ' + e.tm : '') + (e.l ? ', ' + e.l : '');
+    a.title = tip;
+    return a;
+  }
+
+  function renderMonth() {
+    var y = state.date.getFullYear(), m = state.date.getMonth();
+    title.textContent = MONTHS[m] + ' ' + y;
+    var first = new Date(y, m, 1);
+    var start = addDays(first, -first.getDay());
+    var table = document.createElement('table');
+    table.className = 'evcal__month';
+    var cap = table.createCaption(); cap.className = 'sr-only'; cap.textContent = 'Events in ' + MONTHS[m] + ' ' + y;
+    var head = table.createTHead().insertRow();
+    DAYS.forEach(function (d) {
+      var th = document.createElement('th'); th.scope = 'col';
+      th.innerHTML = '<span class="evcal__dlong">' + d + '</span><span class="evcal__dshort" aria-hidden="true">' + d.slice(0, 3) + '</span>';
+      head.appendChild(th);
+    });
+    var tb = table.createTBody();
+    var agenda = [];
+    for (var w = 0; w < 6; w++) {
+      var row = tb.insertRow();
+      for (var i = 0; i < 7; i++) {
+        var d = addDays(start, w * 7 + i), key = ymd(d);
+        var td = row.insertCell();
+        var out = d.getMonth() !== m;
+        if (out) td.className = 'evcal__out';
+        if (key === ymd(today)) td.classList.add('evcal__today');
+        var num = document.createElement('span');
+        num.className = 'evcal__num';
+        num.textContent = d.getDate();
+        if (key === ymd(today)) num.setAttribute('aria-label', d.getDate() + ', today');
+        td.appendChild(num);
+        var evs = byDay[key] || [];
+        if (evs.length) {
+          var ul = document.createElement('ul');
+          evs.forEach(function (e) { var li = document.createElement('li'); li.appendChild(link(e, true)); ul.appendChild(li); });
+          td.appendChild(ul);
+          if (!out) agenda.push({ d: d, evs: evs });
+        }
+      }
+      if (addDays(start, (w + 1) * 7).getMonth() !== m && w >= 3) break;
+    }
+    body.innerHTML = '';
+    body.appendChild(table);
+    // On narrow screens the grid can't carry titles, so the month is also
+    // listed day by day underneath it (CSS shows one or the other).
+    body.appendChild(agendaList(agenda, 'evcal__agenda evcal__agenda--month'));
+  }
+
+  function agendaList(days, cls) {
+    var wrap = document.createElement('div');
+    wrap.className = cls;
+    if (!days.length) {
+      var p = document.createElement('p'); p.className = 'evcal__none';
+      p.textContent = state.view === 'week' ? 'No events this week.' : 'No events this month.';
+      wrap.appendChild(p);
+      return wrap;
+    }
+    days.forEach(function (x) {
+      var h = document.createElement('h3');
+      h.className = 'evcal__day';
+      h.textContent = DAYS[x.d.getDay()] + ', ' + MONTHS[x.d.getMonth()] + ' ' + x.d.getDate();
+      wrap.appendChild(h);
+      var ul = document.createElement('ul');
+      x.evs.forEach(function (e) {
+        var li = document.createElement('li');
+        var when = document.createElement('span'); when.className = 'evcal__when';
+        when.textContent = e.e ? 'All day' : (e.tm || 'All day');
+        li.appendChild(when);
+        li.appendChild(link(e, false));
+        if (e.l) { var l = document.createElement('span'); l.className = 'evcal__loc'; l.textContent = e.l; li.appendChild(l); }
+        ul.appendChild(li);
+      });
+      wrap.appendChild(ul);
+    });
+    return wrap;
+  }
+
+  function renderWeek() {
+    var start = addDays(state.date, -state.date.getDay());
+    var end = addDays(start, 6);
+    var sameMonth = start.getMonth() === end.getMonth();
+    title.textContent = MONTHS[start.getMonth()] + ' ' + start.getDate() + ' – ' +
+      (sameMonth ? '' : MONTHS[end.getMonth()] + ' ') + end.getDate() + ', ' + end.getFullYear();
+    var grid = document.createElement('ol');
+    grid.className = 'evcal__week';
+    for (var i = 0; i < 7; i++) {
+      var d = addDays(start, i), key = ymd(d);
+      var li = document.createElement('li');
+      li.className = 'evcal__wday' + (key === ymd(today) ? ' evcal__today' : '');
+      var h = document.createElement('h3');
+      h.className = 'evcal__day';
+      h.innerHTML = '<span class="evcal__wname">' + DAYS[d.getDay()] + '</span> <span class="evcal__wdate">' + MONTHS[d.getMonth()].slice(0, 3) + ' ' + d.getDate() + '</span>';
+      li.appendChild(h);
+      var evs = byDay[key] || [];
+      var ul = document.createElement('ul');
+      evs.forEach(function (e) {
+        var it = document.createElement('li');
+        var when = document.createElement('span'); when.className = 'evcal__when';
+        when.textContent = e.e ? 'All day' : (e.tm || 'All day');
+        it.appendChild(when);
+        it.appendChild(link(e, false));
+        if (e.l) { var l = document.createElement('span'); l.className = 'evcal__loc'; l.textContent = e.l; it.appendChild(l); }
+        ul.appendChild(it);
+      });
+      li.appendChild(ul);
+      grid.appendChild(li);
+    }
+    body.innerHTML = '';
+    body.appendChild(grid);
+  }
+
+  function render() {
+    var week = state.view === 'week';
+    root.querySelectorAll('[data-view]').forEach(function (b) {
+      b.setAttribute('aria-pressed', String(b.getAttribute('data-view') === state.view));
+    });
+    root.querySelector('[data-prev-label]').textContent = week ? 'Previous week' : 'Previous month';
+    root.querySelector('[data-next-label]').textContent = week ? 'Next week' : 'Next month';
+    jump.hidden = week;
+    selM.value = state.date.getMonth();
+    if (![].some.call(selY.options, function (o) { return +o.value === state.date.getFullYear(); })) {
+      selY.add(new Option(state.date.getFullYear(), state.date.getFullYear()));
+    }
+    selY.value = state.date.getFullYear();
+    week ? renderWeek() : renderMonth();
+  }
+
+  root.querySelectorAll('[data-step]').forEach(function (b) {
+    b.addEventListener('click', function () {
+      var n = +b.getAttribute('data-step'), d = state.date;
+      state.date = state.view === 'week' ? addDays(d, 7 * n) : new Date(d.getFullYear(), d.getMonth() + n, 1);
+      writeURL(true); render();
+    });
+  });
+  root.querySelector('[data-today]').addEventListener('click', function () {
+    state.date = today; writeURL(true); render();
+  });
+  root.querySelectorAll('[data-view]').forEach(function (b) {
+    b.addEventListener('click', function () {
+      var v = b.getAttribute('data-view');
+      if (v === state.view) return;
+      // Switching to week keeps today's week if today is in the month being
+      // shown; otherwise it opens on that month's first week.
+      if (v === 'week' && state.view === 'month' &&
+          (state.date.getMonth() !== today.getMonth() || state.date.getFullYear() !== today.getFullYear())) {
+        state.date = new Date(state.date.getFullYear(), state.date.getMonth(), 1);
+      }
+      state.view = v; writeURL(true); render();
+    });
+  });
+  jump.addEventListener('submit', function (ev) {
+    ev.preventDefault();
+    state.date = new Date(+selY.value, +selM.value, 1);
+    writeURL(true); render();
+  });
+  window.addEventListener('popstate', function () { state = readURL(); render(); });
+
+  render();
+})();
+</script>
+
+<style>
+.evcal-noscript { font-size: 16px; }
+.evcal [hidden], .evcal[hidden] { display: none !important; }
+.evcal__bar { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 14px 24px; margin: 0 0 18px; }
+.evcal__nav, .evcal__tools, .evcal__jump, .evcal__views { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.evcal__tools { gap: 16px; }
+.evcal__title { font-size: 24px; font-weight: 600; margin: 0 0 0 10px; color: var(--font-dark-text); }
+.evcal__btn {
+    padding: 7px 14px; border: 1px solid #c9d4e0; border-radius: 6px; background: #fff;
+    font-size: 15px; font-weight: 600; color: var(--font-dark-link); cursor: pointer; line-height: 1.3;
+}
+.evcal__btn:hover { background: var(--bg-light-base); }
+.evcal__btn:focus-visible, .evcal select:focus-visible, .evcal__ev:focus-visible { outline: 2px solid var(--font-dark-link); outline-offset: 2px; }
+.evcal__btn--icon { font-size: 22px; padding: 2px 12px 5px; }
+.evcal__views .evcal__btn[aria-pressed="true"] { background: var(--font-dark-link); border-color: var(--font-dark-link); color: #fff; }
+.evcal select { padding: 7px 8px; border: 1px solid #c9d4e0; border-radius: 6px; font-size: 15px; background: #fff; }
+
+.evcal__month { width: 100%; table-layout: fixed; border-collapse: collapse; }
+.evcal__month th { font-size: 13px; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; color: #5a6b7d; padding: 8px 6px; text-align: left; border-bottom: 2px solid #d8e0e8; }
+.evcal__dshort { display: none; }
+.evcal__month td { vertical-align: top; height: 118px; padding: 6px; border: 1px solid #e3e8ee; }
+.evcal__month td.evcal__out { background: #fafbfc; }
+.evcal__month td.evcal__out .evcal__num { color: #a3adb8; }
+.evcal__num { display: inline-block; font-size: 14px; font-weight: 600; color: #444; min-width: 26px; height: 26px; line-height: 26px; text-align: center; border-radius: 50%; }
+.evcal__today .evcal__num { background: var(--orange-brand); color: #fff; }
+.evcal__month ul, .evcal__week ul, .evcal__agenda ul { list-style: none; margin: 0; padding: 0; }
+.evcal__month li { margin: 3px 0 0; }
+.evcal__month .evcal__ev {
+    display: block; font-size: 12.5px; line-height: 1.3; padding: 3px 5px; border-radius: 4px;
+    background: var(--bg-light-base); color: var(--font-dark-text); text-decoration: none;
+    overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.evcal__month .evcal__ev:hover { background: #dfe8f1; color: var(--font-dark-link); }
+.evcal__time { font-weight: 700; color: #5a6b7d; }
+
+.evcal__agenda--month { display: none; }
+.evcal__day { font-size: 16px; font-weight: 600; margin: 18px 0 8px; color: var(--font-dark-text); }
+.evcal__agenda li, .evcal__week ul li { display: flex; flex-direction: column; gap: 1px; padding: 8px 0; border-bottom: 1px solid #eef1f4; }
+.evcal__when { font-size: 13px; color: #5a6b7d; }
+.evcal__loc { font-size: 13px; color: #6b7a88; }
+.evcal__agenda .evcal__ev, .evcal__week .evcal__ev { font-size: 15.5px; font-weight: 600; color: var(--font-dark-link); text-decoration: none; }
+.evcal__agenda .evcal__ev:hover, .evcal__week .evcal__ev:hover { text-decoration: underline; }
+.evcal__none { color: #6b7a88; font-style: italic; }
+
+.evcal__week { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); border: 1px solid #e3e8ee; }
+.evcal__wday { padding: 8px; border-left: 1px solid #e3e8ee; min-height: 260px; }
+.evcal__wday:first-child { border-left: 0; }
+.evcal__wday .evcal__day { margin: 0 0 6px; font-size: 14px; display: flex; flex-direction: column; }
+.evcal__wname { font-size: 12px; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; color: #5a6b7d; }
+.evcal__wdate { font-size: 18px; }
+.evcal__wday.evcal__today { background: #fff7f2; }
+.evcal__wday.evcal__today .evcal__wdate { color: var(--orange-brand); }
+.evcal__week .evcal__ev { font-size: 14px; }
+.evcal__foot { margin: 22px 0 0; }
+.evcal__foot a { font-weight: 600; color: var(--font-dark-link); text-decoration: none; }
+
+@media (max-width: 900px) {
+    .evcal__week { grid-template-columns: 1fr; }
+    .evcal__wday { border-left: 0; border-top: 1px solid #e3e8ee; min-height: 0; }
+    .evcal__wday:first-child { border-top: 0; }
+    .evcal__wday .evcal__day { flex-direction: row; gap: 8px; align-items: baseline; }
+}
+@media (max-width: 700px) {
+    .evcal__title { margin: 6px 0 0; width: 100%; order: 5; font-size: 21px; }
+    .evcal__dlong { display: none; }
+    .evcal__dshort { display: inline; }
+    .evcal__month th { padding: 6px 2px; text-align: center; font-size: 11px; }
+    .evcal__month td { height: 52px; padding: 3px; text-align: center; }
+    .evcal__month ul { display: flex; justify-content: center; flex-wrap: wrap; gap: 3px; margin-top: 2px; }
+    .evcal__month li { margin: 0; }
+    /* Dots only on the small grid; the full list follows it. */
+    .evcal__month .evcal__ev { width: 7px; height: 7px; padding: 0; border-radius: 50%; background: var(--orange-brand); font-size: 0; color: transparent; }
+    .evcal__agenda--month { display: block; }
+}
+</style>
+{{ end }}

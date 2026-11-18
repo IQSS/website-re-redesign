@@ -37,6 +37,9 @@ summaryLength = 40
   event_type = "event-type"
   program = "program"
   research_technology = "research-technology"
+  # Live's fourth event vocabulary. Its one term, "Political Economy Seminar",
+  # is the Alesina Seminar's former name; no event since the scrape uses it.
+  service = "service"
   role = "role"
 
 # ── Menu ───────────────────────────────────────────────────────────────

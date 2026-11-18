@@ -54,6 +54,12 @@ organizers:
 # Note the sponsors are NOT the same list as organizers above -- live
 # shows seven organizers and six sponsors. Peter Buisseret organizes
 # but does not sponsor.
+# Printed on every event in this series, after the event's own copy. Live repeats
+# this text on each event page; here it lives once. Taken verbatim from
+# live's event pages (2026-11-16), which differ from the series page text
+# below for the Alesina Seminar.
+event_boilerplate: |
+  <p>Co-sponsored by FAS and IQSS, the Alberto Alesina Seminar on Political Economy supports research-related activities that integrate the study of economics and politics, whether by studying economic behavior in the political process or political behavior in the marketplace. In general, positive political economy is concerned with showing how observed differences among institutions affect political and economic outcomes in various social, economic, and political systems and how the institutions themselves change and develop in response to individual and collective beliefs, preferences, and strategies.</p><p>All interested faculty and students are invited to attend.</p>
 ---
 
 The Faculty of Arts and Sciences and IQSS sponsor this seminar on formal and quantitative political research. The Alberto Alesina Seminar on Political Economy (PE) supports research-related activities that integrate the study of economics and politics, whether by studying economic behavior in the political process or political behavior in the marketplace. In general, positive political economy is concerned with showing how observed differences among institutions affect political and economic outcomes in various social, economic, and political systems and how the institutions themselves change and develop in response to individual and collective beliefs, preferences, and strategies. All interested faculty and students are invited to attend.

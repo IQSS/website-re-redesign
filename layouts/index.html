@@ -327,7 +327,7 @@
         {{ with $sets.upcoming }}
         <div class="events-grid">
             {{ range first 6 . }}
-            {{ $d := time .Params.event_date }}
+            {{ $d := time (index $sets.dates .RelPermalink) }}
             <div class="event-tile">
                 <time datetime="{{ $d.Format "2006-01-02" }}" class="event-date">
                     <span aria-hidden="true">{{ $d.Format "Jan" | upper }}</span>

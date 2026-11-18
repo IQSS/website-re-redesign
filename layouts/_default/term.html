@@ -3,7 +3,13 @@
      its events aggregated live from content. Mirrors how iq.harvard.edu builds
      its Alesina page, which is a term page listing everything tagged with the
      series. Nothing here is hand-maintained. */}}
-{{ $sets := partial "event-sets.html" (dict "pages" .Pages) }}
+{{/* Program terms are shared with the People directory, so a term can carry
+     profiles as well as events. Only events go through the event lists (a
+     profile has no date and used to land under "Ongoing & On-Demand"); any
+     tagged people are shown after them as person cards. */}}
+{{ $eventPages := where .Pages "Section" "events" }}
+{{ $peoplePages := where .Pages "Section" "people" }}
+{{ $sets := partial "event-sets.html" (dict "pages" $eventPages) }}
 <div class="resource-page">
     <nav aria-label="Breadcrumb" class="rp-breadcrumb">
         <div class="container">
@@ -44,11 +50,12 @@
             </ul>
             {{ end }}
 
+            {{ if or $eventPages (not $peoplePages) }}
             <h2>Upcoming</h2>
             {{ with $sets.upcoming }}
             <div class="events-list">
                 {{ range . }}
-                {{ $d := time .Params.event_date }}
+                {{ $d := time (index $sets.dates .RelPermalink) }}
                 <div class="event-item">
                     <div class="event-date-box">
                         <span class="event-month">{{ $d.Format "Jan" | upper }}</span>
@@ -86,7 +93,7 @@
             <h2>Past Sessions</h2>
             <div class="events-list">
                 {{ range first 12 . }}
-                {{ $d := time .Params.event_date }}
+                {{ $d := time (index $sets.dates .RelPermalink) }}
                 <div class="event-item">
                     <div class="event-date-box event-date-box--past">
                         <span class="event-month">{{ $d.Format "Jan" | upper }}</span>
@@ -99,6 +106,15 @@
                 </div>
                 {{ end }}
             </div>
+            {{ end }}
+
+            {{ end }}
+
+            {{ with $peoplePages }}
+            <h2>People</h2>
+            <ul class="term-organizers term-people">
+                {{ range sort . "Title" }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}
+            </ul>
             {{ end }}
 
             <ul class="event-series__links">
@@ -118,6 +134,8 @@
 .term-course { font-weight: 300; opacity: 0.85; }
 .term-organizers { list-style: none; padding: 0; margin: 12px 0 28px; columns: 2; column-gap: 32px; }
 .term-organizers li { margin-bottom: 6px; break-inside: avoid; }
+.term-people a { color: var(--font-dark-link); text-decoration: none; }
+.term-people a:hover { text-decoration: underline; }
 @media (max-width: 600px) { .term-organizers { columns: 1; } }
 .event-series__links { list-style: none; padding: 0; margin: 28px 0 0; }
 .event-series__links li { margin-bottom: 8px; }

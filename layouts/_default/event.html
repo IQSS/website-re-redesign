@@ -40,19 +40,35 @@
                 {{ if or .Params.event_date .Params.event_schedule .Params.event_time }}
                 <div class="event-meta-group">
                     <dt>Date and Time</dt>
+                    {{/* A recurring event lists its dates when there are only a
+                         few (a yearly holiday); a long weekly run shows its
+                         first date and live's own wording of the rule. */}}
+                    {{ $occ := .Params.event_occurrences }}
+                    {{ if and $occ (le (len $occ) 4) }}
+                    {{ range $occ }}<dd class="event-meta-strong"><time datetime="{{ (time .).Format "2006-01-02" }}">{{ (time .).Format "January 2, 2006" }}</time></dd>{{ end }}
+                    {{ else }}
                     {{ with .Params.event_date }}
                     <dd class="event-meta-strong">
                         <time datetime="{{ (time .).Format "2006-01-02" }}">{{ (time .).Format "January 2, 2006" }}</time>{{ with $.Params.event_end_date }} &ndash; <time datetime="{{ (time .).Format "2006-01-02" }}">{{ (time .).Format "January 2, 2006" }}</time>{{ end }}
                     </dd>
                     {{ end }}
+                    {{ end }}
                     {{ with .Params.event_schedule }}<dd class="event-meta-strong">{{ . }}</dd>{{ end }}
-                    {{ with .Params.event_time }}<dd>{{ . }}</dd>{{ end }}
+                    {{ with .Params.event_time }}<dd>{{ . }}</dd>{{ else }}{{ if .Params.event_date }}<dd>All day</dd>{{ end }}{{ end }}
+                    {{ with .Params.event_recurrence }}<dd class="event-meta-note">Recurring event: {{ . }}</dd>{{ end }}
                 </div>
                 {{ end }}
-                {{ with .Params.event_location }}
+                {{ if or .Params.event_location .Params.event_links }}
                 <div class="event-meta-group">
                     <dt>Location</dt>
-                    <dd class="event-meta-strong">{{ . }}</dd>
+                    {{ with .Params.event_location }}<dd class="event-meta-strong">{{ . }}</dd>{{ end }}
+                    {{ with .Params.event_address }}
+                    <dd class="event-meta-address">{{ if $.Params.event_map_url }}<a href="{{ $.Params.event_map_url }}" target="_blank" rel="noopener noreferrer">{{ end }}{{ delimit . "<br>" | safeHTML }}{{ if $.Params.event_map_url }}<span class="sr-only"> (map, opens in new tab)</span></a>{{ end }}</dd>
+                    {{ end }}
+                    {{ with .Params.event_location_details }}<dd>{{ . }}</dd>{{ end }}
+                    {{ range .Params.event_links }}
+                    <dd class="event-meta-link"><a href="{{ .url }}"{{ if not (hasPrefix .url "mailto:") }} target="_blank" rel="noopener noreferrer"{{ end }}>{{ .label }}{{ if not (hasPrefix .url "mailto:") }}<span class="sr-only"> (opens in new tab)</span>{{ end }} <span aria-hidden="true">&rarr;</span></a></dd>
+                    {{ end }}
                 </div>
                 {{ end }}
                 {{/* GetTerms rather than the raw param: it hands back the term
@@ -75,6 +91,23 @@
             </div>
 
             {{ partial "event-series-footer.html" . }}
+
+            {{/* "See also": every term this event is tagged with, in all four
+                 of live's event vocabularies, as live lists them. */}}
+            {{ $terms := slice }}
+            {{ range slice "event-type" "program" "research-technology" "service" }}
+              {{ range $.GetTerms . }}{{ $terms = $terms | append . }}{{ end }}
+            {{ end }}
+            {{ with $terms }}
+            <div class="event-tags">
+                <span class="event-tags__label" id="event-tags-label">See also:</span>
+                <ul aria-labelledby="event-tags-label">
+                    {{ range . }}<li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>{{ end }}
+                </ul>
+            </div>
+            {{ end }}
+
+            {{ partial "event-share.html" . }}
         </div>
     </div>
 </div>
@@ -111,6 +144,17 @@
 .event-meta-strong { font-weight: 600; color: var(--font-dark-text) !important; }
 .event-meta-group dd a { color: var(--font-dark-link); text-decoration: none; }
 .event-meta-group dd a:hover { text-decoration: underline; }
+.event-meta-note { font-size: 14px !important; color: #5a6b7d !important; }
+.event-meta-address { font-size: 14px !important; }
+.event-meta-link { margin-top: 8px !important; }
+.event-meta-link a { font-weight: 600; }
+
+/* See also: live's tag row, as pills. */
+.event-tags { margin: 36px 0 0; }
+.event-tags__label { display: block; font-size: 13px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #5a6b7d; margin-bottom: 10px; }
+.event-tags ul { list-style: none; display: flex; flex-wrap: wrap; gap: 8px; margin: 0; padding: 0; }
+.event-tags a { display: inline-block; padding: 6px 14px; border-radius: 16px; background: var(--bg-light-base); color: var(--font-dark-text); font-size: 14px; text-decoration: none; }
+.event-tags a:hover, .event-tags a:focus-visible { background: #dfe8f1; color: var(--font-dark-link); }
 
 /* Add to calendar: a disclosure, so it needs no script to open or close. */
 .addcal { position: relative; margin: 0 0 32px; display: inline-block; }

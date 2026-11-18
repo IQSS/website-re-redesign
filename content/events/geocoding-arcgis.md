@@ -1,22 +1,24 @@
 ---
 title: "Geocoding with ArcGIS"
-date: 2026-05-28
+date: 2026-11-16
 draft: false
 type: "page"
 layout: "event"
-hero_image: ""
-subtitle: "Event Details"
+source_url: "https://www.iq.harvard.edu/event/geocoding-arcgis"
 event_date: 2026-02-06
 event_time: "1:00 PM – 3:00 PM EST"
 event_location: "CGIS Knafel room SB-12"
-program: ["Center for Geographic Analysis"]
+event_location_details: "(Sub-basement level)"
 event-type: ["Training"]
+program: ["Center for Geographic Analysis"]
 research-technology: ["GIS"]
 ---
-A two-hour workshop covering geocoding concepts and practical applications. Participants will geocode single addresses and cities using Bing Maps, Google Maps, and ArcGIS Online, then batch-geocode multiple addresses in ArcGIS Pro and map results. Emphasis on evaluating accuracy of geocoded outputs. Free for Harvard affiliates; $100 for others.
+<p>This two hour workshop introduces the concept of geocoding and how different geocoded datasets can be used. Students will geocode single addresses and cities using Bing Maps, Google Maps, and ArcGIS Online. Batches of multiple addresses will be geocoded ArcGIS Pro, and students will map the results. Students will gain insight regarding how to successfully geocode different datasets, and evaluate the accuracy of the results.</p>
 
-<a href="https://projects.iq.harvard.edu/cga-pin/registration-cga-training" class="cta-button" target="_blank">Register</a>
+<p>This workshop is free for Harvard affiliates with a valid Harvard ID, and is $100 for others.</p>
 
-<div class="contact-info">
-<p><strong>General Inquiries:</strong> <a href="mailto:gen_inquiries@iq.harvard.edu">gen_inquiries@iq.harvard.edu</a></p>
-</div>
+<p><strong>How to Apply:</strong></p>
+
+<ul><li>For Harvard Affiliates, please submit your application by filling out <a href="https://projects.iq.harvard.edu/cga-pin/registration-cga-training">the form at this link</a> (HUID login required).</li><li>For Non-Harvard applicants, please submit your application by filling out <a href="https://docs.google.com/forms/d/e/1FAIpQLSeXW61jcLTbZ0iEdmDPIHUf76raVl2nK3xqOKKPq1UYIKxFrg/viewform">the form at this link.</a> See <a href="https://gis.harvard.edu/faq/how-make-payments-cga">this link</a> &nbsp;for payment instructions.</li></ul>
+
+<p>On these forms, make sure to choose <strong>Geocoding with ArcGIS </strong>as the workshop name.</p>

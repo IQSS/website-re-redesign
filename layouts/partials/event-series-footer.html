@@ -27,7 +27,10 @@
 
         {{ with .Params.meets }}<p class="event-series__meets">Meets {{ . }}</p>{{ end }}
 
-        {{ with .Content }}<div class="event-series__copy">{{ . }}</div>{{ end }}
+        {{/* event_boilerplate is the text live prints on each event page.
+             It is kept apart from the series page's own text (.Content),
+             because for the Alesina Seminar the two differ on live. */}}
+        {{ with .Params.event_boilerplate }}<div class="event-series__copy">{{ . | safeHTML }}</div>{{ else }}{{ with .Content }}<div class="event-series__copy">{{ . }}</div>{{ end }}{{ end }}
 
         <ul class="event-series__links">
             <li><a href="{{ .RelPermalink }}">All {{ .Params.short_name | default .Title }} events &rarr;</a></li>
@@ -42,6 +45,21 @@
     {{- end -}}
   {{- end -}}
 {{- end -}}
+
+{{- /* A one-off block of standing information that is not a series -- live's
+       Flourishing Schools launch carries one about the Human Flourishing
+       Program. Same band, so it reads the same way. */ -}}
+{{- with .Params.event_about }}
+    <aside class="event-series" aria-label="{{ .heading | default "About" }}">
+        {{ with .heading }}<h2 class="event-series__title">{{ . }}</h2>{{ end }}
+        {{ with .text }}<div class="event-series__copy">{{ . | safeHTML }}</div>{{ end }}
+        {{ with .links }}
+        <ul class="event-series__links">
+            {{ range . }}<li><a href="{{ .url }}" target="_blank" rel="noopener noreferrer">{{ .label }}<span class="sr-only"> (opens in new tab)</span> &nearr;</a></li>{{ end }}
+        </ul>
+        {{ end }}
+    </aside>
+{{- end }}
 
 <style>
 .event-series {

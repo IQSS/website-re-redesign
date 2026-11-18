@@ -77,3 +77,31 @@ model it as a second series.
 the APRW and Applied Statistics Workshop boilerplate is repeated on each
 event page rather than drawn from a term, and the Alesina series is a
 Program term. See the content audit for what this implies.
+
+## State in Hugo after the events catch-up (2026-11-16)
+
+Event files now carry exactly the tags their live page lists under
+"See also", read from the live pages rather than retyped. 96 event files
+were refreshed or created from live (everything dated from the original
+scrape, 2026-05-26, onward, plus every event that already had a file).
+
+- All four live vocabularies exist in `hugo.toml`: `event-type`, `program`,
+  `research-technology`, and now `service`.
+- `program` is the same vocabulary the People directory uses, so a Program
+  term page lists that programme's events and, below them, its people.
+- Terms in use by events: Event Type -- Conferences & Symposia, Help Desk
+  Office Hours, Holidays, Special Events, Training, Workshops, Seminars &
+  Classes. Program -- Alesina Seminar on Political Economy, Center for
+  Geographic Analysis, Dataverse Project, Human Flourishing Program.
+  Research Technology -- Dataverse, GIS. Service -- none.
+- Live terms with no event in that window (so no term page yet, by the rule
+  above): Guest Speakers/Talks; the other five Program terms; Data
+  Visualization, Python, R, RCE, Stata, UNIX; Political Economy Seminar.
+- The CBDB term is spelled correctly here, by Liz's decision (live:
+  "Biograhical"). No event in the window uses it.
+
+What changed from the tags we had before: live tags holidays as
+**Holidays** (the old hand-typed calendar called them Special Events), tags
+Alesina seminars with Program only (no Event Type), and does not tag the
+dated Dataverse Office Hours with Research Technology: Dataverse, which
+ours had added.

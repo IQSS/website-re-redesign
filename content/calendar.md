@@ -1,7 +1,7 @@
 ---
-title: "All Upcoming Events"
-date: 2026-05-28
+title: "Events Calendar"
+date: 2026-11-16
 draft: false
-layout: "calendar"
+layout: "event-calendar"
 type: "page"
 ---

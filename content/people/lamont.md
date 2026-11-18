@@ -83,6 +83,3 @@ role: ["Affiliated Faculty"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/lamont](https://iq.harvard.edu/people/lamont)*

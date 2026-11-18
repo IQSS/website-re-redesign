@@ -438,6 +438,3 @@ title: IQSS Startup Foundry Executive Fellows and Board of Advisors
 </div>
 </main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/iqss-startup-foundry-executive-affiliates-and-board-advisors](https://www.iq.harvard.edu/iqss-startup-foundry-executive-affiliates-and-board-advisors)*

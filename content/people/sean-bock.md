@@ -65,6 +65,3 @@ role: ["Affiliated Graduate Students"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/sean-bock](https://iq.harvard.edu/people/sean-bock)*

@@ -34,6 +34,3 @@ title: Submissions
 </div>
 </main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/ecee/submissions](https://www.iq.harvard.edu/ecee/submissions)*

@@ -169,6 +169,3 @@ title: Flourishing Schools Project Virtual Launch
 </div>
 </main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/event/flourishing-schools-project-virtual-launch?occ_id=0](https://www.iq.harvard.edu/event/flourishing-schools-project-virtual-launch?occ_id=0)*

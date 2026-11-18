@@ -62,6 +62,3 @@ role: ["Alumni"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/carlos-xabel-lastra-anadon](https://iq.harvard.edu/people/carlos-xabel-lastra-anadon)*

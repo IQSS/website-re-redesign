@@ -62,6 +62,3 @@ role: ["Alumni"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/daniel-bischof](https://iq.harvard.edu/people/daniel-bischof)*

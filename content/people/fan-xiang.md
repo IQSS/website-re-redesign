@@ -85,6 +85,3 @@ program: ["China Biographical Database (CBDB)"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/fan-xiang](https://iq.harvard.edu/people/fan-xiang)*

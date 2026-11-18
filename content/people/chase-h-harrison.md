@@ -79,6 +79,3 @@ program: ["Program on Survey Research"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/chase-h-harrison](https://iq.harvard.edu/people/chase-h-harrison)*

@@ -192,6 +192,3 @@ title: Sponsored Research Services
 </div>
 </main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/sponsored-research-services](https://www.iq.harvard.edu/sponsored-research-services)*

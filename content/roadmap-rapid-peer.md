@@ -47,8 +47,5 @@ title: 'Roadmap: rapidPeer'
 </div>
 </main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/roadmap-rapid-peer](https://www.iq.harvard.edu/roadmap-rapid-peer)*
 
 {{< roadmap-lightbox >}}

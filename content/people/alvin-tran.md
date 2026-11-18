@@ -74,6 +74,3 @@ role: ["Affiliated Graduate Students"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/alvin-tran](https://iq.harvard.edu/people/alvin-tran)*

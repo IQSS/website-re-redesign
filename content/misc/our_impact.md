@@ -258,6 +258,3 @@ title: Our Impact
 </div>
 </main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/our-impact](https://www.iq.harvard.edu/our-impact)*

@@ -66,6 +66,3 @@ role: ["Alumni"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/shaojian-li](https://iq.harvard.edu/people/shaojian-li)*

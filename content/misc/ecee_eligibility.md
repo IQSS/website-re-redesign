@@ -34,6 +34,3 @@ title: Eligibility
 </div>
 </main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/ecee/eligibility](https://www.iq.harvard.edu/ecee/eligibility)*

@@ -41,7 +41,7 @@ title: Dissertation Awards
 <span>Attachments</span>
 <ul aria-label="Attachments" class="lg:hwp-grid hwp-attachments__items">
 <li>
-<a class="hwp-icon-link hwp-icon-link--x-large hwp-icon-link--has-bg hwp-icon-link--dark-primary analytics-cta" href="/sites/g/files/omnuum8171/files/harvard-iqss/files/jeanne_block_award_application_2024.doc">
+<a class="hwp-icon-link hwp-icon-link--x-large hwp-icon-link--has-bg hwp-icon-link--dark-primary analytics-cta" href="../../documents/jeanne_block_award_application_2024.doc">
 <span class="hwp-icon-link__icon">
 <span aria-hidden="true" class="material-icon">description</span>
 </span>
@@ -63,6 +63,3 @@ title: Dissertation Awards
 </div>
 </main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/dissertation-awards](https://www.iq.harvard.edu/dissertation-awards)*

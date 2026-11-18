@@ -73,6 +73,3 @@ role: ["Affiliated Graduate Students"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/natalia-emanuel](https://iq.harvard.edu/people/natalia-emanuel)*

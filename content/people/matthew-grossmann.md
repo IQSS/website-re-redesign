@@ -66,6 +66,3 @@ role: ["Alumni"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/matthew-grossmann](https://iq.harvard.edu/people/matthew-grossmann)*

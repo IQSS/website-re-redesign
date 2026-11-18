@@ -101,6 +101,3 @@ title: Reserve Desk Space
 </div>
 </main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/book-a-desk](https://www.iq.harvard.edu/book-a-desk)*

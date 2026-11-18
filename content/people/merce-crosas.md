@@ -103,6 +103,3 @@ role: ["Associates"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/merc%C3%A8-crosas](https://iq.harvard.edu/people/merc%C3%A8-crosas)*

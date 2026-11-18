@@ -75,6 +75,3 @@ program: ["China Biographical Database (CBDB)"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/mengxiang-wang](https://iq.harvard.edu/people/mengxiang-wang)*

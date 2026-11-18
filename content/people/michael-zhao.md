@@ -79,6 +79,3 @@ role: ["Affiliated Undergraduate Students"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/michael-zhao](https://iq.harvard.edu/people/michael-zhao)*

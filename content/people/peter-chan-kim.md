@@ -78,6 +78,3 @@ program: ["Digital Lab for the Social Sciences"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/peter-chan-kim](https://iq.harvard.edu/people/peter-chan-kim)*

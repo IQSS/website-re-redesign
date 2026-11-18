@@ -161,6 +161,3 @@ title: Support Our Work
 </div>
 </main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/support-us](https://www.iq.harvard.edu/support-us)*

@@ -76,6 +76,3 @@ role: ["Affiliated Graduate Students"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/gabriella-fleischman](https://iq.harvard.edu/people/gabriella-fleischman)*

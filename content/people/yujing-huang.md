@@ -66,6 +66,3 @@ role: ["Affiliated Graduate Students"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/yujing-huang](https://iq.harvard.edu/people/yujing-huang)*

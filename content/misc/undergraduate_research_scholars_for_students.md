@@ -34,6 +34,3 @@ title: For Students
 </div>
 </main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/undergraduate-research-scholars/for-students](https://www.iq.harvard.edu/undergraduate-research-scholars/for-students)*

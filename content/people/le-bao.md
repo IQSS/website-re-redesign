@@ -67,6 +67,3 @@ role: ["Alumni"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/le-bao](https://iq.harvard.edu/people/le-bao)*

@@ -66,6 +66,3 @@ role: ["Alumni"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/moya-chin](https://iq.harvard.edu/people/moya-chin)*

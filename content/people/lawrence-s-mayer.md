@@ -74,6 +74,3 @@ program: ["Human Flourishing Program"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/lawrence-s-mayer](https://iq.harvard.edu/people/lawrence-s-mayer)*

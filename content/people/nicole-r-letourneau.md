@@ -73,6 +73,3 @@ role: ["Affiliated Graduate Students"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/nicole-r-letourneau](https://iq.harvard.edu/people/nicole-r-letourneau)*

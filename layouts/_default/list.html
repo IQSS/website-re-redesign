@@ -11,11 +11,6 @@
                 {{ range .Pages }}
                 <div class="person-card">
                     <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-                    {{ if and .Params.source_url hugo.IsDevelopment }}
-                    <p style="font-size: 14px; color: #666;">
-                        <a href="{{ .Params.source_url }}" target="_blank" style="color: #666;">View Original Profile</a>
-                    </p>
-                    {{ end }}
                 </div>
                 {{ end }}
             </div>
@@ -33,11 +28,6 @@
                      tags first also lets truncate count characters rather
                      than markup. */}}
                 <p style="color: #666; line-height: 1.6;">{{ .Summary | plainify | truncate 200 }}</p>
-                {{ if and .Params.source_url hugo.IsDevelopment }}
-                <p style="margin-top: 15px; font-size: 14px;">
-                    <a href="{{ .Params.source_url }}" target="_blank" style="color: var(--orange-brand);">View Original Source →</a>
-                </p>
-                {{ end }}
             </div>
             {{ end }}
             {{ end }}

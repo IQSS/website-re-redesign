@@ -47,8 +47,5 @@ title: 'Roadmap: Data Science Services'
 </div>
 </main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/roadmap-data-science-services-dss](https://www.iq.harvard.edu/roadmap-data-science-services-dss)*
 
 {{< roadmap-lightbox >}}

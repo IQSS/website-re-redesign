@@ -84,6 +84,3 @@ role: ["Affiliated Graduate Students"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/tom-raster](https://iq.harvard.edu/people/tom-raster)*

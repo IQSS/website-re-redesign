@@ -71,6 +71,3 @@ program: ["Laboratory for Innovation Science (LISH)"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/charles-ayoubi](https://iq.harvard.edu/people/charles-ayoubi)*

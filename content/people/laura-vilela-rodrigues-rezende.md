@@ -66,6 +66,3 @@ role: ["Alumni"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/laura-vilela-rodrigues-rezende](https://iq.harvard.edu/people/laura-vilela-rodrigues-rezende)*

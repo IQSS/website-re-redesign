@@ -97,6 +97,3 @@ role: ["Alumni"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/amy-yeboah-quarkume](https://iq.harvard.edu/people/amy-yeboah-quarkume)*

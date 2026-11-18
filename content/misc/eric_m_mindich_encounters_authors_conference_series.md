@@ -41,6 +41,3 @@ title: Mindich Encounters with Authors Conference Series
 </div>
 </main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/eric-m-mindich-encounters-authors-conference-series](https://www.iq.harvard.edu/eric-m-mindich-encounters-authors-conference-series)*

@@ -70,6 +70,3 @@ role: ["Alumni"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/amy-wickett](https://iq.harvard.edu/people/amy-wickett)*

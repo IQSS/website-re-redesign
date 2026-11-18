@@ -65,6 +65,3 @@ role: ["Affiliated Graduate Students"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/sanjay-misra](https://iq.harvard.edu/people/sanjay-misra)*

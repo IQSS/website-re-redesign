@@ -73,6 +73,3 @@ role: ["Affiliated Graduate Students"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/ark%C4%81dijs-zvaigzne](https://iq.harvard.edu/people/ark%C4%81dijs-zvaigzne)*

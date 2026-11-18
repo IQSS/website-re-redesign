@@ -73,6 +73,3 @@ role: ["Affiliated Undergraduate Students"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/nini-sikharulidze](https://iq.harvard.edu/people/nini-sikharulidze)*

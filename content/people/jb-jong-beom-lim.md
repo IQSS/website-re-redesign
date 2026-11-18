@@ -73,6 +73,3 @@ role: ["Affiliated Graduate Students"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/jb-jong-beom-lim](https://iq.harvard.edu/people/jb-jong-beom-lim)*

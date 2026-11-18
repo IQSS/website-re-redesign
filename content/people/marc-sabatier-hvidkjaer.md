@@ -84,6 +84,3 @@ role: ["Affiliated Graduate Students"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/marc-sabatier-hvidkj%C3%A6r](https://iq.harvard.edu/people/marc-sabatier-hvidkj%C3%A6r)*

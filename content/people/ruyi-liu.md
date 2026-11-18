@@ -73,6 +73,3 @@ role: ["Affiliated Graduate Students"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/ruyi-liu](https://iq.harvard.edu/people/ruyi-liu)*

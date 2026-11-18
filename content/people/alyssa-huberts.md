@@ -64,6 +64,3 @@ role: ["Affiliated Graduate Students"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/alyssa-huberts](https://iq.harvard.edu/people/alyssa-huberts)*

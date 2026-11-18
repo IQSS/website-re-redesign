@@ -78,6 +78,3 @@ program: ["China Biographical Database (CBDB)"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/yuning-zhuang](https://iq.harvard.edu/people/yuning-zhuang)*

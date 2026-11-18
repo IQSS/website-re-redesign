@@ -73,6 +73,3 @@ role: ["Associates"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/michael-bar-sinai](https://iq.harvard.edu/people/michael-bar-sinai)*

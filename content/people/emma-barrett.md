@@ -71,6 +71,3 @@ role: ["Affiliated Graduate Students"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/emma-barrett](https://iq.harvard.edu/people/emma-barrett)*

@@ -88,6 +88,3 @@ role: ["Associates"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/andrea-nasuto](https://iq.harvard.edu/people/andrea-nasuto)*

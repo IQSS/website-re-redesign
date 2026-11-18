@@ -66,6 +66,3 @@ role: ["Alumni"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/hope-harvey](https://iq.harvard.edu/people/hope-harvey)*

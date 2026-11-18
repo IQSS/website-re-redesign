@@ -73,6 +73,3 @@ role: ["Affiliated Undergraduate Students"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/andy-kim](https://iq.harvard.edu/people/andy-kim)*

@@ -79,6 +79,3 @@ role: ["Affiliated Graduate Students"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/sakurako-s-okuzono](https://iq.harvard.edu/people/sakurako-s-okuzono)*

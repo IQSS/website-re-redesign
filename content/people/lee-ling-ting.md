@@ -68,6 +68,3 @@ role: ["Affiliated Graduate Students"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/lee-ling-ting](https://iq.harvard.edu/people/lee-ling-ting)*

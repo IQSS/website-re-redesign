@@ -73,6 +73,3 @@ role: ["Affiliated Graduate Students"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/joan-j-martinez](https://iq.harvard.edu/people/joan-j-martinez)*

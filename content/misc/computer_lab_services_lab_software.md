@@ -34,6 +34,3 @@ title: Installed Software
 </div>
 </main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/computer-lab-services/lab-software](https://www.iq.harvard.edu/computer-lab-services/lab-software)*

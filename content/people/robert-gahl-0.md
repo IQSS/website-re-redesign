@@ -62,6 +62,3 @@ role: ["Alumni"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/robert-gahl-0](https://iq.harvard.edu/people/robert-gahl-0)*

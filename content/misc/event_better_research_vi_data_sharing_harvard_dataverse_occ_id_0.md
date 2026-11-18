@@ -137,6 +137,3 @@ title: 'Better Research VI: Data Sharing with Harvard Dataverse'
 </div>
 </main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/event/better-research-vi-data-sharing-harvard-dataverse?occ_id=0](https://www.iq.harvard.edu/event/better-research-vi-data-sharing-harvard-dataverse?occ_id=0)*

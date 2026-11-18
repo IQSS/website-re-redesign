@@ -73,6 +73,3 @@ role: ["Affiliated Undergraduate Students"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/manny-medrano](https://iq.harvard.edu/people/manny-medrano)*

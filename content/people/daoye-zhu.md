@@ -78,6 +78,3 @@ program: ["Center for Geographic Analysis"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/daoye-zhu](https://iq.harvard.edu/people/daoye-zhu)*

@@ -66,6 +66,3 @@ role: ["Alumni"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/tobias-heide-j%C3%B8rgensen](https://iq.harvard.edu/people/tobias-heide-j%C3%B8rgensen)*

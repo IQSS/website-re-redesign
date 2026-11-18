@@ -79,6 +79,3 @@ role: ["Affiliated Undergraduate Students"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/felix-chen](https://iq.harvard.edu/people/felix-chen)*

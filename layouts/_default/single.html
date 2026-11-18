@@ -12,19 +12,6 @@
         {{ $hasOwnH1 := findRE "<h1[ >]" .Content 1 }}
         {{ if not $hasOwnH1 }}<h1>{{ .Title }}</h1>{{ end }}
 
-        {{/* Provenance link back to the page this was scraped from. Useful
-             when checking a rebuild against the real site, but it tells every
-             visitor they are reading a copy -- and this repo is public, so it
-             was doing that on 2,241 pages. Shown only when running `hugo
-             server` locally; any built environment omits it. */}}
-        {{ if and .Params.source_url hugo.IsDevelopment }}
-        <div style="background: #f8f9fa; border-left: 4px solid #CC5500; padding: 15px; margin-bottom: 30px; border-radius: 0 4px 4px 0;">
-            <p style="margin: 0; font-size: 14px; color: #666;">
-                <strong>Original Source:</strong>
-                <a href="{{ .Params.source_url }}" target="_blank" style="color: var(--orange-brand);">{{ .Params.source_url }}</a>
-            </p>
-        </div>
-        {{ end }}
 
         <div class="content">
             {{ .Content }}

@@ -76,6 +76,3 @@ title: Extraordinary Claims, Extraordinary Evidence
 </div>
 </main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/ecee](https://www.iq.harvard.edu/ecee)*

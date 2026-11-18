@@ -106,6 +106,3 @@ title: Harvard University Commencement
 </div>
 </main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/event/harvard-university-commencement-0?occ_id=0](https://www.iq.harvard.edu/event/harvard-university-commencement-0?occ_id=0)*

@@ -89,6 +89,3 @@ role: ["Affiliated Graduate Students"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/mehmet-durmaz](https://iq.harvard.edu/people/mehmet-durmaz)*

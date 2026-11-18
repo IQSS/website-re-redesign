@@ -41,6 +41,3 @@ We are committed to tracking the performance and impact of the Extraordinary Cla
 </div>
 </main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/ecee/metrics](https://www.iq.harvard.edu/ecee/metrics)*

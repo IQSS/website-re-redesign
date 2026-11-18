@@ -189,6 +189,3 @@ title: IQSS Startup Foundry
 </div>
 </main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/iqss-startup-foundry-innovation-community](https://www.iq.harvard.edu/iqss-startup-foundry-innovation-community)*

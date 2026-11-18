@@ -89,6 +89,3 @@ role: ["Visiting Scholars, Fellows, & General Affiliates"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/%C3%A1d%C3%A1m-stefkovics](https://iq.harvard.edu/people/%C3%A1d%C3%A1m-stefkovics)*

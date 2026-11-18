@@ -62,6 +62,3 @@ role: ["Alumni"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/carter-nakamoto](https://iq.harvard.edu/people/carter-nakamoto)*

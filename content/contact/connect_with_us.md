@@ -119,6 +119,3 @@ title: Connect with Us
 </div>
 </main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/connect-with-us](https://www.iq.harvard.edu/connect-with-us)*

@@ -79,6 +79,3 @@ role: ["Affiliated Graduate Students"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/aljo%C5%A1a-milenkovi%C4%87](https://iq.harvard.edu/people/aljo%C5%A1a-milenkovi%C4%87)*

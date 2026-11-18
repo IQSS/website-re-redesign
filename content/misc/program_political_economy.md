@@ -270,6 +270,3 @@ title: 'Seminar Series: Alberto Alesina Seminar on Political Economy'
 </div>
 </main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/program-political-economy](https://www.iq.harvard.edu/program-political-economy)*

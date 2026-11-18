@@ -66,6 +66,3 @@ role: ["Affiliated Graduate Students"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/mohammad-al-mailam](https://iq.harvard.edu/people/mohammad-al-mailam)*

@@ -71,6 +71,3 @@ program: ["Undergraduate Research Scholars (URS)"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/pranav-moudgalya](https://iq.harvard.edu/people/pranav-moudgalya)*

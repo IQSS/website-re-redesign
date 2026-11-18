@@ -53,6 +53,3 @@ title: Quick Start Guide for Faculty
 </div>
 </main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/quick-start-guide-faculty](https://www.iq.harvard.edu/quick-start-guide-faculty)*

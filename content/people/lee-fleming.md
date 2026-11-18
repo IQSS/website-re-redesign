@@ -72,6 +72,3 @@ role: ["Alumni"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/lee-fleming](https://iq.harvard.edu/people/lee-fleming)*

@@ -84,6 +84,3 @@ role: ["Visiting Scholars, Fellows, & General Affiliates"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/smail-erkam-sula](https://iq.harvard.edu/people/smail-erkam-sula)*

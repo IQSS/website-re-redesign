@@ -85,6 +85,3 @@ program: ["Human Flourishing Program"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/jonathan-d-teubner](https://iq.harvard.edu/people/jonathan-d-teubner)*

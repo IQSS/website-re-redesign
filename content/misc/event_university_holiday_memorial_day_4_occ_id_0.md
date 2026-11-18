@@ -109,6 +109,3 @@ title: 'University Holiday: Memorial Day'
 </div>
 </main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/event/university-holiday-memorial-day-4?occ_id=0](https://www.iq.harvard.edu/event/university-holiday-memorial-day-4?occ_id=0)*

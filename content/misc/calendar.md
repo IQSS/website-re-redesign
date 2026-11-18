@@ -407,6 +407,3 @@ title: Upcoming Events
 </div>
 </div></main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/calendar](https://www.iq.harvard.edu/calendar)*

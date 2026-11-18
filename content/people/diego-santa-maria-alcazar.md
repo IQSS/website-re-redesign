@@ -73,6 +73,3 @@ role: ["Affiliated Graduate Students"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/diego-santa-mar%C3%ADa-alc%C3%A1zar](https://iq.harvard.edu/people/diego-santa-mar%C3%ADa-alc%C3%A1zar)*

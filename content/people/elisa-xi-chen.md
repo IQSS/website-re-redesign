@@ -83,6 +83,3 @@ role: ["Affiliated Graduate Students"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/elisa-xi-chen](https://iq.harvard.edu/people/elisa-xi-chen)*

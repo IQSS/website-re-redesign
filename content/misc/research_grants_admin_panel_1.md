@@ -41,7 +41,7 @@ title: Research Grants
 <span>Attachments</span>
 <ul aria-label="Attachments" class="lg:hwp-grid hwp-attachments__items">
 <li>
-<a class="hwp-icon-link hwp-icon-link--x-large hwp-icon-link--has-bg hwp-icon-link--dark-primary analytics-cta" href="/sites/g/files/omnuum8171/files/graduate_research_funding_app_2025.docx">
+<a class="hwp-icon-link hwp-icon-link--x-large hwp-icon-link--has-bg hwp-icon-link--dark-primary analytics-cta" href="../../documents/graduate_research_funding_app_2025.docx">
 <span class="hwp-icon-link__icon">
 <span aria-hidden="true" class="material-icon">description</span>
 </span>
@@ -63,6 +63,3 @@ title: Research Grants
 </div>
 </main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/research-grants?admin_panel=1](https://www.iq.harvard.edu/research-grants?admin_panel=1)*

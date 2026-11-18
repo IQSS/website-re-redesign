@@ -49,6 +49,3 @@ title: Hours & Location
 </div>
 </main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/computer-lab-services/hours-location](https://www.iq.harvard.edu/computer-lab-services/hours-location)*

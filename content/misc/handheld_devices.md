@@ -34,6 +34,3 @@ title: Handheld Devices
 </div>
 </main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/handheld-devices](https://www.iq.harvard.edu/handheld-devices)*

@@ -47,8 +47,5 @@ title: 'Roadmap: Sid & IQSS Research Computing'
 </div>
 </main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/roadmap-sid](https://www.iq.harvard.edu/roadmap-sid)*
 
 {{< roadmap-lightbox >}}

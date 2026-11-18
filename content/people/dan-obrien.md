@@ -73,6 +73,3 @@ role: ["Associates"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/dan-obrien](https://iq.harvard.edu/people/dan-obrien)*

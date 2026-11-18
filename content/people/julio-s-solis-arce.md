@@ -73,6 +73,3 @@ role: ["Affiliated Graduate Students"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/julio-s-sol%C3%ADs-arce](https://iq.harvard.edu/people/julio-s-sol%C3%ADs-arce)*

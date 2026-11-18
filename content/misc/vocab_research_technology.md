@@ -490,6 +490,3 @@ title: Research Technology
 </div>
 </div></main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/vocab/research-technology](https://www.iq.harvard.edu/vocab/research-technology)*

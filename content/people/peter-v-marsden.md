@@ -88,6 +88,3 @@ program: ["Program on Survey Research"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/peter-v-marsden](https://iq.harvard.edu/people/peter-v-marsden)*

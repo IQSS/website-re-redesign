@@ -212,6 +212,3 @@ title: Undergraduate Research Scholars
 </div>
 </main>
 
----
-
-*Original source: [https://urs.iq.harvard.edu/filter_by/current-opportunities](https://urs.iq.harvard.edu/filter_by/current-opportunities)*

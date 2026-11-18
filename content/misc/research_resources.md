@@ -230,6 +230,3 @@ title: Research Resources
 </div>
 </main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/research-resources](https://www.iq.harvard.edu/research-resources)*

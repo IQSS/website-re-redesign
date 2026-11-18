@@ -73,6 +73,3 @@ role: ["Affiliated Undergraduate Students"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/asher-spector](https://iq.harvard.edu/people/asher-spector)*

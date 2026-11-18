@@ -65,6 +65,3 @@ role: ["Affiliated Graduate Students"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/maleah-fekete](https://iq.harvard.edu/people/maleah-fekete)*

@@ -202,6 +202,3 @@ title: Dataverse
 </div>
 </main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/research-technology/dataverse](https://www.iq.harvard.edu/research-technology/dataverse)*

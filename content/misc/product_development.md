@@ -111,6 +111,3 @@ title: Product Development
 </div>
 </main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/product-development](https://www.iq.harvard.edu/product-development)*

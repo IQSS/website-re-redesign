@@ -87,6 +87,3 @@ role: ["Affiliated Faculty"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/joshua-d-kertzer](https://iq.harvard.edu/people/joshua-d-kertzer)*

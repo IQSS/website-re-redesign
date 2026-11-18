@@ -66,6 +66,3 @@ program: ["Human Flourishing Program"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/roza-nalbandyan](https://iq.harvard.edu/people/roza-nalbandyan)*

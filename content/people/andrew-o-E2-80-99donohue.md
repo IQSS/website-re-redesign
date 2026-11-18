@@ -83,6 +83,3 @@ role: ["Affiliated Graduate Students"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/andrew-o%E2%80%99donohue](https://iq.harvard.edu/people/andrew-o%E2%80%99donohue)*

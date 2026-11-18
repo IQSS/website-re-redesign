@@ -75,6 +75,3 @@ role: ["Affiliated Undergraduate Students"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/linh-vu](https://iq.harvard.edu/people/linh-vu)*

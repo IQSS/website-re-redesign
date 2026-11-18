@@ -66,6 +66,3 @@ role: ["Alumni"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/andy-vyrros](https://iq.harvard.edu/people/andy-vyrros)*

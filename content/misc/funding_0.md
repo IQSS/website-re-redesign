@@ -250,6 +250,3 @@ title: Funding
 </div>
 </main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/funding-0](https://www.iq.harvard.edu/funding-0)*

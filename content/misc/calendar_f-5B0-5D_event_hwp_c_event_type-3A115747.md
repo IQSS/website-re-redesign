@@ -268,6 +268,3 @@ title: Upcoming Events
 </div>
 </div></main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/calendar?f%5B0%5D=event_hwp_c_event_type%3A115747](https://www.iq.harvard.edu/calendar?f%5B0%5D=event_hwp_c_event_type%3A115747)*

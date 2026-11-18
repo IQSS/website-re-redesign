@@ -78,6 +78,3 @@ program: ["Center for Geographic Analysis"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/devika-kakkar](https://iq.harvard.edu/people/devika-kakkar)*

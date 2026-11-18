@@ -66,6 +66,3 @@ role: ["Alumni"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/jessica-rodrigues-miranda](https://iq.harvard.edu/people/jessica-rodrigues-miranda)*

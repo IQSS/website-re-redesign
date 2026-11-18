@@ -87,6 +87,3 @@ role: ["Affiliated Graduate Students"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/natalie-ayers](https://iq.harvard.edu/people/natalie-ayers)*

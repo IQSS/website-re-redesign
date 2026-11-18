@@ -61,6 +61,3 @@ role: ["Alumni"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/edoardo-m-airoldi](https://iq.harvard.edu/people/edoardo-m-airoldi)*

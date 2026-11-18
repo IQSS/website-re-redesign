@@ -73,6 +73,3 @@ title: IQSS Metrics
 </div>
 </main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/metrics](https://www.iq.harvard.edu/metrics)*

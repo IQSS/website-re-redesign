@@ -79,6 +79,3 @@ role: ["Affiliated Faculty"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/maha-r-farhat](https://iq.harvard.edu/people/maha-r-farhat)*

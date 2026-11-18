@@ -57,6 +57,3 @@ role: ["Affiliated Undergraduate Students"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/asmer-safi](https://iq.harvard.edu/people/asmer-safi)*

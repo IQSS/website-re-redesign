@@ -101,6 +101,3 @@ role: ["Affiliated Graduate Students"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/aleksandra-conevska](https://iq.harvard.edu/people/aleksandra-conevska)*

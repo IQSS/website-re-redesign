@@ -79,6 +79,3 @@ role: ["Affiliated Graduate Students"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/ant%C3%B3nio-c%C3%A2mara](https://iq.harvard.edu/people/ant%C3%B3nio-c%C3%A2mara)*

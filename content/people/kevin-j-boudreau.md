@@ -84,6 +84,3 @@ role: ["Associates"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/kevin-j-boudreau](https://iq.harvard.edu/people/kevin-j-boudreau)*

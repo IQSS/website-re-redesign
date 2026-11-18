@@ -65,6 +65,3 @@ role: ["Affiliated Undergraduate Students"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/yi-hua-chen](https://iq.harvard.edu/people/yi-hua-chen)*

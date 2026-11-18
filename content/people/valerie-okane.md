@@ -84,6 +84,3 @@ role: ["Leadership", "Staff"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/valerie-okane](https://iq.harvard.edu/people/valerie-okane)*

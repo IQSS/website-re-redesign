@@ -212,6 +212,3 @@ title: Undergraduate Research Scholars
 </div>
 </main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/undergraduate-research-scholars](https://www.iq.harvard.edu/undergraduate-research-scholars)*

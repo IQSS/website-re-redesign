@@ -125,6 +125,3 @@ title: The IQSS Startup Foundry
 </div>
 </main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/startup-foundry](https://www.iq.harvard.edu/startup-foundry)*

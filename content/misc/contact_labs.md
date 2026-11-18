@@ -44,6 +44,3 @@ title: Access Request Form
 </div>
 </main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/contact-labs](https://www.iq.harvard.edu/contact-labs)*

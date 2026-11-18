@@ -62,6 +62,3 @@ role: ["Alumni"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/kevin-deluca-0](https://iq.harvard.edu/people/kevin-deluca-0)*

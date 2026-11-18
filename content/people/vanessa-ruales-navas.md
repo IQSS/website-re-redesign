@@ -62,6 +62,3 @@ role: ["Alumni"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/vanessa-ruales-navas](https://iq.harvard.edu/people/vanessa-ruales-navas)*

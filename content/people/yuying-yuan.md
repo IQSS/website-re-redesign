@@ -71,6 +71,3 @@ program: ["China Biographical Database (CBDB)"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/yuying-yuan](https://iq.harvard.edu/people/yuying-yuan)*

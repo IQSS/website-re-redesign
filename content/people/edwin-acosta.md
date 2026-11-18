@@ -66,6 +66,3 @@ role: ["Alumni"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/edwin-acosta](https://iq.harvard.edu/people/edwin-acosta)*

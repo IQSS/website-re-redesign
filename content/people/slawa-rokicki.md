@@ -73,6 +73,3 @@ role: ["Affiliated Graduate Students"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/slawa-rokicki](https://iq.harvard.edu/people/slawa-rokicki)*

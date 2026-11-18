@@ -60,6 +60,3 @@ title: China Biographical Database Project (CBDB)
 </div>
 </main>
 
----
-
-*Original source: [https://projects.iq.harvard.edu/cbdb/](https://projects.iq.harvard.edu/cbdb/)*

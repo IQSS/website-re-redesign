@@ -34,6 +34,3 @@ title: After
 </div>
 </main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/computer-labs-services/after-hours-building-access](https://www.iq.harvard.edu/computer-labs-services/after-hours-building-access)*

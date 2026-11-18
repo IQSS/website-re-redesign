@@ -71,6 +71,3 @@ program: ["China Biographical Database (CBDB)"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/chengguo-pei](https://iq.harvard.edu/people/chengguo-pei)*

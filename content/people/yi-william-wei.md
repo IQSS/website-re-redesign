@@ -73,6 +73,3 @@ role: ["Associates"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/yi-william-wei](https://iq.harvard.edu/people/yi-william-wei)*

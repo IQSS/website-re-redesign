@@ -66,6 +66,3 @@ role: ["Alumni"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/r%C3%A9my-deshayes](https://iq.harvard.edu/people/r%C3%A9my-deshayes)*

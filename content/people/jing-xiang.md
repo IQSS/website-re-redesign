@@ -72,6 +72,3 @@ program: ["China Biographical Database (CBDB)"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/jing-xiang](https://iq.harvard.edu/people/jing-xiang)*

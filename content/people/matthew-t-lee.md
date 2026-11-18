@@ -78,6 +78,3 @@ program: ["Human Flourishing Program"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/matthew-t-lee](https://iq.harvard.edu/people/matthew-t-lee)*

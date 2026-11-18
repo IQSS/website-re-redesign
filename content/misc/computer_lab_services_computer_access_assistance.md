@@ -34,6 +34,3 @@ title: Access & Assistance
 </div>
 </main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/computer-lab-services/computer-access-assistance](https://www.iq.harvard.edu/computer-lab-services/computer-access-assistance)*

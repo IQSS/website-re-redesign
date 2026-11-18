@@ -66,6 +66,3 @@ role: ["Alumni"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/dize-din%C3%A7kol](https://iq.harvard.edu/people/dize-din%C3%A7kol)*

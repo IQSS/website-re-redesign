@@ -77,6 +77,3 @@ role: ["Associates"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/blaine-gaustad](https://iq.harvard.edu/people/blaine-gaustad)*

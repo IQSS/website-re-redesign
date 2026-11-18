@@ -66,6 +66,3 @@ role: ["Alumni"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/wojciech-kaftanski](https://iq.harvard.edu/people/wojciech-kaftanski)*

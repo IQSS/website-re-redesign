@@ -12,6 +12,3 @@ title: rapidPeer
 		</a>
 </div>
 
----
-
-*Original source: [https://rapidpeer.iq.harvard.edu/index.php/iqss/index](https://rapidpeer.iq.harvard.edu/index.php/iqss/index)*

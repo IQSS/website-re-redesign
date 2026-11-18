@@ -34,6 +34,3 @@ title: IQSS Supporters
 </div>
 </main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/iqss-supporters](https://www.iq.harvard.edu/iqss-supporters)*

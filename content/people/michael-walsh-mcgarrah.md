@@ -83,6 +83,3 @@ role: ["Visiting Scholars, Fellows, & General Affiliates"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/michael-walsh-mcgarrah](https://iq.harvard.edu/people/michael-walsh-mcgarrah)*

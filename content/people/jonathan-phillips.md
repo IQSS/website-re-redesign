@@ -69,6 +69,3 @@ role: ["Affiliated Graduate Students"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/jonathan-phillips](https://iq.harvard.edu/people/jonathan-phillips)*

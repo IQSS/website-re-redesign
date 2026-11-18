@@ -49,6 +49,3 @@ title: Business Influence in Trade, Climate, and Social Policy
 </div>
 </main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/social-paths-minorities-india](https://www.iq.harvard.edu/social-paths-minorities-india)*

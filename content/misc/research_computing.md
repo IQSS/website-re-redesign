@@ -83,6 +83,3 @@ title: Research Computing at IQSS
 </div>
 </main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/research-computing](https://www.iq.harvard.edu/research-computing)*

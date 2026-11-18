@@ -79,6 +79,3 @@ program: ["Laboratory for Innovation Science (LISH)"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/robert-gaudin-md](https://iq.harvard.edu/people/robert-gaudin-md)*

@@ -289,6 +289,3 @@ title: Success Stories from the IQSS Startup Foundry
 </div>
 </main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/iqss-startup-foundry-stories](https://www.iq.harvard.edu/iqss-startup-foundry-stories)*

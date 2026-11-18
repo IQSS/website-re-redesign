@@ -73,6 +73,3 @@ role: ["Affiliated Faculty"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/reshmaan-n-hussam](https://iq.harvard.edu/people/reshmaan-n-hussam)*

@@ -69,6 +69,3 @@ role: ["Affiliated Graduate Students"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/caterina-chiopris](https://iq.harvard.edu/people/caterina-chiopris)*

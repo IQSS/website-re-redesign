@@ -70,6 +70,3 @@ role: ["Alumni"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/ljubica-ristovska](https://iq.harvard.edu/people/ljubica-ristovska)*

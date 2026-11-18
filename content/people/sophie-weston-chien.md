@@ -84,6 +84,3 @@ role: ["Affiliated Graduate Students"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/sophie-weston-chien](https://iq.harvard.edu/people/sophie-weston-chien)*

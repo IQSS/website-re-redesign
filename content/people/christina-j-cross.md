@@ -69,6 +69,3 @@ role: ["Affiliated Faculty"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/christina-j-cross](https://iq.harvard.edu/people/christina-j-cross)*

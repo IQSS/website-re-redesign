@@ -83,6 +83,3 @@ role: ["Affiliated Graduate Students"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/andrea-neyra-nazarrett](https://iq.harvard.edu/people/andrea-neyra-nazarrett)*

@@ -47,6 +47,3 @@ title: Contact
 </div>
 </main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/contact](https://www.iq.harvard.edu/contact)*

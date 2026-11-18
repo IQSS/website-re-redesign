@@ -70,6 +70,3 @@ role: ["Affiliated Undergraduate Students"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/annika-khandelwal](https://iq.harvard.edu/people/annika-khandelwal)*

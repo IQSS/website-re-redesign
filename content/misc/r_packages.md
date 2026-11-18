@@ -280,6 +280,3 @@ title: R Packages
 </div>
 </main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/r-packages](https://www.iq.harvard.edu/r-packages)*

@@ -49,6 +49,3 @@ title: Mapping historical military and conflict databases
 </div>
 </main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/mapping-historical-military-and-conflict-databases](https://www.iq.harvard.edu/mapping-historical-military-and-conflict-databases)*

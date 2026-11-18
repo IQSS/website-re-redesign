@@ -337,6 +337,3 @@ title: IQSS Startup Foundry
 </div>
 </main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/iqss-startup-foundry-academic-founders](https://www.iq.harvard.edu/iqss-startup-foundry-academic-founders)*

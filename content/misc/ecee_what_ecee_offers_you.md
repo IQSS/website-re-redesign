@@ -34,6 +34,3 @@ title: What ECEE offers you
 </div>
 </main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/ecee/what-ecee-offers-you](https://www.iq.harvard.edu/ecee/what-ecee-offers-you)*

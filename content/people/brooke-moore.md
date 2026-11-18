@@ -84,6 +84,3 @@ program: ["Undergraduate Research Scholars (URS)"]
 </div>
 </main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/people/brooke-moore](https://www.iq.harvard.edu/people/brooke-moore)*

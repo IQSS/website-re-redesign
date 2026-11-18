@@ -115,6 +115,3 @@ title: Dataverse Office Hours
 </div>
 </main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/event/dataverse-office-hours-31?occ_id=0](https://www.iq.harvard.edu/event/dataverse-office-hours-31?occ_id=0)*

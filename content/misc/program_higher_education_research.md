@@ -37,6 +37,3 @@ title: Program on Higher Education Research
 </div>
 </main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/program-higher-education-research](https://www.iq.harvard.edu/program-higher-education-research)*

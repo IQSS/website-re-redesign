@@ -77,6 +77,3 @@ role: ["Affiliated Graduate Students"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/jonathan-ji](https://iq.harvard.edu/people/jonathan-ji)*

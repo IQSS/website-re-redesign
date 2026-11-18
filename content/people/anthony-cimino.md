@@ -71,6 +71,3 @@ role: ["Affiliated Undergraduate Students"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/anthony-cimino](https://iq.harvard.edu/people/anthony-cimino)*

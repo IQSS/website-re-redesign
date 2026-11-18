@@ -89,6 +89,3 @@ program: ["Center for Geographic Analysis"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/siqin-sisi-wang](https://iq.harvard.edu/people/siqin-sisi-wang)*

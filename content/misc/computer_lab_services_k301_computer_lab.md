@@ -41,6 +41,3 @@ title: K301 Computer Lab
 </div>
 </main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/computer-lab-services/k301-computer-lab](https://www.iq.harvard.edu/computer-lab-services/k301-computer-lab)*

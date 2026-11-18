@@ -28,6 +28,3 @@ title: Institutional Impartiality
 </div>
 </div>
 </main>
----
-
-*Original source: [https://www.iq.harvard.edu/institutional-impartiality](https://www.iq.harvard.edu/institutional-impartiality)*

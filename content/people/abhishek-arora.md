@@ -83,6 +83,3 @@ role: ["Affiliated Graduate Students"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/abhishek-arora](https://iq.harvard.edu/people/abhishek-arora)*

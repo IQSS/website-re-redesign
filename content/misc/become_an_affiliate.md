@@ -278,6 +278,3 @@ title: Become an Affiliate
 </div>
 </main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/become-an-affiliate](https://www.iq.harvard.edu/become-an-affiliate)*

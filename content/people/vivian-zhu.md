@@ -74,6 +74,3 @@ program: ["Undergraduate Research Scholars (URS)"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/vivian-zhu](https://iq.harvard.edu/people/vivian-zhu)*

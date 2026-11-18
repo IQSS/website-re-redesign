@@ -86,6 +86,3 @@ role: ["Associates"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/richard-s-grossman](https://iq.harvard.edu/people/richard-s-grossman)*

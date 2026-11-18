@@ -84,6 +84,3 @@ program: ["Laboratory for Innovation Science (LISH)"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/james-sappenfield](https://iq.harvard.edu/people/james-sappenfield)*

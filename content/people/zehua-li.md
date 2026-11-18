@@ -80,6 +80,3 @@ role: ["Affiliated Graduate Students"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/zehua-li](https://iq.harvard.edu/people/zehua-li)*

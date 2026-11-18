@@ -80,6 +80,3 @@ role: ["Visiting Scholars, Fellows, & General Affiliates"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/heidi-r-legg](https://iq.harvard.edu/people/heidi-r-legg)*

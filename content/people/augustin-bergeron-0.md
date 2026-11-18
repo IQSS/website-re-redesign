@@ -66,6 +66,3 @@ role: ["Alumni"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/augustin-bergeron-0](https://iq.harvard.edu/people/augustin-bergeron-0)*

@@ -79,6 +79,3 @@ role: ["Affiliated Undergraduate Students"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/seth-rosenberg](https://iq.harvard.edu/people/seth-rosenberg)*

@@ -47,8 +47,5 @@ title: 'Roadmap: The Dataverse Project'
 </div>
 </main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/roadmap-dataverse-project](https://www.iq.harvard.edu/roadmap-dataverse-project)*
 
 {{< roadmap-lightbox >}}

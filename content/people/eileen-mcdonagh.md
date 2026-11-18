@@ -80,6 +80,3 @@ role: ["Associates"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/eileen-mcdonagh](https://iq.harvard.edu/people/eileen-mcdonagh)*

@@ -66,6 +66,3 @@ role: ["Alumni"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/kenton-goldsby](https://iq.harvard.edu/people/kenton-goldsby)*

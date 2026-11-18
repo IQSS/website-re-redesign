@@ -79,6 +79,3 @@ role: ["Affiliated Graduate Students"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/jose-ramon-enriquez](https://iq.harvard.edu/people/jose-ramon-enriquez)*

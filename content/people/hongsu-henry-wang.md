@@ -78,6 +78,3 @@ program: ["China Biographical Database (CBDB)"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/hongsu-henry-wang](https://iq.harvard.edu/people/hongsu-henry-wang)*

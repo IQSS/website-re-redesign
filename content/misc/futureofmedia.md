@@ -53,6 +53,3 @@ title: The Future of Media Project
 </div>
 </main>
 
----
-
-*Original source: [https://projects.iq.harvard.edu/futureofmedia](https://projects.iq.harvard.edu/futureofmedia)*

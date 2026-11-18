@@ -71,6 +71,3 @@ role: ["Alumni"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/angela-eichhorst](https://iq.harvard.edu/people/angela-eichhorst)*

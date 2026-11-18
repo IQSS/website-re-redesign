@@ -80,6 +80,3 @@ role: ["Affiliated Undergraduate Students"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/asmer-asrar-safi](https://iq.harvard.edu/people/asmer-asrar-safi)*

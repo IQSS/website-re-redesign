@@ -66,6 +66,3 @@ role: ["Alumni"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/brigitte-madrian](https://iq.harvard.edu/people/brigitte-madrian)*

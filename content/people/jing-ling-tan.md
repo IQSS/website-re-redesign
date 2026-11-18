@@ -79,6 +79,3 @@ role: ["Affiliated Graduate Students"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/jing-ling-tan](https://iq.harvard.edu/people/jing-ling-tan)*

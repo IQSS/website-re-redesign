@@ -57,6 +57,3 @@ role: ["Alumni"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/anh-cao](https://iq.harvard.edu/people/anh-cao)*

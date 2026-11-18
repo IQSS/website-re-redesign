@@ -71,6 +71,3 @@ program: ["Human Flourishing Program"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/pedro-antonio-de-la-rosa-fernandez-pacheco](https://iq.harvard.edu/people/pedro-antonio-de-la-rosa-fernandez-pacheco)*

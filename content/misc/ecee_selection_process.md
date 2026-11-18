@@ -34,6 +34,3 @@ title: Selection Process
 </div>
 </main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/ecee/selection-process](https://www.iq.harvard.edu/ecee/selection-process)*

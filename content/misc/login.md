@@ -27,6 +27,3 @@ title: Log in
 </div>
 </main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/login](https://www.iq.harvard.edu/login)*

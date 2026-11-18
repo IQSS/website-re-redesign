@@ -203,6 +203,3 @@ title: GIS
 </div>
 </main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/research-technology/gis](https://www.iq.harvard.edu/research-technology/gis)*

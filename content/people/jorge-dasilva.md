@@ -78,6 +78,3 @@ role: ["Administrative Support", "Staff"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/jorge-dasilva](https://iq.harvard.edu/people/jorge-dasilva)*

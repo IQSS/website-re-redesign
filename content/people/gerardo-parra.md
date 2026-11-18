@@ -78,6 +78,3 @@ program: ["Undergraduate Research Scholars (URS)"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/gerardo-parra](https://iq.harvard.edu/people/gerardo-parra)*

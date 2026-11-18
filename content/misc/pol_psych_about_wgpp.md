@@ -30,6 +30,3 @@ title: About WoGPoP
 </div>
 </main>
 
----
-
-*Original source: [https://projects.iq.harvard.edu/pol_psych/about-wgpp](https://projects.iq.harvard.edu/pol_psych/about-wgpp)*

@@ -34,6 +34,3 @@ title: For Faculty
 </div>
 </main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/undergraduate-research-scholars/for-faculty](https://www.iq.harvard.edu/undergraduate-research-scholars/for-faculty)*

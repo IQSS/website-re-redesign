@@ -470,6 +470,3 @@ title: rapidPeer
 </div>
 </main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/rapidpeer](https://www.iq.harvard.edu/rapidpeer)*

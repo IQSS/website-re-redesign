@@ -31,6 +31,3 @@ title: Policies
 </div>
 </main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/policies](https://www.iq.harvard.edu/policies)*

@@ -37,6 +37,3 @@ Unprecedented quantities of data that could help social scientists understand an
 </div>
 </main>
 
----
-
-*Original source: [https://www.iq.harvard.edu/privacy-insights](https://www.iq.harvard.edu/privacy-insights)*

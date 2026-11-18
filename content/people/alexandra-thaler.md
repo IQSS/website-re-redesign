@@ -79,6 +79,3 @@ program: ["Data Privacy Lab"]
 </div>
 </main>
 
----
-
-*Original source: [https://iq.harvard.edu/people/alexandra-thaler](https://iq.harvard.edu/people/alexandra-thaler)*

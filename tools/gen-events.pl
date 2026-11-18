@@ -32,6 +32,11 @@ my %LEGACY = map { $_ => 1 } qw(
 # Live's "sam-fuller-aprw" is a November 2024 talk; our file was the 2026 one,
 # which live keeps at sam-fuller-aprw-2. Not legacy, picked up by date.
 
+# Live events Liz has removed from this site. Never regenerated, even while
+# live still lists them. Archived copies: iqss-archive/events-2026-11/removed.
+my %SKIP = map { $_ => 1 } qw(
+  clone-dataverse-office-hours);
+
 sub qs { my $s = shift; $s =~ s/\\/\\\\/g; $s =~ s/"/\\"/g; return "\"$s\""; }
 sub ymd { sprintf '%04d-%02d-%02d', @_ }
 sub hm {   # "02:00PM" -> "2:00 PM"
@@ -44,6 +49,7 @@ for my $href (sort keys %$r) {
   my $e = $r->{$href};
   next unless ($e->{status} // '') eq '200';
   (my $slug = $href) =~ s{^/event/}{};
+  next if $SKIP{$slug};
   my $occ = ($slug =~ s/\?occ_id=(\d+)$//) ? $1 : undef;
 
   my $db = $e->{dateBlock} // ''; $db =~ s/^.*?Date and Time\s*//;

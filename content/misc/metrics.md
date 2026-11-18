@@ -50,9 +50,9 @@ title: IQSS Metrics
 <div class="hwp-image__media hwp-overflow-hidden sm:hwp-h-full">
 <div class="hwp-media hwp-media--1-1-large">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="1315" media="all and (min-width: 768px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__1315x1315/public/2025-05/anastassia-anufrieva-3yb7ZsaY0LY-unsplash.jpg?itok=T_DxHN1d 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__2630x2630/public/2025-05/anastassia-anufrieva-3yb7ZsaY0LY-unsplash.jpg?itok=xTFmK0qv 2x" type="image/jpeg" width="1315"/>
-<source height="770" media="all and (min-width: 480px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__770x770/public/2025-05/anastassia-anufrieva-3yb7ZsaY0LY-unsplash.jpg?itok=GEo8Rz4L 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__1540x1540/public/2025-05/anastassia-anufrieva-3yb7ZsaY0LY-unsplash.jpg?itok=awp-e-cR 2x" type="image/jpeg" width="770"/>
-<source height="480" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__480x480/public/2025-05/anastassia-anufrieva-3yb7ZsaY0LY-unsplash.jpg?itok=Ku986Hn_ 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__960x960/public/2025-05/anastassia-anufrieva-3yb7ZsaY0LY-unsplash.jpg?itok=2eadipDy 2x" type="image/jpeg" width="480"/>
+<source height="1315" media="all and (min-width: 768px)" srcset="../../images/live/2025-05/anastassia-anufrieva-3yb7ZsaY0LY-unsplash.jpg" type="image/jpeg" width="1315"/>
+<source height="770" media="all and (min-width: 480px)" srcset="../../images/live/2025-05/anastassia-anufrieva-3yb7ZsaY0LY-unsplash.jpg" type="image/jpeg" width="770"/>
+<source height="480" media="all and (min-width: 0)" srcset="../../images/live/2025-05/anastassia-anufrieva-3yb7ZsaY0LY-unsplash.jpg" type="image/jpeg" width="480"/>
 <img alt="computer lab graphs" height="480" loading="eager" src="../../images/live/2025-05/anastassia-anufrieva-3yb7ZsaY0LY-unsplash.jpg" width="480"/>
 </picture>
 </div>

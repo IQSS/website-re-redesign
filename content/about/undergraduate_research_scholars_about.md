@@ -27,7 +27,7 @@ title: About
 <div class="hwp-mb-16 hwp-container-px">
 <div class="hwp-text-block field field--name-field-hwp-body field--type-text-long field--label-hidden"><p> </p><div class="align-right hwp-media hwp-media--small">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="240" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/urs-9.jpg?itok=-L95nZ5Q 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/urs-9.jpg?itok=6To7aj2Y 2x" type="image/jpeg" width="360"/>
+<source height="240" media="all and (min-width: 0)" srcset="../../images/live/harvard-iqss/files/urs-9.jpg" type="image/jpeg" width="360"/>
 <img alt="faculty member speaking at event" height="240" loading="eager" src="../../images/live/harvard-iqss/files/urs-9.jpg" width="360"/>
 </picture>
 </div>

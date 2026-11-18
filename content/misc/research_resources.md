@@ -36,11 +36,11 @@ title: Research Resources
 <div class="hwp-hero__media hwp-bg-light-base">
 <div class="hwp-media hwp-media--23-5-small-hero">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="415" media="all and (min-width: 1440px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_23_5__1920x415/public/harvard-iqss/files/research-resources-banner.jpg?itok=PsN4G950 1x, /sites/g/files/omnuum8171/files/styles/hwp_23_5__3840x835/public/harvard-iqss/files/research-resources-banner.jpg?itok=fh2H-w1e 2x" type="image/jpeg" width="1920"/>
-<source height="315" media="all and (min-width: 1024px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_23_5__1440x315/public/harvard-iqss/files/research-resources-banner.jpg?itok=wYGMPf7Z 1x, /sites/g/files/omnuum8171/files/styles/hwp_23_5__2880x625/public/harvard-iqss/files/research-resources-banner.jpg?itok=B36CK7pL 2x" type="image/jpeg" width="1440"/>
-<source height="220" media="all and (min-width: 768px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_23_5__1024x220/public/harvard-iqss/files/research-resources-banner.jpg?itok=IXdSBneG 1x, /sites/g/files/omnuum8171/files/styles/hwp_23_5__2048x445/public/harvard-iqss/files/research-resources-banner.jpg?itok=DWOn7GUV 2x" type="image/jpeg" width="1024"/>
-<source height="165" media="all and (min-width: 480px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_23_5__768x165/public/harvard-iqss/files/research-resources-banner.jpg?itok=Dx2mxVLj 1x, /sites/g/files/omnuum8171/files/styles/hwp_23_5__1536x335/public/harvard-iqss/files/research-resources-banner.jpg?itok=oDZBKlLw 2x" type="image/jpeg" width="768"/>
-<source height="205" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_21_9__480x205/public/harvard-iqss/files/research-resources-banner.jpg?itok=P4i3OYm9 1x, /sites/g/files/omnuum8171/files/styles/hwp_21_9__960x410/public/harvard-iqss/files/research-resources-banner.jpg?itok=VE9Gtz78 2x" type="image/jpeg" width="480"/>
+<source height="415" media="all and (min-width: 1440px)" srcset="../../images/live/harvard-iqss/files/research-resources-banner.jpg" type="image/jpeg" width="1920"/>
+<source height="315" media="all and (min-width: 1024px)" srcset="../../images/live/harvard-iqss/files/research-resources-banner.jpg" type="image/jpeg" width="1440"/>
+<source height="220" media="all and (min-width: 768px)" srcset="../../images/live/harvard-iqss/files/research-resources-banner.jpg" type="image/jpeg" width="1024"/>
+<source height="165" media="all and (min-width: 480px)" srcset="../../images/live/harvard-iqss/files/research-resources-banner.jpg" type="image/jpeg" width="768"/>
+<source height="205" media="all and (min-width: 0)" srcset="../../images/live/harvard-iqss/files/research-resources-banner.jpg" type="image/jpeg" width="480"/>
 <img alt="discussion at whiteboard" height="825" loading="eager" src="../../images/live/harvard-iqss/files/research-resources-banner.jpg" width="1920"/>
 </picture>
 </div>
@@ -67,7 +67,7 @@ title: Research Resources
 <div class="page-card__thumb">
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="240" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/accounting-administration-books-267582.jpg?itok=OpNg1OmC 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/accounting-administration-books-267582.jpg?itok=e5BNPtrx 2x" type="image/jpeg" width="360"/>
+<source height="240" media="all and (min-width: 0)" srcset="../../images/live/harvard-iqss/files/accounting-administration-books-267582.jpg" type="image/jpeg" width="360"/>
 <img alt="books" height="240" loading="eager" src="../../images/live/harvard-iqss/files/accounting-administration-books-267582.jpg" width="360"/>
 </picture>
 </div>
@@ -85,7 +85,7 @@ title: Research Resources
 <div class="page-card__thumb">
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="240" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/whiteboard_conversation_stk.jpg?itok=OACQa1Dg 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/whiteboard_conversation_stk.jpg?itok=6ZaWbXYx 2x" type="image/jpeg" width="360"/>
+<source height="240" media="all and (min-width: 0)" srcset="../../images/live/harvard-iqss/files/whiteboard_conversation_stk.jpg" type="image/jpeg" width="360"/>
 <img alt="Two people working at a whiteboard" height="240" loading="eager" src="../../images/live/harvard-iqss/files/whiteboard_conversation_stk.jpg" width="360"/>
 </picture>
 </div>
@@ -103,7 +103,7 @@ title: Research Resources
 <div class="page-card__thumb">
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="240" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/discussion-1.jpg?itok=qwUR6JrR 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/discussion-1.jpg?itok=3ODOCPpu 2x" type="image/jpeg" width="360"/>
+<source height="240" media="all and (min-width: 0)" srcset="../../images/live/harvard-iqss/files/discussion-1.jpg" type="image/jpeg" width="360"/>
 <img alt="discussion" height="240" loading="eager" src="../../images/live/harvard-iqss/files/discussion-1.jpg" width="360"/>
 </picture>
 </div>
@@ -121,7 +121,7 @@ title: Research Resources
 <div class="page-card__thumb">
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="240" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/training-3.jpg?itok=gMCyiYIp 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/training-3.jpg?itok=s8MNOK-P 2x" type="image/jpeg" width="360"/>
+<source height="240" media="all and (min-width: 0)" srcset="../../images/live/harvard-iqss/files/training-3.jpg" type="image/jpeg" width="360"/>
 <img alt="training session" height="240" loading="eager" src="../../images/live/harvard-iqss/files/training-3.jpg" width="360"/>
 </picture>
 </div>
@@ -139,7 +139,7 @@ title: Research Resources
 <div class="page-card__thumb">
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="235" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/css.jpg?itok=iqDwqrHq 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/css.jpg?itok=SbDV9TGt 2x" type="image/jpeg" width="360"/>
+<source height="235" media="all and (min-width: 0)" srcset="../../images/live/harvard-iqss/files/css.jpg" type="image/jpeg" width="360"/>
 <img alt="client support tech" height="235" loading="eager" src="../../images/live/harvard-iqss/files/css.jpg" width="360"/>
 </picture>
 </div>
@@ -157,7 +157,7 @@ title: Research Resources
 <div class="page-card__thumb">
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="240" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/computer-lab.jpg?itok=MeYHEiVI 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/computer-lab.jpg?itok=xGMfL5BT 2x" type="image/jpeg" width="360"/>
+<source height="240" media="all and (min-width: 0)" srcset="../../images/live/harvard-iqss/files/computer-lab.jpg" type="image/jpeg" width="360"/>
 <img alt="IQSS Computer Lab" height="240" loading="eager" src="../../images/live/harvard-iqss/files/computer-lab.jpg" width="360"/>
 </picture>
 </div>
@@ -175,7 +175,7 @@ title: Research Resources
 <div class="page-card__thumb">
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="240" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/merce-1.jpg?itok=QMFua3hx 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/merce-1.jpg?itok=RFMm-vSm 2x" type="image/jpeg" width="360"/>
+<source height="240" media="all and (min-width: 0)" srcset="../../images/live/harvard-iqss/files/merce-1.jpg" type="image/jpeg" width="360"/>
 <img alt="Discussion between staff" height="240" loading="eager" src="../../images/live/harvard-iqss/files/merce-1.jpg" width="360"/>
 </picture>
 </div>
@@ -193,7 +193,7 @@ title: Research Resources
 <div class="page-card__thumb">
 <div class="hwp-media hwp-media--16-9-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="270" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/2026-04/RCE-banner-CANL3bzp6wU-unsplash.jpg?itok=18atesjH 1x, /sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2026-04/RCE-banner-CANL3bzp6wU-unsplash.jpg?itok=nS9C7VEC 2x" type="image/jpeg" width="480"/>
+<source height="270" media="all and (min-width: 0)" srcset="../../images/live/2026-04/RCE-banner-CANL3bzp6wU-unsplash.jpg" type="image/jpeg" width="480"/>
 <img alt="Copper colored circuit board" height="270" loading="eager" src="../../images/live/2026-04/RCE-banner-CANL3bzp6wU-unsplash.jpg" width="480"/>
 </picture>
 </div>
@@ -211,7 +211,7 @@ title: Research Resources
 <div class="page-card__thumb">
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="240" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/funding-9.jpg?itok=SjgD6lNJ 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/funding-9.jpg?itok=KlNkUZ4e 2x" type="image/jpeg" width="360"/>
+<source height="240" media="all and (min-width: 0)" srcset="../../images/live/harvard-iqss/files/funding-9.jpg" type="image/jpeg" width="360"/>
 <img alt="undergraduate working on laptop" height="240" loading="eager" src="../../images/live/harvard-iqss/files/funding-9.jpg" width="360"/>
 </picture>
 </div>

@@ -27,11 +27,11 @@ title: IQSS Computer Labs
 <div class="hwp-hero__media hwp-bg-light-core">
 <div class="hwp-media hwp-media--23-5-small-hero">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="415" media="all and (min-width: 1440px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_23_5__1920x415/public/harvard-iqss/files/comp-lab-hero_0.jpg?itok=--oufkwq 1x, /sites/g/files/omnuum8171/files/styles/hwp_23_5__3840x835/public/harvard-iqss/files/comp-lab-hero_0.jpg?itok=lsqYRQRY 2x" type="image/jpeg" width="1920"/>
-<source height="315" media="all and (min-width: 1024px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_23_5__1440x315/public/harvard-iqss/files/comp-lab-hero_0.jpg?itok=h7ZhTzQl 1x, /sites/g/files/omnuum8171/files/styles/hwp_23_5__2880x625/public/harvard-iqss/files/comp-lab-hero_0.jpg?itok=6JMVTTc6 2x" type="image/jpeg" width="1440"/>
-<source height="220" media="all and (min-width: 768px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_23_5__1024x220/public/harvard-iqss/files/comp-lab-hero_0.jpg?itok=s8iitpa_ 1x, /sites/g/files/omnuum8171/files/styles/hwp_23_5__2048x445/public/harvard-iqss/files/comp-lab-hero_0.jpg?itok=FSNhfisn 2x" type="image/jpeg" width="1024"/>
-<source height="165" media="all and (min-width: 480px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_23_5__768x165/public/harvard-iqss/files/comp-lab-hero_0.jpg?itok=904eDHKR 1x, /sites/g/files/omnuum8171/files/styles/hwp_23_5__1536x335/public/harvard-iqss/files/comp-lab-hero_0.jpg?itok=9Fe2h5vS 2x" type="image/jpeg" width="768"/>
-<source height="205" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_21_9__480x205/public/harvard-iqss/files/comp-lab-hero_0.jpg?itok=_Wut4cre 1x, /sites/g/files/omnuum8171/files/styles/hwp_21_9__960x410/public/harvard-iqss/files/comp-lab-hero_0.jpg?itok=5xqIoyvr 2x" type="image/jpeg" width="480"/>
+<source height="415" media="all and (min-width: 1440px)" srcset="../../../images/live/harvard-iqss/files/comp-lab-hero_0.jpg" type="image/jpeg" width="1920"/>
+<source height="315" media="all and (min-width: 1024px)" srcset="../../../images/live/harvard-iqss/files/comp-lab-hero_0.jpg" type="image/jpeg" width="1440"/>
+<source height="220" media="all and (min-width: 768px)" srcset="../../../images/live/harvard-iqss/files/comp-lab-hero_0.jpg" type="image/jpeg" width="1024"/>
+<source height="165" media="all and (min-width: 480px)" srcset="../../../images/live/harvard-iqss/files/comp-lab-hero_0.jpg" type="image/jpeg" width="768"/>
+<source height="205" media="all and (min-width: 0)" srcset="../../../images/live/harvard-iqss/files/comp-lab-hero_0.jpg" type="image/jpeg" width="480"/>
 <img alt="comp-lab-hero_0.jpg" height="825" loading="eager" src="../../../images/live/harvard-iqss/files/comp-lab-hero_0.jpg" width="1920"/>
 </picture>
 </div>
@@ -81,7 +81,7 @@ title: IQSS Computer Labs
 <div class="page-card__thumb">
 <div class="hwp-media hwp-media--16-9-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="270" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/harvard-iqss/files/img_0029_01.jpg?itok=pUnT6TkV 1x, /sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/img_0029_01.jpg?itok=B58glVDt 2x" type="image/jpeg" width="480"/>
+<source height="270" media="all and (min-width: 0)" srcset="../../../images/live/harvard-iqss/files/img_0029_01.jpg" type="image/jpeg" width="480"/>
 <img alt="Computer lab" height="270" loading="eager" src="../../../images/live/harvard-iqss/files/img_0029_01.jpg" width="480"/>
 </picture>
 </div>
@@ -99,7 +99,7 @@ title: IQSS Computer Labs
 <div class="page-card__thumb">
 <div class="hwp-media hwp-media--16-9-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="270" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/harvard-iqss/files/img_0338.jpeg?itok=sTrGGODV 1x, /sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/img_0338.jpeg?itok=wlgDP_yI 2x" type="image/jpeg" width="480"/>
+<source height="270" media="all and (min-width: 0)" srcset="../../../images/live/harvard-iqss/files/img_0338.jpg" type="image/jpeg" width="480"/>
 <img alt="img_0338.jpeg" height="270" loading="eager" src="../../../images/live/harvard-iqss/files/img_0338.jpg" width="480"/>
 </picture>
 </div>
@@ -117,7 +117,7 @@ title: IQSS Computer Labs
 <div class="page-card__thumb">
 <div class="hwp-media hwp-media--16-9-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="270" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/harvard-iqss/files/img_0028_1.jpg?itok=PCJEsoA0 1x, /sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/img_0028_1.jpg?itok=DMHdDyT8 2x" type="image/jpeg" width="480"/>
+<source height="270" media="all and (min-width: 0)" srcset="../../../images/live/harvard-iqss/files/img_0028_1.jpg" type="image/jpeg" width="480"/>
 <img alt="computer lab help desk" height="270" loading="eager" src="../../../images/live/harvard-iqss/files/img_0028_1.jpg" width="480"/>
 </picture>
 </div>
@@ -135,7 +135,7 @@ title: IQSS Computer Labs
 <div class="page-card__thumb">
 <div class="hwp-media hwp-media--16-9-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="270" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/harvard-iqss/files/img_0060_2.jpg?itok=hB5UzqYA 1x, /sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/img_0060_2.jpg?itok=AKtvOke- 2x" type="image/jpeg" width="480"/>
+<source height="270" media="all and (min-width: 0)" srcset="../../../images/live/harvard-iqss/files/img_0060_2.jpg" type="image/jpeg" width="480"/>
 <img alt="3rd floor computer lab" height="270" loading="eager" src="../../../images/live/harvard-iqss/files/img_0060_2.jpg" width="480"/>
 </picture>
 </div>
@@ -153,7 +153,7 @@ title: IQSS Computer Labs
 <div class="page-card__thumb">
 <div class="hwp-media hwp-media--16-9-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="270" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/harvard-iqss/files/gradlounge.jpg?itok=GBigsJHo 1x, /sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/gradlounge.jpg?itok=droA22_s 2x" type="image/jpeg" width="480"/>
+<source height="270" media="all and (min-width: 0)" srcset="../../../images/live/harvard-iqss/files/gradlounge.jpg" type="image/jpeg" width="480"/>
 <img alt="graduate lounge" height="270" loading="eager" src="../../../images/live/harvard-iqss/files/gradlounge.jpg" width="480"/>
 </picture>
 </div>
@@ -170,7 +170,7 @@ title: IQSS Computer Labs
 <div class="page-card__thumb">
 <div class="hwp-media hwp-media--16-9-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="270" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/harvard-iqss/files/workspace.png?itok=A1elZie0 1x, /sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/workspace.png?itok=4xwqVWOD 2x" type="image/png" width="480"/>
+<source height="270" media="all and (min-width: 0)" srcset="../../../images/live/harvard-iqss/files/workspace.jpg" type="image/png" width="480"/>
 <img alt="Concourse Lab Workspace" height="270" loading="eager" src="../../../images/live/harvard-iqss/files/workspace.jpg" width="480"/>
 </picture>
 </div>
@@ -253,7 +253,7 @@ title: IQSS Computer Labs
 <div class="page-card__thumb">
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="108" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/computer-labs-icon.png?itok=BoAtWnG- 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/computer-labs-icon.png?itok=il8nyBDm 2x" type="image/png" width="108"/>
+<source height="108" media="all and (min-width: 0)" srcset="../../../images/live/harvard-iqss/files/computer-labs-icon.png" type="image/png" width="108"/>
 <img alt="Icon of a desktop computer" height="108" loading="eager" src="../../../images/live/harvard-iqss/files/computer-labs-icon.png" width="108"/>
 </picture>
 </div>
@@ -271,7 +271,7 @@ title: IQSS Computer Labs
 <div class="page-card__thumb">
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="108" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/software.png?itok=vjvvIy_K 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/software.png?itok=-nqDTvHV 2x" type="image/png" width="108"/>
+<source height="108" media="all and (min-width: 0)" srcset="../../../images/live/harvard-iqss/files/software.png" type="image/png" width="108"/>
 <img alt="software.png" height="108" loading="eager" src="../../../images/live/harvard-iqss/files/software.png" width="108"/>
 </picture>
 </div>
@@ -289,7 +289,7 @@ title: IQSS Computer Labs
 <div class="page-card__thumb">
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="108" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/printer.png?itok=y7-DM3A0 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/printer.png?itok=Oqmkzy-5 2x" type="image/png" width="108"/>
+<source height="108" media="all and (min-width: 0)" srcset="../../../images/live/harvard-iqss/files/printer.png" type="image/png" width="108"/>
 <img alt="printer.png" height="108" loading="eager" src="../../../images/live/harvard-iqss/files/printer.png" width="108"/>
 </picture>
 </div>
@@ -307,7 +307,7 @@ title: IQSS Computer Labs
 <div class="page-card__thumb">
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="108" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/training-rooms.png?itok=X2UcPcxM 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/training-rooms.png?itok=p5QTJYDa 2x" type="image/png" width="108"/>
+<source height="108" media="all and (min-width: 0)" srcset="../../../images/live/harvard-iqss/files/training-rooms.png" type="image/png" width="108"/>
 <img alt="training-rooms.png" height="108" loading="eager" src="../../../images/live/harvard-iqss/files/training-rooms.png" width="108"/>
 </picture>
 </div>
@@ -325,7 +325,7 @@ title: IQSS Computer Labs
 <div class="page-card__thumb">
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="108" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/loaner.png?itok=vL0Yx2oC 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/loaner.png?itok=6g0HluKX 2x" type="image/png" width="108"/>
+<source height="108" media="all and (min-width: 0)" srcset="../../../images/live/harvard-iqss/files/loaner.png" type="image/png" width="108"/>
 <img alt="loaner.png" height="108" loading="eager" src="../../../images/live/harvard-iqss/files/loaner.png" width="108"/>
 </picture>
 </div>
@@ -343,7 +343,7 @@ title: IQSS Computer Labs
 <div class="page-card__thumb">
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="108" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/workspaced.png?itok=8zzObIKv 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/workspaced.png?itok=N__rUThm 2x" type="image/png" width="108"/>
+<source height="108" media="all and (min-width: 0)" srcset="../../../images/live/harvard-iqss/files/workspaced.png" type="image/png" width="108"/>
 <img alt="workspaced.png" height="108" loading="eager" src="../../../images/live/harvard-iqss/files/workspaced.png" width="108"/>
 </picture>
 </div>

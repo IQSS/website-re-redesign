@@ -26,11 +26,11 @@ title: Success Stories from the IQSS Startup Foundry
 <div class="hwp-hero__media hwp-bg-light-base">
 <div class="hwp-media hwp-media--23-5-small-hero">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="415" media="all and (min-width: 1440px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_23_5__1920x415/public/harvard-iqss/files/startup-foundry-hero_alt_6x1.jpg?itok=-py8W1NE 1x, /sites/g/files/omnuum8171/files/styles/hwp_23_5__3840x835/public/harvard-iqss/files/startup-foundry-hero_alt_6x1.jpg?itok=wTdEKMQy 2x" type="image/jpeg" width="1920"/>
-<source height="315" media="all and (min-width: 1024px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_23_5__1440x315/public/harvard-iqss/files/startup-foundry-hero_alt_6x1.jpg?itok=JVXeWTdV 1x, /sites/g/files/omnuum8171/files/styles/hwp_23_5__2880x625/public/harvard-iqss/files/startup-foundry-hero_alt_6x1.jpg?itok=nEy0KnWC 2x" type="image/jpeg" width="1440"/>
-<source height="220" media="all and (min-width: 768px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_23_5__1024x220/public/harvard-iqss/files/startup-foundry-hero_alt_6x1.jpg?itok=OB8ORqVO 1x, /sites/g/files/omnuum8171/files/styles/hwp_23_5__2048x445/public/harvard-iqss/files/startup-foundry-hero_alt_6x1.jpg?itok=M_GeEvIh 2x" type="image/jpeg" width="1024"/>
-<source height="165" media="all and (min-width: 480px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_23_5__768x165/public/harvard-iqss/files/startup-foundry-hero_alt_6x1.jpg?itok=_k9zTojF 1x, /sites/g/files/omnuum8171/files/styles/hwp_23_5__1536x335/public/harvard-iqss/files/startup-foundry-hero_alt_6x1.jpg?itok=vxKcI6ep 2x" type="image/jpeg" width="768"/>
-<source height="205" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_21_9__480x205/public/harvard-iqss/files/startup-foundry-hero_alt_6x1.jpg?itok=jc6nx_82 1x, /sites/g/files/omnuum8171/files/styles/hwp_21_9__960x410/public/harvard-iqss/files/startup-foundry-hero_alt_6x1.jpg?itok=P3Ty8BMX 2x" type="image/jpeg" width="480"/>
+<source height="415" media="all and (min-width: 1440px)" srcset="../../images/live/harvard-iqss/files/startup-foundry-hero_alt_6x1.jpg" type="image/jpeg" width="1920"/>
+<source height="315" media="all and (min-width: 1024px)" srcset="../../images/live/harvard-iqss/files/startup-foundry-hero_alt_6x1.jpg" type="image/jpeg" width="1440"/>
+<source height="220" media="all and (min-width: 768px)" srcset="../../images/live/harvard-iqss/files/startup-foundry-hero_alt_6x1.jpg" type="image/jpeg" width="1024"/>
+<source height="165" media="all and (min-width: 480px)" srcset="../../images/live/harvard-iqss/files/startup-foundry-hero_alt_6x1.jpg" type="image/jpeg" width="768"/>
+<source height="205" media="all and (min-width: 0)" srcset="../../images/live/harvard-iqss/files/startup-foundry-hero_alt_6x1.jpg" type="image/jpeg" width="480"/>
 <img alt="Blue hex pattern peppered with digital icons and binary code" height="825" loading="eager" src="../../images/live/harvard-iqss/files/startup-foundry-hero_alt_6x1.jpg" width="1920"/>
 </picture>
 </div>
@@ -56,7 +56,7 @@ title: Success Stories from the IQSS Startup Foundry
 <div class="hwp--text-block hwp-bg-light-core hwp-container-px hwp-container-py">
 <div class="hwp-text-block field field--name-field-hwp-body field--type-text-long field--label-hidden"><h2>TeamBirth's Journey from Research to New Venture</h2><a href="https://www.unravelhealthcare.com/"><div class="align-right hwp-media hwp-media--small">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="203" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/unravel-healthcare-collage.jpg?itok=ZvBbkGrL 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/unravel-healthcare-collage.jpg?itok=HdouHzT5 2x" type="image/jpeg" width="360"/>
+<source height="203" media="all and (min-width: 0)" srcset="../../images/live/harvard-iqss/files/unravel-healthcare-collage.jpg" type="image/jpeg" width="360"/>
 <img alt="Hospital photos of mothers holding newborns and a smiling medical professional" height="203" loading="eager" src="../../images/live/harvard-iqss/files/unravel-healthcare-collage.jpg" width="360"/>
 </picture>
 </div>
@@ -94,7 +94,7 @@ title: Success Stories from the IQSS Startup Foundry
 <div class="hwp--text-block hwp-bg-light-core hwp-container-px hwp-container-py">
 <div class="hwp-text-block field field--name-field-hwp-body field--type-text-long field--label-hidden"><h2>MorphoAI: Breakthrough Academic Work Leads to Industry Impact</h2><a href="https://www.morpho.ai/"><div class="align-right hwp-media hwp-media--small">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="360" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/morphoai-logo.png?itok=yNcJAJr- 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/morphoai-logo.png?itok=sFzf7l5y 2x" type="image/png" width="360"/>
+<source height="360" media="all and (min-width: 0)" srcset="../../images/live/harvard-iqss/files/morphoai-logo.png" type="image/png" width="360"/>
 <img alt="MorphoAI logo" height="360" loading="eager" src="../../images/live/harvard-iqss/files/morphoai-logo.png" width="360"/>
 </picture>
 </div>
@@ -132,7 +132,7 @@ title: Success Stories from the IQSS Startup Foundry
 <div class="hwp--text-block hwp-bg-light-core hwp-container-px hwp-container-py">
 <div class="hwp-text-block field field--name-field-hwp-body field--type-text-long field--label-hidden"><h2 id="page-title"><span>Building terraFlow: How an Idea in the Lab Grew Into a Venture-Backed Startup</span></h2><a href="http://terraflow.app/"><div class="align-right hwp-media hwp-media--small">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="240" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/2025-09/terraflow-logo-black_bkgd.png?itok=Bg8y7ret 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/2025-09/terraflow-logo-black_bkgd.png?itok=vnaqhE9f 2x" type="image/png" width="360"/>
+<source height="240" media="all and (min-width: 0)" srcset="../../images/live/2025-09/terraflow-logo-black_bkgd.png" type="image/png" width="360"/>
 <img alt="terra Flow logo" height="240" loading="eager" src="../../images/live/2025-09/terraflow-logo-black_bkgd.png" width="360"/>
 </picture>
 </div>
@@ -170,7 +170,7 @@ title: Success Stories from the IQSS Startup Foundry
 <div class="hwp--text-block hwp-bg-light-core hwp-container-px hwp-container-py">
 <div class="hwp-text-block field field--name-field-hwp-body field--type-text-long field--label-hidden"><h2><span>Memorious: Building Infinite Memory with AI</span></h2><div class="align-right hwp-media hwp-media--small">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="67" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/2025-09/memorious-logo.png?itok=1_o_mhaU 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/2025-09/memorious-logo.png?itok=umDa8rSe 2x" type="image/png" width="360"/>
+<source height="67" media="all and (min-width: 0)" srcset="../../images/live/2025-09/memorious-logo.png" type="image/png" width="360"/>
 <img alt="Memorious logo" height="67" loading="eager" src="../../images/live/2025-09/memorious-logo.png" width="360"/>
 </picture>
 </div>
@@ -208,7 +208,7 @@ title: Success Stories from the IQSS Startup Foundry
 <div class="hwp--text-block hwp-bg-light-core hwp-container-px hwp-container-py">
 <div class="hwp-text-block field field--name-field-hwp-body field--type-text-long field--label-hidden"><h2 dir="ltr"><strong>From Harvard Research to National Security Innovation: The Story of Thresher</strong></h2><div class="align-right hwp-media hwp-media--small">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="360" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/2025-10/Two-Six-Tech-Products-M3-Logo-and-Text%20sq2.jpg?itok=xgNbH0d4 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/2025-10/Two-Six-Tech-Products-M3-Logo-and-Text%20sq2.jpg?itok=AlTpmFvk 2x" type="image/jpeg" width="360"/>
+<source height="360" media="all and (min-width: 0)" srcset="../../images/live/2025-10/Two-Six-Tech-Products-M3-Logo-and-Text%20sq2.jpg" type="image/jpeg" width="360"/>
 <img alt="Two Six M3 logo" height="360" loading="eager" src="../../images/live/2025-10/Two-Six-Tech-Products-M3-Logo-and-Text%20sq2.jpg" width="360"/>
 </picture>
 </div>
@@ -246,7 +246,7 @@ title: Success Stories from the IQSS Startup Foundry
 <div class="hwp--text-block hwp-bg-light-core hwp-container-px hwp-container-py">
 <div class="hwp-text-block field field--name-field-hwp-body field--type-text-long field--label-hidden"><h2 dir="ltr"><strong>Neru Health – From Sleep Challenges to Scaling Chronic Care with AI</strong></h2><div class="align-right hwp-media hwp-media--small">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="87" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/2025-10/neru-logo.png?itok=4JzXNGII 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/2025-10/neru-logo.png?itok=G9Bw4uUO 2x" type="image/png" width="360"/>
+<source height="87" media="all and (min-width: 0)" srcset="../../images/live/2025-10/neru-logo.png" type="image/png" width="360"/>
 <img alt="Neru Health logo" height="87" loading="eager" src="../../images/live/2025-10/neru-logo.png" width="360"/>
 </picture>
 </div>

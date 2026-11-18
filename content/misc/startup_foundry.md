@@ -29,11 +29,11 @@ title: The IQSS Startup Foundry
 <div class="hwp-hero__media hwp-bg-light-base">
 <div class="hwp-media hwp-media--23-5-small-hero">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="415" media="all and (min-width: 1440px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_23_5__1920x415/public/harvard-iqss/files/startup-foundry-hero_alt_6x1.jpg?itok=-py8W1NE 1x, /sites/g/files/omnuum8171/files/styles/hwp_23_5__3840x835/public/harvard-iqss/files/startup-foundry-hero_alt_6x1.jpg?itok=wTdEKMQy 2x" type="image/jpeg" width="1920"/>
-<source height="315" media="all and (min-width: 1024px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_23_5__1440x315/public/harvard-iqss/files/startup-foundry-hero_alt_6x1.jpg?itok=JVXeWTdV 1x, /sites/g/files/omnuum8171/files/styles/hwp_23_5__2880x625/public/harvard-iqss/files/startup-foundry-hero_alt_6x1.jpg?itok=nEy0KnWC 2x" type="image/jpeg" width="1440"/>
-<source height="220" media="all and (min-width: 768px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_23_5__1024x220/public/harvard-iqss/files/startup-foundry-hero_alt_6x1.jpg?itok=OB8ORqVO 1x, /sites/g/files/omnuum8171/files/styles/hwp_23_5__2048x445/public/harvard-iqss/files/startup-foundry-hero_alt_6x1.jpg?itok=M_GeEvIh 2x" type="image/jpeg" width="1024"/>
-<source height="165" media="all and (min-width: 480px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_23_5__768x165/public/harvard-iqss/files/startup-foundry-hero_alt_6x1.jpg?itok=_k9zTojF 1x, /sites/g/files/omnuum8171/files/styles/hwp_23_5__1536x335/public/harvard-iqss/files/startup-foundry-hero_alt_6x1.jpg?itok=vxKcI6ep 2x" type="image/jpeg" width="768"/>
-<source height="205" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_21_9__480x205/public/harvard-iqss/files/startup-foundry-hero_alt_6x1.jpg?itok=jc6nx_82 1x, /sites/g/files/omnuum8171/files/styles/hwp_21_9__960x410/public/harvard-iqss/files/startup-foundry-hero_alt_6x1.jpg?itok=P3Ty8BMX 2x" type="image/jpeg" width="480"/>
+<source height="415" media="all and (min-width: 1440px)" srcset="../../images/live/harvard-iqss/files/startup-foundry-hero_alt_6x1.jpg" type="image/jpeg" width="1920"/>
+<source height="315" media="all and (min-width: 1024px)" srcset="../../images/live/harvard-iqss/files/startup-foundry-hero_alt_6x1.jpg" type="image/jpeg" width="1440"/>
+<source height="220" media="all and (min-width: 768px)" srcset="../../images/live/harvard-iqss/files/startup-foundry-hero_alt_6x1.jpg" type="image/jpeg" width="1024"/>
+<source height="165" media="all and (min-width: 480px)" srcset="../../images/live/harvard-iqss/files/startup-foundry-hero_alt_6x1.jpg" type="image/jpeg" width="768"/>
+<source height="205" media="all and (min-width: 0)" srcset="../../images/live/harvard-iqss/files/startup-foundry-hero_alt_6x1.jpg" type="image/jpeg" width="480"/>
 <img alt="Blue hex pattern peppered with digital icons and binary code" height="825" loading="eager" src="../../images/live/harvard-iqss/files/startup-foundry-hero_alt_6x1.jpg" width="1920"/>
 </picture>
 </div>
@@ -69,7 +69,7 @@ title: The IQSS Startup Foundry
 <div class="page-card__thumb">
 <div class="hwp-media hwp-media--16-9-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="270" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/2025-08/woman-instructing-on-laptop.jpg?h=006883eb&amp;itok=U5dWLOXE 1x, /sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2025-08/woman-instructing-on-laptop.jpg?h=006883eb&amp;itok=CubJPnZi 2x" type="image/jpeg" width="480"/>
+<source height="270" media="all and (min-width: 0)" srcset="../../images/live/2025-08/woman-instructing-on-laptop.jpg" type="image/jpeg" width="480"/>
 <img alt="Woman speaking to conference table of students on laptops" height="270" loading="eager" src="../../images/live/2025-08/woman-instructing-on-laptop.jpg" width="480"/>
 </picture>
 </div>
@@ -87,7 +87,7 @@ title: The IQSS Startup Foundry
 <div class="page-card__thumb">
 <div class="hwp-media hwp-media--16-9-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="270" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/2025-08/business-meeting-startup-getty-unsplash.jpg?h=51a69bd7&amp;itok=JWhGO-st 1x, /sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2025-08/business-meeting-startup-getty-unsplash.jpg?h=51a69bd7&amp;itok=0CGNjuN1 2x" type="image/jpeg" width="480"/>
+<source height="270" media="all and (min-width: 0)" srcset="../../images/live/2025-08/business-meeting-startup-getty-unsplash.jpg" type="image/jpeg" width="480"/>
 <img alt="Business meeting around an office conference table" height="270" loading="eager" src="../../images/live/2025-08/business-meeting-startup-getty-unsplash.jpg" width="480"/>
 </picture>
 </div>

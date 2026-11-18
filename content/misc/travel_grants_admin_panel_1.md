@@ -27,7 +27,7 @@ title: Travel Grants
 <div class="hwp-mb-16 hwp-container-px">
 <div class="hwp-text-block field field--name-field-hwp-body field--type-text-long field--label-hidden"><div class="align-right hwp-media hwp-media--small">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="240" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/travel-grants.jpg?itok=uAjfih1E 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/travel-grants.jpg?itok=yW7OLBNg 2x" type="image/jpeg" width="360"/>
+<source height="240" media="all and (min-width: 0)" srcset="../../images/live/harvard-iqss/files/travel-grants.jpg" type="image/jpeg" width="360"/>
 <img alt="people talking poster session event" height="240" loading="eager" src="../../images/live/harvard-iqss/files/travel-grants.jpg" width="360"/>
 </picture>
 </div>

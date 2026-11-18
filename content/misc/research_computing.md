@@ -36,11 +36,11 @@ title: Research Computing at IQSS
 <div class="hwp-hero__media hwp-bg-light-base">
 <div class="hwp-media hwp-media--23-5-small-hero">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="415" media="all and (min-width: 1440px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_23_5__1920x415/public/2026-04/RCE-banner-CANL3bzp6wU-unsplash.jpg?h=37834aa6&amp;itok=8ZZhW-zr 1x, /sites/g/files/omnuum8171/files/styles/hwp_23_5__3840x835/public/2026-04/RCE-banner-CANL3bzp6wU-unsplash.jpg?h=37834aa6&amp;itok=IVT02VQK 2x" type="image/jpeg" width="1920"/>
-<source height="315" media="all and (min-width: 1024px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_23_5__1440x315/public/2026-04/RCE-banner-CANL3bzp6wU-unsplash.jpg?h=37834aa6&amp;itok=GS_oyCIU 1x, /sites/g/files/omnuum8171/files/styles/hwp_23_5__2880x625/public/2026-04/RCE-banner-CANL3bzp6wU-unsplash.jpg?h=37834aa6&amp;itok=57kgv5jH 2x" type="image/jpeg" width="1440"/>
-<source height="220" media="all and (min-width: 768px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_23_5__1024x220/public/2026-04/RCE-banner-CANL3bzp6wU-unsplash.jpg?h=37834aa6&amp;itok=TgTKm7CZ 1x, /sites/g/files/omnuum8171/files/styles/hwp_23_5__2048x445/public/2026-04/RCE-banner-CANL3bzp6wU-unsplash.jpg?h=37834aa6&amp;itok=bCeIu1Lg 2x" type="image/jpeg" width="1024"/>
-<source height="165" media="all and (min-width: 480px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_23_5__768x165/public/2026-04/RCE-banner-CANL3bzp6wU-unsplash.jpg?h=37834aa6&amp;itok=BJOs1G0v 1x, /sites/g/files/omnuum8171/files/styles/hwp_23_5__1536x335/public/2026-04/RCE-banner-CANL3bzp6wU-unsplash.jpg?h=37834aa6&amp;itok=pi3geDmM 2x" type="image/jpeg" width="768"/>
-<source height="205" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_21_9__480x205/public/2026-04/RCE-banner-CANL3bzp6wU-unsplash.jpg?h=6d647774&amp;itok=XoBRa9IR 1x, /sites/g/files/omnuum8171/files/styles/hwp_21_9__960x410/public/2026-04/RCE-banner-CANL3bzp6wU-unsplash.jpg?h=6d647774&amp;itok=fnaTRAKW 2x" type="image/jpeg" width="480"/>
+<source height="415" media="all and (min-width: 1440px)" srcset="../../images/live/2026-04/RCE-banner-CANL3bzp6wU-unsplash.jpg" type="image/jpeg" width="1920"/>
+<source height="315" media="all and (min-width: 1024px)" srcset="../../images/live/2026-04/RCE-banner-CANL3bzp6wU-unsplash.jpg" type="image/jpeg" width="1440"/>
+<source height="220" media="all and (min-width: 768px)" srcset="../../images/live/2026-04/RCE-banner-CANL3bzp6wU-unsplash.jpg" type="image/jpeg" width="1024"/>
+<source height="165" media="all and (min-width: 480px)" srcset="../../images/live/2026-04/RCE-banner-CANL3bzp6wU-unsplash.jpg" type="image/jpeg" width="768"/>
+<source height="205" media="all and (min-width: 0)" srcset="../../images/live/2026-04/RCE-banner-CANL3bzp6wU-unsplash.jpg" type="image/jpeg" width="480"/>
 <img alt="" height="825" loading="eager" src="../../images/live/2026-04/RCE-banner-CANL3bzp6wU-unsplash.jpg" width="1920"/>
 </picture>
 </div>

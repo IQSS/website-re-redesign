@@ -29,7 +29,7 @@ role: ["Affiliated Graduate Students"]
 <div class="hwp-person-card__image">
 <div class="field field--name-field-hwp-person-headshot field--type-entity-reference field--label-hidden"><div class="hwp-media hwp-media--4-5-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="600" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_4_5__480x600/public/harvard-iqss/files/alyssa-huberts_2019.jpg?itok=3OynhVd1 1x, /sites/g/files/omnuum8171/files/styles/hwp_4_5__960x1200/public/harvard-iqss/files/alyssa-huberts_2019.jpg?itok=X1oZhFbc 2x" type="image/jpeg" width="480"/>
+<source height="600" media="all and (min-width: 0)" srcset="../../images/live/harvard-iqss/files/alyssa-huberts_2019.jpg" type="image/jpeg" width="480"/>
 <img alt="Alyssa Huberts" height="600" loading="lazy" src="../../images/live/harvard-iqss/files/alyssa-huberts_2019.jpg" width="480"/>
 </picture>
 </div>

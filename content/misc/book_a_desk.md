@@ -26,11 +26,11 @@ title: Reserve Desk Space
 <div class="hwp-hero__media hwp-bg-light-core">
 <div class="hwp-media hwp-media--23-5-small-hero">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="415" media="all and (min-width: 1440px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_23_5__1920x415/public/harvard-iqss/files/iq-computer-lab-hero.png?itok=5-tj-3ph 1x, /sites/g/files/omnuum8171/files/styles/hwp_23_5__3840x835/public/harvard-iqss/files/iq-computer-lab-hero.png?itok=ga0Tpa38 2x" type="image/png" width="1920"/>
-<source height="315" media="all and (min-width: 1024px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_23_5__1440x315/public/harvard-iqss/files/iq-computer-lab-hero.png?itok=CBi9WfhY 1x, /sites/g/files/omnuum8171/files/styles/hwp_23_5__2880x625/public/harvard-iqss/files/iq-computer-lab-hero.png?itok=PmZ-aEiB 2x" type="image/png" width="1440"/>
-<source height="220" media="all and (min-width: 768px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_23_5__1024x220/public/harvard-iqss/files/iq-computer-lab-hero.png?itok=L5BRiUYl 1x, /sites/g/files/omnuum8171/files/styles/hwp_23_5__2048x445/public/harvard-iqss/files/iq-computer-lab-hero.png?itok=bjz-3Map 2x" type="image/png" width="1024"/>
-<source height="165" media="all and (min-width: 480px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_23_5__768x165/public/harvard-iqss/files/iq-computer-lab-hero.png?itok=jsvZo6be 1x, /sites/g/files/omnuum8171/files/styles/hwp_23_5__1536x335/public/harvard-iqss/files/iq-computer-lab-hero.png?itok=nWb-GeVm 2x" type="image/png" width="768"/>
-<source height="205" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_21_9__480x205/public/harvard-iqss/files/iq-computer-lab-hero.png?itok=6FJ2mYyY 1x, /sites/g/files/omnuum8171/files/styles/hwp_21_9__960x410/public/harvard-iqss/files/iq-computer-lab-hero.png?itok=bZMos0dL 2x" type="image/png" width="480"/>
+<source height="415" media="all and (min-width: 1440px)" srcset="../../images/live/harvard-iqss/files/iq-computer-lab-hero.png" type="image/png" width="1920"/>
+<source height="315" media="all and (min-width: 1024px)" srcset="../../images/live/harvard-iqss/files/iq-computer-lab-hero.png" type="image/png" width="1440"/>
+<source height="220" media="all and (min-width: 768px)" srcset="../../images/live/harvard-iqss/files/iq-computer-lab-hero.png" type="image/png" width="1024"/>
+<source height="165" media="all and (min-width: 480px)" srcset="../../images/live/harvard-iqss/files/iq-computer-lab-hero.png" type="image/png" width="768"/>
+<source height="205" media="all and (min-width: 0)" srcset="../../images/live/harvard-iqss/files/iq-computer-lab-hero.png" type="image/png" width="480"/>
 <img alt="Close-up of hands working at open laptops on a table" height="825" loading="eager" src="../../images/live/harvard-iqss/files/iq-computer-lab-hero.png" width="1920"/>
 </picture>
 </div>
@@ -66,7 +66,7 @@ title: Reserve Desk Space
 <div class="hwp--text-block hwp-bg-dark-alternative hwp-container-px hwp-container-py">
 <div class="hwp-text-block field field--name-field-hwp-body field--type-text-long field--label-hidden"><div class="align-left hwp-media hwp-media--medium">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="400" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/robin_map_screenshot_1_crop.jpg?itok=STMKCoLk 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__1440x1440_scale/public/harvard-iqss/files/robin_map_screenshot_1_crop.jpg?itok=FLoT2MvA 2x" type="image/jpeg" width="400"/>
+<source height="400" media="all and (min-width: 0)" srcset="../../images/live/harvard-iqss/files/robin_map_screenshot_1_crop.jpg" type="image/jpeg" width="400"/>
 <img alt="Screenshot of room reservation map" height="400" loading="eager" src="../../images/live/harvard-iqss/files/robin_map_screenshot_1_crop.jpg" width="400"/>
 </picture>
 </div>
@@ -79,14 +79,14 @@ title: Reserve Desk Space
 <div class="hwp--text-block hwp-bg-light-core hwp-container-px hwp-container-py">
 <div class="hwp-text-block field field--name-field-hwp-body field--type-text-long field--label-hidden"><h2>Reserve a desk via mobile app</h2><p>In addition to booking via web browser, you can also download the Robin mobile app.</p><span id="sort-hint" style="display:none;">Sort</span><div class="hwp-table-wrap"><table class="hwp-table js-hwp-table dataTable"><tbody><tr><td><div class="hwp-table__cell-content"><a class="hwp-link" href="https://apps.apple.com/us/app/robin-powered/id948856282"><div class="hwp-media hwp-media--small">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="120" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/ios_app_store_badge_blk_2022.png?itok=SDUZaajs 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/ios_app_store_badge_blk_2022.png?itok=1W-2JeMT 2x" type="image/png" width="360"/>
+<source height="120" media="all and (min-width: 0)" srcset="../../images/live/harvard-iqss/files/ios_app_store_badge_blk_2022.png" type="image/png" width="360"/>
 <img alt="iOS App store badge" height="120" loading="eager" src="../../images/live/harvard-iqss/files/ios_app_store_badge_blk_2022.png" width="360"/>
 </picture>
 </div>
 </div>
 </a></div></td><td><div class="hwp-table__cell-content"><a class="hwp-link" href="https://play.google.com/store/apps/details?id=com.robinpowered.compass"><div class="hwp-media hwp-media--small">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="107" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/google-play-badge_crop.png?itok=44MYdsUH 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/google-play-badge_crop.png?itok=OOzq0st_ 2x" type="image/png" width="360"/>
+<source height="107" media="all and (min-width: 0)" srcset="../../images/live/harvard-iqss/files/google-play-badge_crop.png" type="image/png" width="360"/>
 <img alt="Google Play download badge" height="107" loading="eager" src="../../images/live/harvard-iqss/files/google-play-badge_crop.png" width="360"/>
 </picture>
 </div>

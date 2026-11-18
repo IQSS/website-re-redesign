@@ -34,7 +34,7 @@ title: China Biographical Database Project (CBDB)
 </div>
 <div class="hwp-text-block field field--name-field-hwp-body field--type-text-long field--label-hidden"><h2><span><strong>Introduction</strong></span></h2><p><span>The China Biographical Database is a freely accessible relational database with biographical information about approximately <strong>649,533 individuals as of May 2025</strong>, currently mainly from the 7th through 19th centuries. With both online and offline versions, the data is meant to be useful for statistical, social network, and spatial analysis as well as serving as a kind of biographical reference. The image below shows the <strong>spatial distribution</strong> of a cross dynastic subset of 190,000 people in CBDB by basic affiliations (籍貫).</span></p><div class="hwp-media hwp-media--medium">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="467" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum3101/files/styles/hwp_1_1__720x720_scale/public/2025-09/distribution_of_190000_cbdb_figures.jpg?itok=5OAE64hq 1x, /sites/g/files/omnuum3101/files/styles/hwp_1_1__1440x1440_scale/public/2025-09/distribution_of_190000_cbdb_figures.jpg?itok=_oTPqn0V 2x" type="image/jpeg" width="720"/>
+<source height="467" media="all and (min-width: 0)" srcset="../../images/live/2025-09/distribution_of_190000_cbdb_figures.jpg" type="image/jpeg" width="720"/>
 <img alt="globe" height="467" loading="eager" src="/sites/g/files/omnuum3101/files/styles/hwp_1_1__720x720_scale/public/2025-09/distribution_of_190000_cbdb_figures.jpg?itok=5OAE64hq" width="720"/>
 </picture>
 </div>

@@ -27,11 +27,11 @@ title: Funding
 <div class="hwp-hero__media hwp-bg-light-core">
 <div class="hwp-media hwp-media--23-5-small-hero">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="415" media="all and (min-width: 1440px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_23_5__1920x415/public/harvard-iqss/files/funding.8.jpg?itok=5JDjNtOE 1x, /sites/g/files/omnuum8171/files/styles/hwp_23_5__3840x835/public/harvard-iqss/files/funding.8.jpg?itok=nQwKsQ7u 2x" type="image/jpeg" width="1920"/>
-<source height="315" media="all and (min-width: 1024px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_23_5__1440x315/public/harvard-iqss/files/funding.8.jpg?itok=VjQ4BSGO 1x, /sites/g/files/omnuum8171/files/styles/hwp_23_5__2880x625/public/harvard-iqss/files/funding.8.jpg?itok=urHNzqkt 2x" type="image/jpeg" width="1440"/>
-<source height="220" media="all and (min-width: 768px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_23_5__1024x220/public/harvard-iqss/files/funding.8.jpg?itok=QC6T1EXM 1x, /sites/g/files/omnuum8171/files/styles/hwp_23_5__2048x445/public/harvard-iqss/files/funding.8.jpg?itok=KCSn9eWN 2x" type="image/jpeg" width="1024"/>
-<source height="165" media="all and (min-width: 480px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_23_5__768x165/public/harvard-iqss/files/funding.8.jpg?itok=G06He97y 1x, /sites/g/files/omnuum8171/files/styles/hwp_23_5__1536x335/public/harvard-iqss/files/funding.8.jpg?itok=I0RZbDVT 2x" type="image/jpeg" width="768"/>
-<source height="205" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_21_9__480x205/public/harvard-iqss/files/funding.8.jpg?itok=tG9U-oa- 1x, /sites/g/files/omnuum8171/files/styles/hwp_21_9__960x410/public/harvard-iqss/files/funding.8.jpg?itok=WgXhA66f 2x" type="image/jpeg" width="480"/>
+<source height="415" media="all and (min-width: 1440px)" srcset="../../../images/live/harvard-iqss/files/funding.8.jpg" type="image/jpeg" width="1920"/>
+<source height="315" media="all and (min-width: 1024px)" srcset="../../../images/live/harvard-iqss/files/funding.8.jpg" type="image/jpeg" width="1440"/>
+<source height="220" media="all and (min-width: 768px)" srcset="../../../images/live/harvard-iqss/files/funding.8.jpg" type="image/jpeg" width="1024"/>
+<source height="165" media="all and (min-width: 480px)" srcset="../../../images/live/harvard-iqss/files/funding.8.jpg" type="image/jpeg" width="768"/>
+<source height="205" media="all and (min-width: 0)" srcset="../../../images/live/harvard-iqss/files/funding.8.jpg" type="image/jpeg" width="480"/>
 <img alt="poster session" height="825" loading="eager" src="../../../images/live/harvard-iqss/files/funding.8.jpg" width="1920"/>
 </picture>
 </div>
@@ -68,7 +68,7 @@ title: Funding
 </a>
 <div class="page-card__description hwp-order-3 hwp-text-block"><div class="hwp-media hwp-media--medium">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="240" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/accounting-administration-books-267582.jpg?itok=e5BNPtrx 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__1440x1440_scale/public/harvard-iqss/files/accounting-administration-books-267582.jpg?itok=rSgJHdNx 2x" type="image/jpeg" width="360"/>
+<source height="240" media="all and (min-width: 0)" srcset="../../../images/live/harvard-iqss/files/accounting-administration-books-267582.jpg" type="image/jpeg" width="360"/>
 <img alt="books" height="240" loading="eager" src="../../../images/live/harvard-iqss/files/accounting-administration-books-267582.jpg" width="360"/>
 </picture>
 </div>
@@ -82,7 +82,7 @@ title: Funding
 </a>
 <div class="page-card__description hwp-order-3 hwp-text-block"><div class="hwp-media hwp-media--medium">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="400" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/funding-9.jpg?itok=KlNkUZ4e 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__1440x1440_scale/public/harvard-iqss/files/funding-9.jpg?itok=b9XDYXxd 2x" type="image/jpeg" width="600"/>
+<source height="400" media="all and (min-width: 0)" srcset="../../../images/live/harvard-iqss/files/funding-9.jpg" type="image/jpeg" width="600"/>
 <img alt="undergraduate working on laptop" height="400" loading="eager" src="../../../images/live/harvard-iqss/files/funding-9.jpg" width="600"/>
 </picture>
 </div>
@@ -96,7 +96,7 @@ title: Funding
 </a>
 <div class="page-card__description hwp-order-3 hwp-text-block"><div class="hwp-media hwp-media--medium">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="480" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/whiteboard_conversation_stk.jpg?itok=6ZaWbXYx 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__1440x1440_scale/public/harvard-iqss/files/whiteboard_conversation_stk.jpg?itok=VpriEPdj 2x" type="image/jpeg" width="720"/>
+<source height="480" media="all and (min-width: 0)" srcset="../../../images/live/harvard-iqss/files/whiteboard_conversation_stk.jpg" type="image/jpeg" width="720"/>
 <img alt="Two people working at a whiteboard" height="480" loading="eager" src="../../../images/live/harvard-iqss/files/whiteboard_conversation_stk.jpg" width="720"/>
 </picture>
 </div>
@@ -110,7 +110,7 @@ title: Funding
 </a>
 <div class="page-card__description hwp-order-3 hwp-text-block"><div class="hwp-media hwp-media--medium">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="400" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/datafest2019-crop_dwayne-liburd.png?itok=4j_vemnE 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__1440x1440_scale/public/harvard-iqss/files/datafest2019-crop_dwayne-liburd.png?itok=fvLELT65 2x" type="image/png" width="600"/>
+<source height="400" media="all and (min-width: 0)" srcset="../../../images/live/harvard-iqss/files/datafest2019-crop_dwayne-liburd.png" type="image/png" width="600"/>
 <img alt="Conference speaker with projected presentation and audience" height="400" loading="eager" src="../../../images/live/harvard-iqss/files/datafest2019-crop_dwayne-liburd.png" width="600"/>
 </picture>
 </div>
@@ -139,7 +139,7 @@ title: Funding
 </a>
 <div class="page-card__description hwp-order-3 hwp-text-block"><div class="hwp-media hwp-media--medium">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="400" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/research-grants-1.jpg?itok=yw2PKFeA 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__1440x1440_scale/public/harvard-iqss/files/research-grants-1.jpg?itok=hF94xQhJ 2x" type="image/jpeg" width="600"/>
+<source height="400" media="all and (min-width: 0)" srcset="../../../images/live/harvard-iqss/files/research-grants-1.jpg" type="image/jpeg" width="600"/>
 <img alt="students at event with media" height="400" loading="eager" src="../../../images/live/harvard-iqss/files/research-grants-1.jpg" width="600"/>
 </picture>
 </div>
@@ -153,7 +153,7 @@ title: Funding
 </a>
 <div class="page-card__description hwp-order-3 hwp-text-block"><div class="hwp-media hwp-media--medium">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="400" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/student-5.jpg?itok=W_vctJ7n 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__1440x1440_scale/public/harvard-iqss/files/student-5.jpg?itok=WoToAFTf 2x" type="image/jpeg" width="600"/>
+<source height="400" media="all and (min-width: 0)" srcset="../../../images/live/harvard-iqss/files/student-5.jpg" type="image/jpeg" width="600"/>
 <img alt="student studying" height="400" loading="eager" src="../../../images/live/harvard-iqss/files/student-5.jpg" width="600"/>
 </picture>
 </div>
@@ -167,7 +167,7 @@ title: Funding
 </a>
 <div class="page-card__description hwp-order-3 hwp-text-block"><div class="hwp-media hwp-media--medium">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="400" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/travel-grants.jpg?itok=yW7OLBNg 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__1440x1440_scale/public/harvard-iqss/files/travel-grants.jpg?itok=Go39trW8 2x" type="image/jpeg" width="600"/>
+<source height="400" media="all and (min-width: 0)" srcset="../../../images/live/harvard-iqss/files/travel-grants.jpg" type="image/jpeg" width="600"/>
 <img alt="people talking poster session event" height="400" loading="eager" src="../../../images/live/harvard-iqss/files/travel-grants.jpg" width="600"/>
 </picture>
 </div>
@@ -200,11 +200,11 @@ title: Funding
 <div class="hwp-hero__media hwp-bg-light-core">
 <div class="hwp-media hwp-media--21-9-news-detail-hero">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="825" media="all and (min-width: 1440px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_21_9__1920x825/public/harvard-iqss/files/donate-band-bg.jpg?itok=5XlH0N_a 1x, /sites/g/files/omnuum8171/files/styles/hwp_21_9__3840x1650/public/harvard-iqss/files/donate-band-bg.jpg?itok=MDiD1Ed4 2x" type="image/jpeg" width="1920">
-<source height="615" media="all and (min-width: 1024px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_21_9__1440x615/public/harvard-iqss/files/donate-band-bg.jpg?itok=tc5wpoxt 1x, /sites/g/files/omnuum8171/files/styles/hwp_21_9__2880x1230/public/harvard-iqss/files/donate-band-bg.jpg?itok=Y9tV79mD 2x" type="image/jpeg" width="1440">
-<source height="440" media="all and (min-width: 768px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_21_9__1024x440/public/harvard-iqss/files/donate-band-bg.jpg?itok=FMTsOh3O 1x, /sites/g/files/omnuum8171/files/styles/hwp_21_9__2048x880/public/harvard-iqss/files/donate-band-bg.jpg?itok=QCfZbu8_ 2x" type="image/jpeg" width="1024">
-<source height="330" media="all and (min-width: 480px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_21_9__768x330/public/harvard-iqss/files/donate-band-bg.jpg?itok=jbYzEOPX 1x, /sites/g/files/omnuum8171/files/styles/hwp_21_9__1536x660/public/harvard-iqss/files/donate-band-bg.jpg?itok=w1bsvAsA 2x" type="image/jpeg" width="768">
-<source height="320" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_3_2__480x320/public/harvard-iqss/files/donate-band-bg.jpg?itok=61FRlKHs 1x, /sites/g/files/omnuum8171/files/styles/hwp_3_2__960x640/public/harvard-iqss/files/donate-band-bg.jpg?itok=Cm6sQ9Dt 2x" type="image/jpeg" width="480">
+<source height="825" media="all and (min-width: 1440px)" srcset="../../../images/live/harvard-iqss/files/donate-band-bg.jpg" type="image/jpeg" width="1920">
+<source height="615" media="all and (min-width: 1024px)" srcset="../../../images/live/harvard-iqss/files/donate-band-bg.jpg" type="image/jpeg" width="1440">
+<source height="440" media="all and (min-width: 768px)" srcset="../../../images/live/harvard-iqss/files/donate-band-bg.jpg" type="image/jpeg" width="1024">
+<source height="330" media="all and (min-width: 480px)" srcset="../../../images/live/harvard-iqss/files/donate-band-bg.jpg" type="image/jpeg" width="768">
+<source height="320" media="all and (min-width: 0)" srcset="../../../images/live/harvard-iqss/files/donate-band-bg.jpg" type="image/jpeg" width="480">
 <img alt="Two people sitting on a couch in conversation" height="825" loading="eager" src="../../../images/live/harvard-iqss/files/donate-band-bg.jpg" width="1920">
 </img></source></source></source></source></source></picture>
 </div>

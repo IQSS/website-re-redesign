@@ -23,7 +23,7 @@ title: The IQSS Privacy Insights Project
 <div class="hwp-mb-16 hwp-container-px">
 <div class="hwp-text-block field field--name-field-hwp-body field--type-text-long field--label-hidden"><p> </p><div class="align-left hwp-media hwp-media--small">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="360" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/data_privacy_insights_key_image_400x400.png?itok=uPF1qjL5 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/data_privacy_insights_key_image_400x400.png?itok=ktjwy0Pk 2x" type="image/png" width="360"/>
+<source height="360" media="all and (min-width: 0)" srcset="../../images/live/harvard-iqss/files/data_privacy_insights_key_image_400x400.png" type="image/png" width="360"/>
 <img alt="Black padlock graphic unlocked by a gold noisy-textured key" height="360" loading="eager" src="../../images/live/harvard-iqss/files/data_privacy_insights_key_image_400x400.png" width="360"/>
 </picture>
 </div>

@@ -27,7 +27,7 @@ title: 'Roadmap: rapidPeer'
 <div class="hwp-mb-16 hwp-container-px">
 <div class="hwp-text-block field field--name-field-hwp-body field--type-text-long field--label-hidden"><a data-entity-substitution="true" data-entity-type="true" data-entity-uuid="true"><a href="/node/1920541"><div class="align-right hwp-media hwp-media--small">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="138" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/rapidpeer_all_in_one_01.png?itok=wWVrLlGd 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/rapidpeer_all_in_one_01.png?itok=OYP6ilnj 2x" type="image/png" width="360"/>
+<source height="138" media="all and (min-width: 0)" srcset="../../images/live/harvard-iqss/files/rapidpeer_all_in_one_01.jpg" type="image/png" width="360"/>
 <img alt="rapidPeer" height="138" loading="eager" src="../../images/live/harvard-iqss/files/rapidpeer_all_in_one_01.jpg" width="360"/>
 </picture>
 </div>

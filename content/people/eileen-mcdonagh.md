@@ -30,7 +30,7 @@ role: ["Associates"]
 <div class="hwp-person-card__image">
 <div class="field field--name-field-hwp-person-headshot field--type-entity-reference field--label-hidden"><div class="hwp-media hwp-media--4-5-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="600" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_4_5__480x600/public/harvard-iqss/files/eileen_mcdonagh.jpg?itok=RC_Weeeq 1x, /sites/g/files/omnuum8171/files/styles/hwp_4_5__960x1200/public/harvard-iqss/files/eileen_mcdonagh.jpg?itok=_z17pFbs 2x" type="image/jpeg" width="480"/>
+<source height="600" media="all and (min-width: 0)" srcset="../../images/live/harvard-iqss/files/eileen_mcdonagh.jpg" type="image/jpeg" width="480"/>
 <img alt="Eileen McDonagh" height="600" loading="lazy" src="../../images/live/harvard-iqss/files/eileen_mcdonagh.jpg" width="480"/>
 </picture>
 </div>

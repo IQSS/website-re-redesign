@@ -36,11 +36,11 @@ title: Support Our Work
 <div class="hwp-hero__media hwp-bg-light-base">
 <div class="hwp-media hwp-media--23-5-small-hero">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="415" media="all and (min-width: 1440px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_23_5__1920x415/public/harvard-iqss/files/quantina_conversations_1384x500.jpg?itok=atI8QCV9 1x, /sites/g/files/omnuum8171/files/styles/hwp_23_5__3840x835/public/harvard-iqss/files/quantina_conversations_1384x500.jpg?itok=bRwkW6h5 2x" type="image/jpeg" width="1920"/>
-<source height="315" media="all and (min-width: 1024px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_23_5__1440x315/public/harvard-iqss/files/quantina_conversations_1384x500.jpg?itok=K2jsHWu7 1x, /sites/g/files/omnuum8171/files/styles/hwp_23_5__2880x625/public/harvard-iqss/files/quantina_conversations_1384x500.jpg?itok=AtFYd975 2x" type="image/jpeg" width="1440"/>
-<source height="220" media="all and (min-width: 768px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_23_5__1024x220/public/harvard-iqss/files/quantina_conversations_1384x500.jpg?itok=Cew5MSqh 1x, /sites/g/files/omnuum8171/files/styles/hwp_23_5__2048x445/public/harvard-iqss/files/quantina_conversations_1384x500.jpg?itok=MoAabFJQ 2x" type="image/jpeg" width="1024"/>
-<source height="165" media="all and (min-width: 480px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_23_5__768x165/public/harvard-iqss/files/quantina_conversations_1384x500.jpg?itok=0pK1BVSO 1x, /sites/g/files/omnuum8171/files/styles/hwp_23_5__1536x335/public/harvard-iqss/files/quantina_conversations_1384x500.jpg?itok=WLs90K4c 2x" type="image/jpeg" width="768"/>
-<source height="205" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_21_9__480x205/public/harvard-iqss/files/quantina_conversations_1384x500.jpg?itok=0Ux2qjSS 1x, /sites/g/files/omnuum8171/files/styles/hwp_21_9__960x410/public/harvard-iqss/files/quantina_conversations_1384x500.jpg?itok=s5E3fbYY 2x" type="image/jpeg" width="480"/>
+<source height="415" media="all and (min-width: 1440px)" srcset="../../images/live/harvard-iqss/files/quantina_conversations_1384x500.jpg" type="image/jpeg" width="1920"/>
+<source height="315" media="all and (min-width: 1024px)" srcset="../../images/live/harvard-iqss/files/quantina_conversations_1384x500.jpg" type="image/jpeg" width="1440"/>
+<source height="220" media="all and (min-width: 768px)" srcset="../../images/live/harvard-iqss/files/quantina_conversations_1384x500.jpg" type="image/jpeg" width="1024"/>
+<source height="165" media="all and (min-width: 480px)" srcset="../../images/live/harvard-iqss/files/quantina_conversations_1384x500.jpg" type="image/jpeg" width="768"/>
+<source height="205" media="all and (min-width: 0)" srcset="../../images/live/harvard-iqss/files/quantina_conversations_1384x500.jpg" type="image/jpeg" width="480"/>
 <img alt="quantina conversations" height="825" loading="eager" src="../../images/live/harvard-iqss/files/quantina_conversations_1384x500.jpg" width="1920"/>
 </picture>
 </div>
@@ -62,8 +62,8 @@ title: Support Our Work
 <div class="quote-card__thumb">
 <div class="hwp-media hwp-media--3-4-quote-card">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="447" media="all and (min-width: 768px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_3_4__335x447/public/2025-08/Adam%20Stefkovics%20IMG_0971%20%5B4x6%20super%20hi-res%5D.jpg?itok=MiJSdapo 1x, /sites/g/files/omnuum8171/files/styles/hwp_3_4__670x894/public/2025-08/Adam%20Stefkovics%20IMG_0971%20%5B4x6%20super%20hi-res%5D.jpg?itok=jqpckmkP 2x" type="image/jpeg" width="335"/>
-<source height="640" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_3_4__480x640/public/2025-08/Adam%20Stefkovics%20IMG_0971%20%5B4x6%20super%20hi-res%5D.jpg?itok=nkGaFXb4 1x, /sites/g/files/omnuum8171/files/styles/hwp_3_4__960x1280/public/2025-08/Adam%20Stefkovics%20IMG_0971%20%5B4x6%20super%20hi-res%5D.jpg?itok=AeHYSEas 2x" type="image/jpeg" width="480"/>
+<source height="447" media="all and (min-width: 768px)" srcset="../../images/live/2025-08/Adam%20Stefkovics%20IMG_0971%20%5B4x6%20super%20hi-res%5D.jpg" type="image/jpeg" width="335"/>
+<source height="640" media="all and (min-width: 0)" srcset="../../images/live/2025-08/Adam%20Stefkovics%20IMG_0971%20%5B4x6%20super%20hi-res%5D.jpg" type="image/jpeg" width="480"/>
 <img alt="Adam Stefkovics" height="640" loading="eager" src="../../images/live/2025-08/Adam%20Stefkovics%20IMG_0971%20%5B4x6%20super%20hi-res%5D.jpg" width="480"/>
 </picture>
 </div>
@@ -107,11 +107,11 @@ title: Support Our Work
 <div class="hwp-hero__media hwp-bg-dark-core">
 <div class="hwp-media hwp-media--23-5-small-hero">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="415" media="all and (min-width: 1440px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_23_5__1920x415/public/2025-12/CGIS%20Knafel%20building%20front.jpg?h=e8c6984a&amp;itok=qfqZqRDX 1x, /sites/g/files/omnuum8171/files/styles/hwp_23_5__3840x835/public/2025-12/CGIS%20Knafel%20building%20front.jpg?h=e8c6984a&amp;itok=cy8UlLDZ 2x" type="image/jpeg" width="1920"/>
-<source height="315" media="all and (min-width: 1024px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_23_5__1440x315/public/2025-12/CGIS%20Knafel%20building%20front.jpg?h=e8c6984a&amp;itok=5y5Mf1NE 1x, /sites/g/files/omnuum8171/files/styles/hwp_23_5__2880x625/public/2025-12/CGIS%20Knafel%20building%20front.jpg?h=e8c6984a&amp;itok=JyAqf0Qa 2x" type="image/jpeg" width="1440"/>
-<source height="220" media="all and (min-width: 768px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_23_5__1024x220/public/2025-12/CGIS%20Knafel%20building%20front.jpg?h=e8c6984a&amp;itok=b-KJyrcB 1x, /sites/g/files/omnuum8171/files/styles/hwp_23_5__2048x445/public/2025-12/CGIS%20Knafel%20building%20front.jpg?h=e8c6984a&amp;itok=vo0EroBz 2x" type="image/jpeg" width="1024"/>
-<source height="165" media="all and (min-width: 480px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_23_5__768x165/public/2025-12/CGIS%20Knafel%20building%20front.jpg?h=e8c6984a&amp;itok=gwyo3_cq 1x, /sites/g/files/omnuum8171/files/styles/hwp_23_5__1536x335/public/2025-12/CGIS%20Knafel%20building%20front.jpg?h=e8c6984a&amp;itok=3PyfdxlA 2x" type="image/jpeg" width="768"/>
-<source height="205" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_21_9__480x205/public/2025-12/CGIS%20Knafel%20building%20front.jpg?h=bec70ca7&amp;itok=gMfypMA7 1x, /sites/g/files/omnuum8171/files/styles/hwp_21_9__960x410/public/2025-12/CGIS%20Knafel%20building%20front.jpg?h=bec70ca7&amp;itok=CH0DLh6F 2x" type="image/jpeg" width="480"/>
+<source height="415" media="all and (min-width: 1440px)" srcset="../../images/live/2025-12/CGIS%20Knafel%20building%20front.jpg" type="image/jpeg" width="1920"/>
+<source height="315" media="all and (min-width: 1024px)" srcset="../../images/live/2025-12/CGIS%20Knafel%20building%20front.jpg" type="image/jpeg" width="1440"/>
+<source height="220" media="all and (min-width: 768px)" srcset="../../images/live/2025-12/CGIS%20Knafel%20building%20front.jpg" type="image/jpeg" width="1024"/>
+<source height="165" media="all and (min-width: 480px)" srcset="../../images/live/2025-12/CGIS%20Knafel%20building%20front.jpg" type="image/jpeg" width="768"/>
+<source height="205" media="all and (min-width: 0)" srcset="../../images/live/2025-12/CGIS%20Knafel%20building%20front.jpg" type="image/jpeg" width="480"/>
 <img alt="CGIS Knafel building" height="825" loading="eager" src="../../images/live/2025-12/CGIS%20Knafel%20building%20front.jpg" width="1920"/>
 </picture>
 </div>

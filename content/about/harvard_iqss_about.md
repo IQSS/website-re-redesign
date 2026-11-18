@@ -37,11 +37,11 @@ title: About
 <div class="hwp-hero__media hwp-bg-light-base">
 <div class="hwp-media hwp-media--23-5-small-hero">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="415" media="all and (min-width: 1440px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_23_5__1920x415/public/harvard-iqss/files/about-banner.jpg?itok=5gfXsyi_ 1x, /sites/g/files/omnuum8171/files/styles/hwp_23_5__3840x835/public/harvard-iqss/files/about-banner.jpg?itok=uYxE930J 2x" type="image/jpeg" width="1920"/>
-<source height="315" media="all and (min-width: 1024px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_23_5__1440x315/public/harvard-iqss/files/about-banner.jpg?itok=Ig9m73Cx 1x, /sites/g/files/omnuum8171/files/styles/hwp_23_5__2880x625/public/harvard-iqss/files/about-banner.jpg?itok=vXFDXZWa 2x" type="image/jpeg" width="1440"/>
-<source height="220" media="all and (min-width: 768px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_23_5__1024x220/public/harvard-iqss/files/about-banner.jpg?itok=L69bRhrL 1x, /sites/g/files/omnuum8171/files/styles/hwp_23_5__2048x445/public/harvard-iqss/files/about-banner.jpg?itok=A48U0cNq 2x" type="image/jpeg" width="1024"/>
-<source height="165" media="all and (min-width: 480px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_23_5__768x165/public/harvard-iqss/files/about-banner.jpg?itok=gsaE0k0K 1x, /sites/g/files/omnuum8171/files/styles/hwp_23_5__1536x335/public/harvard-iqss/files/about-banner.jpg?itok=qIhbXkrc 2x" type="image/jpeg" width="768"/>
-<source height="205" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_21_9__480x205/public/harvard-iqss/files/about-banner.jpg?itok=RjpAaLQO 1x, /sites/g/files/omnuum8171/files/styles/hwp_21_9__960x410/public/harvard-iqss/files/about-banner.jpg?itok=mhPAqZnZ 2x" type="image/jpeg" width="480"/>
+<source height="415" media="all and (min-width: 1440px)" srcset="../../images/live/harvard-iqss/files/about-banner.jpg" type="image/jpeg" width="1920"/>
+<source height="315" media="all and (min-width: 1024px)" srcset="../../images/live/harvard-iqss/files/about-banner.jpg" type="image/jpeg" width="1440"/>
+<source height="220" media="all and (min-width: 768px)" srcset="../../images/live/harvard-iqss/files/about-banner.jpg" type="image/jpeg" width="1024"/>
+<source height="165" media="all and (min-width: 480px)" srcset="../../images/live/harvard-iqss/files/about-banner.jpg" type="image/jpeg" width="768"/>
+<source height="205" media="all and (min-width: 0)" srcset="../../images/live/harvard-iqss/files/about-banner.jpg" type="image/jpeg" width="480"/>
 <img alt="cgis building" height="825" loading="eager" src="../../images/live/harvard-iqss/files/about-banner.jpg" width="1920"/>
 </picture>
 </div>
@@ -73,9 +73,9 @@ title: About
 <div class="hwp-image__media hwp-overflow-hidden sm:hwp-h-full">
 <div class="hwp-media hwp-media--1-1-large">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="1315" media="all and (min-width: 768px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__1315x1315/public/harvard-iqss/files/gary.jpg?itok=kcJfYTrn 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__2630x2630/public/harvard-iqss/files/gary.jpg?itok=LPPu3pb9 2x" type="image/jpeg" width="1315"/>
-<source height="770" media="all and (min-width: 480px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__770x770/public/harvard-iqss/files/gary.jpg?itok=OXTcwHSr 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__1540x1540/public/harvard-iqss/files/gary.jpg?itok=MP1F-X2U 2x" type="image/jpeg" width="770"/>
-<source height="480" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__480x480/public/harvard-iqss/files/gary.jpg?itok=7_bDGTr- 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__960x960/public/harvard-iqss/files/gary.jpg?itok=zBIGvcSF 2x" type="image/jpeg" width="480"/>
+<source height="1315" media="all and (min-width: 768px)" srcset="../../images/live/harvard-iqss/files/gary.jpg" type="image/jpeg" width="1315"/>
+<source height="770" media="all and (min-width: 480px)" srcset="../../images/live/harvard-iqss/files/gary.jpg" type="image/jpeg" width="770"/>
+<source height="480" media="all and (min-width: 0)" srcset="../../images/live/harvard-iqss/files/gary.jpg" type="image/jpeg" width="480"/>
 <img alt="gary king in a meeting" height="480" loading="eager" src="../../images/live/harvard-iqss/files/gary.jpg" width="480"/>
 </picture>
 </div>
@@ -126,7 +126,7 @@ title: About
     </h2>
 <div class="hwp-text-block field field--name-field-hwp-body field--type-text-long field--label-hidden"><p> </p><div class="align-center hwp-media hwp-media--large">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="768" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__960x960_scale/public/harvard-iqss/files/2023_overview_columns.jpg?itok=Mf5B_k2_ 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__1920x1920_scale/public/harvard-iqss/files/2023_overview_columns.jpg?itok=jlQzzucr 2x" type="image/jpeg" width="960"/>
+<source height="768" media="all and (min-width: 0)" srcset="../../images/live/harvard-iqss/files/2023_overview_columns.jpg" type="image/jpeg" width="960"/>
 <img alt="Visual breakdown of IQSS services and community" height="768" loading="eager" src="../../images/live/harvard-iqss/files/2023_overview_columns.jpg" width="960"/>
 </picture>
 </div>
@@ -159,9 +159,9 @@ title: About
 <div class="hwp-image__media hwp-overflow-hidden sm:hwp-h-full">
 <div class="hwp-media hwp-media--1-1-large">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="1315" media="all and (min-width: 768px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__1315x1315/public/harvard-iqss/files/iqss-stars-2.jpg?itok=a0RnOP7i 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__2630x2630/public/harvard-iqss/files/iqss-stars-2.jpg?itok=UM2mTqkw 2x" type="image/jpeg" width="1315">
-<source height="770" media="all and (min-width: 480px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__770x770/public/harvard-iqss/files/iqss-stars-2.jpg?itok=JHYdxnox 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__1540x1540/public/harvard-iqss/files/iqss-stars-2.jpg?itok=9-UBjDU_ 2x" type="image/jpeg" width="770"/>
-<source height="480" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__480x480/public/harvard-iqss/files/iqss-stars-2.jpg?itok=syLLix03 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__960x960/public/harvard-iqss/files/iqss-stars-2.jpg?itok=Oxu2Z1Xs 2x" type="image/jpeg" width="480"/>
+<source height="1315" media="all and (min-width: 768px)" srcset="../../images/live/harvard-iqss/files/iqss-stars-2.jpg" type="image/jpeg" width="1315">
+<source height="770" media="all and (min-width: 480px)" srcset="../../images/live/harvard-iqss/files/iqss-stars-2.jpg" type="image/jpeg" width="770"/>
+<source height="480" media="all and (min-width: 0)" srcset="../../images/live/harvard-iqss/files/iqss-stars-2.jpg" type="image/jpeg" width="480"/>
 <img alt="IQSS staircase" height="480" loading="eager" src="../../images/live/harvard-iqss/files/iqss-stars-2.jpg" width="480">
 </img></source></picture>
 </div>
@@ -192,7 +192,7 @@ title: About
 <div class="hwp-button-card__media hwp-button-card__media--image">
 <div class="field field--name-field-hwp-image field--type-entity-reference field--label-hidden"><div class="hwp-media hwp-media--16-9-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="270" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/2025-08/sponsored-research-icon%201.png?itok=UKPqVG0J 1x, /sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2025-08/sponsored-research-icon%201.png?itok=_pip9PBH 2x" type="image/png" width="480"/>
+<source height="270" media="all and (min-width: 0)" srcset="../../images/live/2025-08/sponsored-research-icon%201.png" type="image/png" width="480"/>
 <img alt="sponsored-research" height="270" loading="eager" src="../../images/live/2025-08/sponsored-research-icon%201.png" width="480"/>
 </picture>
 </div>
@@ -208,7 +208,7 @@ title: About
 <div class="hwp-button-card__media hwp-button-card__media--image">
 <div class="field field--name-field-hwp-image field--type-entity-reference field--label-hidden"><div class="hwp-media hwp-media--16-9-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="270" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/2025-08/research-help.png?itok=Sv4aYsQl 1x, /sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2025-08/research-help.png?itok=98JXRSIW 2x" type="image/png" width="480"/>
+<source height="270" media="all and (min-width: 0)" srcset="../../images/live/2025-08/research-help.png" type="image/png" width="480"/>
 <img alt="research-help" height="270" loading="eager" src="../../images/live/2025-08/research-help.png" width="480"/>
 </picture>
 </div>
@@ -224,7 +224,7 @@ title: About
 <div class="hwp-button-card__media hwp-button-card__media--image">
 <div class="field field--name-field-hwp-image field--type-entity-reference field--label-hidden"><div class="hwp-media hwp-media--16-9-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="270" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/2025-08/our-impact.png?itok=TExlvIpn 1x, /sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2025-08/our-impact.png?itok=s2KJ05oX 2x" type="image/png" width="480"/>
+<source height="270" media="all and (min-width: 0)" srcset="../../images/live/2025-08/our-impact.png" type="image/png" width="480"/>
 <img alt="our-impact" height="270" loading="eager" src="../../images/live/2025-08/our-impact.png" width="480"/>
 </picture>
 </div>
@@ -268,9 +268,9 @@ title: About
 <div class="hwp-image__media hwp-overflow-hidden sm:hwp-h-full">
 <div class="hwp-media hwp-media--1-1-large">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="1315" media="all and (min-width: 768px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__1315x1315/public/harvard-iqss/files/become-affiliate.jpg?itok=Egvb-HFA 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__2630x2630/public/harvard-iqss/files/become-affiliate.jpg?itok=L2JkYrjs 2x" type="image/jpeg" width="1315"/>
-<source height="770" media="all and (min-width: 480px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__770x770/public/harvard-iqss/files/become-affiliate.jpg?itok=EUKlhBib 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__1540x1540/public/harvard-iqss/files/become-affiliate.jpg?itok=KuUUkycb 2x" type="image/jpeg" width="770"/>
-<source height="480" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__480x480/public/harvard-iqss/files/become-affiliate.jpg?itok=hIpwhzrx 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__960x960/public/harvard-iqss/files/become-affiliate.jpg?itok=DW3DorGm 2x" type="image/jpeg" width="480"/>
+<source height="1315" media="all and (min-width: 768px)" srcset="../../images/live/harvard-iqss/files/become-affiliate.jpg" type="image/jpeg" width="1315"/>
+<source height="770" media="all and (min-width: 480px)" srcset="../../images/live/harvard-iqss/files/become-affiliate.jpg" type="image/jpeg" width="770"/>
+<source height="480" media="all and (min-width: 0)" srcset="../../images/live/harvard-iqss/files/become-affiliate.jpg" type="image/jpeg" width="480"/>
 <img alt="grad students talking" height="480" loading="eager" src="../../images/live/harvard-iqss/files/become-affiliate.jpg" width="480"/>
 </picture>
 </div>

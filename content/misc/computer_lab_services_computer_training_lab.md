@@ -27,7 +27,7 @@ title: Computer Training Room
 <div class="hwp-mb-16 hwp-container-px">
 <div class="hwp-text-block field field--name-field-hwp-body field--type-text-long field--label-hidden"><div class="hwp-media hwp-media--large">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="720" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__960x960_scale/public/harvard-iqss/files/img_4937.jpeg?itok=M9uNWv6i 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__1920x1920_scale/public/harvard-iqss/files/img_4937.jpeg?itok=qo_6veZT 2x" type="image/jpeg" width="960"/>
+<source height="720" media="all and (min-width: 0)" srcset="../../images/live/harvard-iqss/files/img_4937.jpg" type="image/jpeg" width="960"/>
 <img alt="SB12 Training Room" height="720" loading="eager" src="../../images/live/harvard-iqss/files/img_4937.jpg" width="960"/>
 </picture>
 </div>

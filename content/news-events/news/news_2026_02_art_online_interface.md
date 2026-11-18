@@ -48,7 +48,7 @@ title: The art of the online interface
 <div class="hwp-mx-auto">
 <div class="hwp-text-block field field--name-field-hwp-body field--type-text-long field--label-hidden"><p><em><span>By Colleen Walsh</span></em></p><a href="/node/1438154"><div class="align-right hwp-media hwp-media--small">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="201" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/sid_logo-250x250.png?itok=KP_Kr1xP 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/sid_logo-250x250.png?itok=LlW2Eq3w 2x" type="image/png" width="360"/>
+<source height="201" media="all and (min-width: 0)" srcset="../../../images/live/harvard-iqss/files/sid_logo-250x250.png" type="image/png" width="360"/>
 <img alt="Sid Research Computing" height="201" loading="eager" src="../../../images/live/harvard-iqss/files/sid_logo-250x250.png" width="360"/>
 </picture>
 </div>
@@ -160,7 +160,7 @@ title: The art of the online interface
 <div class="page-card__thumb">
 <div class="field field--name-field-hwp-thumbnail-image field--type-entity-reference field--label-hidden"><div class="hwp-media hwp-media--16-9-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="270" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/2026-04/Jason%20and%20Joseph%20Lamson_burial%20ground%20feature%202026.jpg?h=6b511665&amp;itok=vm-fpRD1 1x, /sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2026-04/Jason%20and%20Joseph%20Lamson_burial%20ground%20feature%202026.jpg?h=6b511665&amp;itok=MFgBF02k 2x" type="image/jpeg" width="480">
+<source height="270" media="all and (min-width: 0)" srcset="../../../images/live/2026-04/Jason%20and%20Joseph%20Lamson_burial%20ground%20feature%202026.jpg" type="image/jpeg" width="480">
 <img alt="Jason Ur kneels next to the headstone of Joseph Lamson" height="270" loading="eager" src="../../../images/live/2026-04/Jason%20and%20Joseph%20Lamson_burial%20ground%20feature%202026.jpg" width="480">
 </img></source></picture>
 </div>
@@ -181,7 +181,7 @@ title: The art of the online interface
 <div class="page-card__thumb">
 <div class="field field--name-field-hwp-thumbnail-image field--type-entity-reference field--label-hidden"><div class="hwp-media hwp-media--16-9-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="270" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/graduation-cap-with-gold-tassle_sq.jpg?itok=UmvNZ9IN 1x, /sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/graduation-cap-with-gold-tassle_sq.jpg?itok=rKI_4YqG 2x" type="image/jpeg" width="480"/>
+<source height="270" media="all and (min-width: 0)" srcset="../../../images/live/graduation-cap-with-gold-tassle_sq.jpg" type="image/jpeg" width="480"/>
 <img alt="Closeup of graduation cap" height="270" loading="eager" src="../../../images/live/graduation-cap-with-gold-tassle_sq.jpg" width="480"/>
 </picture>
 </div>
@@ -202,7 +202,7 @@ title: The art of the online interface
 <div class="page-card__thumb">
 <div class="field field--name-field-hwp-thumbnail-image field--type-entity-reference field--label-hidden"><div class="hwp-media hwp-media--16-9-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="270" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/2026-05/Service%20awardees%202026%20group%201b.jpeg?h=9b1d031d&amp;itok=myPVto9A 1x, /sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2026-05/Service%20awardees%202026%20group%201b.jpeg?h=9b1d031d&amp;itok=MJ5pMGDd 2x" type="image/jpeg" width="480"/>
+<source height="270" media="all and (min-width: 0)" srcset="../../../images/live/2026-05/Service%20awardees%202026%20group%201b.jpg" type="image/jpeg" width="480"/>
 <img alt="Staff honorees holding their service certificates, two seated in front and 5 standing behind them" height="270" loading="eager" src="../../../images/live/2026-05/Service%20awardees%202026%20group%201b.jpg" width="480"/>
 </picture>
 </div>

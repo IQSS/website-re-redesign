@@ -29,7 +29,7 @@ role: ["Affiliated Graduate Students"]
 <div class="hwp-person-card__image">
 <div class="field field--name-field-hwp-person-headshot field--type-entity-reference field--label-hidden"><div class="hwp-media hwp-media--4-5-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="600" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_4_5__480x600/public/2025-10/Audrey-Feldman_2025.png?h=7d82e0b3&amp;itok=EVrW3_2u 1x, /sites/g/files/omnuum8171/files/styles/hwp_4_5__960x1200/public/2025-10/Audrey-Feldman_2025.png?h=7d82e0b3&amp;itok=FSlbG6kr 2x" type="image/png" width="480"/>
+<source height="600" media="all and (min-width: 0)" srcset="../../images/live/2025-10/Audrey-Feldman_2025.png" type="image/png" width="480"/>
 <img alt="Audrey Feldman" height="600" loading="lazy" src="../../images/live/2025-10/Audrey-Feldman_2025.png" width="480"/>
 </picture>
 </div>

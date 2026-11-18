@@ -31,7 +31,7 @@ title: Quick Start Guide for Faculty
 </div>
 <div class="hwp-media hwp-media--medium">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="306" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/picture2.png?itok=v502LNiu 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__1440x1440_scale/public/harvard-iqss/files/picture2.png?itok=uhz76B2u 2x" type="image/png" width="391"/>
+<source height="306" media="all and (min-width: 0)" srcset="../../images/live/harvard-iqss/files/picture2.png" type="image/png" width="391"/>
 <img alt="zoom audio controls" height="306" loading="eager" src="../../images/live/harvard-iqss/files/picture2.png" width="391"/>
 </picture>
 </div>

@@ -93,7 +93,7 @@ title: News
 <div class="page-card__thumb">
 <div class="field field--name-field-hwp-thumbnail-image field--type-entity-reference field--label-hidden"><div class="hwp-media hwp-media--16-9-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="270" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/2026-04/Jason%20and%20Joseph%20Lamson_burial%20ground%20feature%202026.jpg?h=6b511665&amp;itok=vm-fpRD1 1x, /sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2026-04/Jason%20and%20Joseph%20Lamson_burial%20ground%20feature%202026.jpg?h=6b511665&amp;itok=MFgBF02k 2x" type="image/jpeg" width="480"/>
+<source height="270" media="all and (min-width: 0)" srcset="../../../images/live/2026-04/Jason%20and%20Joseph%20Lamson_burial%20ground%20feature%202026.jpg" type="image/jpeg" width="480"/>
 <img alt="Jason Ur kneels next to the headstone of Joseph Lamson" height="270" loading="eager" src="../../../images/live/2026-04/Jason%20and%20Joseph%20Lamson_burial%20ground%20feature%202026.jpg" width="480"/>
 </picture>
 </div>
@@ -118,7 +118,7 @@ title: News
 <div class="page-card__thumb">
 <div class="field field--name-field-hwp-thumbnail-image field--type-entity-reference field--label-hidden"><div class="hwp-media hwp-media--16-9-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="270" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/graduation-cap-with-gold-tassle_sq.jpg?itok=UmvNZ9IN 1x, /sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/graduation-cap-with-gold-tassle_sq.jpg?itok=rKI_4YqG 2x" type="image/jpeg" width="480"/>
+<source height="270" media="all and (min-width: 0)" srcset="../../../images/live/graduation-cap-with-gold-tassle_sq.jpg" type="image/jpeg" width="480"/>
 <img alt="Closeup of graduation cap" height="270" loading="eager" src="../../../images/live/graduation-cap-with-gold-tassle_sq.jpg" width="480"/>
 </picture>
 </div>
@@ -143,7 +143,7 @@ title: News
 <div class="page-card__thumb">
 <div class="field field--name-field-hwp-thumbnail-image field--type-entity-reference field--label-hidden"><div class="hwp-media hwp-media--16-9-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="270" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/2026-05/Service%20awardees%202026%20group%201b.jpeg?h=9b1d031d&amp;itok=myPVto9A 1x, /sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2026-05/Service%20awardees%202026%20group%201b.jpeg?h=9b1d031d&amp;itok=MJ5pMGDd 2x" type="image/jpeg" width="480"/>
+<source height="270" media="all and (min-width: 0)" srcset="../../../images/live/2026-05/Service%20awardees%202026%20group%201b.jpg" type="image/jpeg" width="480"/>
 <img alt="Staff honorees holding their service certificates, two seated in front and 5 standing behind them" height="270" loading="eager" src="../../../images/live/2026-05/Service%20awardees%202026%20group%201b.jpg" width="480"/>
 </picture>
 </div>
@@ -168,7 +168,7 @@ title: News
 <div class="page-card__thumb">
 <div class="field field--name-field-hwp-thumbnail-image field--type-entity-reference field--label-hidden"><div class="hwp-media hwp-media--16-9-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="270" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/harvard-iqss/files/ansolabehere_stephen_2x3_ratio_large.png?itok=7alqRFRR 1x, /sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/ansolabehere_stephen_2x3_ratio_large.png?itok=Qt-J0CUW 2x" type="image/png" width="480"/>
+<source height="270" media="all and (min-width: 0)" srcset="../../../images/live/harvard-iqss/files/ansolabehere_stephen_2x3_ratio_large.png" type="image/png" width="480"/>
 <img alt="ansolabehere_stephen_2x3_ratio_large.png" height="270" loading="eager" src="../../../images/live/harvard-iqss/files/ansolabehere_stephen_2x3_ratio_large.png" width="480"/>
 </picture>
 </div>
@@ -193,7 +193,7 @@ title: News
 <div class="page-card__thumb">
 <div class="field field--name-field-hwp-thumbnail-image field--type-entity-reference field--label-hidden"><div class="hwp-media hwp-media--16-9-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="270" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/2025-12/CGA_logo_2025%202x3.png?itok=dnfI1tBg 1x, /sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2025-12/CGA_logo_2025%202x3.png?itok=9CQnTsT7 2x" type="image/png" width="480"/>
+<source height="270" media="all and (min-width: 0)" srcset="../../../images/live/2025-12/CGA_logo_2025%202x3.png" type="image/png" width="480"/>
 <img alt="Center for Geographic Analysis logo" height="270" loading="eager" src="../../../images/live/2025-12/CGA_logo_2025%202x3.png" width="480"/>
 </picture>
 </div>
@@ -218,7 +218,7 @@ title: News
 <div class="page-card__thumb">
 <div class="field field--name-field-hwp-thumbnail-image field--type-entity-reference field--label-hidden"><div class="hwp-media hwp-media--16-9-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="270" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/2026-04/Global%20Flourishing%20Study%20landscape_0.jpg?itok=cd5E4IiU 1x, /sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2026-04/Global%20Flourishing%20Study%20landscape_0.jpg?itok=56dI7Ixp 2x" type="image/jpeg" width="480"/>
+<source height="270" media="all and (min-width: 0)" srcset="../../../images/live/2026-04/Global%20Flourishing%20Study%20landscape_0.jpg" type="image/jpeg" width="480"/>
 <img alt="Global Flourishing Study logo" height="270" loading="eager" src="../../../images/live/2026-04/Global%20Flourishing%20Study%20landscape_0.jpg" width="480"/>
 </picture>
 </div>
@@ -243,7 +243,7 @@ title: News
 <div class="page-card__thumb">
 <div class="field field--name-field-hwp-thumbnail-image field--type-entity-reference field--label-hidden"><div class="hwp-media hwp-media--16-9-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="270" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/2026-04/Gazette_040126_Richard_Cowden.jpg?h=ad721a25&amp;itok=EQKhHrHp 1x, /sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2026-04/Gazette_040126_Richard_Cowden.jpg?h=ad721a25&amp;itok=64e0YW9c 2x" type="image/jpeg" width="480"/>
+<source height="270" media="all and (min-width: 0)" srcset="../../../images/live/2026-04/Gazette_040126_Richard_Cowden.jpg" type="image/jpeg" width="480"/>
 <img alt="Richard Cowden stands outside under the Human Flourishing Program sign" height="270" loading="eager" src="../../../images/live/2026-04/Gazette_040126_Richard_Cowden.jpg" width="480"/>
 </picture>
 </div>
@@ -268,7 +268,7 @@ title: News
 <div class="page-card__thumb">
 <div class="field field--name-field-hwp-thumbnail-image field--type-entity-reference field--label-hidden"><div class="hwp-media hwp-media--16-9-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="270" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/harvard-iqss/files/dataverse_logo_600x400.jpg?itok=hGUsq8hM 1x, /sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/dataverse_logo_600x400.jpg?itok=mgJwx_F8 2x" type="image/jpeg" width="480"/>
+<source height="270" media="all and (min-width: 0)" srcset="../../../images/live/harvard-iqss/files/dataverse_logo_600x400.jpg" type="image/jpeg" width="480"/>
 <img alt="The Dataverse Project with 3-circle logo" height="270" loading="eager" src="../../../images/live/harvard-iqss/files/dataverse_logo_600x400.jpg" width="480"/>
 </picture>
 </div>
@@ -293,7 +293,7 @@ title: News
 <div class="page-card__thumb">
 <div class="field field--name-field-hwp-thumbnail-image field--type-entity-reference field--label-hidden"><div class="hwp-media hwp-media--16-9-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="270" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/2025-10/Bob-Treacy_2025.jpg?itok=o4L2fXn0 1x, /sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2025-10/Bob-Treacy_2025.jpg?itok=ouv3qgmC 2x" type="image/jpeg" width="480"/>
+<source height="270" media="all and (min-width: 0)" srcset="../../../images/live/2025-10/Bob-Treacy_2025.jpg" type="image/jpeg" width="480"/>
 <img alt="Robert Treacy" height="270" loading="eager" src="../../../images/live/2025-10/Bob-Treacy_2025.jpg" width="480"/>
 </picture>
 </div>
@@ -318,7 +318,7 @@ title: News
 <div class="page-card__thumb">
 <div class="field field--name-field-hwp-thumbnail-image field--type-entity-reference field--label-hidden"><div class="hwp-media hwp-media--16-9-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="270" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/2025-12/CGA_logo_2025%202x3.png?itok=dnfI1tBg 1x, /sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2025-12/CGA_logo_2025%202x3.png?itok=9CQnTsT7 2x" type="image/png" width="480"/>
+<source height="270" media="all and (min-width: 0)" srcset="../../../images/live/2025-12/CGA_logo_2025%202x3.png" type="image/png" width="480"/>
 <img alt="Center for Geographic Analysis logo" height="270" loading="eager" src="../../../images/live/2025-12/CGA_logo_2025%202x3.png" width="480"/>
 </picture>
 </div>
@@ -343,7 +343,7 @@ title: News
 <div class="page-card__thumb">
 <div class="field field--name-field-hwp-thumbnail-image field--type-entity-reference field--label-hidden"><div class="hwp-media hwp-media--16-9-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="270" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/2026-02/gazette_Tyler_Vanderweele_Isolation_NS_415.jpeg?h=290a6d99&amp;itok=bJ75OuwI 1x, /sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2026-02/gazette_Tyler_Vanderweele_Isolation_NS_415.jpeg?h=290a6d99&amp;itok=YBg2t53R 2x" type="image/jpeg" width="480"/>
+<source height="270" media="all and (min-width: 0)" srcset="../../../images/live/2026-02/gazette_Tyler_Vanderweele_Isolation_NS_415.jpg" type="image/jpeg" width="480"/>
 <img alt="Tyler VanderWeele" height="270" loading="eager" src="../../../images/live/2026-02/gazette_Tyler_Vanderweele_Isolation_NS_415.jpg" width="480"/>
 </picture>
 </div>
@@ -368,7 +368,7 @@ title: News
 <div class="page-card__thumb">
 <div class="field field--name-field-hwp-thumbnail-image field--type-entity-reference field--label-hidden"><div class="hwp-media hwp-media--16-9-small-no-caption">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="270" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/2026-02/Harvard%20Thinking%20Podcast_banner.jpg?itok=POywJqRB 1x, /sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/2026-02/Harvard%20Thinking%20Podcast_banner.jpg?itok=ndmkWfQW 2x" type="image/jpeg" width="480"/>
+<source height="270" media="all and (min-width: 0)" srcset="../../../images/live/2026-02/Harvard%20Thinking%20Podcast_banner.jpg" type="image/jpeg" width="480"/>
 <img alt="Harvard Thinking podcast banner" height="270" loading="eager" src="../../../images/live/2026-02/Harvard%20Thinking%20Podcast_banner.jpg" width="480"/>
 </picture>
 </div>

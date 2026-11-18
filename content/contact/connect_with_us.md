@@ -36,11 +36,11 @@ title: Connect with Us
 <div class="hwp-hero__media hwp-bg-light-base">
 <div class="hwp-media hwp-media--28-10-medium-hero">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="685" media="all and (min-width: 1440px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_28_10__1920x685/public/harvard-iqss/files/discussion-3.jpg?itok=ouSH-aZu 1x, /sites/g/files/omnuum8171/files/styles/hwp_28_10__3840x1370/public/harvard-iqss/files/discussion-3.jpg?itok=SD5FF8Ck 2x" type="image/jpeg" width="1920"/>
-<source height="510" media="all and (min-width: 1024px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_28_10__1440x510/public/harvard-iqss/files/discussion-3.jpg?itok=P92KR22c 1x, /sites/g/files/omnuum8171/files/styles/hwp_28_10__2880x1030/public/harvard-iqss/files/discussion-3.jpg?itok=60zQ7NZd 2x" type="image/jpeg" width="1440"/>
-<source height="365" media="all and (min-width: 768px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_28_10__1024x365/public/harvard-iqss/files/discussion-3.jpg?itok=1rTElyVP 1x, /sites/g/files/omnuum8171/files/styles/hwp_28_10__2048x730/public/harvard-iqss/files/discussion-3.jpg?itok=PgrzCEOn 2x" type="image/jpeg" width="1024"/>
-<source height="275" media="all and (min-width: 480px)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_28_10__768x275/public/harvard-iqss/files/discussion-3.jpg?itok=ZVgICVlh 1x, /sites/g/files/omnuum8171/files/styles/hwp_28_10__1536x550/public/harvard-iqss/files/discussion-3.jpg?itok=ey8c7V7T 2x" type="image/jpeg" width="768"/>
-<source height="270" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_16_9__480x270/public/harvard-iqss/files/discussion-3.jpg?itok=wsQE991f 1x, /sites/g/files/omnuum8171/files/styles/hwp_16_9__960x540/public/harvard-iqss/files/discussion-3.jpg?itok=YQneWABL 2x" type="image/jpeg" width="480"/>
+<source height="685" media="all and (min-width: 1440px)" srcset="../../images/live/harvard-iqss/files/discussion-3.jpg" type="image/jpeg" width="1920"/>
+<source height="510" media="all and (min-width: 1024px)" srcset="../../images/live/harvard-iqss/files/discussion-3.jpg" type="image/jpeg" width="1440"/>
+<source height="365" media="all and (min-width: 768px)" srcset="../../images/live/harvard-iqss/files/discussion-3.jpg" type="image/jpeg" width="1024"/>
+<source height="275" media="all and (min-width: 480px)" srcset="../../images/live/harvard-iqss/files/discussion-3.jpg" type="image/jpeg" width="768"/>
+<source height="270" media="all and (min-width: 0)" srcset="../../images/live/harvard-iqss/files/discussion-3.jpg" type="image/jpeg" width="480"/>
 <img alt="faculty discussion" height="685" loading="eager" src="../../images/live/harvard-iqss/files/discussion-3.jpg" width="1920"/>
 </picture>
 </div>
@@ -79,7 +79,7 @@ title: Connect with Us
 <div class="hwp-column">
 <div class="hwp-text-block field field--name-field-hwp-body field--type-text-long field--label-hidden"><div class="align-left hwp-media hwp-media--small">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="360" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/2026-02/social-media-philip-oroni_2x3_unsplash.jpg?itok=dnZAvc5D 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/2026-02/social-media-philip-oroni_2x3_unsplash.jpg?itok=KwqTXgkX 2x" type="image/jpeg" width="239"/>
+<source height="360" media="all and (min-width: 0)" srcset="../../images/live/2026-02/social-media-philip-oroni_2x3_unsplash.jpg" type="image/jpeg" width="239"/>
 <img alt="cell phone under social react and chat icons" height="360" loading="eager" src="../../images/live/2026-02/social-media-philip-oroni_2x3_unsplash.jpg" width="239"/>
 </picture>
 </div>

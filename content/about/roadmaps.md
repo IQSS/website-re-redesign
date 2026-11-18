@@ -48,7 +48,7 @@ title: Roadmaps
 <div class="page-card__thumb">
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="360" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/dataverse_project_logo_square.png?itok=yMzqgIpK 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/dataverse_project_logo_square.png?itok=f_hw1X2x 2x" type="image/png" width="360"/>
+<source height="360" media="all and (min-width: 0)" srcset="../../images/live/dataverse_project_logo_square.png" type="image/png" width="360"/>
 <img alt="Dataverse Project logo" height="360" loading="eager" src="../../images/live/dataverse_project_logo_square.png" width="360"/>
 </picture>
 </div>
@@ -65,7 +65,7 @@ title: Roadmaps
 <div class="page-card__thumb">
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="201" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/sid_logo-250x250.png?itok=KP_Kr1xP 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/sid_logo-250x250.png?itok=LlW2Eq3w 2x" type="image/png" width="360"/>
+<source height="201" media="all and (min-width: 0)" srcset="../../images/live/harvard-iqss/files/sid_logo-250x250.png" type="image/png" width="360"/>
 <img alt="Sid Research Computing" height="201" loading="eager" src="../../images/live/harvard-iqss/files/sid_logo-250x250.png" width="360"/>
 </picture>
 </div>
@@ -82,7 +82,7 @@ title: Roadmaps
 <div class="page-card__thumb">
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="138" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/rapidpeer_all_in_one.png?itok=MgVlASOM 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/rapidpeer_all_in_one.png?itok=zMZEoi5b 2x" type="image/png" width="360"/>
+<source height="138" media="all and (min-width: 0)" srcset="../../images/live/harvard-iqss/files/rapidpeer_all_in_one.jpg" type="image/png" width="360"/>
 <img alt="rapidPeer logo" height="138" loading="eager" src="../../images/live/harvard-iqss/files/rapidpeer_all_in_one.jpg" width="360"/>
 </picture>
 </div>
@@ -99,7 +99,7 @@ title: Roadmaps
 <div class="page-card__thumb">
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="128" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/dss_logo.png?itok=28kTZaW5 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/dss_logo.png?itok=vHi_OqIw 2x" type="image/png" width="194"/>
+<source height="128" media="all and (min-width: 0)" srcset="../../images/live/dss_logo.jpg" type="image/png" width="194"/>
 <img alt="DSS Logo" height="128" loading="eager" src="../../images/live/dss_logo.jpg" width="194"/>
 </picture>
 </div>

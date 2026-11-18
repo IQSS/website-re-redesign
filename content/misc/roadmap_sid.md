@@ -27,7 +27,7 @@ title: 'Roadmap: Sid & IQSS Research Computing'
 <div class="hwp-mb-16 hwp-container-px">
 <div class="hwp-text-block field field--name-field-hwp-body field--type-text-long field--label-hidden"><div class="align-right hwp-media hwp-media--small">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="201" media="all and (min-width: 0)" srcset="/sites/g/files/omnuum8171/files/styles/hwp_1_1__360x360_scale/public/harvard-iqss/files/sid_logo.png?itok=ttGfFj2j 1x, /sites/g/files/omnuum8171/files/styles/hwp_1_1__720x720_scale/public/harvard-iqss/files/sid_logo.png?itok=o-4dREwN 2x" type="image/png" width="360"/>
+<source height="201" media="all and (min-width: 0)" srcset="../../images/live/harvard-iqss/files/sid_logo.png" type="image/png" width="360"/>
 <img alt="Sid Research Computing" height="201" loading="eager" src="../../images/live/harvard-iqss/files/sid_logo.png" width="360"/>
 </picture>
 </div>

@@ -232,4 +232,4 @@ Our philosophy: the more information we share, the better the social science res
 
 A contribution from you can provide IQSS with great opportunities to expand our research, programs, and community.
 
-<a href="https://community.alumni.harvard.edu/give/51724705" class="cta-button" target="_blank" rel="noopener noreferrer">Donate to IQSS<span class="sr-only"> (opens in new tab)</span></a>
+<a href="../misc/support_us/" class="cta-button">Learn how <span aria-hidden="true">→</span></a>

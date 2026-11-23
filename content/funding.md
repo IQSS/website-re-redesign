@@ -54,7 +54,7 @@ IQSS supports affiliated faculty, graduate students, and undergraduates through 
 
 A contribution from you can provide IQSS with great opportunities to expand our research, programs, and community.
 
-<a href="https://community.alumni.harvard.edu/give/51724705" class="cta-button" target="_blank">Donate to IQSS</a>
+<a href="../misc/support_us/" class="cta-button">Learn how <span aria-hidden="true">→</span></a>
 
 <div class="contact-info">
 <p><strong>Funding inquiries:</strong> <a href="mailto:funding@iq.harvard.edu">funding@iq.harvard.edu</a></p>

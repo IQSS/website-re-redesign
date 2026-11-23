@@ -10,6 +10,13 @@ photo: "images/live/2025-12/merce_crosas_0_01.jpg"
 role: ["Associates"]
 section: people
 source_url: https://iq.harvard.edu/people/merc%C3%A8-crosas
+links:
+  - { label: "Barcelona Supercomputing Center", url: "https://www.bsc.es/crosas-merce" }
+  - { label: "CODATA", url: "https://codata.org/about-codata/message-from-president-merce-crosas/" }
+social:
+  - { platform: "x", url: "https://twitter.com/mercecrosas" }
+  - { platform: "linkedin", url: "https://www.linkedin.com/in/merce-crosas-9a22776/" }
+  - { platform: "google-scholar", url: "https://scholar.google.com/citations?user=RkDPFBAAAAAJ" }
 ---
 
 <img src="../../images/live/2025-12/merce_crosas_0_01.jpg" alt="Mercè Crosas" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
@@ -22,15 +29,7 @@ source_url: https://iq.harvard.edu/people/merc%C3%A8-crosas
 
 **President, ICSU Committee on Data for Science and Technology (CODATA)**
 
-[Google Scholar](https://scholar.google.com/citations?user=RkDPFBAAAAAJ)
-
-[Barcelona Supercomputing Center](https://www.bsc.es/crosas-merce)
-
-[CODATA](https://codata.org/about-codata/message-from-president-merce-crosas/)
-
-[Twitter](https://twitter.com/mercecrosas)
-
-[Linkedin](https://www.linkedin.com/in/merce-crosas-9a22776/)
+{{< profile-links >}}
 
 Mercè Crosas is the Director of Computational Social Science and Humanities (CSSH) Lab at Barcelona Supercomputing Center (BSC). The CSSH Lab advances social sciences and humanities research by utilizing new types of data and specialized AI model systems. Crosas research aims to provide innovative data infrastructures, tools, and best practices to advance science with transparency and rigor, and with open science in mind. Her recent interests focus on defining and building AI Readiness for science, implementing FAIR (Findable, Accessible, Interoperable, Reusable) for datasets, workflows, and AI models towards transparent and reproducible research, and applying privacy-preserving approaches for responsible use of sensitive data. Crosas is also the President of CODATA, the Committee on Data for the International Science Council, and an affiliate researcher of IQSS.
 

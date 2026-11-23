@@ -1,43 +1,25 @@
 ---
 title: "Travel Grants"
 date: 2026-05-28
+lastmod: 2026-11-23
 draft: false
 layout: "resource-page"
 hero_image: ""
-subtitle: "Funding for conference travel presentations"
+source_url: https://www.iq.harvard.edu/travel-grants
 ---
 
-Travel grants support IQSS graduate student affiliates who are enrolled in a doctoral program, intended to fund travel for presenting at professional conferences related to their research.
+<img class="align-right media-small" src="../images/live/harvard-iqss/files/travel-grants.jpg" alt="people talking poster session event" />
 
-**Note: IQSS travel grants are currently closed to applications.**
+<p>Travel grants are available to IQSS graduate student affiliates currently enrolled in a doctoral program and are meant to support travel to facilitate presentation at a professional conference relevant to their research.</p>
 
-## Key Details
+<h2>IQSS travel grants are currently closed to applications.</h2>
 
-| | |
-|---|---|
-| **Eligibility** | IQSS graduate student affiliate, currently enrolled in a doctoral program |
-| **Amount** | $1,000 maximum |
-| **Deadline** | Rolling (currently closed) |
-| **Frequency** | One application per fiscal year (July 1 – June 30) |
+<ul><li>Eligibility - IQSS graduate student affiliate currently enrolled in a doctoral program</li><li>Amount - $1000 maximum awarded, only one application per fiscal year (July 1 – June 30). Grant designed to supplement costs not paid for by your home department. May be used in combination with other travel grant funds</li><li>Process - Submit travel proposal, including destination, budget with costs itemized, dates of travel, and purpose to <a href="mailto:funding@iq.harvard.edu">funding@iq.harvard.edu</a>. Proposals will be reviewed at the end of each month. Award notifications will be made at the beginning of each month, following submission.</li><li>IQSS prefers not to grant Travel Grants retroactively. Please submit your application as far in advance of the conference as you can.</li><li>Award Restrictions - Funds are not available for job market events.</li></ul>
 
-## About
+<hr />
 
-- Designed to supplement costs not covered by the applicant's home department
-- May be combined with other travel grant funds
-- Funds are **not** available for job market events
-- IQSS prefers not to grant Travel Grants retroactively — please submit your application as far in advance of the conference as you can
+<p>Attachments</p>
 
-## How to Apply
+<ul><li><a href="../documents/travel_grant_funding_application.doc">Travel_Grant_Funding_Application.doc</a></li></ul>
 
-Submit a travel proposal to [funding@iq.harvard.edu](mailto:funding@iq.harvard.edu) that includes:
-
-- Destination
-- Budget with itemized costs
-- Dates of travel
-- Purpose of travel
-
-**Review timeline:** Proposals are reviewed at month's end; award notifications are made at the beginning of the following month.
-
-<div class="contact-info">
-<p><strong>Funding inquiries:</strong> <a href="mailto:funding@iq.harvard.edu">funding@iq.harvard.edu</a></p>
-</div>
+<hr />

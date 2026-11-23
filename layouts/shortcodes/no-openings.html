@@ -1,0 +1,18 @@
+{{- /*
+  The note a job category shows when it has no open positions: a flat
+  light-gray box shaped like the featured-listing card (opp-feature), so the
+  page keeps the same rhythm whether a category is full or empty.
+
+      {{< no-openings >}}Check back later for future academic opportunities.{{< /no-openings >}}
+
+  Toggle it off, without deleting the wording, when the category has a
+  listing again:
+
+      {{< no-openings hide="true" >}}Check back later for future staff opportunities.{{< /no-openings >}}
+
+  Hidden boxes render nothing at all. The text is Markdown, and is set in
+  italics as live sets it. Styles live in _default/opportunities.html.
+*/ -}}
+{{- if ne (.Get "hide") "true" -}}
+<div class="opp-empty"><em>{{ .Inner | strings.TrimSpace | markdownify }}</em></div>
+{{- end -}}

@@ -471,6 +471,59 @@
     color: var(--font-light-text);
 }
 
+/* Cards led by a photo (Funding): live crops these 16:9 across the card,
+   not the 80px icon size cards default to. */
+.rp-content .card-grid--photos .card {
+    text-align: left;
+    padding: 0 0 22px;
+    overflow: hidden;
+}
+
+.rp-content .card-grid--photos .card img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    margin: 0 0 16px;
+    border-radius: 0;
+}
+
+.rp-content .card-grid--photos .card h3,
+.rp-content .card-grid--photos .card p {
+    padding: 0 22px;
+}
+
+/* Body images floated right beside the opening text, as live's
+   "align-right" media: small 360px, medium 600px. */
+.rp-content img.align-right {
+    float: right;
+    height: auto;
+    margin: 4px 0 16px 28px;
+    border-radius: 6px;
+}
+
+.rp-content img.align-right.media-small { width: 360px; max-width: 45%; }
+.rp-content img.align-right.media-medium { width: 600px; max-width: 65%; }
+
+@media (max-width: 900px) {
+    .rp-content img.align-right.media-medium {
+        float: none;
+        width: 100%;
+        max-width: 100%;
+        margin: 0 0 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .rp-content img.align-right.media-small {
+        float: none;
+        width: 100%;
+        max-width: 100%;
+        margin: 0 0 20px;
+    }
+}
+
 /* A service's own logo at the top of its page (ECEE, DSS), centered as
    on live. */
 .rp-content img.page-logo {

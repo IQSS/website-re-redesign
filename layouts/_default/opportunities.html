@@ -3,14 +3,14 @@
     <!-- Page Header -->
     <div class="opp-header">
         <div class="container">
-            <h1>Opportunities</h1>
+            <h1>{{ .Title }}</h1>
         </div>
     </div>
 
     <!-- Breadcrumb -->
     <div class="opp-breadcrumb">
         <div class="container">
-            <a href="{{ .Site.Home.RelPermalink }}">Home</a> &rsaquo; <a href="{{ "about/" | relURL }}">About</a> &rsaquo; <span>Opportunities</span>
+            <a href="{{ .Site.Home.RelPermalink }}">Home</a> &rsaquo; <a href="{{ "about/" | relURL }}">About</a> &rsaquo; <span>{{ .Title }}</span>
         </div>
     </div>
 
@@ -19,50 +19,9 @@
         <div class="container">
             <div class="opp-layout">
                 <div class="opp-main">
-                    <div class="opp-intro">
-                        <p>Our successes result from the collective effort of a broad community. The institute has many activities and benefits from the contributions of staff, affiliated faculty, students, visiting scholars, post-doctoral fellows, and other academic appointees. Join us; together we will accomplish great things!</p>
-                    </div>
-
-                    <section class="opp-section">
-                        <h2>Staff Positions</h2>
-                        <p>Search for "IQSS" in <a href="https://sjobs.brassring.com/TGnewUI/Search/Home/Home?partnerid=25240&siteid=5341#home" target="_blank">Harvard Careers</a></p>
-                        <div class="opp-listing">
-                            <h3><a href="https://careers.harvard.edu/job/program-manager-christianity-and-the-common-good-ccg-human-flourishing-program-in-cambridge-ma-united-states-jid-1436" target="_blank">Program Manager, Christianity & The Common Good (CCG), Human Flourishing Program</a></h3>
-                        </div>
-                    </section>
-
-                    <section class="opp-section">
-                        <h2>Academic Positions</h2>
-                        <p>Search for "IQSS" in <a href="https://academicpositions.harvard.edu/" target="_blank">ARIeS</a></p>
-                        <div class="opp-listing">
-                            <h3><a href="https://academicpositions.harvard.edu/postings/16304" target="_blank">Pre-Doctoral Research Fellow, Program on Higher Education Research</a></h3>
-                        </div>
-                        <div class="opp-listing">
-                            <h3><a href="https://academicpositions.harvard.edu/postings/16270" target="_blank">Postdoctoral Fellow, Center for Geographic Analysis (CGA)</a></h3>
-                        </div>
-                    </section>
-
-                    <section class="opp-section">
-                        <h2>Student Openings</h2>
-                        <p>For Harvard undergraduates: <a href="{{ "research-resources/undergraduate-research-scholars/" | relURL }}">Undergraduate Research Scholar</a> program with <a href="{{ "research-resources/undergraduate-research-scholars/#current-opportunities" | relURL }}">current URS opportunities</a></p>
-                        <div class="opp-listing">
-                            <h3>Research Assistant - Studying Scientific Conduct and Misconduct</h3>
-                        </div>
-                    </section>
-
-                    <section class="opp-section">
-                        <h2>Additional Affiliation</h2>
-                        <p>Information about visiting scholars and fellows is available on the <a href="{{ "become-an-affiliate/" | relURL }}">affiliation page</a>.</p>
-                    </section>
-
-                    <section class="opp-section">
-                        <h2>Other Participation</h2>
-                        <p>Attending <a href="{{ "events/" | relURL }}">seminars and other events</a> is encouraged.</p>
-                    </section>
-
-                    <section class="opp-section">
-                        <h2>Contact</h2>
-                        <p>Have something else interesting in mind? Reach out at <a href="mailto:help@iq.harvard.edu">help@iq.harvard.edu</a></p>
+                    {{/* The copy lives in content/opportunities/_index.md (live's text, verbatim); it was hard-coded here until 2026-11-18. */}}
+                    <section class="opp-section opp-body">
+                        {{ .Content }}
                     </section>
                 </div>
             </div>
@@ -187,6 +146,26 @@
     font-weight: 500;
     color: var(--orange-brand);
     margin-bottom: 12px;
+}
+
+/* Live's copy, rendered from content/opportunities/_index.md, runs as one
+   flow of paragraphs and headings rather than separate sections. */
+.opp-body h2 {
+    margin-top: 36px;
+}
+
+.opp-body h3 {
+    margin: 24px 0 8px;
+}
+
+.opp-body ul {
+    padding-left: 22px;
+    margin: 0 0 16px;
+    color: #444;
+}
+
+.opp-body p {
+    margin: 0 0 14px;
 }
 
 .opp-section p {

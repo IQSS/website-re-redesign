@@ -41,7 +41,7 @@ title: Roadmaps
 <div class="hwp-page-list__items children-light">
 <article class="page-card page-card--vertical page-card--hwp-vertical-card-item page-card--default page-card-- hwp-bg-light-base" data-component-name="page-card">
 <div class="page-card__text hwp-order-1">
-<a class="page-card__link hwp-order-2" href="../../roadmap-dataverse-project/"> <h3 class="page-card__heading hwp-order-2">The Dataverse Project</h3>
+<a class="page-card__link hwp-order-2" href="../roadmap-dataverse-project/"> <h3 class="page-card__heading hwp-order-2">The Dataverse Project</h3>
 </a>
 </div>
 <div class="page-card__image page-card__image--16-9">
@@ -49,7 +49,7 @@ title: Roadmaps
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="360" media="all and (min-width: 0)" srcset="../../images/live/dataverse_project_logo_square.png" type="image/png" width="360"/>
-<img alt="Dataverse Project logo" height="360" loading="eager" src="../../images/live/dataverse_project_logo_square.png" width="360"/>
+<img alt="Dataverse Project logo" height="360" loading="eager" src="../images/live/dataverse_project_logo_square.png" width="360"/>
 </picture>
 </div>
 </div>
@@ -58,7 +58,7 @@ title: Roadmaps
 </article>
 <article class="page-card page-card--vertical page-card--hwp-vertical-card-item page-card--default page-card-- hwp-bg-light-base" data-component-name="page-card">
 <div class="page-card__text hwp-order-1">
-<a class="page-card__link hwp-order-2" href="../../roadmap-sid/"> <h3 class="page-card__heading hwp-order-2">Sid &amp; IQSS Research Computing</h3>
+<a class="page-card__link hwp-order-2" href="../roadmap-sid/"> <h3 class="page-card__heading hwp-order-2">Sid &amp; IQSS Research Computing</h3>
 </a>
 </div>
 <div class="page-card__image page-card__image--16-9">
@@ -66,7 +66,7 @@ title: Roadmaps
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="201" media="all and (min-width: 0)" srcset="../../images/live/harvard-iqss/files/sid_logo-250x250.png" type="image/png" width="360"/>
-<img alt="Sid Research Computing" height="201" loading="eager" src="../../images/live/harvard-iqss/files/sid_logo-250x250.png" width="360"/>
+<img alt="Sid Research Computing" height="201" loading="eager" src="../images/live/harvard-iqss/files/sid_logo-250x250.png" width="360"/>
 </picture>
 </div>
 </div>
@@ -75,7 +75,7 @@ title: Roadmaps
 </article>
 <article class="page-card page-card--vertical page-card--hwp-vertical-card-item page-card--default page-card-- hwp-bg-light-base" data-component-name="page-card">
 <div class="page-card__text hwp-order-1">
-<a class="page-card__link hwp-order-2" href="../../roadmap-rapid-peer/"> <h3 class="page-card__heading hwp-order-2">rapidPeer</h3>
+<a class="page-card__link hwp-order-2" href="../roadmap-rapid-peer/"> <h3 class="page-card__heading hwp-order-2">rapidPeer</h3>
 </a>
 </div>
 <div class="page-card__image page-card__image--16-9">
@@ -83,7 +83,7 @@ title: Roadmaps
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="138" media="all and (min-width: 0)" srcset="../../images/live/harvard-iqss/files/rapidpeer_all_in_one.jpg" type="image/png" width="360"/>
-<img alt="rapidPeer logo" height="138" loading="eager" src="../../images/live/harvard-iqss/files/rapidpeer_all_in_one.jpg" width="360"/>
+<img alt="rapidPeer logo" height="138" loading="eager" src="../images/live/harvard-iqss/files/rapidpeer_all_in_one.jpg" width="360"/>
 </picture>
 </div>
 </div>
@@ -92,7 +92,7 @@ title: Roadmaps
 </article>
 <article class="page-card page-card--vertical page-card--hwp-vertical-card-item page-card--default page-card-- hwp-bg-light-base" data-component-name="page-card">
 <div class="page-card__text hwp-order-1">
-<a class="page-card__link hwp-order-2" href="../../roadmap-data-science-services-dss/"> <h3 class="page-card__heading hwp-order-2">Data Science Services</h3>
+<a class="page-card__link hwp-order-2" href="../roadmap-data-science-services-dss/"> <h3 class="page-card__heading hwp-order-2">Data Science Services</h3>
 </a>
 </div>
 <div class="page-card__image page-card__image--16-9">
@@ -100,7 +100,7 @@ title: Roadmaps
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
 <source height="128" media="all and (min-width: 0)" srcset="../../images/live/dss_logo.jpg" type="image/png" width="194"/>
-<img alt="dss logo" height="128" loading="eager" src="../../images/live/dss_logo.jpg" width="194"/>
+<img alt="dss logo" height="128" loading="eager" src="../images/live/dss_logo.jpg" width="194"/>
 </picture>
 </div>
 </div>

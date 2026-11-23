@@ -185,6 +185,22 @@ decide; not before then.
 of search results. This must be flipped to `false` when this becomes the
 official site, and not before.
 
+**Credit the Streamline icon set.**
+The website and email icons on profiles come from the Streamline Ultimate free
+set, downloaded under **CC BY 4.0**. That licence allows the use but requires
+visible credit to the creator wherever the work appears, so a line naming
+Streamline (streamlinehq.com) has to go somewhere the public can see it --
+a colophon, the site footer, or a credits page. Liz to decide where.
+
+Two icons are in use today: **Screen** for website links and
+**Mail-Send-Envelope** for email, both drawn by
+`layouts/shortcodes/profile-links.html`. More of the set may be used as the
+profile format settles, which does not change the obligation.
+
+The social media glyphs are a separate matter and are **not** covered by this:
+each is that platform's own brand mark, carried monochrome the way the footer
+carries them.
+
 ## Launch checklist additions
 
 Added 2026-11-16 from the Content Snare website design checklist

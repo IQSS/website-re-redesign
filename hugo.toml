@@ -220,44 +220,56 @@ summaryLength = 40
 [[menu.main]]
   identifier = "people"
   name = "People"
-  url = "/people/"
+  url = "/our-people/"
   weight = 50
 
 [[menu.main]]
   parent = "people"
   name = "Faculty"
-  url = "/people-faculty/"
+  url = "/our-people/"
   weight = 51
+  [menu.main.params]
+    anchor = "faculty"
 
 [[menu.main]]
   parent = "people"
   name = "Staff"
-  url = "/people-staff/"
+  url = "/our-people/"
   weight = 52
+  [menu.main.params]
+    anchor = "staff"
 
 [[menu.main]]
   parent = "people"
   name = "Graduate Students"
-  url = "/people-graduate-students/"
+  url = "/our-people/"
   weight = 53
+  [menu.main.params]
+    anchor = "graduate-students"
 
 [[menu.main]]
   parent = "people"
   name = "Undergraduate Students"
-  url = "/people-undergraduate-students/"
+  url = "/our-people/"
   weight = 54
+  [menu.main.params]
+    anchor = "undergraduate-students"
 
 [[menu.main]]
   parent = "people"
   name = "Visitors & Affiliates"
-  url = "/people-visitors-affiliates/"
+  url = "/our-people/"
   weight = 55
+  [menu.main.params]
+    anchor = "visitors-affiliates"
 
 [[menu.main]]
   parent = "people"
   name = "Alumni"
-  url = "/people-alumni/"
+  url = "/our-people/"
   weight = 56
+  [menu.main.params]
+    anchor = "alumni"
 
 # ── AI for Social Science (leadership priority, no children) ──
 [[menu.main]]

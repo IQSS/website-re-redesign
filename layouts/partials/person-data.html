@@ -1,0 +1,103 @@
+{{- /*
+  What a listing needs to know about one person, read from their profile.
+  Returns a dict; call it cached, keyed by the page:
+
+      {{ $d := partialCached "person-data.html" $p $p.Path }}
+
+  Used by the People Directory (layouts/people/list.html) and the Our People
+  landing page (layouts/_default/our-people.html), so both read profiles the
+  same way. Nothing here is written by hand; every value comes from the
+  profile's front matter or from the live page that was copied into it.
+
+    titles   job title(s): front matter job_title, else subtitle, else the
+             job-title field(s) of the copied live page
+    teaser   the copied live page's body field (a bio, or for most alumni
+             their dates at IQSS), cut to 250 characters as live does.
+             Curated profiles get none: their bodies were rewritten.
+    dates    every "Feb 2018 - May 2020" range in the profile, in order
+    year     the latest year among those ranges
+    email    front matter email, else the email on the copied live page
+    photo    front matter photo, else the profile's headshot (site-relative
+             URL), or "" when there is none
+    sortkey  lower-cased last name, then the rest, for A-Z order. The last
+             word of the name, skipping suffixes such as Jr. or III.
+*/ -}}
+{{- $p := . -}}
+{{- $raw := $p.RawContent -}}
+{{- $scraped := strings.Contains $raw "hwp-person-card" -}}
+
+{{- $titles := slice -}}
+{{- with $p.Params.job_title -}}
+  {{- $titles = $titles | append (string .) -}}
+{{- else -}}
+  {{- with $p.Params.subtitle -}}
+    {{- $titles = $titles | append (string .) -}}
+  {{- else -}}
+    {{- /* The outer match stops at the last title's own </div>, so the inner
+           pattern must not require one. */ -}}
+    {{- range findRESubmatch `(?s)field--name-field-hwp-person-prof-title[^>]*>(.*?)</div>\s*</div>` $raw 1 -}}
+      {{- range findRESubmatch `<div>([^<]*)` (index . 1) -}}
+        {{- $t := index . 1 | htmlUnescape | strings.TrimSpace -}}
+        {{- with $t }}{{ $titles = $titles | append . }}{{ end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $teaser := "" -}}
+{{- if $scraped -}}
+  {{- range findRESubmatch `(?s)field--name-field-hwp-body[^>]*>(.*?)</div>` $raw 1 -}}
+    {{- $teaser = index . 1 | plainify | htmlUnescape | replaceRE `\s+` " " | strings.TrimSpace -}}
+    {{- if gt (len $teaser) 250 }}{{ $teaser = printf "%s..." (substr $teaser 0 250 | strings.TrimRight " ,;:") }}{{ end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $months := "(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)" -}}
+{{- $dates := findRE (printf `%s \d{4} - %s \d{4}` $months $months) $raw -}}
+{{- $year := "" -}}
+{{- range $dates -}}
+  {{- $y := substr . -4 -}}
+  {{- if gt $y $year }}{{ $year = $y }}{{ end -}}
+{{- end -}}
+
+{{- $email := "" -}}
+{{- with $p.Params.email -}}
+  {{- $email = . -}}
+{{- else -}}
+  {{- if $scraped -}}
+    {{- range findRESubmatch `material-icon">email</span>\s*<a[^>]*href="mailto:([^"]+)"` $raw 1 }}{{ $email = index . 1 | strings.TrimSpace }}{{ end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- $photo := "" -}}
+{{- with $p.Params.photo -}}
+  {{- $photo = . -}}
+{{- else -}}
+  {{- if $scraped -}}
+    {{- if not (strings.Contains $raw "hwp-person-card__image--icon") -}}
+      {{- range findRESubmatch `(?s)hwp-person-card__image">.*?<img[^>]*?src="([^"]+)"` $raw 1 }}{{ $photo = index . 1 }}{{ end -}}
+    {{- end -}}
+  {{- else -}}
+    {{- range findRESubmatch `<img[^>]*?src="([^"]+)"` $raw 1 }}{{ $photo = index . 1 }}{{ end -}}
+  {{- end -}}
+{{- end -}}
+{{- if and $photo (not (strings.HasPrefix $photo "http")) -}}
+  {{- $photo = replaceRE `^(\.\./)+` "" $photo | replaceRE `^/+` "" | relURL -}}
+{{- end -}}
+
+{{- $words := slice -}}
+{{- range split (strings.TrimSpace $p.Title) " " }}{{ with . }}{{ $words = $words | append . }}{{ end }}{{ end -}}
+{{- $suffixes := slice "jr" "sr" "ii" "iii" "iv" "phd" "md" "esq" -}}
+{{- range seq 2 -}}
+  {{- if gt (len $words) 1 -}}
+    {{- $lastWord := index $words (sub (len $words) 1) | lower | replaceRE `[.,]` "" -}}
+    {{- if in $suffixes $lastWord }}{{ $words = first (sub (len $words) 1) $words }}{{ end -}}
+  {{- end -}}
+{{- end -}}
+{{- $sortkey := "" -}}
+{{- with $words -}}
+  {{- $last := index . (sub (len .) 1) | replaceRE `,$` "" -}}
+  {{- $sortkey = printf "%s %s" $last (delimit (first (sub (len .) 1) .) " ") | lower | strings.TrimSpace -}}
+{{- end -}}
+
+{{- return (dict "titles" $titles "teaser" $teaser "dates" $dates "year" $year "email" $email "photo" $photo "sortkey" $sortkey) -}}

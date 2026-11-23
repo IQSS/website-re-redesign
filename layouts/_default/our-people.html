@@ -1,0 +1,282 @@
+{{ define "main" }}
+{{- /*
+  Our People: the People landing page, rebuilt from live's /our-people
+  (2026-11-23). The People Directory (/people/) is the functional search;
+  this page introduces the community and leads into it.
+
+  Same sections, order and wording as live: intro, Leadership (Directors,
+  Steering Committee), Find People, Browse People (Faculty, Undergraduate
+  Students, Graduate Students, Visitors & Affiliates, Staff, Alumni). Each
+  Browse tab shows the first 20 people by last name and a "View all" link into
+  the directory with that filter set, as live does. Staff's collapsible groups
+  are live's, except Technical Support, which is not carried over (Liz).
+
+  No names are written here: every listing is generated from the profiles'
+  role and program tags (partials/people-by.html), so it stays current.
+  Directors follow role_weight and Steering Committee steering_weight, the
+  organisation's own order.
+
+  Without JavaScript every tab panel shows in turn under its own heading; the
+  script turns each group into tabs (and handles #faculty-style links).
+*/ -}}
+{{- $dir := "people/" | relURL -}}
+{{- $browse := slice
+    (dict "id" "faculty" "label" "Faculty" "role" "Affiliated Faculty" "more" "View all faculty" "q" "role=affiliated-faculty")
+    (dict "id" "undergraduate-students" "label" "Undergraduate Students" "role" "Affiliated Undergraduate Students" "more" "View all Undergraduate Students" "q" "role=affiliated-undergraduate-students")
+    (dict "id" "graduate-students" "label" "Graduate Students" "role" "Affiliated Graduate Students" "more" "View All Graduate Students" "q" "role=affiliated-graduate-students")
+    (dict "id" "visitors-affiliates" "label" "Visitors & Affiliates" "role" "Visiting Scholars, Fellows, & General Affiliates" "more" "View All Visiting Scholars" "q" "role=visiting-scholars-fellows-general-affiliates")
+-}}
+{{- $staffGroups := slice
+    (dict "label" "All Staff" "role" "Staff" "more" "View All Staff" "q" "role=staff")
+    (dict "label" "Administrative Support" "role" "Administrative Support" "more" "View All Administrative Support Staff" "q" "role=administrative-support")
+    (dict "label" "Dataverse" "program" "Dataverse Project" "more" "View All Dataverse Staff" "q" "program=dataverse-project")
+    (dict "label" "Product Development" "role" "Product Development" "more" "View All Product Development Staff" "q" "role=product-development")
+-}}
+
+<div class="op-page">
+    <div class="op-hero">
+        {{- with .Params.hero_image }}
+        <img class="op-hero__img" src="{{ . | absURL }}" alt="{{ $.Params.hero_image_alt | default "" }}" />
+        {{- end }}
+        <div class="container">
+            <h1>{{ .Title }}</h1>
+        </div>
+    </div>
+
+    <div class="op-content">
+        <div class="container">
+            <div class="op-intro">{{ .Content }}</div>
+
+            <section class="op-section" aria-labelledby="op-leadership">
+                <h2 id="op-leadership">Leadership</h2>
+                <div class="op-tabs">
+                    <div class="op-panel" id="directors" data-label="Directors">
+                        <h3 class="op-panel__title">Directors</h3>
+                        <ul class="op-grid">
+                        {{- range partial "people-by.html" (dict "role" "Leadership" "weight" "role_weight") }}
+                            {{ partial "our-people-card.html" (dict "page" . "alumni" false) }}
+                        {{- end }}
+                        </ul>
+                    </div>
+                    <div class="op-panel" id="steering-committee" data-label="Steering Committee">
+                        <h3 class="op-panel__title">Steering Committee</h3>
+                        <ul class="op-grid">
+                        {{- range partial "people-by.html" (dict "role" "Steering Committee" "weight" "steering_weight") }}
+                            {{ partial "our-people-card.html" (dict "page" . "alumni" false) }}
+                        {{- end }}
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="op-section" aria-labelledby="op-find">
+                <h2 id="op-find">Find People</h2>
+                <ul class="op-links">
+                    <li><a href="{{ $dir }}">Find People by Program or Last Name <span aria-hidden="true">→</span></a></li>
+                    {{/* No organizational chart on this site yet: links to live's. */}}
+                    <li><a href="https://www.iq.harvard.edu/resource/iqss-organizational-chart" target="_blank" rel="noopener noreferrer">IQSS Organizational Chart <span aria-hidden="true">→</span><span class="sr-only"> (opens in new tab)</span></a></li>
+                </ul>
+            </section>
+
+            <section class="op-section" aria-labelledby="op-browse">
+                <h2 id="op-browse">Browse People</h2>
+                <div class="op-tabs">
+                    {{- range $browse }}
+                    <div class="op-panel" id="{{ .id }}" data-label="{{ .label }}">
+                        <h3 class="op-panel__title">{{ .label }}</h3>
+                        <ul class="op-grid">
+                        {{- range first 20 (partial "people-by.html" (dict "role" .role)) }}
+                            {{ partial "our-people-card.html" (dict "page" . "alumni" false) }}
+                        {{- end }}
+                        </ul>
+                        <p class="op-more"><a href="{{ $dir }}?{{ .q | safeURL }}">{{ .more }} <span aria-hidden="true">→</span></a></p>
+                    </div>
+                    {{- end }}
+
+                    <div class="op-panel" id="staff" data-label="Staff">
+                        <h3 class="op-panel__title">Staff</h3>
+                        <div class="op-accordion-controls" hidden>
+                            <button type="button" data-acc="open">Open all sections</button>
+                            <button type="button" data-acc="close">Close all sections</button>
+                        </div>
+                        {{- range $i, $g := $staffGroups }}
+                        <details class="op-accordion"{{ if eq $i 0 }} open{{ end }}>
+                            <summary>{{ $g.label }}</summary>
+                            <ul class="op-grid">
+                            {{- range first 20 (partial "people-by.html" (dict "role" $g.role "program" $g.program)) }}
+                                {{ partial "our-people-card.html" (dict "page" . "alumni" false) }}
+                            {{- end }}
+                            </ul>
+                            <p class="op-more"><a href="{{ $dir }}?{{ $g.q | safeURL }}">{{ $g.more }} <span aria-hidden="true">→</span></a></p>
+                        </details>
+                        {{- end }}
+                    </div>
+
+                    <div class="op-panel" id="alumni" data-label="Alumni">
+                        <h3 class="op-panel__title">Alumni</h3>
+                        <ul class="op-grid op-grid--alumni">
+                        {{- range first 20 (partial "people-by.html" (dict "role" "Alumni")) }}
+                            {{ partial "our-people-card.html" (dict "page" . "alumni" true) }}
+                        {{- end }}
+                        </ul>
+                        <p class="op-more"><a href="{{ $dir }}?role=alumni">View All Alumni <span aria-hidden="true">→</span></a></p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+
+<style>
+.op-page { margin: 0; padding: 0; }
+.op-page [hidden] { display: none !important; }
+
+.op-hero { position: relative; overflow: hidden; background: #333; color: #fff; min-height: 350px; display: flex; align-items: center; padding: 60px 0; }
+.op-hero__img { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; }
+.op-hero::before { content: ""; position: absolute; inset: 0; background: rgba(0, 0, 0, 0.5); z-index: 1; }
+.op-hero .container { position: relative; z-index: 2; width: 100%; }
+.op-hero h1 { font-size: 42px; font-weight: 300; margin: 0; color: #fff; }
+
+.op-content { background: #f8f9fa; padding: 50px 0 60px; }
+.op-intro p { font-size: 18px; line-height: 1.7; color: #333; max-width: 800px; margin: 0 0 10px; }
+
+.op-section { margin: 50px 0 0; }
+.op-section > h2 { font-size: 28px; font-weight: 400; color: var(--orange-brand); margin: 0 0 20px; padding-bottom: 10px; border-bottom: 2px solid #e5e5e5; }
+.op-panel__title { font-size: 20px; font-weight: 600; color: #333; margin: 30px 0 16px; }
+.op-tabs--active .op-panel__title { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+/* Tabs (built by the script) */
+.op-tablist { display: flex; flex-wrap: wrap; gap: 4px; border-bottom: 2px solid #d5dbe2; margin: 0 0 24px; }
+.op-tab {
+    padding: 10px 18px; border: 0; border-bottom: 3px solid transparent; margin-bottom: -2px;
+    background: none; font-size: 16px; font-weight: 600; color: #444; cursor: pointer;
+}
+.op-tab:hover { color: var(--orange-brand); }
+.op-tab[aria-selected="true"] { color: var(--orange-brand); border-bottom-color: var(--orange-brand); }
+.op-tab:focus-visible, .op-accordion summary:focus-visible, .op-accordion-controls button:focus-visible,
+.op-links a:focus-visible, .op-more a:focus-visible, .op-card a:focus-visible { outline: 3px solid var(--orange-brand); outline-offset: 2px; }
+
+/* Cards */
+.op-grid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 18px; }
+.op-card { background: #fff; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.06); overflow: hidden; display: flex; flex-direction: column; }
+.op-card__photo { aspect-ratio: 4 / 5; overflow: hidden; /* without it, a taller photo stretches the frame past 4:5 */ background: #e9ecef; color: #9aa5b1; display: flex; align-items: center; justify-content: center; }
+.op-card__photo-link { display: block; width: 100%; height: 100%; }
+.op-card__photo img { width: 100%; height: 100%; object-fit: cover; object-position: center top; }
+.op-card__photo svg { width: 64px; height: 64px; }
+.op-card__text { padding: 14px 16px 16px; min-width: 0; }
+.op-card__name { font-size: 17px; font-weight: 600; margin: 0 0 6px; line-height: 1.3; }
+.op-card__name a { color: var(--font-dark-link, #1a3a5c); text-decoration: none; }
+.op-card__name a:hover { text-decoration: underline; }
+.op-card__email { font-size: 13px; margin: 0 0 6px; overflow-wrap: anywhere; }
+.op-card__email a { color: var(--orange-brand); }
+.op-card__title, .op-card__dates { font-size: 14px; color: #444; margin: 0 0 3px; line-height: 1.4; }
+.op-card__dates { color: #666; }
+.op-grid--alumni .op-card__text { padding-top: 16px; }
+
+.op-more { margin: 20px 0 0; }
+.op-more a, .op-links a { font-weight: 600; color: var(--orange-brand); text-decoration: none; }
+.op-more a:hover, .op-links a:hover { text-decoration: underline; }
+.op-links { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 14px 40px; font-size: 17px; }
+
+/* Staff groups */
+.op-accordion-controls { display: flex; gap: 16px; margin: 0 0 12px; }
+.op-accordion-controls button { background: none; border: 0; padding: 4px 0; color: var(--orange-brand); font-weight: 600; font-size: 14px; cursor: pointer; text-decoration: underline; }
+.op-accordion { border-top: 1px solid #d5dbe2; padding: 6px 0 16px; }
+.op-accordion:last-of-type { border-bottom: 1px solid #d5dbe2; }
+.op-accordion summary { cursor: pointer; font-size: 18px; font-weight: 600; color: #333; padding: 10px 0; }
+.op-accordion[open] summary { margin-bottom: 10px; }
+
+@media (max-width: 768px) {
+    .op-hero { min-height: 250px; padding: 40px 0; }
+    .op-hero h1 { font-size: 32px; }
+    .op-content { padding: 30px 0 40px; }
+    .op-grid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px; }
+    .op-tab { padding: 8px 12px; font-size: 15px; }
+}
+</style>
+
+<script>
+(function () {
+    // Turn each .op-tabs group into tabs: one tab per panel, labelled by data-label.
+    var groups = document.querySelectorAll('.op-tabs');
+    var all = [];
+    Array.prototype.forEach.call(groups, function (group, gi) {
+        var panels = Array.prototype.slice.call(group.querySelectorAll(':scope > .op-panel'));
+        var list = document.createElement('div');
+        list.className = 'op-tablist';
+        list.setAttribute('role', 'tablist');
+        var tabs = panels.map(function (panel, i) {
+            var tab = document.createElement('button');
+            tab.type = 'button';
+            tab.className = 'op-tab';
+            tab.id = 'tab-' + panel.id;
+            tab.setAttribute('role', 'tab');
+            tab.setAttribute('aria-controls', panel.id);
+            tab.textContent = panel.dataset.label;
+            panel.setAttribute('role', 'tabpanel');
+            panel.setAttribute('aria-labelledby', tab.id);
+            panel.setAttribute('tabindex', '0');
+            list.appendChild(tab);
+            return tab;
+        });
+        group.insertBefore(list, group.firstChild);
+        group.classList.add('op-tabs--active');
+        function select(i, focus) {
+            tabs.forEach(function (t, j) {
+                var on = i === j;
+                t.setAttribute('aria-selected', String(on));
+                t.tabIndex = on ? 0 : -1;
+                panels[j].hidden = !on;
+            });
+            if (focus) tabs[i].focus();
+        }
+        tabs.forEach(function (tab, i) {
+            tab.addEventListener('click', function () {
+                select(i, false);
+                history.replaceState(null, '', '#' + panels[i].id);
+            });
+            tab.addEventListener('keydown', function (e) {
+                var n = tabs.length, k = null;
+                if (e.key === 'ArrowRight') k = (i + 1) % n;
+                else if (e.key === 'ArrowLeft') k = (i - 1 + n) % n;
+                else if (e.key === 'Home') k = 0;
+                else if (e.key === 'End') k = n - 1;
+                if (k === null) return;
+                e.preventDefault();
+                select(k, true);
+            });
+        });
+        select(0, false);
+        all.push({ panels: panels, select: select, group: group });
+    });
+
+    // #faculty, #staff ... open that tab (links from the People menu).
+    function fromHash() {
+        var id = decodeURIComponent(location.hash.slice(1));
+        if (!id) return;
+        all.forEach(function (g) {
+            g.panels.forEach(function (p, i) {
+                if (p.id === id) {
+                    g.select(i, false);
+                    g.group.closest('.op-section').scrollIntoView({ block: 'start' });
+                }
+            });
+        });
+    }
+    fromHash();
+    window.addEventListener('hashchange', fromHash);
+
+    // Staff: "Open all sections" / "Close all sections", as on live.
+    var controls = document.querySelector('.op-accordion-controls');
+    if (controls) {
+        controls.hidden = false;
+        controls.addEventListener('click', function (e) {
+            var b = e.target.closest('button[data-acc]');
+            if (!b) return;
+            var open = b.dataset.acc === 'open';
+            document.querySelectorAll('.op-accordion').forEach(function (d) { d.open = open; });
+        });
+    }
+})();
+</script>
+{{ end }}

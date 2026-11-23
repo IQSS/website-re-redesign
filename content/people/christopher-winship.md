@@ -6,7 +6,6 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "Diker-Tishman Professor of Sociology"
 role: ["Affiliated Faculty", "Steering Committee"]
-steering_weight: 140
 program: ["Center for Geographic Analysis"]
 ---
 

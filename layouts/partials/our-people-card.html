@@ -1,0 +1,38 @@
+{{- /*
+  One person card on the Our People landing page, as on live: photo, name,
+  email, job title(s); for alumni, name, job title and dates, no photo.
+
+      {{ partial "our-people-card.html" (dict "page" $p "alumni" false) }}
+
+  Values come from partials/person-data.html. alt="" on the photo because the
+  name follows it (Liz's rule for listing photos).
+*/ -}}
+{{- $p := .page -}}
+{{- $d := partialCached "person-data.html" $p $p.Path -}}
+<li class="op-card{{ if .alumni }} op-card--alumni{{ end }}">
+    {{- if not .alumni }}
+    <div class="op-card__photo">
+    {{- with $d.photo }}
+        {{- /* The photo links to the profile as well as the name does. It is
+               hidden from assistive technology and skipped by the keyboard,
+               because the name below goes to the same place: two links per
+               card would otherwise be announced and tabbed through twice. */ -}}
+        <a class="op-card__photo-link" href="{{ $p.RelPermalink }}" tabindex="-1" aria-hidden="true"><img src="{{ . }}" alt="" loading="lazy" /></a>
+    {{- else }}
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 12a4.5 4.5 0 1 0 0-9 4.5 4.5 0 0 0 0 9zm0 2.25c-3 0-9 1.5-9 4.5V21h18v-2.25c0-3-6-4.5-9-4.5z" fill="currentColor"/></svg>
+    {{- end }}
+    </div>
+    {{- end }}
+    <div class="op-card__text">
+        <h4 class="op-card__name"><a href="{{ $p.RelPermalink }}">{{ $p.Title }}</a></h4>
+        {{- if not .alumni }}{{ with $d.email }}
+        <p class="op-card__email"><a href="mailto:{{ . }}">{{ . }}</a></p>
+        {{- end }}{{ end }}
+        {{- range $d.titles }}
+        <p class="op-card__title">{{ . }}</p>
+        {{- end }}
+        {{- if .alumni }}{{ range $d.dates }}
+        <p class="op-card__dates">{{ . }}</p>
+        {{- end }}{{ end }}
+    </div>
+</li>

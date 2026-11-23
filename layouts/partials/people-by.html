@@ -1,0 +1,26 @@
+{{- /*
+  Profiles carrying a role or a programme, in order. Returns a slice of pages.
+
+      {{ $ps := partial "people-by.html" (dict "role" "Staff") }}
+      {{ $ps := partial "people-by.html" (dict "program" "Dataverse Project") }}
+      {{ $ps := partial "people-by.html" (dict "role" "Leadership" "weight" "role_weight") }}
+
+  Default order is by last name (person-data's sortkey). With "weight", the
+  front-matter key orders first (people without it come last), then last name:
+  that is how a listing follows the organisation's own order.
+*/ -}}
+{{- $profiles := where site.RegularPages "Section" "people" -}}
+{{- $picked := slice -}}
+{{- with .role }}{{ $picked = where $profiles "Params.role" "intersect" (slice .) }}{{ end -}}
+{{- with .program }}{{ $picked = where $profiles "Params.program" "intersect" (slice .) }}{{ end -}}
+{{- $weightKey := .weight -}}
+{{- $rows := slice -}}
+{{- range $picked -}}
+  {{- $d := partialCached "person-data.html" . .Path -}}
+  {{- $w := 99999 -}}
+  {{- if $weightKey }}{{ with index .Params $weightKey }}{{ $w = int . }}{{ end }}{{ end -}}
+  {{- $rows = $rows | append (dict "page" . "key" (printf "%05d %s" $w $d.sortkey)) -}}
+{{- end -}}
+{{- $out := slice -}}
+{{- range sort $rows "key" }}{{ $out = $out | append .page }}{{ end -}}
+{{- return $out -}}

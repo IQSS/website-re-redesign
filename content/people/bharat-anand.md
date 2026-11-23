@@ -6,7 +6,6 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "Henry R. Byers Professor of Business Administration Senior Associate Dean, HBX"
 role: ["Affiliated Faculty", "Steering Committee"]
-steering_weight: 30
 ---
 
 <img src="../../images/live/harvard-iqss/files/bharat-anand_1.jpg" alt="Bharat Anand" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />

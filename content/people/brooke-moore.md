@@ -4,7 +4,7 @@ draft: false
 section: people
 source_url: https://www.iq.harvard.edu/people/brooke-moore
 title: Brooke Moore
-role: ["Administrative Support", "Leadership", "Staff"]
+role: ["Administrative Support", "Staff"]
 program: ["Undergraduate Research Scholars (URS)"]
 ---
 

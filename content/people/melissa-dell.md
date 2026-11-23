@@ -6,7 +6,6 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "Professor of Economics, Department of Economics"
 role: ["Affiliated Faculty", "Steering Committee"]
-steering_weight: 40
 ---
 <img src="../../images/live/harvard-iqss/files/dell_melissa_2020_1.jpg" alt="Melissa Dell" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 

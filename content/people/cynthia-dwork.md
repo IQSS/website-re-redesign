@@ -6,7 +6,6 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "Gordon McKay Professor of Computer Science"
 role: ["Affiliated Faculty", "Steering Committee"]
-steering_weight: 60
 ---
 <img src="../../images/live/harvard-iqss/files/cynthia-dwork_0_0.jpg" alt="Cynthia Dwork" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 

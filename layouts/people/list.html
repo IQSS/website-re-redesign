@@ -1,67 +1,196 @@
 {{ define "main" }}
+{{- /*
+  People Directory, modelled on live's /people (as captured 2026-02-12; live's
+  own directory returned no results when this was built, 2026-11-23).
+
+  Every profile in content/people/ is rendered here as a card, so the page
+  works without JavaScript as a plain A-Z list. The script at the bottom adds
+  what live has: filters (Program, alumni year, Role), search within results,
+  A-Z / Z-A sort, list or grid view, and 12 per page. Filter state lives in the
+  query string (?role=staff&program=...), which is what the old per-role pages
+  and the People menu now point at.
+
+  Nothing on a card is written here. Each value comes from the person's own
+  profile, read by partials/person-data.html (shared with the Our People
+  landing page). Photos have alt="" because the name sits beside them (Liz's
+  rule for listing photos).
+
+  Labels and interface strings are live's, verbatim. Live's "People By Last
+  Name" filter is left out at Liz's request (2026-11-23).
+*/ -}}
+
+{{- /* Live's Role order. Staff's sub-roles nest beneath it, as on live.
+       Technical Support is not carried over (Liz's decision). */ -}}
+{{- $roleOrder := slice "Leadership" "Affiliated Faculty" "Affiliated Graduate Students" "Affiliated Undergraduate Students" "Associates" "Visiting Scholars, Fellows, & General Affiliates" "Staff" "Alumni" "Steering Committee" -}}
+{{- $staffSubs := slice "Administrative Support" "Product Development" "Computer Labs" -}}
+
+{{- $people := slice -}}
+{{- $rolesPresent := slice -}}
+{{- $programs := slice -}}
+{{- $years := slice -}}
+
+{{- range .Pages -}}
+  {{- $p := . -}}
+  {{- $d := partialCached "person-data.html" $p $p.Path -}}
+
+  {{- /* Roles, in live's order; only terms the filter offers */ -}}
+  {{- $roles := slice -}}
+  {{- range $p.Params.role -}}
+    {{- if or (in $roleOrder .) (in $staffSubs .) -}}
+      {{- $roles = $roles | append . -}}
+      {{- $rolesPresent = $rolesPresent | append . -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- /* Alumni year: alumni only */ -}}
+  {{- $year := "" -}}
+  {{- if in $p.Params.role "Alumni" -}}
+    {{- $year = $d.year -}}
+    {{- with $year }}{{ $years = $years | append . }}{{ end -}}
+  {{- end -}}
+
+  {{- $progs := slice -}}
+  {{- range $p.Params.program -}}
+    {{- with strings.TrimSpace . -}}
+      {{- $progs = $progs | append . -}}
+      {{- $programs = $programs | append . -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- $people = $people | append (dict "page" $p "titles" $d.titles "teaser" $d.teaser "roles" $roles "year" $year "programs" $progs "photo" $d.photo "sortkey" $d.sortkey) -}}
+{{- end -}}
+
+{{- $programs = $programs | uniq | sort -}}
+{{- $years = $years | uniq | sort -}}
+
 <div class="people-page">
-    <div class="people-header">
-        {{/* Banner from live's /our-people page (people-3.jpg, its alt
-             verbatim). Same treatment as the resource-page hero: photo
-             behind, dark overlay for text contrast. */}}
-        <img class="people-header__img" src="{{ "images/live/harvard-iqss/files/people-3.jpg" | absURL }}" alt="people talking at IQSS" />
+    {{/* Live's directory has a plain title band; the banner and intro belong
+         to the Our People landing page (/our-people/). */}}
+    <div class="pd-header">
         <div class="container">
-            <h1>People</h1>
-            <p>The IQSS community includes directors, faculty, staff, students, and affiliates working together to advance quantitative social science.</p>
+            <h1>People Directory</h1>
         </div>
     </div>
 
     <div class="people-content">
-        <div class="container">
+        <div class="container pd">
 
-            <!-- Directors Section -->
-            {{/* Twelve hand-written cards until 2026-11-12, each repeating a
-                 name, title and portrait that the director's own profile
-                 already carried. The listing now comes from whichever
-                 profiles are tagged role: Leadership. */}}
-            {{ partial "person-list.html" (dict "taxonomy" "role" "term" "Leadership" "heading" "Directors") }}
+            <button type="button" class="pd-filters-trigger" aria-expanded="false" aria-controls="pd-filters" hidden>Show filters</button>
 
-            <!-- Browse by Category -->
-            <h2 class="people-section-title">Browse by Category</h2>
-            <div class="people-grid">
-                <a href="{{ "people-faculty/" | relURL }}" class="people-card people-card-link">
-                    <div class="people-card-body">
-                        <div class="people-card-name">Faculty</div>
-                        <div class="people-card-title">Harvard faculty members conducting research across quantitative social science disciplines.</div>
+            <aside class="pd-filters" id="pd-filters" aria-label="Filters" hidden>
+                <h2 class="pd-filters__title">Filters</h2>
+
+                {{- with $programs }}
+                <details class="pd-facet" open>
+                    <summary>Program</summary>
+                    <fieldset>
+                        <legend class="sr-only">Program</legend>
+                        <ul>
+                        {{- range . }}
+                        {{- $v := . | lower | replaceRE `[^a-z0-9]+` "-" | replaceRE `^-+|-+$` "" }}
+                            <li><label><input type="checkbox" name="program" value="{{ $v }}"> {{ . }} <span class="pd-count" data-for="program:{{ $v }}"></span></label></li>
+                        {{- end }}
+                        </ul>
+                    </fieldset>
+                </details>
+                {{- end }}
+
+                {{- with $years }}
+                <details class="pd-facet" open>
+                    <summary>Alumni Only: Most Recent Year with IQSS</summary>
+                    <fieldset>
+                        <legend class="sr-only">Alumni Only: Most Recent Year with IQSS</legend>
+                        <ul>
+                        {{- range . }}
+                            <li><label><input type="checkbox" name="year" value="{{ . }}"> {{ . }} <span class="pd-count" data-for="year:{{ . }}"></span></label></li>
+                        {{- end }}
+                        </ul>
+                    </fieldset>
+                </details>
+                {{- end }}
+
+                <details class="pd-facet" open>
+                    <summary>Role</summary>
+                    <fieldset>
+                        <legend class="sr-only">Role</legend>
+                        <ul>
+                        {{- range $roleOrder }}
+                        {{- if in $rolesPresent . }}
+                        {{- $v := . | lower | replaceRE `[^a-z0-9]+` "-" | replaceRE `^-+|-+$` "" }}
+                            <li><label><input type="checkbox" name="role" value="{{ $v }}"> {{ . }} <span class="pd-count" data-for="role:{{ $v }}"></span></label>
+                            {{- if eq . "Staff" }}
+                                <ul class="pd-facet__sub">
+                                {{- range $staffSubs }}
+                                {{- if in $rolesPresent . }}
+                                {{- $sv := . | lower | replaceRE `[^a-z0-9]+` "-" | replaceRE `^-+|-+$` "" }}
+                                    <li><label><input type="checkbox" name="role" value="{{ $sv }}"> {{ . }} <span class="pd-count" data-for="role:{{ $sv }}"></span></label></li>
+                                {{- end }}
+                                {{- end }}
+                                </ul>
+                            {{- end }}
+                            </li>
+                        {{- end }}
+                        {{- end }}
+                        </ul>
+                    </fieldset>
+                </details>
+            </aside>
+
+            <div class="pd-main">
+                <form class="pd-search" role="search" hidden>
+                    <label for="pd-q" class="sr-only">Search Within Results</label>
+                    <input type="search" id="pd-q" name="q" autocomplete="off">
+                    <button type="submit">Search Within Results</button>
+                </form>
+
+                <div class="pd-toolbar" hidden>
+                    <p class="pd-status" id="pd-status" aria-live="polite"></p>
+                    <label class="pd-sort">Sort by
+                        <select id="pd-sort">
+                            <option value="az">Last Name A-Z</option>
+                            <option value="za">Last Name Z-A</option>
+                        </select>
+                    </label>
+                    <div class="pd-view" role="group" aria-label="View">
+                        <button type="button" data-view="list" aria-pressed="true" aria-label="List view">
+                            <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M3 5h18v2H3zm0 6h18v2H3zm0 6h18v2H3z" fill="currentColor"/></svg>
+                        </button>
+                        <button type="button" data-view="grid" aria-pressed="false" aria-label="Grid view">
+                            <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M3 3h8v8H3zm10 0h8v8h-8zM3 13h8v8H3zm10 0h8v8h-8z" fill="currentColor"/></svg>
+                        </button>
                     </div>
-                </a>
-                <a href="{{ "people-graduate-students/" | relURL }}" class="people-card people-card-link">
-                    <div class="people-card-body">
-                        <div class="people-card-name">Graduate Students</div>
-                        <div class="people-card-title">Doctoral students affiliated with IQSS across Harvard programs.</div>
-                    </div>
-                </a>
-                <a href="{{ "people-undergraduate-students/" | relURL }}" class="people-card people-card-link">
-                    <div class="people-card-body">
-                        <div class="people-card-name">Undergraduate Students</div>
-                        <div class="people-card-title">Harvard College students participating in research through IQSS programs.</div>
-                    </div>
-                </a>
-                <a href="{{ "people-visitors-affiliates/" | relURL }}" class="people-card people-card-link">
-                    <div class="people-card-body">
-                        <div class="people-card-name">Visitors & Affiliates</div>
-                        <div class="people-card-title">Visiting scholars, fellows, and collaborators from institutions worldwide.</div>
-                    </div>
-                </a>
-                <a href="{{ "people-staff/" | relURL }}" class="people-card people-card-link">
-                    <div class="people-card-body">
-                        <div class="people-card-name">Staff</div>
-                        <div class="people-card-title">Administrative, technical, and support staff enabling IQSS research and operations.</div>
-                    </div>
-                </a>
-                <a href="{{ "people-alumni/" | relURL }}" class="people-card people-card-link">
-                    <div class="people-card-body">
-                        <div class="people-card-name">Alumni</div>
-                        <div class="people-card-title">Former IQSS affiliates who have moved on to positions across academia, industry, and government.</div>
-                    </div>
-                </a>
+                </div>
+
+                <ul class="pd-results pd-results--list" id="pd-results">
+                {{- range sort $people "sortkey" }}
+                {{- $p := .page }}
+                {{- $roleVals := slice }}{{ range .roles }}{{ $roleVals = $roleVals | append (. | lower | replaceRE `[^a-z0-9]+` "-" | replaceRE `^-+|-+$` "") }}{{ end }}
+                {{- $progVals := slice }}{{ range .programs }}{{ $progVals = $progVals | append (. | lower | replaceRE `[^a-z0-9]+` "-" | replaceRE `^-+|-+$` "") }}{{ end }}
+                    <li class="pd-card" data-name="{{ $p.Title }}" data-role="{{ delimit $roleVals " " }}" data-program="{{ delimit $progVals " " }}" data-year="{{ .year }}">
+                        <div class="pd-card__photo">
+                        {{- with .photo }}
+                            <img src="{{ . }}" alt="" loading="lazy" />
+                        {{- else }}
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 12a4.5 4.5 0 1 0 0-9 4.5 4.5 0 0 0 0 9zm0 2.25c-3 0-9 1.5-9 4.5V21h18v-2.25c0-3-6-4.5-9-4.5z" fill="currentColor"/></svg>
+                        {{- end }}
+                        </div>
+                        <div class="pd-card__text">
+                            <h3 class="pd-card__name"><a href="{{ $p.RelPermalink }}">{{ $p.Title }}</a></h3>
+                            {{- range .titles }}
+                            <p class="pd-card__title">{{ . }}</p>
+                            {{- end }}
+                            {{- with .teaser }}
+                            <p class="pd-card__teaser">{{ . }}</p>
+                            {{- end }}
+                        </div>
+                    </li>
+                {{- end }}
+                </ul>
+
+                <p class="pd-empty" hidden>No results match your search criteria.<br>Please try another search.</p>
+
+                <nav class="pd-pager" aria-label="Pagination" hidden></nav>
             </div>
-
         </div>
     </div>
 </div>
@@ -69,136 +198,322 @@
 <style>
 .people-page { margin: 0; padding: 0; }
 
-.people-header {
-    position: relative;
-    overflow: hidden;
-    background: #333;
-    color: white;
-    min-height: 350px;
-    display: flex;
-    align-items: center;
-    padding: 60px 0;
+.pd-header { background: var(--bg-light-base, #eef2f7); padding: 40px 0; }
+.pd-header h1 { font-size: 42px; font-weight: 300; margin: 0; color: #1e1e1e; }
+
+.people-content { background: #f8f9fa; padding: 50px 0; }
+
+/* `hidden` must win over the display values set below (cards, toolbar, pager). */
+.pd [hidden] { display: none !important; }
+
+/* ── Directory layout: filters left, results right ── */
+.pd { display: grid; grid-template-columns: 270px minmax(0, 1fr); gap: 40px; align-items: start; }
+.pd-filters__title { font-size: 22px; font-weight: 400; margin: 0 0 12px; color: #333; }
+.pd-facet { border-top: 1px solid #ddd; padding: 12px 0; }
+.pd-facet summary { cursor: pointer; font-weight: 600; font-size: 15px; color: #333; padding: 4px 0; }
+.pd-facet fieldset { border: 0; margin: 0; padding: 0; min-width: 0; }
+.pd-facet ul { list-style: none; margin: 8px 0 0; padding: 0; }
+.pd-facet li { margin: 0 0 6px; font-size: 14px; line-height: 1.4; }
+.pd-facet label { display: flex; gap: 8px; align-items: flex-start; cursor: pointer; color: #444; }
+.pd-facet input { margin-top: 3px; flex: none; accent-color: var(--orange-brand); }
+.pd-facet__sub { padding-left: 24px !important; margin-top: 6px !important; }
+.pd-count { color: #666; white-space: nowrap; }
+.pd-facet li.pd-zero > label { color: #999; }
+
+.pd-filters-trigger {
+    display: none; margin-bottom: 16px; padding: 10px 18px; border: 1px solid var(--orange-brand);
+    border-radius: 5px; background: #fff; color: var(--orange-brand); font-weight: 600; cursor: pointer;
 }
 
-.people-header__img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.pd-search { display: flex; gap: 0; margin: 0 0 20px; }
+.pd-search input {
+    flex: 1; min-width: 0; padding: 12px 14px; font-size: 16px;
+    border: 1px solid #8a9bb0; border-right: 0; border-radius: 5px 0 0 5px; background: #fff;
+}
+.pd-search button {
+    padding: 12px 20px; border: 0; border-radius: 0 5px 5px 0; background: var(--orange-brand);
+    color: #fff; font-weight: 600; font-size: 15px; cursor: pointer;
+}
+.pd-search button:hover { background: #b8460a; }
+
+.pd-toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 20px; margin: 0 0 16px; }
+.pd-status { margin: 0 auto 0 0; font-weight: 600; color: #333; }
+.pd-sort { display: flex; align-items: center; gap: 8px; font-size: 14px; color: #444; }
+.pd-sort select { padding: 6px 8px; font-size: 14px; border: 1px solid #8a9bb0; border-radius: 4px; background: #fff; }
+.pd-view { display: flex; gap: 4px; }
+.pd-view button {
+    display: flex; padding: 6px; border: 1px solid #8a9bb0; border-radius: 4px; background: #fff; color: #444; cursor: pointer;
+}
+.pd-view button[aria-pressed="true"] { background: var(--orange-brand); border-color: var(--orange-brand); color: #fff; }
+
+.pd-filters-trigger:focus-visible, .pd-search input:focus-visible, .pd-search button:focus-visible,
+.pd-sort select:focus-visible, .pd-view button:focus-visible, .pd-pager a:focus-visible, .pd-card__name a:focus-visible {
+    outline: 3px solid var(--orange-brand); outline-offset: 2px;
 }
 
-.people-header::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.5);
-    z-index: 1;
+/* ── Cards ── */
+.pd-results { list-style: none; margin: 0; padding: 0; }
+.pd-card {
+    position: relative; display: flex; gap: 18px; align-items: flex-start;
+    background: #fff; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+    padding: 16px; margin: 0 0 12px; transition: box-shadow 0.2s ease;
 }
-
-.people-header .container {
-    position: relative;
-    z-index: 2;
-    width: 100%;
+.pd-card:hover { box-shadow: 0 6px 18px rgba(0,0,0,0.1); }
+.pd-card__photo {
+    flex: 0 0 80px; width: 80px; height: 100px; border-radius: 6px; overflow: hidden;
+    background: #e9ecef; color: #9aa5b1; display: flex; align-items: center; justify-content: center;
 }
+.pd-card__photo img { width: 100%; height: 100%; object-fit: cover; object-position: center top; }
+.pd-card__photo svg { width: 48px; height: 48px; }
+.pd-card__text { min-width: 0; flex: 1; }
+.pd-card__name { font-size: 18px; font-weight: 600; margin: 0 0 4px; line-height: 1.3; }
+.pd-card__name a { color: var(--font-dark-link, #1a3a5c); text-decoration: none; }
+.pd-card__name a::after { content: ""; position: absolute; inset: 0; } /* whole card clickable, one link */
+.pd-card:hover .pd-card__name a { text-decoration: underline; }
+.pd-card__title { font-size: 14px; color: #444; margin: 0 0 2px; line-height: 1.4; }
+.pd-card__teaser { font-size: 14px; color: #555; margin: 8px 0 0; line-height: 1.55; }
 
-.people-header h1 {
-    font-size: 42px;
-    font-weight: 300;
-    margin: 0 0 12px 0;
+.pd-results--grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 16px; }
+.pd-results--grid .pd-card { flex-direction: column; margin: 0; }
+.pd-results--grid .pd-card__photo { flex: none; width: 100%; height: auto; aspect-ratio: 4 / 5; }
+.pd-results--grid .pd-card__photo svg { width: 64px; height: 64px; }
+.pd-results--grid .pd-card__teaser { display: none; }
+
+.pd-empty { padding: 30px 0; color: #444; }
+
+/* ── Pager ── */
+.pd-pager { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; margin: 28px 0 0; }
+.pd-pager a, .pd-pager span {
+    min-width: 40px; padding: 8px 12px; text-align: center; border-radius: 5px; font-size: 14px; text-decoration: none;
 }
+.pd-pager a { border: 1px solid #ccd3db; background: #fff; color: #333; }
+.pd-pager a:hover { border-color: var(--orange-brand); color: var(--orange-brand); }
+.pd-pager a[aria-current="page"] { background: var(--orange-brand); border-color: var(--orange-brand); color: #fff; }
+.pd-pager span { color: #666; }
 
-.people-header p {
-    font-size: 17px;
-    opacity: 0.9;
-    max-width: 650px;
+@media (max-width: 900px) {
+    .pd { grid-template-columns: 1fr; gap: 0; }
+    .pd-filters-trigger { display: inline-block; }
+    .pd-filters.pd-filters--collapsed { display: none; }
+    .pd-filters { margin-bottom: 24px; }
 }
-
-.people-content {
-    background: #f8f9fa;
-    padding: 50px 0;
-}
-
-.people-section-title {
-    font-size: 26px;
-    font-weight: 400;
-    color: var(--orange-brand);
-    margin: 40px 0 20px 0;
-    padding-bottom: 10px;
-    border-bottom: 2px solid #e5e5e5;
-}
-
-.people-section-title:first-of-type {
-    margin-top: 0;
-}
-
-.people-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    max-width: 1000px;
-}
-
-.people-card {
-    background: #fff;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.06);
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    padding: 15px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.people-card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 18px rgba(0,0,0,0.1);
-}
-
-.people-card-link {
-    text-decoration: none;
-    color: inherit;
-}
-
-.people-card-image {
-    flex: 0 0 70px;
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    overflow: hidden;
-    background: #e9ecef;
-}
-
-.people-card-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: top;
-}
-
-.people-card-body {
-    flex: 1;
-}
-
-.people-card-name {
-    font-size: 16px;
-    font-weight: 600;
-    color: #333;
-    margin-bottom: 3px;
-}
-
-.people-card-title {
-    font-size: 13px;
-    color: #666;
-    line-height: 1.4;
-}
-
 @media (max-width: 768px) {
-    .people-header h1 { font-size: 32px; }
-    .people-grid { grid-template-columns: 1fr; }
+    .pd-header h1 { font-size: 32px; }
     .people-content { padding: 30px 0; }
+    .pd-card { gap: 14px; padding: 14px; }
+    .pd-card__photo { flex-basis: 64px; width: 64px; height: 80px; }
+    .pd-search button { padding: 12px 14px; }
 }
+@media (prefers-reduced-motion: reduce) { .pd-card { transition: none; } }
 </style>
+
+<script>
+(function () {
+    var PER_PAGE = 12;
+    var root = document.querySelector('.pd');
+    if (!root) return;
+    var list = document.getElementById('pd-results');
+    var cards = Array.prototype.slice.call(list.querySelectorAll('.pd-card'));
+    var filters = document.getElementById('pd-filters');
+    var trigger = root.querySelector('.pd-filters-trigger');
+    var form = root.querySelector('.pd-search');
+    var q = document.getElementById('pd-q');
+    var sortSel = document.getElementById('pd-sort');
+    var status = document.getElementById('pd-status');
+    var empty = root.querySelector('.pd-empty');
+    var pager = root.querySelector('.pd-pager');
+    var viewBtns = root.querySelectorAll('.pd-view button');
+    var boxes = Array.prototype.slice.call(filters.querySelectorAll('input[type=checkbox]'));
+    var FACETS = ['program', 'year', 'role'];
+
+    function fold(s) {
+        return (s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+    }
+    // Last name for sorting: the final word, skipping suffixes such as Jr. or III.
+    var SUFFIX = /^(jr|sr|ii|iii|iv|v|phd|md|esq)$/;
+    function sortKey(name) {
+        var words = name.trim().split(/\s+/);
+        while (words.length > 1 && SUFFIX.test(fold(words[words.length - 1]).replace(/[.,]/g, ''))) words.pop();
+        var last = words.pop() || '';
+        return fold(last.replace(/,$/, '') + ' ' + words.join(' '));
+    }
+
+    var people = cards.map(function (el) {
+        return {
+            el: el,
+            key: sortKey(el.dataset.name),
+            text: fold(el.textContent.replace(/\s+/g, ' ')),
+            program: el.dataset.program ? el.dataset.program.split(' ') : [],
+            year: el.dataset.year ? [el.dataset.year] : [],
+            role: el.dataset.role ? el.dataset.role.split(' ') : []
+        };
+    });
+
+    var offered = {};
+    FACETS.forEach(function (f) { offered[f] = {}; });
+    boxes.forEach(function (b) { offered[b.name][b.value] = true; });
+
+    // ── State, kept in the query string ──
+    var state = { program: [], year: [], role: [], q: '', sort: 'az', view: 'list', page: 1 };
+    function readURL() {
+        var p = new URLSearchParams(location.search);
+        FACETS.forEach(function (f) {
+            state[f] = p.getAll(f).filter(function (v) { return offered[f][v]; });
+        });
+        state.q = p.get('q') || '';
+        state.sort = p.get('sort') === 'za' ? 'za' : 'az';
+        state.view = p.get('view') === 'grid' ? 'grid' : 'list';
+        state.page = Math.max(1, parseInt(p.get('page'), 10) || 1);
+    }
+    function writeURL(push) {
+        var p = new URLSearchParams();
+        FACETS.forEach(function (f) { state[f].forEach(function (v) { p.append(f, v); }); });
+        if (state.q) p.set('q', state.q);
+        if (state.sort !== 'az') p.set('sort', state.sort);
+        if (state.view !== 'list') p.set('view', state.view);
+        if (state.page > 1) p.set('page', state.page);
+        var s = p.toString();
+        var url = location.pathname + (s ? '?' + s : '');
+        if (push) history.pushState(null, '', url); else history.replaceState(null, '', url);
+    }
+    function syncControls() {
+        boxes.forEach(function (b) { b.checked = state[b.name].indexOf(b.value) !== -1; });
+        q.value = state.q;
+        sortSel.value = state.sort;
+        viewBtns.forEach(function (b) { b.setAttribute('aria-pressed', String(b.dataset.view === state.view)); });
+        list.className = 'pd-results pd-results--' + state.view;
+    }
+
+    // Within a filter, any ticked option matches; across filters, all must.
+    function matches(person, skip) {
+        for (var i = 0; i < FACETS.length; i++) {
+            var f = FACETS[i];
+            if (f === skip || !state[f].length) continue;
+            var hit = false;
+            for (var j = 0; j < state[f].length; j++) if (person[f].indexOf(state[f][j]) !== -1) { hit = true; break; }
+            if (!hit) return false;
+        }
+        if (state.q) {
+            // Each word must start a word in the card: "king" finds King, not "working".
+            var terms = fold(state.q).split(/\s+/).filter(Boolean);
+            for (var k = 0; k < terms.length; k++) {
+                var re = new RegExp('(^|[^a-z0-9])' + terms[k].replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
+                if (!re.test(person.text)) return false;
+            }
+        }
+        return true;
+    }
+
+    function updateCounts() {
+        FACETS.forEach(function (f) {
+            var tally = {};
+            people.forEach(function (person) {
+                if (!matches(person, f)) return;
+                person[f].forEach(function (v) { tally[v] = (tally[v] || 0) + 1; });
+            });
+            boxes.forEach(function (b) {
+                if (b.name !== f) return;
+                var n = tally[b.value] || 0;
+                var span = filters.querySelector('[data-for="' + f + ':' + b.value + '"]');
+                if (span) span.textContent = '(' + n + ')';
+                b.closest('li').classList.toggle('pd-zero', n === 0 && !b.checked);
+            });
+        });
+    }
+
+    function render(scroll) {
+        var hits = people.filter(function (p) { return matches(p, null); });
+        hits.sort(function (a, b) {
+            var c = a.key.localeCompare(b.key, 'en', { sensitivity: 'base' });
+            return state.sort === 'za' ? -c : c;
+        });
+        var pages = Math.max(1, Math.ceil(hits.length / PER_PAGE));
+        if (state.page > pages) state.page = pages;
+        var start = (state.page - 1) * PER_PAGE;
+        var shown = hits.slice(start, start + PER_PAGE);
+
+        cards.forEach(function (el) { el.hidden = true; });
+        shown.forEach(function (p) { p.el.hidden = false; list.appendChild(p.el); });
+
+        status.textContent = hits.length + (hits.length === 1 ? ' result' : ' results');
+        empty.hidden = hits.length > 0;
+        renderPager(pages);
+        updateCounts();
+        if (scroll) {
+            status.setAttribute('tabindex', '-1');
+            status.focus({ preventScroll: true });
+            root.scrollIntoView({ behavior: 'auto', block: 'start' });
+        }
+    }
+
+    function pageLink(n, label, current) {
+        var a = document.createElement('a');
+        var p = new URLSearchParams(location.search);
+        if (n > 1) p.set('page', n); else p.delete('page');
+        var s = p.toString();
+        a.href = location.pathname + (s ? '?' + s : '');
+        a.dataset.page = n;
+        a.textContent = label;
+        if (current) a.setAttribute('aria-current', 'page');
+        return a;
+    }
+    function renderPager(pages) {
+        pager.innerHTML = '';
+        pager.hidden = pages < 2;
+        if (pages < 2) return;
+        var cur = state.page;
+        if (cur > 1) {
+            var prev = pageLink(cur - 1, '‹'); prev.setAttribute('aria-label', 'Previous page'); pager.appendChild(prev);
+        }
+        var from = Math.max(1, cur - 2), to = Math.min(pages, cur + 2);
+        if (from > 1) { pager.appendChild(pageLink(1, '1')); if (from > 2) pager.appendChild(gap()); }
+        for (var i = from; i <= to; i++) pager.appendChild(pageLink(i, String(i), i === cur));
+        if (to < pages) { if (to < pages - 1) pager.appendChild(gap()); var last = pageLink(pages, String(pages)); last.setAttribute('aria-label', 'Last page, ' + pages); pager.appendChild(last); }
+        if (cur < pages) {
+            var next = pageLink(cur + 1, '›'); next.setAttribute('aria-label', 'Next page'); pager.appendChild(next);
+        }
+        function gap() { var s = document.createElement('span'); s.textContent = '…'; s.setAttribute('aria-hidden', 'true'); return s; }
+    }
+
+    // ── Events ──
+    boxes.forEach(function (b) {
+        b.addEventListener('change', function () {
+            state[b.name] = boxes.filter(function (x) { return x.name === b.name && x.checked; }).map(function (x) { return x.value; });
+            state.page = 1; writeURL(false); render(false);
+        });
+    });
+    var timer;
+    q.addEventListener('input', function () {
+        clearTimeout(timer);
+        timer = setTimeout(function () { state.q = q.value.trim(); state.page = 1; writeURL(false); render(false); }, 250);
+    });
+    form.addEventListener('submit', function (e) {
+        e.preventDefault(); clearTimeout(timer);
+        state.q = q.value.trim(); state.page = 1; writeURL(false); render(true);
+    });
+    sortSel.addEventListener('change', function () { state.sort = sortSel.value; state.page = 1; writeURL(false); render(false); });
+    viewBtns.forEach(function (b) {
+        b.addEventListener('click', function () { state.view = b.dataset.view; writeURL(false); syncControls(); });
+    });
+    pager.addEventListener('click', function (e) {
+        var a = e.target.closest('a[data-page]');
+        if (!a) return;
+        e.preventDefault();
+        state.page = parseInt(a.dataset.page, 10); writeURL(true); render(true);
+    });
+    window.addEventListener('popstate', function () { readURL(); syncControls(); render(false); });
+
+    var narrow = window.matchMedia('(max-width: 900px)');
+    function setCollapsed(c) {
+        filters.classList.toggle('pd-filters--collapsed', c);
+        trigger.setAttribute('aria-expanded', String(!c));
+    }
+    trigger.addEventListener('click', function () { setCollapsed(trigger.getAttribute('aria-expanded') === 'true'); });
+
+    // ── Start: reveal the controls that need this script ──
+    [filters, trigger, form, root.querySelector('.pd-toolbar')].forEach(function (el) { el.hidden = false; });
+    setCollapsed(narrow.matches);
+    readURL(); syncControls(); render(false);
+})();
+</script>
 {{ end }}

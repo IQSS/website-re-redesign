@@ -6,7 +6,6 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "John L. Loeb and Frances Lehman Loeb Professor of Epidemiology"
 role: ["Affiliated Faculty", "Steering Committee"]
-steering_weight: 130
 program: ["Human Flourishing Program"]
 ---
 

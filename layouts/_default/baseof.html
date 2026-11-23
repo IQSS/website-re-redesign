@@ -956,7 +956,10 @@
                     </button>
                     <ul class="dropdown" id="{{ $id }}">
                         {{ range .Children }}
-                        <li><a href="{{ .URL | relURL }}"{{ if strings.HasPrefix .URL "http" }} target="_blank" rel="noopener noreferrer"{{ end }}>{{ .Name }}{{ if strings.HasPrefix .URL "http" }}<span class="sr-only"> (opens in new tab)</span>{{ end }}</a></li>
+                        {{/* params.query / params.anchor (hugo.toml) add a query string or a
+                             #fragment, e.g. a People tab: Hugo drops "?", "=" and "#" from a menu url. */}}
+                        {{ $href := .URL | relURL }}{{ with .Params.query }}{{ $href = printf "%s?%s" $href . }}{{ end }}{{ with .Params.anchor }}{{ $href = printf "%s#%s" $href . }}{{ end }}
+                        <li><a href="{{ $href }}"{{ if strings.HasPrefix .URL "http" }} target="_blank" rel="noopener noreferrer"{{ end }}>{{ .Name }}{{ if strings.HasPrefix .URL "http" }}<span class="sr-only"> (opens in new tab)</span>{{ end }}</a></li>
                         {{ end }}
                     </ul>
                     {{ end }}

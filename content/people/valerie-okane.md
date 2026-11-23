@@ -4,7 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/valerie-okane
 title: Valerie O'Kane
-role: ["Leadership", "Staff"]
+role: ["Staff"]
 ---
 
 <main aria-label="Valerie  O'Kane" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">

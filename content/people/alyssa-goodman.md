@@ -6,7 +6,6 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "Robert Wheeler Wilson Professor of Applied Astronomy"
 role: ["Affiliated Faculty", "Steering Committee"]
-steering_weight: 80
 ---
 <img src="../../images/live/harvard-iqss/files/alyssa_goodman_ca2021.jpg" alt="Alyssa Goodman" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 

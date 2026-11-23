@@ -19,7 +19,7 @@ social:
   - { platform: "google-scholar", url: "https://scholar.google.com/citations?user=RkDPFBAAAAAJ" }
 ---
 
-<img src="../../images/live/2025-12/merce_crosas_0_01.jpg" alt="Mercè Crosas" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/2025-12/merce_crosas_0_01.jpg" alt="Mercè Crosas" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Mercè Crosas
 

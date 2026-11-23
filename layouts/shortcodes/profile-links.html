@@ -110,13 +110,38 @@
 
 .profile-links__list a { overflow-wrap: anywhere; }
 
+/* The marks sit under the portrait rather than under the website links.
+   The portrait floats right, so floating these right as well and clearing
+   that float drops them directly beneath it; matching its width and
+   centring within it lines the row up under the picture instead of
+   trailing off the right edge.
+
+   225px is the portrait's own width. The two are set in different places
+   -- the picture is sized inline on each profile -- so if that size
+   changes, this follows it. */
 .profile-social {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 6px;
-    margin: 0;
+    margin: 0 0 20px 20px;
     padding: 0;
+    float: right;
+    clear: right;
+    width: 225px;
+}
+
+/* Below 640px the portrait stops floating and takes the full width, so
+   there is no longer a column on the right to sit under. */
+@media (max-width: 640px) {
+    .profile-social {
+        float: none;
+        clear: none;
+        width: auto;
+        justify-content: flex-start;
+        margin: 0 0 8px;
+    }
 }
 
 /* The page paints every link in the brand orange. These are brand marks

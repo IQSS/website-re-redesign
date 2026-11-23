@@ -4,6 +4,7 @@ draft: false
 section: people
 source_url: https://iq.harvard.edu/people/anthony-cimino
 title: Anthony Cimino
+photo_focus: "50% 28%"
 role: ["Affiliated Undergraduate Students"]
 ---
 

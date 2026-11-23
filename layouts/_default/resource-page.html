@@ -681,6 +681,35 @@
     }
 }
 
+
+/* ── Profile portrait on a phone ────────────────────────────────────────
+   Curated profiles write their portrait straight into the page as a small
+   round picture floated to one side. On a desktop the text wraps around it;
+   on a phone there is no room to wrap into, so a 150px picture ends up
+   crowding the name it belongs to.
+
+   Below 640px it stops floating and takes the full width on its own, with
+   the name and the rest of the profile following underneath. The square
+   keeps the framing the float had -- these are cropped to the top of the
+   frame, where a face usually sits -- rather than showing the whole picture
+   and a lot of background with it.
+
+   !important is unavoidable here: the float, the size and the radius are
+   inline attributes on the <img> in each of the 320 profiles, and an inline
+   style beats a stylesheet without it. */
+@media (max-width: 640px) {
+    .rp-content img[style*="float"] {
+        float: none !important;
+        display: block;
+        width: 100% !important;
+        height: auto !important;
+        aspect-ratio: 1 / 1;
+        object-fit: cover !important;
+        border-radius: 10px !important;
+        margin: 0 0 24px !important;
+    }
+}
+
 .rp-content .live-page blockquote {
     border-left: 4px solid var(--orange-brand);
     margin: 25px 0;

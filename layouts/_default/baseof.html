@@ -439,6 +439,50 @@
             font-weight: 600;
         }
 
+
+        /* ── Images inside scraped page bodies ──────────────────────────
+           These carry Drupal's own width/height attributes, which name the
+           cropped rendition live served -- not the file we hold. Two things
+           went wrong because of that.
+
+           First, nothing capped their width, so an <img width="480"> forced
+           a 375px phone to scroll sideways. max-width/height:auto fixes that
+           everywhere and costs nothing where the file already fits.
+
+           Second, where the file is not the shape the attributes claim, the
+           browser squashed it to fit: a 750x629 headshot drawn into a 480x600
+           box comes out a third too narrow. height:auto ends the squashing by
+           letting each image keep its own proportions. */
+        .content img,
+        .page-content img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* ── Portrait slots ─────────────────────────────────────────────
+           The two attribute pairs below are live's 4:5 portrait renditions,
+           and they are what the profile photos declare. Letting those keep
+           their own proportions would leave every headshot a different
+           shape, so they get the 4:5 box back and fill it by cropping
+           rather than squashing.
+
+           --portrait-focus decides what the crop keeps, the way a focal
+           point does elsewhere: the first value is across, the second down,
+           so "50% 25%" holds a face that sits high in the frame. Set it per
+           page with photo_focus in the front matter (see single.html); the
+           default centres, which suits most headshots. */
+        .content img[width="480"][height="600"],
+        .content img[width="690"][height="865"],
+        .page-content img[width="480"][height="600"],
+        .page-content img[width="690"][height="865"] {
+            width: 100%;
+            max-width: 480px;
+            aspect-ratio: 4 / 5;
+            height: auto;
+            object-fit: cover;
+            object-position: var(--portrait-focus, 50% 50%);
+        }
+
         /* Page Content */
         .page-content {
             max-width: 800px;

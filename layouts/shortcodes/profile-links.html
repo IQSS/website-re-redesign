@@ -44,14 +44,12 @@
     <ul class="profile-links__list">
         {{- with $email }}
         <li>
-            <span class="profile-links__icon" aria-hidden="true"><svg viewBox="0 0 14 14"><path d="M0 2.75a1.5 1.5 0 0 1 1.5 -1.5h11a1.5 1.5 0 0 1 1.5 1.5v0.342L7.383 7.504A0.72 0.72 0 0 1 7 7.607a0.72 0.72 0 0 1 -0.383 -0.103L0 3.092V2.75Zm0 1.844v6.656a1.5 1.5 0 0 0 1.5 1.5h11a1.5 1.5 0 0 0 1.5 -1.5V4.594L8.073 8.546l-0.005 0.004A1.966 1.966 0 0 1 7 8.857c-0.375 0 -0.753 -0.102 -1.068 -0.307l-0.005 -0.004L0 4.594Z"/></svg></span>
-            <a href="mailto:{{ . }}">{{ . }}</a>
+            <a class="profile-links__btn" href="mailto:{{ . }}"><span class="profile-links__icon" aria-hidden="true"><svg viewBox="0 0 14 14"><path d="M0 2.75a1.5 1.5 0 0 1 1.5 -1.5h11a1.5 1.5 0 0 1 1.5 1.5v0.342L7.383 7.504A0.72 0.72 0 0 1 7 7.607a0.72 0.72 0 0 1 -0.383 -0.103L0 3.092V2.75Zm0 1.844v6.656a1.5 1.5 0 0 0 1.5 1.5h11a1.5 1.5 0 0 0 1.5 -1.5V4.594L8.073 8.546l-0.005 0.004A1.966 1.966 0 0 1 7 8.857c-0.375 0 -0.753 -0.102 -1.068 -0.307l-0.005 -0.004L0 4.594Z"/></svg></span><span class="profile-links__label">{{ . }}</span></a>
         </li>
         {{- end }}
         {{- range $links }}
         <li>
-            <span class="profile-links__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M22.5 0h-21A1.5 1.5 0 0 0 0 1.5v12.25a0.25 0.25 0 0 0 0.25 0.25h23.5a0.25 0.25 0 0 0 0.25 -0.25V1.5A1.5 1.5 0 0 0 22.5 0Z"/><path d="M23.75 15.5H0.25a0.25 0.25 0 0 0 -0.25 0.25V17a1.5 1.5 0 0 0 1.5 1.5h8.25a0.25 0.25 0 0 1 0.25 0.25v2.18a0.24 0.24 0 0 1 -0.22 0.25 14.64 14.64 0 0 0 -3.66 0.89A1 1 0 0 0 6.49 24h11a1 1 0 0 0 0.38 -1.93 14.64 14.64 0 0 0 -3.66 -0.89 0.24 0.24 0 0 1 -0.22 -0.24v-2.19a0.25 0.25 0 0 1 0.25 -0.25h8.26A1.5 1.5 0 0 0 24 17v-1.25a0.25 0.25 0 0 0 -0.25 -0.25Z"/></svg></span>
-            <a href="{{ .url }}"{{ if not (strings.HasPrefix .url "/") }} target="_blank" rel="noopener noreferrer"{{ end }}>{{ .label }}</a>
+            <a class="profile-links__btn" href="{{ .url }}"{{ if not (strings.HasPrefix .url "/") }} target="_blank" rel="noopener noreferrer"{{ end }}><span class="profile-links__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M22.5 0h-21A1.5 1.5 0 0 0 0 1.5v12.25a0.25 0.25 0 0 0 0.25 0.25h23.5a0.25 0.25 0 0 0 0.25 -0.25V1.5A1.5 1.5 0 0 0 22.5 0Z"/><path d="M23.75 15.5H0.25a0.25 0.25 0 0 0 -0.25 0.25V17a1.5 1.5 0 0 0 1.5 1.5h8.25a0.25 0.25 0 0 1 0.25 0.25v2.18a0.24 0.24 0 0 1 -0.22 0.25 14.64 14.64 0 0 0 -3.66 0.89A1 1 0 0 0 6.49 24h11a1 1 0 0 0 0.38 -1.93 14.64 14.64 0 0 0 -3.66 -0.89 0.24 0.24 0 0 1 -0.22 -0.24v-2.19a0.25 0.25 0 0 1 0.25 -0.25h8.26A1.5 1.5 0 0 0 24 17v-1.25a0.25 0.25 0 0 0 -0.25 -0.25Z"/></svg></span><span class="profile-links__label">{{ .label }}</span></a>
         </li>
         {{- end }}
     </ul>
@@ -85,17 +83,54 @@
 <style>
 .profile-links { margin: 0 0 28px; }
 
-.profile-links__list { list-style: none; margin: 0 0 14px; padding: 0; }
+/* The links sit in the right-hand column, between the portrait and the
+   social marks, so all three stack down one side. Same float-and-clear as
+   the marks, and the same 225px: that is the portrait's width. */
+.profile-links__list {
+    list-style: none;
+    margin: 0 0 12px 20px;
+    padding: 0;
+    float: right;
+    clear: right;
+    width: 225px;
+}
 
-.profile-links__list li {
+.profile-links__list li { margin-bottom: 8px; }
+
+/* Outlined rather than filled. The site's own .cta-button is solid orange,
+   but these carry an orange icon, and an orange mark on an orange field is
+   not a mark. Filling only on hover keeps it visible at rest and still
+   reads as a button. */
+.profile-links__btn {
     display: flex;
     align-items: center;
     gap: 10px;
-    margin-bottom: 8px;
-    /* The portrait floats beside this, so a long label wraps under its own
-       icon rather than running under the picture. */
-    min-width: 0;
+    padding: 9px 12px;
+    border: 1px solid var(--orange-brand);
+    border-radius: 5px;
+    background: transparent;
+    color: var(--font-dark-text);
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.3;
+    transition: background 0.2s ease, color 0.2s ease;
 }
+
+.profile-links__btn:hover {
+    background: var(--orange-brand);
+    color: #fff;
+    text-decoration: none;
+}
+
+/* currentColor, so the mark turns white with the label when it fills. */
+.profile-links__btn:hover .profile-links__icon svg { fill: currentColor; }
+
+.profile-links__btn:focus-visible {
+    outline: 2px solid var(--orange-brand);
+    outline-offset: 2px;
+}
+
+.profile-links__label { min-width: 0; overflow-wrap: anywhere; }
 
 .profile-links__icon {
     flex: 0 0 auto;
@@ -107,8 +142,6 @@
 /* --orange-brand rather than --orange-vivid: these sit next to body text at
    small size, and it is the one that carries 4.5:1 on white. */
 .profile-links__icon svg { width: 100%; height: 100%; fill: var(--orange-brand); }
-
-.profile-links__list a { overflow-wrap: anywhere; }
 
 /* The marks sit under the portrait rather than under the website links.
    The portrait floats right, so floating these right as well and clearing
@@ -135,6 +168,7 @@
 /* Below 640px the portrait stops floating and takes the full width, so
    there is no longer a column on the right to sit under. */
 @media (max-width: 640px) {
+    .profile-links__list,
     .profile-social {
         float: none;
         clear: none;

@@ -2,10 +2,17 @@
   Card styling for scraped live pages whose body is Drupal "page-list" markup
   (article.page-card inside .hwp-page-list__items). The scrape kept live's
   HTML but none of its CSS, so without this the logos sat inline above plain
-  text. Values are taken from live's computed styles (Product Development,
-  2026-11-24): a 2- or 3-column grid with 24px gaps, light-blue cards with 5px
-  corners, the image first in a 16:9 frame where it is contained, never
-  cropped or stretched, then the heading and description in 24px of padding.
+  text.
+
+  The look is the site's own photo card (the one on Funding and Research
+  Technology: white, 1px #e5e5e5 border, 8px corners, soft shadow that lifts
+  on hover, image on top in a 16:9 frame, orange 18px heading, 14px grey
+  text). Liz decided on 2026-11-24 not to carry over live's light-blue cards.
+  The one difference from those photo cards: these images are logos, so they
+  are contained whole in the frame, on white, never cropped.
+
+  Layout is still live's: a 2- or 3-column grid (grid-2 / grid-3) with 24px
+  gaps, the image first, then heading and description.
 
   A page opts in with `page_cards: true` in its front matter; see single.html.
   Scoped that way so the other pages that carry the same markup change only
@@ -24,15 +31,26 @@
 .page-cards article.page-card {
     display: flex;
     flex-direction: column;
-    background: var(--bg-light-base);
-    border-radius: 5px;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
     overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.page-cards article.page-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
 }
 .page-cards .page-card__image {
     order: 0;
     aspect-ratio: 16 / 9;
     min-height: 0;
     overflow: hidden;
+    background: #fff;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 14px;
+    box-sizing: border-box;
 }
 .page-cards .page-card__thumb,
 .page-cards .page-card__thumb .hwp-media,
@@ -40,13 +58,11 @@
 .page-cards .page-card__thumb picture {
     height: 100%;
 }
-.page-cards .page-card__thumb picture {
-    display: flex;
-    justify-content: center;
-}
+.page-cards .page-card__thumb picture,
 .page-cards .page-card__thumb .field--name-field-media-image {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .page-cards .page-card__thumb img {
     display: block;
@@ -61,24 +77,41 @@
     order: 1;
     display: flex;
     flex-direction: column;
-    padding: 24px;
+    padding: 18px 22px 22px;
 }
 .page-cards .page-card__text > .hwp-order-1 { order: 1; }
 .page-cards .page-card__text > .hwp-order-2 { order: 2; }
 .page-cards .page-card__text > .hwp-order-3 { order: 3; }
 .page-cards .page-card__heading {
     margin: 0;
-    font-size: 23px;
-    font-weight: 400;
-    line-height: 1.25;
-    color: var(--font-dark-link);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.35;
+    color: var(--orange-brand);
 }
-.page-cards .page-card__link {
-    color: var(--font-dark-link);
+.page-cards .page-card__link,
+.page-cards .page-card__link .page-card__heading {
+    color: var(--orange-brand);
+    text-decoration: none;
+}
+.page-cards .page-card__link:hover {
     text-decoration: underline;
 }
 .page-cards .page-card__description {
-    margin-top: 24px;
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #666;
+}
+.page-cards .page-card__description p {
+    margin: 0 0 8px;
+}
+.page-cards .page-card__description a {
+    color: var(--orange-brand);
+}
+@media (prefers-reduced-motion: reduce) {
+    .page-cards article.page-card { transition: none; }
+    .page-cards article.page-card:hover { transform: none; }
 }
 @media (max-width: 900px) {
     .page-cards .hwp-page-list--grid-3 .hwp-page-list__items {

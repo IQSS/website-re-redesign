@@ -8,14 +8,11 @@ role: ["Alumni"]
 layout: "resource-page"
 job_title: "Associate of IQSS"
 subtitle: "Associate of IQSS"
-photo: "images/live/2025-10/Amy-Quarkume_2022.png"
 email: "amy.yeboah@howard.edu"
 build:
   render: never
   list: always
 ---
-
-<img src="../../images/live/2025-10/Amy-Quarkume_2022.png" alt="Amy Yeboah Quarkume" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Amy Yeboah Quarkume
 

@@ -1,6 +1,7 @@
 ---
 title: "Research Technology"
 date: 2026-05-28
+lastmod: 2026-11-24
 draft: false
 type: "page"
 layout: "resource-page"
@@ -10,28 +11,34 @@ subtitle: "Training events across all research technology topics at IQSS"
 
 ## Research Technology Topics
 
-<div class="card-grid">
+<div class="card-grid card-grid--photos">
 <div class="card">
-<h3><a href="/research-technology-dataverse/">Dataverse</a></h3>
+<img src="../images/live/2026-06/DCM2026-0524%20Dataverse%20community.jpg" alt="Overhead outdoor view of the gathered attendees of the Dataverse Community Meeting 2026" />
+<h3><a href="dataverse/">Dataverse</a></h3>
 <p>Data sharing, preservation, and repository management with the Harvard Dataverse platform.</p>
 </div>
 <div class="card">
-<h3><a href="/research-technology-gis/">GIS</a></h3>
+<img src="../images/live/harvard-iqss/files/cga_od-pairs-samples-spaial_2023-06-06.png" alt="Plot map of the US; legend includes Pediatric Hospitals, ZIP Code Population Centroids, and OD Pairs" />
+<h3><a href="gis/">GIS</a></h3>
 <p>Geographic Information Systems, spatial analysis, mapping, and remote sensing workshops.</p>
 </div>
 <div class="card">
+<img src="../images/live/harvard-iqss/files/students-at-coding-workshop_4460x4460.jpg" alt="Close-up on students working at laptops and writing in a notebook" />
 <h3>Python</h3>
 <p>Programming workshops covering data analysis, visualization, and automation with Python.</p>
 </div>
 <div class="card">
+<img src="../images/live/harvard-iqss/files/dataviz-laptop_carlos-muza_3x2.jpg" alt="laptop displaying analytical data" />
 <h3>R</h3>
 <p>Statistical computing and data analysis workshops using the R programming language.</p>
 </div>
 <div class="card">
+<img src="../images/live/harvard-iqss/files/laptop-group_mimi-thian-zkbzlifgkgw-unsplash_crop.jpg" alt="Closeup of multiple people interacting with a laptop" />
 <h3>Stata</h3>
 <p>Statistical analysis workshops using Stata for social science research.</p>
 </div>
 <div class="card">
+<img src="../images/live/2025-08/woman-instructing-on-laptop.jpg" alt="Woman speaking to conference table of students on laptops" />
 <h3>UNIX</h3>
 <p>Command-line computing and shell scripting for research workflows.</p>
 </div>
@@ -41,21 +48,11 @@ subtitle: "Training events across all research technology topics at IQSS"
 
 ### Dataverse
 
-- [**Better Research VI: Data Sharing with Harvard Dataverse**](/events/better-research-vi-data-sharing-harvard-dataverse/) — May 20, 2026, 12:30 PM – 2:00 PM, Lamont Library
-- [**Hands-On Curation Training with Harvard Dataverse**](/events/hands-on-curation-training-harvard-dataverse/) — In-person training on the Dataverse platform
-- [**Dataverse Office Hours**](/events/dataverse-office-hours/) — Weekly virtual support sessions
+{{< tagged-events term="Dataverse" >}}
 
 ### GIS
 
-- [**GIS Institute Summer 2026**](/events/gis-institute-summer-2026/) — Jun 8–18, 2026, 9:30 AM – 5:00 PM, In Person
-- [**Getting Started with AI for Spatial Data**](/events/getting-started-ai-spatial-data/) — April 10, 2026, 1:00 PM – 3:00 PM
-- [**Satellite Imagery Analysis with Google Earth Engine**](/events/satellite-imagery-analysis-google-earth-engine/) — April 3, 2026, 1:00 PM – 3:00 PM
-- [**Getting Started with Spatial Analysis in R**](/events/getting-started-spatial-analysis-r/) — March 6, 2026, 1:00 PM – 3:00 PM
-- [**Getting Started Making Maps with QGIS and ArcGIS**](/events/getting-started-making-maps-qgis-and-arcgis/) — February 20, 2026, 9:00 AM – 12:00 PM
-- [**Visual Programming for GIS using KNIME**](/events/visual-programming-gis-using-knime/) — February 13, 2026, 1:00 PM – 3:00 PM
-- [**Geocoding with ArcGIS**](/events/geocoding-arcgis/) — February 6, 2026, 1:00 PM – 3:00 PM
-- [**Introduction to GIS**](/events/introduction-gis/) — January 30, 2026, 1:00 PM – 3:00 PM
-- [**GIS for Humanities and Social Sciences**](/events/gis-humanities-and-social-sciences/) — December 5, 2025, 9:30 AM – 4:30 PM
+{{< tagged-events term="GIS" >}}
 
 <div class="contact-info">
 <p><strong>General Inquiries:</strong> <a href="mailto:gen_inquiries@iq.harvard.edu">gen_inquiries@iq.harvard.edu</a></p>

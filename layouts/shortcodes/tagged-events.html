@@ -1,0 +1,40 @@
+{{- /*
+  Events carrying one taxonomy term, built from the events' own tags so the
+  list never needs hand-editing.
+
+      {{< tagged-events term="GIS" >}}
+      {{< tagged-events taxonomy="research-technology" term="Dataverse" limit="10" >}}
+
+  taxonomy defaults to research-technology. Upcoming sessions come first,
+  soonest first; then past sessions, newest first; then any with no date.
+  Each line: title, date (the next date for a recurring event), time, place,
+  in the bulleted format the Research Technology page already used.
+  limit caps the number of lines (default: all).
+*/ -}}
+{{- $tax := .Get "taxonomy" | default "research-technology" -}}
+{{- $term := .Get "term" -}}
+{{- $limit := int (.Get "limit" | default "0") -}}
+{{- $termPage := site.GetPage (printf "/%s/%s" $tax (urlize $term)) -}}
+{{- if not $termPage -}}
+  {{- warnf "tagged-events: no %s term %q" $tax $term -}}
+{{- else -}}
+{{- $events := where $termPage.Pages "Section" "events" -}}
+{{- $sets := partial "event-sets.html" (dict "pages" $events) -}}
+{{- $all := $sets.upcoming | append $sets.past | append $sets.ongoing -}}
+{{- if gt $limit 0 }}{{ $all = first $limit $all }}{{ end -}}
+<ul class="tagged-events">
+{{- range $all }}
+  {{- $p := . -}}
+  {{- $bits := slice -}}
+  {{- with index $sets.dates .RelPermalink -}}
+    {{- $d := time . -}}
+    {{- $txt := $d.Format "January 2, 2006" -}}
+    {{- with $p.Params.event_end_date }}{{ $txt = printf "%s – %s" $txt ((time .).Format "January 2, 2006") }}{{ end -}}
+    {{- $bits = $bits | append $txt -}}
+  {{- end -}}
+  {{- with .Params.event_time }}{{ $bits = $bits | append . }}{{ end -}}
+  {{- with .Params.event_location }}{{ $bits = $bits | append . }}{{ end }}
+  <li><a href="{{ .RelPermalink }}"><strong>{{ .Title }}</strong></a>{{ with $bits }} — {{ delimit . ", " }}{{ end }}</li>
+{{- end }}
+</ul>
+{{- end -}}

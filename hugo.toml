@@ -153,13 +153,13 @@ summaryLength = 40
 [[menu.main]]
   parent = "programs"
   name = "Dataverse"
-  url = "/research-technology-dataverse/"
+  url = "/research-technology/dataverse/"
   weight = 26
 
 [[menu.main]]
   parent = "programs"
   name = "GIS"
-  url = "/research-technology-gis/"
+  url = "/research-technology/gis/"
   weight = 27
 
 # ── Resources & Services ──

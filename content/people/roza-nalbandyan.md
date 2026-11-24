@@ -6,63 +6,19 @@ source_url: https://iq.harvard.edu/people/roza-nalbandyan
 title: Roza Nalbandyan
 role: ["Visiting Scholars, Fellows, & General Affiliates"]
 program: ["Human Flourishing Program"]
+layout: "resource-page"
+job_title: "Postdoctoral Fellow, Human Flourishing Program"
+subtitle: "Postdoctoral Fellow, Human Flourishing Program"
+photo: "images/live/2026-02/Roza%20Nalbandyan_2026.jpg"
+email: "rozanalbandyan@fas.harvard.edu"
 ---
 
-<main aria-label="Roza Nalbandyan" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">
-<div class="layout-content">
-<div>
-<div class="hidden" data-drupal-messages-fallback=""></div>
-<div class="page-content-top" lang="en">
-<div class="hwp-page-title hwp-bg-light-base">
-<div class="hwp-container hwp-container-px hwp-py-32">
-<h1 class="text-large">
-      Roza Nalbandyan     </h1>
-<div class="hwp-page-header__subtitle">
-<div class="field field--name-field-hwp-person-prof-title field--type-string field--label-hidden">
-<div>Postdoctoral Fellow, Human Flourishing Program</div>
-</div>
-</div>
-</div>
-</div>
-<div class="hwp-container hwp-container-px hwp-pt-32 lg:hwp-pt-64 lg:hwp-flex lg:hwp-gap-24">
-<div class="lg:hwp-w-[19.375rem]">
-<div class="hwp-person-card" data-component-name="person-card">
-<div class="hwp-person-card__image">
-<div class="field field--name-field-hwp-person-headshot field--type-entity-reference field--label-hidden"><div class="hwp-media hwp-media--4-5-small-no-caption">
-<div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="600" media="all and (min-width: 0)" srcset="../../images/live/2026-02/Roza%20Nalbandyan_2026.jpg" type="image/jpeg" width="480"/>
-<img alt="Roza Nalbandyan" height="600" loading="lazy" src="../../images/live/2026-02/Roza%20Nalbandyan_2026.jpg" width="480"/>
-</picture>
-</div>
-</div>
-</div>
-</div>
-<div class="hwp-person-card__information hwp-bg-light-base hwp-flex-1"> <div class="hwp-flex hwp-gap-8 hwp-items-center">
-<span aria-hidden="true" class="material-icon">email</span>
-<a class="hwp-break-all" href="mailto:rozanalbandyan@fas.harvard.edu">rozanalbandyan@fas.harvard.edu</a>
-</div>
-</div>
-</div>
-</div>
-<div class="hwp-flex-1 lg:hwp-px-32">
-<div class="hwp-person-text-block">
-<div class="hwp-text-block field field--name-field-hwp-body field--type-text-long field--label-hidden"><p>Roza Nalbandyan is a Postdoctoral Fellow with the Human Flourishing Program at Harvard University. Her research develops and applies advanced statistical and measurement models — including psychometrics, machine learning, and computational methods — to examine measurement comparability, validity, student development, and academic flourishing. She received her Ph.D. in Education (Measurement, Assessment, and Evaluation) and M.S. in Statistics from Stanford University, and an Ed.M. in Higher and Postsecondary Education from Columbia University, Teachers College. Her work has been recognized with multiple fellowships and awards, including the 2026 NCBE Validity &amp; Fairness Research Award, the James and Viola Quillen Fellowship, and the AERA Outstanding Research Award. Before pursuing her doctorate, she spent over six years in university administration, an experience that continues to ground her research in the practical realities of education.</p></div>
-</div>
-</div>
-</div>
-</div>
-<div class="hwp-container hwp-container-px">
-<div class="field field--name-field-hwp-file-upload field--type-entity-reference field--label-hidden">
-<div></div>
-</div>
-</div>
-<div class="hwp-taxonomy-group hwp-bg-light-core">
-<div class="hwp-container hwp-container-px">
-<ul class="hwp-taxonomy-group__grid">
-</ul>
-</div>
-</div>
-</div>
-</div>
-</main>
+<img src="../../images/live/2026-02/Roza%20Nalbandyan_2026.jpg" alt="Roza Nalbandyan" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
+## Roza Nalbandyan
+
+**Postdoctoral Fellow, Human Flourishing Program**
+
+{{< profile-links >}}
+
+Roza Nalbandyan is a Postdoctoral Fellow with the Human Flourishing Program at Harvard University. Her research develops and applies advanced statistical and measurement models — including psychometrics, machine learning, and computational methods — to examine measurement comparability, validity, student development, and academic flourishing. She received her Ph.D. in Education (Measurement, Assessment, and Evaluation) and M.S. in Statistics from Stanford University, and an Ed.M. in Higher and Postsecondary Education from Columbia University, Teachers College. Her work has been recognized with multiple fellowships and awards, including the 2026 NCBE Validity & Fairness Research Award, the James and Viola Quillen Fellowship, and the AERA Outstanding Research Award. Before pursuing her doctorate, she spent over six years in university administration, an experience that continues to ground her research in the practical realities of education.

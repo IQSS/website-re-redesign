@@ -3,79 +3,21 @@ date: '2026-05-26 14:49:45'
 draft: false
 section: people
 source_url: https://iq.harvard.edu/people/jose-ramon-enriquez
-title: "Jos\xE9 Ram\xF3n Enr\xEDquez"
+title: "José Ramón Enríquez"
 role: ["Affiliated Graduate Students"]
+layout: "resource-page"
+job_title: "Ph.D. Candidate in Political Economy and Government"
+subtitle: "Ph.D. Candidate in Political Economy and Government"
+photo: "images/live/harvard-iqss/files/jose_ramon_enriquez_0.jpg"
+email: "jrenriquez@g.harvard.edu"
 ---
 
-<main aria-label="José Ramón Enríquez" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">
-<div class="layout-content">
-<div>
-<div class="hidden" data-drupal-messages-fallback=""></div>
-<div class="page-content-top" lang="en">
-<div class="hwp-page-title hwp-bg-light-base">
-<div class="hwp-container hwp-container-px hwp-py-32">
-<h1 class="text-large">
-      José Ramón Enríquez     </h1>
-<div class="hwp-page-header__subtitle">
-<div class="field field--name-field-hwp-person-prof-title field--type-string field--label-hidden">
-<div>Ph.D. Candidate in Political Economy and Government</div>
-</div>
-</div>
-</div>
-</div>
-<div class="hwp-container hwp-container-px hwp-pt-32 lg:hwp-pt-64 lg:hwp-flex lg:hwp-gap-24">
-<div class="lg:hwp-w-[19.375rem]">
-<div class="hwp-person-card" data-component-name="person-card">
-<div class="hwp-person-card__image">
-<div class="field field--name-field-hwp-person-headshot field--type-entity-reference field--label-hidden"><div class="hwp-media hwp-media--4-5-small-no-caption">
-<div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="600" media="all and (min-width: 0)" srcset="../../images/live/harvard-iqss/files/jose_ramon_enriquez_0.jpg" type="image/png" width="480"/>
-<img alt="José Ramón Enríquez" height="600" loading="lazy" src="../../images/live/harvard-iqss/files/jose_ramon_enriquez_0.jpg" width="480"/>
-</picture>
-</div>
-</div>
-</div>
-</div>
-<div class="hwp-person-card__information hwp-bg-light-base hwp-flex-1"> <div class="hwp-flex hwp-gap-8 hwp-items-center">
-<span aria-hidden="true" class="material-icon">email</span>
-<a class="hwp-break-all" href="mailto:jrenriquez@g.harvard.edu">jrenriquez@g.harvard.edu</a>
-</div>
-<div class="hwp-mb-24 hwp-flex hwp-flex-col hwp-gap-20">
-<div class="hwp-flex hwp-gap-8 hwp-items-center">
-<span aria-hidden="true" class="material-icon">laptop_windows</span>
-<a href="https://scholar.harvard.edu/enriquez">Website</a>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="hwp-flex-1 lg:hwp-px-32">
-<div class="hwp-person-text-block">
-<div class="hwp-text-block field field--name-field-hwp-body field--type-text-long field--label-hidden"><p>			José Ramón Enríquez is a third-year Ph.D. student in Political Economy and Government. His interests lie in the political economy of development and comparative economic development with a particular interest in elite behavior. Specifically, he has worked on the causes and effects of democratic political dynasties, the role of information in improving political accountability, and the link between crime/violence and public good provision/democratic representation. In his current projects, he uses data from Mexico.<br/><br/>Before beginning his studies at Harvard, he obtained a double bachelor in Economics and Political Science from Instituto Tecnológico Autónomo de México (ITAM) in Mexico City.</p></div>
-</div>
-</div>
-</div>
-</div>
-<div class="hwp-container hwp-container-px">
-<div class="field field--name-field-hwp-file-upload field--type-entity-reference field--label-hidden">
-<div></div>
-</div>
-</div>
-<div class="hwp-taxonomy-group hwp-bg-light-core">
-<div class="hwp-container hwp-container-px">
-<ul class="hwp-taxonomy-group__grid">
-<li class="hwp-taxonomy-group-card hwp-bg-light-base">
-<h2 class="hwp-taxonomy-group-card__title text-x-small">People By Last Name</h2>
-<a href="/people-last-name/d-g" hreflang="en">D - G</a>
-</li>
-<li class="hwp-taxonomy-group-card hwp-bg-light-base">
-<h2 class="hwp-taxonomy-group-card__title text-x-small">Role</h2>
-<a href="/role/affiliated-graduate-students" hreflang="en">Affiliated Graduate Students</a>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</main>
+<img src="../../images/live/harvard-iqss/files/jose_ramon_enriquez_0.jpg" alt="José Ramón Enríquez" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
+## José Ramón Enríquez
+
+**Ph.D. Candidate in Political Economy and Government**
+
+{{< profile-links >}}
+
+José Ramón Enríquez is a third-year Ph.D. student in Political Economy and Government. His interests lie in the political economy of development and comparative economic development with a particular interest in elite behavior. Specifically, he has worked on the causes and effects of democratic political dynasties, the role of information in improving political accountability, and the link between crime/violence and public good provision/democratic representation. In his current projects, he uses data from Mexico. Before beginning his studies at Harvard, he obtained a double bachelor in Economics and Political Science from Instituto Tecnológico Autónomo de México (ITAM) in Mexico City.

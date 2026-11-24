@@ -5,71 +5,19 @@ section: people
 source_url: https://iq.harvard.edu/people/soohyeon-ko
 title: Soohyeon Ko
 role: ["Affiliated Graduate Students"]
+layout: "resource-page"
+job_title: "PhD student in Social and Behavioral Sciences"
+subtitle: "PhD student in Social and Behavioral Sciences"
+photo: "images/live/harvard-iqss/files/soohyeon-ko_2024.jpg"
+email: "soohyeonko@fas.harvard.edu"
 ---
 
-<main aria-label="Soohyeon Ko" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">
-<div class="layout-content">
-<div>
-<div class="hidden" data-drupal-messages-fallback=""></div>
-<div class="page-content-top" lang="en">
-<div class="hwp-page-title hwp-bg-light-base">
-<div class="hwp-container hwp-container-px hwp-py-32">
-<h1 class="text-large">
-      Soohyeon Ko     </h1>
-<div class="hwp-page-header__subtitle">
-<div class="field field--name-field-hwp-person-prof-title field--type-string field--label-hidden">
-<div>PhD student in Social and Behavioral Sciences</div>
-</div>
-</div>
-</div>
-</div>
-<div class="hwp-container hwp-container-px hwp-pt-32 lg:hwp-pt-64 lg:hwp-flex lg:hwp-gap-24">
-<div class="lg:hwp-w-[19.375rem]">
-<div class="hwp-person-card" data-component-name="person-card">
-<div class="hwp-person-card__image">
-<div class="field field--name-field-hwp-person-headshot field--type-entity-reference field--label-hidden"><div class="hwp-media hwp-media--4-5-small-no-caption">
-<div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="600" media="all and (min-width: 0)" srcset="../../images/live/harvard-iqss/files/soohyeon-ko_2024.jpg" type="image/jpeg" width="480"/>
-<img alt="Soohyeon Ko" height="600" loading="lazy" src="../../images/live/harvard-iqss/files/soohyeon-ko_2024.jpg" width="480"/>
-</picture>
-</div>
-</div>
-</div>
-</div>
-<div class="hwp-person-card__information hwp-bg-light-base hwp-flex-1"> <div class="hwp-flex hwp-gap-8 hwp-items-center">
-<span aria-hidden="true" class="material-icon">email</span>
-<a class="hwp-break-all" href="mailto:soohyeonko@fas.harvard.edu">soohyeonko@fas.harvard.edu</a>
-</div>
-</div>
-</div>
-</div>
-<div class="hwp-flex-1 lg:hwp-px-32">
-<div class="hwp-person-text-block">
-<div class="hwp-text-block field field--name-field-hwp-body field--type-text-long field--label-hidden"><p>	Soohyeon Ko is a PhD student in the Social and Behavioral Sciences Department at Harvard T.H. Chan School of Public Health. His research focuses on the social determinants of health among global aging populations, exploring how family dynamics, caregiving burdens, and social isolation contribute to health inequalities.</p></div>
-</div>
-</div>
-</div>
-</div>
-<div class="hwp-container hwp-container-px">
-<div class="field field--name-field-hwp-file-upload field--type-entity-reference field--label-hidden">
-<div></div>
-</div>
-</div>
-<div class="hwp-taxonomy-group hwp-bg-light-core">
-<div class="hwp-container hwp-container-px">
-<ul class="hwp-taxonomy-group__grid">
-<li class="hwp-taxonomy-group-card hwp-bg-light-base">
-<h2 class="hwp-taxonomy-group-card__title text-x-small">People By Last Name</h2>
-<a href="/people-last-name/k-l-0" hreflang="en">K - L</a>
-</li>
-<li class="hwp-taxonomy-group-card hwp-bg-light-base">
-<h2 class="hwp-taxonomy-group-card__title text-x-small">Role</h2>
-<a href="/role/affiliated-graduate-students" hreflang="en">Affiliated Graduate Students</a>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</main>
+<img src="../../images/live/harvard-iqss/files/soohyeon-ko_2024.jpg" alt="Soohyeon Ko" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
+## Soohyeon Ko
+
+**PhD student in Social and Behavioral Sciences**
+
+{{< profile-links >}}
+
+Soohyeon Ko is a PhD student in the Social and Behavioral Sciences Department at Harvard T.H. Chan School of Public Health. His research focuses on the social determinants of health among global aging populations, exploring how family dynamics, caregiving burdens, and social isolation contribute to health inequalities.

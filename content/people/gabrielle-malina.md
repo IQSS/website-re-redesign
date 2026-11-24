@@ -6,75 +6,19 @@ source_url: https://iq.harvard.edu/people/gabrielle-malina
 title: Gabrielle Malina
 role: ["Affiliated Graduate Students"]
 program: ["Digital Lab for the Social Sciences"]
+layout: "resource-page"
+job_title: "Government and Social Policy, GSAS"
+subtitle: "Government and Social Policy, GSAS"
+photo: "images/live/harvard-iqss/files/gabrielle_malina_0.jpg"
+email: "gmalina@g.harvard.edu"
 ---
 
-<main aria-label="Gabrielle Malina" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">
-<div class="layout-content">
-<div>
-<div class="hidden" data-drupal-messages-fallback=""></div>
-<div class="page-content-top" lang="en">
-<div class="hwp-page-title hwp-bg-light-base">
-<div class="hwp-container hwp-container-px hwp-py-32">
-<h1 class="text-large">
-      Gabrielle Malina     </h1>
-<div class="hwp-page-header__subtitle">
-<div class="field field--name-field-hwp-person-prof-title field--type-string field--label-hidden">
-<div>Government and Social Policy, GSAS</div>
-</div>
-</div>
-</div>
-</div>
-<div class="hwp-container hwp-container-px hwp-pt-32 lg:hwp-pt-64 lg:hwp-flex lg:hwp-gap-24">
-<div class="lg:hwp-w-[19.375rem]">
-<div class="hwp-person-card" data-component-name="person-card">
-<div class="hwp-person-card__image">
-<div class="field field--name-field-hwp-person-headshot field--type-entity-reference field--label-hidden"><div class="hwp-media hwp-media--4-5-small-no-caption">
-<div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="600" media="all and (min-width: 0)" srcset="../../images/live/harvard-iqss/files/gabrielle_malina_0.jpg" type="image/png" width="480"/>
-<img alt="Gabrielle Malina" height="600" loading="lazy" src="../../images/live/harvard-iqss/files/gabrielle_malina_0.jpg" width="480"/>
-</picture>
-</div>
-</div>
-</div>
-</div>
-<div class="hwp-person-card__information hwp-bg-light-base hwp-flex-1"> <div class="hwp-flex hwp-gap-8 hwp-items-center">
-<span aria-hidden="true" class="material-icon">email</span>
-<a class="hwp-break-all" href="mailto:gmalina@g.harvard.edu">gmalina@g.harvard.edu</a>
-</div>
-</div>
-</div>
-</div>
-<div class="hwp-flex-1 lg:hwp-px-32">
-<div class="hwp-person-text-block">
-<div class="hwp-text-block field field--name-field-hwp-body field--type-text-long field--label-hidden">Gabrielle is a first year graduate student in Harvard's joint Social Policy and Government Ph.D. program. Her research interests include political psychology and behavior, the formation and durability of political attitudes, and the role of religious beliefs in shaping Americans' attitudes about inequality and redistribution. Gabrielle received her B.A. in Political Science and Spanish from Indiana University in 2015.</div>
-</div>
-</div>
-</div>
-</div>
-<div class="hwp-container hwp-container-px">
-<div class="field field--name-field-hwp-file-upload field--type-entity-reference field--label-hidden">
-<div></div>
-</div>
-</div>
-<div class="hwp-taxonomy-group hwp-bg-light-core">
-<div class="hwp-container hwp-container-px">
-<ul class="hwp-taxonomy-group__grid">
-<li class="hwp-taxonomy-group-card hwp-bg-light-base">
-<h2 class="hwp-taxonomy-group-card__title text-x-small">People By Last Name</h2>
-<a href="/people-last-name/m-p" hreflang="en">M - P</a>
-</li>
-<li class="hwp-taxonomy-group-card hwp-bg-light-base">
-<h2 class="hwp-taxonomy-group-card__title text-x-small">Program</h2>
-<a href="/program/digital-lab-social-sciences" hreflang="en">Digital Lab for the Social Sciences</a>
-</li>
-<li class="hwp-taxonomy-group-card hwp-bg-light-base">
-<h2 class="hwp-taxonomy-group-card__title text-x-small">Role</h2>
-<a href="/role/affiliated-graduate-students" hreflang="en">Affiliated Graduate Students</a>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</main>
+<img src="../../images/live/harvard-iqss/files/gabrielle_malina_0.jpg" alt="Gabrielle Malina" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
+## Gabrielle Malina
+
+**Government and Social Policy, GSAS**
+
+{{< profile-links >}}
+
+Gabrielle is a first year graduate student in Harvard's joint Social Policy and Government Ph.D. program. Her research interests include political psychology and behavior, the formation and durability of political attitudes, and the role of religious beliefs in shaping Americans' attitudes about inequality and redistribution. Gabrielle received her B.A. in Political Science and Spanish from Indiana University in 2015.

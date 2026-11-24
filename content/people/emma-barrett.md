@@ -5,69 +5,19 @@ section: people
 source_url: https://iq.harvard.edu/people/emma-barrett
 title: Emma Barrett
 role: ["Affiliated Graduate Students"]
+layout: "resource-page"
+job_title: "PhD Student, Department of Government, GSAS"
+subtitle: "PhD Student, Department of Government, GSAS"
+photo: "images/live/2026-01/Emma-Barrett_2025.jpg"
+email: "Emmabarrett@g.harvard.edu"
 ---
 
-<main aria-label="Emma Barrett" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">
-<div class="layout-content">
-<div>
-<div class="hidden" data-drupal-messages-fallback=""></div>
-<div class="page-content-top" lang="en">
-<div class="hwp-page-title hwp-bg-light-base">
-<div class="hwp-container hwp-container-px hwp-py-32">
-<h1 class="text-large">
-      Emma Barrett     </h1>
-<div class="hwp-page-header__subtitle">
-<div class="field field--name-field-hwp-person-prof-title field--type-string field--label-hidden">
-<div>PhD Student, Department of Government, GSAS</div>
-</div>
-</div>
-</div>
-</div>
-<div class="hwp-container hwp-container-px hwp-pt-32 lg:hwp-pt-64 lg:hwp-flex lg:hwp-gap-24">
-<div class="lg:hwp-w-[19.375rem]">
-<div class="hwp-person-card" data-component-name="person-card">
-<div class="hwp-person-card__image">
-<div class="field field--name-field-hwp-person-headshot field--type-entity-reference field--label-hidden"><div class="hwp-media hwp-media--4-5-small-no-caption">
-<div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="600" media="all and (min-width: 0)" srcset="../../images/live/2026-01/Emma-Barrett_2025.jpg" type="image/jpeg" width="480"/>
-<img alt="Emma Barrett" height="600" loading="lazy" src="../../images/live/2026-01/Emma-Barrett_2025.jpg" width="480"/>
-</picture>
-</div>
-</div>
-</div>
-</div>
-<div class="hwp-person-card__information hwp-bg-light-base hwp-flex-1"> <div class="hwp-flex hwp-gap-8 hwp-items-center">
-<span aria-hidden="true" class="material-icon">email</span>
-<a class="hwp-break-all" href="mailto:Emmabarrett@g.harvard.edu">Emmabarrett@g.harvard.edu</a>
-</div>
-<div class="hwp-mb-24 hwp-flex hwp-flex-col hwp-gap-20">
-<div class="hwp-flex hwp-gap-8 hwp-items-center">
-<span aria-hidden="true" class="material-icon">laptop_windows</span>
-<a href="https://emmacbarrett.github.io/">Github</a>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="hwp-flex-1 lg:hwp-px-32">
-<div class="hwp-person-text-block">
-<div class="hwp-text-block field field--name-field-hwp-body field--type-text-long field--label-hidden"><p>Emma Barrett is a PhD student in the Department of Government. She studies American Politics, with a focus on political behavior and political geography. Prior to Harvard, she earned a BS in Political Science at Florida State University.</p></div>
-</div>
-</div>
-</div>
-</div>
-<div class="hwp-container hwp-container-px">
-<div class="field field--name-field-hwp-file-upload field--type-entity-reference field--label-hidden">
-<div></div>
-</div>
-</div>
-<div class="hwp-taxonomy-group hwp-bg-light-core">
-<div class="hwp-container hwp-container-px">
-<ul class="hwp-taxonomy-group__grid">
-</ul>
-</div>
-</div>
-</div>
-</div>
-</main>
+<img src="../../images/live/2026-01/Emma-Barrett_2025.jpg" alt="Emma Barrett" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
+## Emma Barrett
+
+**PhD Student, Department of Government, GSAS**
+
+{{< profile-links >}}
+
+Emma Barrett is a PhD student in the Department of Government. She studies American Politics, with a focus on political behavior and political geography. Prior to Harvard, she earned a BS in Political Science at Florida State University.

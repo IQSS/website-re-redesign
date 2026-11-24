@@ -5,86 +5,19 @@ section: people
 source_url: https://iq.harvard.edu/people/andrea-nasuto
 title: Andrea Nasuto
 role: ["Associates"]
+layout: "resource-page"
+job_title: "Associate of IQSS"
+subtitle: "Associate of IQSS"
+photo: "images/live/harvard-iqss/files/andrea-nasuto_2025.jpg"
+email: "anasuto@fas.harvard.edu"
 ---
 
-<main aria-label="Andrea Nasuto" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">
-<div class="layout-content">
-<div>
-<div class="hidden" data-drupal-messages-fallback=""></div>
-<div class="page-content-top" lang="en">
-<div class="hwp-page-title hwp-bg-light-base">
-<div class="hwp-container hwp-container-px hwp-py-32">
-<h1 class="text-large">
-      Andrea Nasuto     </h1>
-<div class="hwp-page-header__subtitle">
-<div class="field field--name-field-hwp-person-prof-title field--type-string field--label-hidden">
-<div>Associate of IQSS</div>
-<div>PhD Candidate, University of Liverpool</div>
-</div>
-</div>
-</div>
-</div>
-<div class="hwp-container hwp-container-px hwp-pt-32 lg:hwp-pt-64 lg:hwp-flex lg:hwp-gap-24">
-<div class="lg:hwp-w-[19.375rem]">
-<div class="hwp-person-card" data-component-name="person-card">
-<div class="hwp-person-card__image">
-<div class="field field--name-field-hwp-person-headshot field--type-entity-reference field--label-hidden"><div class="hwp-media hwp-media--4-5-small-no-caption">
-<div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="600" media="all and (min-width: 0)" srcset="../../images/live/harvard-iqss/files/andrea-nasuto_2025.jpg" type="image/png" width="480"/>
-<img alt="Andrea Nasuto" height="600" loading="lazy" src="../../images/live/harvard-iqss/files/andrea-nasuto_2025.jpg" width="480"/>
-</picture>
-</div>
-</div>
-</div>
-</div>
-<div class="hwp-person-card__information hwp-bg-light-base hwp-flex-1"> <div class="hwp-flex hwp-gap-8 hwp-items-center">
-<span aria-hidden="true" class="material-icon">email</span>
-<a class="hwp-break-all" href="mailto:anasuto@fas.harvard.edu">anasuto@fas.harvard.edu</a>
-</div>
-<div class="hwp-mb-24 hwp-flex hwp-flex-col hwp-gap-20">
-<div class="hwp-flex hwp-gap-8 hwp-items-center">
-<span aria-hidden="true" class="material-icon">laptop_windows</span>
-<a href="https://github.com/andreanasuto">GitHub</a>
-</div>
-<div class="hwp-flex hwp-gap-8 hwp-items-center">
-<span aria-hidden="true" class="material-icon">laptop_windows</span>
-<a href="https://scholar.google.com/citations?user=Rh9EhIsAAAAJ&amp;hl=en">Google Scholar citations</a>
-</div>
-<div class="hwp-flex hwp-gap-8 hwp-items-center">
-<span aria-hidden="true" class="material-icon">laptop_windows</span>
-<a href="https://x.com/andrea_nasuto">Twitter/X</a>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="hwp-flex-1 lg:hwp-px-32">
-<div class="hwp-person-text-block">
-<div class="hwp-text-block field field--name-field-hwp-body field--type-text-long field--label-hidden"><p>Andrea Nasuto is a PhD candidate in Geographic Data Science at the University of Liverpool. His research combines large language models, geospatial modeling, and machine learning to analyze human behavior, with a focus on immigration sentiment and human mobility. His PhD examines immigration sentiment both online and offline using social media data, LLMs, and geospatial modeling. He has worked with multiple UN agencies on projects related to migrant displacement, crisis impacts, and human mobility in Ukraine and Latin America. Andrea has also contributed to studies and reports on urban sciences and climate-driven market shifts. <a href="https://scholar.google.com/citations?user=Rh9EhIsAAAAJ&amp;hl=en">His work has been cited</a> in various research publications. He has been invited to present his research at multiple institutions, including MIT, Brown University, the Berkman Klein Center at Harvard, the United Nations Population &amp; Development Division in New York, and the International Organization for Migration (IOM) in London.</p></div>
-</div>
-</div>
-</div>
-</div>
-<div class="hwp-container hwp-container-px">
-<div class="field field--name-field-hwp-file-upload field--type-entity-reference field--label-hidden">
-<div></div>
-</div>
-</div>
-<div class="hwp-taxonomy-group hwp-bg-light-core">
-<div class="hwp-container hwp-container-px">
-<ul class="hwp-taxonomy-group__grid">
-<li class="hwp-taxonomy-group-card hwp-bg-light-base">
-<h2 class="hwp-taxonomy-group-card__title text-x-small">People By Last Name</h2>
-<a href="/people-last-name/m-p" hreflang="en">M - P</a>
-</li>
-<li class="hwp-taxonomy-group-card hwp-bg-light-base">
-<h2 class="hwp-taxonomy-group-card__title text-x-small">Role</h2>
-<a href="/role/associates" hreflang="en">Associates</a>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</main>
+<img src="../../images/live/harvard-iqss/files/andrea-nasuto_2025.jpg" alt="Andrea Nasuto" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
+## Andrea Nasuto
+
+**Associate of IQSS**
+
+{{< profile-links >}}
+
+Andrea Nasuto is a PhD candidate in Geographic Data Science at the University of Liverpool. His research combines large language models, geospatial modeling, and machine learning to analyze human behavior, with a focus on immigration sentiment and human mobility. His PhD examines immigration sentiment both online and offline using social media data, LLMs, and geospatial modeling. He has worked with multiple UN agencies on projects related to migrant displacement, crisis impacts, and human mobility in Ukraine and Latin America. Andrea has also contributed to studies and reports on urban sciences and climate-driven market shifts. His work has been cited in various research publications. He has been invited to present his research at multiple institutions, including MIT, Brown University, the Berkman Klein Center at Harvard, the United Nations Population & Development Division in New York, and the International Organization for Migration (IOM) in London.

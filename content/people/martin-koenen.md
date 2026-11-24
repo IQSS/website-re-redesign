@@ -5,71 +5,19 @@ section: people
 source_url: https://iq.harvard.edu/people/martin-koenen
 title: Martin Koenen
 role: ["Affiliated Graduate Students"]
+layout: "resource-page"
+job_title: "PhD Candidate in Political Economy and Government, GSAS"
+subtitle: "PhD Candidate in Political Economy and Government, GSAS"
+photo: "images/live/harvard-iqss/files/koenen_martin_2021.jpg"
+email: "martin_koenen@g.harvard.edu"
 ---
 
-<main aria-label="Martin Koenen" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">
-<div class="layout-content">
-<div>
-<div class="hidden" data-drupal-messages-fallback=""></div>
-<div class="page-content-top" lang="en">
-<div class="hwp-page-title hwp-bg-light-base">
-<div class="hwp-container hwp-container-px hwp-py-32">
-<h1 class="text-large">
-      Martin Koenen     </h1>
-<div class="hwp-page-header__subtitle">
-<div class="field field--name-field-hwp-person-prof-title field--type-string field--label-hidden">
-<div>PhD Candidate in Political Economy and Government, GSAS</div>
-</div>
-</div>
-</div>
-</div>
-<div class="hwp-container hwp-container-px hwp-pt-32 lg:hwp-pt-64 lg:hwp-flex lg:hwp-gap-24">
-<div class="lg:hwp-w-[19.375rem]">
-<div class="hwp-person-card" data-component-name="person-card">
-<div class="hwp-person-card__image">
-<div class="field field--name-field-hwp-person-headshot field--type-entity-reference field--label-hidden"><div class="hwp-media hwp-media--4-5-small-no-caption">
-<div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="600" media="all and (min-width: 0)" srcset="../../images/live/harvard-iqss/files/koenen_martin_2021.jpg" type="image/jpeg" width="480"/>
-<img alt="Martin Koenen" height="600" loading="lazy" src="../../images/live/harvard-iqss/files/koenen_martin_2021.jpg" width="480"/>
-</picture>
-</div>
-</div>
-</div>
-</div>
-<div class="hwp-person-card__information hwp-bg-light-base hwp-flex-1"> <div class="hwp-flex hwp-gap-8 hwp-items-center">
-<span aria-hidden="true" class="material-icon">email</span>
-<a class="hwp-break-all" href="mailto:martin_koenen@g.harvard.edu">martin_koenen@g.harvard.edu</a>
-</div>
-</div>
-</div>
-</div>
-<div class="hwp-flex-1 lg:hwp-px-32">
-<div class="hwp-person-text-block">
-<div class="hwp-text-block field field--name-field-hwp-body field--type-text-long field--label-hidden"><p>			Martin Koenen is a PhD candidate in Political Economy and Government. His research interests are in political economy, labor economics and public finance. Within these fields, he is primarily interested in the causes and consequences of economic inequality as well as questions of political polarization.<br/><br/>Before beginning his PhD, Martin was a pre-doctoral fellow at Opportunity Insights working on research related to economic opportunity and social mobility. Martin holds a M.Sc. and a B.Sc. In Economics from the University of Mannheim and Humboldt-University, Berlin.</p></div>
-</div>
-</div>
-</div>
-</div>
-<div class="hwp-container hwp-container-px">
-<div class="field field--name-field-hwp-file-upload field--type-entity-reference field--label-hidden">
-<div></div>
-</div>
-</div>
-<div class="hwp-taxonomy-group hwp-bg-light-core">
-<div class="hwp-container hwp-container-px">
-<ul class="hwp-taxonomy-group__grid">
-<li class="hwp-taxonomy-group-card hwp-bg-light-base">
-<h2 class="hwp-taxonomy-group-card__title text-x-small">People By Last Name</h2>
-<a href="/people-last-name/k-l-0" hreflang="en">K - L</a>
-</li>
-<li class="hwp-taxonomy-group-card hwp-bg-light-base">
-<h2 class="hwp-taxonomy-group-card__title text-x-small">Role</h2>
-<a href="/role/affiliated-graduate-students" hreflang="en">Affiliated Graduate Students</a>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</main>
+<img src="../../images/live/harvard-iqss/files/koenen_martin_2021.jpg" alt="Martin Koenen" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
+## Martin Koenen
+
+**PhD Candidate in Political Economy and Government, GSAS**
+
+{{< profile-links >}}
+
+Martin Koenen is a PhD candidate in Political Economy and Government. His research interests are in political economy, labor economics and public finance. Within these fields, he is primarily interested in the causes and consequences of economic inequality as well as questions of political polarization. Before beginning his PhD, Martin was a pre-doctoral fellow at Opportunity Insights working on research related to economic opportunity and social mobility. Martin holds a M.Sc. and a B.Sc. In Economics from the University of Mannheim and Humboldt-University, Berlin.

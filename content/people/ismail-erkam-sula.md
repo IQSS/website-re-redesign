@@ -6,6 +6,9 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "Post-Doctoral Researcher, IQSS"
 role: ["Alumni"]
+build:
+  render: never
+  list: always
 ---
 
 <img src="../../images/live/harvard-iqss/files/ismail_erkam_sula_0_0.png" alt="Ismail Erkam Sula" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />

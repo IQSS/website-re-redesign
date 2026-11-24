@@ -57,7 +57,7 @@
     {{- end -}}
   {{- end -}}
 
-  {{- $people = $people | append (dict "page" $p "titles" $d.titles "teaser" $d.teaser "roles" $roles "year" $year "programs" $progs "photo" $d.photo "sortkey" $d.sortkey) -}}
+  {{- $people = $people | append (dict "page" $p "titles" $d.titles "teaser" $d.teaser "dates" $d.dates "roles" $roles "year" $year "programs" $progs "photo" $d.photo "sortkey" $d.sortkey) -}}
 {{- end -}}
 
 {{- $programs = $programs | uniq | sort -}}
@@ -166,7 +166,8 @@
                 {{- $p := .page }}
                 {{- $roleVals := slice }}{{ range .roles }}{{ $roleVals = $roleVals | append (. | lower | replaceRE `[^a-z0-9]+` "-" | replaceRE `^-+|-+$` "") }}{{ end }}
                 {{- $progVals := slice }}{{ range .programs }}{{ $progVals = $progVals | append (. | lower | replaceRE `[^a-z0-9]+` "-" | replaceRE `^-+|-+$` "") }}{{ end }}
-                    <li class="pd-card" data-name="{{ $p.Title }}" data-role="{{ delimit $roleVals " " }}" data-program="{{ delimit $progVals " " }}" data-year="{{ .year }}">
+                    {{- $isAlum := in ($p.Params.role | default slice) "Alumni" }}
+                    <li class="pd-card{{ if $isAlum }} pd-card--alumni{{ end }}" data-name="{{ $p.Title }}" data-role="{{ delimit $roleVals " " }}" data-program="{{ delimit $progVals " " }}" data-year="{{ .year }}">
                         <div class="pd-card__photo">
                         {{- with .photo }}
                             <img src="{{ . }}" alt="" loading="lazy" />
@@ -175,13 +176,15 @@
                         {{- end }}
                         </div>
                         <div class="pd-card__text">
-                            <h3 class="pd-card__name"><a href="{{ $p.RelPermalink }}">{{ $p.Title }}</a></h3>
+                            <h3 class="pd-card__name">{{ if $isAlum }}{{ $p.Title }}{{ else }}<a href="{{ $p.RelPermalink }}">{{ $p.Title }}</a>{{ end }}</h3>
                             {{- range .titles }}
                             <p class="pd-card__title">{{ . }}</p>
                             {{- end }}
                             {{- with .teaser }}
                             <p class="pd-card__teaser">{{ . }}</p>
-                            {{- end }}
+                            {{- else }}{{ with .dates }}
+                            <p class="pd-card__teaser">{{ delimit . ", " }}</p>
+                            {{- end }}{{ end }}
                         </div>
                     </li>
                 {{- end }}
@@ -259,6 +262,14 @@
     padding: 16px; margin: 0 0 12px; transition: box-shadow 0.2s ease;
 }
 .pd-card:hover { box-shadow: 0 6px 18px rgba(0,0,0,0.1); }
+
+/* Alumni keep a directory entry but no page of their own, so the card is
+   not a link and does not lift on hover. The muted face marks them as past
+   members rather than current ones. */
+.pd-card--alumni { background: #f6f5f3; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
+.pd-card--alumni:hover { box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
+.pd-card--alumni .pd-card__name { color: #5a5a5a; }
+.pd-card--alumni .pd-card__photo { opacity: 0.72; }
 .pd-card__photo {
     flex: 0 0 80px; width: 80px; height: 100px; border-radius: 6px; overflow: hidden;
     background: #e9ecef; color: #9aa5b1; display: flex; align-items: center; justify-content: center;

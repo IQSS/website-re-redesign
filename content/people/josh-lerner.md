@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "Jacob H. Schiff Professor of Investment Banking"
 role: ["Affiliated Faculty"]
 ---
-<img src="../../images/live/harvard-iqss/files/josh_lerner_0.png" alt="Josh Lerner" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/josh_lerner_0.png" alt="Josh Lerner" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Josh Lerner
 

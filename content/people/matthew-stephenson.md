@@ -8,7 +8,7 @@ subtitle: "Eli Goldston Professor of Law"
 role: ["Affiliated Faculty"]
 ---
 
-<img src="../../images/live/harvard-iqss/files/matthew_stephenson.jpg" alt="Matthew Stephenson" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/matthew_stephenson.jpg" alt="Matthew Stephenson" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Matthew Stephenson
 

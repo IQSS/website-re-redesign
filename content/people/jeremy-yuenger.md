@@ -8,7 +8,7 @@ subtitle: "IT Client Support Services II, Harvard-MIT Data Center"
 role: ["Staff"]
 ---
 
-<img src="../../images/live/harvard-iqss/files/stock_laptop_macbook_0.jpg" alt="Jeremy Yuenger" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/stock_laptop_macbook_0.jpg" alt="Jeremy Yuenger" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Jeremy Yuenger
 

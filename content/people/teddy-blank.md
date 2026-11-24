@@ -14,7 +14,7 @@ foundry_board: 20
 source_url: https://www.iq.harvard.edu/iqss-startup-foundry-executive-affiliates-and-board-advisors
 ---
 
-<img src="../../images/people-teddy-blank.jpg" alt="Teddy Blank" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/people-teddy-blank.jpg" alt="Teddy Blank" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Teddy Blank
 

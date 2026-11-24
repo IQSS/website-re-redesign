@@ -6,15 +6,16 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "Albert Pratt Professor of Business and Government, HKS"
 role: ["Affiliated Faculty"]
+email: "iris_bohnet@harvard.edu"
 ---
 
-<img src="../../images/live/2025-12/Iris-Bohnet_2023.jpg" alt="Iris Bohnet" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/2025-12/Iris-Bohnet_2023.jpg" alt="Iris Bohnet" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Iris Bohnet
 
 **Albert Pratt Professor of Business and Government, HKS**
 
-**Email:** [iris_bohnet@harvard.edu](mailto:iris_bohnet@harvard.edu)
+{{< profile-links >}}
 
 Iris Bohnet is Professor of Public Policy at the Harvard Kennedy School. She directs the Women and Public Policy Program, serves as associate director of the Harvard Decision Science Laboratory, vice-chair of the Program on Negotiation, and faculty co-chair of the executive program "Global Leadership and Public Policy for the 21st Century" for the World Economic Forum's Young Global Leaders. She is affiliated with the Center for Business and Government, the Center for Public Leadership, the Dubai Initiative, and the Institute for Quantitative Social Science at Harvard. She sits on the Global Agenda Councils on Diversity and Development and the Gender Gap of the World Economic Forum, and serves on boards including the Graduate Institute of International Studies in Geneva and the advisory board of the Vienna University of Economics and Business Administration, along with numerous academic journals in economics, management, negotiation, decision analysis, and law.
 

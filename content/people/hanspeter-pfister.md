@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "An Wang Professor of Computer Science"
 role: ["Affiliated Faculty", "Steering Committee"]
 ---
-<img src="../../images/live/harvard-iqss/files/pfisterh_website_01.jpg" alt="Hanspeter Pfister" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/pfisterh_website_01.jpg" alt="Hanspeter Pfister" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Hanspeter Pfister
 

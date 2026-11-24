@@ -8,7 +8,7 @@ subtitle: "Managing Director, Digital China Initiative"
 role: ["Staff"]
 ---
 
-<img src="../../images/live/2026-03/Kwok-Leong%20Tang%202026.jpg" alt="Kwok Leong Tang" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/2026-03/Kwok-Leong%20Tang%202026.jpg" alt="Kwok Leong Tang" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Kwok-Leong Tang
 

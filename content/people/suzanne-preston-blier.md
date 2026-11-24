@@ -7,15 +7,16 @@ hero_image: ""
 subtitle: "Allen Whitehill Clowes Professor of Fine Arts"
 role: ["Affiliated Faculty"]
 program: ["Center for Geographic Analysis"]
+email: "blier@fas.harvard.edu"
 ---
 
-<img src="../../images/live/harvard-iqss/files/suzanne_blier_0.jpg" alt="Suzanne Preston Blier" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/suzanne_blier_0.jpg" alt="Suzanne Preston Blier" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Suzanne Preston Blier
 
 **Allen Whitehill Clowes Professor of Fine Arts and of African and African American Studies**
 
-**Email:** [blier@fas.harvard.edu](mailto:blier@fas.harvard.edu)
+{{< profile-links >}}
 
 Suzanne Preston Blier earned her Ph.D. in 1981 from Columbia and holds the Allen Whitehill Clowes Professor of Fine Arts and of African and African American Studies position at Harvard University. She is a historian of African art and architecture working in both the History of Art and Architecture and African and African American Studies Departments, and is a member of the Institute for Quantitative Social Science.
 

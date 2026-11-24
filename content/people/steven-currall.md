@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "Executive Director, Academic-Corporate Initiatives, OVPR"
 role: ["Affiliated Faculty"]
 ---
-<img src="../../images/live/2026-02/Steven-Currall_2026.jpg" alt="Steven Currall" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/2026-02/Steven-Currall_2026.jpg" alt="Steven Currall" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Steven Currall
 

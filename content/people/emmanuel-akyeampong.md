@@ -6,15 +6,16 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "Oppenheimer Faculty Director; Ellen Gurney Professor of History"
 role: ["Affiliated Faculty"]
+email: "akyeamp@fas.harvard.edu"
 ---
 
-<img src="../../images/live/harvard-iqss/files/emmanuel-akyeampong_2019.jpg" alt="Emmanuel Akyeampong" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/emmanuel-akyeampong_2019.jpg" alt="Emmanuel Akyeampong" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Emmanuel Akyeampong
 
 **Oppenheimer Faculty Director; Ellen Gurney Professor of History and of African and African American Studies**
 
-**Email:** [akyeamp@fas.harvard.edu](mailto:akyeamp@fas.harvard.edu)
+{{< profile-links >}}
 
 Professor Akyeampong joined Harvard's History faculty after earning his PhD in African History from the University of Virginia in 1993. He received his master's degree at Wake Forest University in 1989, focusing on English labor history, and his bachelor's degree in History and Religions from the University of Ghana at Legon in 1984.
 

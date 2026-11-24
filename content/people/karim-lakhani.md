@@ -8,7 +8,7 @@ subtitle: "Charles Edward Wilson Professor of Business Administration"
 role: ["Affiliated Faculty"]
 program: ["Laboratory for Innovation Science (LISH)"]
 ---
-<img src="../../images/live/harvard-iqss/files/karim_lakhani_01.jpg" alt="Karim R Lakhani" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/karim_lakhani_01.jpg" alt="Karim R Lakhani" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Karim Lakhani
 

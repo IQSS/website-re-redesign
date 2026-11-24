@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "Director of Engineering, VPAL"
 role: ["Affiliated Faculty"]
 ---
-<img src="../../images/live/harvard-iqss/files/glenn_lopez_2020.png" alt="Glenn Lopez" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/glenn_lopez_2020.png" alt="Glenn Lopez" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Glenn Lopez
 

@@ -7,14 +7,15 @@ hero_image: ""
 subtitle: "Developer, Dataverse; Systems Programmer, UNC"
 role: ["Visiting Scholars, Fellows, & General Affiliates"]
 program: ["Dataverse Project"]
+email: "don.sizemore@gmail.com"
 ---
 
-<img src="../../images/live/harvard-iqss/files/don-sizemore_2023.jpg" alt="Don Sizemore" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/don-sizemore_2023.jpg" alt="Don Sizemore" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Don Sizemore, II
 
 **Developer, Dataverse; Systems Programmer, UNC**
 
-**Email:** [don.sizemore@gmail.com](mailto:don.sizemore@gmail.com)
+{{< profile-links >}}
 
 Don Sizemore became involved with IQSS through the Dataverse project when he joined the Odum Institute in 2015. He is the primary author of the Dataverse-Ansible role, a consultant through the Global Dataverse Community Consortium, and attempts to support the Dataverse community over its various communication channels. He holds a Master of Information Science from UNC's School of Information and Library Science, but highly cherishes his undergraduate minor in music performance on pipe organ.

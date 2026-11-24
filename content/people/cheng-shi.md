@@ -7,14 +7,15 @@ hero_image: ""
 subtitle: "Front-End Developer, Dataverse"
 role: ["Product Development", "Staff"]
 program: ["Dataverse Project"]
+email: "cshi1@g.harvard.edu"
 ---
 
-<img src="../../images/live/harvard-iqss/files/cheng-shi_2025.jpg" alt="Cheng Shi" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/cheng-shi_2025.jpg" alt="Cheng Shi" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Cheng Shi
 
 **Front-End Developer, Dataverse**
 
-**Email:** [cshi1@g.harvard.edu](mailto:cshi1@g.harvard.edu)
+{{< profile-links >}}
 
 Cheng Shi graduated from the University of Southern California in 2023 with a master's degree in Data Science, following her bachelor's degree from Penn State University. She currently serves as a front-end developer for Dataverse at IQSS. In this role, she develops high-performing single-page applications, ensuring optimal user experiences through efficiency and precision. Her interests extend to broader web application development, where she continues to explore innovative solutions to enhance functionality and user engagement.

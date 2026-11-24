@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "Professor of Government and Statistics, FAS"
 role: ["Affiliated Faculty"]
 ---
-<img src="../../images/live/harvard-iqss/files/imaiwhiteboard-med_0.jpg" alt="Kosuke Imai" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/imaiwhiteboard-med_0.jpg" alt="Kosuke Imai" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Kosuke Imai
 

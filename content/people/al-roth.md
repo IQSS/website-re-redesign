@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "George Gund Professor of Economics, Emeritus"
 role: ["Affiliated Faculty"]
 ---
-<img src="../../images/live/harvard-iqss/files/al_roth_0.jpg" alt="Al Roth" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/al_roth_0.jpg" alt="Al Roth" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Al Roth
 

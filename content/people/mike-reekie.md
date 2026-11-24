@@ -7,15 +7,16 @@ hero_image: ""
 subtitle: "Senior Project Manager for Engineering"
 role: ["Product Development", "Staff"]
 program: ["Sid"]
+email: "mreekie@iq.harvard.edu"
 ---
 
-<img src="../../images/live/2025-10/Mike-Reekie_2025.jpg" alt="Mike Reekie" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/2025-10/Mike-Reekie_2025.jpg" alt="Mike Reekie" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Mike Reekie
 
 **Senior Project Manager for Engineering**
 
-**Email:** [mreekie@iq.harvard.edu](mailto:mreekie@iq.harvard.edu)
+{{< profile-links >}}
 
 Mike Reekie is the Senior Project Manager for Engineering and Technical Operations at IQSS, Harvard. He handles day-to-day project management for the IT Operations team and Engineering software development projects for the DevOps team.
 

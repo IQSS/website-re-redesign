@@ -8,7 +8,7 @@ subtitle: "Team Lead, IT Client Support Services"
 role: ["Staff"]
 ---
 
-<img src="../../images/live/harvard-iqss/files/pexels-photo-1112598_0.jpg" alt="A lamp and a plant" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/pexels-photo-1112598_0.jpg" alt="A lamp and a plant" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Anna Taylor
 

@@ -6,15 +6,16 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "Jesse Isidor Straus Professor of Business Administration, HBS"
 role: ["Affiliated Faculty"]
+email: "mbazerman@hbs.edu"
 ---
 
-<img src="../../images/live/harvard-iqss/files/max_bazerman_0.jpg" alt="Max Bazerman" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/max_bazerman_0.jpg" alt="Max Bazerman" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Max Bazerman
 
 **Jesse Isidor Straus Professor of Business Administration, Harvard Business School**
 
-**Email:** [mbazerman@hbs.edu](mailto:mbazerman@hbs.edu)
+{{< profile-links >}}
 
 Max H. Bazerman holds the Jesse Isidor Straus Professorship of Business Administration at Harvard Business School and serves as Co-Director of the Center for Public Leadership at Harvard Kennedy School.
 

@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "Professor, Department of Sociology"
 role: ["Affiliated Faculty"]
 ---
-<img src="../../images/live/2025-10/David-Pedulla_2022.jpg" alt="David Pedulla" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/2025-10/David-Pedulla_2022.jpg" alt="David Pedulla" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## David Pedulla
 

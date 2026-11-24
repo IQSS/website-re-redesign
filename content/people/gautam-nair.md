@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "Assistant Professor of Public Policy, HKS"
 role: ["Affiliated Faculty"]
 ---
-<img src="../../images/live/harvard-iqss/files/gautam_nair_2020.png" alt="Gautam Nair" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/gautam_nair_2020.png" alt="Gautam Nair" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Gautam Nair
 

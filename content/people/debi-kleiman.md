@@ -14,13 +14,13 @@ foundry_title: ["Head of IQSS Startup Foundry"]
 foundry_team: 30
 ---
 
-<img src="../../images/people-debi-kleiman.jpg" alt="Debi Kleiman" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/people-debi-kleiman.jpg" alt="Debi Kleiman" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Debi Kleiman
 
 **Director, IQSS Startup Foundry**
 
-**Email:** [dkleiman@iq.harvard.edu](mailto:dkleiman@iq.harvard.edu)
+{{< profile-links >}}
 
 Debi Kleiman leads the IQSS Startup Foundry at Harvard, where she catalyzes faculty-led innovation and commercialization across the University.
 

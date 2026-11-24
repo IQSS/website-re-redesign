@@ -8,7 +8,7 @@ subtitle: "Professor, Northeastern University"
 role: ["Visiting Scholars, Fellows, & General Affiliates"]
 ---
 
-<img src="../../images/live/harvard-iqss/files/alessandro_vespignani_0.jpg" alt="Alessandro Vespignani" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/alessandro_vespignani_0.jpg" alt="Alessandro Vespignani" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Alessandro Vespignani
 

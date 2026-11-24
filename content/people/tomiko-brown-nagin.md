@@ -6,15 +6,16 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "Daniel P.S. Paul Professor of Constitutional Law"
 role: ["Affiliated Faculty"]
+email: "tbrownnagin@law.harvard.edu"
 ---
 
-<img src="../../images/live/harvard-iqss/files/tomiko_brown-nagin_0_1.jpg" alt="Tomiko Brown-Nagin" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/tomiko_brown-nagin_0_1.jpg" alt="Tomiko Brown-Nagin" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Tomiko Brown-Nagin
 
 **Daniel P.S. Paul Professor of Constitutional Law; Professor of History, Faculty of Arts and Sciences**
 
-**Email:** [tbrownnagin@law.harvard.edu](mailto:tbrownnagin@law.harvard.edu)
+{{< profile-links >}}
 
 Tomiko Brown-Nagin is described as "an award-winning legal historian and expert in constitutional law and education law and policy." She has published in numerous prestigious journals including the Yale Law Journal, Columbia Law Review, Duke Law Journal, and Journal of Law & Education, covering topics such as equal protection jurisprudence, civil rights law and history, the Affordable Care Act, and education reform.
 

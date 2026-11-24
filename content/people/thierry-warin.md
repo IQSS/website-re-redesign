@@ -8,7 +8,7 @@ subtitle: "Visiting Scholar, D^3 Institute"
 role: ["Visiting Scholars, Fellows, & General Affiliates"]
 ---
 
-<img src="../../images/live/harvard-iqss/files/thierry-warin_2024.jpg" alt="Thierry Warin" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/thierry-warin_2024.jpg" alt="Thierry Warin" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Thierry Warin
 

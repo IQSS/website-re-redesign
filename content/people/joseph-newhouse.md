@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "John D. MacArthur Professor of Health Policy"
 role: ["Affiliated Faculty"]
 ---
-<img src="../../images/live/harvard-iqss/files/joseph-newhouse_2019.png" alt="Joseph Newhouse" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/joseph-newhouse_2019.png" alt="Joseph Newhouse" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Joseph Newhouse
 

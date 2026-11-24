@@ -9,7 +9,7 @@ role: ["Visiting Scholars, Fellows, & General Affiliates"]
 program: ["Human Flourishing Program"]
 ---
 
-<img src="../../images/live/2026-03/Charlotte%20Duffee%202026.JPG" alt="Charlotte Duffee" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/2026-03/Charlotte%20Duffee%202026.JPG" alt="Charlotte Duffee" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Charlotte Duffee
 

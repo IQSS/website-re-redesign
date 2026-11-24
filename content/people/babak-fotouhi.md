@@ -8,7 +8,7 @@ subtitle: "Post-doctoral Fellow, Program for Evolutionary Dynamics"
 role: ["Visiting Scholars, Fellows, & General Affiliates"]
 ---
 
-<img src="../../images/live/harvard-iqss/files/babak_fotouhi_0.jpg" alt="Babak Fotouhi" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/babak_fotouhi_0.jpg" alt="Babak Fotouhi" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Babak Fotouhi
 

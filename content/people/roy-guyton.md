@@ -6,15 +6,16 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "IT Client Support Services Associate"
 role: ["Staff"]
+email: "rguyton@hmdc.harvard.edu"
 ---
 
-<img src="../../images/live/harvard-iqss/files/roy_guyton.jpg" alt="roy guyton" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/roy_guyton.jpg" alt="roy guyton" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Roy Guyton
 
 **IT Client Support Services Associate**
 
-**Email:** [rguyton@hmdc.harvard.edu](mailto:rguyton@hmdc.harvard.edu)
+{{< profile-links >}}
 
 Roy is a graduate of Willamette University where he received a BA in Spanish Literature and International Studies in Salem, OR. He also received his Ed.M for Technology in Education from the Harvard Graduate School of Education. Additionally, Roy has taken graduate courses at NIH, MIT and the Division of Continuing Education (DCE) at Harvard University. Roy was employed with the Harvard Graduate School of Education for 12 years where he ran the student help desk, and employed 10 years at DCE as a graduate teaching assistant. He spent three years in Costa Rica as a US Peace Corps volunteer working with IBM, MIT, Omar Dengo Foundation and the Costa Rican Department of Education on a national computer education program. He holds extensive contracting experience since 1992 in the area of technology in education. Roy was also a board member of several non profit organizations.
 

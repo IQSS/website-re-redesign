@@ -11,15 +11,17 @@ photo: "images/people-rachel-franklin.jpg"
 role: ["Leadership", "Staff"]
 role_weight: 40
 program: ["Center for Geographic Analysis"]
+links:
+  - { label: "rachelfranklin.org", url: "https://www.rachelfranklin.org/" }
 ---
 
-<img src="../../images/people-rachel-franklin.jpg" alt="Rachel Franklin" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/people-rachel-franklin.jpg" alt="Rachel Franklin" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Rachel Franklin
 
 **Executive Director, Center for Geographic Analysis**
 
-**Email:** [rachel_franklin@cga.harvard.edu](mailto:rachel_franklin@cga.harvard.edu)
+{{< profile-links >}}
 
 Dr. Rachel Franklin started as Executive Director of the CGA in March of 2025, bringing more than 20 years' experience as an educator and researcher in GIS, spatial analysis, and quantitative methods. Her research interests are in the sources and impacts of demographic change as it occurs at multiple spatial scales, and in the use of novel forms of data and analysis to identify and address that change. Her most recent research explores how smart city technologies contribute to and reinforce socio-economic and spatial inequalities.
 
@@ -28,5 +30,3 @@ Franklin began her professional career in 2002 as a statistician demographer for
 Prior to joining the CGA, Franklin was a full professor of geographical analysis at Newcastle University's Centre for Urban and Regional Development Studies (CURDS), and the head of Newcastle Data since 2022. She also joined the Alan Turing Institute in 2021. She is also a visiting professor at Gran Sasso Science Institute (GSSI), Italy, and a visiting scholar in population studies at Brown University.
 
 Franklin received her bachelor's degree in French and Political Science in 1994, and her MA in West European Studies in 1996, both at Indiana University. She received her PhD in Geography, with a minor in spatial analysis and remote sensing, in 2004 at the University of Arizona.
-
-**Website:** [rachelfranklin.org](https://www.rachelfranklin.org/)

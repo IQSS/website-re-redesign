@@ -12,7 +12,7 @@ foundry_title: ["Entrepreneur in Residence"]
 foundry_team: 40
 ---
 
-<img src="https://www.iq.harvard.edu/sites/g/files/omnuum8171/files/styles/hwp_4_5__690x865/public/2026-02/Brad-Rosen_2026.JPG" alt="Brad Rosen" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/2026-02/Brad-Rosen_2026.jpg" alt="Brad Rosen" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Brad Rosen
 

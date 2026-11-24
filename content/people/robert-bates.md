@@ -6,15 +6,16 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "Eaton Professor of the Science of Government, Emeritus"
 role: ["Affiliated Faculty"]
+email: "robert.bates.harvard.edu@gmail.com"
 ---
 
-<img src="../../images/live/harvard-iqss/files/bob_bates_0.jpg" alt="Robert Bates" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/bob_bates_0.jpg" alt="Robert Bates" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Robert Bates
 
 **Eaton Professor of the Science of Government, Emeritus**
 
-**Email:** [robert.bates.harvard.edu@gmail.com](mailto:robert.bates.harvard.edu@gmail.com)
+{{< profile-links >}}
 
 Robert H. Bates is Eaton Professor in the Department of Government and a member of the Department of African and African-American Studies. He has also served as Professeur associé in the Department of Economics at the University of Toulouse. After rising to Full Professor at the California Institute of Technology, he became the Henry R. Luce Professor of Political Science and Economics at Duke University, where he also directed its Center for Political Economy.
 

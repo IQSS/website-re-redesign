@@ -8,7 +8,7 @@ subtitle: "Preceptor in Geospatial Analysis, Department of Government"
 role: ["Affiliated Faculty"]
 program: ["Center for Geographic Analysis"]
 ---
-<img src="../../images/live/harvard-iqss/files/connie-chen_2024.jpg" alt="Connie Chen" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/connie-chen_2024.jpg" alt="Connie Chen" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Connie Chen
 

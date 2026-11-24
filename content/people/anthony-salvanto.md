@@ -8,7 +8,7 @@ subtitle: "Executive Director of Elections, CBS News"
 role: ["Visiting Scholars, Fellows, & General Affiliates"]
 ---
 
-<img src="../../images/live/harvard-iqss/files/anthony_salvanto_2021_1.jpg" alt="Anthony Salvanto" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/anthony_salvanto_2021_1.jpg" alt="Anthony Salvanto" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Anthony Salvanto
 

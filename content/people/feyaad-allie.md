@@ -8,7 +8,7 @@ subtitle: "Postdoctoral Fellow, Dept of Government"
 role: ["Visiting Scholars, Fellows, & General Affiliates"]
 ---
 
-<img src="../../images/live/harvard-iqss/files/feyaad-allie_2023exp.jpg" alt="Feyaad Allie" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/feyaad-allie_2023exp.jpg" alt="Feyaad Allie" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Feyaad Allie
 

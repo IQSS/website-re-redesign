@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "Professor of Public Policy, HKS"
 role: ["Affiliated Faculty"]
 ---
-<img src="../../images/live/harvard-iqss/files/dara-kay-cohen_2019a.png" alt="Dara Kay Cohen" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/dara-kay-cohen_2019a.png" alt="Dara Kay Cohen" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Dara Kay Cohen
 

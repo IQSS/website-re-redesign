@@ -13,15 +13,17 @@ role_weight: 10
 steering_weight: 10
 foundry_title: ["Faculty Director of IQSS"]
 foundry_team: 10
+links:
+  - { label: "gking.harvard.edu", url: "http://gking.harvard.edu/" }
 ---
 
-<img src="../../images/people-gary-king.jpg" alt="Gary King" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/people-gary-king.jpg" alt="Gary King" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Gary King
 
 **Director of IQSS; Albert J. Weatherhead III University Professor**
 
-**Email:** [king@harvard.edu](mailto:king@harvard.edu)
+{{< profile-links >}}
 
 Gary King is the Albert J. Weatherhead III University Professor at Harvard University -- one of 22 with the title of University Professor, Harvard's most distinguished faculty position. He is based in the Department of Government (in the Faculty of Arts and Sciences) and serves as Director of the Institute for Quantitative Social Science. King develops and applies empirical methods in many areas of social science research, focusing on innovations that span the range from statistical theory to practical application.
 
@@ -30,5 +32,3 @@ King has been elected as Fellow of 6 honorary societies (National Academy of Sci
 King's work is widely read across scholarly fields and beyond academia. He was listed as the most cited political scientist of his cohort. His work on legislative redistricting has been used in most American states by legislators, judges, lawyers, political parties, minority groups, and private citizens, as well as the U.S. Supreme Court. He is co-founder of Crimson Hexagon, a firm built on his methods of automated text analysis. King led an evaluation of the Mexican universal health insurance program, which includes the largest randomized health policy experiment to date.
 
 King received a B.A. from SUNY New Paltz (1980) and a Ph.D. from the University of Wisconsin-Madison (1984).
-
-**Website:** [gking.harvard.edu](http://gking.harvard.edu/)

@@ -12,13 +12,13 @@ role: ["Leadership", "Staff"]
 role_weight: 80
 ---
 
-<img src="../../images/people-jason-nemirow.jpg" alt="Jason Nemirow" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/people-jason-nemirow.jpg" alt="Jason Nemirow" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Jason Nemirow
 
 **Director, Program on Higher Education Research**
 
-**Email:** [nemirow@fas.harvard.edu](mailto:nemirow@fas.harvard.edu)
+{{< profile-links >}}
 
 Jason Nemirow is the director of the Program on Higher Education Research (PHER) at IQSS. In this role, he leads the program's strategic development and research agenda, manages donor and partner engagement, and oversees operations and initiatives that advance the study of higher education through rigorous social science methods.
 

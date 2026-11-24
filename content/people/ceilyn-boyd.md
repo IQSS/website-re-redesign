@@ -13,13 +13,13 @@ role_weight: 30
 program: ["Dataverse Project"]
 ---
 
-<img src="../../images/people-ceilyn-boyd.jpg" alt="Ceilyn Boyd" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/people-ceilyn-boyd.jpg" alt="Ceilyn Boyd" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Ceilyn Boyd
 
 **Interim Director of Data Science and Product Research**
 
-**Email:** [cboyd@iq.harvard.edu](mailto:cboyd@iq.harvard.edu)
+{{< profile-links >}}
 
 Ceilyn Boyd is the Dataverse Development Project Manager at Harvard University's Institute for Quantitative Social Sciences (IQSS), overseeing the software development process to ensure the team meets its project, partnership, and grant responsibilities.
 

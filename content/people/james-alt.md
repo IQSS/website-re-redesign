@@ -6,15 +6,16 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "Frank G. Thomson Professor of Government, Emeritus"
 role: ["Affiliated Faculty"]
+email: "jalt@iq.harvard.edu"
 ---
 
-<img src="../../images/live/harvard-iqss/files/james_alt_0.jpg" alt="James Alt" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/james_alt_0.jpg" alt="James Alt" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## James Alt
 
 **Frank G. Thomson Professor of Government, Emeritus**
 
-**Email:** [jalt@iq.harvard.edu](mailto:jalt@iq.harvard.edu)
+{{< profile-links >}}
 
 James E. Alt is the Frank G. Thomson Professor of Government, Emeritus. His current interests are in comparative political economy, focusing on the interaction of voters, political parties, budget and other political institutions, financial markets, and fiscal policies in industrial democracies. His recent research analyzes institutional transparency, accountability and corruption, and fiscal policy outcomes in OECD countries and US states.
 

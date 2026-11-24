@@ -9,7 +9,7 @@ role: ["Product Development", "Staff"]
 program: ["Dataverse Project"]
 ---
 
-<img src="../../images/live/2025-08/Leonid-Andreev_2025.jpg" alt="Leonid Andreev" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/2025-08/Leonid-Andreev_2025.jpg" alt="Leonid Andreev" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Leonid Andreev
 

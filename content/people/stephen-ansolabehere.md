@@ -6,15 +6,16 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "Frank G. Thompson Professor of Government"
 role: ["Affiliated Faculty"]
+email: "sda@gov.harvard.edu"
 ---
 
-<img src="../../images/live/harvard-iqss/files/ansolabehere_stephen_crop_sm_0.jpg" alt="Stephen Ansolabehere" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/ansolabehere_stephen_crop_sm_0.jpg" alt="Stephen Ansolabehere" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Stephen Ansolabehere
 
 **Frank G. Thompson Professor of Government**
 
-**Email:** [sda@gov.harvard.edu](mailto:sda@gov.harvard.edu)
+{{< profile-links >}}
 
 Stephen Ansolabehere is Frank G. Thompson Professor of Government at Harvard University. He specializes in public opinion and elections, with extensive publications on elections, mass media, representation, political economy, and public opinion (particularly regarding energy and the environment).
 

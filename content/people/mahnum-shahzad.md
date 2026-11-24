@@ -8,7 +8,7 @@ subtitle: "Instructor, Department of Population Medicine, Harvard Medical School
 role: ["Affiliated Faculty", "Affiliated Graduate Students"]
 ---
 
-<img src="../../images/live/harvard-iqss/files/mahnum_shahzad_-_headshot_1.png" alt="Mahnum_Shahzad" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/mahnum_shahzad_-_headshot_1.png" alt="Mahnum_Shahzad" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Mahnum Shahzad
 

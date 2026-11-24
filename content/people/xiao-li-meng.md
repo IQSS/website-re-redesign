@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "Whipple V. N. Jones Professor of Statistics"
 role: ["Affiliated Faculty"]
 ---
-<img src="../../images/live/harvard-iqss/files/xiao-li_meng_0.jpg" alt="Xiao-Li Meng" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/xiao-li_meng_0.jpg" alt="Xiao-Li Meng" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Xiao-Li Meng
 

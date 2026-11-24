@@ -8,7 +8,7 @@ subtitle: "Visiting Scholar, CGA"
 role: ["Visiting Scholars, Fellows, & General Affiliates"]
 ---
 
-<img src="../../images/live/2025-11/Xiran-Zhou_2025.png" alt="Xiran Zhou" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/2025-11/Xiran-Zhou_2025.png" alt="Xiran Zhou" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Xiran Zhou
 

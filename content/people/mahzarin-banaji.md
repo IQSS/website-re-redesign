@@ -6,15 +6,16 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "Richard Clarke Cabot Professor of Social Ethics"
 role: ["Affiliated Faculty"]
+email: "mahzarin_banaji@harvard.edu"
 ---
 
-<img src="../../images/live/harvard-iqss/files/mahzarin-banaji_2016.png" alt="Mahzarin Banaji" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/mahzarin-banaji_2016.png" alt="Mahzarin Banaji" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Mahzarin Banaji
 
 **Richard Clarke Cabot Professor of Social Ethics, Department of Psychology**
 
-**Email:** [mahzarin_banaji@harvard.edu](mailto:mahzarin_banaji@harvard.edu)
+{{< profile-links >}}
 
 Banaji taught at Yale University from 1986-2002 as Reuben Post Halleck Professor of Psychology. She currently holds the Richard Clarke Cabot Professorship of Social Ethics in Harvard's Department of Psychology and simultaneously held the "George A. and Helen Dunham Cowan Chair in Human Dynamics at the Santa Fe Institute (2011-2014)." She also served as the inaugural Carol K. Pforzheimer Professor at the Radcliffe Institute for Advanced Study (2002-2008).
 

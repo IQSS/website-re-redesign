@@ -7,15 +7,16 @@ hero_image: ""
 subtitle: "Communications Coordinator"
 role: ["Administrative Support", "Staff"]
 program: ["Undergraduate Research Scholars (URS)"]
+email: "lsalazar@iq.harvard.edu"
 ---
 
-<img src="../../images/live/harvard-iqss/files/liz-salazar_2016.jpg" alt="Liz Salazar" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/liz-salazar_2016.jpg" alt="Liz Salazar" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Liz Salazar
 
 **Communications Coordinator**
 
-**Email:** [lsalazar@iq.harvard.edu](mailto:lsalazar@iq.harvard.edu)
+{{< profile-links >}}
 
 Liz Salazar has been at IQSS since 2010, working her way into her current role via management of the IQSS website and social media. As Communications Coordinator, she oversees the Institute's online presence, publicity, and external communications, plus updates to the IQSS affiliate database. She previously worked at the Harvard Foundation (part of Harvard College Student Life), and before Harvard she was at Boston University's Center for English Language.
 

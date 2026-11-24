@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "Otto Eckstein Professor of Applied Economics"
 role: ["Affiliated Faculty"]
 ---
-<img src="../../images/live/harvard-iqss/files/david_cutler_0.jpg" alt="David Cutler" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/david_cutler_0.jpg" alt="David Cutler" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## David Cutler
 

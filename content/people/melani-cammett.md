@@ -6,15 +6,16 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "Clarence Dillon Professor of International Affairs"
 role: ["Affiliated Faculty"]
+email: "mcammett@gov.harvard.edu"
 ---
 
-<img src="../../images/live/harvard-iqss/files/screen_shot_2015-01-29_at_1.00.56_pm_0.jpg" alt="Melani Cammett" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/screen_shot_2015-01-29_at_1.00.56_pm_0.jpg" alt="Melani Cammett" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Melani Cammett
 
 **Clarence Dillon Professor of International Affairs, Department of Government; Professor in the Department of Global Health and Population, Chan School of Public Health**
 
-**Email:** [mcammett@gov.harvard.edu](mailto:mcammett@gov.harvard.edu)
+{{< profile-links >}}
 
 Melani Cammett is Professor of Government at Harvard University, specializing in the political economy of development and the Middle East and North Africa. She has authored four books:
 

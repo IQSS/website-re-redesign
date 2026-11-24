@@ -13,13 +13,13 @@ role_weight: 50
 program: ["Human Flourishing Program"]
 ---
 
-<img src="../../images/people-glen-comiso.jpg" alt="Glen Comiso" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/people-glen-comiso.jpg" alt="Glen Comiso" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Glen Comiso
 
 **Executive Director, Human Flourishing Program**
 
-**Email:** [gcomiso@fas.harvard.edu](mailto:gcomiso@fas.harvard.edu)
+{{< profile-links >}}
 
 Glen Comiso is the Executive Director of the [Human Flourishing Program](https://hfh.fas.harvard.edu/) at Harvard University's Institute for Quantitative Social Science (IQSS). In this role, Glen oversees all aspects of the program's strategic vision, donor relations, external partnerships, day-to-day operations, and program leadership. He has extensive experience building organizations, policies and programs at the intersection of academia, government, and industry.
 

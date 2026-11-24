@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "S. James Adelstein Professor of Health Care Policy"
 role: ["Affiliated Faculty"]
 ---
-<img src="../../images/live/harvard-iqss/files/sharon-lise_normand_0.jpg" alt="Sharon-Lise Normand" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/sharon-lise_normand_0.jpg" alt="Sharon-Lise Normand" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Sharon-Lise Normand
 

@@ -8,7 +8,7 @@ subtitle: "Postdoctoral Fellow, NBER"
 role: ["Visiting Scholars, Fellows, & General Affiliates"]
 ---
 
-<img src="../../images/live/harvard-iqss/files/chika_okafor_headshot_1_0.jpg" alt="chika_okafor" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/chika_okafor_headshot_1_0.jpg" alt="chika_okafor" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Chika Okafor
 

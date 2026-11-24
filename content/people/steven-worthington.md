@@ -16,12 +16,12 @@ program_weight: 4
 bio: "Steve is a data scientist with expertise in agentic AI research workflows, Bayesian and frequentist statistics, machine learning, and R and Python. He holds a PhD in Evolutionary Biology (NYU) and a master's in Data Science (Harvard)."
 ---
 
-<img src="../../images/people-steve-worthington.jpg" alt="Steven Worthington" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/people-steve-worthington.jpg" alt="Steven Worthington" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Steven Worthington
 
 **Director of Data Science Services**
 
-**Email:** [sworthington@iq.harvard.edu](mailto:sworthington@iq.harvard.edu)
+{{< profile-links >}}
 
 Steve is a data scientist with expertise in agentic AI research workflows, Bayesian and frequentist statistics, machine learning, and R and Python. He holds a PhD in Evolutionary Biology (NYU) and a master's in Data Science (Harvard).

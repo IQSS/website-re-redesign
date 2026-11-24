@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "Assistant Professor of Biostatistics"
 role: ["Affiliated Faculty"]
 ---
-<img src="../../images/live/harvard-iqss/files/jukka-pekka_onnela_0.jpg" alt="Jukka-Pekka Onnela" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/jukka-pekka_onnela_0.jpg" alt="Jukka-Pekka Onnela" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Jukka-Pekka Onnela
 

@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "Galen L. Stone Professor of International Trade"
 role: ["Affiliated Faculty"]
 ---
-<img src="../../images/live/harvard-iqss/files/elhanan_helpman_0.jpg" alt="Elhanan Helpman" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/elhanan_helpman_0.jpg" alt="Elhanan Helpman" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Elhanan Helpman
 

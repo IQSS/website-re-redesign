@@ -6,15 +6,16 @@ layout: "resource-page"
 hero_image: ""
 subtitle: "Michael F. Cronin Professor of Applied Mathematics and Applied Physics"
 role: ["Affiliated Faculty"]
+email: "brenner@seas.harvard.edu"
 ---
 
-<img src="../../images/live/harvard-iqss/files/michael_brenner_0.jpg" alt="Michael P. Brenner" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/michael_brenner_0.jpg" alt="Michael P. Brenner" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Michael P. Brenner
 
 **Michael F. Cronin Professor of Applied Mathematics and Applied Physics and Professor of Physics**
 
-**Email:** [brenner@seas.harvard.edu](mailto:brenner@seas.harvard.edu)
+{{< profile-links >}}
 
 His research group uses applied mathematics methods to address scientific and engineering problems. They are described as "first and foremost problem solvers" who search for problems where mathematics can answer scientific questions.
 

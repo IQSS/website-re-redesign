@@ -8,7 +8,7 @@ subtitle: "Henry LaBarre Jayne Professor of Government"
 role: ["Affiliated Faculty"]
 program: ["Digital Lab for the Social Sciences"]
 ---
-<img src="../../images/live/harvard-iqss/files/jennifer_hochschild_0.jpg" alt="Jennifer Hochschild" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/jennifer_hochschild_0.jpg" alt="Jennifer Hochschild" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Jennifer Hochschild
 

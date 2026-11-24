@@ -9,7 +9,7 @@ role: ["Visiting Scholars, Fellows, & General Affiliates"]
 program: ["Center for Geographic Analysis"]
 ---
 
-<img src="../../images/live/harvard-iqss/files/joshua_lieberman_headshot_.exp__1_0.jpg" alt="joshua_lieberman_headshot_.exp__1_0.jpg" style="width:150px;height:150px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
+<img src="../../images/live/harvard-iqss/files/joshua_lieberman_headshot_.exp__1_0.jpg" alt="joshua_lieberman_headshot_.exp__1_0.jpg" style="width:225px;height:225px;border-radius:50%;object-fit:cover;object-position:top;float:right;margin:0 0 20px 20px;" />
 
 ## Joshua Lieberman
 

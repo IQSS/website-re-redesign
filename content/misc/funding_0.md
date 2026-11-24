@@ -64,7 +64,7 @@ title: Funding
 <div class="hwp-page-list__items children-light">
 <article class="page-card page-card--vertical page-card--hwp-vertical-card-item page-card--default page-card-- hwp-bg-light-base" data-component-name="page-card">
 <div class="page-card__text hwp-order-1">
-<a class="page-card__link hwp-order-2" href="/peer-pre-review"> <h3 class="page-card__heading hwp-order-2">Magaro Peer Pre-Review</h3>
+<a class="page-card__link hwp-order-2" href="/peer-pre-review"> <h3 class="page-card__heading hwp-order-2">rapidPeer</h3>
 </a>
 <div class="page-card__description hwp-order-3 hwp-text-block"><p>A peer pre-review is similar to peer review for a scholarly journal, but faster, more complete, and constructive. Peer pre-reviewers are asked to read the entire paper and make constructive suggestions, wherever they think of something useful, throughout.</p></div>
 </div>

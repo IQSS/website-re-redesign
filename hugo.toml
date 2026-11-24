@@ -124,29 +124,43 @@ summaryLength = 40
   url = "/scientific-programs/"
   weight = 21
 
+# Product Development and R Packages follow Scientific Programs, as in live's
+# Programs & Products menu.
+[[menu.main]]
+  parent = "programs"
+  name = "Product Development"
+  url = "/product-development/"
+  weight = 22
+
+[[menu.main]]
+  parent = "programs"
+  name = "R Packages"
+  url = "/r-packages/"
+  weight = 23
+
 [[menu.main]]
   parent = "programs"
   name = "The IQSS Startup Foundry"
   url = "/startup-foundry/"
-  weight = 22
+  weight = 24
 
 [[menu.main]]
   parent = "programs"
   name = "Research Technology"
   url = "/research-technology/"
-  weight = 23
+  weight = 25
 
 [[menu.main]]
   parent = "programs"
   name = "Dataverse"
   url = "/research-technology-dataverse/"
-  weight = 24
+  weight = 26
 
 [[menu.main]]
   parent = "programs"
   name = "GIS"
   url = "/research-technology-gis/"
-  weight = 25
+  weight = 27
 
 # ── Resources & Services ──
 [[menu.main]]

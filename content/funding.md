@@ -16,7 +16,7 @@ IQSS supports the research efforts of its affiliated faculty, graduate students 
 <div class="card-grid card-grid--photos">
 <div class="card">
 <img src="../images/live/harvard-iqss/files/accounting-administration-books-267582.jpg" alt="books" />
-<h3><a href="../research-resources/rapidpeer/">Magaro Peer Pre-Review</a></h3>
+<h3><a href="../research-resources/rapidpeer/">rapidPeer</a></h3>
 <p>A peer pre-review is similar to peer review for a scholarly journal, but faster, more complete, and constructive. Peer pre-reviewers are asked to read the entire paper and make constructive suggestions, wherever they think of something useful, throughout.</p>
 <p><a href="../research-resources/rapidpeer/">Learn more</a></p>
 </div>

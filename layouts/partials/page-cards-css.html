@@ -1,0 +1,94 @@
+{{- /*
+  Card styling for scraped live pages whose body is Drupal "page-list" markup
+  (article.page-card inside .hwp-page-list__items). The scrape kept live's
+  HTML but none of its CSS, so without this the logos sat inline above plain
+  text. Values are taken from live's computed styles (Product Development,
+  2026-11-24): a 2- or 3-column grid with 24px gaps, light-blue cards with 5px
+  corners, the image first in a 16:9 frame where it is contained, never
+  cropped or stretched, then the heading and description in 24px of padding.
+
+  A page opts in with `page_cards: true` in its front matter; see single.html.
+  Scoped that way so the other pages that carry the same markup change only
+  when someone decides they should.
+*/ -}}
+<style>
+.page-cards .hwp-page-list__items {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px;
+    margin: 24px 0 48px;
+}
+.page-cards .hwp-page-list--grid-3 .hwp-page-list__items {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.page-cards article.page-card {
+    display: flex;
+    flex-direction: column;
+    background: var(--bg-light-base);
+    border-radius: 5px;
+    overflow: hidden;
+}
+.page-cards .page-card__image {
+    order: 0;
+    aspect-ratio: 16 / 9;
+    min-height: 0;
+    overflow: hidden;
+}
+.page-cards .page-card__thumb,
+.page-cards .page-card__thumb .hwp-media,
+.page-cards .page-card__thumb .field--name-field-media-image,
+.page-cards .page-card__thumb picture {
+    height: 100%;
+}
+.page-cards .page-card__thumb picture {
+    display: flex;
+    justify-content: center;
+}
+.page-cards .page-card__thumb .field--name-field-media-image {
+    display: flex;
+    justify-content: center;
+}
+.page-cards .page-card__thumb img {
+    display: block;
+    height: 100%;
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
+    margin: 0;
+    border-radius: 0;
+}
+.page-cards .page-card__text {
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+}
+.page-cards .page-card__text > .hwp-order-1 { order: 1; }
+.page-cards .page-card__text > .hwp-order-2 { order: 2; }
+.page-cards .page-card__text > .hwp-order-3 { order: 3; }
+.page-cards .page-card__heading {
+    margin: 0;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 1.25;
+    color: var(--font-dark-link);
+}
+.page-cards .page-card__link {
+    color: var(--font-dark-link);
+    text-decoration: underline;
+}
+.page-cards .page-card__description {
+    margin-top: 24px;
+}
+@media (max-width: 900px) {
+    .page-cards .hwp-page-list--grid-3 .hwp-page-list__items {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+@media (max-width: 640px) {
+    .page-cards .hwp-page-list__items,
+    .page-cards .hwp-page-list--grid-3 .hwp-page-list__items {
+        grid-template-columns: 1fr;
+    }
+}
+</style>

@@ -4,6 +4,11 @@ draft: false
 section: misc
 source_url: https://www.iq.harvard.edu/r-packages
 title: R Packages
+aliases:
+- /misc/r_packages/
+back_to: /programs-products/
+back_label: Programs & Products
+page_cards: true
 ---
 
 <main aria-label="R Packages" aria-labelledby="page-title" id="main-content" lang="en" role="main" tabindex="-1">
@@ -38,8 +43,8 @@ title: R Packages
 <div class="page-card__thumb">
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="180" media="all and (min-width: 0)" srcset="../../images/live/harvard-iqss/files/clarifyimg.jpg" type="image/jpeg" width="360"/>
-<img alt="clarifyimg.jpg" height="180" loading="eager" src="../../images/live/harvard-iqss/files/clarifyimg.jpg" width="360"/>
+<source height="180" media="all and (min-width: 0)" srcset="../images/live/harvard-iqss/files/clarifyimg.jpg" type="image/jpeg" width="360"/>
+<img alt="clarifyimg.jpg" height="180" loading="eager" src="../images/live/harvard-iqss/files/clarifyimg.jpg" width="360"/>
 </picture>
 </div>
 </div>
@@ -56,8 +61,8 @@ title: R Packages
 <div class="page-card__thumb">
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="360" media="all and (min-width: 0)" srcset="../../images/live/harvard-iqss/files/matchit.png" type="image/png" width="360"/>
-<img alt="MatchIt" height="360" loading="eager" src="../../images/live/harvard-iqss/files/matchit.png" width="360"/>
+<source height="360" media="all and (min-width: 0)" srcset="../images/live/harvard-iqss/files/matchit.png" type="image/png" width="360"/>
+<img alt="MatchIt" height="360" loading="eager" src="../images/live/harvard-iqss/files/matchit.png" width="360"/>
 </picture>
 </div>
 </div>
@@ -74,8 +79,8 @@ title: R Packages
 <div class="page-card__thumb">
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="257" media="all and (min-width: 0)" srcset="../../images/live/harvard-iqss/files/matchingfrontier-img.png" type="image/png" width="360"/>
-<img alt="MatchingFrontier example image" height="257" loading="eager" src="../../images/live/harvard-iqss/files/matchingfrontier-img.png" width="360"/>
+<source height="257" media="all and (min-width: 0)" srcset="../images/live/harvard-iqss/files/matchingfrontier-img.png" type="image/png" width="360"/>
+<img alt="MatchingFrontier example image" height="257" loading="eager" src="../images/live/harvard-iqss/files/matchingfrontier-img.png" width="360"/>
 </picture>
 </div>
 </div>
@@ -100,8 +105,8 @@ title: R Packages
 <div class="page-card__thumb">
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="108" media="all and (min-width: 0)" srcset="../../images/live/harvard-iqss/files/cem.png" type="image/png" width="360"/>
-<img alt="cem" height="108" loading="eager" src="../../images/live/harvard-iqss/files/cem.png" width="360"/>
+<source height="108" media="all and (min-width: 0)" srcset="../images/live/harvard-iqss/files/cem.png" type="image/png" width="360"/>
+<img alt="cem" height="108" loading="eager" src="../images/live/harvard-iqss/files/cem.png" width="360"/>
 </picture>
 </div>
 </div>
@@ -118,8 +123,8 @@ title: R Packages
 <div class="page-card__thumb">
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="288" media="all and (min-width: 0)" srcset="../../images/live/harvard-iqss/files/amelia.png" type="image/png" width="360"/>
-<img alt="amelia.png" height="288" loading="eager" src="../../images/live/harvard-iqss/files/amelia.png" width="360"/>
+<source height="288" media="all and (min-width: 0)" srcset="../images/live/harvard-iqss/files/amelia.png" type="image/png" width="360"/>
+<img alt="amelia.png" height="288" loading="eager" src="../images/live/harvard-iqss/files/amelia.png" width="360"/>
 </picture>
 </div>
 </div>
@@ -136,8 +141,8 @@ title: R Packages
 <div class="page-card__thumb">
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="138" media="all and (min-width: 0)" srcset="../../images/live/harvard-iqss/files/whatif2.png" type="image/png" width="360"/>
-<img alt="whatif2.png" height="138" loading="eager" src="../../images/live/harvard-iqss/files/whatif2.png" width="360"/>
+<source height="138" media="all and (min-width: 0)" srcset="../images/live/harvard-iqss/files/whatif2.png" type="image/png" width="360"/>
+<img alt="whatif2.png" height="138" loading="eager" src="../images/live/harvard-iqss/files/whatif2.png" width="360"/>
 </picture>
 </div>
 </div>
@@ -162,8 +167,8 @@ title: R Packages
 <div class="page-card__thumb">
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="194" media="all and (min-width: 0)" srcset="../../images/live/harvard-iqss/files/readme2.png" type="image/png" width="360"/>
-<img alt="Readme2" height="194" loading="eager" src="../../images/live/harvard-iqss/files/readme2.png" width="360"/>
+<source height="194" media="all and (min-width: 0)" srcset="../images/live/harvard-iqss/files/readme2.png" type="image/png" width="360"/>
+<img alt="Readme2" height="194" loading="eager" src="../images/live/harvard-iqss/files/readme2.png" width="360"/>
 </picture>
 </div>
 </div>
@@ -180,8 +185,8 @@ title: R Packages
 <div class="page-card__thumb">
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="164" media="all and (min-width: 0)" srcset="../../images/live/harvard-iqss/files/ei.png" type="image/png" width="360"/>
-<img alt="ei" height="164" loading="eager" src="../../images/live/harvard-iqss/files/ei.png" width="360"/>
+<source height="164" media="all and (min-width: 0)" srcset="../images/live/harvard-iqss/files/ei.png" type="image/png" width="360"/>
+<img alt="ei" height="164" loading="eager" src="../images/live/harvard-iqss/files/ei.png" width="360"/>
 </picture>
 </div>
 </div>
@@ -198,8 +203,8 @@ title: R Packages
 <div class="page-card__thumb">
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="213" media="all and (min-width: 0)" srcset="../../images/live/harvard-iqss/files/lmw_img.jpg" type="image/jpeg" width="360"/>
-<img alt="Example image for lmw" height="213" loading="eager" src="../../images/live/harvard-iqss/files/lmw_img.jpg" width="360"/>
+<source height="213" media="all and (min-width: 0)" srcset="../images/live/harvard-iqss/files/lmw_img.jpg" type="image/jpeg" width="360"/>
+<img alt="Example image for lmw" height="213" loading="eager" src="../images/live/harvard-iqss/files/lmw_img.jpg" width="360"/>
 </picture>
 </div>
 </div>
@@ -224,8 +229,8 @@ title: R Packages
 <div class="page-card__thumb">
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="144" media="all and (min-width: 0)" srcset="../../images/live/harvard-iqss/files/evophylo_img.png" type="image/png" width="360"/>
-<img alt="Example image for Evophylo" height="144" loading="eager" src="../../images/live/harvard-iqss/files/evophylo_img.png" width="360"/>
+<source height="144" media="all and (min-width: 0)" srcset="../images/live/harvard-iqss/files/evophylo_img.png" type="image/png" width="360"/>
+<img alt="Example image for Evophylo" height="144" loading="eager" src="../images/live/harvard-iqss/files/evophylo_img.png" width="360"/>
 </picture>
 </div>
 </div>
@@ -242,8 +247,8 @@ title: R Packages
 <div class="page-card__thumb">
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="360" media="all and (min-width: 0)" srcset="../../images/live/harvard-iqss/files/netlitlogo.png" type="image/png" width="311"/>
-<img alt="netlit logo" height="360" loading="eager" src="../../images/live/harvard-iqss/files/netlitlogo.png" width="311"/>
+<source height="360" media="all and (min-width: 0)" srcset="../images/live/harvard-iqss/files/netlitlogo.png" type="image/png" width="311"/>
+<img alt="netlit logo" height="360" loading="eager" src="../images/live/harvard-iqss/files/netlitlogo.png" width="311"/>
 </picture>
 </div>
 </div>
@@ -260,8 +265,8 @@ title: R Packages
 <div class="page-card__thumb">
 <div class="hwp-media hwp-media--1-1-small-scale">
 <div class="field field--name-field-media-image field--type-image field--label-hidden"> <picture>
-<source height="225" media="all and (min-width: 0)" srcset="../../images/live/harvard-iqss/files/morphscape_img.png" type="image/png" width="360"/>
-<img alt="Example image for Morphoscape" height="225" loading="eager" src="../../images/live/harvard-iqss/files/morphscape_img.png" width="360"/>
+<source height="225" media="all and (min-width: 0)" srcset="../images/live/harvard-iqss/files/morphscape_img.png" type="image/png" width="360"/>
+<img alt="Example image for Morphoscape" height="225" loading="eager" src="../images/live/harvard-iqss/files/morphscape_img.png" width="360"/>
 </picture>
 </div>
 </div>

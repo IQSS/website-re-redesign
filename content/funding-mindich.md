@@ -14,4 +14,4 @@ source_url: https://www.iq.harvard.edu/eric-m-mindich-encounters-authors-confere
 
 <ul><li>Eligibility - IQSS faculty affiliates</li><li>Amount- $10,000 maximum. IQSS pays all conference expenses, arranges invitations, and provides necessary administrative and staff support</li><li>Deadline – Rolling</li><li>Process - Please contact us at <a href="mailto:funding@iq.harvard.edu">funding@iq.harvard.edu</a> to submit a proposal, including potential speakers and idea for conference topic.</li></ul>
 
-<ul><li><a href="{{< relref "research-resources/rapidpeer" >}}">Magaro Peer Pre-Review</a></li><li><a href="{{< relref "research-resources/undergraduate-research-scholars" >}}">Undergraduate Research Scholars Program</a></li><li><a href="{{< relref "research-resources/ecee" >}}">Extraordinary Claims, Extraordinary Evidence</a></li></ul>
+<ul><li><a href="{{< relref "research-resources/rapidpeer" >}}">rapidPeer</a></li><li><a href="{{< relref "research-resources/undergraduate-research-scholars" >}}">Undergraduate Research Scholars Program</a></li><li><a href="{{< relref "research-resources/ecee" >}}">Extraordinary Claims, Extraordinary Evidence</a></li></ul>

@@ -62,7 +62,7 @@ We design and build the analysis with you, from cleaning the data to answering t
 
 ### Analytical tool building
 
-Version-controlled functions with a tutorial, or a full package with documentation, published for anyone to use; see the [R packages](https://www.iq.harvard.edu/r-packages) we have helped build. We choose projects by how widely the code will be reusable, our time, and feasibility. R only, for now.
+Version-controlled functions with a tutorial, or a full package with documentation, published for anyone to use; see the [R packages]({{< relref "r-packages" >}}) we have helped build. We choose projects by how widely the code will be reusable, our time, and feasibility. R only, for now.
 
 ### Training
 

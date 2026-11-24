@@ -7,7 +7,7 @@ hero_image: ""
 subtitle: "IQSS scientific programs focus on areas of inquiry that are of particular interest to their faculty directors and enjoy a close working relationship with IQSS."
 ---
 
-<div class="card-grid">
+<div class="card-grid card-grid--logos">
 <div class="card">
 <img src="../images/sp-social-science-one.png" alt="Social Science One" />
 <h3><a href="https://socialscience.one/" target="_blank">Social Science One</a></h3>
@@ -25,7 +25,7 @@ subtitle: "IQSS scientific programs focus on areas of inquiry that are of partic
 </div>
 </div>
 
-<div class="card-grid">
+<div class="card-grid card-grid--logos">
 <div class="card">
 <img src="../images/sp-survey-research.png" alt="Program on Survey Research" />
 <h3><a href="https://psr.iq.harvard.edu/" target="_blank">The Program on Survey Research</a></h3>
@@ -43,7 +43,7 @@ subtitle: "IQSS scientific programs focus on areas of inquiry that are of partic
 </div>
 </div>
 
-<div class="card-grid">
+<div class="card-grid card-grid--logos">
 <div class="card">
 <img src="../images/sp-dlabss.jpg" alt="DLABSS" />
 <h3><a href="https://dlabss.harvard.edu/" target="_blank">DLABSS</a></h3>
@@ -61,9 +61,9 @@ subtitle: "IQSS scientific programs focus on areas of inquiry that are of partic
 </div>
 </div>
 
-<div class="card-grid">
+<div class="card-grid card-grid--logos">
 <div class="card">
-<img src="../images/sp-higher-ed.png" alt="Program on Higher Education Research" />
+<img src="../images/sp-higher-ed.png" alt="Council on Academic Freedom at Harvard logo" />
 <h3>Program on Higher Education Research</h3>
 <p>Supports rigorous research on academic freedom and higher education. Home to the Council on Academic Freedom at Harvard, a group of 200+ Harvard faculty promoting civil discourse and viewpoint diversity.</p>
 </div>

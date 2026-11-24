@@ -18,7 +18,8 @@
              face that sits high in the frame. Omit it and the crop centres,
              which suits most headshots. Only the 4:5 portrait slots read it
              -- see .content img[width="480"] in baseof.html. */}}
-        <div class="content"{{ with .Params.photo_focus }} style="--portrait-focus: {{ . }}"{{ end }}>
+        {{ if .Params.page_cards }}{{ partial "page-cards-css.html" . }}{{ end }}
+        <div class="content{{ if .Params.page_cards }} page-cards{{ end }}"{{ with .Params.photo_focus }} style="--portrait-focus: {{ . }}"{{ end }}>
             {{ .Content }}
         </div>
         {{/* A page can name its own parent with back_to (a site path) and an

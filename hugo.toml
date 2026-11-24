@@ -42,6 +42,17 @@ summaryLength = 40
   service = "service"
   role = "role"
 
+# The Dataverse and GIS research-technology tag pages are not published
+# (Liz, 2026-11-24): the Research Technology hub lists their events instead,
+# at /research-technology/#dataverse and #gis. "render: never" keeps the two
+# terms as data, so the hub's tagged-events lists and the events' "See also"
+# links (repointed to the hub in event.html) still work.
+[[cascade]]
+  [cascade.build]
+    render = "never"
+  [cascade.target]
+    path = "{/research-technology/dataverse,/research-technology/gis}"
+
 # ── Menu ───────────────────────────────────────────────────────────────
 # Mirrors the information architecture of iq.harvard.edu, which was built
 # from user research: six top-level sections, each a real landing page that
@@ -153,13 +164,13 @@ summaryLength = 40
 [[menu.main]]
   parent = "programs"
   name = "Dataverse"
-  url = "/research-technology/dataverse/"
+  url = "/research-technology/#dataverse"
   weight = 26
 
 [[menu.main]]
   parent = "programs"
   name = "GIS"
-  url = "/research-technology/gis/"
+  url = "/research-technology/#gis"
   weight = 27
 
 # ── Resources & Services ──

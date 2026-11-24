@@ -11,7 +11,8 @@
       {{< no-openings hide="true" >}}Check back later for future staff opportunities.{{< /no-openings >}}
 
   Hidden boxes render nothing at all. The text is Markdown, and is set in
-  italics as live sets it. Styles live in _default/opportunities.html.
+  italics as live sets it. Styles live in partials/openings-css.html,
+  shared by the Job Opportunities page and resource pages.
 */ -}}
 {{- if ne (.Get "hide") "true" -}}
 <div class="opp-empty"><em>{{ .Inner | strings.TrimSpace | markdownify }}</em></div>

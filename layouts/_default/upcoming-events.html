@@ -68,10 +68,23 @@
                       {{ $key := .key }}
                       {{ $label := .label }}
                       {{ $terms := slice }}
+                      {{ if eq $key "research-technology" }}
+                        {{/* Its tag pages are not published (cascade in
+                             hugo.toml), which takes them out of
+                             site.Taxonomies, so read the events' own tags. */}}
+                        {{ $seen := dict }}
+                        {{ range where site.RegularPages "Section" "events" }}
+                          {{ range index .Params "research-technology" }}
+                            {{ $seen = merge $seen (dict (urlize .) .) }}
+                          {{ end }}
+                        {{ end }}
+                        {{ range $slug, $title := $seen }}{{ $terms = $terms | append (dict "slug" $slug "title" $title) }}{{ end }}
+                      {{ else }}
                       {{ range $wp := index site.Taxonomies $key }}
                         {{ $slug := path.Base $wp.Page.RelPermalink }}
                         {{ $n := len (where $wp.Pages "Section" "events") }}
                         {{ if gt $n 0 }}{{ $terms = $terms | append (dict "slug" $slug "title" $wp.Page.LinkTitle) }}{{ end }}
+                      {{ end }}
                       {{ end }}
                       {{ with $terms }}
                       <fieldset>
@@ -97,7 +110,7 @@
               {{ $occ := slice }}
               {{ range $p.Params.event_occurrences }}{{ $occ = $occ | append ((time .).Format "2006-01-02") }}{{ end }}
               {{ $terms := slice }}
-              {{ range $vocabs }}{{ $k := .key }}{{ range $p.GetTerms $k }}{{ $terms = $terms | append (printf "%s:%s" $k (path.Base .RelPermalink)) }}{{ end }}{{ end }}
+              {{ range $vocabs }}{{ $k := .key }}{{ if eq $k "research-technology" }}{{ range index $p.Params $k }}{{ $terms = $terms | append (printf "%s:%s" $k (urlize .)) }}{{ end }}{{ else }}{{ range $p.GetTerms $k }}{{ $terms = $terms | append (printf "%s:%s" $k (path.Base .RelPermalink)) }}{{ end }}{{ end }}{{ end }}
               {{ $past := lt $last (now.Format "2006-01-02") }}
               <li class="upev-card" data-date="{{ $d }}" data-last="{{ $last }}" data-occ="{{ delimit $occ " " }}" data-title="{{ $p.Title }}" data-terms="{{ delimit $terms " " }}"{{ if $past }} hidden{{ end }}>
                   {{ with $p.Params.event_format }}<p class="upev-card__format">{{ delimit . ", " }}</p>{{ end }}

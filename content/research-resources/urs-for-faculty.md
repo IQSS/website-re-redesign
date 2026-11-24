@@ -1,37 +1,19 @@
 ---
-title: "How to Apply — For Faculty"
+title: "For Faculty"
 date: 2026-05-28
+lastmod: 2026-11-24
 draft: false
 layout: "resource-page"
 hero_image: ""
-subtitle: "Undergraduate Research Scholars Program"
+source_url: https://www.iq.harvard.edu/undergraduate-research-scholars/for-faculty
 ---
 
-## Faculty Affiliates: Apply for Funding
+<p>Take advantage of Undergraduate Research Scholars funding to bring in more research support for your project. The URS Program provides grant funding and payroll infrastructure to compensate undergraduates to work as research assistants on approved projects, up to a maximum grant of $1,250 per year.</p>
 
-Faculty seeking URS funding should complete the URS Grant Application survey form. After review, a URS Program administrator will follow up.
+<p>To begin, visit our <a href="{{< relref "research-resources/urs-how-to-apply" >}}">How To Apply</a> page. Once you receive funding, you can either:</p>
 
-### Submission Deadlines
+<p>1. Inform us of any Harvard undergraduate(s) you plan to hire,</p>
 
-URS Funding is currently **on hold**. We hope to re-open applications in the future.
+<p><strong>-OR-</strong></p>
 
-### How It Works
-
-1. Fill out the grant application form
-2. Wait for administrative review
-3. Receive contact from a URS administrator
-
-### After Receiving Funding
-
-After receiving funding, faculty have two options:
-
-1. Inform IQSS of any Harvard undergraduate(s) they plan to hire, **OR**
-2. Let IQSS help find a research assistant by posting the opportunity on the Research Opportunities page.
-
-### Funding Details
-
-- Maximum grant: **$1,250 per year**
-
-<div class="contact-info">
-<p><strong>Contact:</strong> <a href="mailto:funding@iq.harvard.edu">funding@iq.harvard.edu</a></p>
-</div>
+<p>2. Let us help you find a research assistant by <a href="{{< relref "research-resources/urs-research-opportunities" >}}">posting the opportunity</a>.</p>

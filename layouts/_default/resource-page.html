@@ -50,6 +50,8 @@
 </div>
 
 <style>
+{{ partial "openings-css.html" . | safeCSS }}
+
 .resource-page {
     margin: 0;
     padding: 0;
@@ -536,6 +538,44 @@
         margin: 0 0 20px;
     }
 }
+
+/* Live's "align-left" media, at the image's natural size (capped at 45% of
+   the column), text wrapping on the right. Reserve Desk Space's map. */
+.rp-content img.align-left {
+    float: left;
+    width: auto;
+    height: auto;
+    max-width: 45%;
+    margin: 4px 28px 16px 0;
+    border-radius: 6px;
+}
+
+@media (max-width: 600px) {
+    .rp-content img.align-left {
+        float: none;
+        max-width: 100%;
+        margin: 0 0 20px;
+    }
+}
+
+/* App-store badges side by side, as live shows them (Reserve Desk Space). */
+.rp-content .app-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    align-items: center;
+    margin: 16px 0 24px;
+}
+
+.rp-content .app-badges img {
+    width: 220px;
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    border-radius: 0;
+}
+
+.rp-content .clear-floats { clear: both; }
 
 /* A service's own logo at the top of its page (ECEE, DSS), centered as
    on live. */

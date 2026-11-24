@@ -8,42 +8,50 @@ hero_image_alt: "staff looking at computer"
 subtitle: "Have a question? Follow the links below to information on popular question topics."
 ---
 
-<div class="card-grid">
+<div class="card-grid card-grid--photos">
 <div class="card">
+<img src="../images/live/2025-08/newaffiliate.png" alt="new affiliate" />
 <h3><a href="../become-an-affiliate/">Become an Affiliate</a></h3>
 <p>Learn about IQSS affiliation opportunities for faculty, students, visiting scholars, and fellows.</p>
 </div>
 <div class="card">
+<img src="../images/live/2025-08/getting-started.png" alt="getting-started" />
 <h3><a href="../people/">Find People</a></h3>
 <p>Search for IQSS directors, faculty, staff, students, and affiliates.</p>
 </div>
 <div class="card">
+<img src="../images/live/2025-08/computer-problem-icon.png" alt="Get Help with a Computer or Network Problem" />
 <h3><a href="../research-resources/it-support/">Get Help with a Computer or Network Problem</a></h3>
 <p>Get help from HUIT.</p>
 </div>
 </div>
 
-<div class="card-grid">
+<div class="card-grid card-grid--photos">
 <div class="card">
+<img src="../images/live/2025-08/funding-icon.png" alt="funding" />
 <h3><a href="../funding/">Inquire About Grants</a></h3>
 <p>Learn about funding opportunities for faculty, graduate students, and undergraduates.</p>
 </div>
 <div class="card">
+<img src="../images/live/2025-08/research-help.png" alt="research-help" />
 <h3><a href="../research-resources/data-science-services/">Get Help with a Research Project</a></h3>
 <p>Our team of PhD data science specialists provides research support to the Harvard community.</p>
 </div>
 <div class="card">
+<img src="../images/live/2025-08/workshops%201.png" alt="workshops" />
 <h3><a href="../research-resources/training-workshops/">Find a Workshop or Training Class</a></h3>
 <p>Workshops on R, Python, Stata, GIS, and other tools for social science research.</p>
 </div>
 </div>
 
-<div class="card-grid">
+<div class="card-grid card-grid--photos">
 <div class="card">
+<img src="../images/live/2025-08/computer-labs-icon%201.png" alt="computer icon" />
 <h3><a href="../research-resources/computer-labs/">Use Our Computer Labs</a></h3>
 <p>State-of-the-art computing labs open 24/7 with 100+ software applications.</p>
 </div>
 <div class="card">
+<img src="../images/live/2025-08/research-computing%202.png" alt="research-computing" />
 <h3><a href="../research-resources/research-computing/">Access Research Computing</a></h3>
 <p>IQSS supports social science users on the FAS Research Computing clusters (FASRC).</p>
 </div>

@@ -1,0 +1,17 @@
+{{- /*
+  One open position, as a featured card with an arrow (styles in
+  partials/openings-css.html). Used on Job Opportunities and URS Research
+  Opportunities.
+
+      {{< opening href="https://careers.harvard.edu/job/..." >}}Director of Operations, OpenDP{{< /opening >}}
+
+  hide="true" keeps the listing in the file but off the page, for an opening
+  that has closed or is not yet announced:
+
+      {{< opening href="..." hide="true" >}}Position title{{< /opening >}}
+
+  Pair each list with a no-openings note, hidden while any opening shows.
+*/ -}}
+{{- if ne (.Get "hide") "true" -}}
+<a class="opp-feature" href="{{ .Get "href" }}"><span class="opp-feature__title">{{ .Inner | strings.TrimSpace | markdownify }}</span><svg class="opp-feature__arrow" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h13M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+{{- end -}}

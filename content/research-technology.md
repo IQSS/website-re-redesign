@@ -14,12 +14,12 @@ subtitle: "Training events across all research technology topics at IQSS"
 <div class="card-grid card-grid--photos">
 <div class="card">
 <img src="../images/live/2026-06/DCM2026-0524%20Dataverse%20community.jpg" alt="Overhead outdoor view of the gathered attendees of the Dataverse Community Meeting 2026" />
-<h3><a href="dataverse/">Dataverse</a></h3>
+<h3><a href="#dataverse">Dataverse</a></h3>
 <p>Data sharing, preservation, and repository management with the Harvard Dataverse platform.</p>
 </div>
 <div class="card">
 <img src="../images/live/harvard-iqss/files/cga_od-pairs-samples-spaial_2023-06-06.png" alt="Plot map of the US; legend includes Pediatric Hospitals, ZIP Code Population Centroids, and OD Pairs" />
-<h3><a href="gis/">GIS</a></h3>
+<h3><a href="#gis">GIS</a></h3>
 <p>Geographic Information Systems, spatial analysis, mapping, and remote sensing workshops.</p>
 </div>
 <div class="card">

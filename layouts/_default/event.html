@@ -94,15 +94,25 @@
 
             {{/* "See also": every term this event is tagged with, in all four
                  of live's event vocabularies, as live lists them. */}}
+            {{/* Research-technology tag pages are not published (see the cascade
+                 in hugo.toml), and GetTerms leaves unpublished terms out, so
+                 those come from the event's own front matter and link to
+                 their list on the Research Technology hub. */}}
             {{ $terms := slice }}
             {{ range slice "event-type" "program" "research-technology" "service" }}
-              {{ range $.GetTerms . }}{{ $terms = $terms | append . }}{{ end }}
+              {{ if eq . "research-technology" }}
+                {{ range index $.Params "research-technology" }}
+                  {{ $terms = $terms | append (dict "href" (printf "%s#%s" ("research-technology/" | relURL) (urlize .)) "title" .) }}
+                {{ end }}
+              {{ else }}
+                {{ range $.GetTerms . }}{{ $terms = $terms | append (dict "href" .RelPermalink "title" .LinkTitle) }}{{ end }}
+              {{ end }}
             {{ end }}
             {{ with $terms }}
             <div class="event-tags">
                 <span class="event-tags__label" id="event-tags-label">See also:</span>
                 <ul aria-labelledby="event-tags-label">
-                    {{ range . }}<li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>{{ end }}
+                    {{ range . }}<li><a href="{{ .href }}">{{ .title }}</a></li>{{ end }}
                 </ul>
             </div>
             {{ end }}

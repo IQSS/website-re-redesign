@@ -19,14 +19,45 @@
   when someone decides they should.
 */ -}}
 <style>
+/* Up to live's column count (2, or 3 for grid-3), never a fixed count: as
+   many 220px-or-wider cards as fit, so the 800px content column takes 3, a
+   mid-size window 2 and a phone 1, rather than three squeezed columns
+   (Liz, 2026-11-24). The max() keeps each card at least a third (or half)
+   of the row, which caps the count; the min(100%) stops a card overflowing
+   a very narrow screen. Measured: 3 across down to an 800px window, 2 at
+   600-700px, 1 below that. */
 .page-cards .hwp-page-list__items {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, max(220px, calc((100% - 24px) / 2))), 1fr));
     gap: 24px;
     margin: 24px 0 48px;
 }
 .page-cards .hwp-page-list--grid-3 .hwp-page-list__items {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, max(220px, calc((100% - 48px) / 3))), 1fr));
+}
+
+/* One grid for the whole run of cards. Live splits R Packages' twelve
+   packages into four separate lists of three (its editor's way of making
+   rows of three; there is nothing between them). Each list wrapped on its
+   own, so at 2 columns the third card of every list sat alone on a row
+   instead of next to the first card of the next list. Making the
+   surrounding block the grid, and letting the lists and their wrappers
+   dissolve into it (display: contents), keeps the cards in order across
+   the old list boundaries. */
+.page-cards .hwp-additional-content:has(> .hwp-page-list) {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, max(220px, calc((100% - 24px) / 2))), 1fr));
+    gap: 24px;
+    margin: 24px 0 48px;
+}
+.page-cards .hwp-additional-content:has(> .hwp-page-list--grid-3) {
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, max(220px, calc((100% - 48px) / 3))), 1fr));
+}
+.page-cards .hwp-additional-content > .hwp-page-list,
+.page-cards .hwp-additional-content > .hwp-page-list .hwp-page-list__container,
+.page-cards .hwp-additional-content > .hwp-page-list .hwp-page-list__container > div,
+.page-cards .hwp-additional-content > .hwp-page-list .hwp-page-list__items {
+    display: contents;
 }
 .page-cards article.page-card {
     display: flex;
@@ -112,16 +143,5 @@
 @media (prefers-reduced-motion: reduce) {
     .page-cards article.page-card { transition: none; }
     .page-cards article.page-card:hover { transform: none; }
-}
-@media (max-width: 900px) {
-    .page-cards .hwp-page-list--grid-3 .hwp-page-list__items {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-}
-@media (max-width: 640px) {
-    .page-cards .hwp-page-list__items,
-    .page-cards .hwp-page-list--grid-3 .hwp-page-list__items {
-        grid-template-columns: 1fr;
-    }
 }
 </style>

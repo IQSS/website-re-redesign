@@ -86,16 +86,16 @@
 /* The links sit in the right-hand column, between the portrait and the
    social marks, so all three stack down one side. Same float-and-clear as
    the marks, and the same 225px: that is the portrait's width. */
-.profile-links__list {
+.profile-links .profile-links__list {
     list-style: none;
-    margin: 0 0 12px 20px;
+    margin: 0 0 15px 20px;
     padding: 0;
     float: right;
     clear: right;
     width: 225px;
 }
 
-.profile-links__list li { margin-bottom: 8px; }
+.profile-links .profile-links__list li { margin-bottom: 8px; }
 
 /* Outlined rather than filled. The site's own .cta-button is solid orange,
    but these carry an orange icon, and an orange mark on an orange field is
@@ -152,7 +152,7 @@
    225px is the portrait's own width. The two are set in different places
    -- the picture is sized inline on each profile -- so if that size
    changes, this follows it. */
-.profile-social {
+.profile-links .profile-social {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
@@ -168,8 +168,8 @@
 /* Below 640px the portrait stops floating and takes the full width, so
    there is no longer a column on the right to sit under. */
 @media (max-width: 640px) {
-    .profile-links__list,
-    .profile-social {
+    .profile-links .profile-links__list,
+    .profile-links .profile-social {
         float: none;
         clear: none;
         width: auto;

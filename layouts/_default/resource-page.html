@@ -494,6 +494,19 @@
     padding: 0 22px;
 }
 
+/* Cards led by a logo (Scientific Programs). The 80px icon default squashed
+   every logo into a square. Live frames each one 16:9 and contains it, so a
+   wide wordmark and a 3:2 logo both keep their own proportions. */
+.rp-content .card-grid--logos .card img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    object-fit: contain;
+    margin: 0 0 15px;
+    border-radius: 0;
+}
+
 /* Body images floated right beside the opening text, as live's
    "align-right" media: small 360px, medium 600px. */
 .rp-content img.align-right {
@@ -707,6 +720,15 @@
         object-fit: cover !important;
         border-radius: 10px !important;
         margin: 0 0 24px !important;
+    }
+
+    /* A portrait that is a circle on the desktop layout stays one here.
+       The 10px above is meant for rectangular figures, so this is scoped to
+       images whose own inline style already asks for a circle. Both spacings
+       are matched because the inline styles were written by hand. */
+    .rp-content img[style*="float"][style*="border-radius:50%"],
+    .rp-content img[style*="float"][style*="border-radius: 50%"] {
+        border-radius: 50% !important;
     }
 }
 
